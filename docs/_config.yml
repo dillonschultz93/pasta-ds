@@ -29,10 +29,13 @@ baseurl: /docs # the subpath of your site, e.g. /blog
 # ↓ edited from ""
 url: https://yummly.github.io/pasta/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  coolmanlume
 
 # Build settings
-theme: minima
+# ↓ edited from
+# theme: minima
+remote_theme: pmarsceill/just-the-docs
+
 plugins:
   - jekyll-feed
 
