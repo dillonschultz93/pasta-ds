@@ -32,9 +32,12 @@ twitter_username: jekyllrb
 github_username:  coolmanlume
 
 # Build settings
-# ↓ edited from
+# ↓ edited
 # theme: minima
-remote_theme: pmarsceill/just-the-docs
+# ↓ edited #2
+# remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
+
 
 plugins:
   - jekyll-feed
