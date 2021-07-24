@@ -1,20 +1,122 @@
 {"0": {
-    "doc": "About",
-    "title": "About",
-    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
-    "url": "http://localhost:4000/about/",
-    "relUrl": "/about/"
+    "doc": "ADA · Inclusiveness",
+    "title": "ADA",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/ADA.html#ada",
+    "relUrl": "/Foundation/ADA.html#ada"
   },"1": {
-    "doc": "Index Page",
-    "title": "Hello World!",
-    "content": "Hello… . ",
-    "url": "http://localhost:4000/#hello-world",
-    "relUrl": "/#hello-world"
+    "doc": "ADA · Inclusiveness",
+    "title": "ADA · Inclusiveness",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/ADA.html",
+    "relUrl": "/Foundation/ADA.html"
   },"2": {
-    "doc": "Index Page",
-    "title": "Index Page",
+    "doc": "Bars",
+    "title": "Bars",
+    "content": " ",
+    "url": "http://localhost:4000/Patterns/Bars.html",
+    "relUrl": "/Patterns/Bars.html"
+  },"3": {
+    "doc": "Colors",
+    "title": "Colors",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Colors.html",
+    "relUrl": "/Foundation/Colors.html"
+  },"4": {
+    "doc": "Fonts",
+    "title": "Fonts",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Fonts.html",
+    "relUrl": "/Foundation/Fonts.html"
+  },"5": {
+    "doc": "Icons",
+    "title": "Icons",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Icons.html",
+    "relUrl": "/Foundation/Icons.html"
+  },"6": {
+    "doc": "Dark Mode",
+    "title": "Dark Mode (Eco-friendly)",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Mode.html#dark-mode-eco-friendly",
+    "relUrl": "/Foundation/Mode.html#dark-mode-eco-friendly"
+  },"7": {
+    "doc": "Dark Mode",
+    "title": "Dark Mode",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Mode.html",
+    "relUrl": "/Foundation/Mode.html"
+  },"8": {
+    "doc": "Notifications",
+    "title": "Notifications",
+    "content": " ",
+    "url": "http://localhost:4000/Patterns/Notifications.html",
+    "relUrl": "/Patterns/Notifications.html"
+  },"9": {
+    "doc": "Design Tokens",
+    "title": "Design Tokens",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Tokens.html",
+    "relUrl": "/Foundation/Tokens.html"
+  },"10": {
+    "doc": "Design Tokens",
+    "title": "Choices",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Tokens.html#choices",
+    "relUrl": "/Foundation/Tokens.html#choices"
+  },"11": {
+    "doc": "Design Tokens",
+    "title": "Decisions",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/Tokens.html#decisions",
+    "relUrl": "/Foundation/Tokens.html#decisions"
+  },"12": {
+    "doc": "Views",
+    "title": "Views",
+    "content": " ",
+    "url": "http://localhost:4000/Patterns/Views.html",
+    "relUrl": "/Patterns/Views.html"
+  },"13": {
+    "doc": "Principles",
+    "title": "Principles",
     "content": " ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
+  },"14": {
+    "doc": "Patterns",
+    "title": "Patterns",
+    "content": " ",
+    "url": "http://localhost:4000/Patterns/",
+    "relUrl": "/Patterns/"
+  },"15": {
+    "doc": "Foundation",
+    "title": "Foundation",
+    "content": " ",
+    "url": "http://localhost:4000/Foundation/",
+    "relUrl": "/Foundation/"
+  },"16": {
+    "doc": "Content",
+    "title": "Content",
+    "content": " ",
+    "url": "http://localhost:4000/Content/",
+    "relUrl": "/Content/"
+  },"17": {
+    "doc": "Components",
+    "title": "Components",
+    "content": " ",
+    "url": "http://localhost:4000/Components/",
+    "relUrl": "/Components/"
+  },"18": {
+    "doc": "Tools",
+    "title": "Tools",
+    "content": " ",
+    "url": "http://localhost:4000/Tools/",
+    "relUrl": "/Tools/"
+  },"19": {
+    "doc": "News",
+    "title": "News",
+    "content": " ",
+    "url": "http://localhost:4000/news.html",
+    "relUrl": "/news.html"
   }
 }
