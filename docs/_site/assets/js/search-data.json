@@ -77,46 +77,58 @@
     "url": "http://localhost:4000/docs/Patterns/Views.html",
     "relUrl": "/Patterns/Views.html"
   },"13": {
-    "doc": "Principles",
-    "title": "Principles",
+    "doc": "News",
+    "title": "News",
     "content": " ",
+    "url": "http://localhost:4000/docs/#news",
+    "relUrl": "/#news"
+  },"14": {
+    "doc": "News",
+    "title": "News",
+    "content": "Pasta v0.1.0 . ",
     "url": "http://localhost:4000/docs/",
     "relUrl": "/"
-  },"14": {
+  },"15": {
     "doc": "Patterns",
     "title": "Patterns",
     "content": " ",
     "url": "http://localhost:4000/docs/Patterns/",
     "relUrl": "/Patterns/"
-  },"15": {
+  },"16": {
     "doc": "Foundation",
     "title": "Foundation",
     "content": " ",
     "url": "http://localhost:4000/docs/Foundation/",
     "relUrl": "/Foundation/"
-  },"16": {
+  },"17": {
     "doc": "Content",
     "title": "Content",
     "content": " ",
     "url": "http://localhost:4000/docs/Content/",
     "relUrl": "/Content/"
-  },"17": {
+  },"18": {
     "doc": "Components",
     "title": "Components",
     "content": " ",
     "url": "http://localhost:4000/docs/Components/",
     "relUrl": "/Components/"
-  },"18": {
+  },"19": {
     "doc": "Tools",
     "title": "Tools",
     "content": " ",
     "url": "http://localhost:4000/docs/Tools/",
     "relUrl": "/Tools/"
-  },"19": {
-    "doc": "News",
-    "title": "News",
+  },"20": {
+    "doc": "Principles",
+    "title": "Principles",
     "content": " ",
-    "url": "http://localhost:4000/docs/news.html",
-    "relUrl": "/news.html"
+    "url": "http://localhost:4000/docs/principles.html",
+    "relUrl": "/principles.html"
+  },"21": {
+    "doc": "Principles",
+    "title": "Jan Toman best practices",
+    "content": "Please wach this video . | Make frequent choices efficient . | Is component or variant used frequently? | Less clicks is more | . | Always favor usability (over maintenance) . | easy to use | designers should be aware what each component offers | make it hard to fo the wrong thing | . | Take away visual decisions . | Our answer: Design Tokens | . | Handle breaking changes in advance . | Figma usage: watch video | . | Bridge the gap . | Help developers to navigate to quickly get what they need | . | . ",
+    "url": "http://localhost:4000/docs/principles.html#jan-toman-best-practices",
+    "relUrl": "/principles.html#jan-toman-best-practices"
   }
 }
