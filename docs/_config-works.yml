@@ -25,18 +25,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 # ↓ edited from ""
-baseurl: /docs # the subpath of your site, e.g. /blog
+baseurl: "/pasta" # the subpath of your site, e.g. /blog
 # ↓ edited from ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  coolmanlume
+# the base hostname & protocol for your site, e.g. http://example.com
+# url: https://yummly.github.io/pasta/ 
 
 # Build settings
 # ↓ edited
 # theme: minima
 # ↓ edited #2
-# remote_theme: pmarsceill/just-the-docs
-theme: just-the-docs
-
+remote_theme: pmarsceill/just-the-docs
+# theme: just-the-docs
 
 plugins:
   - jekyll-feed
@@ -60,3 +59,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# theme: jekyll-theme-cayman
