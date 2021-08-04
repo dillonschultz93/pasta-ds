@@ -37,6 +37,9 @@ baseurl: "/pasta" # the subpath of your site, e.g. /blog
 remote_theme: pmarsceill/just-the-docs
 # theme: just-the-docs
 
+# calling pasta custom color scheme 
+color_scheme: pasta
+
 plugins:
   - jekyll-feed
 
