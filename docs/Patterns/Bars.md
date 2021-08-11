@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Bars
+title: Card
 parent: Patterns
-nav_order: 1
+nav_order: 10
 ---
 
-# Bars 
+# Card

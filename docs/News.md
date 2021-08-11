@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Principles
-nav_order: 2
+title: News
+nav_order: 40
 has_children: false
 ---
 
-# Principles
+# News
 
 ## Image URL test
 
 This is test to check how to write the URL so it converts properly on Github Pages.
 
 ```
-![]({{site.baseurl}}/assets/images/YDS-DOC-naming-001.png)
+![]({{site.baseurl}}/assets/images/YPL-DOC-naming-001.png)
 ```
 
-![]({{site.baseurl}}/assets/images/YDS-DOC-naming-001.png)
+![]({{site.baseurl}}/assets/images/YPL-DOC-naming-001.png)
 
 
 ## Best and good practices

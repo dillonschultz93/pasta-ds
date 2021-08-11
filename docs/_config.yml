@@ -39,9 +39,15 @@ remote_theme: pmarsceill/just-the-docs
 
 # calling pasta custom color scheme 
 color_scheme: pasta
+logo: "/assets/images/YPL-DOC-pasta-logo.svg"
 
 plugins:
   - jekyll-feed
+
+# Aux links for the upper right navigation
+# aux_links:
+#   "Pasta on GitHub":
+#     - "//github.com/yummly/pasta"  
 
 # Exclude from processing.
 # The following items will not be processed, by default.

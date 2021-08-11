@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Foundation
+title: Tokens
 nav_order: 4
 has_children: true
 ---
 
-# Foundation
+# Tokens
