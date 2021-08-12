@@ -16,7 +16,7 @@ Lorem **ipsum dolor** [sit amet](URL), consectetur adipiscing elit. Nullam id do
 ![This is a representation of a component and its attributes]({{site.baseurl}}/assets/images/YPL-DOC-Image_Placeholder-full.png)
 
 
-[Figma File](http://example.com/){: .btn }
+[Figma File](https://www.figma.com/file/zYeBHpXPApw1ujD0BoHjVe/Buttons?node-id=155%3A1786){: .btn }
 
 ### Decision Tokens `TKD`
 
