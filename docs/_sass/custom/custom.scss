@@ -116,6 +116,7 @@ img {
     background-color: $grey-lt-000;
     border: 1px solid #f6f6f6;
     margin: 2rem 0;
+    transform: translate3d(0,0,0);
 }
 
 .table-wrapper {
@@ -143,12 +144,25 @@ td {
 }
 
 // Specific class
-table.type-01 th {
+table.type-01 th, table.colorTable th {
     text-align: left;
 }
+table.colorTable th:first-child {
+    width: 40%;
+}
+
 
 .faded > * {
     color: #ccc !important;
+}
+
+span.tableColorChip {
+    float: right;
+    width: 2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    background-color: #FAFAFA;
+    margin-right: 1rem;
 }
 
 // Code
