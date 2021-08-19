@@ -150,19 +150,28 @@ table.type-01 th, table.colorTable th {
 table.colorTable th:first-child {
     width: 40%;
 }
+table.type-02 th, table.type-02 td  {
+    text-align: center !important;
+}
 
-
+.textfaded {
+    color: #ccc !important;
+}
 .faded > * {
     color: #ccc !important;
 }
 
 span.tableColorChip {
     float: right;
-    width: 36px;
-    height:36px;
+    width: 2.4rem;
+    height:2.4rem;
     border-radius: 50%;
     background-color: #FAFAFA;
     margin-right: 1rem;
+    border: 1px solid #f8f8f8;
+}
+span.tableColorChip:hover {
+        border: 1px solid #333;
 }
 
 // Code
