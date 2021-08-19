@@ -18,13 +18,6 @@ has_children: false
 
 The types of objects described inside Pasta's Design System are named following an atomic design approach as advocated by [Brad Frost](https://atomicdesign.bradfrost.com/chapter-2/). Pasta is highly Design-Tokens focused, a category not represented inside Brad Frost classification. Here's the more token-heavy hierarchy used inside Pasta Design System:
 
-<!-- ||Tokens|Primitives|Components|Patterns|
-| :--- | :--- | :--- | :--- | :--- |
-|Frost Eq.||Atoms|Molecules|Organism|
-|Description|The foundational constants used to build everything|An indivisible part of a visual or UI item|An autonomous item which surface clear affordance |A coherent assemblage of components providing a conventional UI block|
-||Split in 4 categories:<br><br>1 - Choices: (as limited as possible)<br>2 - Decisions: where we map the Choices to objects attributes<br>3 - Aliases: sometimes used to make Tokens more human-friendly/readable<br>4 - Math: logic generated tokens such as size scale and color contrast dependencies|Examples:<br><br>• A glyph, an icon<br>• The control part ⦿ of a radio button<br>• The label of a radio button<br>• Paragraph|Examples:<br><br>• A radio button (control + label)<br>• A button (shape + text)<br>• A form field (field + label)<br>• A slider|Examples:<br><br>• Bar<br>• Card<br>• Carrousel <br>• A search widget (field + label + icon + button)|
-|Alternate Names (on other DS or Platforms)|"Design Tokens"|"Component" ← misleading in our opinion, "Element"|"Widget"|"Block"| -->
-
 <table class="type-01">
     <!-- <caption>vertical-align</caption> -->
     <thead>
@@ -117,10 +110,11 @@ Pasta Names always include a Prefix built using our `YPL-` namespace and a Kingd
 
 | Stem | Meaning | Prefix |
 | :--- | :--- | :---: |
+| `TKM` | Math Token | `YPL-TKM-` |
+| `TKSC` | Super Choice Token | `YPL-TKSC-` |
 | `TKC` | Choice Token | `YPL-TKC-` |
 | `TKD` | Decision Token | `YPL-TKD-` |
 | `TKA` | Alias Token | `YPL-TKA-` |
-| `TKM` | Math Token | `YPL-TKM-` |
 | `UI` | UI Component | `YPL-UI-` |
 | `CNT` | Content Component | `YPL-CNT-` |
 

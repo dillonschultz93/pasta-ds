@@ -11,6 +11,14 @@ nav_order: 10
 
 ## Specification
 
+### The Math
+
+We want to calculate our buttons size (height) as function of their text/label size:
+
+- Font-sizes are expressed in pt **but** we want to express the button height in px
+- We always want an **even** value for the button height and width attributes to avoid pixel hinting issue at its border
+
+
 ### Anatomy
 
 Lorem **ipsum dolor** [sit amet](URL), consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum.

@@ -21,27 +21,27 @@ nav_order: 2
     </thead>
     <tbody>
         <tr data-colorValue="hsla(1,1%,1%,1)">
-            <td>`TKC-color-001`</td>
+            <td>YPL-TKC-color-001</td>
             <td></td>
             <td></td>
         </tr>
         <tr data-colorValue="hsla(56,24%,50%,1)">
-            <td>`TKC-color-002`</td>
+            <td>YPL-TKC-color-002</td>
             <td></td>
             <td></td>
         </tr>
         <tr data-colorValue="hsla(12,80%,70%,1)">
-            <td>`TKC-color-003`</td>
+            <td>YPL-TKC-color-004</td>
             <td></td>
             <td></td>
         </tr>
         <tr data-colorValue="hsla(130,80%,70%,1)">
-            <td>TKC-color-003</td>
+            <td>YPL-TKC-color-005</td>
             <td></td>
             <td></td>
         </tr>
         <tr data-colorValue="hsla(243,80%,70%,1)">
-            <td>TKC-color-003</td>
+            <td>YPL-TKC-color-006</td>
             <td></td>
             <td></td>
         </tr>                             

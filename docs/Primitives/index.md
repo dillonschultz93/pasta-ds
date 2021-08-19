@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Elements | Primitives
+title: Primitives
 nav_order: 5
 has_children: true
 ---
 
-# Elements | Primitives
+# Primitives

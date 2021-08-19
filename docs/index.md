@@ -9,7 +9,7 @@ Pasta v0.1.0
 
 <!-- <h1 style="color: #333; font-weight: 100;"><span style="color: #333; font-weight: 600; letter-spacing: -3px">Y</span>ummly <span style="color: #333; font-weight: 600">P</span>roduct <span style="color: #333; font-weight: 600">L</span>anguage&nbsp;<span style="color: #333; font-weight: 600">-</span></h1> -->
 
-# Yummly Product Language
+<h1>Yummly <span style="color: #666; font-weight: 100;">Math-Based</span><br>Product Language</h1>
 
 ## Introduction
 
