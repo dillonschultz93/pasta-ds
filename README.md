@@ -1,4 +1,4 @@
 # Pasta
-Aka Yummly Design System
+Aka Yummly Math-Based Product Language
 
 Please contact the DS committee at pasta@yummly.com
