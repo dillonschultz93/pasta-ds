@@ -12,7 +12,7 @@ has_children: false
 - TOC
 {:toc}
 
-## UI vs. Content Dichotomy
+<!-- ## UI vs. Content Dichotomy -->
 
 ## Taxonomy
 
@@ -183,7 +183,7 @@ Discrete Modifiers influence subsets of objects or specific objects within a sam
 
 #### States
 
-States are dynamic Modifiers, they vary in time following various inputs and feedback including user interaction. 
+States are dynamic Modifiers, they vary in time following various inputs and feedback including user interaction.
 
 | Stem | Meaning | Description |
 | :--- | :---: | :--- |
@@ -205,7 +205,7 @@ Consequently, the variable below is a Decision Token that should only be applied
 $YPL-TKD-hero-button-border-color-MD_dark-CTA-hi: #333;
 ```
 
-<!-- 
+<!--
 ## Criteria
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.

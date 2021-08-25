@@ -6,78 +6,140 @@ nav_order: 50
 ---
 
 # Tokens Plugin (Figma)
+{: .no_toc}
+<!-- ↑ skips H1 inside TOC -->
 
-We are using [Jan Six amazing plugin](https://jansix.at/resources/figma-tokens) to inject a token-based logic into our Pasta Figma library.
-The most attractuve feature of this plugin is its ability to use [math](https://github.com/six7/figma-tokens/issues/192) and cross-refrence (strangly named "aliases") aka other tokens as operands.
+- TOC
+{:toc}
+
+## We write in HJSON
+
+Figma Tokens Plugin uses a [JSON](https://en.wikipedia.org/wiki/JSON) based data-set to access Figma objects' attributes, properties and styles. JSON is tedious to write, and read.
+
+### HJSON
+
+We use [HJSON](https://hjson.github.io/) to write our tokens code because it's way easier! HJSON allows the use comments, and you don't need to write all the tidious  `"` or `,`: better, faster.
+
+#### Important rules
+
+You still need to keep the `"` (apostrophe) for the `values` of your HJSON, but can still skip them for the keys. The reason is that Figma Tokens plugin doesn't recognize raw mumbers only "strings" for calculation. Thus, do this:
+
+```json
+base: {
+    value: "2"
+    type: "other"
+}
+```
+
+Don't do that:
+
+```json
+base: {
+    value: 2
+    type: other
+}
+```
+
+#### Convert your HJSON
+
+
+Before pasting your JSON code inside Figma (plugin) you need to convert your You can then convert your HJSON into JSON using a package or its [online converter](https://hjson.github.io/try.html).
+
+<table class="layoutOnly">
+<thead>
+  <tr>
+    <th>HJSON</th>
+    <th>JSON (output)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><div class="dosdonts-do"><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-01.png" alt="Hjson Code"></div></td>
+    <td><div class="dosdonts-donts"><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-02.png" alt="Hjson output (JSON)"></div></td>
+  </tr>
+</tbody>
+</table>
+
+
+[Atom Package](https://atom.io/packages/language-hjson){: .btn .mr-2 .btn-blue  }
+[Sublime Text](https://github.com/hjson/sublime-hjson){: .btn .mr-2 .btn-blue }
+[Visual Studio](https://marketplace.visualstudio.com/items?itemName=laktak.hjson){: .btn .btn-blue }
+[Online Editor ↗](https://hjson.github.io/try.html){: .btn .float-right .btn-blue }
+
+
+## The Figma Plugin
+
+We are using [Jan Six' plugin](https://jansix.at/resources/figma-tokens) to inject a token-based logic into our Pasta Figma library.
+
+
+The most attractive feature of this plugin is its ability to use [math](https://github.com/six7/figma-tokens/issues/192) and variables (strangely named "aliases") aka use tokens as operands for other tokens.
+
+2 noticable features exposed by the plugin:
+
+1. Token Sets allow you to organize tokens by [Schemes]({{site.baseurl}}/Foundation.html#schemes)
+2. A JSON editor (minimalist but conveniant)
+
+![Figma Tokens Plugin Screenshots]({{site.baseurl}}/assets/images/YPL-DOC-FigmaTokensPlugin-001.png)
+
 
 ## Usage and Limitations
 
 Please refer to [the plugin doc](https://docs.tokens.studio/) to learn about it's usage.
 You can also watch [this video](https://www.designsystemtalks.com/talks/design-tokens-in-figma-how-to-get-started-today) for a quick overview of its features.
 
-We recommend to use a professional code editor to manipulate our JSON-tokens library. Avoid to directly edit your JSON inside the plugin. 
-The plugin will convert any shorthand syntax such as:
+### Available Tokens · Aug 20 2021
 
-```json
-    "TKM": {
-        "color.primary.400": {
-            "value": "hsla(50,50,50,1)",
-            "description": "Primary background color",
-            "type": "color"
-        }
-    }
-```
+| Figma Tokens||
+| --- | --- |
+| Size | Font Sizes |
+| Space | Colors |
+| Border Radius | Border Width |
+| Border Width | Opacity |
+| Box Shadow | Typography |
+| Font Families | Font Weights |
+| Line Heights | Letter Spacing |
+| Paragraph Spacing | Other |
 
-Into its broken-down counterpart:
+New Tokens and features are added regularly, please check the plugin [changelog](https://docs.tokens.studio/changelog)
 
-```json
-    "TKM": {
-      "color": {
-        "primary": {
-          "400": {
-             "value": "hsla(50,50,50,1)",
-             "description": "Primary background color",
-             "type": "color"
-          }
-        }
-      }
-    }
-```
+## Tokens Snippets
 
+You'll find below usefull snippets for various tokens formats.
 
-
-## Tokens JSON Code Snippets
-
-### "Other" format
+### Other
 
 The `Other` category allows to manipulates data Figma attributes not (yet) supported by the plugin.
 This might help us to express some dimensions of our design logic than cannot be handle inside Figma (ie: responsiveness).
-Foremost, this category can be used to store large-scope constants and variables:
+Foremost, this category can be used to store large-scope constants and variables.
 
 ```json
-  "Constants": {
-    "some_random_constant": {
-      "value": "8",
-      "type": "other"
-    },
-    "another_random_thing": {
-      "value": "1024",
-      "type": "other"
-    }
-```    
+# HJSON
 
-
-### Box Shadow format
-
-```json
-  "shadow-001": {
-    "value": {
-      "x": "0",
-      "y": "4",
-      "spread": "0",
-      "color": "hsla(0,0,0,0.2)",
-      "blur": "20"
-    },
-    "type": "boxShadow"
+Constants: {
+  some_random_constant: {
+   value: 8
+   type: other
   }
+  another_random_thing: {
+   value: 1024
+   type: other
+  }
+}
+```
+
+### Box Shadow
+
+```json
+# HJSON
+
+shadow-medium: {
+  value: {
+   x: 0
+   y: 4
+   spread: 0
+   color: hsla(0,0,0,0.2)
+   blur: 20
+  }
+  type: boxShadow
+}
 ```

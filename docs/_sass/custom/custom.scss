@@ -16,12 +16,6 @@ $grey-lt-000: #f9f9f9;
     // padding-right: 0;
 }
 
-// .no_toc {
-//     letter-spacing: normal;
-//     text-transform: none;
-//     padding-left: 0 !important;
-// }
-
 #markdown-toc {
     padding-left: 0%;
 }
@@ -39,7 +33,7 @@ $grey-lt-000: #f9f9f9;
     padding-right: 6px;
 }
 .highlighter-rouge pre > * {
-    font-size: 14px;  
+    font-size: 14px;
 }
 
 h1, .text-alpha {
@@ -72,14 +66,14 @@ h1 + hr {
 .main-content h3 {
     font-size: 19px !important;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin: 28px 0;
 }
 .main-content h4 {
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: 700;
-    color: #000 !important;
-    letter-spacing: 0.7px;
-    margin-bottom: 16px;
+    color: #333 !important;
+    letter-spacing: 0.6px;
+    margin: 28px 0;
 }
 
 
@@ -120,7 +114,7 @@ img {
 }
 
 .table-wrapper {
-    padding: 8px;
+    // padding: 8px;
     box-shadow: none;
     border-radius: 0;
     margin: 1.4rem 0 !important;
@@ -128,6 +122,7 @@ img {
 table, th, td {
     border: none !important;
     border-spacing: 0;
+    text-align: left;
 }
 th {
     text-transform: uppercase;
@@ -143,10 +138,28 @@ td {
     font-size: 10px;
 }
 
-// Specific class
-table.type-01 th, table.colorTable th {
-    text-align: left;
+// table just for layout / several cols
+
+
+table.layoutOnly tr {
+    display: flex !important;
+    gap: 20px;
+    flex-direction: row;
 }
+table.layoutOnly th, table.layoutOnly td {
+    flex-grow: 1;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    // margin: 0 10px !important;
+}
+
+
+
+// Specific class
+// table.type-01 th, table.colorTable th {
+//     text-align: left;
+// }
 table.colorTable th:first-child {
     width: 40%;
 }
@@ -179,4 +192,39 @@ td .language-plaintext {
     font-size: 12px;
     padding-left: 6px;
     padding-right: 6px;
+}
+
+div.highlighter-rouge div.highlight, div.highlighter-rouge pre.highlight, div.highlighter-rouge code {
+  white-space: pre-wrap;
+}
+
+
+.dosdonts-do, .dosdonts-donts {
+  padding: 0;
+  margin: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 10px solid black !important;
+}
+.dosdonts-do > *, .dosdonts-donts > * {
+  padding-bottom:0;
+  margin-bottom:0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.dosdonts-do {
+  border-bottom-color: #18D1B0 !important;
+}
+.dosdonts-do::after {
+  // border: 2px solid red;
+  // margin-top: -10px;
+  // content: url("https://raw.githubusercontent.com/yummly/pasta/main/docs/assets/images/YPL-DOC-sticker-dos-18D1B0.svg?token=ADCHLAZREYG7CR3I5XUATDDBF7OKS") !important;
+}
+.dosdonts-donts {
+  border-bottom-color: #F13333 !important;
+}
+.dosdonts-donts::after {
+  // border: 2px solid red;
+  // margin-top: -10px;
+  // content: url("https://raw.githubusercontent.com/yummly/pasta/main/docs/assets/images/YPL-DOC-sticker-donts-F13333.svg?token=ADCHLA6R7UAO6ID7OBWCPATBF7NUS") !important;
 }

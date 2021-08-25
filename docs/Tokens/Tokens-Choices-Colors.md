@@ -3,7 +3,7 @@ layout: default
 title: Colors
 grand_parent: Tokens
 parent: Choices
-nav_order: 2
+nav_order: 20
 ---
 
 <script type="text/javascript" src="{{site.baseurl}}/assets/vanilla/pasta.js" defer></script>
@@ -11,8 +11,6 @@ nav_order: 2
 # Colors
 
 ## Main Colors
-
-
 
 <table class="colorTable">
     <!-- <caption>vertical-align</caption> -->
@@ -28,7 +26,7 @@ nav_order: 2
             <td><strong>Primary ↓</strong></td>
             <td></td>
             <td></td>
-        </tr>     
+        </tr>
         <tr data-colorValue="hsla(177, 44%, 51%, 1.00)">
             <td>TKC-cyan~teal-300</td>
             <td></td>
@@ -43,12 +41,12 @@ nav_order: 2
             <td>TKC-cyan~teal-500</td>
             <td></td>
             <td></td>
-        </tr>                  
+        </tr>
         <tr>
             <td><strong>Secondary ↓</strong></td>
             <td></td>
             <td></td>
-        </tr>       
+        </tr>
         <tr data-colorValue="hsla(20, 76%, 60%, 1.00)">
             <td>TKC-orange~chocolate-300</td>
             <td></td>
@@ -63,7 +61,7 @@ nav_order: 2
             <td>TKC-orange~chocolate-500</td>
             <td></td>
             <td></td>
-        </tr>                    
+        </tr>
    </tbody>
 </table>
 
@@ -94,7 +92,7 @@ nav_order: 2
             <td><strong>Grays Domain ↓</strong></td>
             <td></td>
             <td></td>
-        </tr>        
+        </tr>
         <tr data-colorValue="hsla(109, 0%, 96%, 1.00)">
             <td>TKC-gray-100</td>
             <td></td>
@@ -114,7 +112,7 @@ nav_order: 2
             <td>TKC-gray-400</td>
             <td></td>
             <td></td>
-        </tr>   
+        </tr>
         <tr data-colorValue="hsla(109, 0%, 29%, 1.00)">
             <td>TKC-gray-500</td>
             <td></td>
@@ -124,16 +122,17 @@ nav_order: 2
             <td><strong>Darks Domain ↓</strong></td>
             <td></td>
             <td></td>
-        </tr> 
+        </tr>
         <tr data-colorValue="hsla(109, 0%, 14%, 1.00)">
             <td>TKC-dark-400</td>
             <td></td>
             <td></td>
-        </tr>   
+        </tr>
         <tr data-colorValue="hsla(0, 0%, 0%, 1.00)">
             <td><strong>black</strong></td>
             <td></td>
             <td></td>
-        </tr>                                                            
+        </tr>
     </tbody>
+
 </table>

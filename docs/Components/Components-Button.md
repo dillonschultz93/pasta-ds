@@ -5,7 +5,7 @@ parent: Components
 nav_order: 10
 ---
 
-# Button 
+# Button
 
 <!-- ![This is a representation of a component and its attributes]({{site.baseurl}}/assets/images/YPL-DOC-button-001.png) -->
 
@@ -20,8 +20,6 @@ We want to calculate our buttons size (height) as function of their text/label s
 
 
 ### Anatomy
-
-Lorem **ipsum dolor** [sit amet](URL), consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum.
 
 ![This is a representation of a component and its attributes]({{site.baseurl}}/assets/images/YPL-DOC-button-002.png)
 
@@ -75,9 +73,9 @@ YPL.TKD.button.margin.left
 // RADIUS
 YPL.TKD.button.border.radius
 ```
-
+<!-- 
 ## Variants
 
 ## Do's and Dont's
 
-## Content · Micro Copy Rules
+## Content · Micro Copy Rules -->
