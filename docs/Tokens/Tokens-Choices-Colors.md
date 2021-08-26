@@ -134,5 +134,21 @@ nav_order: 20
             <td></td>
         </tr>
     </tbody>
-
 </table>
+
+
+## Indexes
+
+
+| Stem | Meaning | Luminance |
+| :--- | :--- | --- |
+| `100` | Extra Light | Y ≃ 90 |
+| `200` | Light / Thin |  Y ≃ 80 |
+| `300` | Book / Demi |  Y ≃ 70 |
+| `400` | Regular |  Y ≃ 60 |
+| `500` | Medium |  Y ≃ 50 |
+| `600` | Semibold / Demibold |  Y ≃ 40 |
+| `700` | Bold |  Y ≃ 30 |
+| `800` | Black / Extra Bold / Heavy |  Y ≃ 20 |
+| `900` | Extra or Ultra Black / Fat / Poster | Y ≃ 10 |
+| > 900 | Jumbo Domain | darks |

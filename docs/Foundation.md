@@ -16,7 +16,7 @@ has_children: false
 
 ## Taxonomy
 
-The types of objects described inside Pasta's Design System are named following an atomic design approach as advocated by [Brad Frost](https://atomicdesign.bradfrost.com/chapter-2/). Pasta is highly Design-Tokens focused, a category not represented inside Brad Frost classification. Here's the more token-heavy hierarchy used inside Pasta Design System:
+The types of objects described inside Pasta's Design System are named following an atomic design approach as advocated by [Brad Frost](https://atomicdesign.bradfrost.com/chapter-2/). Pasta is highly Design-Tokens focused, a category not represented inside Brad Frost classification. Here's the adapted atomic hierarchy used inside Pasta Design System:
 
 <table class="type-01">
     <!-- <caption>vertical-align</caption> -->
@@ -71,7 +71,7 @@ The types of objects described inside Pasta's Design System are named following 
                     <li>A button (shape + text)</li>
                     <li>A form field (field + label)</li>
                 </ul>
-            </td>                
+            </td>
             <td valign="top">
                 Examples
                 <ul>
@@ -88,30 +88,31 @@ The types of objects described inside Pasta's Design System are named following 
             <td valign="top">"Component" (misleading in our opinion), "Element"</td>
             <td valign="top">"Widget"</td>
             <td valign="top">"Block"</td>
-        </tr>                        
+        </tr>
     </tbody>
 </table>
 
 
 ## Naming convention
 
-Naming convention inside YPL is strict. We will try to implement governing constraints to name things so we can easily identify objects just by reading their name.
+Naming convention inside YPL is strict. This helps to easily identify objects just by reading their name.
 
 ![]({{site.baseurl}}/assets/images/YPL-DOC-naming-001.png)
 
 Names are made of Stems (or Morphemes) split in 3 categories: the Domain (prefix) followed by the Selectors sequence followed by Modifiers. Stems are separated by the en dash character ` - ` (U+2013).
-The first Stem is always `YPL` and if the object is interactive they always end with a State Stem.
+The first Stem is always `YPL` and if the object is interactive it always ends with a State Stem.
 
 ### Stem Categories
 
 #### Domain
 
-Pasta Names always include a Prefix built using our `YPL-` namespace and a Kingdom stem:
+Pasta Names always include a Prefix built using our `YPL-` namespace and the Kingdom stem:
 
 | Stem | Meaning | Prefix |
 | :--- | :--- | :---: |
-| `TKM` | Math Token | `YPL-TKM-` |
+| `TKSM` | Super Math Token | `YPL-TKM-` |
 | `TKSC` | Super Choice Token | `YPL-TKSC-` |
+| `TKM` | Math Token | `YPL-TKM-` |
 | `TKC` | Choice Token | `YPL-TKC-` |
 | `TKD` | Decision Token | `YPL-TKD-` |
 | `TKA` | Alias Token | `YPL-TKA-` |
@@ -120,7 +121,7 @@ Pasta Names always include a Prefix built using our `YPL-` namespace and a Kingd
 
 #### Selector
 
-The Selectors Stems are often aggregated into a sequence that tries to mimic CSS selectors logic. They go from lowest to highest granularity, from left to right. In the example addressed here we have to follow this specific order:
+The Selectors Stems are often aggregated into a sequence that mimics CSS selectors logic. They go from lowest to highest granularity, from left to right. In the example addressed here we have to follow this specific order:
 
 ```
 Parent(s) (Container) › Object › Object Feature › Object Feature Attribute
@@ -179,7 +180,7 @@ Discrete Modifiers influence subsets of objects or specific objects within a sam
 | `CTA` | Variant | A Call To Action control |
 | `primary` | Variant | Often a boeotian way to address Selected or Highlighted states |
 | `alert` | Semantic | Styles an object by adding a semantic dimension to it |
-| `small` | Attribute | Selects objects via one of their attributes |
+| `small` | Attribute | Selects objects via another of their attributes |
 
 #### States
 

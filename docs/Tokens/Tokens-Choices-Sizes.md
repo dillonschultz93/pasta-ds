@@ -154,27 +154,27 @@ functionArithNd(index) = functionArithSt(index - 100) * 1.5
       <td class="textfaded">128</td>
       <td><strong>24</strong></td>
       <td><strong>40</strong></td>
-      <td class="textfaded">48</td>
+      <td><strong>48</strong></td>
     </tr>
     <tr>
       <td>900</td>
       <td class="textfaded">256</td>
       <td class="textfaded">26</td>
-      <td><strong>48</strong></td>
+      <td class="textfaded">48</td>
       <td class="textfaded">60</td>
     </tr>
     <tr>
       <td>1000</td>
       <td class="textfaded">512</td>
       <td><strong>28</strong></td>
-      <td>56</td>
+      <td class="textfaded">56</td>
       <td class="textfaded">72</td>
     </tr>
     <tr>
       <td>1100</td>
       <td class="textfaded">1024</td>
       <td class="textfaded">30</td>
-      <td>64</td>
+      <td class="textfaded">64</td>
       <td class="textfaded">84</td>
     </tr>
     <tr>
@@ -210,7 +210,7 @@ functionArithNd(index) = functionArithSt(index - 100) * 1.5
       <td></td>
       <td></td>
       <td class="textfaded">104</td>
-      <td><strong>144</strong></td>
+      <td>144</td>
     </tr>
     <tr>
       <td>1700</td>
@@ -238,7 +238,7 @@ functionArithNd(index) = functionArithSt(index - 100) * 1.5
       <td></td>
       <td></td>
       <td class="textfaded">136</td>
-      <td><strong>192</strong></td>
+      <td>192</td>
     </tr>
   </tbody>
 </table>

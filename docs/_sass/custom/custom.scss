@@ -1,6 +1,5 @@
 $grey-lt-000: #f9f9f9;
 
-
 .site-logo {
     width:70%;
 }
@@ -26,7 +25,13 @@ $grey-lt-000: #f9f9f9;
     content: none;
 }
 
+
 // Code
+
+div.highlighter-rouge div.highlight, div.highlighter-rouge pre.highlight, div.highlighter-rouge code {
+  white-space: pre-wrap;
+}
+
 .language-plaintext {
     font-size: 14px;
     padding-left: 6px;
@@ -35,6 +40,17 @@ $grey-lt-000: #f9f9f9;
 .highlighter-rouge pre > * {
     font-size: 14px;
 }
+
+// Inside table
+
+td .language-plaintext {
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+// TYPOGRAPHY
 
 h1, .text-alpha {
     font-size: 58px !important;
@@ -76,6 +92,7 @@ h1 + hr {
     margin: 28px 0;
 }
 
+// SIDE BAR
 
 .side-bar {
     align-items: flex-start;
@@ -105,6 +122,9 @@ h1 + hr {
     opacity: 0.2;
     margin-right: 1rem;
 }
+
+// IMAGES
+
 img {
     border-radius: 8px;
     background-color: $grey-lt-000;
@@ -112,6 +132,8 @@ img {
     margin: 2rem 0;
     transform: translate3d(0,0,0);
 }
+
+// TABLES
 
 .table-wrapper {
     // padding: 8px;
@@ -138,8 +160,10 @@ td {
     font-size: 10px;
 }
 
-// table just for layout / several cols
 
+
+
+// table just for layout / several cols
 
 table.layoutOnly tr {
     display: flex !important;
@@ -154,12 +178,8 @@ table.layoutOnly th, table.layoutOnly td {
     // margin: 0 10px !important;
 }
 
+// COLORS TABLE
 
-
-// Specific class
-// table.type-01 th, table.colorTable th {
-//     text-align: left;
-// }
 table.colorTable th:first-child {
     width: 40%;
 }
@@ -187,17 +207,7 @@ span.tableColorChip:hover {
         border: 1px solid #333;
 }
 
-// Code
-td .language-plaintext {
-    font-size: 12px;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-
-div.highlighter-rouge div.highlight, div.highlighter-rouge pre.highlight, div.highlighter-rouge code {
-  white-space: pre-wrap;
-}
-
+ // DOS & DONT'S
 
 .dosdonts-do, .dosdonts-donts {
   padding: 0;
