@@ -96,95 +96,111 @@ functionArithNd(index) = functionArithSt(index - 100) * 1.5
       <th>Geometric</th>
       <th>Arithmetic #1</th>
       <th>Arithmetic #2</th>
+      <th>Arithmetic #3</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>100</td>
-      <td><strong>1</strong></td>
+      <td class="textfaded">1</td>
+      <td><strong>10</strong></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>200</td>
-      <td><strong>2</strong></td>
+      <td class="textfaded">2</td>
+      <td><strong>12</strong></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>300</td>
-      <td><strong>4</strong></td>
+      <td class="textfaded">4</td>
+      <td><strong>14</strong></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><strong>400&nbsp;&nbsp;•</strong> </td>
+      <td><strong>•&nbsp;&nbsp;400</strong> </td>
       <td><strong>8</strong></td>
+      <td><strong>16</strong></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>500</td>
-      <td class="textfaded">16 →</td>
-      <td><strong>16</strong></td>
+      <td class="textfaded">16</td>
+      <td><strong>18</strong></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
       <td>600</td>
       <td class="textfaded">32</td>
-      <td><strong>24</strong></td>
+      <td><strong>20</strong></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
       <td>700</td>
       <td class="textfaded">64</td>
-      <td><strong>32</strong></td>
+      <td class="textfaded">22</td>
+      <td class="textfaded">32</td>
       <td class="textfaded">36</td>
     </tr>
     <tr>
       <td>800</td>
       <td class="textfaded">128</td>
+      <td><strong>24</strong></td>
       <td><strong>40</strong></td>
       <td class="textfaded">48</td>
     </tr>
     <tr>
       <td>900</td>
       <td class="textfaded">256</td>
+      <td class="textfaded">26</td>
       <td><strong>48</strong></td>
       <td class="textfaded">60</td>
     </tr>
     <tr>
       <td>1000</td>
       <td class="textfaded">512</td>
-      <td><strong>56</strong></td>
+      <td><strong>28</strong></td>
+      <td>56</td>
       <td class="textfaded">72</td>
     </tr>
     <tr>
       <td>1100</td>
       <td class="textfaded">1024</td>
-      <td><strong>64</strong></td>
+      <td class="textfaded">30</td>
+      <td>64</td>
       <td class="textfaded">84</td>
     </tr>
     <tr>
       <td>1200</td>
       <td></td>
-      <td class="textfaded">72 →</td>
+      <td><strong>32</strong></td>
+      <td class="textfaded">72</td>
       <td><strong>96</strong></td>
     </tr>
     <tr>
       <td>1300</td>
       <td></td>
+      <td class="textfaded">34</td>
       <td class="textfaded">80</td>
       <td class="textfaded">108</td>
     </tr>
     <tr>
       <td>1400</td>
       <td></td>
+      <td class="textfaded">36</td>
       <td class="textfaded">88</td>
       <td class="textfaded">120</td>
     </tr>
     <tr>
       <td>1500</td>
+      <td></td>
       <td></td>
       <td class="textfaded">96</td>
       <td class="textfaded">132</td>
@@ -192,11 +208,13 @@ functionArithNd(index) = functionArithSt(index - 100) * 1.5
     <tr>
       <td>1600</td>
       <td></td>
+      <td></td>
       <td class="textfaded">104</td>
       <td><strong>144</strong></td>
     </tr>
     <tr>
       <td>1700</td>
+      <td></td>
       <td></td>
       <td class="textfaded">112</td>
       <td class="textfaded">156</td>
@@ -204,17 +222,20 @@ functionArithNd(index) = functionArithSt(index - 100) * 1.5
     <tr>
       <td>1800</td>
       <td></td>
+      <td></td>
       <td class="textfaded">120</td>
       <td class="textfaded">168</td>
     </tr>
     <tr>
       <td>1900</td>
       <td></td>
+      <td></td>
       <td class="textfaded">128</td>
       <td class="textfaded">180</td>
     </tr>
     <tr>
       <td>2000</td>
+      <td></td>
       <td></td>
       <td class="textfaded">136</td>
       <td><strong>192</strong></td>
