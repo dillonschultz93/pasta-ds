@@ -54,17 +54,66 @@ Before pasting your JSON code inside Figma (plugin) you need to convert your You
 </thead>
 <tbody>
   <tr>
-    <td><div class="dosdonts-do"><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-01.png" alt="Hjson Code"></div></td>
-    <td><div class="dosdonts-donts"><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-02.png" alt="Hjson output (JSON)"></div></td>
+    <td><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-01.png" alt="Hjson Code"></td>
+    <td><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-02.png" alt="Hjson output (JSON)"></td>
   </tr>
 </tbody>
 </table>
 
 
-[Atom Package](https://atom.io/packages/language-hjson){: .btn .mr-2 .btn-blue  }
-[Sublime Text](https://github.com/hjson/sublime-hjson){: .btn .mr-2 .btn-blue }
-[Visual Studio](https://marketplace.visualstudio.com/items?itemName=laktak.hjson){: .btn .btn-blue }
-[Online Editor ↗](https://hjson.github.io/try.html){: .btn .float-right .btn-blue }
+#### Tools
+
+##### Convert your HJSON to JSON
+<br>
+[Atom Package](https://atom.io/packages/language-hjson){: .btn .mr-2}
+[Online Editor ↗](https://hjson.github.io/try.html){: .btn .mr-2 }
+
+<!-- [Sublime Text](https://github.com/hjson/sublime-hjson){: .btn .mr-2 }
+[Visual Studio](https://marketplace.visualstudio.com/items?itemName=laktak.hjson){: .btn } -->
+
+##### Color your json
+<br>
+[Atom Package](https://atom.io/packages/json-colorer){: .btn .mr-2}
+
+##### Flatten your json
+
+The package can flattens or unflattens your code. That:
+
+```json
+{
+  "p1": {
+    "bold": {
+      "value": {
+        "fontFamily": "$TKC.font.family.bold",
+        "fontWeight": "$TKC.font.weight.500",
+        "fontSize": "$TKSM.scale.seqArithA.400",
+        "lineHeight": "round($TKSM.scale.seqArithA.400 * $TKSC.ratio.leading.large)"
+      },
+      "description": "none",
+      "type": "typography"
+    }
+  }
+}
+```
+is turned into this:
+
+```json
+{
+  "p1.bold.value.fontFamily": "$TKC.font.family.bold",
+  "p1.bold.value.fontWeight": "$TKC.font.weight.500",
+  "p1.bold.value.fontSize": "$TKSM.scale.seqArithA.400",
+  "p1.bold.value.lineHeight": "round($TKSM.scale.seqArithA.400 * $TKSC.ratio.leading.large)",
+  "p1.bold.description": "none",
+  "p1.bold.type": "typography"
+}
+```
+
+
+<br>
+[Atom Package](https://atom.io/packages/flatten-json){: .btn .mr-2}
+
+
+
 
 
 ## The Figma Plugin
@@ -87,7 +136,7 @@ The most attractive feature of this plugin is its ability to use [math](https://
 Please refer to [the plugin doc](https://docs.tokens.studio/) to learn about it's usage.
 You can also watch [this video](https://www.designsystemtalks.com/talks/design-tokens-in-figma-how-to-get-started-today) for a quick overview of its features.
 
-### Available Tokens · Aug 20 2021
+<!-- ### Available Tokens · Aug 20 2021
 
 | Figma Tokens||
 | --- | --- |
@@ -98,7 +147,7 @@ You can also watch [this video](https://www.designsystemtalks.com/talks/design-t
 | Box Shadow | Typography |
 | Font Families | Font Weights |
 | Line Heights | Letter Spacing |
-| Paragraph Spacing | Other |
+| Paragraph Spacing | Other | -->
 
 New Tokens and features are added regularly, please check the plugin [changelog](https://docs.tokens.studio/changelog)
 
