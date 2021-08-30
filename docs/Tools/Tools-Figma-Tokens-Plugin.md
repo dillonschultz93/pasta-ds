@@ -22,7 +22,9 @@ We use [HJSON](https://hjson.github.io/) to write our tokens code because it's w
 
 #### Important rules
 
-You still need to keep the `"` (apostrophe) for the `values` of your HJSON, but can still skip them for the keys. The reason is that Figma Tokens plugin doesn't recognize raw mumbers only "strings" for calculation. Thus, do this:
+You still need to keep the `"` (apostrophe) for the `values` of your HJSON, but can still skip them for the keys. The reason is that Figma Tokens plugin doesn't recognize raw mumbers only "strings" for calculation.
+
+Thus, do this:
 
 ```json
 base: {
@@ -30,6 +32,8 @@ base: {
     type: "other"
 }
 ```
+{: .dosdonts-dont }
+
 
 Don't do that:
 
@@ -149,7 +153,7 @@ You can also watch [this video](https://www.designsystemtalks.com/talks/design-t
 | Line Heights | Letter Spacing |
 | Paragraph Spacing | Other | -->
 
-New Tokens and features are added regularly, please check the plugin [changelog](https://docs.tokens.studio/changelog)
+New Tokens and features are added regularly, please check the plugin [changelog](https://docs.tokens.studio/changelog).
 
 ## Tokens Snippets
 

@@ -110,14 +110,13 @@ Pasta Names always include a Prefix built using our `YPL-` namespace and the Kin
 
 | Stem | Meaning | Prefix |
 | :--- | :--- | :---: |
-| `TKSM` | Super Math Token | `YPL-TKM-` |
-| `TKSC` | Super Choice Token | `YPL-TKSC-` |
-| `TKM` | Math Token | `YPL-TKM-` |
-| `TKC` | Choice Token | `YPL-TKC-` |
-| `TKD` | Decision Token | `YPL-TKD-` |
-| `TKA` | Alias Token | `YPL-TKA-` |
-| `UI` | UI Component | `YPL-UI-` |
-| `CNT` | Content Component | `YPL-CNT-` |
+| `TKUI_SM` | Super Math UI Token | `YPL-TKUI_SM-` |
+| `TKUI_SC` | Super Choice UI Token | `YPL-TKUI_SC-` |
+| `TKUI_M` | UI Math Token | `YPL-TKUI_M-` |
+| `TKUI_C` | UI Choice Token | `YPL-TKUI_C-` |
+| `TKUI_D` | UI Decision Token | `YPL-TKUI_D-` |
+| `TKUI_A` | UI Alias Token | `YPL-TKUI_A-` |
+| `TK_C_` | **Prefix for Content Tokens** replace the first 5 letters above to infer the name of Content Related tokens |`YPL-TK_C_XX-` |
 
 #### Selector
 
@@ -153,7 +152,7 @@ Some example of Selectors:
 Consequently, the variable below is a Decision Token that should only be applied to buttons contained inside a `hero` block (pattern) and that will target its border-color attribute (and set its property to #333):
 
 ```scss
-$YPL-TKD-hero-button-border-color: #333;
+$YPL-TKUID-hero-button-border-color: #333;
 ```
 
 ### Modifiers
@@ -203,7 +202,7 @@ States are dynamic Modifiers, they vary in time following various inputs and fee
 Consequently, the variable below is a Decision Token that should only be applied to CTA buttons contained inside a `hero` block (pattern) and that will target its border-color attribute when in a highlighted-idle state if the dark-mode is active:
 
 ```scss
-$YPL-TKD-hero-button-border-color-MD_dark-CTA-hi: #333;
+$YPL-TKUID-hero-button-border-color-MD_dark-CTA-hi: #333;
 ```
 
 <!--
