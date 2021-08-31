@@ -9,6 +9,11 @@ nav_order: 20
 <script type="text/javascript" src="{{site.baseurl}}/assets/vanilla/pasta.js" defer></script>
 
 # Colors
+{: .no_toc}
+<!-- ↑ skips H1 inside TOC -->
+
+- TOC
+{:toc}
 
 ## Main Colors
 
@@ -136,19 +141,17 @@ nav_order: 20
     </tbody>
 </table>
 
+## Index convention
 
-## Indexes
-
-
-| Stem | Meaning | Luminance |
+| Stem | Luminance | Font-Weight Equivalence |
 | :--- | :--- | --- |
-| `100` | Extra Light | Y ≃ 90 |
-| `200` | Light / Thin |  Y ≃ 80 |
-| `300` | Book / Demi |  Y ≃ 70 |
-| `400` | Regular |  Y ≃ 60 |
-| `500` | Medium |  Y ≃ 50 |
-| `600` | Semibold / Demibold |  Y ≃ 40 |
-| `700` | Bold |  Y ≃ 30 |
-| `800` | Black / Extra Bold / Heavy |  Y ≃ 20 |
-| `900` | Extra or Ultra Black / Fat / Poster | Y ≃ 10 |
-| > 900 | Jumbo Domain | darks |
+| `100` | Y ≃ 90 | Extra Light |
+| `200` | Y ≃ 80 | Light / Thin |
+| `300` | Y ≃ 70 | Book / Demi |
+| `400` | Y ≃ 60 | Regular |
+| `500` | Y ≃ 50 | Medium |
+| `600` | Y ≃ 40 | Semibold / Demibold |
+| `700` | Y ≃ 30 | Bold |
+| `800` | Y ≃ 20 | Black / Extra Bold / Heavy |
+| `900` | Y ≃ 10 | Extra or Ultra Black / Fat / Poster |
+| > 900 | darks | "Jumbo" domain |

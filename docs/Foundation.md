@@ -12,7 +12,6 @@ has_children: false
 - TOC
 {:toc}
 
-<!-- ## UI vs. Content Dichotomy -->
 
 ## Taxonomy
 
@@ -108,15 +107,15 @@ The first Stem is always `YPL` and if the object is interactive it always ends w
 
 Pasta Names always include a Prefix built using our `YPL-` namespace and the Kingdom stem:
 
-| Stem | Meaning | Prefix |
+| Stem | Meaning |
 | :--- | :--- | :---: |
-| `TKUI_SM` | Super Math UI Token | `YPL-TKUI_SM-` |
-| `TKUI_SC` | Super Choice UI Token | `YPL-TKUI_SC-` |
-| `TKUI_M` | UI Math Token | `YPL-TKUI_M-` |
-| `TKUI_C` | UI Choice Token | `YPL-TKUI_C-` |
-| `TKUI_D` | UI Decision Token | `YPL-TKUI_D-` |
-| `TKUI_A` | UI Alias Token | `YPL-TKUI_A-` |
-| `TK_C_` | **Prefix for Content Tokens** replace the first 5 letters above to infer the name of Content Related tokens |`YPL-TK_C_XX-` |
+| `TKUI_SM` | Super Math UI Token |
+| `TKUI_SC` | Super Choice UI Token |
+| `TKUI_M` | UI Math Token |
+| `TKUI_C` | UI Choice Token |
+| `TKUI_D` | UI Decision Token |
+| `TKUI_A` | UI Alias Token |
+| `TK_C_` | **Prefix for Content Tokens** replace the first 5 letters above to infer the name of Content Related tokens |
 
 #### Selector
 
@@ -204,6 +203,24 @@ Consequently, the variable below is a Decision Token that should only be applied
 ```scss
 $YPL-TKUID-hero-button-border-color-MD_dark-CTA-hi: #333;
 ```
+
+
+### Index convention
+
+
+|Index|Font Weight|Luminance|
+| --- | --- | --- |
+| 100 | Extra or Ultra Light | Y ≃ 90 |
+| 200 | Light or Thin | Y ≃ 80 |
+| 300 | Book or Demi | Y ≃ 70 |
+| **• 400** | Regular or Normal | Y ≃ 60 |
+| 500 | Medium | Y ≃ 50 |
+| 600 | Semibold, Demibold | Y ≃ 40 |
+| 700 | Bold | Y ≃ 30 |
+| 800 | Black, Extra Bold or Heavy | Y ≃ 20 |
+| 900 | Extra or Ultra Black, Fat, Poster | Y ≃ 10 |
+| > 900 | Required for other categories |  |
+
 
 <!--
 ## Criteria

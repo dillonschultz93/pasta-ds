@@ -21,9 +21,7 @@
 title: Pasta
 email: pasta@yummly.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+      Yummly Product Language (YPL) aka “Pasta” is a collaborative bespoke environment that allows stakeholders to fast-track collaboration and decisions while building Yummly’s user experiences.
 # ↓ edited from ""
 baseurl: "/pasta" # the subpath of your site, e.g. /blog
 # ↓ edited from ""

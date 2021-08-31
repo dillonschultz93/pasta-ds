@@ -7,6 +7,40 @@ nav_order: 10
 ---
 
 # Sizes
+{: .no_toc}
+<!-- ↑ skips H1 inside TOC -->
+
+- TOC
+{:toc}
+
+## Sizes vs Space & Friends
+
+|Token|Description|*Figma Tokens* Type|Real Unit|Figma Unit|
+| --- | --- | --- | --- | --- |
+|**Scales**|
+|Sizes| YPL abstraction | `other`|N/A|N/A|
+|Sizing| *Figma Tokens* | `sizing`|pt|px|
+|Space| *Figma Tokens* | `spacing`|pt|px|
+|**Typography**|
+|Font Sizes| WIP | `fontSizes`|pt|px|
+|Leading| WIP  | `lineHeights`|pt|px|
+|Paragraph Spacing| WIP  | `paragraphSpacing`|pt|px|
+|Tracking| WIP  | `letterSpacing`|pt|%|
+|**Break Points**|
+|Break Point| YPL abstraction - CSS | `other`|px| N/A|
+|**Borders**|
+|Border Width| WIP | `borderWidth`|px|px|
+|Border Radius| WIP | `borderRadius`|pt| px|
+|**Shadow**|
+|Drop Shadow h-offset| WIP | `boxShadow`&nbsp;.value.x|pt|px|
+|Drop Shadow v-offset| WIP | `boxShadow`&nbsp;.value.y|pt|px|
+|Drop Shadow Spread| WIP | `boxShadow`&nbsp;.value.spread|pt|px|
+|Drop Shadow Blur Radius | WIP | `boxShadow`&nbsp;.value.blur|pt|px|
+
+
+
+
+
 
 ## Units
 
@@ -21,82 +55,14 @@ To avoid pixel hinting issues we then switch to Pixel. Border Width or even butt
 
 ## Scales
 
-Scales are tools that allow us to derivate all our sizes from a very limited number of Super Choices:
-
-- base
-- scale (ratios or functions)
-
-Thanks to scale if we want to scale all our interface up, or down, changing one of these constant will trickle down everywhere.
-
-### 3 entangled scales
-
-We use 3 scales that trickle down into each other at different Index-threshold:
-
-Up to the Index base (100-400) with use a power of 2 geometric function. This function then feeds the arithemtic scale #1 that takes over in the 500 to 1100 index range. Then this scale will feed the arithmetic scale #2 where we cherry pick some of its value.
-
-### Why?
-
-**Proportional**. That's why. We want the power of "one constant to rule them all": if you change the Super Choice `scale_base` then everything will fall into place and grow or shrink in proportion, while keeping the relationship we want in between those sizes.
-
-#### Super Choices:
-
-- scale_base = `2`
-- scale_scale = `2`
-- scale_baseIndex = `400`
-
-#### Math
-
-Geometric scale:
-
-```
-functionGeo(index) = YPL-TKSC-scales-base * YPL-TKSC-scales-scale ^ round((200 + index - YPL-TKSC-scales-base-index) / 100)
-```
-
-Arithmetic scale #1:
-
-```
-functionArithSt(index) = functionGeo(YPL-TKSC-scales-base-index) + functionGeo(YPL-TKSC-scales-base-index)*((index - 400) / 100)
-```
-
-Arithmetic scale #2:
-
-```
-functionArithNd(index) = functionArithSt(index - 100) * 1.5
-```
-
-#### Ouput
-
-<!-- | index | Geometric | Arithmetic #1 | Arithmetic #2 |
-| --- | --- | --- | --- |
-| 100 |  **1** |   |   |
-| 200 |  **2** |   |   |
-| 300 |  **4** |   |   |
-| **400&nbsp;&nbsp;•** | **8**  | |   |
-| 500 |  16 → |  **16** |  |
-| 600 |  32 |  **24** | |
-| 700 |  64 |  **32** |  36 |
-| 800 |  128 |  **40** |  **48** |
-| 900 |  256 |  **48** |  60 |
-| 1000 |  512 |  **56** |  72 |
-| 1100 |  1024 |  **64** |  84 |
-| 1200 |   |  72 → |  **96** |
-| 1300 |   |  80 |  108 |
-| 1400 |   |  88 |  120 |
-| 1500 |   |  96 |  132 |
-| 1600 |   |  104 |  **144** |
-| 1700 |   |  112 |  156 |
-| 1800 |   |  120 |  168 |
-| 1900 |   |  128 |  180 |
-| 2000 |   |  136 |  **192** |  -->
-
 <table class="type-02">
   <thead>
     <tr>
       <th>index</th>
       <th>Geometric</th>
-      <th>Arithmetic #1</th>
-      <th>Arithmetic #2</th>
-      <th>Arithmetic #3</th>
+      <th>Arithmetic A</th>
+      <th>Arithmetic B</th>
+      <th>Arithmetic C</th>
     </tr>
   </thead>
   <tbody>
@@ -243,11 +209,45 @@ functionArithNd(index) = functionArithSt(index - 100) * 1.5
   </tbody>
 </table>
 
-<!--
-### Font Scales
+### 3 entangled scales
 
-## Spaces
+Scales are tools that allow us to derivate all our sizes from a very limited number of Super Choices:
 
-## Fonts
+- a base
+- a ratio (sometimes called "scale")
 
-## Breakpoints -->
+Thanks to scales if we need to scale all the interface up, or down, changing one of these constants will trickle down everywhere.
+
+We use 3 scales that trickle down into each other at different Index-threshold:
+
+Up to the Index base (100-400) with use a geometric function, this scale encompass the usual power of 2 sizes [1,2,4,8,16,32,64,128 …]. This geometric scale then feeds the arithemtic scale #1 that takes over in the 500 to 1100 index range. Then this scale will feed the arithmetic scale #2 where we cherry pick some of its value.
+
+### Why?
+
+**Proportional**. That's why. We want the power of "one constant to rule them all": if you change the Super Choice `scale_base` then everything will fall into place and grow or shrink in proportion, while keeping the relationship we want in between those sizes.
+
+#### Super Choices:
+
+- scale_base = `2`
+- scale_scale = `2`
+- scale_baseIndex = `400`
+
+#### Scales Math
+
+Geometric scale:
+
+```
+functionGeo(index) = YPL-TKSC-scales-base * YPL-TKSC-scales-scale ^ round((200 + index - YPL-TKSC-scales-base-index) / 100)
+```
+
+Arithmetic scale #1:
+
+```
+functionArithSt(index) = functionGeo(YPL-TKSC-scales-base-index) + functionGeo(YPL-TKSC-scales-base-index)*((index - 400) / 100)
+```
+
+Arithmetic scale #2:
+
+```
+functionArithNd(index) = functionArithSt(index - 100) * 1.5
+```
