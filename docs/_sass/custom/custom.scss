@@ -148,9 +148,10 @@ table, th, td {
 }
 th {
     text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: +1px;
+    font-weight: 400;
+    letter-spacing: +0.7px;
     font-size: 12px !important;
+    color: #bbb !important;
 }
 th, td {
     border-bottom: 1px solid rgba(156, 156, 156, 0.3) !important;

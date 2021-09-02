@@ -6,39 +6,14 @@ parent: Choices
 nav_order: 10
 ---
 
+
+
 # Sizes
 {: .no_toc}
 <!-- ↑ skips H1 inside TOC -->
 
 - TOC
 {:toc}
-
-## Sizes vs Space & Friends
-
-|Token|Description|*Figma Tokens* Type|Real Unit|Figma Unit|
-| --- | --- | --- | --- | --- |
-|**Scales**|
-|Sizes| YPL abstraction | `other`|N/A|N/A|
-|Sizing| *Figma Tokens* | `sizing`|pt|px|
-|Space| *Figma Tokens* | `spacing`|pt|px|
-|**Typography**|
-|Font Sizes| WIP | `fontSizes`|pt|px|
-|Leading| WIP  | `lineHeights`|pt|px|
-|Paragraph Spacing| WIP  | `paragraphSpacing`|pt|px|
-|Tracking| WIP  | `letterSpacing`|pt|%|
-|**Break Points**|
-|Break Point| YPL abstraction - CSS | `other`|px| N/A|
-|**Borders**|
-|Border Width| WIP | `borderWidth`|px|px|
-|Border Radius| WIP | `borderRadius`|pt| px|
-|**Shadow**|
-|Drop Shadow h-offset| WIP | `boxShadow`&nbsp;.value.x|pt|px|
-|Drop Shadow v-offset| WIP | `boxShadow`&nbsp;.value.y|pt|px|
-|Drop Shadow Spread| WIP | `boxShadow`&nbsp;.value.spread|pt|px|
-|Drop Shadow Blur Radius | WIP | `boxShadow`&nbsp;.value.blur|pt|px|
-
-
-
 
 
 
@@ -52,6 +27,40 @@ Thus we try to use **Point (1/72 inch)** when possible. Note that Figma uses a 7
 ### Pixels
 
 To avoid pixel hinting issues we then switch to Pixel. Border Width or even button sizes are examples where we need to switch to deliver a pixel perfect end result.
+
+
+## Sizes vs Space & Friends
+
+We use different concepts to handle sizes, measurements and proportions; among which "dimensions", "scales", "ratios", etc. This table presents and almost comprehensive breakdown of these concepts and related attributes:
+
+|Token|Description|*Figma Tokens* Type|Pasta Unit|Figma Unit|
+| --- | --- | --- | --- | --- |
+|Dimensions| YPL abstraction | `other`|N/A|N/A|
+|Scales| YPL abstraction | `other`|N/A|N/A|
+|Sizes| *Figma Tokens* | `sizing`|pt|px|
+|Spaces| *Figma Tokens* | `spacing`|pt|px|
+|**Typography**|
+|Font Sizes| WIP | `fontSizes`|pt|px|
+|Leadings| WIP  | `lineHeights`|pt|px|
+|Line Breaks (Paragraph Spacing)| WIP  | `paragraphSpacing`|ratio|px|
+|Trackings| WIP  | `letterSpacing`|pt|%|
+|**Break Points**|
+|Break Points| YPL abstraction - CSS | `other`|px| N/A|
+|**Borders**|
+|Border Widths| WIP | `borderWidth`|px|px|
+|Border Radii| WIP | `borderRadius`|pt| px|
+|**Shadow**|
+|Drop Shadow h-offsets| WIP | `boxShadow`&nbsp;.value.x|pt|px|
+|Drop Shadow v-offsets| WIP | `boxShadow`&nbsp;.value.y|pt|px|
+|Drop Shadow Spreads| WIP | `boxShadow`&nbsp;.value.spread|pt|px|
+|Drop Shadow Blur Radii | WIP | `boxShadow`&nbsp;.value.blur|pt|px|
+
+
+## Base, ratios and factors
+
+
+
+
 
 ## Scales
 
@@ -226,28 +235,37 @@ Up to the Index base (100-400) with use a geometric function, this scale encompa
 
 **Proportional**. That's why. We want the power of "one constant to rule them all": if you change the Super Choice `scale_base` then everything will fall into place and grow or shrink in proportion, while keeping the relationship we want in between those sizes.
 
-#### Super Choices:
+#### Super Choices
 
-- scale_base = `2`
-- scale_scale = `2`
-- scale_baseIndex = `400`
+… and their default value:
+
+- `TKUI_SC.scale.base` = `2`
+- `TKUI_SC.scale.ratio` = `2`
+- `TKUI_SC.scale.baseIndex` = `400`
 
 #### Scales Math
 
-Geometric scale:
+Geometric scale A:
 
 ```
-functionGeo(index) = YPL-TKSC-scales-base * YPL-TKSC-scales-scale ^ round((200 + index - YPL-TKSC-scales-base-index) / 100)
+functionGeoA(index) = round(TKUI_SC.scales.base * TKUI_SC.scales.ratio ^ ((200 + index - TKUI_SC.scales.baseIndex) / 100))
 ```
 
-Arithmetic scale #1:
+Arithmetic scale A:
 
 ```
-functionArithSt(index) = functionGeo(YPL-TKSC-scales-base-index) + functionGeo(YPL-TKSC-scales-base-index)*((index - 400) / 100)
+functionArithA(index) =  TKUI_SC.scales.base * (8 + (index - TKUI_SC.scales.baseIndex)/100)
 ```
 
-Arithmetic scale #2:
+Arithmetic scale B:
 
 ```
-functionArithNd(index) = functionArithSt(index - 100) * 1.5
+functionArithB(index) = functionGeoA(TKUI_SC.scales.baseIndex) + functionGeoA(TKUI_SC.scales.baseIndex)*((index - 400) / 100)
+```
+
+
+Arithmetic scale C:
+
+```
+functionArithC(index) = functionArithB(index - 100) * 1.5
 ```
