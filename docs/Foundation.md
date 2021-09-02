@@ -96,10 +96,34 @@ The types of objects described inside Pasta's Design System are named following 
 
 Naming convention inside YPL is strict. This helps to easily identify objects just by reading their name.
 
-![]({{site.baseurl}}/assets/images/YPL-DOC-naming-001.png)
+### Plural vs Singular
+
+The name (stem) of categories or types of attribute are plural. ie:
+
+`colors`, `ratios`, `radii`
+
+The name (stem) of an item, or one instance, of an attribute are singular. ie:
+
+`color`, `ratio`, `radius`
+
+This helps to distinguish groups from singular items, easily.
+
+### Name construction and Stems
+
+To understand the difference between Choices and Decisions Tokens please refer to [this section](http://localhost:4000/pasta/Tokens/#choices-decisions-and-aliases).
+
+#### Choices
+
+![]({{site.baseurl}}/assets/images/YPL-DOC-naming-choices-01.png)
+
+#### Decisions
+
+![]({{site.baseurl}}/assets/images/YPL-DOC-naming-decisions-01.png)
 
 Names are made of Stems (or Morphemes) split in 3 categories: the Domain (prefix) followed by the Selectors sequence followed by Modifiers. Stems are separated by the en dash character ` - ` (U+2013).
 The first Stem is always `YPL` and if the object is interactive it always ends with a State Stem.
+
+
 
 ### Stem Categories
 
@@ -150,8 +174,8 @@ Some example of Selectors:
 
 Consequently, the variable below is a Decision Token that should only be applied to buttons contained inside a `hero` block (pattern) and that will target its border-color attribute (and set its property to #333):
 
-```scss
-$YPL-TKUID-hero-button-border-color: #333;
+```js
+TKUI_D.hero.button.border.color: #333;
 ```
 
 ### Modifiers
