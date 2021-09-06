@@ -2,7 +2,7 @@
 layout: default
 title: Button
 parent: Components
-nav_order: 10
+nav_order: 100
 ---
 
 # Button
@@ -21,10 +21,9 @@ We want to calculate our buttons size (height) as function of their text/label s
 
 ### Anatomy
 
-![This is a representation of a component and its attributes]({{site.baseurl}}/assets/images/YPL-DOC-button-002.png)
+<!--[This is a representation of a component and its attributes]({{site.baseurl}}/assets/images/YPL-DOC-button-002.png)-->
 
-<!-- ![This is a representation of a component and its attributes]({{site.baseurl}}/assets/images/YPL-DOC-Image_Placeholder-full.png) -->
-
+![This is a representation of a component and its attributes](http://localhost:4000/pasta/assets/images/YPL-DOC-button-002.png)
 
 
 [Figma File](https://www.figma.com/file/zYeBHpXPApw1ujD0BoHjVe/Buttons?node-id=155%3A1786){: .btn }
@@ -73,7 +72,7 @@ YPL.TKD.button.margin.left
 // RADIUS
 YPL.TKD.button.border.radius
 ```
-<!-- 
+<!--
 ## Variants
 
 ## Do's and Dont's

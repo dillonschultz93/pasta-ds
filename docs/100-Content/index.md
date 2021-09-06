@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Patterns
-nav_order: 9
+title: Content
+nav_order: 100
 has_children: true
 ---
 
-# Patterns
+# Content

@@ -32,8 +32,7 @@ base: {
     type: "other"
 }
 ```
-{: .dosdonts-dont }
-
+<hr class="dd-do">
 
 Don't do that:
 
@@ -43,6 +42,7 @@ base: {
     type: other
 }
 ```
+<hr class="dd-dont">
 
 #### Convert your HJSON
 
@@ -170,12 +170,12 @@ Foremost, this category can be used to store large-scope constants and variables
 
 Constants: {
   some_random_constant: {
-   value: 8
-   type: other
+   value: "8"
+   type: "other"
   }
   another_random_thing: {
-   value: 1024
-   type: other
+   value: "1024"
+   type: "other"
   }
 }
 ```
@@ -187,12 +187,12 @@ Constants: {
 
 shadow-medium: {
   value: {
-   x: 0
-   y: 4
-   spread: 0
-   color: hsla(0,0,0,0.2)
-   blur: 20
+   x: "0"
+   y: "4"
+   spread: "0"
+   color: "hsla(0,0,0,0.2)"
+   blur: "20"
   }
-  type: boxShadow
+  type: "boxShadow"
 }
 ```

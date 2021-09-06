@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Tools
-nav_order: 30
+title: Patterns
+nav_order: 90
 has_children: true
 ---
 
-# Tools
+# Patterns

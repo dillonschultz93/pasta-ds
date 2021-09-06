@@ -245,26 +245,26 @@ Up to the Index base (100-400) with use a geometric function, this scale encompa
 
 #### Scales Math
 
-Geometric scale A:
+Geometric Scale A:
 
 ```
 functionGeoA(index) = round(TKUI_SC.scales.base * TKUI_SC.scales.ratio ^ ((200 + index - TKUI_SC.scales.baseIndex) / 100))
 ```
 
-Arithmetic scale A:
+Arithmetic Scale A:
 
 ```
 functionArithA(index) =  TKUI_SC.scales.base * (8 + (index - TKUI_SC.scales.baseIndex)/100)
 ```
 
-Arithmetic scale B:
+Arithmetic Scale B:
 
 ```
 functionArithB(index) = functionGeoA(TKUI_SC.scales.baseIndex) + functionGeoA(TKUI_SC.scales.baseIndex)*((index - 400) / 100)
 ```
 
 
-Arithmetic scale C:
+Arithmetic Scale C:
 
 ```
 functionArithC(index) = functionArithB(index - 100) * 1.5

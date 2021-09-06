@@ -3,7 +3,7 @@ layout: default
 title: Elevations
 grand_parent: Tokens
 parent: Choices
-nav_order: 30
+nav_order: 40
 ---
 
 # Elevations
