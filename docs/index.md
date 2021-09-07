@@ -4,9 +4,6 @@ title: YPL
 nav_order: 1
 has_children: false
 ---
-
-Pasta v0.1.0
-
 <h1>Yummly <span class="titleLight">Math-Based</span><br>Product Language</h1>
 
 ## Introduction

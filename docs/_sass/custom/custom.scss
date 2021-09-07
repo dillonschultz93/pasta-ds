@@ -7,6 +7,7 @@ $root-font-size: 18px; // doesn't seem to work
   font-weight: 600 !important;
   letter-spacing: 0.4px !important;
 }
+
 // background colors
 body {
   background-color: #fcfcfc;
@@ -25,10 +26,10 @@ body {
     padding-left: 1rem;
   }
 }
+
 // decorations footers etc
 .site-logo {
   width: 70%;
-  // background-image: none;
 }
 
 .site-button {
@@ -67,6 +68,9 @@ body {
 .side-bar a {
   color: #333;
 }
+
+// Navigation
+
 .nav-list .nav-list-item {
   margin: 0.4rem 1rem;
 }
@@ -75,7 +79,10 @@ body {
   background-image: none;
   background-color: #e9e9e9 !important;
   border-radius: 4px;
-  // margin: 0.4rem;
+}
+.nav-list-item:hover .nav-list-expander {
+  opacity: 0.8;
+  transition: opacity 0.6s;
 }
 .nav-list-expander {
   // display: none;
@@ -84,14 +91,15 @@ body {
   margin-right: 1rem;
   transition: opacity 0.6s;
 }
+.nav-list li {
+  margin: 0.4rem 0.4rem;
+}
+li li .nav-list-expander {
+  margin-right: 0;
+}
 .nav-list-expander:hover {
   background-color: transparent !important;
 }
-.nav-list-item:hover .nav-list-expander {
-  opacity: 0.8;
-  transition: opacity 0.6s;
-}
-
 
 
 
@@ -124,6 +132,15 @@ div.highlighter-rouge pre.highlight {
   padding-right: 6px;
 }
 
+h1 .language-plaintext {
+  display: inline-block;
+  vertical-align: text-top;
+  font-size: 18px;
+  color: hsla(0,0,0,0.7);
+  letter-spacing: -1px;
+  padding: 0px 8px;
+}
+
 .highlighter-rouge pre > * {
   font-size: 14px;
 }
@@ -139,7 +156,7 @@ h1 {
   font-size: 58px !important;
   line-height: 60px;
   font-weight: 600;
-  margin-bottom: 3.2rem !important;
+  margin: 2rem 0 2rem 0 !important;
   letter-spacing: 0;
 }
 
@@ -200,16 +217,18 @@ img {
   border-radius: 8px;
   // background-color: $grey-lt-000;
   background-color: #fff;
-  border: 1px solid #f3f3f3;
+  border: 1px solid hsla(0,0,0,0.1);
   margin: 2rem 0;
   transform: translate3d(0,0,0);
 }
+
+
 // TABLES
 .table-wrapper {
   // padding: 8px;
   box-shadow: none;
   border-radius: 0;
-  margin: 1.4rem 0 !important;
+  margin: 1.6rem 0 3.6rem 0 !important;
   background-color: transparent;
 }
 
@@ -227,13 +246,16 @@ th {
   font-weight: 400;
   letter-spacing: +0.7px;
   font-size: 12px !important;
-  color: #bbb !important;
+  color: rgba(0,0,0,0.6) !important;
 }
 
 td,
 th {
-  border-bottom: 1px solid rgba(156, 156, 156, 0.3) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07) !important;
   padding: 1rem;
+}
+th {
+  border-color: rgba(0, 0, 0, 0.07) !important;
 }
 
 td {
@@ -325,7 +347,7 @@ p + .dd-dont {
 }
 
 .dd-dont::after {
-  content: "do not";
+  content: "don't";
   color: #F13333;
   // float: right;
   font-size: 11px;
