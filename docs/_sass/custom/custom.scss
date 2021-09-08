@@ -370,3 +370,74 @@ p + .dd-dont {
     margin-left: calc((100% - 1200px) / 2 + 264px);
   }
 }
+
+.layout3cols {
+  margin: 3rem 0;
+  display: flex !important;
+  gap: 20px !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  flex-wrap: wrap;
+}
+.card-link {
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0);
+  transform: translateY(0);
+  width: 30%;
+  min-width: 200px;
+  flex-grow: 1;
+  background-color: #222;
+  color: #ccc;
+  border-radius: 5px;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.card-link:hover {
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
+  transform: translateY(-6px);
+  transition: all 0.4s;
+}
+.card-link:hover > h8 {
+  opacity: 0.4;
+  // filter: blur(3px);
+  transition: all 0.4s;
+}
+.card-link:hover > p {
+  color: transparent;
+  transition: all 0.6s;
+}
+.card-link:hover > p span {
+  color: #ddd;
+  transition: all 0.4s;
+}
+.card-link:hover > p span::after {
+  content: "  →";
+  transition: all 0.4s;
+  transition-delay: all 1s;
+}
+.card-link:hover > svg {
+  fill: #444;
+  filter: blur(3px);
+  transition: all 0.4s;
+}
+.card-link h8 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  hyphens: auto;
+  transition: all 0.4s;
+}
+.card-link p {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #aaa;
+  min-height: 9rem;
+  transition: all 0.4s;
+}
+.card-link svg {
+  width: 80%;
+  margin: 0 10%;
+  fill: #999;
+  transition: all 0.4s;
+}
