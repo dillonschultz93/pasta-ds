@@ -19,11 +19,15 @@ nav_order: 10
 ## Units
 
 ### Points
+{: .no_toc}
+
 
 We want to express Sizes using an absolute 1:1 scale as much as we can.
 Thus we try to use **Point (1/72 inch)** when possible. Note that Figma uses a 72 dpi resolution, which makes the conversion easy at `1x`: 1 pt = 1 px.
 
 ### Pixels
+{: .no_toc}
+
 
 To avoid pixel hinting issues we then switch to Pixel. Border Width or even button sizes are examples where we need to switch to deliver a pixel perfect end result.
 
@@ -218,6 +222,8 @@ We use different concepts to handle sizes, measurements and proportions; among w
 </table>
 
 ### 3 entangled scales
+{: .no_toc}
+
 
 Scales are tools that allow us to derivate all our sizes from a very limited number of Super Choices:
 
@@ -231,10 +237,14 @@ We use 3 scales that trickle down into each other at different Index-threshold:
 Up to the Index base (100-400) with use a geometric function, this scale encompass the usual power of 2 sizes [1,2,4,8,16,32,64,128 …]. This geometric scale then feeds the arithemtic scale #1 that takes over in the 500 to 1100 index range. Then this scale will feed the arithmetic scale #2 where we cherry pick some of its value.
 
 ### Why?
+{: .no_toc}
+
 
 **Proportional**. That's why. We want the power of "one constant to rule them all": if you change the Super Choice `scale_base` then everything will fall into place and grow or shrink in proportion, while keeping the relationship we want in between those sizes.
 
 #### Super Choices
+{: .no_toc}
+
 
 … and their default value:
 
@@ -243,6 +253,8 @@ Up to the Index base (100-400) with use a geometric function, this scale encompa
 - `TKUI_SC.scale.baseIndex` = `400`
 
 #### Scales Math
+{: .no_toc}
+
 
 Geometric Scale A:
 

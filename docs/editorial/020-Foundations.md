@@ -17,10 +17,16 @@ nav_order: 20
 ### Accessible
 {: .no_toc}
 
+{: .no_toc}
+
 ### Definite
 {: .no_toc}
 
+{: .no_toc}
+
 ### Transferable
+{: .no_toc}
+
 {: .no_toc}
 
 ## Taxonomy
@@ -112,6 +118,8 @@ We distinguish tokens targeting *User Interface* elements from *Content* element
 
 
 ### Choices, Decisions and Aliases
+{: .no_toc}
+
 
 Tokens are splits into 3 main catageories:
 
@@ -127,6 +135,8 @@ Tokens are splits into 3 main catageories:
 
 
 ### Math Tokens
+{: .no_toc}
+
 
 `Math` Tokens contain math operations. We do not distinguish between Math and Decisions, aka a Decision token can be substitute with a Math Token.
 
@@ -138,6 +148,8 @@ Tokens are splits into 3 main catageories:
 
 
 ### Super Tokens
+{: .no_toc}
+
 
 At the higher possible scope Pasta has Super Tokens or "Supers".
 They a the few Tokens that rule them all.
@@ -156,6 +168,8 @@ NB: Decisions Tokens cannot be Supers.
 Naming convention inside YPL is strict. This helps to easily identify objects just by reading their name.
 
 ### Plural vs Singular
+{: .no_toc}
+
 
 The name (stem) of categories or types of attribute are plural. ie:
 
@@ -168,10 +182,14 @@ The name (stem) of an item, or one instance, of an attribute are singular. ie:
 This helps to distinguish groups from singular items, easily.
 
 ### Name construction and Stems
+{: .no_toc}
 
-To understand the difference between Choices and Decisions Tokens please refer to [this section](http://localhost:4000/pasta/Tokens/#choices-decisions-and-aliases).
+
+To understand the difference between Choices and Decisions Tokens please refer to [this section]({{site.baseurl}}/foundations#choices-decisions-and-aliases).
 
 #### Choices
+{: .no_toc}
+
 {: .no_toc}
 
 ![]({{site.baseurl}}/assets/images/YPL-DOC-naming-choices-01.png)
@@ -179,25 +197,33 @@ To understand the difference between Choices and Decisions Tokens please refer t
 #### Decisions
 {: .no_toc}
 
+{: .no_toc}
+
 ![]({{site.baseurl}}/assets/images/YPL-DOC-naming-decisions-01.png)
 
-Names are made of Stems (or Morphemes) split in 3 categories: the Domain (prefix) followed by the Selectors sequence followed by Modifiers. Stems are separated by the en dash character ` . ` (dot).
-The first Stem is always `YPL` and if the object is interactive it always ends with a State Stem.
-
-
+Names are made of Stems (or Morphemes) split in 3 categories: the Domain (prefix) followed by the Selectors sequence followed by Modifiers. Stems are separated by the dot character ` . ` .
+Once exproted, the first Stem is always `YPL`. If the object is interactive it always ends with a State Stem.
 
 ### Stem Categories
+{: .no_toc}
+
 
 #### Domain
+{: .no_toc}
+
 {: .no_toc}
 
 
 ##### Namespace
 {: .no_toc}
 
+{: .no_toc}
+
 Within figma the Namespace `YPL` is ignored, but Pasta Tokens names always includes it within their Prefixes once exported.
 
 ##### Project
+{: .no_toc}
+
 {: .no_toc}
 
 Pasta structure allows the creation of siloed Projects. Consequently, the token names must always include the Project stem it belongs to. Examples:
@@ -208,6 +234,8 @@ Pasta structure allows the creation of siloed Projects. Consequently, the token 
 |`LGN` |Linguine|Design System template - Sandbox for future projects|
 
 ##### Kingdom
+{: .no_toc}
+
 {: .no_toc}
 
 The Kingdom defines what category of token you are dealing with:
@@ -223,6 +251,8 @@ The Kingdom defines what category of token you are dealing with:
 | `TK_C_` | **Prefix for Content Tokens** replace the first 5 letters above to infer the name of Content Related tokens |
 
 #### Selector
+{: .no_toc}
+
 {: .no_toc}
 
 The Selectors Stems are often aggregated into a sequence that mimics CSS attributes logic. In the example addressed here we have to follow this specific order:
@@ -258,11 +288,15 @@ YPL.FFL.TKUI_D.button.border.color.hero: #333;
 ```
 
 ### Modifiers
+{: .no_toc}
+
 
 Modifiers modify/override an object style when applied.
 They are split in 4 categories: Schemes, Parents, Discrete Modifiers and States.
 
 #### Schemes
+{: .no_toc}
+
 {: .no_toc}
 
 Schemes are large-scope modifiers, they usually applies to a vast set of objects. When forming a sequence Schemes Types follow a hierarchy and should be presented in this order: Mode › Theme › Compliance-Criteria
@@ -281,6 +315,8 @@ NB: large scope Stems includes prefixes using capitals letter and underscore to 
 #### Parent, block, container
 {: .no_toc}
 
+{: .no_toc}
+
 A Parent is the Parent Container of the targetted Object. They influence subsets of objects or specific objects within a same Schemes scope
 
 | Examples | Type | |
@@ -289,6 +325,8 @@ A Parent is the Parent Container of the targetted Object. They influence subsets
 | `article` | Parent | Container, parent of grand-parent of the target |
 
 #### Discrete Modifiers
+{: .no_toc}
+
 {: .no_toc}
 
 Discrete Modifiers influence subsets of objects or specific objects within a same Scheme scope.
@@ -301,6 +339,8 @@ Discrete Modifiers influence subsets of objects or specific objects within a sam
 | `small` | Attribute | Selects objects via another of their attributes |
 
 #### States
+{: .no_toc}
+
 {: .no_toc}
 
 States are dynamic Modifiers, they vary in time following various inputs and feedback including user interaction.
@@ -327,6 +367,8 @@ YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 
 
 ### Index convention
+{: .no_toc}
+
 
 
 |Index|Font Weight|Luminance|
@@ -350,8 +392,12 @@ YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 
 
 ### Infering color index
+{: .no_toc}
+
 
 #### Luminance Index
+{: .no_toc}
+
 {: .no_toc}
 
 ![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-010-shadesIndex.png)
@@ -370,6 +416,8 @@ Ressources:
 
 
 #### Index convention
+{: .no_toc}
+
 {: .no_toc}
 
 | Stem | Luminance | Font-Weight Equivalence |
@@ -417,15 +465,21 @@ Ressources:
 
 
 ### Root name
+{: .no_toc}
+
 
 ![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-011-primarySecondaryTertiary.png)
 
 #### Root names scope and protanopia
 {: .no_toc}
 
+{: .no_toc}
+
 ![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-012-PST-scopes-protanopia.png)
 
 ### Naming protocol
+{: .no_toc}
+
 
 
 <table class="layoutOnly">
@@ -476,14 +530,20 @@ Ressources:
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Inclusiveness
+{: .no_toc}
+
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Dark Mode
+{: .no_toc}
+
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 #### Colors shift
+{: .no_toc}
+
 {: .no_toc}
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
@@ -491,20 +551,30 @@ Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandi
 #### Fonts weight shift
 {: .no_toc}
 
+{: .no_toc}
+
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Icons platforms-contextual semantics
+{: .no_toc}
+
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Adaptive-Responsive-ness savviness
+{: .no_toc}
+
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Engineering & design bridging
+{: .no_toc}
+
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Ethical Design
+{: .no_toc}
+
 
 Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. -->

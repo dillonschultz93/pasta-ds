@@ -7,5 +7,22 @@ layout: default
 nav_order: 10
 ---
 
-
 # Typography `FFL`
+
+## Headings
+
+WIP · Image Placeholder
+
+![]({{site.baseurl}}/assets/images/YPL-DOC-typography-headings.png)
+
+## Paragraphs
+
+WIP · Image Placeholder
+
+![]({{site.baseurl}}/assets/images/YPL-DOC-typography-paragraphs.png)
+
+## Captions
+
+WIP · Image Placeholder
+
+![]({{site.baseurl}}/assets/images/YPL-DOC-typography-captions.png)
