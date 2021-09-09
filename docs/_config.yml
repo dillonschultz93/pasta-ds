@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/pasta" # the subpath of your site, e.g. /blog
 # ↓ edited from ""
 # the base hostname & protocol for your site, e.g. http://example.com
-# url: https://yummly.github.io/pasta/ 
+# url: https://yummly.github.io/pasta/
 
 # Build settings
 # ↓ edited
@@ -35,9 +35,9 @@ baseurl: "/pasta" # the subpath of your site, e.g. /blog
 remote_theme: pmarsceill/just-the-docs
 # theme: just-the-docs
 
-# calling pasta custom color scheme 
+# calling pasta custom color scheme
 color_scheme: pasta
-logo: "/assets/images/YPL-DOC-pasta-logo.svg"
+# logo: "/assets/images/YPL-DOC-pasta-logo.svg"
 
 plugins:
   - jekyll-feed
@@ -45,7 +45,7 @@ plugins:
 # Aux links for the upper right navigation
 # aux_links:
 #   "Pasta on GitHub":
-#     - "//github.com/yummly/pasta"  
+#     - "//github.com/yummly/pasta"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
