@@ -7,7 +7,7 @@ nav_order: 990
 
 # News
 
-## Image URL test
+## NB · ↑↓ Currently used to keep misc content snippets
 
 This is test to check how to write the URL so it converts properly on Github Pages.
 

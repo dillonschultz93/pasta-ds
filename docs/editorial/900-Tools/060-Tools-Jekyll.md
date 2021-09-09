@@ -99,27 +99,50 @@ Use the `{% raw %}{{site.baseurl}}{% endraw %}` moustache to access your assets,
 </table>
 ```
 
-### Layout Table
 
-Use this Class to build layout made of several columns:
+<section class="flex-1_1_1-cols">
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+</section>
 
-```html
-<table class="layoutOnly">
-<!-- <caption>my caption</caption> -->
-<thead>
-  <tr>
-    <th>Column</th>
-    <th>Column</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Cell</td>
-    <td>Cell</td>
-  </tr>
-</tbody>
-</table>
-```
+
+
+<section class="flex-1_1-cols">
+  <div>
+    <h3 id="2-cols-layout-1-2">2 Cols layout · 1/3 + 2/3</h3>
+
+    {% highlight html %}
+    <section class="flex-1_2-cols">
+      <div>
+        <!-- first col content -->
+      </div>
+      <div>
+        <!-- second col content -->
+      </div>
+    </section>
+    {% endhighlight %}
+
+  </div>
+  <div>
+    <h3 id="2-cols-layout-2-1">2 Cols layout · 2/3 + 1/3</h3>
+
+    {% highlight html %}
+    <section class="flex-2_1-cols">
+      <div>
+        <!-- first col content -->
+      </div>
+      <div>
+        <!-- second col content -->
+      </div>
+    </section>
+    {% endhighlight %}
+
+  </div>
+</section>
 
 
 ### Color Table (JS required)

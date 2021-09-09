@@ -6,12 +6,11 @@ has_children: false
 ---
 <h1>Yummly <span class="titleLight">Math-Based</span><br>Product Language</h1>
 
-<section class="layout3cols">
-
-  <div onclick="location.href='{{site.baseurl}}/foundations';" class="card-link">
+<section class="flex-1_1_1-cols">
+  <div onclick="location.href='{{site.baseurl}}/foundations#accessible';" class="card-link">
     <h8>Accessible</h8>
     <p>
-      <span>We want to welome all users to our experience</span>. This priority has lead the  engineering of Pasta and its foundations.
+      <span>We want to welcome all users to our experience</span>. This priority has lead the engineering of Pasta and its foundations.
     </p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
       <g>
@@ -21,7 +20,7 @@ has_children: false
     </svg>
   </div>
 
-  <div onclick="location.href='{{site.baseurl}}/foundations';"  class="card-link">
+  <div onclick="location.href='{{site.baseurl}}/foundations#definite';"  class="card-link">
       <h8>Definite</h8>
       <p>
         <span>Reverse-engineering ready, by design</span>. Our math-based design tokens allow developpers to breakdown all decisions.
@@ -40,10 +39,10 @@ has_children: false
       </svg>
   </div>
 
-  <div onclick="location.href='{{site.baseurl}}/foundations';" class="card-link">
+  <div onclick="location.href='{{site.baseurl}}/foundations#transferable';" class="card-link">
       <h8>Transferable</h8>
       <p>
-        <span>100% plateform agnostic</span>. Pasta surfaces principles, choices, decisions that can be translated for any tool or plateform.
+        <span>100% platform agnostic</span>. Pasta principles, choices, decisions easily translate to any tool or platform.
       </p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
         <g>
@@ -51,35 +50,38 @@ has_children: false
         </g>
       </svg>
   </div>
-
 </section>
+
+
 
 **Yummly Product Language (YPL) aka "Pasta"** is a collaborative bespoke environment that allows stakeholders to fast-track collaboration and decisions while building Yummly's user experiences.
 
-## Ingredients
-
-It is composed of:
-
-- A [committee](mailto:pasta@yummly.com)
-- Curators
-- Subscribers
-- Governance (reccuring meetings)
-- A Token-based Design System
-- Style Guides
-- Tools
-- And this very Knowledge Base (aka RTFM)
-
-## Principles
-
-<a href="http://www.geometryofpasta.com/"><img src="{{site.baseurl}}/assets/images/YPL-DOC-intro-book.gif" style="background-color: transparent; width: 60%; float: right; padding:2rem; border: none;"></a> Pasta is built on:
-
-- Explicit Decisions
-- Token strong inheritance scheme
-- UI vs Content dichotomy
-- Usability over maintenance
-- Semantic Versioning
-- "Document as you build" (rule)
-
-<br><br>
+<section class="flex-1_1-cols">
+  <div>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>A <a href="{{site.baseurl}}/committee">committee</a> of curators</li>
+      <li>Subscribers</li>
+      <li>Governance (reccuring meetings)</li>
+      <li>A Brand Style Guide</li>
+      <li>A Token-based Design System</li>
+      <li><a href="{{site.baseurl}}/tools">Tools</a></li>
+      <li>And this very Knowledge Base (aka RTFM)</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Principles</h2>
+    <ul>
+      <li>Explicit Decisions</li>
+      <li>Token strong inheritance scheme</li>
+      <li>UI vs Content dichotomy</li>
+      <li>Usability over maintenance</li>
+      <li>Semantic Versioning</li>
+      <li>Document as you build (rule)</li>
+    </ul>
+  </div>
+</section>
 
 <a href="https://popchart.co/products/the-permutations-of-pasta"><img src="{{site.baseurl}}/assets/images/YPL-DOC-ThePermutationsOfPasta.jpg" style="background-color: transparent; padding-top:2rem; filter: grayscale(100%);  border: none;"></a>
+
+<a href="http://www.geometryofpasta.com/"><img src="{{site.baseurl}}/assets/images/YPL-DOC-intro-book.gif" style="background-color: transparent; padding:2rem; border: none;"></a>

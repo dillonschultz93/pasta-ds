@@ -12,6 +12,16 @@ nav_order: 20
 - TOC
 {:toc}
 
+## Principles
+
+### Accessible
+{: .no_toc}
+
+### Definite
+{: .no_toc}
+
+### Transferable
+{: .no_toc}
 
 ## Taxonomy
 
@@ -171,7 +181,7 @@ To understand the difference between Choices and Decisions Tokens please refer t
 
 ![]({{site.baseurl}}/assets/images/YPL-DOC-naming-decisions-01.png)
 
-Names are made of Stems (or Morphemes) split in 3 categories: the Domain (prefix) followed by the Selectors sequence followed by Modifiers. Stems are separated by the en dash character ` - ` (U+2013).
+Names are made of Stems (or Morphemes) split in 3 categories: the Domain (prefix) followed by the Selectors sequence followed by Modifiers. Stems are separated by the en dash character ` . ` (dot).
 The first Stem is always `YPL` and if the object is interactive it always ends with a State Stem.
 
 
@@ -181,12 +191,31 @@ The first Stem is always `YPL` and if the object is interactive it always ends w
 #### Domain
 {: .no_toc}
 
-Pasta Names always include a Prefix built using our `YPL-` namespace and the Kingdom stem:
 
-| Stem | Meaning |
+##### Namespace
+{: .no_toc}
+
+Within figma the Namespace `YPL` is ignored, but Pasta Tokens names always includes it within their Prefixes once exported.
+
+##### Project
+{: .no_toc}
+
+Pasta structure allows the creation of siloed Projects. Consequently, the token names must always include the Project stem it belongs to. Examples:
+
+| Stem | Project |Description|
 | :--- | :--- | :---: |
-| `TKUI_SM` | Super Math UI Token |
+|`FFL` |Farfalle|Yummly main design system|
+|`LGN` |Linguine|Design System template - Sandbox for future projects|
+
+##### Kingdom
+{: .no_toc}
+
+The Kingdom defines what category of token you are dealing with:
+
+| Stem | Meaning | |
+| :--- | :--- | :---: |
 | `TKUI_SC` | Super Choice UI Token |
+| `TKUI_SM` | Super Math UI Token |
 | `TKUI_M` | UI Math Token |
 | `TKUI_C` | UI Choice Token |
 | `TKUI_D` | UI Decision Token |
@@ -196,27 +225,24 @@ Pasta Names always include a Prefix built using our `YPL-` namespace and the Kin
 #### Selector
 {: .no_toc}
 
-The Selectors Stems are often aggregated into a sequence that mimics CSS selectors logic. They go from lowest to highest granularity, from left to right. In the example addressed here we have to follow this specific order:
+The Selectors Stems are often aggregated into a sequence that mimics CSS attributes logic. In the example addressed here we have to follow this specific order:
 
 ```
-Parent(s) (Container) › Object › Object Feature › Object Feature Attribute
+Object › Object Feature › Object Feature Attribute › Parent (Modifier) 
 ```
 
-In other words a `hero-button-border-color` stems-sequence mimics the following CSS:
+In other words a `button.border.color.hero` stems-sequence maps to the following CSS:
 
 ```css
 .hero button {
     border-color: #333;
 }
 ```
-↑ The class `.hero` is a div (block) containing the targeted button component. Follows the Feature-Attribute sequence, in this case targeting the color of the border. Another example: `border-radius` would have targeted the radius of the border instead (duh!).
 
 Some example of Selectors:
 
 | Examples | Type | |
 | :--- | ---: | :--- |
-| `hero` | Parent | Container, parent of grand-parent of the target |
-| `article` | Parent | Container, parent of grand-parent of the target |
 | `button` | Component | targeted component |
 | `h1` | Primitive | targeted primitive |
 | `radio` | Component | targeted component |
@@ -228,13 +254,13 @@ Some example of Selectors:
 Consequently, the variable below is a Decision Token that should only be applied to buttons contained inside a `hero` block (pattern) and that will target its border-color attribute (and set its property to #333):
 
 ```js
-TKUI_D.hero.button.border.color: #333;
+YPL.FFL.TKUI_D.button.border.color.hero: #333;
 ```
 
 ### Modifiers
 
 Modifiers modify/override an object style when applied.
-They are split in 3 categories: Schemes, Discrete and States.
+They are split in 4 categories: Schemes, Parents, Discrete Modifiers and States.
 
 #### Schemes
 {: .no_toc}
@@ -243,14 +269,29 @@ Schemes are large-scope modifiers, they usually applies to a vast set of objects
 
 | Examples | Type | |
 | :--- | ---: | :--- |
-| `MD_dark` | Mode | Modes are the largest scope for styling, they encompass sub-schemes such as Themes and Compliance guidelines |
-| `pink` | Theme | Themes, or Skins, are often used to give a different flavor or note to sections of a GUI (ie: Pro) or bring diversity to content |
+| `MD_dark` | Drak Mode | Modes are the largest scope for styling, they encompass sub-schemes such as Themes and Compliance guidelines |
+| `TH_pink` | Theme | Themes, or Skins, are often used to give a different flavor or note to sections of a GUI (ie: Pro) or bring diversity to content |
 | `WCAG_AA` | Compliance Criteria | Those schemes are used to match specific guidelines such as WCGA |
+
+NB: large scope Stems includes prefixes using capitals letter and underscore to easily distinguish them from higher granularity selectors or attributes, ie:
+
+-  `MD_dark` is a Scheme
+-  Whereas `dark` is a shade
+
+#### Parent, block, container
+{: .no_toc}
+
+A Parent is the Parent Container of the targetted Object. They influence subsets of objects or specific objects within a same Schemes scope
+
+| Examples | Type | |
+| :--- | ---: | :--- |
+| `hero` | Parent | Container, parent of grand-parent of the target |
+| `article` | Parent | Container, parent of grand-parent of the target |
 
 #### Discrete Modifiers
 {: .no_toc}
 
-Discrete Modifiers influence subsets of objects or specific objects within a same scope.
+Discrete Modifiers influence subsets of objects or specific objects within a same Scheme scope.
 
 | Examples | Type | Description |
 | :--- | ---: | :--- |
@@ -278,10 +319,10 @@ States are dynamic Modifiers, they vary in time following various inputs and fee
 | `hp` | Highlighted Pressed | A control is on a Focused or Highlighted Pressed state |
 | `hu` | Highlighted Unfocused | The unselected/unfocus highlighted state (hu) is used when a control has the focus but its parent container loses the focus |
 
-Consequently, the variable below is a Decision Token that should only be applied to CTA buttons contained inside a `hero` block (pattern) and that will target its border-color attribute when in a highlighted-idle state if the dark-mode is active:
+Consequently, the variable below is a Decision Token that should only be applied to CTA buttons contained inside a `hero` block (Pattern) and that will target its border-color attribute when in a highlighted-idle state if the dark-mode is active:
 
 ```scss
-$YPL-TKUID-hero-button-border-color-MD_dark-CTA-hi: #333;
+YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 ```
 
 
@@ -345,42 +386,35 @@ Ressources:
 | > 900 | darks | "Jumbo" domain |
 
 
-<table class="layoutOnly">
-<!-- <caption>my caption</caption> -->
-<tbody>
-  <tr>
-    <td style="width: 100%">
-    <h4>Use Luminance<br>(LCH / YCL)</h4>
-      <p>
-        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
-      </p>
-    </td>
-    <td>
-      <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-011-indexingShadesYCL_LCH.png" alt="WIP">
-      <hr class="dd-do">
-    </td>
-  </tr>
-</tbody>
-</table>
 
 
-<table class="layoutOnly">
-<!-- <caption>my caption</caption> -->
-<tbody>
-  <tr>
-    <td style="width: 100%">
-    <h4>Don't use lightness or brightness<br>(HSL / HSB)</h4>
+
+<section class="flex-1_2-cols">
+  <div>
+    <h4 id="use-luminance-LCH-YCL">Use Luminance<br>(LCH / YCL)</h4>
     <p>
-      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
+      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
     </p>
-    </td>
-    <td>
-      <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-011-indexingShadesHSL.png" alt="WIP">
-      <hr class="dd-dont">
-    </td>
-  </tr>
-</tbody>
-</table>
+  </div>
+  <div>
+    <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-011-indexingShadesYCL_LCH.png" alt="WIP">
+    <hr class="dd-do">
+  </div>
+</section>
+
+<section class="flex-1_2-cols">
+  <div>
+    <h4 id="dont-use-lightness-HSL-HSB">Don't use lightness or brightness<br>(HSL / HSB)</h4>
+    <p>
+      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
+    </p>
+  </div>
+  <div>
+    <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-011-indexingShadesHSL.png" alt="WIP">
+    <hr class="dd-dont">
+  </div>
+</section>
+
 
 ### Root name
 
@@ -401,7 +435,7 @@ Ressources:
     <td style="width: 100%">
     <h4>Simple case</h4>
     <p>
-      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
+      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
     </p>
     </td>
     <td>
@@ -418,7 +452,7 @@ Ressources:
     <td style="width: 100%">
     <h4>Complex case</h4>
     <p>
-      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
+      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
     </p>
     </td>
     <td>
