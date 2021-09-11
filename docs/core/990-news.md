@@ -9,7 +9,7 @@ nav_order: 990
 
 ## NB · ↑↓ Currently used to keep misc content snippets
 
-This is test to check how to write the URL so it converts properly on Github Pages.
+This is a test to check how to write the URL so it converts properly on Github Pages.
 
 ```
 ![]({{site.baseurl}}/assets/images/YPL-DOC-naming-001.png)

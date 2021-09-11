@@ -385,7 +385,7 @@ YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 | > 900 | Required for other categories |  |
 
 
-## Naming Colors
+## Color Terms
 
 
 ![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-030-TokenNaming.png)
