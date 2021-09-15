@@ -15,7 +15,7 @@ nav_order: 10
   </div>
   <div>
     <h2 id="slack-channel">Slack channel</h2>
-    <p><a href="https://app.slack.com/client/T024V1JTN/C026U3USKDM/">Pasta Ops Channel</a> (you might require authorization access)</p>
+    <p><a href="https://app.slack.com/client/T024V1JTN/C026U3USKDM/">Pasta Ops Channel</a> (you might require authorization to access)</p>
   </div>
 </section>
 

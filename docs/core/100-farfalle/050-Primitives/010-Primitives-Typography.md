@@ -11,6 +11,13 @@ nav_order: 10
 
 ## Headings
 
+# This should be Europa Font, Inside Pasta!
+{: .Europa-ed-b}
+# Europa regular
+{: .Europa-ed-r}
+# Europa Light
+{: .Europa-ed-l}
+
 WIP · Image Placeholder
 
 ![]({{site.baseurl}}/assets/images/YPL-DOC-typography-headings.png)

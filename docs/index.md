@@ -6,8 +6,10 @@ has_children: false
 ---
 <h1>Yummly <span class="titleLight">Math-Based</span><br>Product Language</h1>
 
+**Yummly Product Language (YPL) aka "Pasta"** is a collaborative bespoke environment that allows stakeholders to fast-track collaboration and decisions while building Yummly's user experiences.
+
 <section class="flex-1_1_1-cols">
-  <div onclick="location.href='{{site.baseurl}}/foundations#accessible';" class="card-link">
+  <div onclick="location.href='{{site.baseurl}}/foundations#accessible';" class="cta-card-black">
     <h8>Accessible</h8>
     <p>
       <span>We want to welcome all users to our experience</span>. This priority has lead the engineering of Pasta and its foundations.
@@ -20,18 +22,11 @@ has_children: false
     </svg>
   </div>
 
-  <div onclick="location.href='{{site.baseurl}}/foundations#definite';"  class="card-link">
+  <div onclick="location.href='{{site.baseurl}}/foundations#definite';"  class="cta-card-black">
       <h8>Definite</h8>
       <p>
         <span>Reverse-engineering ready, by design</span>. Our math-based design tokens allow developpers to breakdown all decisions.
       </p>
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-        <g>
-          <path d="M126.28,89.73h-4.5v-12A2.77,2.77,0,0,0,119,75H100.18a2.89,2.89,0,0,0-3,2.74v12H76.31v-12a2.89,2.89,0,0,0-3-2.74H54.59a2.78,2.78,0,0,0-2.85,2.68v12h-4.5a3,3,0,0,0-2.85,2.94v86.4a2.8,2.8,0,0,0,2.8,2.74H126.3a2.8,2.8,0,0,0,2.86-2.69V92.67A3,3,0,0,0,126.28,89.73Zm-23.42-9h13.28v9H102.86Zm-45.48,0H70.66v9H57.38Zm66.1,95.47H50V138.59h73.44Zm0-43.22H50V95.38h73.44Z"/>
-          <path d="M208.74,132.93h-4.49V121a2.77,2.77,0,0,0-2.8-2.74H182.64a2.89,2.89,0,0,0-3,2.74v12H158.77V121a2.89,2.89,0,0,0-3-2.74H137.05a2.8,2.8,0,0,0-2.85,2.68v12h-7.88a3,3,0,0,0-2.86,2.93v86.41a2.8,2.8,0,0,0,2.8,2.74h82.51a2.79,2.79,0,0,0,2.85-2.69V135.86A3,3,0,0,0,208.74,132.93Zm-23.41-9H198.6v9H185.33Zm-45.48,0h13.28v9H139.85Zm66.09,95.47H129.11V181.79h76.83Zm0-43.22H129.11V138.58h76.83Z"/>
-          <path d="M123.46,176.14H44.38v46.13A2.79,2.79,0,0,0,47.17,225h79.12a2.79,2.79,0,0,0,2.85-2.69V176.14Zm0,43.22H50V181.79h73.43Z"/>
-        </g>
-      </svg> -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
         <g>
           <path d="M47.23,224.61a2.4,2.4,0,0,1-2.45-2.35V92.67a2.56,2.56,0,0,1,2.45-2.54h4.9V77.78a2.39,2.39,0,0,1,2.4-2.34h18.8a2.5,2.5,0,0,1,2.57,2.34V90.13h21.7V77.78a2.5,2.5,0,0,1,2.57-2.34H119a2.37,2.37,0,0,1,2.34,2.35V90.13h4.9a2.59,2.59,0,0,1,2.48,2.54v40.66h7.84V121a2.4,2.4,0,0,1,2.4-2.34h18.81a2.5,2.5,0,0,1,2.57,2.34v12.35h21.7V121a2.49,2.49,0,0,1,2.56-2.34H203.5a2.38,2.38,0,0,1,2.35,2.35v12.34h4.89a2.57,2.57,0,0,1,2.48,2.54v86.4a2.41,2.41,0,0,1-2.4,2.34Zm161.11-4.85V181.39h-79.6v38.37Zm-84.48,0V181.41H49.63v38.35Zm84.48-43.22V138.18H128.76v38.36Zm-84.48,0V138.19H49.64v38.35Zm0-43.2V95H49.64v38.36Zm77.12,0v-9.84H186.93v9.84Zm-45.47,0v-9.84H141.45v9.84Zm-39-43.2V80.29H102.46v9.84Zm-45.47,0V80.29H57v9.84Z"/>
@@ -39,7 +34,7 @@ has_children: false
       </svg>
   </div>
 
-  <div onclick="location.href='{{site.baseurl}}/foundations#transferable';" class="card-link">
+  <div onclick="location.href='{{site.baseurl}}/foundations#transferable';" class="cta-card-black">
       <h8>Transferable</h8>
       <p>
         <span>100% platform agnostic</span>. Pasta principles, choices, decisions easily translate to any tool or platform.
@@ -52,36 +47,15 @@ has_children: false
   </div>
 </section>
 
+<figure>
+    <blockquote cite="https://www.idean.com/micro/invent-design-systems" class="jumbo">
+      <p>
+        If someone has a meeting with you to figure out how to get onboard your design system, then you don't have a design system. you just have some assets that people need to be introduced to.
+      </p>
+    </blockquote>
+    <figcaption>Jeoff Wilks, IBM · <cite><a href="https://www.idean.com/micro/invent-design-systems">Hack the Design System, Idean</a></cite></figcaption>
+</figure>
 
-
-**Yummly Product Language (YPL) aka "Pasta"** is a collaborative bespoke environment that allows stakeholders to fast-track collaboration and decisions while building Yummly's user experiences.
-
-<section class="flex-1_1-cols">
-  <div>
-    <h2>Ingredients</h2>
-    <ul>
-      <li>A <a href="{{site.baseurl}}/committee">committee</a> of curators</li>
-      <li>Subscribers</li>
-      <li>Governance (reccuring meetings)</li>
-      <li>A Brand Style Guide</li>
-      <li>A Token-based Design System</li>
-      <li><a href="{{site.baseurl}}/tools">Tools</a></li>
-      <li>And this very Knowledge Base (aka RTFM)</li>
-    </ul>
-  </div>
-  <div>
-    <h2>Principles</h2>
-    <ul>
-      <li>Explicit Decisions</li>
-      <li>Token strong inheritance scheme</li>
-      <li>UI vs Content dichotomy</li>
-      <li>Usability over maintenance</li>
-      <li>Semantic Versioning</li>
-      <li>Document as you build (rule)</li>
-    </ul>
-  </div>
-</section>
-
-<a href="https://popchart.co/products/the-permutations-of-pasta"><img src="{{site.baseurl}}/assets/images/YPL-DOC-ThePermutationsOfPasta.jpg" style="background-color: transparent; padding-top:2rem; filter: grayscale(100%);  border: none;"></a>
+<a href="https://popchart.co/products/the-permutations-of-pasta"><img src="{{site.baseurl}}/assets/images/YPL-DOC-ThePermutationsOfPasta.jpg" style="background-color: transparent; padding-top:2rem; filter: grayscale(100%) invert(1);  border: none;"></a>
 
 <a href="http://www.geometryofpasta.com/"><img src="{{site.baseurl}}/assets/images/YPL-DOC-intro-book.gif" style="background-color: transparent; padding:2rem; border: none;"></a>

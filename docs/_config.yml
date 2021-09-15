@@ -22,25 +22,21 @@ title: Pasta
 email: pasta@yummly.com
 description: >- # this means to ignore newlines until "baseurl:"
       Yummly Product Language (YPL) aka “Pasta” is a collaborative bespoke environment that allows stakeholders to fast-track collaboration and decisions while building Yummly’s user experiences.
-# ↓ edited from ""
 baseurl: "/pasta" # the subpath of your site, e.g. /blog
-# ↓ edited from ""
-# the base hostname & protocol for your site, e.g. http://example.com
-# url: https://yummly.github.io/pasta/
 
-# Build settings
-# ↓ edited
-# theme: minima
-# ↓ edited #2
-remote_theme: pmarsceill/just-the-docs
 # theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 # calling pasta custom color scheme
 color_scheme: pasta
+
 # logo: "/assets/images/YPL-DOC-pasta-logo.svg"
 
 plugins:
   - jekyll-feed
+
+
+
 
 # Aux links for the upper right navigation
 # aux_links:
@@ -66,5 +62,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# theme: jekyll-theme-cayman

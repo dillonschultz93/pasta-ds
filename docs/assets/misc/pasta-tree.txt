@@ -1,0 +1,119 @@
+pasta
+  docs
+    _sass
+      color_schemes
+        pasta.scss
+      custom
+        custom.scss
+    assets
+      farfalle
+        design-tokens
+        images
+        js
+      images
+      js
+      linguine
+        design-tokens
+        images
+        js
+    core
+      020-Foundations
+      100-farfalle
+        040-Tokens
+        050-Primitives
+        070-Components
+        090-Patterns
+        100-Content
+        index.md
+      890-linguine
+      900-tools
+      980-commitee
+      990-news
+    index.md
+
+pasta
+└─ docs
+    ├─ _sass
+    │   ├─ color_schemes
+    │   │   └─ pasta.scss
+    │   └─ custom
+    │       └─ custom.scss
+    ├─ assets
+    │   ├─ farfalle
+    │   │   ├─ design-tokens
+    │   │   ├─ images
+    │   │   └─ js
+    │   ├─ images
+    │   ├─ js
+    │   └─ linguine
+    │       ├─ design-tokens
+    │       ├─ images
+    │       └─ js
+    ├─ core
+    │   ├─ 020-Foundations
+    │   ├─ 100-farfalle
+    │   │   ├─ 040-Tokens
+    │   │   ├─ 050-Primitives
+    │   │   ├─ 070-Components
+    │   │   ├─ 090-Patterns
+    │   │   ├─ 100-Content
+    │   │   └─ index.md
+    │   ├─ 890-linguine
+    │   ├─ 900-tools
+    │   ├─ 980-commitee
+    │   └─ 990-news
+    └─ index.md
+
+
+pasta
+  docs
+    _sass
+    assets
+      farfalle
+      images
+      js
+      ⌾ linguine
+        ⌾ design-tokens
+        ⌾ images
+        ⌾ js
+    core
+      020-Foundations
+      100-farfalle
+      ⌾ 890-linguine
+        ⌾ 040-Tokens
+        ⌾ 050-Primitives
+        ⌾ 070-Components
+        ⌾ 090-Patterns
+        ⌾ 100-Content
+        ⌾ index.md
+      900-tools
+      980-commitee
+      990-news
+    index.md
+
+
+pasta
+└─ docs
+    ├─ _sass
+    ├─ assets
+    │   ├─ farfalle
+    │   ├─ images
+    │   ├─ js
+    │   └─ ⌾ linguine
+    │       ├─ ⌾ design-tokens
+    │       ├─ ⌾ images
+    │       └─ ⌾ js
+    ├─ core
+    │   ├─ 020-Foundations
+    │   ├─ 100-farfalle
+    │   ├─ ⌾ 890-linguine
+    │   │   ├─ ⌾ 040-Tokens
+    │   │   ├─ ⌾ 050-Primitives
+    │   │   ├─ ⌾ 070-Components
+    │   │   ├─ ⌾ 090-Patterns
+    │   │   ├─ ⌾ 100-Content
+    │   │   └─ ⌾ index.md
+    │   ├─ 900-tools
+    │   ├─ 980-commitee
+    │   └─ 990-news
+    └─ index.md

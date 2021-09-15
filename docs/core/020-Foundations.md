@@ -12,6 +12,33 @@ nav_order: 20
 - TOC
 {:toc}
 
+<section class="flex-1_1-cols">
+  <div>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>A <a href="{{site.baseurl}}/committee">committee</a> of curators</li>
+      <li>Subscribers</li>
+      <li>Governance (reccuring meetings)</li>
+      <li>A Brand Style Guide</li>
+      <li>A Token-based Design System</li>
+      <li><a href="{{site.baseurl}}/tools">Tools</a></li>
+      <li>And this very Knowledge Base (aka RTFM)</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Principles</h2>
+    <ul>
+      <li>Explicit Decisions</li>
+      <li>Token strong inheritance scheme</li>
+      <li>UI vs Content dichotomy</li>
+      <li>Usability over maintenance</li>
+      <li>Semantic Versioning</li>
+      <li>Document as you build (rule)</li>
+    </ul>
+  </div>
+</section>
+
+
 ## Principles
 
 ### Accessible
@@ -450,6 +477,7 @@ Ressources:
   </div>
 </section>
 
+
 <section class="flex-1_2-cols">
   <div>
     <h4 id="dont-use-lightness-HSL-HSB">Don't use lightness or brightness<br>(HSL / HSB)</h4>
@@ -482,99 +510,26 @@ Ressources:
 
 
 
-<table class="layoutOnly">
-<!-- <caption>my caption</caption> -->
-<tbody>
-  <tr>
-    <td style="width: 100%">
-    <h4>Simple case</h4>
+<section class="flex-1_2-cols">
+  <div>
+    <h4 id="simple-case">Simple case</h4>
     <p>
       WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
     </p>
-    </td>
-    <td>
-      <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-020-indexingAndNaming.png" alt="WIP">
-    </td>
-  </tr>
-</tbody>
-</table>
+  </div>
+  <div>
+    <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-020-indexingAndNaming.png" alt="WIP">
+  </div>
+</section>
 
-<table class="layoutOnly">
-<!-- <caption>my caption</caption> -->
-<tbody>
-  <tr>
-    <td style="width: 100%">
-    <h4>Complex case</h4>
+<section class="flex-1_2-cols">
+  <div>
+    <h4 id="complex-case">Complex case</h4>
     <p>
       WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
     </p>
-    </td>
-    <td>
+  </div>
+  <div>
       <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-021-indexingAndNaming.png" alt="WIP">
-    </td>
-  </tr>
-</tbody>
-</table>
-
-<!--
-![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-020-indexingAndNaming.png)
-![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-021-indexingAndNaming.png) -->
-
-
-
-
-
-<!--
-## Criteria
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Inclusiveness
-{: .no_toc}
-
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Dark Mode
-{: .no_toc}
-
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-#### Colors shift
-{: .no_toc}
-
-{: .no_toc}
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-#### Fonts weight shift
-{: .no_toc}
-
-{: .no_toc}
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Icons platforms-contextual semantics
-{: .no_toc}
-
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Adaptive-Responsive-ness savviness
-{: .no_toc}
-
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Engineering & design bridging
-{: .no_toc}
-
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Ethical Design
-{: .no_toc}
-
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. -->
+  </div>
+</section>
