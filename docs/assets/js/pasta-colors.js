@@ -57,8 +57,8 @@ function updateColorStructureTable(theColorStructure, newColor) {
 
   // will collect our tokens
   var tokensArray = [];
-  var tokensScsstring = "";
-  var tokensFigmaString = "";
+  var tokensScsstring = "\n// SCSS\n";
+  var tokensFigmaString = "\n// HJSON ~> Figma \n\n{";
 
   // grabs darker light-mode background color
   const lightBg = document.querySelector('[data-tokenInfix="MD_light"] [data-tokenSuffix="dark"] .colorPicker').value;
@@ -154,13 +154,16 @@ function updateColorStructureTable(theColorStructure, newColor) {
   // feeding code section
 
   tokensArray.forEach (token => {
-    tokensScsstring = tokensScsstring + "$YPL-FFL-" + token[0].replace(/\./g,"-") + ": " + token[1] + "\n";
+    tokensScsstring = tokensScsstring + "\n$YPL-FFL-" + token[0].replace(/\./g,"-") + ": " + token[1] + ";";
   });
   theColorStructure.querySelector(".tokensCodeScss").innerHTML = tokensScsstring;
 
+
   tokensArray.forEach (token => {
-    tokensScsstring = tokensScsstring + token[0] + ": " + token[1] + "\n";
+    tokensFigmaString = tokensFigmaString + "\n\t\"FFL-" + token[0] + "\": {\n\t\t\"value\": \"" + token[1] + "\",\n\t\t\"description\": \"" + parseCamelCase(token[0].replace("TKUI_SC","").toLowerCase()," ").replace(/\./g," ") + "\",\n\t\t\"type\": \"color\"\n\t},";
   });
+  theColorStructure.querySelector(".tokensCodeFigma").innerHTML =  tokensFigmaString.slice(0, -1) + "\n}";
+
 
 
 }

@@ -56,6 +56,6 @@ has_children: false
     <figcaption>Jeoff Wilks, IBM · <cite><a href="https://www.idean.com/micro/invent-design-systems">Hack the Design System, Idean</a></cite></figcaption>
 </figure>
 
-<a href="https://popchart.co/products/the-permutations-of-pasta"><img src="{{site.baseurl}}/assets/images/YPL-DOC-ThePermutationsOfPasta.jpg" style="background-color: transparent; padding-top:2rem; filter: grayscale(100%) invert(1);  border: none;"></a>
+<a href="https://popchart.co/products/the-permutations-of-pasta" class="image-link"><img src="{{site.baseurl}}/assets/images/YPL-DOC-ThePermutationsOfPasta.jpg" id="thePermutationOfPasta" alt="The permutation of pasta poster"></a>
 
-<a href="http://www.geometryofpasta.com/"><img src="{{site.baseurl}}/assets/images/YPL-DOC-intro-book.gif" style="background-color: transparent; padding:2rem; border: none;"></a>
+<a href="http://www.geometryofpasta.com/" class="image-link"><img src="{{site.baseurl}}/assets/images/YPL-DOC-intro-book.gif" id="theGeometryOfPasta" alt="The geometry of pasta book"></a>

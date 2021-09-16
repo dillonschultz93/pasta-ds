@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/yummly/just-the-docs/
+  revision: e8424986370bef104e680e1443a83e475d2fead7
+  specs:
+    just-the-docs (0.3.3)
+      jekyll (>= 3.8.5)
+      jekyll-seo-tag (~> 2.0)
+      rake (>= 12.3.1, < 13.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -210,10 +219,6 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    just-the-docs (0.3.3)
-      jekyll (>= 3.8.5)
-      jekyll-seo-tag (~> 2.0)
-      rake (>= 12.3.1, < 13.1.0)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -280,7 +285,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 215)
   jekyll-feed (~> 0.12)
-  just-the-docs
+  just-the-docs (= 0.3.3)!
   webrick (~> 1.7)
 
 BUNDLED WITH

@@ -13,93 +13,68 @@ nav_order: 60
 - TOC
 {:toc}
 
-## This website
+<figure>
+    <blockquote cite="" class="jumbo">
+      <p markdown="1">
+        We are using [Jekyll](https://jekyllrb.com/) to build this website, <br>
+        aka Pasta Knowldge Base, <br>
+        aka Yummly Product Language Single Source of Truth.
+      </p>
+    </blockquote>
+    <!-- <figcaption>Author Name, Company · <cite><a href="">Source</a></cite></figcaption> -->
+</figure>
 
-<section class="flex-1_1-cols">
-    <div>
-      <p>
-        The beauty of <a href="https://jekyllrb.com/">Jekyll</a> is that it translates into a static website page or post whatever markup files you throw at it:</p>
-      <ul>
-        <li>Markdown</li>
-        <li>HTML</li>
-        <li>Markdown including HTML bits</li>
-      </ul>
-    <p>
-      You just need to include a YAML <a href="https://jekyllrb.com/docs/front-matter/">Front Matter block</a> at the top of your file →.<br><br>
-      <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll">Github pages use Jekyll</a>.This means free hosting, and easy versioning right from your Repository.
-    </p>
-    </div>
-    <div>
-      <p><strong>Current page Front Matter:</strong></p>
-      {% highlight yaml %}
-      ---
-      title: Jekyll
-      permalink: tools/jekyll
-      parent: Tools
-      layout: default
-      nav_order: 60
-      ---
-      {% endhighlight %}
-    </div>
+
+"Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, [and more →](https://jekyllrb.com/docs/)."
+
+
+## Get started
+
+<section class="flex-2_1-cols">
+      <div>
+The magic of Jekyll is that you can quickly start to contribute by using simple Markdown, and little by little go into more advanced layouts and editorial features:
+      </div>
+      <div>
+        <!-- second col content -->
+      </div>
 </section>
+<br>
+<code> 1 · Markdown </code> &nbsp;→&nbsp; <code> 2 · HTML inside Markdown </code> &nbsp;→&nbsp; <code> 3 · Add CSS' fun </code> &nbsp;→&nbsp; <code> 4 · Build a JS App </code>
 
-### Template: Just The Docs
-{: .no_toc}
-
-We are using [Just The Docs](https://pmarsceill.github.io/just-the-docs/). The template has its own set of features, styling and rules and you'd better get familiar with it if you have to contribute to the Pasta Knowledge Base.
-
-[RTFM](https://en.wikipedia.org/wiki/RTFM)
-{: .label}
-We highly recommend you read these 2 sections:
-
-|||
-| --- | --- |
-|Learn how to build your navigation structure|[Navigation Structure →](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/){: .btn}|
-|Learn usefull components to build your content|[UI Components →](https://pmarsceill.github.io/just-the-docs/docs/ui-components){: .btn}|
-{: .headless}
-
-### Tools
+### Let's gear up!
 {: .no_toc}
 
 ||||
 | --- | --- | --- |
+|MacDown App|New to MarkDown? A simple Mac OSX Markdown Editor ideal to start learning|[Grab it! →](https://macdown.uranusjr.com/){: .btn}|
 |Markdown Guide|New to MarkDown? Go there and learn how easy it is… |[Online Guide →](https://www.markdownguide.org/){: .btn}|
-|MacDown|New to MarkDown? A simple Mac OSX Markdown Editor ideal to start learning|[Grab it! →](https://macdown.uranusjr.com/){: .btn}|
 |Language Markdown| A recommended Atom package for [Atom](https://atom.io/) that probably highlight both MarkDown and HTML | [Grab Package →](https://atom.io/packages/language-markdown){: .btn } |
+|Atom|For more advanced code/text edtion we highly recommend to switch to a professional editor such as Github Atom|[Grab Atom →](https://atom.io/){: .btn }|
 |Critic Markup| Annotation convention that allows to collaborate inside markup docs| [Learn →](https://github.com/CriticMarkup/CriticMarkup-toolkit){: .btn }|
 {: .headless}
 
 
-<section class="flex-1_1_1-cols">
-  <div markdown="1">
-<!-- don't use tabs to interpret as markdown  -->
-#### Highlighter
+### Install Jekyll locally
 {: .no_toc}
-We recommend [Language-markdown](https://atom.io/packages/language-markdown), an Atom syntax Highlighter that properly highlights both HTML & Markdown code within a same `.md` document:
 
-[Grab it!](https://atom.io/packages/language-markdown){: .btn }
-  </div>
-  <div>
-  <!-- second col content -->
-  </div>
-  <div>
-  <!-- third col content -->
-  </div>
-</section>
+GEEK ZONE
+{: .label}
+If you need help for the following steps please contact our current [Pasta Documentation Curator]({{site.baseurl}}/committee)
 
+<br>
 
+||||
+| --- | --- | --- |
+|Github Desktop|A native app for newbies to avoid Git command-line | [Grab it! →](https://desktop.github.com/){: .btn }|
+{: .headless}
 
-
-## Install Jekyll locally
 
 1. <input type="checkbox" class="checklistItem"> Install Ruby and [Jekyll](https://jekyllrb.com/): You'll find an [installation tutorial here](https://jekyllrb.com/docs/installation/macos/).
-2. <input type="checkbox" class="checklistItem">  You need to clone Pasta Repo using Git or [Github Desktop]({{site.baseurl}}/tools/github#github-desktop-app).
+2. <input type="checkbox" class="checklistItem">  You need to clone our [Pasta Repo](https://github.com/yummly/pasta) using Git or [Github Desktop]({{site.baseurl}}/tools/github#github-desktop-app).
 3. <input type="checkbox" class="checklistItem"> Then everytime you need to run Jekyll make sure you are localized inisde the `pasta/docs` folder:
 
     ```shell
     cd ~/pasta/docs
-
-    // or on m
     ```
 
 4. <input type="checkbox" class="checklistItem">  First time, run the `bundle` command (from [Bundler](https://bundler.io/)) inside your  cloned Repo:
@@ -130,12 +105,141 @@ We recommend [Language-markdown](https://atom.io/packages/language-markdown), an
     ```
 {: .nobullets}
 
-## Rules
+## Jekyll Features
+
+<section class="flex-1_1-cols">
+  <div>
+    <p>
+      The beauty of <a href="https://jekyllrb.com/">Jekyll</a> is that it translates into a static website pages or posts whatever markup files you throw at it:
+    </p>
+    <ul>
+      <li>Markdown</li>
+      <li>HTML</li>
+      <li>Markdown embedding HTML bits!</li>
+    </ul>
+  <p>
+    You just need to include a YAML <a href="https://jekyllrb.com/docs/front-matter/">Front Matter block</a> at the top of your file →
+  </p>
+  </div>
+  <div>
+    <p><strong>ie: this page Front Matter:</strong></p>
+    {% highlight yaml %}
+    ---
+    title: Jekyll
+    permalink: tools/jekyll
+    parent: Tools
+    layout: default
+    nav_order: 60
+    ---
+    {% endhighlight %}
+  </div>
+</section>
+
+We host Pasta using <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll">Github pages</a>.
 
 
+## Just The Docs · Jekyll's template
+
+We are using [Just The Docs](https://pmarsceill.github.io/just-the-docs/). The template has its own set of features, styling and rules and you'd better get familiar with it if you have to contribute to Pasta.
+
+[RTFM](https://en.wikipedia.org/wiki/RTFM)
+{: .label}
+We highly recommend you read these 2 sections:
+
+|||
+| --- | --- |
+|Learn how to build your navigation structure|[Navigation Structure →](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/){: .btn}|
+|Learn usefull components to build your content|[UI Components →](https://pmarsceill.github.io/just-the-docs/docs/ui-components){: .btn}|
+{: .headless}
 
 
-## Markup Snippets
+#### Styling Pasta
+{: .no_toc}
+
+[DIRECTIVE](https://en.wikipedia.org/wiki/RTFM)
+{: .label}
+
+<br>
+**Dull by design**: Pasta look'n feel must remain colorless to never conflict with the elements and styles it showcase. Only shades of grey are allowed. We also require system fonts to be the default to not pull our readers into other consideration, focus should be on the content not its frame.
+
+We are using both the Theme [custom scheme](https://pmarsceill.github.io/just-the-docs/docs/customization/#custom-schemes) feature and [custom scss](https://pmarsceill.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles) to style Pasta to our liking.
+
+<hr>
+
+<section class="flex-2_1-cols">
+  <div markdown="1">
+#### Includes
+{: .no_toc}
+If you want to create new [Includes](https://jekyllrb.com/docs/includes/) you have to push them to our [Repo](https://github.com/yummly/just-the-docs) Cf.→. You need to put your Includes files at the root of the `_includes` folder.
+**Always Use the `pasta-` prefix** to distinguish them from the theme default Includes, ie:
+
+  <figure class="highlight">
+  <pre>
+  <code class="language-txt" data-lang="text">
+  _includes
+  ├─ css
+  ├─ js
+  ├─ vendor
+  └─ pasta-color-structure.html // ← example
+  </code>
+  </pre>
+  </figure>
+
+You can test your Includes before pushing them to our Theme Repo using a relative path directly and putting them directly inside Pasta's folder. Beware that your file, or its countainer folder, should be in the same folder as the doc calling it. Then call it as [explained here](https://jekyllrb.com/docs/includes/#including-files-relative-to-another-file):
+
+  <figure class="highlight">
+  <pre>
+  <code class="language-text" data-lang="text">
+  {% raw %}{% include_relative somedir/pasta-color-structure.html %}{% endraw %}
+  </code>
+  </pre>
+  </figure>
+
+
+  </div>
+  <div markdown="1">
+<!-- don't use tabs to interpret as markdown  -->
+#### Our forked theme
+{: .no_toc}
+In order to add [Includes](https://jekyllrb.com/docs/includes/), aka HTML fragments, inside Jekyll's root `_includes` folder we had to fork the theme:
+
+[Our forked Theme →](https://github.com/yummly/just-the-docs){: .btn }
+
+  <details>
+  <summary>For geeks</summary>
+
+Inside <code>_config.yml</code>:<br><br>
+
+  <figure class="highlight">
+  <pre>
+  <code class="language-yml" data-lang="yml">
+  // ↓ using yummly forked
+
+  remote_theme: yummly/just-the-docs
+  </code>
+  </pre>
+  </figure>
+
+Not sure this is necessary, inside <code>Gemfile</code>:<br><br>
+
+  <figure class="highlight">
+  <pre>
+  <code class="language-yml" data-lang="yml">
+  // ↓ using yummly forked
+
+  gem 'just-the-docs', '0.3.3', git: 'https://github.com/yummly/just-the-docs/'
+  </code>
+  </pre>
+  </figure>
+
+
+  </details>
+
+  </div>
+</section>
+
+
+## Usefull Snippets
 
 ### Relative URL
 {: .no_toc}

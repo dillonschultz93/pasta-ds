@@ -25,7 +25,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/pasta" # the subpath of your site, e.g. /blog
 
 # theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+# ↓ using pmarsceill repo
+# remote_theme: pmarsceill/just-the-docs
+# ↓ using yummly forked
+remote_theme: yummly/just-the-docs
 
 # calling pasta custom color scheme
 color_scheme: pasta
