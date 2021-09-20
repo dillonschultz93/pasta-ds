@@ -38,23 +38,18 @@ nav_order: 20
   </div>
 </section>
 
-
+<!--
 ## Principles
 
 ### Accessible
 {: .no_toc}
 
-{: .no_toc}
-
 ### Definite
 {: .no_toc}
 
-{: .no_toc}
-
 ### Transferable
-{: .no_toc}
+{: .no_toc} -->
 
-{: .no_toc}
 
 ## Taxonomy
 
@@ -418,28 +413,50 @@ YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 ![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-030-TokenNaming.png)
 
 
-### Infering color index
+### WCAG and pasta color index
 {: .no_toc}
 
 
-#### Luminance Index
+#### Pasta Luminance Index
 {: .no_toc}
 
-{: .no_toc}
-
-![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-010-shadesIndex.png)
-
-Calculating relative Luminance:
+Calculating a RGB color relative Luminance (Y):
 
 ```js
 Y = 0.2126 * R + 0.7152 * G + 0.0722 * B
 ```
+
+![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-010-shadesIndex.png)
+
+#### WCAG 1.4.3 Criteria:
+{: .no_toc}
+
+
+Caculating 2 colors relative Contrast (C):
+
+```js
+C = (YB + 0.05) / (YD + 0.05)
+```
+YB is the luminance of the Brightest color.<br>
+YD is the luminance of the Darkest color.<br>
+Aka, `YB ≧ YD`.
+
+
+| Application | Level | Contrast Criterion|
+| --- | --- | --- |
+|Text ≧ 18pt|AA|3:1|
+|Text Bold ≧ 14pt|AA|3:1|
+|Text < 18pt|AA|4.5:1|
+|Text |AAA|7:1|
+
+
 Ressources:
 
 - [Wikipedia](https://contrastchecker.online/color-relative-luminance-calculator)
 - [online calculator](https://contrastchecker.online/color-relative-luminance-calculator)
 - [How to Assess Luminance and Contrast · article](https://www.myndex.com/WEB/LuminanceContrast)
 - [Figma LCH Color Picker](https://www.figma.com/community/plugin/969496279507778512/LCH)
+
 
 
 #### Index convention

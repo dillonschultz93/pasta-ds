@@ -20,9 +20,7 @@ nav_order: 20
 
 
 
-
 ## Super Choices
-
 
 <div class="colorSystem" data-tokenPrefix="TKUI_SC.">
 
@@ -99,22 +97,12 @@ nav_order: 20
   </div>
   <!-- End Backgrounds -->
 
-
 <!-- Colors -->
-
 {% include pasta-color-structure.html color-name="primary" color-hex-value="#3B9792" %}
-
 {% include pasta-color-structure.html color-name="secondary" color-hex-value="#E05F1F" %}
 
 
 </div>
-
-
-
-
-
-
-
 
 ## Main Colors
 
