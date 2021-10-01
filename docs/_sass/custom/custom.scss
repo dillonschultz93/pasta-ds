@@ -143,6 +143,9 @@ body {
 .nav-list li {
   margin: 0.4rem 0.4rem;
 }
+.nav-list > li {
+  margin-left: 0 !important;
+}
 li li .nav-list-expander {
   margin-right: 0;
 }
@@ -194,8 +197,8 @@ p > img {
   margin: 0;
 }
 
-// .image-link {
-// }
+
+// specific
 
 #thePermutationOfPasta {
   background-color: transparent;
@@ -213,12 +216,6 @@ p > img {
   opacity:0.85;
 }
 
-// .image-link:hover img {
-//   filter: grayscale(100%) contrast(1);
-//   opacity: 1;
-//   transition: all 0.3s;
-// }
-
 
 //
 // Code
@@ -228,11 +225,11 @@ code, div.highlighter-rouge code,
 div.highlighter-rouge div.highlight,
 div.highlighter-rouge pre.highlight {
   white-space: pre-wrap;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .language-plaintext {
-  font-size: 14px;
+  font-size: 13px;
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -247,11 +244,11 @@ h1 .language-plaintext {
 }
 
 .highlighter-rouge pre > * {
-  font-size: 14px;
+  font-size: 13px;
 }
 // Inside table
 td .language-plaintext {
-  font-size: 12px;
+  font-size: 13px;
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -311,6 +308,25 @@ display: none;
 ol .checklistItem {
   margin: 0.6rem 1rem 0 -2rem;
 }
+
+
+
+
+//
+// ACCENTS
+//
+
+$apparati-accent: #A84BE4;
+
+.apparati > h2, .apparati > h3, .apparati > h4, .apparati > h5, .apparati > * > a {
+  color: $apparati-accent !important;
+  border-color: $apparati-accent !important;
+}
+
+.apparati > * > a:not([class]):hover {
+  background-image: linear-gradient($apparati-accent 0%, $apparati-accent 100%);
+}
+
 
 //
 // TYPOGRAPHY
@@ -497,6 +513,10 @@ th {
 
 td {
   font-size: 10px;
+}
+
+.noBorder {
+  border: none !important;
 }
 
 // table just for layout / several cols

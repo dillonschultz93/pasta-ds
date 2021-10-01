@@ -38,7 +38,7 @@ nav_order: 20
   </div>
 </section>
 
-<!--
+
 ## Principles
 
 ### Accessible
@@ -48,8 +48,10 @@ nav_order: 20
 {: .no_toc}
 
 ### Transferable
-{: .no_toc} -->
+{: .no_toc}
 
+
+## Apparati
 
 ## Taxonomy
 

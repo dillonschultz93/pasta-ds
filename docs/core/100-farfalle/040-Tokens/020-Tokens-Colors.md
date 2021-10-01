@@ -98,8 +98,17 @@ nav_order: 20
   <!-- End Backgrounds -->
 
 <!-- Colors -->
-{% include pasta-color-structure.html color-name="primary" color-hex-value="#3B9792" %}
-{% include pasta-color-structure.html color-name="secondary" color-hex-value="#E05F1F" %}
+
+
+{% include pasta-color-structure.html
+  color-name="primary"
+  color-hex-value="#3B9792"
+%}
+
+{% include pasta-color-structure.html
+  color-name="secondary"
+  color-hex-value="#E05F1F"
+%}
 
 
 </div>
