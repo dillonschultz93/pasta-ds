@@ -1,4 +1,5 @@
 ---
+project_id: FFL # 3-letter code
 title: Components # title case
 permalink: farfalle/components # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 parent: Farfalle # title case

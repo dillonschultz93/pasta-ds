@@ -1,17 +1,23 @@
-function findMinMax(arr,targetKey) {
-  let min = arr[0][targetKey], max = arr[0][targetKey];
-  for (let i = 1, len=arr.length; i < len; i++) {
-    let v = arr[i][targetKey];
+
+
+// functions
+
+// returns min and max values from a key-values (coordinates) object
+function findMinMax(coordObj,targetKey) {
+  let min = coordObj[0][targetKey], max = coordObj[0][targetKey];
+  for (let i = 1, len=coordObj.length; i < len; i++) {
+    let v = coordObj[i][targetKey];
     min = (v < min) ? v : min;
     max = (v > max) ? v : max;
   }
   return [min, max];
 }
-function findKeyIndex(arr,targetKey,targetValue) {
+// returns index for a given value from a key-values (coordinates) object
+function findKeyIndex(coordObj,targetKey,targetValue) {
   let index = 0;
-  for (let i = 0, len=arr.length; i < len; i++) {
+  for (let i = 0, len=coordObj.length; i < len; i++) {
     index = i;
-    if (arr[i][targetKey] == targetValue) {
+    if (coordObj[i][targetKey] == targetValue) {
         break
     }
   }
@@ -27,6 +33,8 @@ function findClosestSupKeyIndex(arr,targetKey,targetValue) {
   }
   return index;
 }
+// return polynomial result
+// using x and an array of its terms in order x^0 → x^n
 function regress(x, terms) {
     var r = 0;
     var t = 1;
@@ -63,8 +71,6 @@ var typo_tracking_weightStepUp_coef = 1.05;
 var typo_picks = [8,10,12,14,16,20,24,32,48,64,96,240];
 var typo_tracking_overrides = [[16,0.2],[96,-1.5]];
 
-var typo_tracking_raw_data_limited = findClosestSupKeyIndex(typo_tracking_raw_data,"x",typo_picks[typo_picks.length-1]);
-
 var lowIndexes = typo_picks.filter(index => index <= typo_tracking_polyThreshold);
 var highIndexes = typo_picks.filter(index => index > typo_tracking_polyThreshold);
 
@@ -82,6 +88,10 @@ for (let override of typo_tracking_overrides) {
     j += 1;
   }
 }
+
+
+
+
 
 let trackingHTMLTable = document.createElement("table");
 var style = document.createElement("style");

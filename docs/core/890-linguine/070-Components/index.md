@@ -1,4 +1,5 @@
 ---
+project_id: LGN # 3-letter code
 title: Components # title case
 permalink: linguine/components # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 parent: Linguine # title case
