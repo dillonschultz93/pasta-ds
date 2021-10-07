@@ -1,5 +1,3 @@
-
-
 // functions
 
 // returns min and max values from a key-values (coordinates) object
@@ -45,6 +43,54 @@ function regress(x, terms) {
     return r;
 }
 
+
+
+// declarations
+
+class TypographySet = {
+  constructor (
+    projectId, // string: 3-letter Pasta Project ID
+    familyID, // string: Font-family-Set unique ID/Name that will be used as a term inside all related tokens names
+    fontCSSName, // array of font names for css usage, one itme per weight or variant
+    sizesPicks, // array of chosen sizes
+    trackingRawData, // object of {x:font-size, y:tracking} key-values pairs
+    trackingPolynomATerms, // array of terms of the polynomial function to approximate of lower sizes (x) of trackingRawData
+    trackingPolynomBTerms, // array of terms of the polynomial function to approximate the upper sizes (x) of trackingRawData
+    trackingPolynomThreshold, // font-size at which we want to switch from the polynomial A to the B
+    trackingOverrides, // array of manually overriden {size,tracking} key-values pairs
+    trackingWeightStepUpCoef // decimal: tracking ratio applied to go to next-bolder font-weight — default is 1, aka none
+    ) {
+      this.projectId = projectId;
+      this.familyID = familyID;
+      this.sizesPicks = sizesPicks;
+      this.trackingRawData = trackingRawData;
+      this.trackingPolynomATerms = trackingPolynomATerms;
+      this.trackingPolynomBTerms = trackingPolynomBTerms;
+      this.trackingPolynomThreshold = trackingPolynomThreshold;
+      this.trackingOverrides = trackingOverrides;
+      this.trackingWeightStepUpCoef = trackingWeightStepUpCoef
+  }
+
+
+  get fontCSSName() {
+    return this._fontCSSName;
+  }
+  set fontCSSName(arrayOfStr) {
+    this._fontCSSName = arrayOfStr;
+  }
+
+
+
+
+
+
+
+
+}
+
+
+
+
 const projectId = "FFL";
 const typo_family_id = "AppleNY";
 const typo_tracking_raw_data = [
@@ -89,16 +135,16 @@ for (let override of typo_tracking_overrides) {
   }
 }
 
-
-
-
-
 let trackingHTMLTable = document.createElement("table");
 var style = document.createElement("style");
 style.type = "text/css";
 style.id = "Pasta Tokens";
 let styleArray = [];
 
+
+
+
+// build HTML table
 for (let row of typo_tracking_map) {
   let styleName = "." + projectId + "-TKSC_UI-typo-" + typo_family_id + "-letter_Spacing-" + row[0];
   styleArray.push(styleName + " { letter-spacing: " + row[1] + "pt; font-size: " + row[0] + "pt }");
