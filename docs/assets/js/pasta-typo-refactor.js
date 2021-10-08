@@ -43,42 +43,77 @@ function regress(x, terms) {
     return r;
 }
 
-
-
 // declarations
 
-class TypographySet = {
+class TypographySet {
   constructor (
     projectId, // string: 3-letter Pasta Project ID
     familyID, // string: Font-family-Set unique ID/Name that will be used as a term inside all related tokens names
-    fontCSSName, // array of font names for css usage, one itme per weight or variant
-    sizesPicks, // array of chosen sizes
-    trackingRawData, // object of {x:font-size, y:tracking} key-values pairs
-    trackingPolynomATerms, // array of terms of the polynomial function to approximate of lower sizes (x) of trackingRawData
-    trackingPolynomBTerms, // array of terms of the polynomial function to approximate the upper sizes (x) of trackingRawData
-    trackingPolynomThreshold, // font-size at which we want to switch from the polynomial A to the B
-    trackingOverrides, // array of manually overriden {size,tracking} key-values pairs
-    trackingWeightStepUpCoef // decimal: tracking ratio applied to go to next-bolder font-weight — default is 1, aka none
     ) {
       this.projectId = projectId;
       this.familyID = familyID;
-      this.sizesPicks = sizesPicks;
-      this.trackingRawData = trackingRawData;
-      this.trackingPolynomATerms = trackingPolynomATerms;
-      this.trackingPolynomBTerms = trackingPolynomBTerms;
-      this.trackingPolynomThreshold = trackingPolynomThreshold;
-      this.trackingOverrides = trackingOverrides;
-      this.trackingWeightStepUpCoef = trackingWeightStepUpCoef
-  }
+    }
 
+  //
+  // getter and setters
+  //
 
+  // array of weight and font-names pairs for css usage, allows one per weight when required
   get fontCSSName() {
     return this._fontCSSName;
   }
   set fontCSSName(arrayOfStr) {
     this._fontCSSName = arrayOfStr;
   }
-
+  // array integers (or decimals) for all chosen/required font sizes
+  get sizesPicks() {
+    return this._sizesPicks;
+  }
+  set sizesPicks(arrayOfdecimals) {
+    this._sizesPicks = arrayOfdecimals;
+  }
+ // object of {x:font-size, y:tracking} key-values pairs
+  get trackingRawData() {
+    return this._trackingRawData;
+  }
+  set trackingRawData(objectOfpairs) {
+    this._trackingRawData = objectOfpairs;
+  }
+  // array of terms of the polynomial function to approximate of lower sizes (x) of trackingRawData
+  get trackingPolynomATerms() {
+    return this._trackingPolynomATerms;
+  }
+  set trackingPolynomATerms(arrayOfFloats) {
+    this._trackingPolynomATerms = arrayOfFloats;
+  }
+  // array of terms of the polynomial function to approximate the upper sizes (x) of trackingRawData
+  get trackingPolynomBTerms() {
+    return this._trackingPolynomBTerms;
+  }
+  set trackingPolynomBTerms(arrayOfFloats) {
+    this._trackingPolynomBTerms = arrayOfFloats;
+  }
+  // font-size at which we want to switch from the polynomial A to the B
+  get trackingPolynomThreshold() {
+    return this._trackingPolynomThreshold;
+  }
+  set trackingPolynomThreshold(number) {
+    this._trackingPolynomThreshold = number;
+  }
+  // array of manually overriden {size,tracking} key-values pairs
+  get trackingOverrides() {
+    return this._trackingOverrides;
+  }
+  set trackingOverrides(arrayOfpairs) {
+    this._trackingOverrides = arrayOfpairs;
+  }
+  // decimal: tracking ratio applied to go to next-bolder font-weight — default is 1, aka none
+  get trackingWeightStepUpCoef() {
+    return this._trackingWeightStepUpCoef;
+  }
+  set trackingWeightStepUpCoef(arrayOfpairs) {
+    this._trackingWeightStepUpCoef = arrayOfpairs;
+  }
 
 
 
@@ -87,8 +122,6 @@ class TypographySet = {
 
 
 }
-
-
 
 
 const projectId = "FFL";
@@ -140,7 +173,6 @@ var style = document.createElement("style");
 style.type = "text/css";
 style.id = "Pasta Tokens";
 let styleArray = [];
-
 
 
 
