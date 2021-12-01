@@ -7,15 +7,7 @@ nav_order: 990
 
 # News
 
-## NB · ↑↓ Currently used to keep misc content snippets
-
-This is a test to check how to write the URL so it converts properly on Github Pages.
-
-```
-![]({{site.baseurl}}/assets/images/YPL-DOC-naming-001.png)
-```
-
-![]({{site.baseurl}}/assets/images/YPL-DOC-naming-001.png)
+## 🚩 NB · This page is currently used to keep misc snippets & stuff
 
 
 ## Best and good practices

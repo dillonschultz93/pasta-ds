@@ -48,7 +48,7 @@ The magic of Jekyll is that you can quickly start to contribute by using simple 
 | --- | --- | --- |
 |MacDown App|New to MarkDown? A simple Mac OSX Markdown Editor ideal to start learning|[Grab it! →](https://macdown.uranusjr.com/){: .btn}|
 |Markdown Guide|New to MarkDown? Go there and learn how easy it is… |[Online Guide →](https://www.markdownguide.org/){: .btn}|
-|Language Markdown| A recommended Atom package for [Atom](https://atom.io/) that probably highlight both MarkDown and HTML | [Grab Package →](https://atom.io/packages/language-markdown){: .btn } |
+|Language Markdown| A recommended Atom package for [Atom](https://atom.io/) that properly highlights both MarkDown and HTML | [Grab Package →](https://atom.io/packages/language-markdown){: .btn } |
 |Atom|For more advanced code/text edtion we highly recommend to switch to a professional editor such as Github Atom|[Grab Atom →](https://atom.io/){: .btn }|
 |Critic Markup| Annotation convention that allows to collaborate inside markup docs| [Learn →](https://github.com/CriticMarkup/CriticMarkup-toolkit){: .btn }|
 {: .headless}
@@ -250,7 +250,7 @@ Use the `{% raw %}{{site.baseurl}}{% endraw %}` moustache to access your assets,
 ![]({% raw %}{{site.baseurl}}{% endraw %}/assets/images/myImageFileName.png)
 ```
 
-### Code
+### Code Snippets
 {: .no_toc}
 
 #### Markdown
@@ -274,7 +274,7 @@ When you want to include some computer code inside HTML tags you might need to u
 ```
 
 Beware that when you use Rouge, a little mistake in your tags will make Jekyll and your whole website crash.
-To escape Rouge, like in the example above ↑, use the `{% raw %}{% ra{% endraw %}w %}` filter/tag:
+To escape Rouge, like in the example above ↑ where we document Rouge code, use the `{% raw %}{% ra{% endraw %}w %}` filter/tag:
 
 ```js
 {% raw %}{% raw %}{% endraw %}
@@ -282,10 +282,10 @@ To escape Rouge, like in the example above ↑, use the `{% raw %}{% ra{% endraw
 {% raw %}{% end{% endraw %}{% raw %}raw %}{% endraw %}
 ```
 
-### Layouts
+### HTML multiple columns section
 {: .no_toc}
 
-These are bespoke classes:
+We use bespoke CSS classes:
 
 <section class="flex-1_1-cols">
   <div>

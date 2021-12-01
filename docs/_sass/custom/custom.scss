@@ -103,8 +103,8 @@ body {
   }
 }
 .side-bar:hover, .side-bar:active {
-  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, .09);
-  transition: box-shadow 0.5s;
+  // box-shadow: 0 8px 20px 0px rgba(0, 0, 0, .09);
+  // transition: box-shadow 0.5s;
 }
 .site-header {
   border: none;
@@ -176,10 +176,32 @@ li li .nav-list-expander {
 // Details
 //
 
-summary {
-  opacity: 0.7;
-  margin: 2rem 0;
+details {
+  // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  // border-radius: 0.4rem;
 }
+
+details summary {
+  opacity: 0.9;
+  margin: 1rem 0;
+  line-height: 1rem;
+  cursor: pointer;
+  // border: 1px solid #ddd;
+  // border-radius: 1.6rem;
+  // padding: 0.8rem 1.2rem;
+
+}
+details summary > * {
+  display: inline;
+}
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px;}
+  100%  {opacity: 1; margin-top: 0px;}
+}
+
 
 //
 // IMAGES
@@ -221,6 +243,12 @@ p > img {
 // Code
 //
 
+figure.highlight code {
+  word-break: break-all;
+}
+
+
+
 code, div.highlighter-rouge code,
 div.highlighter-rouge div.highlight,
 div.highlighter-rouge pre.highlight {
@@ -252,6 +280,39 @@ td .language-plaintext {
   padding-left: 6px;
   padding-right: 6px;
 }
+
+// code button
+
+figure.highlight, div.highlight {
+    position: relative;
+}
+figure.highlight:hover .copyCodeButton, div.highlight:hover .copyCodeButton {
+  opacity: 1;
+  transition: all 1s;
+}
+.copyCodeButton {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  width: 20px;
+  top: 12px;
+  right: 12px;
+  border: none;
+  fill: red;
+  cursor: pointer;
+  transition: all 1s;
+}
+.copyCodeButton img {
+  border: none;
+  border-radius: 0;
+}
+figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL-apparatusBaby) .copyCodeButton  {
+  top: 0;
+  margin-top: -1.2rem;
+}
+
+
+
 
 //
 // OL
@@ -495,11 +556,13 @@ th {
 }
 
 th {
-  text-transform: uppercase;
   font-weight: 400;
   letter-spacing: +0.7px;
   font-size: 12px !important;
   color: rgba(0,0,0,0.6) !important;
+}
+table:not(.generated) th {
+  text-transform: uppercase;
 }
 
 td,
@@ -637,7 +700,12 @@ p + .dd-dont {
 .flex-1_1_1-cols figure.highlight, .flex-1_1-cols figure.highlight, .flex-1_2-cols figure.highlight,  .flex-2_1-cols figure.highlight {
   padding: 0;
 }
-
+.YPL-apparatusBaby pre {
+  padding: 1rem !important;
+  overflow: scroll;
+  max-height: 20rem;
+  min-height: 20rem;
+}
 
 // 3 cols
 
@@ -973,7 +1041,7 @@ p + .dd-dont {
   background-color: red;
   z-index: 100;
 }
-.colorInput {
+.colorInput, input {
 	display: block;
 	padding:10px;
 	margin: 0;
@@ -988,6 +1056,26 @@ p + .dd-dont {
 }
 .colorInput, .colorHEXvalue, .colorLCHvalue {
   text-transform: uppercase;
+}
+.inputsWrapper input {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  padding: 8pt;
+  border-radius: 0.2rem;
+  border: 1px solid #efefef !important;
+  margin-top: 0.4rem;
+  // background-color: transparent;
+}
+.inputsWrapper label {
+  // color: $grey-dk-000;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: +0.7px;
+  font-size: 12px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  width: 100%;
 }
 
 .colorLabel {

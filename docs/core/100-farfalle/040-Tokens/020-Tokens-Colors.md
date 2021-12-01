@@ -7,9 +7,24 @@ parent: Tokens # title case
 layout: default
 nav_order: 20
 ---
+<script type="module">
+  document.getElementsByTagName('body')[0].setAttribute('data-pasta-project-id', '{{ page.project_id }}');
+  import { tokens } from '{{site.baseurl}}/assets/projects/{{ page.project_id }}/tokens/tokens.js';
+  window.tokens = tokens;
+</script>
+
+
+
+
+
+
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chroma.min.js" defer></script>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/pasta.js" defer></script>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/pasta-colors.js" defer></script>
+
+
+
+
 
 
 # Colors `FFL`

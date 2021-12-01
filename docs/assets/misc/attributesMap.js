@@ -1,0 +1,98 @@
+export const attributesMap = [{
+  "family": {
+    "figmaTokensTypographyAttribute": "fontFamily",
+    "figmaTokensType": "fontFamilies",
+    "figmaAPI": "fontName",
+    "CSS": "font-family",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "size": {
+    "figmaTokensTypographyAttribute": "fontSize",
+    "figmaTokensType": "fontSizes",
+    "figmaAPI": "fontSize",
+    "CSS": "font-size",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "weight": {
+    "figmaTokensTypographyAttribute": "fontWeight",
+    "figmaTokensType": "fontWeights",
+    "figmaAPI": "undefined",
+    "CSS": "font-weight",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "tracking": {
+    "figmaTokensTypographyAttribute": "letterSpacing",
+    "figmaTokensType": "letterSpacing",
+    "figmaAPI": "letterSpacing",
+    "CSS": "letter-spacing",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "leadingRatio": {
+    "figmaTokensTypographyAttribute": "undefined",
+    "figmaTokensType": "other",
+    "figmaAPI": "undefined",
+    "CSS": "undefined",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "leading": {
+    "figmaTokensTypographyAttribute": "lineHeight",
+    "figmaTokensType": "lineHeights",
+    "figmaAPI": "lineHeight",
+    "CSS": "line-height",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "paragraphMargin": {
+    "figmaTokensTypographyAttribute": "lineHeight",
+    "figmaTokensType": "lineHeights",
+    "figmaAPI": "paragraphSpacing",
+    "CSS": "bottom-margin",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "hAlign": {
+    "figmaTokensTypographyAttribute": "textAlign",
+    "figmaTokensType": "textAlign",
+    "figmaAPI": "textAlignHorizontal",
+    "CSS": "text-align",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "vAlign": {
+    "figmaTokensTypographyAttribute": "undefined",
+    "figmaTokensType": "undefined",
+    "figmaAPI": "textAlignVertical",
+    "CSS": "vertical-align (within parent)",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "textCase": {
+    "figmaTokensTypographyAttribute": "textCase",
+    "figmaTokensType": "textCase",
+    "figmaAPI": "textCase",
+    "CSS": "text-transform",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "textDecoration": {
+    "figmaTokensTypographyAttribute": "textDecoration",
+    "figmaTokensType": "textDecoration",
+    "figmaAPI": "textDecoration",
+    "CSS": "text-decoration",
+    "iOS": "undefined",
+    "android": "undefined"
+  },
+  "direction": {
+    "figmaTokensTypographyAttribute": "undefined",
+    "figmaTokensType": "undefined",
+    "figmaAPI": "undefined",
+    "CSS": "direction",
+    "iOS": "undefined",
+    "android": "undefined"
+  }
+}];

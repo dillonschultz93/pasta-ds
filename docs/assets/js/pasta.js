@@ -1,8 +1,3 @@
-
-
-// alert("boom!");
-
-// console.log("C");
 // populates color tables
 
 var colorTables = document.getElementsByClassName('colorTable');
@@ -19,7 +14,4 @@ for (var i = 0; i < colorTables.length; i++) {
             colorTables[i].rows[j].cells[2].childNodes[0].style.backgroundColor = row_data_colorvalue;
         }
     }
-    // for (var j = 0, row; row = colorTables[i].rows[j]; j++) {
-    //     console.log(row.dataset.colorValue);
-    // }
 }

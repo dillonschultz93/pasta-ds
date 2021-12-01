@@ -1,191 +1,16 @@
 ---
-title: Foundations # title case
-permalink: foundations # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Nomenclature # title case
+permalink: foundations/nomenclature # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+parent: Foundations # title case
 layout: default
-nav_order: 20
+nav_order: 50
 ---
 
-# Foundations
+# Nomenclature
 {: .no_toc}
-<!-- ↑ skips H1 inside TOC -->
 
 - TOC
 {:toc}
-
-<section class="flex-1_1-cols">
-  <div>
-    <h2>Ingredients</h2>
-    <ul>
-      <li>A <a href="{{site.baseurl}}/committee">committee</a> of curators</li>
-      <li>Subscribers</li>
-      <li>Governance (reccuring meetings)</li>
-      <li>A Brand Style Guide</li>
-      <li>A Token-based Design System</li>
-      <li><a href="{{site.baseurl}}/tools">Tools</a></li>
-      <li>And this very Knowledge Base (aka RTFM)</li>
-    </ul>
-  </div>
-  <div>
-    <h2>Principles</h2>
-    <ul>
-      <li>Explicit Decisions</li>
-      <li>Token strong inheritance scheme</li>
-      <li>UI vs Content dichotomy</li>
-      <li>Usability over maintenance</li>
-      <li>Semantic Versioning</li>
-      <li>Document as you build (rule)</li>
-    </ul>
-  </div>
-</section>
-
-
-## Principles
-
-### Accessible
-{: .no_toc}
-
-### Definite
-{: .no_toc}
-
-### Transferable
-{: .no_toc}
-
-
-## Apparati
-
-## Taxonomy
-
-The types of objects described inside Pasta's Design System are named following an atomic design approach as advocated by [Brad Frost](https://atomicdesign.bradfrost.com/chapter-2/). Pasta is highly Design-Tokens focused, a category not represented inside Brad Frost classification. Here's the adapted atomic hierarchy used inside Pasta Design System:
-
-<table class="type-01">
-    <!-- <caption>vertical-align</caption> -->
-    <thead>
-        <tr>
-            <th></th>
-            <th>Tokens</th>
-            <th>Primitives</th>
-            <th>Components</th>
-            <th>Patterns</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="faded">
-            <td valign="top">B. Frost</td>
-            <td valign="top"></td>
-            <td valign="top">Atoms</td>
-            <td valign="top">Molecules</td>
-            <td valign="top">Organism</td>
-        </tr>
-        <tr>
-            <td valign="top">Description</td>
-            <td valign="top">The foundational constants used to build everything</td>
-            <td valign="top">An indivisible part of a visual or UI item</td>
-            <td valign="top">An autonomous item which surface clear affordance</td>
-            <td valign="top">A coherent assemblage of components providing a conventional UI block</td>
-        </tr>
-        <tr>
-            <td valign="top"></td>
-            <td valign="top">
-                Split in 4 categories:
-                <ol>
-                    <li>Choices: (as limited as possible)</li>
-                    <li>Decisions: where we map the Choices to objects attributes</li>
-                    <li>Aliases: sometimes used to make Tokens more human-friendly/readable</li>
-                    <li>Math: logic generated tokens such as size scale and color contrast dependencies</li>
-                </ol>
-            </td>
-            <td valign="top">
-                Examples:
-                <ul>
-                    <li>A glyph, an icon</li>
-                    <li>The control part ⦿ of a radio button</li>
-                    <li>The label of a radio button</li>
-                    <li>Paragraph</li>
-                </ul>
-            </td>
-            <td valign="top">
-                Examples:
-                <ul>
-                    <li>A radio button (control + label)</li>
-                    <li>A button (shape + text)</li>
-                    <li>A form field (field + label)</li>
-                </ul>
-            </td>
-            <td valign="top">
-                Examples
-                <ul>
-                    <li>Bar</li>
-                    <li>Card</li>
-                    <li>Carrousel </li>
-                    <li>A search widget (field + label + icon + button)</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top">Alternate Names (on other DS or Platforms)</td>
-            <td valign="top">"Design Tokens"</td>
-            <td valign="top">"Component" (misleading in our opinion), "Element"</td>
-            <td valign="top">"Widget"</td>
-            <td valign="top">"Block"</td>
-        </tr>
-    </tbody>
-</table>
-
-## Tokens
-
-We distinguish tokens targeting *User Interface* elements from *Content* elements:
-
-| Stem Prefix | Meaning |
-| :--- | :--- |
-| `TKUI_` | User Interface Token |
-| `TK_C_` | Content Token |
-
-
-### Choices, Decisions and Aliases
-{: .no_toc}
-
-
-Tokens are splits into 3 main catageories:
-
-- `Choices` are the style choices that define look'n feel of the system at a high level
-- `Decisions` are where the previous choices are injected inside the objects library
-- `Aliases` are tokens pointing to another token but have a more user-friendly name
-
-| Stem Example | Meaning | Prefix |
-| :--- | :--- | :---: |
-| `TKUI_C` | UI Choice Token | `YPL-TKUI_C-` |
-| `TK_C_A` | Content Alias Token | `YPL-TK_C_A-` |
-| `TKUI_D` | UI Decision Token | `YPL-TKUI_D-` |
-
-
-### Math Tokens
-{: .no_toc}
-
-
-`Math` Tokens contain math operations. We do not distinguish between Math and Decisions, aka a Decision token can be substitute with a Math Token.
-
-
-| Stem Example | Meaning | Prefix |
-| :--- | :--- | :---: |
-| `TKUI_M` | UI Math Token | `YPL-TKUI_M-` |
-| `TK_C_M` | Content Math Token | `YPL-TK_C_M-` |
-
-
-### Super Tokens
-{: .no_toc}
-
-
-At the higher possible scope Pasta has Super Tokens or "Supers".
-They a the few Tokens that rule them all.
-
-NB: Decisions Tokens cannot be Supers.
-
-| Stem | Meaning | Prefix |
-| :--- | :--- | :---: |
-| `TKUI_SC` | Super Choice Token | `YPL-TKM-` |
-| `TKUI_SM` | Super Math Token | `YPL-TKM-` |
-| `TKUI_SA` | Super Alias Token | `YPL-TKSC-` |
-
 
 ## Naming convention
 
@@ -260,7 +85,6 @@ Pasta structure allows the creation of siloed Projects. Consequently, the token 
 ##### Kingdom
 {: .no_toc}
 
-{: .no_toc}
 
 The Kingdom defines what category of token you are dealing with:
 
@@ -274,9 +98,26 @@ The Kingdom defines what category of token you are dealing with:
 | `TKUI_A` | UI Alias Token |
 | `TK_C_` | **Prefix for Content Tokens** replace the first 5 letters above to infer the name of Content Related tokens |
 
-#### Selector
+
+##### Phylum
 {: .no_toc}
 
+Phyla match usual design systems foundation categories:
+
+| Stem | Indexed | Description | usage |
+| :--- | :---: | :--- | :--- |
+| `scales` | Yes | sets of harmonious intervals | sizes, spaces, colors… |
+| `sizes` | Yes & No | sets of 1 dimensional attributes | font styles, icons sizes… |
+| `spaces` | Yes | sets of 2 dimensional attributes | padding, margins… |
+| `ratios` | No | multipliers for harmonious proportions or intervals | lineHeight … |
+| `factors` | No | conditional sizes multipliers | target specific groups ie: text, contols |
+| `colors` | Yes & No |  |
+| `typos` | No | typographic styles |
+| `dropshadows` | No | |
+| `surfaces` | No | |
+
+
+#### Selector
 {: .no_toc}
 
 The Selectors Stems are often aggregated into a sequence that mimics CSS attributes logic. In the example addressed here we have to follow this specific order:
@@ -321,7 +162,6 @@ They are split in 4 categories: Schemes, Parents, Discrete Modifiers and States.
 #### Schemes
 {: .no_toc}
 
-{: .no_toc}
 
 Schemes are large-scope modifiers, they usually applies to a vast set of objects. When forming a sequence Schemes Types follow a hierarchy and should be presented in this order: Mode › Theme › Compliance-Criteria
 
@@ -351,8 +191,6 @@ A Parent is the Parent Container of the targetted Object. They influence subsets
 #### Discrete Modifiers
 {: .no_toc}
 
-{: .no_toc}
-
 Discrete Modifiers influence subsets of objects or specific objects within a same Scheme scope.
 
 | Examples | Type | Description |
@@ -365,7 +203,6 @@ Discrete Modifiers influence subsets of objects or specific objects within a sam
 #### States
 {: .no_toc}
 
-{: .no_toc}
 
 States are dynamic Modifiers, they vary in time following various inputs and feedback including user interaction.
 
@@ -394,9 +231,9 @@ YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 {: .no_toc}
 
 
-
 |Index|Font Weight|Luminance|
 | --- | --- | --- |
+| 50 |  | Y > 90 |
 | 100 | Extra or Ultra Light | Y ≃ 90 |
 | 200 | Light or Thin | Y ≃ 80 |
 | 300 | Book or Demi | Y ≃ 70 |
@@ -406,11 +243,10 @@ YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 | 700 | Bold | Y ≃ 30 |
 | 800 | Black, Extra Bold or Heavy | Y ≃ 20 |
 | 900 | Extra or Ultra Black, Fat, Poster | Y ≃ 10 |
-| > 900 | Required for other categories |  |
+| > 900 | Required for other categories | Y < 10 |
 
 
-## Color Terms
-
+## Naming Colors
 
 ![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-030-TokenNaming.png)
 
@@ -462,8 +298,6 @@ Ressources:
 
 
 #### Index convention
-{: .no_toc}
-
 {: .no_toc}
 
 | Stem | Luminance | Font-Weight Equivalence |
@@ -520,13 +354,11 @@ Ressources:
 #### Root names scope and protanopia
 {: .no_toc}
 
-{: .no_toc}
 
 ![WIP]({{site.baseurl}}/assets/images/YPL-DOC-colors-012-PST-scopes-protanopia.png)
 
 ### Naming protocol
 {: .no_toc}
-
 
 
 <section class="flex-1_2-cols">
