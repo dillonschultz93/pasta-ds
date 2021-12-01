@@ -27,7 +27,7 @@
   "YPL.FFL.TKUI_D.chip.proLock.text.color": "YPL.FFL.TKUI_C.colors.white",
 
   "YPL.FFL.TKUI_D.cardRecipeLarge.containerBottomCopyBox.width": "86%",
-  YPL.FFL.TKUI_D.cardRecipeLarge.containerBottomCopyBox.maxWidth": ""YPL.FFL.TKUI_M.scales.geoA.1000",
+  "YPL.FFL.TKUI_D.cardRecipeLarge.containerBottomCopyBox.maxWidth": "YPL.FFL.TKUI_M.scales.geoA.1000",
 
   "YPL.FFL.TKUI_D.cardRecipeLarge.rating.small.anchorPoint": "BOTTOM LEFT ",
   "YPL.FFL.TKUI_D.cardRecipeLarge.rating.small.stackingFrom": "BOTTOM LEFT",
