@@ -63,11 +63,6 @@ If you need help for the following steps please contact our current [Pasta Docum
 
 <br>
 
-||||
-| --- | --- | --- |
-|Github Desktop|A native app for newbies to avoid Git command-line | [Grab it! →](https://desktop.github.com/){: .btn }|
-{: .headless}
-
 
 1. <input type="checkbox" class="checklistItem"> Install Ruby and [Jekyll](https://jekyllrb.com/): You'll find an [installation tutorial here](https://jekyllrb.com/docs/installation/macos/).
 2. <input type="checkbox" class="checklistItem">  You need to clone our [Pasta Repo](https://github.com/yummly/pasta) using Git or [Github Desktop]({{site.baseurl}}/tools/github#github-desktop-app).
@@ -104,6 +99,13 @@ If you need help for the following steps please contact our current [Pasta Docum
     http://localhost:4000/pasta/
     ```
 {: .nobullets}
+
+
+||||
+| --- | --- | --- |
+|Github Desktop|A native app for newbies to avoid Git command-line | [Grab it! →](https://desktop.github.com/){: .btn }|
+{: .headless}
+
 
 ## Jekyll Features
 
@@ -247,10 +249,15 @@ Not sure this is necessary, inside <code>Gemfile</code>:<br><br>
 Use the `{% raw %}{{site.baseurl}}{% endraw %}` moustache to access your assets, ie:
 
 ```markdown
-![]({% raw %}{{site.baseurl}}{% endraw %}/assets/images/myImageFileName.png)
+![WIP]({% raw %}{{site.baseurl}}{% endraw %}/assets/images/myImageFileName.png)
+```
+or
+
+```html
+<img src="{% raw %}{{site.baseurl}}{% endraw %}/assets/images/myImageFileName.png" alt="WIP">
 ```
 
-### Code Snippets
+### Code
 {: .no_toc}
 
 #### Markdown
@@ -282,7 +289,7 @@ To escape Rouge, like in the example above ↑ where we document Rouge code, use
 {% raw %}{% end{% endraw %}{% raw %}raw %}{% endraw %}
 ```
 
-### HTML multiple columns section
+### Multiple columns sections
 {: .no_toc}
 
 We use bespoke CSS classes:
