@@ -28,7 +28,7 @@ nav_order: 50
       We can see (3) how the spaces are simply set using simple rules described above. Variations in the stacking of the components offer the expected results thanks to these rules (4).
     </p>
     <p>
-      CSS provides a proper implementation of Margins that matches print and publishing design century-old best practises.
+      CSS provides a proper implementation of Margins that matches print and publishing design century-old best practices.
     </p>
   </div>
   <div>
