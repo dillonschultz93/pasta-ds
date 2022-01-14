@@ -1,0 +1,134 @@
+// -----------------------------------------------
+// PASTA DOCUMENTATION UTILITIES
+// -----------------------------------------------
+// Description: all generic functions required by other Pasta scripts
+// Authors: Manuel Colom · manuel.colom@yummly.com, Dillon Schultz · dillon.schultz@yummly.com
+// ToDo: refactor and make this less hacky
+//
+// Copyright (c) 2022 Yummly, Inc.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+// -----------------------------------------------
+
+import { rawTokens, figmaTokens } from "./pasta-token-generation.js";
+
+/**
+ * @description A function that builds the contents/<tbody> of the scales table.
+ * @param {string} tableID - The id attribute of the table.
+ * @param {Array<Number>} indexValues - An array of token indexes.
+ * @param {Number} baseIndex - The base index of the scales.
+ * @param {Object} scales - The object of key value pairs of each scale.
+ * @param {Array<Number>} choices - An array of values that are currently used on the product.
+ */
+export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices) {
+  const tableBody = document.querySelector(`#${tableID} tbody`);
+  const tableHeaders = [...document.querySelector(`#${tableID} thead tr`).children];
+
+  // Generate the initial rows of the table.
+  indexValues.forEach(item => {
+    // Create a <tr> element and <td> element.
+    const row = document.createElement('tr');
+
+    // Assign the <tr> and <td> the value of the index.
+    row.id = item;
+
+    tableHeaders.forEach(heading => {
+      const cell = document.createElement('td');
+
+      cell.className = heading.id;
+
+      // Style the cell that has the base index.
+      if (cell.className === 'index') {
+        item === baseIndex ? cell.innerHTML = `<strong>•  ${item}</strong>` : cell.textContent = item;
+      } else {
+        scales[cell.className][item] ? cell.textContent = scales[cell.className][item] : cell.textContent = '-';
+
+        choices.includes(scales[cell.className][item]) ? cell.className = 'textbold' : cell.className = 'textfaded';
+      }
+
+      row.appendChild(cell);
+    });
+
+    // Append the <td> to the <tr> and append the <tr> to the <tbody>
+    tableBody.appendChild(row);
+  });
+};
+
+/**
+ * @description - A function that builds the contents of the scales output table.
+ * @param {string} tableID - The id attribute of the <table> element.
+ * @param {Object} allScales - The object representing all scale tokens.
+ */
+export function buildScaleOutput(tableID, allScales) {
+  const tableBody = document.querySelector(`#${tableID} tbody`);
+  Object.entries(allScales).forEach(item => {
+    const [key, value] = item;
+    const splitKey = key.split('.');
+    const index = splitKey[splitKey.length - 1];
+
+    const tr = document.createElement('tr');
+    const indexCell = document.createElement('td');
+    const valueCell = document.createElement('td');
+    const tokenNameCell = document.createElement('td');
+
+    indexCell.textContent = index;
+    valueCell.textContent = value;
+    tokenNameCell.innerHTML = `<code>${key}</code>`;
+
+    tr.appendChild(indexCell);
+    tr.appendChild(valueCell);
+    tr.appendChild(tokenNameCell);
+
+    tableBody.appendChild(tr);
+  });
+};
+
+const fallbackCopyToClipboard = () => {
+  console.log('Not supported');
+}
+
+const copyToClipboard = (content) => {
+  if (!navigator.clipboard) {
+    fallbackCopyToClipboard();
+    return;
+  }
+
+  navigator.clipboard.writeText(content).then(() => {
+    console.log('copied to clipboard');
+  }).catch(error => console.warn(error));
+}
+
+export function handleCopyToClipboard(format, tokens, description, type) {
+  let content = '';
+  
+  switch (format) {
+    case 'raw':
+      content = rawTokens(tokens);
+      copyToClipboard(content);
+      break;
+
+    case 'figma':
+      content = figmaTokens(tokens, description, type);
+      copyToClipboard(content);
+      break;
+  
+    default:
+      break;
+  }
+}
