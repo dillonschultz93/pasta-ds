@@ -123,7 +123,7 @@ export function generateAllScaleTokens(scalesInput, scalesOutput, namingOptions)
     Object.entries(scales).forEach(scale => {
       const [index, value] = scale;
 
-      scalesOutput[`${prefix}.${scaleName}.${index}`] = value;
+      scalesOutput[`${prefix}.scales.${scaleName}.${index}`] = value;
     });
   });
 }

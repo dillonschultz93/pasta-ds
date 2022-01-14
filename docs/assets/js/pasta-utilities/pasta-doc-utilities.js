@@ -75,7 +75,7 @@ export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices
  * @param {string} tableID - The id attribute of the <table> element.
  * @param {Object} allScales - The object representing all scale tokens.
  */
-export function buildScaleOutput(tableID, allScales) {
+export function buildOutputTable(tableID, allScales) {
   const tableBody = document.querySelector(`#${tableID} tbody`);
   Object.entries(allScales).forEach(item => {
     const [key, value] = item;

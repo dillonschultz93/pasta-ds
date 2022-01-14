@@ -28,12 +28,20 @@
 
 // Import the necessary apparatuses and utilities
 import { generateNewScale, generateAllScaleTokens } from './pasta-apparatuses/pasta-dimensions-scale.js';
-import { buildScaleTable, buildScaleOutput, handleCopyToClipboard } from './pasta-utilities/pasta-doc-utilities.js';
+import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from './pasta-utilities/pasta-doc-utilities.js';
 
 // Collect the DOM selectors
 const scaleInputs = [...document.querySelectorAll('.scalingInputs')];
 const scaleRawJSONButton = document.querySelector('#RawTokensScalesCollector button');
 const scaleFigmaButton = document.querySelector('#FigmaTokensScalesCollector button');
+const spacesRawJSONButton = document.querySelector('#RawTokensSpacesCollector button');
+const spacesFigmaButton = document.querySelector('#FigmaTokensSpacesCollector button');
+const staticSizesRawJSONButton = document.querySelector('#RawTokensStaticSizesCollector button');
+const staticSizesFigmaButton = document.querySelector('#FigmaTokensStaticSizesCollector button');
+
+// -----------------------------------------------
+// SCALES
+// -----------------------------------------------
 
 // Set up a piece of state to store all of the scale tokens
 const ALL_SCALES = {};
@@ -72,16 +80,20 @@ const SCALE_INDEX = [
 ];
 
 const NOMENCLATURE_OPTIONS = {
-  namespace: 'YPL',
-  project: window.projectId,
-  kingdom: 'TKUI_M'
+  scale: {
+    namespace: 'YPL',
+    project: window.projectId,
+    kingdom: 'TKUI_M'
+  },
+  space: {
+    namespace: 'YPL',
+    project: window.projectId,
+    kingdom: 'TKUI_C'
+  }
 };
 
 const {choices, scales} = SCALE_CLUSTERS;
 
-/**
- * @description Initializes any generation of dynamic content that needs to happen in the scales section of the page
- */
 function initScalesSection() {
   // Generate scale token values.
   generateNewScale(SCALE_CLUSTERS, 'geoA', SCALE_CLUSTERS.base, SCALE_CLUSTERS.ratio, SCALE_CLUSTERS.baseIndex, 100, 1100);
@@ -89,53 +101,114 @@ function initScalesSection() {
   generateNewScale(SCALE_CLUSTERS, 'arithB', SCALE_CLUSTERS.base, SCALE_CLUSTERS.ratio, SCALE_CLUSTERS.baseIndex, 800, 2000);
 
   // Generate all scale tokens.
-  generateAllScaleTokens(scales, ALL_SCALES, NOMENCLATURE_OPTIONS);
+  generateAllScaleTokens(scales, ALL_SCALES, NOMENCLATURE_OPTIONS.scale);
 
   // Generate a new table based on the scales.
   buildScaleTable('scales-table', SCALE_INDEX, SCALE_CLUSTERS.baseIndex, scales, choices);
 
   // Generate a new detail summary view based on all of the formatted tokens.
-  buildScaleOutput('output-table', ALL_SCALES);
+  buildOutputTable('output-table', ALL_SCALES);
 };
 
-// SET UP EVENT LISTENERS
+function initScalesEventListeners() {
+  // Add event listeners to all the scale inputs to make the table reactive to the inputs.
+  scaleInputs.forEach(input => {
+    input.addEventListener("input", event => {
+      // If the value is less than the minimum value set on the input, then force the value to the minimum.
+      if (event.target.value < event.target.min) {
+        event.target.value = event.target.min;
+      }
 
-// Add event listeners to all the scale inputs to make the table reactive to the inputs.
-scaleInputs.forEach(input => {
-  input.addEventListener("input", event => {
-    // If the value is less than the minimum value set on the input, then force the value to the minimum.
-    if (event.target.value < event.target.min) {
-      event.target.value = event.target.min;
-    }
+      // Only react to changes from the inputs if the value from the event isn't empty or null.
+      if (event.target.value !== '') {
+        // Collect the table body selector.
+        const tableBody = document.querySelector('#scales-table tbody');
+        const outputTableBody = document.querySelector('#output-table tbody');
 
-    // Only react to changes from the inputs if the value from the event isn't empty or null.
-    if (event.target.value !== '') {
-      // Collect the table body selector.
-      const tableBody = document.querySelector('#scales-table tbody');
-      const outputTableBody = document.querySelector('#output-table tbody');
+        // Set the new state of the scale token.
+        SCALE_CLUSTERS[event.target.id] = parseInt(event.target.value);
 
-      // Set the new state of the scale token.
-      SCALE_CLUSTERS[event.target.id] = parseInt(event.target.value);
+        // Empty out the table body contents.
+        tableBody.innerHTML = '';
+        outputTableBody.innerHTML = '';
 
-      // Empty out the table body contents.
-      tableBody.innerHTML = '';
-      outputTableBody.innerHTML = '';
+        // Initialize a new table body.
+        initScalesSection();
+      }
 
-      // Initialize a new table body.
-      initScalesSection();
-    }
-
-    return;
+      return;
+    });
   });
-});
 
-scaleRawJSONButton.addEventListener('click', () => {
-  handleCopyToClipboard('raw', ALL_SCALES);
-});
+  scaleRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', ALL_SCALES);
+  });
 
-scaleFigmaButton.addEventListener('click', () => {
-  handleCopyToClipboard('figma', ALL_SCALES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
-});
+  scaleFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', ALL_SCALES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+  });
+}
+// -----------------------------------------------
 
-// Build the initial values of all tokens on page load.
-initScalesSection();
+// -----------------------------------------------
+// SPACES
+// -----------------------------------------------
+const ALL_SPACES = {
+  "YPL.FFL.TKUI_C.spaces.xs": "$undefined",
+  "YPL.FFL.TKUI_C.spaces.s": "$YPL.FFL.TKUI_M.scales.geoA.400",
+  "YPL.FFL.TKUI_C.spaces.m": "$YPL.FFL.TKUI_M.scales.geoA.500",
+  "YPL.FFL.TKUI_C.spaces.l": "$YPL.FFL.TKUI_M.scales.geoA.600",
+  "YPL.FFL.TKUI_C.spaces.xl": "$undefined",
+  "YPL.FFL.TKUI_C.spaces.xxl": "$undefined"
+};
+
+function initSpacesSection() {
+  buildOutputTable('spaces-table', ALL_SPACES);
+}
+
+function initSpacesEventListeners() {
+  spacesRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', ALL_SPACES);
+  });
+
+  spacesFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', ALL_SPACES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+  });
+}
+// -----------------------------------------------
+
+// -----------------------------------------------
+// STATIC SIZES
+// -----------------------------------------------
+const ALL_STATIC_SIZES = {
+  "YPL.FFL.TKUI_C.sizes.static.xs": 1,
+  "YPL.FFL.TKUI_C.sizes.static.s": 2,
+  "YPL.FFL.TKUI_C.sizes.static.m": 3,
+  "YPL.FFL.TKUI_C.sizes.static.l": 4
+}
+
+function initStaticSizesSection() {
+  buildOutputTable('static-sizes-table', ALL_STATIC_SIZES);
+}
+
+function initStaticSizesEventListeners() {
+  staticSizesRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', ALL_STATIC_SIZES);
+  });
+
+  staticSizesFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', ALL_STATIC_SIZES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+  });
+}
+
+function initializeAll() {
+  initScalesSection();
+  initSpacesSection();
+  initStaticSizesSection();
+
+  initScalesEventListeners();
+  initSpacesEventListeners();
+  initStaticSizesEventListeners();
+}
+
+initializeAll()
