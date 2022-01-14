@@ -99,10 +99,12 @@ export function buildScaleOutput(tableID, allScales) {
   });
 };
 
+//TODO Create a fallback function just in case the user's browser doesn't support the clipboard API.
 const fallbackCopyToClipboard = () => {
   console.log('Not supported');
 }
 
+// Helper function that copies the content passed into the user's clipboard.
 const copyToClipboard = (content) => {
   if (!navigator.clipboard) {
     fallbackCopyToClipboard();
@@ -114,9 +116,16 @@ const copyToClipboard = (content) => {
   }).catch(error => console.warn(error));
 }
 
+/**
+ * @description A function that handles the copying of JSON to the user's clipboard.
+ * @param {string} format - The format of the tokens.
+ * @param {Object} tokens - The object of the tokens.
+ * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
+ * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
+ */
 export function handleCopyToClipboard(format, tokens, description, type) {
   let content = '';
-  
+
   switch (format) {
     case 'raw':
       content = rawTokens(tokens);
