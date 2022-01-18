@@ -40,6 +40,8 @@ const staticSizesRawJSONButton = document.querySelector('#RawTokensStaticSizesCo
 const staticSizesFigmaButton = document.querySelector('#FigmaTokensStaticSizesCollector button');
 const factorsRawJSONButton = document.querySelector('#RawTokensFactorsCollector button');
 const factorsFigmaButton = document.querySelector('#FigmaTokensFactorsCollector button');
+const breakpointRawJSONButton = document.querySelector('#RawTokensBreakpointCollector button');
+const breakpointFigmaButton = document.querySelector('#FigmaTokensBreakpointCollector button');
 
 // -----------------------------------------------
 // SCALES
@@ -249,16 +251,44 @@ function initFactorsEventListeners() {
 }
 // -----------------------------------------------
 
+// -----------------------------------------------
+// FACTORS
+// -----------------------------------------------
+const ALL_BREAKPOINTS = {
+  "YPL.FFL.TKUI_C.breakpoints.sm": 640,
+  "YPL.FFL.TKUI_C.breakpoints.md": 768,
+  "YPL.FFL.TKUI_C.breakpoints.lg": 1024,
+  "YPL.FFL.TKUI_C.breakpoints.xl": 1280,
+  "YPL.FFL.TKUI_C.breakpoints.xxl": 1536
+}
+
+function initBreakpointSection() {
+  buildOutputTable('breakpoint-table', ALL_BREAKPOINTS);
+}
+
+function initBreakpointEventListeners() {
+  breakpointRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', ALL_BREAKPOINTS);
+  });
+
+  breakpointFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', ALL_BREAKPOINTS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+  });
+}
+// -----------------------------------------------
+
 function initializeAll() {
   initScalesSection();
   initSpacesSection();
   initStaticSizesSection();
   initFactorsSection();
+  initBreakpointSection();
 
   initScalesEventListeners();
   initSpacesEventListeners();
   initStaticSizesEventListeners();
   initFactorsEventListeners();
+  initBreakpointEventListeners();
 }
 
-initializeAll()
+initializeAll();
