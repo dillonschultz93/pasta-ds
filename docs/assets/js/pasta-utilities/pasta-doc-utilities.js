@@ -73,27 +73,46 @@ export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices
 /**
  * @description - A function that builds the contents of the scales output table.
  * @param {string} tableID - The id attribute of the <table> element.
- * @param {Object} allScales - The object representing all scale tokens.
+ * @param {Object} allTokens - The object representing all scale tokens.
+ * @todo Refactor so that it scales to the amount of header columns rather than relying on always expecting three columns.
  */
-export function buildOutputTable(tableID, allScales) {
+export function buildOutputTable(tableID, allTokens) {
   const tableBody = document.querySelector(`#${tableID} tbody`);
-  Object.entries(allScales).forEach(item => {
+  const columns = [...document.querySelectorAll(`#${tableID} thead tr th`)];
+
+  Object.entries(allTokens).forEach(item => {
     const [key, value] = item;
     const splitKey = key.split('.');
     const index = splitKey[splitKey.length - 1];
 
     const tr = document.createElement('tr');
-    const indexCell = document.createElement('td');
-    const valueCell = document.createElement('td');
-    const tokenNameCell = document.createElement('td');
+    
+    columns.forEach((column, i) => {
+      const cell = document.createElement('td');
 
-    indexCell.textContent = index;
-    valueCell.textContent = value;
-    tokenNameCell.innerHTML = `<code>${key}</code>`;
+      switch (i) {
+        case 0:
+          cell.textContent = index;
+          break;
 
-    tr.appendChild(indexCell);
-    tr.appendChild(valueCell);
-    tr.appendChild(tokenNameCell);
+        case 1:
+          cell.textContent = Array.isArray(value) ? value[0] : value;
+          break;
+
+        case 2:
+          cell.innerHTML = `<code>${key}</code>`;
+          break;
+
+        case 3:
+          cell.innerHTML = Array.isArray(value) ? `<code>${value[1]}</code>` : null;
+          break; 
+      
+        default:
+          break;
+      }
+
+      tr.appendChild(cell);
+    });
 
     tableBody.appendChild(tr);
   });

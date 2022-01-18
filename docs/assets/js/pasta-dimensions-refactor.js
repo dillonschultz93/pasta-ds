@@ -38,6 +38,8 @@ const spacesRawJSONButton = document.querySelector('#RawTokensSpacesCollector bu
 const spacesFigmaButton = document.querySelector('#FigmaTokensSpacesCollector button');
 const staticSizesRawJSONButton = document.querySelector('#RawTokensStaticSizesCollector button');
 const staticSizesFigmaButton = document.querySelector('#FigmaTokensStaticSizesCollector button');
+const factorsRawJSONButton = document.querySelector('#RawTokensFactorsCollector button');
+const factorsFigmaButton = document.querySelector('#FigmaTokensFactorsCollector button');
 
 // -----------------------------------------------
 // SCALES
@@ -200,15 +202,63 @@ function initStaticSizesEventListeners() {
     handleCopyToClipboard('figma', ALL_STATIC_SIZES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
   });
 }
+// -----------------------------------------------
+
+// -----------------------------------------------
+// FACTORS
+// -----------------------------------------------
+const ALL_FACTORS = {
+  "YPL.FFL.TKUI_C.factors.allText": 1,
+  "YPL.FFL.TKUI_C.factors.allTextW_OButton": 1,
+  "YPL.FFL.TKUI_C.factors.buttonText": 1,
+  "YPL.FFL.TKUI_C.factors.buttonW_OText": 1,
+  "YPL.FFL.TKUI_C.factors.buttonAll": 1,
+  "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": 2
+}
+
+const ALL_ALIASES = {
+  "YPL.FFL.TKUI_A.F1": "$YPL.FFL.TKUI_C.factors.allText",
+  "YPL.FFL.TKUI_A.F2": "$YPL.FFL.TKUI_C.factors.allTextW_OButton",
+  "YPL.FFL.TKUI_A.F3": "$YPL.FFL.TKUI_C.factors.buttonText",
+  "YPL.FFL.TKUI_A.F4": "$YPL.FFL.TKUI_C.factors.buttonW_OText",
+  "YPL.FFL.TKUI_A.F5": "$YPL.FFL.TKUI_C.factors.buttonAll",
+  "YPL.FFL.TKUI_A.F6": "$YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA"
+}
+
+const FACTORS_ALIAS_PAIRS = {
+  "YPL.FFL.TKUI_C.factors.allText": [1, "YPL.FFL.TKUI_A.F1"],
+  "YPL.FFL.TKUI_C.factors.allTextW_OButton": [1, "YPL.FFL.TKUI_A.F2"],
+  "YPL.FFL.TKUI_C.factors.buttonText": [1, "YPL.FFL.TKUI_A.F3"],
+  "YPL.FFL.TKUI_C.factors.buttonW_OText": [1, "YPL.FFL.TKUI_A.F4"],
+  "YPL.FFL.TKUI_C.factors.buttonAll": [1, "YPL.FFL.TKUI_A.F5"],
+  "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": [2, "YPL.FFL.TKUI_A.F6"]
+}
+
+function initFactorsSection() {
+  buildOutputTable('factor-table', FACTORS_ALIAS_PAIRS);
+}
+
+function initFactorsEventListeners() {
+  factorsRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', ALL_FACTORS);
+  });
+
+  factorsFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', ALL_FACTORS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+  });
+}
+// -----------------------------------------------
 
 function initializeAll() {
   initScalesSection();
   initSpacesSection();
   initStaticSizesSection();
+  initFactorsSection();
 
   initScalesEventListeners();
   initSpacesEventListeners();
   initStaticSizesEventListeners();
+  initFactorsEventListeners();
 }
 
 initializeAll()
