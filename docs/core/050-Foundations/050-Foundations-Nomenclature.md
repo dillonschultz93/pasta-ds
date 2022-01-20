@@ -98,7 +98,6 @@ The Kingdom defines what category of token you are dealing with:
 | `TKUI_A` | UI Alias Token |
 | `TK_C_` | **Prefix for Content Tokens** replace the first 5 letters above to infer the name of Content Related tokens |
 
-
 ##### Phylum
 {: .no_toc}
 
@@ -120,13 +119,23 @@ Phyla match usual design systems foundation categories:
 #### Selector
 {: .no_toc}
 
-The Selectors Stems are often aggregated into a sequence that mimics CSS attributes logic. In the example addressed here we have to follow this specific order:
+The Selectors Stems are often aggregated into a sequence that mimics CSS attributes logic (using a "Block-Element-Modifier like" aka BEM hierarchy). In the example addressed here we have to follow this specific order:
 
 ```
-Object › Object Feature › Object Feature Attribute › Parent (Modifier) 
+Parent › Object › Object Feature › Object Feature Attribute
 ```
 
-In other words a `button.border.color.hero` stems-sequence maps to the following CSS:
+##### Parent aka block aka container
+{: .no_toc}
+
+A Parent is the Parent Container of a targetted Object. They influence subsets of objects or specific objects within a same Schemes scope
+
+| Examples | Type | |
+| :--- | ---: | :--- |
+| `hero` | Parent | Container, parent of grand-parent of the target |
+| `article` | Parent | Container, parent of grand-parent of the target |
+
+In other words a `hero.button.border.color` stems-sequence maps to the following CSS:
 
 ```css
 .hero button {
@@ -149,7 +158,7 @@ Some example of Selectors:
 Consequently, the variable below is a Decision Token that should only be applied to buttons contained inside a `hero` block (pattern) and that will target its border-color attribute (and set its property to #333):
 
 ```js
-YPL.FFL.TKUI_D.button.border.color.hero: #333;
+YPL.FFL.TKUI_D.hero.button.border.color: #333;
 ```
 
 ### Modifiers
@@ -176,18 +185,6 @@ NB: large scope Stems includes prefixes using capitals letter and underscore to 
 -  `MD_dark` is a Scheme
 -  Whereas `dark` is a shade
 
-#### Parent, block, container
-{: .no_toc}
-
-{: .no_toc}
-
-A Parent is the Parent Container of the targetted Object. They influence subsets of objects or specific objects within a same Schemes scope
-
-| Examples | Type | |
-| :--- | ---: | :--- |
-| `hero` | Parent | Container, parent of grand-parent of the target |
-| `article` | Parent | Container, parent of grand-parent of the target |
-
 #### Discrete Modifiers
 {: .no_toc}
 
@@ -202,7 +199,6 @@ Discrete Modifiers influence subsets of objects or specific objects within a sam
 
 #### States
 {: .no_toc}
-
 
 States are dynamic Modifiers, they vary in time following various inputs and feedback including user interaction.
 
@@ -223,13 +219,11 @@ States are dynamic Modifiers, they vary in time following various inputs and fee
 Consequently, the variable below is a Decision Token that should only be applied to CTA buttons contained inside a `hero` block (Pattern) and that will target its border-color attribute when in a highlighted-idle state if the dark-mode is active:
 
 ```scss
-YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
+YPL.FFL.TKUI_D.hero.button.border.color.MD_dark.CTA.hi: #333;
 ```
-
 
 ### Index convention
 {: .no_toc}
-
 
 |Index|Font Weight|Luminance|
 | --- | --- | --- |
@@ -244,7 +238,6 @@ YPL.FFL.TKUI_D.button.border.color.MD_dark.hero.CTA.hi: #333;
 | 800 | Black, Extra Bold or Heavy | Y ≃ 20 |
 | 900 | Extra or Ultra Black, Fat, Poster | Y ≃ 10 |
 | > 900 | Required for other categories | Y < 10 |
-
 
 ## Naming Colors
 

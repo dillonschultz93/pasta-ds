@@ -54,6 +54,8 @@ window.scalesCluster = {
 }
 // generate a scale from minIndex to maxIndex using equationEvalStr
 console.warn("FIXME: generateNewScale() should be turned into a scalesCluster method");
+
+
 function generateNewScale (scaleStem = "defaultScale", base = 2, ratio = 2, baseIndex = 400, equationEvalStr = "base * (8 + (index - baseIndex)/100)", minIndex = 100 , maxIndex = 900) {
   console.warn("FIXME: do not use eval()");
   // a global ↓ scaleCluster is required
@@ -62,8 +64,9 @@ function generateNewScale (scaleStem = "defaultScale", base = 2, ratio = 2, base
     // myArray.push(eval(equationEvalStr));
     scalesCluster.scales[scaleStem][index.toString()] = eval(equationEvalStr);
   }
-  // console.log(myArray);
 }
+
+
 // generates all scales inside the scales cluster using the funtion above ↑
 // functionGeoA
 generateNewScale("geoA",scalesCluster.base,scalesCluster.ratio,scalesCluster.baseIndex,"Math.round(base * ratio**((200 + index - baseIndex)/100))",100,1100);
@@ -74,6 +77,7 @@ generateNewScale("arithB",scalesCluster.base,scalesCluster.ratio,scalesCluster.b
 // functionArithC
 generateNewScale("arithC",scalesCluster.base,scalesCluster.ratio,scalesCluster.baseIndex,"(Math.round(base * ratio**2) + (Math.round(base * ratio**2))*((index - 500)/100))*1.5",700,2000);
 
+// console.log(scalesCluster.scales["geoA"]);
 
 // returns an object of all Math tokens
 function generateAllMathTokens(scalesCluster,tokenPrefix) {
@@ -86,6 +90,8 @@ function generateAllMathTokens(scalesCluster,tokenPrefix) {
   return tokenCluster;
 }
 let allScalesTokens = generateAllMathTokens(scalesCluster,"YPL."+projectId+".TKUI_M.scales.");
+
+console.log(allScalesTokens);
 
 
 // filters all Scales Math using scalesCluster.choices, and associates each with math token

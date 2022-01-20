@@ -6,6 +6,6 @@ has_children: true
 layout: default
 nav_order: 90
 ---
-# Farfalle `FFL 0.1.0`
+# Farfalle `{{ page.project_id }} 0.1.0`
 
 Yummly's elder project.
