@@ -1,11 +1,12 @@
 ---
 project_id: FFL # 3-letter code
-title: Typography # title case
-permalink: farfalle/primitives/typography # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Typography Old 01 # title case
+permalink: farfalle/primitives/typography-old-01 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 10
+nav_order: 90
+nav_exclude: true
 ---
 
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist.min.js"></script>
@@ -15,7 +16,7 @@ nav_order: 10
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/chartist.css">
 
 
-# Typography `FFL`
+# Typography `{{ page.project_id }}`
 
 <section class="apparati" markdown="1">
 

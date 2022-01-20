@@ -24,8 +24,8 @@ nav_order: 50
       <li>(The biggest margin set the space)</li>
     </ul>
     <p>
-      In the example (1), where we focus on vertical margins to simplify, we can identify 3 stacked components. Each component has its own set of predefined margins (2) independent from the context they are used.<br>
-      We can see (3) how the spaces are simply set using simple rules described above. Variations in the stacking of the components offer the expected results thanks to these rules (4).
+      In the example (1), where we focus on vertical spaces to simplify, we can identify 3 stacked components: a header, a text paragraph and a button. Each component has its own set of margins (2).<br>
+      We can see (3) how these vertical spaces are set using the simple rules described above. Variations in the order of stacking of the components offer the expected variations in the inter-spaces thanks to these rules: compare the space under the Header component  in exemple (3) vs (4).
     </p>
     <p>
       CSS provides a proper implementation of Margins that matches print and publishing design century-old best practices.
@@ -38,14 +38,61 @@ nav_order: 50
 
 <section class="flex-1_2-cols">
   <div>
-    <h3>The iOS and Android challenge</h3>
+    <h3>The mobile apps challenge</h3>
     <p>
-      Unlike CSS (A), iOS and Android do provide a proper implementation of margins and uses ad hoc spaces instead (B). This leads to a far more complex and systematic context-dependent need for specification for implementation</p>
+      Unlike CSS (A), iOS and Android do not provide a proper implementation of margins.
+      They need ad hoc spaces instead (B). This implies a far more dense specification scheme, and multiplies the number of tokens required to serve it.
+    </p>
     <p>
-      Which consequently prevents us to address space variation within a design system by just modifying high level (choices) tokens. We will try to find a way to overcome this.
+      In other words, and from a pure "inter-space perspective", components are seen by these platforms as unidentified items separated by hard coded space. Information is lost.
     </p>
   </div>
   <div>
     <img src="{{site.baseurl}}/assets/images/YPL-DOC-challenges-layout-002.png" alt="WIP">
   </div>
 </section>
+
+<h3>Proposal</h3>
+
+<section class="flex-1_2-cols">
+  <div>
+    <p>
+      <strong>As a first implemenation for our tokens, we want to try to save part of the lost information in resolving the Margin overlaps into what we call Fringes.</strong>
+    </p>
+  </div>
+  <div>
+    <p>
+      We cannot use "gap", "inset" or "padding" since all these terms are used somehow by the CSS specification,
+      and can be interpreted by the web plateform.
+    </p>
+    <p>
+      Back at the Component level the surrounding space will most likely always be specified using margins, but at the Pattern level we then ask mobile platforms to totally ignore margins. To do so we inject an extra term, the resolved version of the space represented by overlaping margins of 2 consecutive component: Fringes.
+    </p>
+  </div>
+</section>
+
+<img src="{{site.baseurl}}/assets/images/YPL-DOC-challenges-layout-003.png" alt="WIP">
+
+<h4>Rules</h4>
+
+<section class="flex-1_1-cols">
+  <div>
+    <p>
+      To help to resolve our margins into fringes we use some rules of thumb:
+      <li><code>fringeTop</code> is always null, or set to zero</li>
+      <li>Always try to resolve vertical space between two components into the <code>fringeBottom</code> of the component on top</li>
+    </p>
+  </div>
+  <div>
+    <img src="{{site.baseurl}}/assets/images/YPL-DOC-challenges-layout-004.png" alt="WIP">
+  </div>
+</section>
+
+
+<!-- BEM › Box Element Modifier
+YPL-FFL-BOX_ID-paddingTop = 16pt
+YPL-FFL-BOX_ID-COMP_paragraph-FringeBottom = 12pt
+YPL-FFL-BOX_ID-COMP_header-marginTop = 8pt
+YPL-FFL-BOX_ID-COMP_header-FringeBottom = 16pt -->
+
+## Meeting 1.4.4 Criterion

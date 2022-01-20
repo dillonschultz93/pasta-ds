@@ -51,7 +51,9 @@ const breakpointFigmaButton = document.querySelector('#FigmaTokensBreakpointColl
 let allTokens = {
   scale: {},
   space: {},
-  staticSize: {}
+  staticSize: {},
+  factor: {},
+  breakpoint: {}
 }
 
 // Set a constant options and state object.
@@ -240,7 +242,7 @@ function initStaticSizesEventListeners() {
 // // -----------------------------------------------
 
 // // -----------------------------------------------
-// // FACTORS
+// // BREAKPOINTS
 // // -----------------------------------------------
 // const ALL_BREAKPOINTS = {
 //   "YPL.FFL.TKUI_C.breakpoints.sm": 640,

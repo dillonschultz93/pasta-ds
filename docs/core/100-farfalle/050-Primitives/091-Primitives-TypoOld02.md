@@ -1,11 +1,12 @@
 ---
 project_id: FFL # 3-letter code
-title: Typo Test # title case
-permalink: farfalle/primitives/typo-test # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Typography Old 02 # title case
+permalink: farfalle/primitives/typography-old-02 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 1
+nav_order: 91
+nav_exclude: true
 ---
 
 <!-- chartist.js + plugins -->
@@ -17,7 +18,7 @@ nav_order: 1
 <!-- end chartist calls -->
 
 
-# Typo Test `FFL`
+# Typo Test `{{ page.project_id }}`
 
 ## Font family Apparatus
 

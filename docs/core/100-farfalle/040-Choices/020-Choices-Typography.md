@@ -1,11 +1,11 @@
 ---
 project_id: FFL # 3-letter code
-title: Dimensions # title case
-permalink: farfalle/tokens/dimensions # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Typography # title case
+permalink: farfalle/choices/typography # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
-parent: Tokens # title case
+parent: Choices # title case
 layout: default
-nav_order: 10
+nav_order: 20
 ---
 <!-- This module fetches and pushes all basic functions and constants/variables required to run other ad hoc Pasta Scripts ↓ -->
 <script type="module">
@@ -40,23 +40,15 @@ nav_order: 10
 
 
 
-
-
-# Dimensions `{{ page.project_id }}`
+# Typography `{{ page.project_id }}`
 {: .no_toc}
 
 - TOC
 {:toc}
 
 
-<section class="flex-1_1-cols">
-  <div>
-  </div>
-  <div>
-    <a href="" class="btn">Copy Tokens</a>
-  </div>
-</section>
-
+<br>
+<a href="" class="btn">Copy Tokens</a>
 
 
 ## Scales
@@ -312,7 +304,7 @@ To facilitate their usage we use aliases from the get go.
 |  | Description | Alias |
 | --- | --- | --- |
 | **All Text except Controls** | This factor is required by all Text that are not inside Controls | `F1` |
-| **Controls Text size** | This factor is required by all Text that are not inside Controls | `f2` |
+| **Controls Text size** | This factor is required by all Text | `f2` |
 | **Controls size without Text** | This factor is required by all inner dimensions of all Controls except their Text| `F3` |
 | **Controls** | This factor is required by all dimensions of all Controls including Text | `F4` |
 | **Text size · WCAG 1.4.4 AA** | This tokens serves as a reference: all UI Text elements should be tested to meet the WCAG [Success Criterion 1.4.4 Level AA](https://www.w3.org/TR/WCAG21/#x1-4-4-resize-text) which means if their size is multiplied they should not break the general layout or eclipse information | `F5` |

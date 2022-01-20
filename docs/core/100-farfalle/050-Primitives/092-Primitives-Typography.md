@@ -1,11 +1,11 @@
 ---
 project_id: FFL # 3-letter code
-title: Typo Refactor # title case
-permalink: farfalle/primitives/typo-refactor # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Typography # title case
+permalink: farfalle/primitives/typography # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 0
+nav_order: 92
 ---
 <script type="module">
   document.getElementsByTagName('body')[0].setAttribute('data-pasta-project-id', '{{ page.project_id }}');
@@ -17,7 +17,7 @@ nav_order: 0
 https://stackoverflow.com/a/11149036 -->
 
 
-# REFACTOR `{{ page.project_id }}`
+# Typography `{{ page.project_id }}`
 
 
 {% include pasta-inject-chartistjs.html %}

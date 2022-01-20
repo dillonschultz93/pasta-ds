@@ -1,35 +1,24 @@
 ---
 project_id: FFL # 3-letter code
 title: Colors # title case
-permalink: farfalle/tokens/colors # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/choices/colors # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
-parent: Tokens # title case
+parent: Choices # title case
 layout: default
-nav_order: 20
+nav_order: 30
 ---
 <script type="module">
   document.getElementsByTagName('body')[0].setAttribute('data-pasta-project-id', '{{ page.project_id }}');
   import { tokens } from '{{site.baseurl}}/assets/projects/{{ page.project_id }}/tokens/tokens.js';
   window.tokens = tokens;
 </script>
-
-
-
-
-
-
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chroma.min.js" defer></script>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/pasta.js" defer></script>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/pasta-colors.js" defer></script>
 
 
-
-
-
-
-# Colors `FFL`
+# Colors `{{ page.project_id }}`
 {: .no_toc}
-<!-- ↑ skips H1 inside TOC -->
 
 - TOC
 {:toc}
@@ -183,7 +172,6 @@ nav_order: 20
         </tr>
    </tbody>
 </table>
-
 
 ## Grays
 

@@ -5,7 +5,7 @@ permalink: farfalle/primitives/icons # lowercase + use hyphens › https://tiny
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 20
+nav_order: 100
 ---
 
-# Icons `FFL`
+# Icons `{{ page.project_id }}`
