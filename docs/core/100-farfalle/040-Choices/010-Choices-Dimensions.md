@@ -3,7 +3,7 @@ project_id: FFL # 3-letter code
 title: Dimensions # title case
 permalink: farfalle/tokens/dimensions-refactor # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
-parent: Tokens # title case
+parent: Choices # title case
 layout: default
 nav_order: 10
 ---
