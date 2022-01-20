@@ -25,3 +25,33 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 // -----------------------------------------------
+
+import {prefixBuilder} from '../pasta-utilities/pasta-token_naming.js';
+
+/**
+ * @description Generates all spacing tokens as choices using the scale tokens as values.
+ * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
+ */
+export function generateAllSpaceTokens(namingOptions) {
+  // Collect the prefix string
+  const prefix = prefixBuilder(namingOptions);
+  let spacesOutput = {};
+
+  // TODO Define all of the undefined values.
+  const spaces = {
+    "xs": "$undefined",
+    "s": "$YPL.FFL.TKUI_M.scales.geoA.400",
+    "m": "$YPL.FFL.TKUI_M.scales.geoA.500",
+    "l": "$YPL.FFL.TKUI_M.scales.geoA.600",
+    "xl": "$undefined",
+    "xxl": "$undefined"
+  };
+
+  Object.entries(spaces).forEach(space => {
+    const [key, value] = space;
+
+    spacesOutput[`${prefix}.spaces.${key}`] = value;
+  });
+
+  return spacesOutput;
+}

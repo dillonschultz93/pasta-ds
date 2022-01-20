@@ -57,9 +57,9 @@ export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices
       if (cell.className === 'index') {
         item === baseIndex ? cell.innerHTML = `<strong>•  ${item}</strong>` : cell.textContent = item;
       } else {
-        scales[cell.className][item] ? cell.textContent = scales[cell.className][item] : cell.textContent = '-';
+        scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] ? cell.textContent = scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] : cell.textContent = '-';
 
-        choices.includes(scales[cell.className][item]) ? cell.className = 'textbold' : cell.className = 'textfaded';
+        choices.includes(scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`]) ? cell.className = 'textbold' : cell.className = 'textfaded';
       }
 
       row.appendChild(cell);

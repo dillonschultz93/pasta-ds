@@ -69,7 +69,6 @@ function geoA(base, ratio, baseIndex, currentIndex) {
 
 /**
  * @description Generates a scale from a minimum index to a maximum index using a scaling algorithm.
- * @param {Object} scaleCluster - The scaling options object.
  * @param {string} scaleStem - The token stem name of the scale being generated.
  * @param {Number} base - The base value that the algorithm runs off of.
  * @param {Number} ratio - The ratio in which the algorithm will scale.
@@ -78,10 +77,22 @@ function geoA(base, ratio, baseIndex, currentIndex) {
  * @param {Number} max - The maximum range.
  * @returns {Array<Object>}
  */
-export function generateNewScale(scaleCluster, scaleStem, base, ratio, baseIndex, min = 100, max = 900) {
-  // Create a new object with the key matching the scale stem.
-  scaleCluster.scales[scaleStem] = {};
-  
+function generateNewScale(scaleStem, base, ratio, baseIndex) {
+  // Create a new object with the key matching the scale stem and initialize it with the scale stem as the named property.
+  let initObj = {};
+  initObj[scaleStem] = {};
+
+  // Set the min and max amount of exposed indexes.
+  let min = 100;
+  let max = 1100;
+
+  // TODO Figure out a way to set the min and max outside of this function, but for now this is fine.
+  if (scaleStem === 'arithA') {
+    max = 1600
+  } else if (scaleStem === 'arithB') {
+    min = 800;
+    max = 2000;
+  }
 
   for (let index = min; index < max + 1; index += 100) {
     // Create a new variable to hold the scale value.
@@ -104,26 +115,42 @@ export function generateNewScale(scaleCluster, scaleStem, base, ratio, baseIndex
         scaleVal = geoA(base, ratio, baseIndex, index);
         break;
     }
-    scaleCluster.scales[scaleStem][index.toString()] = scaleVal;
+
+    initObj[scaleStem][index.toString()] = scaleVal;
   };
+
+  return initObj;
 };
 
 /**
- * @description A function that collects all scale tokens and formats their keys to match naming convention.
- * @param {Object} scalesInput - The object of generated scales.
- * @param {Object} scalesOutput - The object in which to collect all formatted tokens.
+ * @description Generates all scale tokens using a set of algorithms based off of the scale options that are passed as a parameter.
+ * @param {Array<string>} scales - An array of the enumerated scales.
+ * @param {Object} scaleOptions - The object with all of the scale options like base, baseIndex, and ratio.
  * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
  */
-export function generateAllScaleTokens(scalesInput, scalesOutput, namingOptions) {
+export function generateAllScaleTokens(scales, scaleOptions, namingOptions) {
+  // Collect the prefix string.
   const prefix = prefixBuilder(namingOptions);
 
-  Object.entries(scalesInput).forEach(item => {
-    const [scaleName, scales] = item;
+  // Destructure the values from the scale options object.
+  const { base, ratio, baseIndex } = scaleOptions;
 
-    Object.entries(scales).forEach(scale => {
-      const [index, value] = scale;
+  const scalesOutput = {};
 
-      scalesOutput[`${prefix}.scales.${scaleName}.${index}`] = value;
+  // Loop through each scale and generate scales based off of their stem.
+  scales.forEach(scale => {
+    const rawTokenGroup = generateNewScale(scale, base, ratio, baseIndex);
+
+    Object.entries(rawTokenGroup).forEach(tokenGroup => {
+      const [ group, tokens ] = tokenGroup;
+
+      Object.entries(tokens).forEach(token => {
+        const [index, value] = token;
+
+        scalesOutput[`${prefix}.scales.${group}.${index}`] = value;
+      });
     });
   });
+
+  return scalesOutput;
 }

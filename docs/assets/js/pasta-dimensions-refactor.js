@@ -27,7 +27,9 @@
 // -----------------------------------------------
 
 // Import the necessary apparatuses and utilities
-import { generateNewScale, generateAllScaleTokens } from './pasta-apparatuses/pasta-dimensions-scale.js';
+import { generateAllScaleTokens } from './pasta-apparatuses/pasta-dimensions-scale.js';
+import { generateAllSpaceTokens } from './pasta-apparatuses/pasta-dimensions-spaces.js';
+import { generateAllStaticSizeTokens } from './pasta-apparatuses/pasta-dimensions-static_sizes.js';
 import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from './pasta-utilities/pasta-doc-utilities.js';
 
 // Collect the DOM selectors
@@ -46,17 +48,18 @@ const breakpointFigmaButton = document.querySelector('#FigmaTokensBreakpointColl
 // -----------------------------------------------
 // SCALES
 // -----------------------------------------------
-
-// Set up a piece of state to store all of the scale tokens
-const ALL_SCALES = {};
+let allTokens = {
+  scale: {},
+  space: {},
+  staticSize: {}
+}
 
 // Set a constant options and state object.
-const SCALE_CLUSTERS = {
+const SCALE_OPTIONS = {
   base: 2,
   ratio: 2,
   baseIndex: 400,
   choices: [8,10,12,14,16,18,20,24,28,32,40,48,60,96,144,192,256,512],
-  scales: {}
 };
 
 // Set a constant array of index values.
@@ -93,25 +96,23 @@ const NOMENCLATURE_OPTIONS = {
     namespace: 'YPL',
     project: window.projectId,
     kingdom: 'TKUI_C'
+  },
+  staticSize: {
+    namespace: 'YPL',
+    project: window.projectId,
+    kingdom: 'TKUI_C'
   }
 };
 
-const {choices, scales} = SCALE_CLUSTERS;
-
 function initScalesSection() {
-  // Generate scale token values.
-  generateNewScale(SCALE_CLUSTERS, 'geoA', SCALE_CLUSTERS.base, SCALE_CLUSTERS.ratio, SCALE_CLUSTERS.baseIndex, 100, 1100);
-  generateNewScale(SCALE_CLUSTERS, 'arithA', SCALE_CLUSTERS.base, SCALE_CLUSTERS.ratio, SCALE_CLUSTERS.baseIndex, 100, 1600);
-  generateNewScale(SCALE_CLUSTERS, 'arithB', SCALE_CLUSTERS.base, SCALE_CLUSTERS.ratio, SCALE_CLUSTERS.baseIndex, 800, 2000);
-
   // Generate all scale tokens.
-  generateAllScaleTokens(scales, ALL_SCALES, NOMENCLATURE_OPTIONS.scale);
+  allTokens.scale = generateAllScaleTokens(['geoA', 'arithA', 'arithB'], SCALE_OPTIONS, NOMENCLATURE_OPTIONS.scale);
 
-  // Generate a new table based on the scales.
-  buildScaleTable('scales-table', SCALE_INDEX, SCALE_CLUSTERS.baseIndex, scales, choices);
+  // // Generate a new table based on the scales.
+  buildScaleTable('scales-table', SCALE_INDEX, SCALE_OPTIONS.baseIndex, allTokens.scale, SCALE_OPTIONS.choices);
 
-  // Generate a new detail summary view based on all of the formatted tokens.
-  buildOutputTable('output-table', ALL_SCALES);
+  // // Generate a new detail summary view based on all of the formatted tokens.
+  buildOutputTable('output-table', allTokens.scale);
 };
 
 function initScalesEventListeners() {
@@ -130,7 +131,7 @@ function initScalesEventListeners() {
         const outputTableBody = document.querySelector('#output-table tbody');
 
         // Set the new state of the scale token.
-        SCALE_CLUSTERS[event.target.id] = parseInt(event.target.value);
+        SCALE_OPTIONS[event.target.id] = parseInt(event.target.value);
 
         // Empty out the table body contents.
         tableBody.innerHTML = '';
@@ -145,150 +146,137 @@ function initScalesEventListeners() {
   });
 
   scaleRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', ALL_SCALES);
+    handleCopyToClipboard('raw', allTokens.scale);
   });
 
   scaleFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', ALL_SCALES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+    handleCopyToClipboard('figma', allTokens.scale, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
   });
 }
-// -----------------------------------------------
+// // -----------------------------------------------
 
-// -----------------------------------------------
-// SPACES
-// -----------------------------------------------
-const ALL_SPACES = {
-  "YPL.FFL.TKUI_C.spaces.xs": "$undefined",
-  "YPL.FFL.TKUI_C.spaces.s": "$YPL.FFL.TKUI_M.scales.geoA.400",
-  "YPL.FFL.TKUI_C.spaces.m": "$YPL.FFL.TKUI_M.scales.geoA.500",
-  "YPL.FFL.TKUI_C.spaces.l": "$YPL.FFL.TKUI_M.scales.geoA.600",
-  "YPL.FFL.TKUI_C.spaces.xl": "$undefined",
-  "YPL.FFL.TKUI_C.spaces.xxl": "$undefined"
-};
-
+// // -----------------------------------------------
+// // SPACES
+// // -----------------------------------------------
 function initSpacesSection() {
-  buildOutputTable('spaces-table', ALL_SPACES);
+  allTokens.space = generateAllSpaceTokens(NOMENCLATURE_OPTIONS.space);
+
+  buildOutputTable('spaces-table', allTokens.space);
 }
 
 function initSpacesEventListeners() {
   spacesRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', ALL_SPACES);
+    handleCopyToClipboard('raw', allTokens.space);
   });
 
   spacesFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', ALL_SPACES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+    handleCopyToClipboard('figma', allTokens.space, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
   });
 }
-// -----------------------------------------------
+// // -----------------------------------------------
 
-// -----------------------------------------------
-// STATIC SIZES
-// -----------------------------------------------
-const ALL_STATIC_SIZES = {
-  "YPL.FFL.TKUI_C.sizes.static.xs": 1,
-  "YPL.FFL.TKUI_C.sizes.static.s": 2,
-  "YPL.FFL.TKUI_C.sizes.static.m": 3,
-  "YPL.FFL.TKUI_C.sizes.static.l": 4
-}
-
+// // -----------------------------------------------
+// // STATIC SIZES
+// // -----------------------------------------------
 function initStaticSizesSection() {
-  buildOutputTable('static-sizes-table', ALL_STATIC_SIZES);
+  allTokens.staticSize = generateAllStaticSizeTokens(NOMENCLATURE_OPTIONS.staticSize);
+  buildOutputTable('static-sizes-table', allTokens.staticSize);
 }
 
 function initStaticSizesEventListeners() {
   staticSizesRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', ALL_STATIC_SIZES);
+    handleCopyToClipboard('raw', allTokens.staticSize);
   });
 
   staticSizesFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', ALL_STATIC_SIZES, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+    handleCopyToClipboard('figma', allTokens.staticSize, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
   });
 }
-// -----------------------------------------------
+// // -----------------------------------------------
 
-// -----------------------------------------------
-// FACTORS
-// -----------------------------------------------
-const ALL_FACTORS = {
-  "YPL.FFL.TKUI_C.factors.allText": 1,
-  "YPL.FFL.TKUI_C.factors.allTextW_OButton": 1,
-  "YPL.FFL.TKUI_C.factors.buttonText": 1,
-  "YPL.FFL.TKUI_C.factors.buttonW_OText": 1,
-  "YPL.FFL.TKUI_C.factors.buttonAll": 1,
-  "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": 2
-}
+// // -----------------------------------------------
+// // FACTORS
+// // -----------------------------------------------
+// const ALL_FACTORS = {
+//   "YPL.FFL.TKUI_C.factors.allText": 1,
+//   "YPL.FFL.TKUI_C.factors.allTextW_OButton": 1,
+//   "YPL.FFL.TKUI_C.factors.buttonText": 1,
+//   "YPL.FFL.TKUI_C.factors.buttonW_OText": 1,
+//   "YPL.FFL.TKUI_C.factors.buttonAll": 1,
+//   "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": 2
+// }
 
-const ALL_ALIASES = {
-  "YPL.FFL.TKUI_A.F1": "$YPL.FFL.TKUI_C.factors.allText",
-  "YPL.FFL.TKUI_A.F2": "$YPL.FFL.TKUI_C.factors.allTextW_OButton",
-  "YPL.FFL.TKUI_A.F3": "$YPL.FFL.TKUI_C.factors.buttonText",
-  "YPL.FFL.TKUI_A.F4": "$YPL.FFL.TKUI_C.factors.buttonW_OText",
-  "YPL.FFL.TKUI_A.F5": "$YPL.FFL.TKUI_C.factors.buttonAll",
-  "YPL.FFL.TKUI_A.F6": "$YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA"
-}
+// const ALL_ALIASES = {
+//   "YPL.FFL.TKUI_A.F1": "$YPL.FFL.TKUI_C.factors.allText",
+//   "YPL.FFL.TKUI_A.F2": "$YPL.FFL.TKUI_C.factors.allTextW_OButton",
+//   "YPL.FFL.TKUI_A.F3": "$YPL.FFL.TKUI_C.factors.buttonText",
+//   "YPL.FFL.TKUI_A.F4": "$YPL.FFL.TKUI_C.factors.buttonW_OText",
+//   "YPL.FFL.TKUI_A.F5": "$YPL.FFL.TKUI_C.factors.buttonAll",
+//   "YPL.FFL.TKUI_A.F6": "$YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA"
+// }
 
-const FACTORS_ALIAS_PAIRS = {
-  "YPL.FFL.TKUI_C.factors.allText": [1, "YPL.FFL.TKUI_A.F1"],
-  "YPL.FFL.TKUI_C.factors.allTextW_OButton": [1, "YPL.FFL.TKUI_A.F2"],
-  "YPL.FFL.TKUI_C.factors.buttonText": [1, "YPL.FFL.TKUI_A.F3"],
-  "YPL.FFL.TKUI_C.factors.buttonW_OText": [1, "YPL.FFL.TKUI_A.F4"],
-  "YPL.FFL.TKUI_C.factors.buttonAll": [1, "YPL.FFL.TKUI_A.F5"],
-  "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": [2, "YPL.FFL.TKUI_A.F6"]
-}
+// const FACTORS_ALIAS_PAIRS = {
+//   "YPL.FFL.TKUI_C.factors.allText": [1, "YPL.FFL.TKUI_A.F1"],
+//   "YPL.FFL.TKUI_C.factors.allTextW_OButton": [1, "YPL.FFL.TKUI_A.F2"],
+//   "YPL.FFL.TKUI_C.factors.buttonText": [1, "YPL.FFL.TKUI_A.F3"],
+//   "YPL.FFL.TKUI_C.factors.buttonW_OText": [1, "YPL.FFL.TKUI_A.F4"],
+//   "YPL.FFL.TKUI_C.factors.buttonAll": [1, "YPL.FFL.TKUI_A.F5"],
+//   "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": [2, "YPL.FFL.TKUI_A.F6"]
+// }
 
-function initFactorsSection() {
-  buildOutputTable('factor-table', FACTORS_ALIAS_PAIRS);
-}
+// function initFactorsSection() {
+//   buildOutputTable('factor-table', FACTORS_ALIAS_PAIRS);
+// }
 
-function initFactorsEventListeners() {
-  factorsRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', ALL_FACTORS);
-  });
+// function initFactorsEventListeners() {
+//   factorsRawJSONButton.addEventListener('click', () => {
+//     handleCopyToClipboard('raw', ALL_FACTORS);
+//   });
 
-  factorsFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', ALL_FACTORS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
-  });
-}
-// -----------------------------------------------
+//   factorsFigmaButton.addEventListener('click', () => {
+//     handleCopyToClipboard('figma', ALL_FACTORS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+//   });
+// }
+// // -----------------------------------------------
 
-// -----------------------------------------------
-// FACTORS
-// -----------------------------------------------
-const ALL_BREAKPOINTS = {
-  "YPL.FFL.TKUI_C.breakpoints.sm": 640,
-  "YPL.FFL.TKUI_C.breakpoints.md": 768,
-  "YPL.FFL.TKUI_C.breakpoints.lg": 1024,
-  "YPL.FFL.TKUI_C.breakpoints.xl": 1280,
-  "YPL.FFL.TKUI_C.breakpoints.xxl": 1536
-}
+// // -----------------------------------------------
+// // FACTORS
+// // -----------------------------------------------
+// const ALL_BREAKPOINTS = {
+//   "YPL.FFL.TKUI_C.breakpoints.sm": 640,
+//   "YPL.FFL.TKUI_C.breakpoints.md": 768,
+//   "YPL.FFL.TKUI_C.breakpoints.lg": 1024,
+//   "YPL.FFL.TKUI_C.breakpoints.xl": 1280,
+//   "YPL.FFL.TKUI_C.breakpoints.xxl": 1536
+// }
 
-function initBreakpointSection() {
-  buildOutputTable('breakpoint-table', ALL_BREAKPOINTS);
-}
+// function initBreakpointSection() {
+//   buildOutputTable('breakpoint-table', ALL_BREAKPOINTS);
+// }
 
-function initBreakpointEventListeners() {
-  breakpointRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', ALL_BREAKPOINTS);
-  });
+// function initBreakpointEventListeners() {
+//   breakpointRawJSONButton.addEventListener('click', () => {
+//     handleCopyToClipboard('raw', ALL_BREAKPOINTS);
+//   });
 
-  breakpointFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', ALL_BREAKPOINTS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
-  });
-}
+//   breakpointFigmaButton.addEventListener('click', () => {
+//     handleCopyToClipboard('figma', ALL_BREAKPOINTS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+//   });
+// }
 // -----------------------------------------------
 
 function initializeAll() {
   initScalesSection();
   initSpacesSection();
   initStaticSizesSection();
-  initFactorsSection();
-  initBreakpointSection();
+  // initFactorsSection();
+  // initBreakpointSection();
 
   initScalesEventListeners();
   initSpacesEventListeners();
   initStaticSizesEventListeners();
-  initFactorsEventListeners();
-  initBreakpointEventListeners();
+  // initFactorsEventListeners();
+  // initBreakpointEventListeners();
 }
 
 initializeAll();

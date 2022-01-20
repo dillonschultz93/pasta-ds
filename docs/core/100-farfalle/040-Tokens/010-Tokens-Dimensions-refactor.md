@@ -236,7 +236,8 @@ To facilitate their usage we use aliases from the get go.
 
 ## Breakpoints/Viewports
 
-Breakpoints are points where web/native content responds according to the device width. We have exposed a few common breakpoints as tokens here.
+### Web
+Breakpoints are points where web content responds according to the device width. We have exposed a few common breakpoints as tokens here.
 
 <!-- TODO Expose tokens for iOS and Android Viewports -->
 
@@ -278,3 +279,14 @@ Breakpoints are points where web/native content responds according to the device
     </div>
   </div>
 </section>
+
+### iOS [WIP]
+Instead of using exact values of width like web media queries require; exposing a set of orientation tokens can be a proposed solution to handle the viewport challenge. [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/#device-size-classes) explain this a little more eloquently.
+
+#### Proposal
+To expose two tokens specifically for iOS `YPL.FFL.TKUI_C.breakpoints.iOS.regular` and `YPL.FFL.TKUI_C.breakpoints.iOS.compact`
+### Android
+Instead of using exact values of width like web media queries require; exposing a set of orientation tokens can be a proposed solution to handle the viewport challenge. [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/#device-size-classes) explain this a little more eloquently.
+
+#### Proposal
+To expose two tokens specifically for iOS `YPL.FFL.TKUI_C.breakpoints.iOS.regular` and `YPL.FFL.TKUI_C.breakpoints.iOS.compact`
