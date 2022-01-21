@@ -279,6 +279,8 @@ Breakpoints are points where web content responds according to the device width.
   </div>
 </section>
 
+<hr>
+
 ### iOS [WIP]
 {: .no_toc}
 Instead of using exact values of width like web media queries require; exposing a set of orientation tokens can be a proposed solution to handle the viewport challenge. [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/#device-size-classes) explain this a little more eloquently.
@@ -286,6 +288,9 @@ Instead of using exact values of width like web media queries require; exposing 
 #### Proposal
 {: .no_toc}
 To expose two tokens specifically for iOS `YPL.FFL.TKUI_C.breakpoints.iOS.regular` and `YPL.FFL.TKUI_C.breakpoints.iOS.compact`
+
+<hr>
+
 ### Android [WIP]
 {: .no_toc}
 

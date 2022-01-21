@@ -31,6 +31,7 @@ import { generateAllScaleTokens } from './pasta-apparatuses/pasta-dimensions-sca
 import { generateAllSpaceTokens } from './pasta-apparatuses/pasta-dimensions-spaces.js';
 import { generateAllStaticSizeTokens } from './pasta-apparatuses/pasta-dimensions-static_sizes.js';
 import { generateFactorsTokens } from './pasta-apparatuses/pasta-dimensions-factors.js';
+import { generateBreakpointTokens } from './pasta-apparatuses/pasta-dimensions-breakpoints.js';
 import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from './pasta-utilities/pasta-doc-utilities.js';
 
 // Collect the DOM selectors
@@ -106,6 +107,11 @@ const NOMENCLATURE_OPTIONS = {
     kingdom: 'TKUI_C'
   },
   factor: {
+    namespace: 'YPL',
+    project: window.projectId,
+    kingdom: 'TKUI_C'
+  },
+  breakpoint: {
     namespace: 'YPL',
     project: window.projectId,
     kingdom: 'TKUI_C'
@@ -224,27 +230,20 @@ function initFactorsEventListeners() {
 // // -----------------------------------------------
 // // BREAKPOINTS
 // // -----------------------------------------------
-// const ALL_BREAKPOINTS = {
-//   "YPL.FFL.TKUI_C.breakpoints.sm": 640,
-//   "YPL.FFL.TKUI_C.breakpoints.md": 768,
-//   "YPL.FFL.TKUI_C.breakpoints.lg": 1024,
-//   "YPL.FFL.TKUI_C.breakpoints.xl": 1280,
-//   "YPL.FFL.TKUI_C.breakpoints.xxl": 1536
-// }
+function initBreakpointSection() {
+  allTokens.breakpoint = generateBreakpointTokens(NOMENCLATURE_OPTIONS.breakpoint);
+  buildOutputTable('breakpoint-table', allTokens.breakpoint);
+}
 
-// function initBreakpointSection() {
-//   buildOutputTable('breakpoint-table', ALL_BREAKPOINTS);
-// }
+function initBreakpointEventListeners() {
+  breakpointRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', allTokens.breakpoint);
+  });
 
-// function initBreakpointEventListeners() {
-//   breakpointRawJSONButton.addEventListener('click', () => {
-//     handleCopyToClipboard('raw', ALL_BREAKPOINTS);
-//   });
-
-//   breakpointFigmaButton.addEventListener('click', () => {
-//     handleCopyToClipboard('figma', ALL_BREAKPOINTS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
-//   });
-// }
+  breakpointFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', allTokens.breakpoint, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+  });
+}
 // -----------------------------------------------
 
 function initializeAll() {
@@ -252,13 +251,13 @@ function initializeAll() {
   initSpacesSection();
   initStaticSizesSection();
   initFactorsSection();
-  // initBreakpointSection();
+  initBreakpointSection();
 
   initScalesEventListeners();
   initSpacesEventListeners();
   initStaticSizesEventListeners();
   initFactorsEventListeners();
-  // initBreakpointEventListeners();
+  initBreakpointEventListeners();
 }
 
 initializeAll();
