@@ -1,15 +1,15 @@
 ---
 project_id: FFL # 3-letter code
-title: Chips # title case
-permalink: farfalle/components/chips # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Ratings # title case
+permalink: farfalle/components/ratings # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Components # title case
 layout: default
-nav_order: 150
+nav_order: 300
 ---
 
 
-# Chips  `{{ page.project_id }}`
+# Ratings  `{{ page.project_id }}`
 {: .no_toc}
 
 

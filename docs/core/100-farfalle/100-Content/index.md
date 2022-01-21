@@ -8,7 +8,7 @@ layout: default
 nav_order: 100
 ---
 
-# Content `FFL`
+# Content `{{ page.project_id }}`
 
 ## Case rules
 

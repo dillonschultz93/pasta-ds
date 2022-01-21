@@ -16,9 +16,7 @@ nav_order: 92
 <!-- ↑↑ attach variable to window
 https://stackoverflow.com/a/11149036 -->
 
-
 # Typography `{{ page.project_id }}`
-
 
 {% include pasta-inject-chartistjs.html %}
 
@@ -41,3 +39,5 @@ https://stackoverflow.com/a/11149036 -->
   <div class="typo-tracking_table" id="typo_tracking_table"></div>
 
 </section>
+
+## Eyebrows

@@ -970,6 +970,7 @@ p + .dd-dont {
   width: 80%;
   margin: 0 10%;
   fill: #999;
+  transform: translate3d(0,0,0);
   transition: all 0.4s;
 }
 
