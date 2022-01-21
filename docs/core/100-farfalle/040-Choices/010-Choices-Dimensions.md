@@ -1,7 +1,7 @@
 ---
 project_id: FFL # 3-letter code
 title: Dimensions # title case
-permalink: farfalle/tokens/dimensions-refactor # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/choices/dimensions-refactor # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Choices # title case
 layout: default
@@ -211,7 +211,6 @@ To facilitate their usage we use aliases from the get go.
         <th>factor</th>
         <th>value</th>
         <th>token</th>
-        <th>alias token</th>
       </tr>
     </thead>
     <tbody>
@@ -281,12 +280,12 @@ Breakpoints are points where web content responds according to the device width.
 </section>
 
 ### iOS [WIP]
+{: .no_toc}
 Instead of using exact values of width like web media queries require; exposing a set of orientation tokens can be a proposed solution to handle the viewport challenge. [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/#device-size-classes) explain this a little more eloquently.
 
 #### Proposal
+{: .no_toc}
 To expose two tokens specifically for iOS `YPL.FFL.TKUI_C.breakpoints.iOS.regular` and `YPL.FFL.TKUI_C.breakpoints.iOS.compact`
-### Android
-Instead of using exact values of width like web media queries require; exposing a set of orientation tokens can be a proposed solution to handle the viewport challenge. [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/#device-size-classes) explain this a little more eloquently.
+### Android [WIP]
+{: .no_toc}
 
-#### Proposal
-To expose two tokens specifically for iOS `YPL.FFL.TKUI_C.breakpoints.iOS.regular` and `YPL.FFL.TKUI_C.breakpoints.iOS.compact`
