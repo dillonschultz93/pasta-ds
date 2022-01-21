@@ -30,6 +30,7 @@
 import { generateAllScaleTokens } from './pasta-apparatuses/pasta-dimensions-scale.js';
 import { generateAllSpaceTokens } from './pasta-apparatuses/pasta-dimensions-spaces.js';
 import { generateAllStaticSizeTokens } from './pasta-apparatuses/pasta-dimensions-static_sizes.js';
+import { generateFactorsTokens } from './pasta-apparatuses/pasta-dimensions-factors.js';
 import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from './pasta-utilities/pasta-doc-utilities.js';
 
 // Collect the DOM selectors
@@ -100,6 +101,11 @@ const NOMENCLATURE_OPTIONS = {
     kingdom: 'TKUI_C'
   },
   staticSize: {
+    namespace: 'YPL',
+    project: window.projectId,
+    kingdom: 'TKUI_C'
+  },
+  factor: {
     namespace: 'YPL',
     project: window.projectId,
     kingdom: 'TKUI_C'
@@ -199,46 +205,20 @@ function initStaticSizesEventListeners() {
 // // -----------------------------------------------
 // // FACTORS
 // // -----------------------------------------------
-// const ALL_FACTORS = {
-//   "YPL.FFL.TKUI_C.factors.allText": 1,
-//   "YPL.FFL.TKUI_C.factors.allTextW_OButton": 1,
-//   "YPL.FFL.TKUI_C.factors.buttonText": 1,
-//   "YPL.FFL.TKUI_C.factors.buttonW_OText": 1,
-//   "YPL.FFL.TKUI_C.factors.buttonAll": 1,
-//   "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": 2
-// }
+function initFactorsSection() {
+  allTokens.factor = generateFactorsTokens(NOMENCLATURE_OPTIONS.factor);
+  buildOutputTable('factor-table', allTokens.factor);
+}
 
-// const ALL_ALIASES = {
-//   "YPL.FFL.TKUI_A.F1": "$YPL.FFL.TKUI_C.factors.allText",
-//   "YPL.FFL.TKUI_A.F2": "$YPL.FFL.TKUI_C.factors.allTextW_OButton",
-//   "YPL.FFL.TKUI_A.F3": "$YPL.FFL.TKUI_C.factors.buttonText",
-//   "YPL.FFL.TKUI_A.F4": "$YPL.FFL.TKUI_C.factors.buttonW_OText",
-//   "YPL.FFL.TKUI_A.F5": "$YPL.FFL.TKUI_C.factors.buttonAll",
-//   "YPL.FFL.TKUI_A.F6": "$YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA"
-// }
+function initFactorsEventListeners() {
+  factorsRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', allTokens.factor);
+  });
 
-// const FACTORS_ALIAS_PAIRS = {
-//   "YPL.FFL.TKUI_C.factors.allText": [1, "YPL.FFL.TKUI_A.F1"],
-//   "YPL.FFL.TKUI_C.factors.allTextW_OButton": [1, "YPL.FFL.TKUI_A.F2"],
-//   "YPL.FFL.TKUI_C.factors.buttonText": [1, "YPL.FFL.TKUI_A.F3"],
-//   "YPL.FFL.TKUI_C.factors.buttonW_OText": [1, "YPL.FFL.TKUI_A.F4"],
-//   "YPL.FFL.TKUI_C.factors.buttonAll": [1, "YPL.FFL.TKUI_A.F5"],
-//   "YPL.FFL.TKUI_C.factors.WCAG_1_4_4_AA": [2, "YPL.FFL.TKUI_A.F6"]
-// }
-
-// function initFactorsSection() {
-//   buildOutputTable('factor-table', FACTORS_ALIAS_PAIRS);
-// }
-
-// function initFactorsEventListeners() {
-//   factorsRawJSONButton.addEventListener('click', () => {
-//     handleCopyToClipboard('raw', ALL_FACTORS);
-//   });
-
-//   factorsFigmaButton.addEventListener('click', () => {
-//     handleCopyToClipboard('figma', ALL_FACTORS, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
-//   });
-// }
+  factorsFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', allTokens.factor, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+  });
+}
 // // -----------------------------------------------
 
 // // -----------------------------------------------
@@ -271,13 +251,13 @@ function initializeAll() {
   initScalesSection();
   initSpacesSection();
   initStaticSizesSection();
-  // initFactorsSection();
+  initFactorsSection();
   // initBreakpointSection();
 
   initScalesEventListeners();
   initSpacesEventListeners();
   initStaticSizesEventListeners();
-  // initFactorsEventListeners();
+  initFactorsEventListeners();
   // initBreakpointEventListeners();
 }
 
