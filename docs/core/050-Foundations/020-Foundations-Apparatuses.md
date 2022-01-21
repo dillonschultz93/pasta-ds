@@ -46,8 +46,6 @@ Generates the prefix or domain of the token.
 
 <hr>
 
-Work in progress
-{: .label}
 ### Dimension
 Dimension apparatuses are used to create the various values of tokens associated with scale, space, sizing, factors, and breakpoints.
 
@@ -104,3 +102,37 @@ Generates all static size tokens as choices using a set of constant values.
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
 
 <hr>
+
+#### `generateFactorsTokens(...)`
+
+```js
+generateFactorsTokens(
+  namingOptions: Object
+);
+```
+
+Generates all factor tokens as choices using a set of constant values.
+
+| **parameter**                                                            | **required** |
+|--------------------------------------------------------------------------|--------------|
+| `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+
+<hr>
+
+#### `generateBreakpointTokens(...)`
+
+```js
+generateBreakpointTokens(
+  namingOptions: Object
+);
+```
+
+Generates all breakpoint tokens as choices using a set of constant values.
+
+| **parameter**                                                            | **required** |
+|--------------------------------------------------------------------------|--------------|
+| `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+
+<hr>
+
+### Typography

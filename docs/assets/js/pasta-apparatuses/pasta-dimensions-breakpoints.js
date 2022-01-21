@@ -29,7 +29,7 @@
 import {prefixBuilder} from '../pasta-utilities/pasta-token_naming.js';
 
 /**
- * @description Generates all factor tokens as choices using a set of constant values.
+ * @description Generates all breakpoint tokens as choices using a set of constant values.
  * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
  */
 export function generateBreakpointTokens(namingOptions) {
