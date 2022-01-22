@@ -32,7 +32,25 @@
  * @returns {string} A JSON string.
  */
 export function rawTokens(tokenObj) {
-  return JSON.stringify(tokenObj, null, 2);
+  let rawToken = {};
+
+  Object.entries(tokenObj).forEach(token => {
+    const [key, value] = token;
+
+    rawToken[key] = {};
+
+    if (value.value) {
+      rawToken[key] = value.value;
+    } else {
+      Object.entries(value).forEach(item => {
+        const [nestedKey, nestedValue] = item;
+
+        rawToken[key][nestedKey] = nestedValue.value;
+      });
+    }
+  });
+
+  return JSON.stringify(rawToken, null, 2);
 }
 
 /**
@@ -42,17 +60,13 @@ export function rawTokens(tokenObj) {
  * @param {string} type - The type of token enumerated to a string.
  * @returns A JSON string.
  */
-export function figmaTokens(tokenObj, description, type) {
+export function figmaTokens(tokenObj) {
   let figmaToken = {};
 
   Object.entries(tokenObj).forEach(token => {
     const [key, value] = token;
 
-    figmaToken[key] = {
-      value,
-      description,
-      type
-    };
+    figmaToken[key] = value;
   });
 
   return JSON.stringify(figmaToken, null, 2);

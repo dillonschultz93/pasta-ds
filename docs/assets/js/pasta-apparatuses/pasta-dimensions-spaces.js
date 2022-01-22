@@ -31,8 +31,10 @@ import {prefixBuilder} from '../pasta-utilities/pasta-token_naming.js';
 /**
  * @description Generates all spacing tokens as choices using the scale tokens as values.
  * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
+ * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
+ * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
  */
-export function generateAllSpaceTokens(namingOptions) {
+export function generateAllSpaceTokens(namingOptions, description, type) {
   // Collect the prefix string
   const prefix = prefixBuilder(namingOptions);
   let spacesOutput = {};
@@ -50,7 +52,11 @@ export function generateAllSpaceTokens(namingOptions) {
   Object.entries(spaces).forEach(space => {
     const [key, value] = space;
 
-    spacesOutput[`${prefix}.spaces.${key}`] = value;
+    spacesOutput[`${prefix}.spaces.${key}`] = {
+      value,
+      description,
+      type
+    };
   });
 
   return spacesOutput;

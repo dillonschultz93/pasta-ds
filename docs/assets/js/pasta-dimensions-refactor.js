@@ -40,12 +40,14 @@ const scaleRawJSONButton = document.querySelector('#RawTokensScalesCollector but
 const scaleFigmaButton = document.querySelector('#FigmaTokensScalesCollector button');
 const spacesRawJSONButton = document.querySelector('#RawTokensSpacesCollector button');
 const spacesFigmaButton = document.querySelector('#FigmaTokensSpacesCollector button');
-const staticSizesRawJSONButton = document.querySelector('#RawTokensStaticSizesCollector button');
-const staticSizesFigmaButton = document.querySelector('#FigmaTokensStaticSizesCollector button');
+const staticSizesRawJSONButton = document.querySelector('#RawTokensStaticsizeCollector button');
+const staticSizesFigmaButton = document.querySelector('#FigmaTokensStaticsizeCollector button');
 const factorsRawJSONButton = document.querySelector('#RawTokensFactorsCollector button');
 const factorsFigmaButton = document.querySelector('#FigmaTokensFactorsCollector button');
 const breakpointRawJSONButton = document.querySelector('#RawTokensBreakpointCollector button');
 const breakpointFigmaButton = document.querySelector('#FigmaTokensBreakpointCollector button');
+const allDimensionsRawJSONButton = document.querySelector("#RawTokensDimensionsCollector");
+const allDimensionsFigmaButton = document.querySelector("#FigmaTokensDimensionsCollector");
 
 // -----------------------------------------------
 // SCALES
@@ -120,8 +122,7 @@ const NOMENCLATURE_OPTIONS = {
 
 function initScalesSection() {
   // Generate all scale tokens.
-  allTokens.scale = generateAllScaleTokens(['geoA', 'arithA', 'arithB'], SCALE_OPTIONS, NOMENCLATURE_OPTIONS.scale);
-
+  allTokens.scale = generateAllScaleTokens(['geoA', 'arithA', 'arithB'], SCALE_OPTIONS, NOMENCLATURE_OPTIONS.scale, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
   // // Generate a new table based on the scales.
   buildScaleTable('scales-table', SCALE_INDEX, SCALE_OPTIONS.baseIndex, allTokens.scale, SCALE_OPTIONS.choices);
 
@@ -164,7 +165,7 @@ function initScalesEventListeners() {
   });
 
   scaleFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.scale, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+    handleCopyToClipboard('figma', allTokens.scale);
   });
 }
 // // -----------------------------------------------
@@ -173,7 +174,7 @@ function initScalesEventListeners() {
 // // SPACES
 // // -----------------------------------------------
 function initSpacesSection() {
-  allTokens.space = generateAllSpaceTokens(NOMENCLATURE_OPTIONS.space);
+  allTokens.space = generateAllSpaceTokens(NOMENCLATURE_OPTIONS.space, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'spacing');
 
   buildOutputTable('spaces-table', allTokens.space);
 }
@@ -184,7 +185,7 @@ function initSpacesEventListeners() {
   });
 
   spacesFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.space, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+    handleCopyToClipboard('figma', allTokens.space);
   });
 }
 // // -----------------------------------------------
@@ -193,7 +194,7 @@ function initSpacesEventListeners() {
 // // STATIC SIZES
 // // -----------------------------------------------
 function initStaticSizesSection() {
-  allTokens.staticSize = generateAllStaticSizeTokens(NOMENCLATURE_OPTIONS.staticSize);
+  allTokens.staticSize = generateAllStaticSizeTokens(NOMENCLATURE_OPTIONS.staticSize, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
   buildOutputTable('static-sizes-table', allTokens.staticSize);
 }
 
@@ -203,7 +204,7 @@ function initStaticSizesEventListeners() {
   });
 
   staticSizesFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.staticSize, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+    handleCopyToClipboard('figma', allTokens.staticSize);
   });
 }
 // // -----------------------------------------------
@@ -212,7 +213,7 @@ function initStaticSizesEventListeners() {
 // // FACTORS
 // // -----------------------------------------------
 function initFactorsSection() {
-  allTokens.factor = generateFactorsTokens(NOMENCLATURE_OPTIONS.factor);
+  allTokens.factor = generateFactorsTokens(NOMENCLATURE_OPTIONS.factor, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
   buildOutputTable('factor-table', allTokens.factor);
 }
 
@@ -222,7 +223,7 @@ function initFactorsEventListeners() {
   });
 
   factorsFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.factor, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+    handleCopyToClipboard('figma', allTokens.factor);
   });
 }
 // // -----------------------------------------------
@@ -231,7 +232,7 @@ function initFactorsEventListeners() {
 // // BREAKPOINTS
 // // -----------------------------------------------
 function initBreakpointSection() {
-  allTokens.breakpoint = generateBreakpointTokens(NOMENCLATURE_OPTIONS.breakpoint);
+  allTokens.breakpoint = generateBreakpointTokens(NOMENCLATURE_OPTIONS.breakpoint, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
   buildOutputTable('breakpoint-table', allTokens.breakpoint);
 }
 
@@ -241,10 +242,20 @@ function initBreakpointEventListeners() {
   });
 
   breakpointFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.breakpoint, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+    handleCopyToClipboard('figma', allTokens.breakpoint);
   });
 }
 // -----------------------------------------------
+
+function initAllDimensionsEventListeners() {
+  allDimensionsRawJSONButton.addEventListener('click', () => {
+    handleCopyToClipboard('raw', allTokens);
+  });
+
+  allDimensionsFigmaButton.addEventListener('click', () => {
+    handleCopyToClipboard('figma', allTokens);
+  });
+}
 
 function initializeAll() {
   initScalesSection();
@@ -258,6 +269,8 @@ function initializeAll() {
   initStaticSizesEventListeners();
   initFactorsEventListeners();
   initBreakpointEventListeners();
+  initAllDimensionsEventListeners();
 }
 
 initializeAll();
+

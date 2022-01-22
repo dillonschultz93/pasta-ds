@@ -32,6 +32,10 @@ nav_order: 10
 - TOC
 {:toc}
 
+<hr>
+
+{% include copy-all-tokens-section.html title="Dimension" section="dimensions" %}
+
 ## Scales
 
 Scales are Mathematic functions that allow us to derivate all our sizes from a limited number of Super Choices:
@@ -103,19 +107,7 @@ functionArithC(index) = (Math.round(base * ratio**2) + (Math.round(base * ratio*
   </details>
 </section>
 
-<section>
-  <p>Copy all scale math tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
-  <div class="flex-1_1-cols">
-    <div id="RawTokensScalesCollector">
-      <h4>Raw JSON</h4>
-      <button class="btn">Copy JSON</button>
-    </div>
-    <div id="FigmaTokensScalesCollector">
-      <h4>Figma Tokens</h4>
-      <button class="btn">Copy Figma Tokens</button>
-    </div>
-  </div>
-</section>
+{% include copy-all-tokens-section.html section="scales" %}
 
 ## Spaces
 
@@ -138,19 +130,7 @@ Tokens that are used to set margin, gutters, and padding.
   </table>
 </section>
 
-<section>
-  <p>Copy all space tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
-  <div class="flex-1_1-cols">
-    <div id="RawTokensSpacesCollector">
-      <h4>Raw JSON</h4>
-      <button class="btn">Copy JSON</button>
-    </div>
-    <div id="FigmaTokensSpacesCollector">
-      <h4>Figma Tokens</h4>
-      <button class="btn">Copy Figma Tokens</button>
-    </div>
-  </div>
-</section>
+{% include copy-all-tokens-section.html section="spaces" %}
 
 ## Static Sizes
 
@@ -173,19 +153,7 @@ This Sizes are always expressed in pixel (px unit) and are used to set attribute
   </table>
 </section>
 
-<section>
-  <p>Copy all static size tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
-  <div class="flex-1_1-cols">
-    <div id="RawTokensStaticSizesCollector">
-      <h4>Raw JSON</h4>
-      <button class="btn">Copy JSON</button>
-    </div>
-    <div id="FigmaTokensStaticSizesCollector">
-      <h4>Figma Tokens</h4>
-      <button class="btn">Copy Figma Tokens</button>
-    </div>
-  </div>
-</section>
+{% include copy-all-tokens-section.html section="staticSize" %}
 
 ## Factors
 
@@ -219,19 +187,7 @@ To facilitate their usage we use aliases from the get go.
   </table>
 </section>
 
-<section>
-  <p>Copy all factor tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
-  <div class="flex-1_1-cols">
-    <div id="RawTokensFactorsCollector">
-      <h4>Raw JSON</h4>
-      <button class="btn">Copy JSON</button>
-    </div>
-    <div id="FigmaTokensFactorsCollector">
-      <h4>Figma Tokens</h4>
-      <button class="btn">Copy Figma Tokens</button>
-    </div>
-  </div>
-</section>
+{% include copy-all-tokens-section.html section="factors" %}
 
 ## Breakpoints/Viewports
 
@@ -265,19 +221,7 @@ Breakpoints are points where web content responds according to the device width.
   </table>
 </section>
 
-<section>
-  <p>Copy all breakpoint tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
-  <div class="flex-1_1-cols">
-    <div id="RawTokensBreakpointCollector">
-      <h4>Raw JSON</h4>
-      <button class="btn">Copy JSON</button>
-    </div>
-    <div id="FigmaTokensBreakpointCollector">
-      <h4>Figma Tokens</h4>
-      <button class="btn">Copy Figma Tokens</button>
-    </div>
-  </div>
-</section>
+{% include copy-all-tokens-section.html section="breakpoint" %}
 
 <hr>
 

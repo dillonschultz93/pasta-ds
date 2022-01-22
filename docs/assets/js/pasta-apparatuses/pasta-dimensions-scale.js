@@ -127,8 +127,10 @@ function generateNewScale(scaleStem, base, ratio, baseIndex) {
  * @param {Array<string>} scales - An array of the enumerated scales.
  * @param {Object} scaleOptions - The object with all of the scale options like base, baseIndex, and ratio.
  * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
+ * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
+ * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
  */
-export function generateAllScaleTokens(scales, scaleOptions, namingOptions) {
+export function generateAllScaleTokens(scales, scaleOptions, namingOptions, description, type) {
   // Collect the prefix string.
   const prefix = prefixBuilder(namingOptions);
 
@@ -147,7 +149,11 @@ export function generateAllScaleTokens(scales, scaleOptions, namingOptions) {
       Object.entries(tokens).forEach(token => {
         const [index, value] = token;
 
-        scalesOutput[`${prefix}.scales.${group}.${index}`] = value;
+        scalesOutput[`${prefix}.scales.${group}.${index}`] = {
+          value,
+          description,
+          type
+        };
       });
     });
   });

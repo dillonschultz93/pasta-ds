@@ -974,6 +974,13 @@ p + .dd-dont {
   transition: all 0.4s;
 }
 
+.copy-card {
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0);
+  background-color: #f5f6fa;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
 //
 // MAIN MEDIA QUERIES
 //

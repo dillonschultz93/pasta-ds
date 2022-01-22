@@ -57,7 +57,9 @@ Dimension apparatuses are used to create the various values of tokens associated
 generateAllScaleTokens(
   scales: Array<string>,
   scaleOptions: Object,
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -68,6 +70,8 @@ Generates all scale tokens using a set of algorithms based off of the scale opti
 | `scales: ['geoA', 'arithA', 'arithB']`                                   | Yes          |
 | `scaleOptions: { base: number, ratio: number, baseIndex: number }`       | Yes          |
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
@@ -75,7 +79,9 @@ Generates all scale tokens using a set of algorithms based off of the scale opti
 
 ```js
 generateAllSpaceTokens(
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -84,6 +90,8 @@ Generates all spacing tokens as choices using the scale token keys as values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
@@ -91,7 +99,9 @@ Generates all spacing tokens as choices using the scale token keys as values.
 
 ```js
 generateAllStaticSizeTokens(
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -100,6 +110,8 @@ Generates all static size tokens as choices using a set of constant values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
@@ -107,7 +119,9 @@ Generates all static size tokens as choices using a set of constant values.
 
 ```js
 generateFactorsTokens(
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -116,6 +130,8 @@ Generates all factor tokens as choices using a set of constant values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
@@ -123,7 +139,9 @@ Generates all factor tokens as choices using a set of constant values.
 
 ```js
 generateBreakpointTokens(
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -132,7 +150,10 @@ Generates all breakpoint tokens as choices using a set of constant values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
 ### Typography
+{: .no_toc}
