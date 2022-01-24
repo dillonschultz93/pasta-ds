@@ -35,7 +35,7 @@ Recipe cards allow the user to engage with a recipe, and view all of its relevan
         <td colspan="2"><strong>Playground · Copy the Pattern-siloed Tokens including all required Choices and Decisions to clipboard:</strong></td>
     </tr>
     <tr>
-        <td><a href="" class="btn">SCSS Tokens</a></td>
+        <td><a href="" class="btn">CSS Tokens</a></td>
         <td>
         <!-- WIP: make these details summary look like simple links -->
           <details><summary>preview</summary>
@@ -57,6 +57,16 @@ Recipe cards allow the user to engage with a recipe, and view all of its relevan
     </tr>
     <tr>
         <td><a href="" class="btn">Android Tokens</a></td>
+        <td>
+          <details><summary>preview</summary>
+            {% highlight javascript %}
+              WIP
+            {% endhighlight %}
+          </details>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="" class="btn">Figma Tokens</a></td>
         <td>
           <details><summary>preview</summary>
             {% highlight javascript %}
@@ -119,13 +129,18 @@ Recipe cards allow the user to engage with a recipe, and view all of its relevan
 
 |Are impacted ↓|sm (320)| md (384)| lg(512)|
 |---|---|---|---|
-|`.BlocCopy.width`|YES|YES|YES|
-|`.Title.typo`|YES|YES|YES|
+|`.blocCopy.width`|YES|YES|YES|
+|`.title.typo`|YES|YES|YES|
 {: .type-01}
 
 NB: These Breakpoints inform both viewport sizes and Parent container sizes.
 
-##### interactions
+##### Interactions
+{: .no_toc}
+
+N/A
+
+##### Accessibility
 {: .no_toc}
 
 N/A
@@ -135,29 +150,84 @@ N/A
 
 {% highlight javascript %}
 {
-   "YPL.FFL.TKUI_M.scales.geoA.400": "8",
-   "YPL.FFL.TKUI_M.scales.geoA.500": "16",
-   "YPL.FFL.TKUI_M.scales.geoA.600": "32",
-   "YPL.FFL.TKUI_M.scales.geoA.900": "256",
-   "YPL.FFL.TKUI_M.scales.geoA.1000": "512",
-   "YPL.FFL.TKUI_M.scales.arithA.100": "10",
-   "YPL.FFL.TKUI_M.scales.arithA.200": "12",
-   "YPL.FFL.TKUI_M.scales.arithA.300": "14",
-   "YPL.FFL.TKUI_M.scales.arithA.400": "16",
-   "YPL.FFL.TKUI_M.scales.arithA.500": "18",
-   "YPL.FFL.TKUI_M.scales.arithA.600": "20",
-   "YPL.FFL.TKUI_M.scales.arithA.800": "24",
-   "YPL.FFL.TKUI_M.scales.arithA.1000": "28",
-   "YPL.FFL.TKUI_M.scales.arithA.1200": "32",
-   "YPL.FFL.TKUI_M.scales.arithB.700": "32",
-   "YPL.FFL.TKUI_M.scales.arithB.800": "40",
-   "YPL.FFL.TKUI_M.scales.arithB.900": "48",
-   "YPL.FFL.TKUI_M.scales.arithB.1500": "96",
-   "YPL.FFL.TKUI_M.scales.arithC.800": "48",
-   "YPL.FFL.TKUI_M.scales.arithC.900": "60",
-   "YPL.FFL.TKUI_M.scales.arithC.1200": "96",
-   "YPL.FFL.TKUI_M.scales.arithC.1600": "144",
-   "YPL.FFL.TKUI_M.scales.arithC.2000": "192"
+  //// CHOICES
+
+    // Dimensions
+    "YPL.FFL.TKUI_M.scales.geoA.400": "8",
+    "YPL.FFL.TKUI_M.scales.arithA.100": "10",
+    "YPL.FFL.TKUI_M.scales.arithA.200": "12",
+    "YPL.FFL.TKUI_M.scales.arithA.400": "16",
+    "YPL.FFL.TKUI_M.scales.arithA.600": "24",
+    "YPL.FFL.TKUI_M.scales.arithA.1000": "28",
+    "YPL.FFL.TKUI_M.scales.arithC.900": "60",
+    "YPL.FFL.TKUI_M.scales.geoA.900": "256",
+    "YPL.FFL.TKUI_M.scales.geoA.1000": "512",
+
+    // Typography
+    "YPL.FFL.TKUI_C.typo.face.bold": "Europa-Bold",
+
+    // Colors
+    "YPL.FFL.TKUI_C.colors.white": "ffffff",
+    "YPL.FFL.TKUI_C.colors.black": "000000",
+    "YPL.FFL.TKUI_C.colors.blackish": "242424",
+    "YPL.FFL.TKUI_C.colors.gray.300": "bababa",
+    "YPL.FFL.TKUI_C.colors.oldOrange": "e05f1f",
+    "YPL.FFL.TKUI_C.colors.oldCyan": "3b9690",
+
+    // Dark Theme Colors:
+    "YPL.FFL.TKUI_C.colors.springGreen": "00ee66", // option #1 for accent
+    "YPL.FFL.TKUI_C.colors.orangeFlame": "ff5221c", // option #2 for accent
+    "YPL.FFL.TKUI_C.colors.MD_dark.z100.backgrd": "2e2e2e", // background material
+    "YPL.FFL.TKUI_C.colors.MD_dark.z400.backgrd": "151515", // foreground material
+
+  //// COMPONENTS & PRIMITIVES
+
+    // buttonIcon
+    "YPL.FFL.TKUI_D.buttonIcon.width": "YPL.FFL.TKUI_M.scales.arithA.600",
+    "YPL.FFL.TKUI_D.buttonIcon.height": "YPL.FFL.TKUI_M.scales.arithA.600",
+    "YPL.FFL.TKUI_D.buttonIcon.glyphColor": "YPL.FFL.TKUI_C.colors.black",
+    "YPL.FFL.TKUI_D.buttonIcon.bgColor": "YPL.FFL.TKUI_C.colors.white",
+
+    // chip
+    "YPL.FFL.TKUI_D.chip.width": "YPL.FFL.TKUI_M.scales.arithC.900",
+    "YPL.FFL.TKUI_D.chip.height": "YPL.FFL.TKUI_M.scales.arithA.600",
+    "YPL.FFL.TKUI_D.chip.bgColor": "YPL.FFL.TKUI_C.colors.black",
+
+    // rating
+    "YPL.FFL.TKUI_D.rating.height": "YPL.FFL.TKUI_M.scales.arithA.200",
+    "YPL.FFL.TKUI_D.rating.icon.color": "YPL.FFL.TKUI_C.colors.oldOrange",
+    "YPL.FFL.TKUI_D.rating.icon.width": "YPL.FFL.TKUI_M.scales.arithA.200",
+    "YPL.FFL.TKUI_D.rating.text.size": "YPL.FFL.TKUI_M.scales.arithA.200",
+    "YPL.FFL.TKUI_D.rating.text.color": "YPL.FFL.TKUI_C.colors.oldOrange",
+
+    // eyebrow
+    "YPL.FFL.TKUI_D.eyebrow.face": "YPL.FFL.TKUI_C.typo.face.bold",
+    "YPL.FFL.TKUI_D.eyebrow.size": "YPL.FFL.TKUI_M.scales.arithA.200",
+    "YPL.FFL.TKUI_D.eyebrow.color": "YPL.FFL.TKUI_C.colors.gray.300",
+
+  //// DECISIONS
+
+    // Main
+    "YPL.FFL.TKUI_D.cardRecipeLarge.width": "100%",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.height": "432pt",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.radius": "YPL.FFL.TKUI_M.scales.geoA.400",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.bgGradient": "gradient(58deg, #000000 100%, #000000 0%)",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.bgImage.fillMode": "COVER",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.paddingLeft": "YPL.FFL.TKUI_M.scales.arithA.600", // overrides all paddings ← Fringe
+    "YPL.FFL.TKUI_D.cardRecipeLarge.paddingRight": "YPL.FFL.TKUI_M.scales.arithA.600", // overrides all paddings ← Fringe
+    "YPL.FFL.TKUI_D.cardRecipeLarge.fringeBottom": "YPL.FFL.TKUI_M.scales.arithA.600", // ♺
+
+    // (sub) Containers
+    "YPL.FFL.TKUI_D.cardRecipeLarge.block.width": "100%", // TBD
+    "YPL.FFL.TKUI_D.cardRecipeLarge.block.maxWidth": "YPL.FFL.TKUI_M.scales.geoA.1000", // TBD
+    "YPL.FFL.TKUI_D.cardRecipeLarge.blockCopy.width": "87%", // TBD
+    "YPL.FFL.TKUI_D.cardRecipeLarge.rating.fringeBottom": "YPL.FFL.TKUI_M.scales.geoA.400", // override?
+
+    // Typo
+    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.face": "YPL.FFL.TKUI_C.typo.face.bold",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.size": "YPL.FFL.TKUI_M.scales.arithA.600",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.lineHeight": "YPL.FFL.TKUI_M.scales.arithA.1000",
+    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.fringeBottom": "YPL.FFL.TKUI_M.scales.arithA.400" // ♺
 }
 {% endhighlight %}
 
