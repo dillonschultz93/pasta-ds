@@ -23,17 +23,19 @@ Recipe cards allow the user to engage with a recipe, and view all of its relevan
 
 ![Large Recipe Card Elements]({{site.baseurl}}/assets/projects/{{ page.project_id }}/images/YPL-DOC-FFL-LargeCardPreview@2x.jpg)
 
+### Figma Link
+
+
+<a href="https://www.figma.com/file/MAptaE54Hyzvx1FQCfWebi/YPL-Pattern-Card-Recipe-Large?node-id=0%3A1" class="btn">To Figma →</a>
+
+… and beyond!
+
+
+### Playground Tokens
+
+Playground · Pattern-siloed Tokens including all required Choices and Decisions
+
 <table>
-    <tr>
-        <td colspan=2><strong>Figma Example Link:</strong></td>
-    </tr>
-    <tr>
-      <td><a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Library?node-id=12%3A1694" class="btn">Figma → WIP</a></td>
-      <td></td>
-    </tr>
-    <tr>
-        <td colspan="2"><strong>Playground · Copy the Pattern-siloed Tokens including all required Choices and Decisions to clipboard:</strong></td>
-    </tr>
     <tr>
         <td><a href="" class="btn">CSS Tokens</a></td>
         <td>
@@ -76,6 +78,9 @@ Recipe cards allow the user to engage with a recipe, and view all of its relevan
         </td>
     </tr>
 </table>
+
+
+
 
 ### Anatomy
 
