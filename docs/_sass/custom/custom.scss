@@ -1119,3 +1119,16 @@ input[type="color"] {
 	margin:0;
 	line-height: 0;
 }
+
+.playground-details > summary {
+  text-decoration: underline;
+  list-style: none;
+}
+
+.playground-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.playground-details-row > td {
+  vertical-align: top;
+}

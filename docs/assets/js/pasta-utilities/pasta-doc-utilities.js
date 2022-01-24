@@ -128,7 +128,7 @@ const fallbackCopyToClipboard = () => {
 }
 
 // Helper function that copies the content passed into the user's clipboard.
-const copyToClipboard = (content) => {
+export function copyToClipboard(content) {
   if (!navigator.clipboard) {
     fallbackCopyToClipboard();
     return;
