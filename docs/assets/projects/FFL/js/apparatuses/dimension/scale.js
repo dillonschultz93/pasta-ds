@@ -26,7 +26,7 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import {prefixBuilder} from '../pasta-utilities/pasta-token_naming.js';
+import { prefixBuilder } from '../../../../../js/pasta-utilities/pasta-token_naming.js';
 
 // ------------------------------------------------
 // SCALING ALGORITHMS

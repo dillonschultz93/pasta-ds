@@ -1,7 +1,7 @@
 // -----------------------------------------------
-// PASTA APPARATUS: STATIC SIZE
+// PASTA APPARATUS: SPACE
 // -----------------------------------------------
-// Description: Functions that generate the necessary static size tokens.
+// Description: Functions that generate the necessary space tokens.
 // Authors: Manuel Colom · manuel.colom@yummly.com, Dillon Schultz · dillon.schultz@yummly.com
 // ToDo: refactor and make this less hacky
 //
@@ -26,35 +26,38 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import {prefixBuilder} from '../pasta-utilities/pasta-token_naming.js';
+import { prefixBuilder } from '../../../../../js/pasta-utilities/pasta-token_naming.js';
 
 /**
- * @description Generates all static size tokens as choices using a set of constant values.
+ * @description Generates all spacing tokens as choices using the scale tokens as values.
  * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
  * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
  * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
  */
-export function generateAllStaticSizeTokens(namingOptions, description, type) {
+export function generateAllSpaceTokens(namingOptions, description, type) {
   // Collect the prefix string
   const prefix = prefixBuilder(namingOptions);
-  let staticSizesOutput = {};
+  let spacesOutput = {};
 
-  const staticSizes = {
-    "xs": 1,
-    "s": 2,
-    "m": 3,
-    "l": 4
-  }
+  // TODO Define all of the undefined values.
+  const spaces = {
+    "xs": "$undefined",
+    "s": "$YPL.FFL.TKUI_M.scales.geoA.400",
+    "m": "$YPL.FFL.TKUI_M.scales.geoA.500",
+    "l": "$YPL.FFL.TKUI_M.scales.geoA.600",
+    "xl": "$undefined",
+    "xxl": "$undefined"
+  };
 
-  Object.entries(staticSizes).forEach(size => {
-    const [key, value] = size;
+  Object.entries(spaces).forEach(space => {
+    const [key, value] = space;
 
-    staticSizesOutput[`${prefix}.sizes.static.${key}`] = {
+    spacesOutput[`${prefix}.spaces.${key}`] = {
       value,
       description,
       type
     };
   });
 
-  return staticSizesOutput;
+  return spacesOutput;
 }

@@ -1,7 +1,7 @@
 ---
 project_id: FFL # 3-letter code
 title: Dimensions # title case
-permalink: farfalle/choices/dimensions-refactor # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/choices/dimensions # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Choices # title case
 layout: default
@@ -20,7 +20,7 @@ nav_order: 10
 </script>
 
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
-<script type="module" src="{{site.baseurl}}/assets/js/pasta-dimensions-refactor.js"></script>
+<script type="module" src="{{site.baseurl}}/assets/projects/{{page.project_id}}/js/{{page.parent | downcase}}/{{page.title | downcase}}/{{page.title | downcase}}.js"></script>
 
 
 

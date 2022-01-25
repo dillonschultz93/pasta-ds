@@ -27,12 +27,8 @@
 // -----------------------------------------------
 
 // Import the necessary apparatuses and utilities
-import { generateAllScaleTokens } from './pasta-apparatuses/pasta-dimensions-scale.js';
-import { generateAllSpaceTokens } from './pasta-apparatuses/pasta-dimensions-spaces.js';
-import { generateAllStaticSizeTokens } from './pasta-apparatuses/pasta-dimensions-static_sizes.js';
-import { generateFactorsTokens } from './pasta-apparatuses/pasta-dimensions-factors.js';
-import { generateBreakpointTokens } from './pasta-apparatuses/pasta-dimensions-breakpoints.js';
-import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from './pasta-utilities/pasta-doc-utilities.js';
+import { generateAllScaleTokens, generateAllSpaceTokens, generateAllStaticSizeTokens, generateFactorsTokens, generateBreakpointTokens } from '../../apparatuses/dimension/index.js';
+import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from '../../../../../js/pasta-utilities/pasta-doc-utilities.js';
 
 // Collect the DOM selectors
 const scaleInputs = [...document.querySelectorAll('.scalingInputs')];
