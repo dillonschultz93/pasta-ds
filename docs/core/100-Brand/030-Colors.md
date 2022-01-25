@@ -7,4 +7,24 @@ layout: default
 nav_order: 30
 ---
 
-# Colors
+# Color
+
+## Primary Palette
+
+The Yummly color palette.
+
+![Yummly primary color palette]({{ site.baseurl }}/assets/images/YPL-DOC-branding-color-palette.png)
+
+
+<hr>
+
+<section class="flex-1_2-cols">
+  <div>
+    <h3>Secondary Palette</h3>
+    <p>This is the secondary Yummly color palette used for market the subscription product, or within content.</p>
+    <p>Use dark and light tones of each hue together to ensure accessible contrast balance compliant with WCAG AA standards.</p>
+  </div>
+  <div>
+    <img src="{{ site.baseurl }}/assets/images/YPL-DOC-branding-color-secondary.png">
+  </div>
+</section>
