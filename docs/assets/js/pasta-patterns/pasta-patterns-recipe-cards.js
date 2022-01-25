@@ -26,7 +26,7 @@ struct Pasta {
         static var bold = "Europa-Bold"
       }
     }
-    
+
     struct Colors {
       static let darkModeTrim = Colors.springGreen
       static var white = "ffffff"
@@ -43,7 +43,116 @@ struct Pasta {
 
 const ANDROID = ``.trim();
 
-const FIGMA_TOKENS = ``.trim();
+const FIGMA_TOKENS = `
+{
+  "TKUI_D": {
+    "background": {
+      "color": {
+        "value": "$TKUI_C.colors.dark.200",
+        "type": "color"
+      }
+    },
+    "navBar": {
+      "bgColor": {
+        "value": "$TKUI_C.colors.dark.200",
+        "type": "color"
+      },
+      "systemInfo": {
+        "color": {
+          "value": "$TKUI_C.colors.white",
+          "type": "color"
+        }
+      },
+      "searchField": {
+        "color": {
+          "value": "$TKUI_C.colors.gray.700",
+          "type": "color"
+        }
+      },
+      "searchIcon": {
+        "color": {
+          "value": "$TKUI_C.colors.gray.400",
+          "type": "color"
+        }
+      },
+      "searchText": {
+        "color": {
+          "value": "$TKUI_C.colors.white",
+          "type": "color"
+        }
+      },
+      "searchReset": {
+        "glyphColor": {
+          "value": "$TKUI_C.colors.gray.700",
+          "type": "color"
+        },
+        "bgColor": {
+          "value": "$TKUI_C.colors.gray.400",
+          "type": "color"
+        }
+      },
+      "searchCancel": {
+        "color": {
+          "value": "$TKUI_C.colors.springGreen",
+          "type": "color"
+        }
+      }
+    },
+    "bottomNav": {
+      "icon": {
+        "idle": {
+          "color": {
+            "value": "$TKUI_C.colors.gray.500",
+            "type": "color"
+          }
+        },
+        "selected": {
+          "color": {
+            "value": "$TKUI_C.colors.springGreen",
+            "type": "color"
+          }
+        }
+      },
+      "bgColor": {
+        "value": "$TKUI_C.colors.dark.400",
+        "type": "color"
+      },
+      "swipper": {
+        "color": {
+          "value": "$TKUI_C.colors.gray.700",
+          "type": "color"
+        }
+      }
+    },
+    "cardRecipeLarge": {
+      "buttonIcon": {
+        "glyphColor": {
+          "value": "$TKUI_C.colors.black",
+          "type": "color"
+        },
+        "bgColor": {
+          "value": "$TKUI_C.colors.springGreen",
+          "type": "color"
+        }
+      },
+      "eyebrow": {
+        "color": {
+          "value": "$TKUI_C.colors.springGreen",
+          "type": "color"
+        }
+      },
+      "rating": {
+        "icon": {
+          "color": {
+            "value": "$TKUI_C.colors.springGreen",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
+`.trim();
 
 // Collect all playground copy buttons
 const playgroundRows = [...document.querySelectorAll('.playground-details-row')];
@@ -60,7 +169,7 @@ playgroundRows.forEach(row => {
         copyToClipboard(CSS);
       });
       break;
-    
+
     case 'json':
       row.id === 'ios' ? codeEl.textContent = IOS : codeEl.textContent = FIGMA_TOKENS;
       copyButton.addEventListener('click', () => {
@@ -73,7 +182,7 @@ playgroundRows.forEach(row => {
       copyButton.addEventListener('click', () => {
         copyToClipboard(ANDROID);
       });
-  
+
     default:
       break;
   }
