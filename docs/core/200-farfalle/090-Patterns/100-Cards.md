@@ -23,10 +23,11 @@ Recipe cards allow the user to engage with a recipe, and view all of its relevan
 
 ## Large
 
-![Large Recipe Card Elements]({{site.baseurl}}/assets/projects/{{ page.project_id }}/images/YPL-DOC-FFL-LargeCardPreview@2x.jpg)
+Hover me to see Dark Mode:
+
+<div id="recipeCardModeSwitch"><img src="{{site.baseurl}}/assets/projects/{{ page.project_id }}/images/YPL-DOC-FFL-LargeCardPreview@2x.jpg"></div>
 
 ### Figma Link
-
 
 <a href="https://www.figma.com/file/MAptaE54Hyzvx1FQCfWebi/YPL-Pattern-Card-Recipe-Large?node-id=0%3A1" class="btn">To Figma →</a>
 
@@ -138,12 +139,23 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 
 ![Large Recipe Card Decisions]({{site.baseurl}}/assets/projects/{{ page.project_id }}/images/YPL-DOC-FFL-LargeCardBlueprint-Decisions.png)
 
-##### Variants & Breakpoints
+
+##### Variants
+{: .no_toc}
+
+|Are impacted ↓|standard| tall|
+|---|---|---|
+|`.height`|YES|YES|
+|`.title.typo`|YES|YES|
+{: .type-01}
+
+
+##### Breakpoints
 {: .no_toc}
 
 |Are impacted ↓|sm (320)| md (384)| lg(512)|
 |---|---|---|---|
-|`.blocCopy.width`|YES|YES|YES|
+|`.blockCopy.width`|YES|YES|YES|
 |`.title.typo`|YES|YES|YES|
 {: .type-01}
 

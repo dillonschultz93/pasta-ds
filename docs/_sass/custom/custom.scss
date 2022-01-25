@@ -238,6 +238,34 @@ p > img {
   opacity:0.85;
 }
 
+// FIXME — remove this hack for demo ↓
+
+
+#recipeCardModeSwitch {
+  background-color: transparent;
+  background-image: url('../projects/FFL/images/YPL-DOC-FFL-LargeCardPreview@2x.jpg');
+  background-size: cover;
+  border-radius: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  padding: 0 !important;
+}
+#recipeCardModeSwitch img {
+  background-color: transparent;
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  opacity: 0;
+}
+#recipeCardModeSwitch:hover img {
+  opacity: 0;
+  transition: all 0.6s;
+}
+#recipeCardModeSwitch:hover {
+  background-image: url('../projects/FFL/images/YPL-DOC-FFL-LargeCardPreview-Dark@2x.jpg');
+  transition: all 0.3s;
+}
+
 
 //
 // Code
