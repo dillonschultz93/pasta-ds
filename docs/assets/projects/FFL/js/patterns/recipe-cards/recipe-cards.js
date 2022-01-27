@@ -1,4 +1,4 @@
-import { copyToClipboard } from "../pasta-utilities/pasta-doc-utilities.js";
+import { copyToClipboard } from "../../../../../js/pasta-utilities/pasta-doc-utilities.js";
 
 // TODO This should not be hard coded in the future
 const CSS = `

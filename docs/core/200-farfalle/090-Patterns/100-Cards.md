@@ -8,7 +8,7 @@ layout: default
 nav_order: 100
 ---
 
-<script type="module" src="{{site.baseurl}}/assets/js/pasta-patterns/pasta-patterns-recipe-cards.js"></script>
+<script type="module" src="{{site.baseurl}}/assets/projects/{{page.project_id}}/js/{{page.parent | downcase}}/recipe-cards/recipe-cards.js"></script>
 
 # Recipe Cards `{{ page.project_id }}`
 {: .no_toc}
