@@ -46,8 +46,6 @@ Generates the prefix or domain of the token.
 
 <hr>
 
-Work in progress
-{: .label}
 ### Dimension
 Dimension apparatuses are used to create the various values of tokens associated with scale, space, sizing, factors, and breakpoints.
 
@@ -59,7 +57,9 @@ Dimension apparatuses are used to create the various values of tokens associated
 generateAllScaleTokens(
   scales: Array<string>,
   scaleOptions: Object,
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -70,6 +70,8 @@ Generates all scale tokens using a set of algorithms based off of the scale opti
 | `scales: ['geoA', 'arithA', 'arithB']`                                   | Yes          |
 | `scaleOptions: { base: number, ratio: number, baseIndex: number }`       | Yes          |
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
@@ -77,7 +79,9 @@ Generates all scale tokens using a set of algorithms based off of the scale opti
 
 ```js
 generateAllSpaceTokens(
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -86,6 +90,8 @@ Generates all spacing tokens as choices using the scale token keys as values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
@@ -93,7 +99,9 @@ Generates all spacing tokens as choices using the scale token keys as values.
 
 ```js
 generateAllStaticSizeTokens(
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -102,5 +110,50 @@ Generates all static size tokens as choices using a set of constant values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
+
+#### `generateFactorsTokens(...)`
+
+```js
+generateFactorsTokens(
+  namingOptions: Object,
+  description: String,
+  type: String
+);
+```
+
+Generates all factor tokens as choices using a set of constant values.
+
+| **parameter**                                                            | **required** |
+|--------------------------------------------------------------------------|--------------|
+| `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
+
+<hr>
+
+#### `generateBreakpointTokens(...)`
+
+```js
+generateBreakpointTokens(
+  namingOptions: Object,
+  description: String,
+  type: String
+);
+```
+
+Generates all breakpoint tokens as choices using a set of constant values.
+
+| **parameter**                                                            | **required** |
+|--------------------------------------------------------------------------|--------------|
+| `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
+
+<hr>
+
+### Typography
+{: .no_toc}

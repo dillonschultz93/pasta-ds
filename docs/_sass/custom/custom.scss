@@ -238,6 +238,34 @@ p > img {
   opacity:0.85;
 }
 
+// FIXME — remove this hack for demo ↓
+
+
+#recipeCardModeSwitch {
+  background-color: transparent;
+  background-image: url('../projects/FFL/images/YPL-DOC-FFL-LargeCardPreview@2x.jpg');
+  background-size: cover;
+  border-radius: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  padding: 0 !important;
+}
+#recipeCardModeSwitch img {
+  background-color: transparent;
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+  opacity: 0;
+}
+#recipeCardModeSwitch:hover img {
+  opacity: 0;
+  transition: all 0.6s;
+}
+#recipeCardModeSwitch:hover {
+  background-image: url('../projects/FFL/images/YPL-DOC-FFL-LargeCardPreview-Dark@2x.jpg');
+  transition: all 0.3s;
+}
+
 
 //
 // Code
@@ -970,7 +998,15 @@ p + .dd-dont {
   width: 80%;
   margin: 0 10%;
   fill: #999;
+  transform: translate3d(0,0,0);
   transition: all 0.4s;
+}
+
+.copy-card {
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0);
+  background-color: #f5f6fa;
+  border-radius: 5px;
+  padding: 2rem;
 }
 
 //
@@ -1110,4 +1146,17 @@ input[type="color"] {
 	padding:0;
 	margin:0;
 	line-height: 0;
+}
+
+.playground-details > summary {
+  text-decoration: underline;
+  list-style: none;
+}
+
+.playground-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.playground-details-row > td {
+  vertical-align: top;
 }

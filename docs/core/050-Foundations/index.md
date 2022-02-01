@@ -2,7 +2,7 @@
 title: Foundations # title case
 permalink: foundations # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 layout: default
-nav_order: 20
+nav_order: 10
 has_children: true
 layout: default
 ---

@@ -1,9 +1,9 @@
 // -----------------------------------------------
-// PASTA TOKEN GENERATION
+// PASTA APPARATUS: FACTORS
 // -----------------------------------------------
-// Description: A collection of scripts that expose functions that format token key value pairs.
+// Description: Functions that generate the necessary factor tokens.
 // Authors: Manuel Colom · manuel.colom@yummly.com, Dillon Schultz · dillon.schultz@yummly.com
-// TODO:
+// ToDo: refactor and make this less hacky
 //
 // Copyright (c) 2022 Yummly, Inc.
 //
@@ -26,48 +26,37 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-/**
- * @description A function that creates a JSON string from a token object.
- * @param {Object} tokenObj - The token object with all apparatus tokens.
- * @returns {string} A JSON string.
- */
-export function rawTokens(tokenObj) {
-  let rawToken = {};
-
-  Object.entries(tokenObj).forEach(token => {
-    const [key, value] = token;
-
-    rawToken[key] = {};
-
-    if (value.value) {
-      rawToken[key] = value.value;
-    } else {
-      Object.entries(value).forEach(item => {
-        const [nestedKey, nestedValue] = item;
-
-        rawToken[key][nestedKey] = nestedValue.value;
-      });
-    }
-  });
-
-  return JSON.stringify(rawToken, null, 2);
-}
+import { prefixBuilder } from '../../../../../js/pasta-utilities/pasta-token_naming.js';
 
 /**
- * @description A function that creates a JSON string formatted to be copied into the Figma Tokens plugin.
- * @param {Object} tokenObj - The token object with all apparatus tokens.
- * @param {string} description - The description of the token.
- * @param {string} type - The type of token enumerated to a string.
- * @returns A JSON string.
+ * @description Generates all factor tokens as choices using a set of constant values.
+ * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
+ * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
+ * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
  */
-export function figmaTokens(tokenObj) {
-  let figmaToken = {};
+export function generateFactorsTokens(namingOptions, description, type) {
+  // Collect the prefix string
+  const prefix = prefixBuilder(namingOptions);
+  let factorsOutput = {};
 
-  Object.entries(tokenObj).forEach(token => {
-    const [key, value] = token;
+  const factors = {
+    "allText": 1,
+    "allTextW_OButton": 1,
+    "buttonText": 1,
+    "buttonW_OText": 1,
+    "buttonAll": 1,
+    "WCAG_1_4_4_AA": 2
+  }
 
-    figmaToken[key] = value;
+  Object.entries(factors).forEach(factor => {
+    const [key, value] = factor;
+
+    factorsOutput[`${prefix}.factors.${key}`] = {
+      value,
+      description,
+      type
+    };
   });
 
-  return JSON.stringify(figmaToken, null, 2);
+  return factorsOutput;
 }

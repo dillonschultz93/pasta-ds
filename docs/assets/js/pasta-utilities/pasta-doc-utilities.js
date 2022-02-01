@@ -57,9 +57,13 @@ export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices
       if (cell.className === 'index') {
         item === baseIndex ? cell.innerHTML = `<strong>•  ${item}</strong>` : cell.textContent = item;
       } else {
-        scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] ? cell.textContent = scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] : cell.textContent = '-';
+        scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] ? cell.textContent = scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`].value : cell.textContent = '-';
 
-        choices.includes(scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`]) ? cell.className = 'textbold' : cell.className = 'textfaded';
+        if (scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`]) {
+          choices.includes(scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`].value) ? cell.className = 'textbold' : cell.className = 'textfaded';
+        } else {
+          cell.className = 'textfaded';
+        }
       }
 
       row.appendChild(cell);
@@ -96,7 +100,7 @@ export function buildOutputTable(tableID, allTokens) {
           break;
 
         case 1:
-          cell.textContent = Array.isArray(value) ? value[0] : value;
+          cell.textContent = Array.isArray(value) ? value[0] : value.value;
           break;
 
         case 2:
@@ -124,7 +128,7 @@ const fallbackCopyToClipboard = () => {
 }
 
 // Helper function that copies the content passed into the user's clipboard.
-const copyToClipboard = (content) => {
+export function copyToClipboard(content) {
   if (!navigator.clipboard) {
     fallbackCopyToClipboard();
     return;
@@ -139,10 +143,8 @@ const copyToClipboard = (content) => {
  * @description A function that handles the copying of JSON to the user's clipboard.
  * @param {string} format - The format of the tokens.
  * @param {Object} tokens - The object of the tokens.
- * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
- * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
  */
-export function handleCopyToClipboard(format, tokens, description, type) {
+export function handleCopyToClipboard(format, tokens) {
   let content = '';
 
   switch (format) {
@@ -152,7 +154,7 @@ export function handleCopyToClipboard(format, tokens, description, type) {
       break;
 
     case 'figma':
-      content = figmaTokens(tokens, description, type);
+      content = figmaTokens(tokens);
       copyToClipboard(content);
       break;
   
