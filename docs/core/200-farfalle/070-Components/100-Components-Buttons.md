@@ -16,13 +16,6 @@ nav_order: 100
 - TOC
 {:toc}
 
-## Button-Icons
-
-### Anatomy
-{: .no_toc}
-
-### Tokens
-{: .no_toc}
 
 ## Standard
 
