@@ -1160,3 +1160,41 @@ input[type="color"] {
 .playground-details-row > td {
   vertical-align: top;
 }
+
+// Chartist overrides
+.apparatus-tracking {
+  stroke: #3A9691;
+}
+
+.handpicked-tracking {
+  stroke: #E16120;
+}
+
+.tracking-chart-legend {
+  display: flex;
+
+  & > div:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.tracking-label {
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+
+  & > div {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-right: 8px;
+  }
+}
+
+.apparatus-tracking-label {
+  background-color: #3A9691;
+}
+
+.handpicked-tracking-label {
+  background-color: #E16120;
+}
