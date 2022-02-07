@@ -156,4 +156,20 @@ Generates all breakpoint tokens as choices using a set of constant values.
 <hr>
 
 ### Typography
-{: .no_toc}
+The typography apparatuses are used to help generate typography choice tokens and typography decision tokens.
+
+<hr>
+
+#### `getTracking(...)`
+
+```js
+generateBreakpoint(
+  fontSize: Number
+);
+```
+
+Gets the predicted tracking value based off of a desired font size
+
+| **parameter**      | **required** |
+|--------------------|--------------|
+| `fontSize: number` | Yes          |

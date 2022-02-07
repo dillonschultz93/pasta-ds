@@ -29,7 +29,7 @@
 import PolynomialRegression from '../../../../../js/pasta-utilities/pasta-math-regression.js';
 
 /**
- * @description Generate the tracking/letter spacing tokens based off of an initial set of design choices of tracking.
+ * @description Creates a model and terms to assist in generating tracking values.
  * @param {Array<object>} initialData - An array of objects with the x and y key value pairs.
  * @param {Number} degree - An integer that represents the order/degree of the regression.
  * @returns Returns the model constructed from the initial data and order, and an array of regression terms.
@@ -40,6 +40,11 @@ function regressionTerms(trackingChoices, degree) {
   return [model, model.getTerms()];
 }
 
+/**
+ * @description A function that gets the predicted tracking value based off of a desired font size.
+ * @param {Number} fontSize - An integer that represents the font size.
+ * @returns Returns a floating point number rounded to the nearest hundredths place.
+ */
 export function getTracking (fontSize) {
   const TRACKING_CHOICES = [
     { x: 10, y: 1 },
