@@ -27,7 +27,7 @@
 // -----------------------------------------------
 
 // Import the necessary apparatuses and utilities
-import { generateAllScaleTokens, generateAllSpaceTokens, generateAllStaticSizeTokens, generateFactorsTokens, generateBreakpointTokens } from '../../apparatuses/dimension/index.js';
+import { generateScale, generateSpace, generateStaticSize, generateFactor, generateBreakpoint } from '../../apparatuses/dimension/index.js';
 import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from '../../../../../js/pasta-utilities/pasta-doc-utilities.js';
 
 // Collect the DOM selectors
@@ -118,7 +118,7 @@ const NOMENCLATURE_OPTIONS = {
 
 function initScalesSection() {
   // Generate all scale tokens.
-  allTokens.scale = generateAllScaleTokens(['geoA', 'arithA', 'arithB'], SCALE_OPTIONS, NOMENCLATURE_OPTIONS.scale, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+  allTokens.scale = generateScale(['geoA', 'arithA', 'arithB'], SCALE_OPTIONS, NOMENCLATURE_OPTIONS.scale, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
   // // Generate a new table based on the scales.
   buildScaleTable('scales-table', SCALE_INDEX, SCALE_OPTIONS.baseIndex, allTokens.scale, SCALE_OPTIONS.choices);
 
@@ -170,7 +170,7 @@ function initScalesEventListeners() {
 // // SPACES
 // // -----------------------------------------------
 function initSpacesSection() {
-  allTokens.space = generateAllSpaceTokens(NOMENCLATURE_OPTIONS.space, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'spacing');
+  allTokens.space = generateSpace(NOMENCLATURE_OPTIONS.space, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'spacing');
 
   buildOutputTable('spaces-table', allTokens.space);
 }
@@ -190,7 +190,7 @@ function initSpacesEventListeners() {
 // // STATIC SIZES
 // // -----------------------------------------------
 function initStaticSizesSection() {
-  allTokens.staticSize = generateAllStaticSizeTokens(NOMENCLATURE_OPTIONS.staticSize, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
+  allTokens.staticSize = generateStaticSize(NOMENCLATURE_OPTIONS.staticSize, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
   buildOutputTable('static-sizes-table', allTokens.staticSize);
 }
 
@@ -209,7 +209,7 @@ function initStaticSizesEventListeners() {
 // // FACTORS
 // // -----------------------------------------------
 function initFactorsSection() {
-  allTokens.factor = generateFactorsTokens(NOMENCLATURE_OPTIONS.factor, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+  allTokens.factor = generateFactor(NOMENCLATURE_OPTIONS.factor, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
   buildOutputTable('factor-table', allTokens.factor);
 }
 
@@ -228,7 +228,7 @@ function initFactorsEventListeners() {
 // // BREAKPOINTS
 // // -----------------------------------------------
 function initBreakpointSection() {
-  allTokens.breakpoint = generateBreakpointTokens(NOMENCLATURE_OPTIONS.breakpoint, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+  allTokens.breakpoint = generateBreakpoint(NOMENCLATURE_OPTIONS.breakpoint, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
   buildOutputTable('breakpoint-table', allTokens.breakpoint);
 }
 

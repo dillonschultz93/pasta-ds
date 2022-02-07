@@ -51,10 +51,10 @@ Dimension apparatuses are used to create the various values of tokens associated
 
 <hr>
 
-#### `generateAllScaleTokens(...)`
+#### `generateScale(...)`
 
 ```js
-generateAllScaleTokens(
+generateScale(
   scales: Array<string>,
   scaleOptions: Object,
   namingOptions: Object,
@@ -75,10 +75,10 @@ Generates all scale tokens using a set of algorithms based off of the scale opti
 
 <hr>
 
-#### `generateAllSpaceTokens(...)`
+#### `generateSpace(...)`
 
 ```js
-generateAllSpaceTokens(
+generateSpace(
   namingOptions: Object,
   description: String,
   type: String
@@ -95,10 +95,10 @@ Generates all spacing tokens as choices using the scale token keys as values.
 
 <hr>
 
-#### `generateAllStaticSizeTokens(...)`
+#### `generateStaticSize(...)`
 
 ```js
-generateAllStaticSizeTokens(
+generateStaticSize(
   namingOptions: Object,
   description: String,
   type: String
@@ -115,10 +115,10 @@ Generates all static size tokens as choices using a set of constant values.
 
 <hr>
 
-#### `generateFactorsTokens(...)`
+#### `generateFactor(...)`
 
 ```js
-generateFactorsTokens(
+generateFactor(
   namingOptions: Object,
   description: String,
   type: String
@@ -135,10 +135,10 @@ Generates all factor tokens as choices using a set of constant values.
 
 <hr>
 
-#### `generateBreakpointTokens(...)`
+#### `generateBreakpoint(...)`
 
 ```js
-generateBreakpointTokens(
+generateBreakpoint(
   namingOptions: Object,
   description: String,
   type: String

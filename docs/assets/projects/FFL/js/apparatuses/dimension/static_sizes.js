@@ -34,7 +34,7 @@ import { prefixBuilder } from '../../../../../js/pasta-utilities/pasta-token_nam
  * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
  * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
  */
-export function generateAllStaticSizeTokens(namingOptions, description, type) {
+export function generateStaticSize(namingOptions, description, type) {
   // Collect the prefix string
   const prefix = prefixBuilder(namingOptions);
   let staticSizesOutput = {};
