@@ -58,11 +58,11 @@ export function getTracking (fontSize) {
   const smallerFontChoices = TRACKING_CHOICES.filter(choice => choice.x <= 32);
 
   if (fontSize <= 32) {
-    const [model, terms] = regressionTerms(smallerFontChoices, 8);
+    const [model, terms] = regressionTerms(smallerFontChoices, (smallerFontChoices.length - 1));
 
     return Math.round(100 * model.predictY(terms, fontSize)) / 100;
   } else {
-    const [model, terms] = regressionTerms(largerFontChoices, 2);
+    const [model, terms] = regressionTerms(largerFontChoices, (largerFontChoices.length - 1));
 
     return Math.round(100 * model.predictY(terms, fontSize)) / 100;
   }
