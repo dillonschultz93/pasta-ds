@@ -1,7 +1,7 @@
 // -----------------------------------------------
-// PASTA APPARATUS: TRACKING
+// PASTA APPARATUS: LEADING
 // -----------------------------------------------
-// Description: Functions that generate the necessary tracking/letter spacing tokens.
+// Description: Functions that generate the necessary leading/line height tokens.
 // Authors: Manuel Colom · manuel.colom@yummly.com, Dillon Schultz · dillon.schultz@yummly.com
 //
 // Copyright (c) 2022 Yummly, Inc.
@@ -30,7 +30,7 @@ import PolynomialRegression from '../../../../../js/pasta-utilities/pasta-math-r
 
 /**
  * @description Creates a model and terms to assist in generating tracking values.
- * @param {Array<object>} trackingChoices - An array of objects with the x and y key value pairs.
+ * @param {Array<object>} leadingChoices - An array of objects with the x and y key value pairs.
  * @param {Number} degree - An integer that represents the order/degree of the regression.
  * @returns Returns the model constructed from the initial data and order, and an array of regression terms.
  */
@@ -41,34 +41,24 @@ function regressionTerms(trackingChoices, degree) {
 }
 
 /**
- * @description A function that gets the predicted tracking value based off of a desired font size.
+ * @description A function that gets the predicted leading value based off of a desired font size.
  * @param {Number} fontSize - An integer that represents the font size.
  * @returns Returns a floating point number rounded to the nearest hundredths place.
  */
-export function getTracking (fontSize) {
-  const TRACKING_CHOICES = [
-    { x: 10, y: 1 },
-    { x: 12, y: 1.2 },
-    { x: 14, y: 0.49 },
-    { x: 18, y: 0 },
-    { x: 20, y: 0 },
-    { x: 24, y: -0.24 },
-    { x: 28, y: -0.28 },
-    { x: 32, y: -0.64 },
-    { x: 48, y: -0.96 },
-    { x: 96, y: -2.88 },
+export function getLeading (fontSize) {
+  const LEADING_CHOICES = [
+    { x: 14, y: 16.8 },
+    { x: 16, y: 19.2 },
+    { x: 18, y: 21.6 },
+    { x: 20, y: 24 },
+    { x: 24, y: 28.8 },
+    { x: 28, y: 33.6 },
+    { x: 32, y: 38.4 },
+    { x: 40, y: 41.6 },
+    { x: 48, y: 50.4 },
   ];
 
-  const largerFontChoices = TRACKING_CHOICES.filter(choice => choice.x >= 32);
-  const smallerFontChoices = TRACKING_CHOICES.filter(choice => choice.x <= 32);
+  const [model, terms] = regressionTerms(LEADING_CHOICES, 4);
 
-  if (fontSize <= 32) {
-    const [model, terms] = regressionTerms(smallerFontChoices, (smallerFontChoices.length - 1));
-
-    return Math.round(100 * model.predictY(terms, fontSize)) / 100;
-  } else {
-    const [model, terms] = regressionTerms(largerFontChoices, (largerFontChoices.length - 1));
-
-    return Math.round(100 * model.predictY(terms, fontSize)) / 100;
-  }
+  return Math.round(100 * model.predictY(terms, fontSize)) / 100;
 }

@@ -28,6 +28,28 @@ Work in progress
 
 ## Font Leading Apparatus
 Work in progress
+
+<!-- Chart legend -->
+  <div class="tracking-chart-legend">
+    <div class="tracking-label">
+      <div class="handpicked-tracking-label"></div>
+      <span>Handpicked</span>
+    </div>
+    <div class="tracking-label">
+      <div class="apparatus-tracking-label"></div>
+      <span>Apparatus Interpolation</span>
+    </div>
+  </div>
+<!-- Chart -->
+<div style="position: relative;">
+  <div class="ct-chart ct-minor-third" id="hand-picked-leading-points">
+    <!-- Generated with the typography.js script -->
+  </div>
+
+  <div class="ct-chart ct-minor-third" style="position: absolute; top: 0; left: 0;" id="leading-apparatus-output">
+    <!-- Generated with the typography.js script -->
+  </div>
+</div>
 ## Font Tracking Apparatus
 
 ### Exploration
@@ -47,11 +69,11 @@ To dynamically generate letter spacing from a given font size we needed to explo
   </div>
 <!-- Chart -->
 <div style="position: relative;">
-  <div class="ct-chart ct-minor-third" id="hand-picked-data-points">
+  <div class="ct-chart ct-minor-third" id="hand-picked-tracking-points">
     <!-- Generated with the typography.js script -->
   </div>
 
-  <div class="ct-chart ct-minor-third" style="position: absolute; top: 0; left: 0;" id="apparatus-output">
+  <div class="ct-chart ct-minor-third" style="position: absolute; top: 0; left: 0;" id="tracking-apparatus-output">
     <!-- Generated with the typography.js script -->
   </div>
 </div>
