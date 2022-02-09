@@ -245,4 +245,40 @@ const generateTrackingTable = () => {
   });
 }
 
+const generateLeadingTable = () => {
+  const table = document.querySelector('#typo-leading-table');
+  const tbody = table.querySelector('tbody');
+
+
+  TYPE_SPECIMEN.forEach(item => {
+    const detailRow = document.createElement('tr');
+    const exampleRow = document.createElement('tr');
+    const sizeCell = document.createElement('td');
+    const leadingCell = document.createElement('td');
+    const exampleCell = document.createElement('td');
+
+    const leading = getLeading(item);
+
+
+
+    sizeCell.className = 'noBorder';
+    sizeCell.textContent = `Size: ${item}`;
+
+    leadingCell.className = 'noBorder';
+    leadingCell.textContent = `Leading: ${leading}`;
+
+    exampleCell.colSpan = 3;
+    exampleCell.innerHTML = `<span class="Europa-ed-r" style="font-size: ${item}px; line-height: ${leading}px;">Lorem ipsum<br>dolar sit amet.</span>`
+
+    detailRow.appendChild(sizeCell);
+    detailRow.appendChild(leadingCell);
+
+    exampleRow.appendChild(exampleCell);
+
+    tbody.appendChild(detailRow);
+    tbody.appendChild(exampleRow);
+  });
+}
+
 generateTrackingTable();
+generateLeadingTable();

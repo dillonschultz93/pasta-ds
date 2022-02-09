@@ -56,17 +56,16 @@ To dynamically generate letter spacing from a given font size we needed to explo
 
 This apparatus takes in a font size and outputs the approximate letter spacing appropriate for that font size. It does this by breaking up our handpicked tracking vs. font size choices into two sections. As you can see, at smaller font sizes our tracking can fluctuate. To capture those designer decisions we model the smaller font choices using polynomial regression at the seventh degree. As we approach larger font sizes we can see that the designer decisions become more linear. Our polynomial regression output then switches to model at the second degree.
 
-### Putting it together
-
-Here is the tracking apparatus at work.
-
-<section>
-  <table id="typo-tracking-table">
-    <tbody>
-      <!-- Generated with the typography.js script -->
-    </tbody>
-  </table>
-</section>
+<details>
+  <summary>Here is the tracking apparatus at work</summary>
+  <div>
+    <table id="typo-tracking-table">
+      <tbody>
+        <!-- Generated with the typography.js script -->
+      </tbody>
+    </table>
+  </div>
+</details>
 
 ## Font Leading Apparatus
 Leading, also known as line height, is a typographic concept that is simply defined as the distance between lines of text.
@@ -95,3 +94,14 @@ Using the same strategy as finding the proper tracking, we utilize polynomial re
     <!-- Generated with the typography.js script -->
   </div>
 </div>
+
+<details>
+  <summary>Here is the leading apparatus at work</summary>
+  <div>
+    <table id="typo-leading-table">
+      <tbody>
+        <!-- Generated with the typography.js script -->
+      </tbody>
+    </table>
+  </div>
+</details>
