@@ -163,12 +163,28 @@ The typography apparatuses are used to help generate typography choice tokens an
 #### `getTracking(...)`
 
 ```js
-generateBreakpoint(
+getTracking(
   fontSize: Number
 );
 ```
 
 Gets the predicted tracking value based off of a desired font size
+
+| **parameter**      | **required** |
+|--------------------|--------------|
+| `fontSize: number` | Yes          |
+
+<hr>
+
+#### `getLeading(...)`
+
+```js
+getLeading(
+  fontSize: Number
+);
+```
+
+Gets the predicted leading value based off of a desired font size
 
 | **parameter**      | **required** |
 |--------------------|--------------|

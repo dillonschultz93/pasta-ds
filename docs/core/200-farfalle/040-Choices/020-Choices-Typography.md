@@ -26,35 +26,11 @@ nav_order: 20
 ## Font Family Apparatus
 Work in progress
 
-## Font Leading Apparatus
-Work in progress
-
-<!-- Chart legend -->
-  <div class="tracking-chart-legend">
-    <div class="tracking-label">
-      <div class="handpicked-tracking-label"></div>
-      <span>Handpicked</span>
-    </div>
-    <div class="tracking-label">
-      <div class="apparatus-tracking-label"></div>
-      <span>Apparatus Interpolation</span>
-    </div>
-  </div>
-<!-- Chart -->
-<div style="position: relative;">
-  <div class="ct-chart ct-minor-third" id="hand-picked-leading-points">
-    <!-- Generated with the typography.js script -->
-  </div>
-
-  <div class="ct-chart ct-minor-third" style="position: absolute; top: 0; left: 0;" id="leading-apparatus-output">
-    <!-- Generated with the typography.js script -->
-  </div>
-</div>
 ## Font Tracking Apparatus
-
+Tracking, also known as letter spacing, is a typographic principle that defines the horizontal distance between each charter/letter. Negative tracking allows more characters to fit into a horizontal space, while positive tracking spreads out the horizontal distance between character.
 ### Exploration
 
-To dynamically generate letter spacing from a given font size we needed to explore the relation between our handpicked font size and tracking. The graph below shows our handpicked values (in Yummly branded orange) as a plot of data points. Using [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression#:~:text=In%20statistics%2C%20polynomial%20regression%20is,nth%20degree%20polynomial%20in%20x.&text=For%20this%20reason%2C%20polynomial%20regression,case%20of%20multiple%20linear%20regression.) we can then construct a "best-fit line" (in Yummly branded teal) to predict our desired letter spacing.
+To dynamically generate letter spacing from a given font size we needed to explore the relation between our handpicked font size and tracking. The graph below shows our handpicked values as a plot of data points. Using [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression#:~:text=In%20statistics%2C%20polynomial%20regression%20is,nth%20degree%20polynomial%20in%20x.&text=For%20this%20reason%2C%20polynomial%20regression,case%20of%20multiple%20linear%20regression.) we can then construct a "best-fit line" to predict our desired letter spacing.
 
 <!-- Chart legend -->
   <div class="tracking-chart-legend">
@@ -91,3 +67,31 @@ Here is the tracking apparatus at work.
     </tbody>
   </table>
 </section>
+
+## Font Leading Apparatus
+Leading, also known as line height, is a typographic concept that is simply defined as the distance between lines of text.
+
+### Exploration
+Using the same strategy as finding the proper tracking, we utilize polynomial regression to find the "best fit" line height proportional to the font size.
+
+<!-- Chart legend -->
+  <div class="tracking-chart-legend">
+    <div class="tracking-label">
+      <div class="handpicked-tracking-label"></div>
+      <span>Handpicked</span>
+    </div>
+    <div class="tracking-label">
+      <div class="apparatus-tracking-label"></div>
+      <span>Apparatus Interpolation</span>
+    </div>
+  </div>
+<!-- Chart -->
+<div style="position: relative;">
+  <div class="ct-chart ct-minor-third" id="hand-picked-leading-points">
+    <!-- Generated with the typography.js script -->
+  </div>
+
+  <div class="ct-chart ct-minor-third" style="position: absolute; top: 0; left: 0;" id="leading-apparatus-output">
+    <!-- Generated with the typography.js script -->
+  </div>
+</div>
