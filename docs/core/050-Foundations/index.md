@@ -12,27 +12,27 @@ layout: default
 
 <section class="flex-1_1-cols">
   <div>
+    <h2>Principles</h2>
+    <ul>
+      <li>Definite: the Zero-Information Loss Rule</li>
+      <li>Usability over maintenance</li>
+      <li>Document as you build Rule</li>
+      <li>Token strong inheritance scheme</li>
+      <li>UI vs Content clear dichotomy</li>
+      <li>Semantic Versioning</li>
+    </ul>
+  </div>
+  <div>
     <h2>Ingredients</h2>
     <ul>
       <li>A <a href="{{site.baseurl}}/committee">committee</a> of curators</li>
       <li>Subscribers</li>
       <li>Governance (reccuring meetings)</li>
-      <li>A Brand Style Guide</li>
-      <li>A Token-based Design System</li>
-      <li>Math Apparatus to generate our Design Tokens</li>
+      <li>A <a href="{{site.baseurl}}/brand">Brand Style Guide</a></li>
+      <li>A <a href="{{site.baseurl}}/foundations/tokens">Token-based Design System</a></li>
+      <li><a href="{{site.baseurl}}/foundations/apparatuses">Apparatuses</a> to help us automate and generate our Design Tokens</li>
       <li><a href="{{site.baseurl}}/tools">Tools</a></li>
       <li>And this very Knowledge Base (aka RTFM)</li>
-    </ul>
-  </div>
-  <div>
-    <h2>Principles</h2>
-    <ul>
-      <li>Explicit Decisions</li>
-      <li>Token strong inheritance scheme</li>
-      <li>UI vs Content dichotomy</li>
-      <li>Usability over maintenance</li>
-      <li>Semantic Versioning</li>
-      <li>Document as you build (rule)</li>
     </ul>
   </div>
 </section>
@@ -40,10 +40,10 @@ layout: default
 
 ## Principles
 
-### Accessible
+### Definite
 {: .no_toc}
 
-### Definite
+### Accessible
 {: .no_toc}
 
 ### Transferable

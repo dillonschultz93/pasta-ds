@@ -296,7 +296,7 @@ We use bespoke CSS classes:
 
 <section class="flex-1_1-cols">
   <div>
-  <h4 id="2-cols-1-1">2 Cols · 1 + 1</h4>
+  <h4 id="2-cols-1-1">2 Cols · 1/2 + 1/2</h4>
     {% highlight html %}
     <section class="flex-1_1-cols">
       <div>
@@ -309,7 +309,7 @@ We use bespoke CSS classes:
     {% endhighlight %}
   </div>
   <div>
-    <h4 id="3-cols-1-1-1">3 Cols ·  1 + 1 + 1</h4>
+    <h4 id="3-cols-1-1-1">3 Cols ·  1/3 + 1/3 + 1/3</h4>
     {% highlight html %}
     <section class="flex-1_1_1-cols">
       <div>

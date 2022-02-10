@@ -73,7 +73,7 @@ nav_order: 50
 
 <img src="{{site.baseurl}}/assets/images/YPL-DOC-challenges-layout-003.png" alt="WIP">
 
-<h4>Rules</h4>
+<h4 id="rules">Rules</h4>
 
 <section class="flex-1_1-cols">
   <div>
