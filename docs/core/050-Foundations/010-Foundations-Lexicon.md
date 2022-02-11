@@ -23,7 +23,7 @@ Pasta refers to Yummly Product Language or its Design System subpart. You can fi
 
 ### Zero Information Loss Rule
 
-The first rule of Pasta is that no information — specifically the Design Logic — shall be lost or turned implicit at any level/granularity of the specifications and implementation. In other words,  within Pasta and all its client platforms, all implemented attributes can always be reverse-engineered to the primal design thinking behind it.
+The first rule of Pasta is that no information — specifically the Design Logic — shall be lost or turned implicit at any level/granularity of the specifications and implementation. In other words,  within Pasta and all its client platforms, all implemented attributes can always be reverse-engineered to the primal design thinking behind them.
 
 ### Nomenclature
 
@@ -48,9 +48,9 @@ Choices feed Decisions.
 Other categories of tokens can be used. They are explicit intermediates that help to guarantee Pasta Zero Information Loss Rule.
 
 
-### Pasta Tokens
+### Raw Tokens
 
-Pasta or Raw tokens, or Pasta Tokens, are the tokens before they are translated to the platform's specific equivalent.
+Raw tokens, or Pasta Tokens, are the tokens before they are translated into their platform's specific equivalent.
 
 ### Resolving
 
@@ -85,11 +85,11 @@ Features are a collection of Patterns and components that serves a specific task
 
 ### Translators
 
-The translators, aka attributes mappers, are a set of scripts that uses the Attributes Dictionary to translate the Raw Tokens into Platform-specific equivalent (Cf. Amazon Style Dictionary).
+The translators, aka attributes mappers, are a set of scripts that uses the Attributes Dictionary to translate the Raw Tokens into Platform-specific equivalent (Cf. [Amazon Style Dictionary](https://amzn.github.io/style-dictionary/)).
 
 ### Attributes Dictionary
 
-The attributes Dictionary is a Hash Table that maps Pasta Raw Decisions Tokens to their platform's specific counterparts.
+The attributes Dictionary is a Hash Table that maps Pasta Raw Decisions Tokens Attributes to their platform's specific counterparts.
 
 ### Proxy Tokens
 
@@ -101,9 +101,9 @@ All systems Pasta is servicing its tokens and specifications to. Currently: Figm
 
 ### Operations
 
-Pasta Operations are all operations required by Pasta: committee meetings, maintenance, curation, component election workflow, etc.
+Pasta Operations are all operations required by Pasta: committee meetings, maintenance, curation, component election workflow, versioning, etc.
 
 ### Pasta Committee
 
-The [Pasta Committee]({{site.baseurl}}/committee) has ownership and  is responsible for the maintenance, decisions, curation, documentation, and implementation of Pasta. It meets at least once a week.
+The [Pasta Committee]({{site.baseurl}}/committee) has ownership and is responsible for the maintenance, decisions, curation, documentation, and implementation of Pasta. It meets at least once a week.
 Its members (curators, contributors, subscribers, and advisors) are appointed  each quarter.
