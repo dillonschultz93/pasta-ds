@@ -9,6 +9,6 @@ nav_order: 70
 ---
 
 
-# Components `LGN`
+# Components `{{ page.project_id }}`
 
 Your Content.

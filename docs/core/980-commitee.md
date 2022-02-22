@@ -19,11 +19,12 @@ nav_order: 980
 |Jurisdiction|Contact||On Github|Plateform or Project|
 | --- | --- | --- | --- |
 |**CURATORS**|
-|Ops|[Manuel Colom](mailto:manu@yummly.com)|Designer|[coolmanlume](https://github.com/coolmanlume)||
-|Design Tokens|[Dillon Schultz](mailto:dillon@yummly.com)|Designer-Dev.|[dillonschultz93](https://github.com/dillonschultz93)||
-|Documentation|[Dillon Schultz](mailto:dillon@yummly.com)|Designer-Dev.|[dillonschultz93](https://github.com/dillonschultz93)||
-|Components Library|[Youngmi Kwon](mailto:youngmi@anml.com)|Designer|[youngmi-ANML](https://github.com/youngmi-ANML)||
-|Components Library|[Robert Suarez](mailto:robert@anml.com)|Designer|[robert-ANML](https://github.com/robert-ANML)||
+|Ops|[Manuel Colom](mailto:manu@yummly.com)|Designer-Dev|[coolmanlume](https://github.com/coolmanlume)|Pasta (And Figma)|
+|Design Tokens|[Dillon Schultz](mailto:dillon@yummly.com)|Designer-Dev.|[dillonschultz93](https://github.com/dillonschultz93)|Pasta (And Figma)|
+|Documentation|[Dillon Schultz](mailto:dillon@yummly.com)|Designer-Dev.|[dillonschultz93](https://github.com/dillonschultz93)|Pasta (And Figma)|
+|Components Library|[Robert Suarez](mailto:robert@anml.com)|Designer|[robert-ANML](https://github.com/robert-ANML)|Pasta (And Figma)|
+|Components Library|[Brandon Boswell](mailto:Brandon@anml.com)|Designer|[brandon-ANML](https://github.com/brandon-ANML)|Pasta (And Figma)|
+|Components Library|[Youngmi Kwon](mailto:youngmi@anml.com)|Designer|[youngmi-ANML](https://github.com/youngmi-ANML)|Pasta (And Figma)|
 |**SUBSCRIBERS**|
 |Implementation|[HB Stone](mailto:HB@yummly.com)|Dev.|[hbstone](https://github.com/hbstone)|Web|
 |Implementation|[Alex Vincent](mailto:alex@yummly.com)|Dev.|[alexrvincent](https://github.com/alexrvincent)|Web|
@@ -38,7 +39,7 @@ nav_order: 980
 |Jurisdiction|Contact||On Github|Plateform or Project|
 | --- | --- | --- | --- |
 |**CURATORS**|
-|Ops|[Manuel Colom](mailto:manu@yummly.com)|Designer|[coolmanlume](https://github.com/coolmanlume)||
+|Ops|[Manuel Colom](mailto:manu@yummly.com)|Designer-Dev|[coolmanlume](https://github.com/coolmanlume)||
 |Design Tokens|↑|
 |Documentation|↑|
 |Components Library|[Youngmi Kwon](mailto:youngmi@anml.com)|Designer|[youngmi-ANML](https://github.com/youngmi-ANML)||
@@ -57,7 +58,7 @@ nav_order: 980
 |Jurisdiction|Contact||On Github|Plateform or Project|
 | --- | --- | --- | --- |
 |**CURATORS**|
-|Ops|[Manuel Colom](mailto:manu@yummly.com)|Designer|[coolmanlume](https://github.com/coolmanlume)||
+|Ops|[Manuel Colom](mailto:manu@yummly.com)|Designer-Dev|[coolmanlume](https://github.com/coolmanlume)||
 |Design Tokens|↑||||
 |Documentation|↑|
 |Components Library|[Youngmi Kwon](mailto:youngmi@anml.com)|Designer|[youngmi-ANML](https://github.com/youngmi-ANML)||

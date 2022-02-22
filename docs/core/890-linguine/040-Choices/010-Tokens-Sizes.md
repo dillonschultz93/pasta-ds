@@ -8,6 +8,6 @@ layout: default
 nav_order: 10
 ---
 
-# Sizes `LGN`
+# Sizes `{{ page.project_id }}`
 
 Your Content.

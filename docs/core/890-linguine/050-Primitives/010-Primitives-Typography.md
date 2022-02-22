@@ -8,6 +8,6 @@ layout: default
 nav_order: 10
 ---
 
-# Typography `LGN`
+# Typography `{{ page.project_id }}`
 
 Your content.

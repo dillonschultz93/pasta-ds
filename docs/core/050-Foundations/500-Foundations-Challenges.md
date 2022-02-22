@@ -20,12 +20,12 @@ nav_order: 50
     <p>They present "smart" behaviour in the way they interact when components are stacked on top of each other or side by side:</p>
     <ul>
       <li>Margins are not context dependent</li>
-      <li>Margins always fully overlaps</li>
+      <li>Margins always overlaps</li>
       <li>(The biggest margin set the space)</li>
     </ul>
     <p>
-      In the example (1), where we focus on vertical spaces to simplify, we can identify 3 stacked components: a header, a text paragraph and a button. Each component has its own set of margins (2).<br>
-      We can see (3) how these vertical spaces are set using the simple rules described above. Variations in the order of stacking of the components offer the expected variations in the inter-spaces thanks to these rules: compare the space under the Header component  in exemple (3) vs (4).
+      In the example (1), where we focus on vertical spaces only to simplify, we can identify 3 stacked components: a header, a text paragraph and a button. Each component has its own set of margins (2).<br>
+      We can see (3) how vertical spaces are resolved using the simple rules described above. Variations in the order of stacking of the components offer the expected balanced spaces: compare the space under the Header component in example (3) vs (4).
     </p>
     <p>
       CSS provides a proper implementation of Margins that matches print and publishing design century-old best practices.

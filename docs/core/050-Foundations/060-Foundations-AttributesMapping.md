@@ -17,13 +17,13 @@ nav_order: 60
 
 | Pasta Apparatus | Figma-Tokens-Plugin | AttributeFigma-Tokens-Plugin | TypeFigma API Attributes |   CSS  | iOS | Android |
 | --- | --- | --- | --- | --- | --- | --- |
-| Margin          |                     |                              |                          | margin | ♺ frindge| ♺ frindge|
+| Margin          |                     |                              |                          | margin | ♺ fringe| ♺ fringe|
 
 
 
 <details>
 <summary>Figma Plugins Attributes (draft)</summary>
-
+{% highlight javascript %}
 {
   "SIZE": {
     "value": "123",
@@ -114,5 +114,5 @@ nav_order: 60
     "type": "other"
   }
 }
-
+{% endhighlight %}
 </details>

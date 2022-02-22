@@ -8,7 +8,6 @@ layout: default
 nav_order: 90
 ---
 
-
-# Patterns `LGN`
+# Patterns `{{ page.project_id }}`
 
 Your Content.

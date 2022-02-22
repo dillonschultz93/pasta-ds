@@ -1,12 +1,14 @@
 ---
-title: Linguine # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-permalink: linguine # title case
-nav_order: 890
+project_id: LGN # 3-letter code
+project_version: 0.1.0 # semantic versioning
+title: Linguine # title case
+permalink: linguine # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 has_children: true
-layout: default # title case
+layout: default
+nav_order: 890
 ---
 
-# Linguine `LGN 0.1.0`
+# Linguine `{{ page.project_id }} {{ page.project_version }}`
 
 Linguine is a Pasta [navigation](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/) boilerplate for new projects.
 
@@ -25,10 +27,11 @@ pasta
     │       ├─ images
     │       └─ js
     ├─ core
-    │   ├─ 020-Foundations
-    │   ├─ 100-farfalle
+    │   ├─ 050-Foundations
+    │   ├─ 100-Brand
+    │   ├─ 200-farfalle
     │   ├─ ⌾ 890-linguine
-    │   │   ├─ 040-Tokens
+    │   │   ├─ 040-Choices
     │   │   ├─ 050-Primitives
     │   │   ├─ 070-Components
     │   │   ├─ 090-Patterns
@@ -43,11 +46,11 @@ You then need to rename these 2 folders, inside `core` change the `nav_order` in
 
 In your `index.md`:
 
-
 ```markdown
 ---
-title: {~~ Linguine ~> YourProjectName ~~}
-permalink: {~~ Linguine ~> YourProjectName ~~}
+project_id: {~~ LGN ~> Your3LetterCode ~~} # 3-letter code
+title: {~~ Linguine ~> YourProjectName ~~} # title case
+permalink: {~~ Linguine ~> YourProjectName ~~} # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 has_children: true
 layout: default
 nav_order: {~~ 890 ~> YourProjectTocIndex ~~}
@@ -58,13 +61,14 @@ nav_order: {~~ 890 ~> YourProjectTocIndex ~~}
 
 ```markdown
 ---
-title: Sizes
-permalink: {~~ Linguine ~> YourProjectName ~~}/tokens/sizes
-grand_parent: {~~ Linguine ~> YourProjectName ~~}
-parent: Tokens
+project_id: {~~ LGN ~> Your3LetterCode ~~} # 3-letter code
+title: Dimensions
+permalink: {~~ Linguine ~> YourProjectName ~~}/choices/dimensions # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+grand_parent: {~~ Linguine ~> YourProjectName ~~} # title case
+parent: Choices
 layout: default
 nav_order: 10
 ---
 
-# Sizes `{~~ LGN ~> yourProjectAbbreviation ~~}`
+# Sizes `{{ page.project_id }}`
 ```
