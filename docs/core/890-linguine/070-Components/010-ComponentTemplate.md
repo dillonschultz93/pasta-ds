@@ -1,17 +1,17 @@
 ---
 project_id: LGN # 3-letter code
-title: Pattern Template # title case
-UID: P0000 # "P" = Pattern + Hexa code/index
-permalink: linguine/patterns/pattern-template # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Component Template # title case
+UID: C0000 # "C" = Component + Hexa code/index
+permalink: linguine/components/component-template # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Linguine # title case
-parent: Patterns # title case
+parent: Components # title case
 layout: default
-nav_order: 010
+nav_order: 10
 ---
 
 <div class="mode_switcher"></div>
 
-# 🆃 Pattern Name&nbsp;`{{ page.project_id }}`
+# 🆃 Component Name&nbsp;`{{ page.project_id }}`
 {: .no_toc}
 
 | UID | Ticket | Owner |Pasta Release|
@@ -43,7 +43,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 <section class="flex-1_2-cols">
    <div>
     <br>
-     In order to implement this Pattern you will need to implement all its dependencies first.<br>
+     In order to implement this Component you will need to implement all its dependencies first.<br>
      Please refer to each element in this list&nbsp;→
    </div>
    <div>
@@ -57,20 +57,12 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
        </thead>
         <tbody>
          <tr>
-            <td><code>LGN-C0001</code></td><td>Component</td>
+            <td><code>LGN-V0001</code></td><td>Primitive (Icon)</td>
             <td><a href="{{site.baseurl}}/farfalle/components/buttons#button-icons" alt="WIP" class="btn">Button Icon →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-C000F</code></td><td>Component</td>
-            <td><a href="{{site.baseurl}}/farfalle/components/chips" alt="WIP" class="btn">Chip →</a></td>
-         </tr>
-         <tr>
-            <td><code>LGN-C003A</code></td><td>Component</td>
-            <td><a href="{{site.baseurl}}/farfalle/components/ratings" alt="WIP" class="btn">Rating →</a></td>
-         </tr>
-         <tr>
-            <td><code>LGN-V0004</code></td><td>Primitive</td>
-            <td><a href="{{site.baseurl}}/farfalle/primitives/typography#eyebrows" alt="WIP" class="btn">Eyebrow →</a></td>
+            <td><code>LGN-V000F</code></td><td>Primitive (typo)</td>
+            <td><a href="{{site.baseurl}}/farfalle/components/chips" alt="WIP" class="btn">Button Label →</a></td>
          </tr>
         </tbody>
      </table>
@@ -98,8 +90,8 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 |↓ impacted|sm (320)| md (384)| lg(512)|
 |---|---|---|---|
-| Attribute &#35;1|`token`|`token`|`token`|
-| Attribute &#35;2|`token`|`token`|`token`|
+| Attribute &#35;1|N/A|N/A|N/A|
+| Attribute &#35;2|N/A|N/A|N/A|
 {: .type-01}
 
 ##### Modes
@@ -168,7 +160,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ## Tokens Playground
 
-Playground · Pattern-siloed Tokens including all required Choices and Decisions:
+Playground · Component-siloed Tokens including all required Choices and Decisions:
 
 <table>
     <tr class="playground-details-row" id="css">

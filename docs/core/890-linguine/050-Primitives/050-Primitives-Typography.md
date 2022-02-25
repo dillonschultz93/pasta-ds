@@ -5,9 +5,7 @@ permalink: linguine/primitives/typography # lowercase + use hyphens › https:/
 grand_parent: Linguine # title case
 parent: Primitives # title case
 layout: default
-nav_order: 10
+nav_order: 50
 ---
 
 # Typography `{{ page.project_id }}`
-
-Your content.
