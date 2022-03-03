@@ -6,17 +6,67 @@ grand_parent: Farfalle # title case
 parent: Choices # title case
 layout: default
 nav_order: 10
+scaleChoices:
+  base: 2
+  ratio: 2
+  baseIndex: 400
+  choices:
+    - 8
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 20
+    - 24
+    - 28
+    - 32
+    - 40
+    - 48
+    - 60
+    - 96
+    - 144
+    - 192
+    - 256
+    - 512
+spaceChoices:
+  xs: $undefined
+  s: $YPL.FFL.TKUI_M.scales.geoA.400
+  m: $YPL.FFL.TKUI_M.scales.geoA.500
+  l: $YPL.FFL.TKUI_M.scales.geoA.600
+  xl: $undefined
+  xxl: $undefined
+staticSizeChoices:
+  xs: 1
+  s: 2
+  m: 3
+  l: 4
+factorChoices:
+  F1: 1
+  F2: 1
+  F3: 1
+  F4: 1
+  F5: 2
+breakpointChoices:
+  sm: 640
+  md: 768
+  lg: 1024
+  xl: 1280
+  xxl: 1536
 ---
 <!-- This module fetches and pushes all basic functions and constants/variables required to run other ad hoc Pasta Scripts ↓ -->
 <script type="module">
-
-  document.getElementsByTagName('body')[0].setAttribute('data-pasta-project-id', '{{ page.project_id }}');
-  document.getElementsByTagName('body')[0].setAttribute('data-pasta-page-permalink', '{{ page.permalink }}');
-
   window.projectId = '{{ page.project_id }}';
-  window.pagePermalinkSuffix = '{{ page.permalink }}';
-  window.pastaBaseurl = '{{site.baseurl}}';
 
+  const choices = {
+    scale: {{ page.scaleChoices | jsonify }},
+    space: {{ page.spaceChoices | jsonify }},
+    staticSize: {{ page.staticSizeChoices | jsonify }},
+    factor: {{ page.factorChoices | jsonify }},
+    breakpoint: {{ page.breakpointChoices | jsonify }}
+  };
+
+  window.localStorage.setItem('{{ page.title | downcase }}', JSON.stringify(choices));
 </script>
 
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->

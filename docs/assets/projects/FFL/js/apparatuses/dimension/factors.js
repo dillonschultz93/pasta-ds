@@ -26,37 +26,10 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import { prefixBuilder } from '../../../../../js/pasta-utilities/pasta-token_naming.js';
-
 /**
  * @description Generates all factor tokens as choices using a set of constant values.
- * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
- * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
- * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
+ * @param {Object} factorChoices - The object containing naming options for the prefix of each token.
  */
-export function generateFactor(namingOptions, description, type) {
-  // Collect the prefix string
-  const prefix = prefixBuilder(namingOptions);
-  let factorsOutput = {};
-
-  const factors = {
-    "allText": 1,
-    "allTextW_OButton": 1,
-    "buttonText": 1,
-    "buttonW_OText": 1,
-    "buttonAll": 1,
-    "WCAG_1_4_4_AA": 2
-  }
-
-  Object.entries(factors).forEach(factor => {
-    const [key, value] = factor;
-
-    factorsOutput[`${prefix}.factors.${key}`] = {
-      value,
-      description,
-      type
-    };
-  });
-
-  return factorsOutput;
+export function generateFactors(factorChoices) {
+  return factorChoices
 }

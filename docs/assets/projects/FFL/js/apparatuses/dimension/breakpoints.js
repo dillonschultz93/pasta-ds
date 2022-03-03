@@ -26,36 +26,10 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import { prefixBuilder } from '../../../../../js/pasta-utilities/pasta-token_naming.js';
-
 /**
  * @description Generates all breakpoint tokens as choices using a set of constant values.
- * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
- * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
- * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
+ * @param {Object} breakpointChoices - The object containing naming options for the prefix of each token.
  */
-export function generateBreakpoint(namingOptions, description, type) {
-  // Collect the prefix string
-  const prefix = prefixBuilder(namingOptions);
-  let breakpointsOutput = {};
-
-  const breakpoints = {
-    "sm": 640,
-    "md": 768,
-    "lg": 1024,
-    "xl": 1280,
-    "xxl": 1536
-  }
-
-  Object.entries(breakpoints).forEach(breakpoint => {
-    const [key, value] = breakpoint;
-
-    breakpointsOutput[`${prefix}.breakpoints.${key}`] = {
-      value,
-      description,
-      type
-    };
-  });
-
-  return breakpointsOutput;
+export function generateBreakpoints(breakpointChoices) {
+  return breakpointChoices;
 }

@@ -1,8 +1,8 @@
 // THIS IS A BARREL EXPORT OF ALL DIMENSION APPARATUSES.
-import { generateScale } from "./scale.js";
-import { generateSpace } from "./spaces.js";
-import { generateStaticSize } from "./static_sizes.js";
-import { generateFactor } from "./factors.js";
-import { generateBreakpoint } from "./breakpoints.js";
+import { generateDimensionScale } from "./scale.js";
+import { generateSpaces } from "./spaces.js";
+import { generateStaticSizes } from "./static_sizes.js";
+import { generateFactors } from "./factors.js";
+import { generateBreakpoints } from "./breakpoints.js";
 
-export { generateScale, generateSpace, generateStaticSize, generateFactor, generateBreakpoint };
+export { generateDimensionScale, generateSpaces, generateStaticSizes, generateFactors, generateBreakpoints };

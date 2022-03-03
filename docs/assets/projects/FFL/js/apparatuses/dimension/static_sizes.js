@@ -26,35 +26,10 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import { prefixBuilder } from '../../../../../js/pasta-utilities/pasta-token_naming.js';
-
 /**
  * @description Generates all static size tokens as choices using a set of constant values.
- * @param {Object} namingOptions - The object containing naming options for the prefix of each token.
- * @param {string} description - A string representing the description of the token. This is specifically for the Figma Tokens plugin.
- * @param {string} type - The type or category that the token falls into. This is specifically for the Figma Tokens plugin.
+ * @param {Object} staticSizeChoices - The object containing naming options for the prefix of each token.
  */
-export function generateStaticSize(namingOptions, description, type) {
-  // Collect the prefix string
-  const prefix = prefixBuilder(namingOptions);
-  let staticSizesOutput = {};
-
-  const staticSizes = {
-    "xs": 1,
-    "s": 2,
-    "m": 3,
-    "l": 4
-  }
-
-  Object.entries(staticSizes).forEach(size => {
-    const [key, value] = size;
-
-    staticSizesOutput[`${prefix}.sizes.static.${key}`] = {
-      value,
-      description,
-      type
-    };
-  });
-
-  return staticSizesOutput;
+export function generateStaticSizes(staticSizeChoices) {
+  return staticSizeChoices;
 }

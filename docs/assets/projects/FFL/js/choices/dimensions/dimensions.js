@@ -27,8 +27,9 @@
 // -----------------------------------------------
 
 // Import the necessary apparatuses and utilities
-import { generateScale, generateSpace, generateStaticSize, generateFactor, generateBreakpoint } from '../../apparatuses/dimension/index.js';
+import { generateDimensionScale, generateSpaces, generateStaticSizes, generateFactors, generateBreakpoints } from '../../apparatuses/dimension/index.js';
 import { buildScaleTable, buildOutputTable, handleCopyToClipboard } from '../../../../../js/pasta-utilities/pasta-doc-utilities.js';
+import { compileTokens, rawTokens, flattenTokens, figmaTokens } from '../../../../../js/pasta-utilities/pasta-token-generation.js';
 
 // Collect the DOM selectors
 const scaleInputs = [...document.querySelectorAll('.scalingInputs')];
@@ -57,12 +58,7 @@ let allTokens = {
 }
 
 // Set a constant options and state object.
-const SCALE_OPTIONS = {
-  base: 2,
-  ratio: 2,
-  baseIndex: 400,
-  choices: [8,10,12,14,16,18,20,24,28,32,40,48,60,96,144,192,256,512],
-};
+const DIMENSION_CHOICES = JSON.parse(localStorage.getItem('dimensions'));
 
 // Set a constant array of index values.
 const SCALE_INDEX = [
@@ -116,14 +112,19 @@ const NOMENCLATURE_OPTIONS = {
   }
 };
 
+const state = {...DIMENSION_CHOICES.scale};
+
 function initScalesSection() {
   // Generate all scale tokens.
-  allTokens.scale = generateScale(['geoA', 'arithA', 'arithB'], SCALE_OPTIONS, NOMENCLATURE_OPTIONS.scale, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+  const generatedScales = compileTokens(['geoA', 'arithA', 'arithB'].map(stem => generateDimensionScale(stem, state.base, state.ratio, state.baseIndex)));
+
+  allTokens.scale = rawTokens(NOMENCLATURE_OPTIONS.scale, 'scales', generatedScales);
+
   // // Generate a new table based on the scales.
-  buildScaleTable('scales-table', SCALE_INDEX, SCALE_OPTIONS.baseIndex, allTokens.scale, SCALE_OPTIONS.choices);
+  buildScaleTable('scales-table', SCALE_INDEX, state.baseIndex, flattenTokens(allTokens.scale), state.choices);
 
   // // Generate a new detail summary view based on all of the formatted tokens.
-  buildOutputTable('output-table', allTokens.scale);
+  buildOutputTable('output-table', flattenTokens(allTokens.scale));
 };
 
 function initScalesEventListeners() {
@@ -142,7 +143,7 @@ function initScalesEventListeners() {
         const outputTableBody = document.querySelector('#output-table tbody');
 
         // Set the new state of the scale token.
-        SCALE_OPTIONS[event.target.id] = parseInt(event.target.value);
+        state[event.target.id] = parseInt(event.target.value);
 
         // Empty out the table body contents.
         tableBody.innerHTML = '';
@@ -157,11 +158,12 @@ function initScalesEventListeners() {
   });
 
   scaleRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', allTokens.scale);
+    handleCopyToClipboard(allTokens.scale);
   });
 
   scaleFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.scale);
+    const figmaFormat = figmaTokens(allTokens.scale, 'https://https://yummly.github.io/pasta/farfalle/tokens/dimensions-refactor', 'other');
+    handleCopyToClipboard(figmaFormat);
   });
 }
 // // -----------------------------------------------
@@ -170,18 +172,23 @@ function initScalesEventListeners() {
 // // SPACES
 // // -----------------------------------------------
 function initSpacesSection() {
-  allTokens.space = generateSpace(NOMENCLATURE_OPTIONS.space, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'spacing');
+  // allTokens.space = generateSpaces(NOMENCLATURE_OPTIONS.space, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'spacing');
+  const generatedSpaces = generateSpaces(DIMENSION_CHOICES.space);
 
-  buildOutputTable('spaces-table', allTokens.space);
+  allTokens.space = rawTokens(NOMENCLATURE_OPTIONS.space, 'spaces', generatedSpaces);
+
+  buildOutputTable('spaces-table', flattenTokens(allTokens.space));
 }
 
 function initSpacesEventListeners() {
   spacesRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', allTokens.space);
+    handleCopyToClipboard(allTokens.space);
   });
 
   spacesFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.space);
+    const figmaFormat = figmaTokens(allTokens.space, 'https://https://yummly.github.io/pasta/farfalle/tokens/dimensions-refactor', 'spacing');    handleCopyToClipboard('figma', allTokens.space);
+
+    handleCopyToClipboard(figmaFormat);
   });
 }
 // // -----------------------------------------------
@@ -190,17 +197,22 @@ function initSpacesEventListeners() {
 // // STATIC SIZES
 // // -----------------------------------------------
 function initStaticSizesSection() {
-  allTokens.staticSize = generateStaticSize(NOMENCLATURE_OPTIONS.staticSize, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'sizing');
-  buildOutputTable('static-sizes-table', allTokens.staticSize);
+  const generatedStaticSizes = generateStaticSizes(DIMENSION_CHOICES.staticSize);
+  
+  allTokens.staticSize = rawTokens(NOMENCLATURE_OPTIONS.staticSize, 'staticSizes', generatedStaticSizes)
+  
+  buildOutputTable('static-sizes-table', flattenTokens(allTokens.staticSize));
 }
 
 function initStaticSizesEventListeners() {
   staticSizesRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', allTokens.staticSize);
+    handleCopyToClipboard(allTokens.staticSize);
   });
 
   staticSizesFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.staticSize);
+    const figmaFormat = figmaTokens(allTokens.staticSize, 'https://https://yummly.github.io/pasta/farfalle/tokens/dimensions-refactor', 'sizing');
+    
+    handleCopyToClipboard(figmaFormat);
   });
 }
 // // -----------------------------------------------
@@ -209,17 +221,21 @@ function initStaticSizesEventListeners() {
 // // FACTORS
 // // -----------------------------------------------
 function initFactorsSection() {
-  allTokens.factor = generateFactor(NOMENCLATURE_OPTIONS.factor, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
-  buildOutputTable('factor-table', allTokens.factor);
+  const generatedFactors = generateFactors(DIMENSION_CHOICES.factor);
+
+  allTokens.factor = rawTokens(NOMENCLATURE_OPTIONS.factor, 'factors', generatedFactors);
+
+  buildOutputTable('factor-table', flattenTokens(allTokens.factor));
 }
 
 function initFactorsEventListeners() {
   factorsRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', allTokens.factor);
+    handleCopyToClipboard(allTokens.factor);
   });
 
   factorsFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.factor);
+    const figmaFormat = figmaTokens(allTokens.factor, 'https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+    handleCopyToClipboard(figmaFormat);
   });
 }
 // // -----------------------------------------------
@@ -228,28 +244,36 @@ function initFactorsEventListeners() {
 // // BREAKPOINTS
 // // -----------------------------------------------
 function initBreakpointSection() {
-  allTokens.breakpoint = generateBreakpoint(NOMENCLATURE_OPTIONS.breakpoint, 'Pasta Apparatus: https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
-  buildOutputTable('breakpoint-table', allTokens.breakpoint);
+  const generatedBreakpoints = generateBreakpoints(DIMENSION_CHOICES.breakpoint);
+
+  allTokens.breakpoint = rawTokens(NOMENCLATURE_OPTIONS.breakpoint, 'breakpoints', generatedBreakpoints);
+
+  buildOutputTable('breakpoint-table', flattenTokens(allTokens.breakpoint));
 }
 
 function initBreakpointEventListeners() {
   breakpointRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', allTokens.breakpoint);
+    handleCopyToClipboard(allTokens.breakpoint);
   });
 
   breakpointFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens.breakpoint);
+    const figmaFormat = figmaTokens(allTokens.breakpoint, 'https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other');
+
+    handleCopyToClipboard(figmaFormat);
   });
 }
 // -----------------------------------------------
 
 function initAllDimensionsEventListeners() {
+  const compiledTokens = compileTokens(Object.values(allTokens));
+
   allDimensionsRawJSONButton.addEventListener('click', () => {
-    handleCopyToClipboard('raw', allTokens);
+    handleCopyToClipboard(compiledTokens);
   });
 
   allDimensionsFigmaButton.addEventListener('click', () => {
-    handleCopyToClipboard('figma', allTokens);
+    const figmaFormat = figmaTokens(compiledTokens, 'https://yummly.github.io/pasta/farfalle/tokens/dimensions', 'other')
+    handleCopyToClipboard(figmaFormat);
   });
 }
 

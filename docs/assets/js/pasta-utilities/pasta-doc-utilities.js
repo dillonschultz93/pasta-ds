@@ -57,10 +57,10 @@ export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices
       if (cell.className === 'index') {
         item === baseIndex ? cell.innerHTML = `<strong>•  ${item}</strong>` : cell.textContent = item;
       } else {
-        scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] ? cell.textContent = scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`].value : cell.textContent = '-';
+        scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] ? cell.textContent = scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] : cell.textContent = '-';
 
         if (scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`]) {
-          choices.includes(scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`].value) ? cell.className = 'textbold' : cell.className = 'textfaded';
+          choices.includes(scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`]) ? cell.className = 'textbold' : cell.className = 'textfaded';
         } else {
           cell.className = 'textfaded';
         }
@@ -100,7 +100,7 @@ export function buildOutputTable(tableID, allTokens) {
           break;
 
         case 1:
-          cell.textContent = Array.isArray(value) ? value[0] : value.value;
+          cell.textContent = value;
           break;
 
         case 2:
@@ -144,21 +144,6 @@ export function copyToClipboard(content) {
  * @param {string} format - The format of the tokens.
  * @param {Object} tokens - The object of the tokens.
  */
-export function handleCopyToClipboard(format, tokens) {
-  let content = '';
-
-  switch (format) {
-    case 'raw':
-      content = rawTokens(tokens);
-      copyToClipboard(content);
-      break;
-
-    case 'figma':
-      content = figmaTokens(tokens);
-      copyToClipboard(content);
-      break;
-  
-    default:
-      break;
-  }
+export function handleCopyToClipboard(content) {
+  typeof content === 'object' ? copyToClipboard(JSON.stringify(content, null, 2)) : copyToClipboard(content)
 }

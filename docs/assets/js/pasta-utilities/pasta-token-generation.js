@@ -26,48 +26,91 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-/**
- * @description A function that creates a JSON string from a token object.
- * @param {Object} tokenObj - The token object with all apparatus tokens.
- * @returns {string} A JSON string.
- */
-export function rawTokens(tokenObj) {
-  let rawToken = {};
-
-  Object.entries(tokenObj).forEach(token => {
-    const [key, value] = token;
-
-    rawToken[key] = {};
-
-    if (value.value) {
-      rawToken[key] = value.value;
-    } else {
-      Object.entries(value).forEach(item => {
-        const [nestedKey, nestedValue] = item;
-
-        rawToken[key][nestedKey] = nestedValue.value;
-      });
+// A utility function that deep merges multiple token objects.
+function deepMerge(target, source) {
+  Object.entries(source).forEach(([key, value]) => {
+    if (value && typeof value === 'object') {
+      deepMerge(target[key] = target[key] || {}, value);
+      return;
     }
+
+    target[key] = value;
   });
 
-  return JSON.stringify(rawToken, null, 2);
+  return target;
 }
 
 /**
- * @description A function that creates a JSON string formatted to be copied into the Figma Tokens plugin.
- * @param {Object} tokenObj - The token object with all apparatus tokens.
- * @param {string} description - The description of the token.
- * @param {string} type - The type of token enumerated to a string.
- * @returns A JSON string.
+ * @description Creates an object that contains the category's token value(s).
+ * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
+ * @param {*} category - A string representing the category the tokens are in.
+ * @param {*} data - Any type that represents the value of the token.
  */
-export function figmaTokens(tokenObj) {
-  let figmaToken = {};
+export function rawTokens(nomenclatureOptions, category, data) {
+  const { namespace, project, kingdom } = nomenclatureOptions;
 
-  Object.entries(tokenObj).forEach(token => {
-    const [key, value] = token;
+  return {
+    [namespace]: {
+      [project] : {
+        [kingdom]: category !== '' ? { [category]: data } : data
+      }
+    }
+  }
+}
 
-    figmaToken[key] = value;
+/**
+ * @description Flattens the raw nested token object into a single object.
+ * @param {Object} rawTokens - The token object in an object format.
+ */
+export function flattenTokens(rawTokens) {
+ const output = {};
+
+ const flatten = (currentItem, prop) => {
+   if (Object(currentItem) !== currentItem) {
+     output[prop] = currentItem;
+   } else if (Array.isArray(currentItem)) {
+     currentItem.forEach((item, index) => {
+       flatten(item, prop + '[' + index + ']');
+     });
+
+     if (currentItem.length === 0) {
+       output[prop] = [];
+     }
+   } else {
+     let isEmpty = true;
+
+     for (let p in currentItem) {
+       isEmpty = false;
+
+       flatten(currentItem[p], prop ? prop + '.' + p : p);
+     }
+
+     if (isEmpty && prop) {
+       output[prop] = {};
+     }
+   }
+ }
+
+ flatten(rawTokens, '');
+
+ return output;
+}
+
+export function figmaTokens(rawTokens, description, type) {
+  const output = {};
+  const flattenedTokens = flattenTokens(rawTokens);
+
+  Object.entries(flattenedTokens).forEach(([key, value]) => {
+    output[key] = {
+      value,
+      description,
+      type
+    }
   });
 
-  return JSON.stringify(figmaToken, null, 2);
+  return output;
+}
+
+export function compileTokens(tokensArray) {
+  return tokensArray.reduce(deepMerge, {});
 }
