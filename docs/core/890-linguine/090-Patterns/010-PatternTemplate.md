@@ -14,7 +14,7 @@ nav_order: 010
 # 🆃 Pattern Name&nbsp;`{{ page.project_id }}`
 {: .no_toc}
 
-| UID | Ticket | Owner |Pasta Release|
+| UID | Ticket | Owner |Pasta Branch or Release|
 |---|---|---|---|
 |`{{ page.project_id }}-{{ page.UID }}`|[Github Issue &#35;2](https://github.com/yummly/pasta/issues/2)|[Robert](https://github.com/robert-ANML)|[TBD](https://github.com/yummly/pasta/releases)|
 
@@ -165,6 +165,24 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
       <hr class="dd-dont">
  </div>
  </section>
+
+
+## Analytics Tracking
+
+Please inject the snippet below when you implement this pattern:
+
+<input type="checkbox" class="checklistItem" checked>Option #1<br>
+<input type="checkbox" class="checklistItem" checked>Option #2<br>
+<input type="checkbox" class="checklistItem">Option #3<br>
+<input type="checkbox" class="checklistItem">Option #4<br>
+
+```
+//
+// The generated snippet will show there
+//
+
+
+```
 
 ## Tokens Playground
 
@@ -346,10 +364,15 @@ Please comply to and update the checklist below:
 |<input type="checkbox" class="checklistItem" checked><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
 |<input type="checkbox" class="checklistItem" checked><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
 
+|Analytics|
+|---|
+|<input type="checkbox" class="checklistItem" checked><strong>Log Snippet</strong><br>The analytics log snippet has been provided|
+
 |Implementation|
 |---|
+|<input type="checkbox" class="checklistItem" checked><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
 |<input type="checkbox" class="checklistItem" checked><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-|<input type="checkbox" class="checklistItem" checked><strong>Pasta Release Version</strong><br>Pasta V0.1.0|
+|<input type="checkbox" class="checklistItem" checked><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`|
 |<input type="checkbox" class="checklistItem" checked><strong>iOS</strong><br>Artifact(s) have been implemented inside iOS component library|
 |<input type="checkbox" class="checklistItem" checked><strong>Android<strong><br>Artifact(s) have been implemented inside iOS component library|
 |<input type="checkbox" class="checklistItem" checked><strong>Web</strong><br>Artifact(s) have been implemented inside Web component library|

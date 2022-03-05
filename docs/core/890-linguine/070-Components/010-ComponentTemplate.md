@@ -158,6 +158,23 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
  </div>
  </section>
 
+ ## Analytics Tracking
+
+ Please inject the snippet below when you implement this component:
+
+ <input type="checkbox" class="checklistItem" checked>Option #1<br>
+ <input type="checkbox" class="checklistItem" checked>Option #2<br>
+ <input type="checkbox" class="checklistItem">Option #3<br>
+ <input type="checkbox" class="checklistItem">Option #4<br>
+
+ ```
+ //
+ // The generated snippet will show there
+ //
+
+
+ ```
+
 ## Tokens Playground
 
 Playground · Component-siloed Tokens including all required Choices and Decisions:
@@ -337,6 +354,10 @@ Please comply to and update the checklist below:
 |---|
 |<input type="checkbox" class="checklistItem" checked><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
 |<input type="checkbox" class="checklistItem" checked><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
+
+|Analytics|
+|---|
+|<input type="checkbox" class="checklistItem" checked><strong>Log Snippet</strong><br>The analytics log snippet has been provided|
 
 |Implementation|
 |---|

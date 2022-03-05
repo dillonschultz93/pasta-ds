@@ -88,10 +88,10 @@ If you need help for the following steps please contact our current [Pasta Docum
 6. <input type="checkbox" class="checklistItem"> … then launch Jekyll via Bundler everytime to want to work on Pasta locally:
 
     ```shell
-    bundle exec jekyll serve --livereload
+    bundle exec jekyll serve --livereload --incremental
     ```
 
-    The `--liverload` option automatically refresh the browser when a file update is detected. You usually get a ~5 seconds lag.
+    The `--liverload` option automatically refresh the browser when a file update is detected. `--incremental` should help with the built duration length (experimental feature).
 
 7. <input type="checkbox" class="checklistItem"> Pasta will be running on port `4000` on [your local host](http://localhost:4000/pasta/):
 
