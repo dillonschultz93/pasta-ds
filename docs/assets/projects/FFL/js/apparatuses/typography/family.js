@@ -1,7 +1,7 @@
 // -----------------------------------------------
-// PASTA APPARATUS: LEADING
+// PASTA APPARATUS: FONT FAMILY
 // -----------------------------------------------
-// Description: Functions that generate the necessary leading/line height tokens.
+// Description: Functions that generate the necessary font family tokens.
 // Authors: Manuel Colom · manuel.colom@yummly.com, Dillon Schultz · dillon.schultz@yummly.com
 //
 // Copyright (c) 2022 Yummly, Inc.
@@ -25,6 +25,6 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-export function getLeading(leadingChoices) {
-  return leadingChoices;
+export function getFontFamily(fontFamilyChoices) {
+  return fontFamilyChoices;
 }

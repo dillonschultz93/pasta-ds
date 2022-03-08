@@ -43,9 +43,10 @@ function regressionTerms(trackingChoices, degree) {
 /**
  * @description A function that gets the predicted tracking value based off of a desired font size.
  * @param {Number} fontSize - An integer that represents the font size.
+ * @param {Number} threshold - An integer that represents the threshold in which we switch the degree of regression.
  * @returns Returns a floating point number rounded to the nearest hundredths place.
  */
-export function getTracking (fontSize) {
+export function getTracking (fontSize, threshold) {
   const TRACKING_CHOICES = [
     { x: 10, y: 1 },
     { x: 12, y: 1.2 },
@@ -59,10 +60,12 @@ export function getTracking (fontSize) {
     { x: 96, y: -2.88 },
   ];
 
-  const largerFontChoices = TRACKING_CHOICES.filter(choice => choice.x >= 32);
-  const smallerFontChoices = TRACKING_CHOICES.filter(choice => choice.x <= 32);
+  const largerFontChoices = TRACKING_CHOICES.filter(choice => choice.x > threshold);
+  const smallerFontChoices = TRACKING_CHOICES.filter(choice => choice.x <= threshold);
 
-  if (fontSize <= 32) {
+  const useSmallerFontSize = fontSize <= threshold
+
+  if (useSmallerFontSize) {
     const [model, terms] = regressionTerms(smallerFontChoices, (smallerFontChoices.length - 1));
 
     return Math.round(100 * model.predictY(terms, fontSize)) / 100;
