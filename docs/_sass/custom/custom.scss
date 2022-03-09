@@ -575,6 +575,7 @@ blockquote.jumbo + figcaption a {
   border-radius: 0;
   margin: 1.6rem 0 3.6rem 0 !important;
   background-color: transparent;
+  overflow-x: visible;
 }
 table {
   table-layout: fixed;
@@ -1197,4 +1198,97 @@ input[type="color"] {
 
 .handpicked-tracking-label {
   background-color: #999999;
+}
+
+
+
+//
+// Tooltips
+//
+
+// barrowed from
+// https://codepen.io/reiinii1/pen/aPGXEa
+
+[data-toolclip] {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Positioning and visibility settings of the tooltip */
+[data-toolclip]:before,
+[data-toolclip]:after {
+  position: absolute;
+  // visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  pointer-events: none;
+  transition: 0.2s;
+  will-change: transform;
+}
+
+/* The actual tooltip with a dynamic width */
+[data-toolclip]:before {
+  z-index: 999;
+  content: attr(data-toolclip);
+  font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0.6rem 1rem;
+  min-width: 100px;
+  max-width: 40vw;
+  width: max-content;
+  width: -moz-max-content;
+  background-color: #222;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.3rem;
+  color: #eee;
+  text-align: center;
+  white-space: pre-wrap;
+  transform: translate(-50%, -5px);
+}
+/* Tooltip arrow */
+[data-toolclip]:after {
+  z-index: 999;
+  content: '';
+  border-style: solid;
+  border-width: 5px 5px 0px 5px; /* CSS triangle */
+  border-color: #222 transparent transparent transparent;
+  transition-duration: 0s;
+  transform-origin: top;
+  transform: translateX(-50%) translateY(-10px) ;
+}
+[data-toolclip]:hover:before,
+[data-toolclip]:hover:after {
+  // visibility: visible;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+[data-toolclip]:hover:after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  transition: all 0.6s;
+  transition-delay: 0.2s; /* Starting after the grow effect */
+}
+
+[data-toolclip]:hover > * {
+  background-color: #222;
+  border-color: #222;
+  color: #eee;
+  transition: all 0.4s;
+}
+
+// affordance sign
+[data-toolclip] > code::after {
+  content: "·";
+  opacity: 0.8;
+  display: inline-block;
+  vertical-align: super;
+  line-height: 0;
+  padding: 0;
+  margin: 0 0 0 -0.1rem;
+}
+[data-toolclip] > code {
+  // space balance
+  padding-right: 3px;
 }
