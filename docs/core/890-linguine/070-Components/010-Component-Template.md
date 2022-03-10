@@ -9,8 +9,6 @@ layout: default
 nav_order: 10
 ---
 
-<div class="mode_switcher"></div>
-
 # 🆃 Component Name&nbsp;`{{ page.project_id }}`
 {: .no_toc}
 
@@ -28,7 +26,9 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ![]({{site.baseurl}}/assets/images/YPL-DOC-imgPlaceholder-Full.png)
 
-[Switch to Dark Mode]()
+<div role="radio" id="mode-skin-switcher">
+    <input type="checkbox" id="mode-dark-light" /><label for="mode-dark-light">Dark</label>
+</div>
 
 ### Figma Link
 

@@ -56,12 +56,12 @@ body {
 .main-header > *,
 .search-input {
   background-color: transparent !important;
+  text-align: left;
 }
 @media (min-width: 50rem) {
   .main-header {
     background-color: transparent !important;
   }
-
   .search-label {
     padding-left: 1rem;
   }
@@ -1214,7 +1214,7 @@ input[type="color"] {
   cursor: pointer;
 }
 
-/* Positioning and visibility settings of the tooltip */
+// Positioning and visibility settings of the tooltip
 [data-toolclip]:before,
 [data-toolclip]:after {
   position: absolute;
@@ -1227,7 +1227,7 @@ input[type="color"] {
   will-change: transform;
 }
 
-/* The actual tooltip with a dynamic width */
+// The actual tooltip with a dynamic width
 [data-toolclip]:before {
   z-index: 999;
   content: attr(data-toolclip);
@@ -1247,12 +1247,12 @@ input[type="color"] {
   white-space: pre-wrap;
   transform: translate(-50%, -5px);
 }
-/* Tooltip arrow */
+// Tooltip arrow
 [data-toolclip]:after {
   z-index: 999;
   content: '';
   border-style: solid;
-  border-width: 5px 5px 0px 5px; /* CSS triangle */
+  border-width: 5px 5px 0px 5px; // CSS triangle
   border-color: #222 transparent transparent transparent;
   transition-duration: 0s;
   transform-origin: top;
@@ -1268,7 +1268,7 @@ input[type="color"] {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
   transition: all 0.6s;
-  transition-delay: 0.2s; /* Starting after the grow effect */
+  transition-delay: 0.2s; // Starting after the grow effect
 }
 
 [data-toolclip]:hover > * {
@@ -1278,7 +1278,7 @@ input[type="color"] {
   transition: all 0.4s;
 }
 
-// affordance sign
+// affordance sign (?)
 [data-toolclip] > code::after {
   content: "·";
   opacity: 0.8;
@@ -1291,4 +1291,78 @@ input[type="color"] {
 [data-toolclip] > code {
   // space balance
   padding-right: 3px;
+}
+
+
+//
+// Radio-Switch
+//
+
+#mode-skin-switcher {
+  z-index: 1100;
+  -webkit-transform: translate3d(0,0,0);
+  // ↑ removes iOS safari glitch z-index
+  cursor: pointer;
+  // box-sizing: border-box;
+  display: flex;
+  // float: right;
+  // justify-content: center;
+  // align-items: center;
+  // background-color: inherit;
+  // margin-top: -2px;
+  // ↑ removes safari-firefox glitch-v-space between elements
+  width: calc(100% - 44px);
+  // width: 100%;
+}
+#mode-skin-switcher > input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  border: none;
+  padding: 0;
+}
+#mode-skin-switcher > label {
+  color: #222;
+  -webkit-transform: translate3d(0,0,0);
+}
+#mode-skin-switcher > input[type=checkbox] + label {
+  cursor: pointer;
+  text-indent: 44px;
+  vertical-align: middle;
+  line-height: 18px;
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  border: 2px solid #222;
+  border-radius: 2rem;
+  position: relative;
+  color: #222;
+}
+#mode-skin-switcher > input[type=checkbox] + label:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #222;
+  -webkit-transform: translate3d(0,0,0);
+  transition: 0.3s;
+}
+#mode-skin-switcher > input[type=checkbox]:checked + label {
+  border-color: $blue-000;
+  color: $blue-000;
+}
+#mode-skin-switcher > input[type=checkbox]:checked + label:after {
+  left: 34px;
+  transform: translateX(-100%);
+  background-color: $blue-000;
+}
+#mode-skin-switcher > input[type=checkbox] + label:active:after {
+  width: 24px;
+}
+#mode-skin-switcher > input[type=checkbox]:checked + label:before {
+  color: $blue-000;
+  -webkit-transform: translate3d(0,0,0);
 }
