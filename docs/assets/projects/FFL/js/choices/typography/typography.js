@@ -26,7 +26,7 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import { getFontFamily, getLeading, getTracking } from './index.js';
+import { getFontFamily, getLeading, getTracking } from '../../apparatuses/typography/index.js';
 import { buildOutputTable, handleCopyToClipboard } from '../../../../../js/pasta-utilities/pasta-doc-utilities.js';
 import { rawTokens, flattenTokens } from '../../../../../js/pasta-utilities/pasta-token-generation.js';
 

@@ -46,61 +46,13 @@ function deepMerge(target, source) {
  * @param {*} category - A string representing the category the tokens are in.
  * @param {*} data - Any type that represents the value of the token.
  */
-function rawTokens(nomenclatureOptions, data) {
-  // Destructure the nomenclature options and the incoming data.
-  const { namespace, project } = nomenclatureOptions;
-  const { tokenValues, kingdom, category } = data;
-
-  let extractedValue = {};
-
-  // Loop through the token values so that we can just assign the value property to the property category key.
-  Object.entries(tokenValues).forEach(([key, val]) => {
-    let nestedExtractedValue = {};
-
-    // Check if there are nested token values and resolve those.
-    if (!val.value) {
-      Object.entries(val).forEach(([k, v]) => {
-        nestedExtractedValue = {
-          ...nestedExtractedValue,
-          [k]: v.value
-        }
-      });
-    }
-
-    // Assign the token extracted value property to the proper category key.
-    extractedValue = {
-      ...extractedValue,
-      [key]: val.value || nestedExtractedValue
-    };
-  });
+export function rawTokens(nomenclatureOptions, category, data) {
+  const { namespace, project, kingdom } = nomenclatureOptions;
 
   return {
     [namespace]: {
-      [project]: {
-        [kingdom]: {
-          [category]: {...extractedValue}
-        }
-      }
-    }
-  }
-}
-
-/**
- * @description Creates an object that contains the category's token value(s).
- * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
- * @param {*} category - A string representing the category the tokens are in.
- * @param {*} data - Any type that represents the value of the token.
- */
- function figmaTokens(nomenclatureOptions, data) {
-  const { namespace, project } = nomenclatureOptions;
-  const { tokenValues, kingdom, category } = data;
-
-  return {
-    [namespace]: {
-      [project]: {
-        [kingdom]: {
-          [category]: tokenValues
-        }
+      [project] : {
+        [kingdom]: category !== '' ? { [category]: data } : data
       }
     }
   }
@@ -110,7 +62,7 @@ function rawTokens(nomenclatureOptions, data) {
  * @description Flattens the raw nested token object into a single object.
  * @param {Object} rawTokens - The token object in an object format.
  */
-function flattenTokens(rawTokens) {
+export function flattenTokens(rawTokens) {
  const output = {};
 
  const flatten = (currentItem, prop) => {
@@ -144,6 +96,21 @@ function flattenTokens(rawTokens) {
  return output;
 }
 
-function compileTokens(tokensArray) {
+export function figmaTokens(rawTokens, description, type) {
+  const output = {};
+  const flattenedTokens = flattenTokens(rawTokens);
+
+  Object.entries(flattenedTokens).forEach(([key, value]) => {
+    output[key] = {
+      value,
+      description,
+      type
+    }
+  });
+
+  return output;
+}
+
+export function compileTokens(tokensArray) {
   return tokensArray.reduce(deepMerge, {});
 }
