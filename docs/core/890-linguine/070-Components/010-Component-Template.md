@@ -26,10 +26,6 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ![]({{site.baseurl}}/assets/images/YPL-DOC-imgPlaceholder-Full.png)
 
-<div role="radio" id="mode-skin-switcher">
-    <input type="checkbox" id="mode-dark-light" /><label for="mode-dark-light">Dark</label>
-</div>
-
 ### Figma Link
 
 <a href="https://www.figma.com/file/MAptaE54Hyzvx1FQCfWebi/YPL-Pattern-Card-Recipe-Large?node-id=0%3A1" class="btn">To Figma →</a>

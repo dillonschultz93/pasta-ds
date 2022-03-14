@@ -1295,7 +1295,7 @@ input[type="color"] {
 
 
 //
-// Radio-Switch
+// Dark Mode Radio-Switch
 //
 
 #mode-skin-switcher {
@@ -1304,15 +1304,15 @@ input[type="color"] {
   // ↑ removes iOS safari glitch z-index
   cursor: pointer;
   // box-sizing: border-box;
-  display: flex;
-  // float: right;
-  // justify-content: center;
-  // align-items: center;
-  // background-color: inherit;
   // margin-top: -2px;
   // ↑ removes safari-firefox glitch-v-space between elements
-  width: calc(100% - 44px);
+  width: calc(100% - 66px);
   // width: 100%;
+  margin: 0 0 1rem 1.8rem;
+  padding: 0.8rem 0 0.8rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  opacity: 0.9;
 }
 #mode-skin-switcher > input[type=checkbox] {
   height: 0;
@@ -1322,6 +1322,7 @@ input[type="color"] {
   padding: 0;
 }
 #mode-skin-switcher > label {
+  font-size: 14px;
   color: #222;
   -webkit-transform: translate3d(0,0,0);
 }
