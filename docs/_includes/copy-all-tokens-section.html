@@ -2,15 +2,19 @@
   {% if include.title %}
     <h3> Copy all {{ include.title | downcase }} tokens</h3>
   {% endif %}
-  <p>Copy all of the {{ include.section | downcase }} tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
+  {% if include.section %}
+    <p>Copy all of the {{ include.section | downcase }} tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
+  {% else %}
+  <p>Copy all of the tokens to your clipboard as either raw JSON or in a Figma Tokens plugin format.</p>
+  {% endif %}
   <div class="flex-1_1-cols">
-    <div id="RawTokens{{ include.section | capitalize }}Collector">
+    <div>
       <h4>Raw JSON</h4>
-      <button class="btn">Copy JSON</button>
+      <button class="btn copy-token-btn" id="{% if include.section %}{{ include.section }}-raw{% else %}all-raw{% endif %}" data>Copy JSON</button>
     </div>
-    <div id="FigmaTokens{{ include.section | capitalize }}Collector">
+    <div>
       <h4>Figma Tokens</h4>
-      <button class="btn">Copy Figma Tokens</button>
+      <button class="btn copy-token-btn" id="{% if include.section %}{{ include.section }}-figma{% else %}all-figma{% endif %}" data>Copy Figma Tokens</button>
     </div>
   </div>
 </section>

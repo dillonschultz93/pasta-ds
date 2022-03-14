@@ -26,8 +26,6 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import { rawTokens, figmaTokens } from "./pasta-token-generation.js";
-
 /**
  * @description A function that builds the contents/<tbody> of the scales table.
  * @param {string} tableID - The id attribute of the table.
@@ -36,7 +34,7 @@ import { rawTokens, figmaTokens } from "./pasta-token-generation.js";
  * @param {Object} scales - The object of key value pairs of each scale.
  * @param {Array<Number>} choices - An array of values that are currently used on the product.
  */
-export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices) {
+function buildScaleTable(tableID, indexValues, baseIndex, scales, choices) {
   const tableBody = document.querySelector(`#${tableID} tbody`);
   const tableHeaders = [...document.querySelector(`#${tableID} thead tr`).children];
 
@@ -80,17 +78,19 @@ export function buildScaleTable(tableID, indexValues, baseIndex, scales, choices
  * @param {Object} allTokens - The object representing all scale tokens.
  * @todo Refactor so that it scales to the amount of header columns rather than relying on always expecting three columns.
  */
-export function buildOutputTable(tableID, allTokens) {
-  const tableBody = document.querySelector(`#${tableID} tbody`);
-  const columns = [...document.querySelectorAll(`#${tableID} thead tr th`)];
+function buildOutputTable(tableElement, tokens) {
+  const tableBody = tableElement.querySelector('tbody');
+  const columns = [...tableElement.querySelectorAll('thead tr th')];
+  const category = tableElement.dataset.choiceCategory;
+  
+  const data = flattenTokens(tokens[category].raw);
 
-  Object.entries(allTokens).forEach(item => {
-    const [key, value] = item;
-    const splitKey = key.split('.');
-    const index = splitKey[splitKey.length - 1];
+  Object.entries(data).forEach(([key, value]) => {
+    const splitKeys = key.split('.');
+    const index = splitKeys[splitKeys.length - 1];
 
     const tr = document.createElement('tr');
-    
+
     columns.forEach((column, i) => {
       const cell = document.createElement('td');
 
@@ -104,13 +104,10 @@ export function buildOutputTable(tableID, allTokens) {
           break;
 
         case 2:
-          cell.innerHTML = `<code>${key}</code>`;
+          cell.innerHTML = `<span data-toolclip="${key}"><code class="language-plaintext highlighter-rouge">Token Key</code></span>`;
+          cell.addEventListener('click', () => handleCopyToClipboard(key));
           break;
 
-        case 3:
-          cell.innerHTML = Array.isArray(value) ? `<code>${value[1]}</code>` : null;
-          break; 
-      
         default:
           break;
       }
@@ -128,7 +125,7 @@ const fallbackCopyToClipboard = () => {
 }
 
 // Helper function that copies the content passed into the user's clipboard.
-export function copyToClipboard(content) {
+function copyToClipboard(content) {
   if (!navigator.clipboard) {
     fallbackCopyToClipboard();
     return;
@@ -144,6 +141,26 @@ export function copyToClipboard(content) {
  * @param {string} format - The format of the tokens.
  * @param {Object} tokens - The object of the tokens.
  */
-export function handleCopyToClipboard(content) {
+function handleCopyToClipboard(content) {
   typeof content === 'object' ? copyToClipboard(JSON.stringify(content, null, 2)) : copyToClipboard(content)
+}
+
+function handleCopyTokensToClipboard(buttonElement, tokens) {
+  const id = buttonElement.id;
+  const tokenFormat = [...id.split('-')].pop();
+  const tokenCategory = [...id.split('-')].shift();
+
+  if (tokenCategory === 'all') {
+    const allCategories = [];
+
+    Object.entries(tokens).forEach(([key, value]) => {
+      Object.entries(value).forEach(([k, v]) => {
+        k === tokenFormat ? allCategories.push(v) : null;
+      });
+    });
+
+    handleCopyToClipboard(compileTokens(allCategories))
+  } else {
+    handleCopyToClipboard(tokens[tokenCategory][tokenFormat]);
+  }
 }

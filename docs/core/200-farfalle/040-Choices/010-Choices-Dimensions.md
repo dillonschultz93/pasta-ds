@@ -1,79 +1,151 @@
 ---
-project_id: FFL # 3-letter code
-title: Dimensions # title case
-permalink: farfalle/choices/dimensions # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-grand_parent: Farfalle # title case
-parent: Choices # title case
+project_id: FFL # 3-letter code (✨ CHANGE ME ✨ )
+title: Dimensions # title case (⚠️ DO NOT TOUCH ME ⚠️ )
+permalink: farfalle/choices/dimensions # lowercase + use hyphens › https://tinyurl.com/27kmc4rb (✨ CHANGE ME ✨ )
+grand_parent: Farfalle # title case (✨ CHANGE ME ✨ )
+parent: Choices # title case (⚠️ DO NOT TOUCH ME ⚠️ )
 layout: default
 nav_order: 10
-scaleChoices:
-  base: 2
-  ratio: 2
-  baseIndex: 400
-  choices:
-    - 8
-    - 10
-    - 12
-    - 14
-    - 16
-    - 18
-    - 20
-    - 24
-    - 28
-    - 32
-    - 40
-    - 48
-    - 60
-    - 96
-    - 144
-    - 192
-    - 256
-    - 512
-spaceChoices:
-  xs: $undefined
-  s: $YPL.FFL.TKUI_M.scales.geoA.400
-  m: $YPL.FFL.TKUI_M.scales.geoA.500
-  l: $YPL.FFL.TKUI_M.scales.geoA.600
-  xl: $undefined
-  xxl: $undefined
-staticSizeChoices:
-  xs: 1
-  s: 2
-  m: 3
-  l: 4
-factorChoices:
-  F1: 1
-  F2: 1
-  F3: 1
-  F4: 1
-  F5: 2
-breakpointChoices:
-  sm: 640
-  md: 768
-  lg: 1024
-  xl: 1280
-  xxl: 1536
 ---
-<!-- This module fetches and pushes all basic functions and constants/variables required to run other ad hoc Pasta Scripts ↓ -->
-<script type="module">
-  window.projectId = '{{ page.project_id }}';
-
-  const choices = {
-    scale: {{ page.scaleChoices | jsonify }},
-    space: {{ page.spaceChoices | jsonify }},
-    staticSize: {{ page.staticSizeChoices | jsonify }},
-    factor: {{ page.factorChoices | jsonify }},
-    breakpoint: {{ page.breakpointChoices | jsonify }}
+<!-- Set the choices and nomenclature for token naming -->
+<!-- ⚠️ WARNING: NEVER USE COMMENTS INSIDE SCRIPT TAGS ⚠️ -->
+<script>
+  const superChoices =  {
+    "dimensions": {
+      "breakpoints": {
+        "value": {
+          "sm": 640,
+          "md": 768,
+          "lg": 1024,
+          "xl": 1280,
+          "xxl": 1536
+        },
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_C",
+        "category": "breakpoints"
+      },
+      "factors": {
+        "value": {
+          "F1": 1,
+          "F2": 1,
+          "F3": 1,
+          "F4": 1,
+          "F5": 2
+        },
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_C",
+        "category": "factors"
+      },
+      "scale": {
+        "value": {
+          "base": 2,
+          "ratio": 2,
+          "baseIndex": 400,
+          "scaleStems": ["geoA" , "arithA", "arithB"]
+        },
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_M",
+        "category": "scales"
+      },
+      "spaces": {
+        "value": {
+          "xs": "$undefined",
+          "sm": "$YPL.FFL.TKUI_M.scales.geoA.400",
+          "md": "$YPL.FFL.TKUI_M.scales.geoA.500",
+          "lg": "$YPL.FFL.TKUI_M.scales.geoA.600",
+          "xl": "$undefined",
+          "xxl": "$undefined"
+        },
+        "description": "",
+        "type": "spacing",
+        "kingdom": "TKUI_C",
+        "category": "spaces"
+      },
+      "staticSizes": {
+        "value": {
+          "xs": 1,
+          "sm": 2,
+          "md": 3,
+          "lg": 4
+        },
+        "description": "",
+        "type": "sizing",
+        "kingdom": "TKUI_C",
+        "category": "sizes"
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "value": {
+          "light": "europa-light",
+          "regular": "europa-regular",
+          "bold": "europa-bold"
+        },
+        "description": "",
+        "type":"fontFamilies",
+        "kingdom": "TKUI_C",
+        "category": "typos"
+      },
+      "leading": {
+        "value": {
+          "sm": 1.2,
+          "md": 1.5,
+          "lg": 1.75
+        },
+        "description": "",
+        "type": "lineHeights",
+        "kingdom": "TKUI_C",
+        "category": "ratios"
+      },
+      "paragraphSpacing": {
+        "value":  1.5,
+        "description": "",
+        "type": "paragraphSpacing",
+        "kingdom": "TKUI_C",
+        "category": "typos"
+      },
+      "trackingThreshold": {
+        "value": 32,
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_C",
+        "category": "typos"
+      }
+    },
+    "color": {
+      "primary": {
+        "value": "3B9792",
+        "description": "",
+        "type": "color",
+        "kingdom": "TKUI_C",
+        "category": "colors"
+      },
+      "secondary": {
+        "value": "E05F1F",
+        "description": "",
+        "type": "color",
+        "kingdom": "TKUI_C",
+        "category": "colors"
+      }
+    }
   };
 
-  window.localStorage.setItem('{{ page.title | downcase }}', JSON.stringify(choices));
+  const nomenclatureOptions = {
+    namespace: 'YPL',
+    project: '{{ page.project_id }}'
+  };
 </script>
 
+<!-- Utility scripts -->
+<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-doc-utilities.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
+
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
-<script type="module" src="{{site.baseurl}}/assets/projects/{{page.project_id}}/js/{{page.parent | downcase}}/{{page.title | downcase}}/{{page.title | downcase}}.js"></script>
-
-
-
+<script defer src="{{ site.baseurl }}/assets/js/apparatuses/{{ page.title | downcase }}/index.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/apparatuses/{{ page.title | downcase }}/page-script.js"></script>
 
 
 # Dimensions `{{ page.project_id }}`
@@ -84,30 +156,30 @@ breakpointChoices:
 
 <hr>
 
-{% include copy-all-tokens-section.html title="Dimension" section="dimensions" %}
+{% include copy-all-tokens-section.html title="Dimension" %}
 
 ## Scales
 
 Scales are Mathematic functions that allow us to derivate all our sizes from a limited number of Super Choices:
 
-<section class="flex-1_1_1-cols inputsWrapper">
+<!-- <section class="flex-1_1_1-cols inputsWrapper">
       <div>
         <label for="base">Base</label><br>
-        <input class="scalingInputs" type="number" id="base" name="base" value="2" min="1">
+        <input class="scalingInputs" type="number" id="base" name="base" value="{{ page.scaleChoices.base }}" min="1">
       </div>
       <div>
         <label for="ratio">Ratio</label><br>
-        <input class="scalingInputs" type="number" id="ratio" name="ratio" value="2" min="1">
+        <input class="scalingInputs" type="number" id="ratio" name="ratio" value="{{ page.scaleChoices.ratio }}" min="1">
       </div>
       <div>
         <label for="baseIndex">Base Index</label><br>
-        <input class="scalingInputs" type="number" id="baseIndex" name="baseIndex" value="400" min="100" step="100">
+        <input class="scalingInputs" type="number" id="baseIndex" name="baseIndex" value="{{ page.scaleChoices.baseIndex }}" min="100" step="100">
       </div>
-</section>
+</section> -->
 
 To translate the complexity of our designs build before our design system we use 4 scales: a power of 2 geometric scale which encompasses **[1,2,4,8,16,32,64,128 …].** We use an arithmetic scale A that feeds the arithmetic scale B. All these scales take a base 100 index as input.
 
-<table class="type-02" id="scales-table">
+<!-- <table class="type-02" id="scales-table">
   <thead>
     <tr>
       <th id="index">Index</th>
@@ -117,9 +189,8 @@ To translate the complexity of our designs build before our design system we use
     </tr>
   </thead>
   <tbody>
-    <!-- Generated by the `pasta-dimensions-refactor.js` script -->
   </tbody>
-</table>
+</table> -->
 
 ### Math Details
 Geometric Scale A:
@@ -140,20 +211,7 @@ functionArithC(index) = (Math.round(base * ratio**2) + (Math.round(base * ratio*
 <section>
   <details id="allScalesOutput" class="YPL-apparatusBaby">
     <summary>See all</summary>
-    <div class="table-wrapper">
-      <table id="output-table">
-      <thead>
-        <tr>
-          <th>index</th>
-          <th>value (pt)</th>
-          <th>token</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Generated by the `pasta-dimensions-refactor.js` script -->
-      </tbody>
-    </table>
-    </div>
+    {% include output-table.html choiceType="dimensions" choiceCategory="scales" %}
   </details>
 </section>
 
@@ -166,18 +224,7 @@ Tokens that are used to set margin, gutters, and padding.
 **All Space Outputs**
 
 <section>
-  <table id="spaces-table">
-    <thead>
-      <tr>
-        <th>space</th>
-        <th>value</th>
-        <th>token</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Generated by the `pasta-dimensions-refactor.js` script -->
-    </tbody>
-  </table>
+  {% include output-table.html unit="space" choiceType="dimensions" choiceCategory="spaces" %}
 </section>
 
 {% include copy-all-tokens-section.html section="spaces" %}
@@ -189,21 +236,10 @@ This Sizes are always expressed in pixel (px unit) and are used to set attribute
 **All Static Size Outputs**
 
 <section>
-  <table id="static-sizes-table">
-    <thead>
-      <tr>
-        <th>size</th>
-        <th>value</th>
-        <th>token</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Generated by the `pasta-dimensions-refactor.js` script -->
-    </tbody>
-  </table>
+  {% include output-table.html unit="size" choiceType="dimensions" choiceCategory="staticSizes" %}
 </section>
 
-{% include copy-all-tokens-section.html section="staticSize" %}
+{% include copy-all-tokens-section.html section="staticSizes" %}
 
 ## Factors
 
@@ -223,18 +259,7 @@ To facilitate their usage we use aliases from the get go.
 **All Factor Outputs**
 
 <section>
-  <table id="factor-table">
-    <thead>
-      <tr>
-        <th>factor</th>
-        <th>value</th>
-        <th>token</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Generated by the `pasta-dimensions-refactor.js` script -->
-    </tbody>
-  </table>
+  {% include output-table.html unit="factor" choiceType="dimensions" choiceCategory="factors" %}
 </section>
 
 {% include copy-all-tokens-section.html section="factors" %}
@@ -257,21 +282,10 @@ Breakpoints are points where web content responds according to the device width.
 **All Breakpoint Outputs**
 
 <section>
-  <table id="breakpoint-table">
-    <thead>
-      <tr>
-        <th>breakpoint</th>
-        <th>value</th>
-        <th>token</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Generated by the `pasta-dimensions-refactor.js` script -->
-    </tbody>
-  </table>
+  {% include output-table.html unit="breakpoint" choiceType="dimensions" choiceCategory="breakpoints" %}
 </section>
 
-{% include copy-all-tokens-section.html section="breakpoint" %}
+{% include copy-all-tokens-section.html section="breakpoints" %}
 
 <hr>
 
