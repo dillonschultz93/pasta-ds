@@ -24,7 +24,7 @@ nav_order: 10
 
 Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue.
 
-![]({{site.baseurl}}/assets/images/YPL-DOC-imgPlaceholder-Full.png)
+![]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png)
 
 ### Figma Link
 
@@ -34,7 +34,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ## Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/images/YPL-DOC-imgPlaceholder-Full.png)
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png)
 
 <section class="flex-1_2-cols">
    <div>
@@ -67,7 +67,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/images/YPL-DOC-imgPlaceholder-Full.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png)
 
 ### Interaction
 
@@ -119,7 +119,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
      Little explanation. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
    </div>
    <div>
-      <img src="{{site.baseurl}}/assets/images/YPL-DOC-imgAnimPlaceholder-twoThird.gif" alt="WIP">
+      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgAnimPlaceholder-twoThird.gif" alt="WIP">
    </div>
  </section>
 
