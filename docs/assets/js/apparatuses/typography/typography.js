@@ -26,9 +26,9 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-import { getFontFamily, getLeading, getTracking } from '../../apparatuses/typography/index.js';
+import { getFontFamily, getLeading, getTracking } from './index.js';
 import { buildOutputTable, handleCopyToClipboard } from '../../../../../js/pasta-utilities/pasta-doc-utilities.js';
-import { rawTokens, flattenTokens } from '../../../../../js/pasta-utilities/pasta-token-generation.js';
+import { rawTokens, flatten } from '../../../../../js/pasta-utilities/pasta-token-generation.js';
 
 const TRACKING_DATA = [
 	{ x: 10, y: 1 },
@@ -64,7 +64,7 @@ let allTokens = {
 // FONT FAMILY
 allTokens.fontFamily = rawTokens(NOMENCLATURE_OPTIONS.fontFamily, 'fontFamily', TYPOGRAPHY_CHOICES.fontFamily);
 
-buildOutputTable('fontFamily-table', flattenTokens(allTokens.fontFamily));
+buildOutputTable('fontFamily-table', flatten(allTokens.fontFamily));
 
 // LEADING
 

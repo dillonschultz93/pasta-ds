@@ -26,6 +26,38 @@
 // SOFTWARE.
 // -----------------------------------------------
 
+// A utility function that parses the contents of each config option
+function parseChoices(choiceObject) {
+  const { choice = choiceObject.options || choiceObject.value, description, type, kingdom, category } = choiceObject;
+
+  let modifiedValue = {};
+
+  if (typeof choice === 'object') {
+    Object.entries(choice).forEach(([k, v]) => {
+      modifiedValue = {
+        ...modifiedValue,
+        [k]: {
+          ...v,
+          description,
+          type
+        }
+      }
+    });
+  } else {
+    modifiedValue = {
+      "value": choice,
+      description,
+      type
+    }
+  }
+
+  return {
+    tokenValues: modifiedValue,
+    kingdom,
+    category
+  }
+}
+
 // A utility function that deep merges multiple token objects.
 function deepMerge(target, source) {
   Object.entries(source).forEach(([key, value]) => {
@@ -41,28 +73,10 @@ function deepMerge(target, source) {
 }
 
 /**
- * @description Creates an object that contains the category's token value(s).
- * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
- * @param {*} category - A string representing the category the tokens are in.
- * @param {*} data - Any type that represents the value of the token.
- */
-export function rawTokens(nomenclatureOptions, category, data) {
-  const { namespace, project, kingdom } = nomenclatureOptions;
-
-  return {
-    [namespace]: {
-      [project] : {
-        [kingdom]: category !== '' ? { [category]: data } : data
-      }
-    }
-  }
-}
-
-/**
  * @description Flattens the raw nested token object into a single object.
  * @param {Object} rawTokens - The token object in an object format.
  */
-export function flattenTokens(rawTokens) {
+function flatten(rawTokens) {
  const output = {};
 
  const flatten = (currentItem, prop) => {
@@ -96,21 +110,69 @@ export function flattenTokens(rawTokens) {
  return output;
 }
 
-export function figmaTokens(rawTokens, description, type) {
-  const output = {};
-  const flattenedTokens = flattenTokens(rawTokens);
+function unflatten(flatTokens) {
+  if (Object(flatTokens) !== flatTokens || Array.isArray(flatTokens))
+        return flatTokens;
+    var regex = /\.?([^.\[\]]+)|\[(\d+)\]/g,
+        output = {};
+    for (var p in flatTokens) {
+        var cur = output,
+            prop = "",
+            m;
+        while (m = regex.exec(p)) {
+            cur = cur[prop] || (cur[prop] = (m[2] ? [] : {}));
+            prop = m[2] || m[1];
+        }
+        cur[prop] = flatTokens[p];
+    }
+    return output[""] || output;
+}
 
-  Object.entries(flattenedTokens).forEach(([key, value]) => {
-    output[key] = {
-      value,
-      description,
-      type
+/**
+ * @description Creates an object that contains the category's token value(s).
+ * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
+ * @param {*} category - A string representing the category the tokens are in.
+ * @param {*} data - Any type that represents the value of the token.
+ */
+ function generateTokens(nomenclatureOptions, data) {
+  const { namespace, project } = nomenclatureOptions;
+  const { tokenValues, kingdom, category } = data;
+
+  return {
+    [namespace]: {
+      [project]: {
+        [kingdom]: {
+          [category]: tokenValues
+        }
+      }
+    }
+  }
+}
+
+function flattenTokens(rawTokens) {
+  const data = flatten(rawTokens);
+  let parsedData = {};
+  
+  // Parse out the value of the token and delete entries that don't have the 'value' property
+  Object.entries(data).forEach(([key, value]) => {
+    const splitKeys = key.split('.');
+    const isValuePropKey = splitKeys[splitKeys.length - 1] === 'value';
+
+    if (!isValuePropKey) {
+      delete data[key];
+    } else {
+      let newKey = key.split('.').slice(0, -1).join('.');
+
+      parsedData = {
+        ...parsedData,
+        [newKey]: value
+      }
     }
   });
 
-  return output;
+  return parsedData;
 }
 
-export function compileTokens(tokensArray) {
+function compileTokens(tokensArray) {
   return tokensArray.reduce(deepMerge, {});
 }
