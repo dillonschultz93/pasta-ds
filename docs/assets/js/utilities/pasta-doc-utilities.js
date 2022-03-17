@@ -27,52 +27,6 @@
 // -----------------------------------------------
 
 /**
- * @description A function that builds the contents/<tbody> of the scales table.
- * @param {string} tableID - The id attribute of the table.
- * @param {Array<Number>} indexValues - An array of token indexes.
- * @param {Number} baseIndex - The base index of the scales.
- * @param {Object} scales - The object of key value pairs of each scale.
- * @param {Array<Number>} choices - An array of values that are currently used on the product.
- */
-function buildScaleTable(tableID, indexValues, baseIndex, scales, choices) {
-  const tableBody = document.querySelector(`#${tableID} tbody`);
-  const tableHeaders = [...document.querySelector(`#${tableID} thead tr`).children];
-
-  // Generate the initial rows of the table.
-  indexValues.forEach(item => {
-    // Create a <tr> element and <td> element.
-    const row = document.createElement('tr');
-
-    // Assign the <tr> and <td> the value of the index.
-    row.id = item;
-
-    tableHeaders.forEach(heading => {
-      const cell = document.createElement('td');
-
-      cell.className = heading.id;
-
-      // Style the cell that has the base index.
-      if (cell.className === 'index') {
-        item === baseIndex ? cell.innerHTML = `<strong>•  ${item}</strong>` : cell.textContent = item;
-      } else {
-        scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] ? cell.textContent = scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`] : cell.textContent = '-';
-
-        if (scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`]) {
-          choices.includes(scales[`YPL.FFL.TKUI_M.scales.${cell.className}.${item}`]) ? cell.className = 'textbold' : cell.className = 'textfaded';
-        } else {
-          cell.className = 'textfaded';
-        }
-      }
-
-      row.appendChild(cell);
-    });
-
-    // Append the <td> to the <tr> and append the <tr> to the <tbody>
-    tableBody.appendChild(row);
-  });
-};
-
-/**
  * @description - A function that builds the contents of the scales output table.
  * @param {string} tableID - The id attribute of the <table> element.
  * @param {Object} allTokens - The object representing all scale tokens.
@@ -84,6 +38,8 @@ function buildOutputTable(tableElement, tokens) {
   const category = tableElement.dataset.choiceCategory;
   
   const data = flattenTokens(tokens[category].raw);
+
+  console.log(data);
 
   Object.entries(data).forEach(([key, value]) => {
     const splitKeys = key.split('.');

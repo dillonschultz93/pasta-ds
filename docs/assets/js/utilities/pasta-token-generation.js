@@ -26,6 +26,38 @@
 // SOFTWARE.
 // -----------------------------------------------
 
+// A utility function that parses the contents of each config option
+function parseChoices(choiceObject) {
+  const { choice = choiceObject.options || choiceObject.value, description, type, kingdom, category } = choiceObject;
+
+  let modifiedValue = {};
+
+  if (typeof choice === 'object') {
+    Object.entries(choice).forEach(([k, v]) => {
+      modifiedValue = {
+        ...modifiedValue,
+        [k]: {
+          ...v,
+          description,
+          type
+        }
+      }
+    });
+  } else {
+    modifiedValue = {
+      "value": choice,
+      description,
+      type
+    }
+  }
+
+  return {
+    tokenValues: modifiedValue,
+    kingdom,
+    category
+  }
+}
+
 // A utility function that deep merges multiple token objects.
 function deepMerge(target, source) {
   Object.entries(source).forEach(([key, value]) => {
@@ -41,76 +73,10 @@ function deepMerge(target, source) {
 }
 
 /**
- * @description Creates an object that contains the category's token value(s).
- * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
- * @param {*} category - A string representing the category the tokens are in.
- * @param {*} data - Any type that represents the value of the token.
- */
-function rawTokens(nomenclatureOptions, data) {
-  // Destructure the nomenclature options and the incoming data.
-  const { namespace, project } = nomenclatureOptions;
-  const { tokenValues, kingdom, category } = data;
-
-  let extractedValue = {};
-
-  // Loop through the token values so that we can just assign the value property to the property category key.
-  Object.entries(tokenValues).forEach(([key, val]) => {
-    let nestedExtractedValue = {};
-
-    // Check if there are nested token values and resolve those.
-    if (!val.value) {
-      Object.entries(val).forEach(([k, v]) => {
-        nestedExtractedValue = {
-          ...nestedExtractedValue,
-          [k]: v.value
-        }
-      });
-    }
-
-    // Assign the token extracted value property to the proper category key.
-    extractedValue = {
-      ...extractedValue,
-      [key]: val.value || nestedExtractedValue
-    };
-  });
-
-  return {
-    [namespace]: {
-      [project]: {
-        [kingdom]: {
-          [category]: {...extractedValue}
-        }
-      }
-    }
-  }
-}
-
-/**
- * @description Creates an object that contains the category's token value(s).
- * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
- * @param {*} category - A string representing the category the tokens are in.
- * @param {*} data - Any type that represents the value of the token.
- */
- function figmaTokens(nomenclatureOptions, data) {
-  const { namespace, project } = nomenclatureOptions;
-  const { tokenValues, kingdom, category } = data;
-
-  return {
-    [namespace]: {
-      [project]: {
-        [kingdom]: {
-          [category]: tokenValues
-        }
-      }
-    }
-  }
-}
-
-/**
  * @description Flattens the raw nested token object into a single object.
  * @param {Object} rawTokens - The token object in an object format.
  */
-function flattenTokens(rawTokens) {
+function flatten(rawTokens) {
  const output = {};
 
  const flatten = (currentItem, prop) => {
@@ -142,6 +108,69 @@ function flattenTokens(rawTokens) {
  flatten(rawTokens, '');
 
  return output;
+}
+
+function unflatten(flatTokens) {
+  if (Object(flatTokens) !== flatTokens || Array.isArray(flatTokens))
+        return flatTokens;
+    var regex = /\.?([^.\[\]]+)|\[(\d+)\]/g,
+        output = {};
+    for (var p in flatTokens) {
+        var cur = output,
+            prop = "",
+            m;
+        while (m = regex.exec(p)) {
+            cur = cur[prop] || (cur[prop] = (m[2] ? [] : {}));
+            prop = m[2] || m[1];
+        }
+        cur[prop] = flatTokens[p];
+    }
+    return output[""] || output;
+}
+
+/**
+ * @description Creates an object that contains the category's token value(s).
+ * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
+ * @param {*} category - A string representing the category the tokens are in.
+ * @param {*} data - Any type that represents the value of the token.
+ */
+ function generateTokens(nomenclatureOptions, data) {
+  const { namespace, project } = nomenclatureOptions;
+  const { tokenValues, kingdom, category } = data;
+
+  return {
+    [namespace]: {
+      [project]: {
+        [kingdom]: {
+          [category]: tokenValues
+        }
+      }
+    }
+  }
+}
+
+function flattenTokens(rawTokens) {
+  const data = flatten(rawTokens);
+  let parsedData = {};
+  
+  // Parse out the value of the token and delete entries that don't have the 'value' property
+  Object.entries(data).forEach(([key, value]) => {
+    const splitKeys = key.split('.');
+    const isValuePropKey = splitKeys[splitKeys.length - 1] === 'value';
+
+    if (!isValuePropKey) {
+      delete data[key];
+    } else {
+      let newKey = key.split('.').slice(0, -1).join('.');
+
+      parsedData = {
+        ...parsedData,
+        [newKey]: value
+      }
+    }
+  });
+
+  return parsedData;
 }
 
 function compileTokens(tokensArray) {

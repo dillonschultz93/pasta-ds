@@ -33,24 +33,24 @@ const { breakpoints, factors, scale, spaces, staticSizes } = dimensions;
 // Generate tokens and store by category
 const tokensByCategory = {
   breakpoints: {
-    raw: rawTokens(nomenclatureOptions, getBreakpoints(breakpoints)),
-    figma: figmaTokens(nomenclatureOptions, getBreakpoints(breakpoints))
+    raw: generateTokens(nomenclatureOptions, getBreakpoints(breakpoints)),
+    figma: generateTokens(nomenclatureOptions, getBreakpoints(breakpoints))
   },
   factors: {
-    raw: rawTokens(nomenclatureOptions, getFactors(factors)),
-    figma: figmaTokens(nomenclatureOptions, getFactors(factors))
+    raw: generateTokens(nomenclatureOptions, getFactors(factors)),
+    figma: generateTokens(nomenclatureOptions, getFactors(factors))
   },
   scales: {
-    raw: rawTokens(nomenclatureOptions, generateDimensionScale(scale)),
-    figma: figmaTokens(nomenclatureOptions, generateDimensionScale(scale))
+    raw: generateTokens(nomenclatureOptions, generateDimensionScale(scale)),
+    figma: generateTokens(nomenclatureOptions, generateDimensionScale(scale))
   },
   spaces: {
-    raw: rawTokens(nomenclatureOptions, getSpaces(spaces)),
-    figma: figmaTokens(nomenclatureOptions, getSpaces(spaces))
+    raw: generateTokens(nomenclatureOptions, getSpaces(spaces)),
+    figma: generateTokens(nomenclatureOptions, getSpaces(spaces))
   },
   staticSizes: {
-    raw: rawTokens(nomenclatureOptions, getStaticSizes(staticSizes)),
-    figmaTokens: figmaTokens(nomenclatureOptions, getStaticSizes(staticSizes))
+    raw: generateTokens(nomenclatureOptions, getStaticSizes(staticSizes)),
+    figmaTokens: generateTokens(nomenclatureOptions, getStaticSizes(staticSizes))
   }
 }
 

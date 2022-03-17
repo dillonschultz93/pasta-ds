@@ -13,12 +13,22 @@ nav_order: 10
   const superChoices =  {
     "dimensions": {
       "breakpoints": {
-        "value": {
-          "sm": 640,
-          "md": 768,
-          "lg": 1024,
-          "xl": 1280,
-          "xxl": 1536
+        "options": {
+          "sm": {
+            "value": 640
+          },
+          "md": {
+            "value": 768
+          },
+          "lg": {
+            "value": 1024
+          },
+          "xl": {
+            "value": 1280
+          },
+          "xxl": {
+            "value": 1536
+          }
         },
         "description": "",
         "type": "other",
@@ -26,12 +36,22 @@ nav_order: 10
         "category": "breakpoints"
       },
       "factors": {
-        "value": {
-          "F1": 1,
-          "F2": 1,
-          "F3": 1,
-          "F4": 1,
-          "F5": 2
+        "options": {
+          "F1": {
+            "value": 1
+          },
+          "F2": {
+            "value": 1
+          },
+          "F3": {
+            "value": 1
+          },
+          "F4": {
+            "value": 1
+          },
+          "F5": {
+            "value": 1
+          }
         },
         "description": "",
         "type": "other",
@@ -51,13 +71,25 @@ nav_order: 10
         "category": "scales"
       },
       "spaces": {
-        "value": {
-          "xs": "$undefined",
-          "sm": "$YPL.FFL.TKUI_M.scales.geoA.400",
-          "md": "$YPL.FFL.TKUI_M.scales.geoA.500",
-          "lg": "$YPL.FFL.TKUI_M.scales.geoA.600",
-          "xl": "$undefined",
-          "xxl": "$undefined"
+        "options": {
+          "xs": {
+            "value": "$undefined"
+          },
+          "sm": {
+            "value": "$YPL.FFL.TKUI_M.scales.geoA.400"
+          },
+          "md": {
+            "value": "$YPL.FFL.TKUI_M.scales.geoA.500"
+          },
+          "lg": {
+            "value": "$YPL.FFL.TKUI_M.scales.geoA.600"
+          },
+          "xl": {
+            "value": "$undefined"
+          },
+          "xxl": {
+            "value": "$undefined"
+          }
         },
         "description": "",
         "type": "spacing",
@@ -65,11 +97,19 @@ nav_order: 10
         "category": "spaces"
       },
       "staticSizes": {
-        "value": {
-          "xs": 1,
-          "sm": 2,
-          "md": 3,
-          "lg": 4
+        "options": {
+          "xs": {
+            "value": 1
+          },
+          "sm": {
+            "value": 2
+          },
+          "md": {
+            "value": 3
+          },
+          "lg": {
+            "value": 4
+          }
         },
         "description": "",
         "type": "sizing",
@@ -79,40 +119,52 @@ nav_order: 10
     },
     "typography": {
       "fontFamily": {
-        "value": {
-          "light": "europa-light",
-          "regular": "europa-regular",
-          "bold": "europa-bold"
+        "options": {
+          "light": {
+            "value": "europa-light"
+          },
+          "regular": {
+            "value": "europa-regular"
+          },
+          "bold": {
+            "value": "europa-bold"
+          }
         },
         "description": "",
         "type":"fontFamilies",
         "kingdom": "TKUI_C",
-        "category": "typos"
+        "category": "fontFamily"
       },
       "leading": {
-        "value": {
-          "sm": 1.2,
-          "md": 1.5,
-          "lg": 1.75
+        "options": {
+          "sm": {
+            "value": 1.2
+          },
+          "md":{
+            "value": 1.5
+          },
+          "lg": {
+            "value": 1.75
+          }
         },
         "description": "",
         "type": "lineHeights",
         "kingdom": "TKUI_C",
-        "category": "ratios"
+        "category": "leading"
       },
       "paragraphSpacing": {
         "value":  1.5,
         "description": "",
         "type": "paragraphSpacing",
         "kingdom": "TKUI_C",
-        "category": "typos"
+        "category": "paragraphSpacing"
       },
       "trackingThreshold": {
         "value": 32,
         "description": "",
         "type": "other",
         "kingdom": "TKUI_C",
-        "category": "typos"
+        "category": "trackingThreshold"
       }
     },
     "color": {

@@ -33,26 +33,7 @@
  * @param {Object} breakpointChoices - The object containing naming options for the prefix of each token.
  */
 function getBreakpoints(breakpointChoices) {
-  const { value, description, type, kingdom, category } = breakpointChoices;
-
-  let modifiedValue = {};
-
-  Object.entries(value).forEach(([key, val]) => {
-    modifiedValue = {
-      ...modifiedValue,
-      [key]: {
-        'value': val,
-        description,
-        type
-      }
-    }
-  });
-
-  return {
-    tokenValues: modifiedValue,
-    kingdom,
-    category
-  };
+  return parseChoices(breakpointChoices);
 }
 // ===============================================
 
@@ -63,26 +44,7 @@ function getBreakpoints(breakpointChoices) {
  * @param {Object} factorChoices - The object containing naming options for the prefix of each token.
  */
 function getFactors(factorChoices) {
-  const { value, description, type, kingdom, category } = factorChoices;
-
-  let modifiedValue = {};
-
-  Object.entries(value).forEach(([key, val]) => {
-    modifiedValue = {
-      ...modifiedValue,
-      [key]: {
-        'value': val,
-        description,
-        type
-      }
-    }
-  });
-
-  return {
-    tokenValues: modifiedValue,
-    kingdom,
-    category
-  };
+  return parseChoices(factorChoices);
 }
 // ===============================================
 
@@ -95,7 +57,7 @@ function getFactors(factorChoices) {
  * @param {Number} currentIndex - The current index.
  * @returns {Number}
  */
- function geoA(base, ratio, baseIndex, currentIndex) {
+function geoA(base, ratio, baseIndex, currentIndex) {
   return Math.round(base * ratio ** ((200 + currentIndex - baseIndex) / 100));
 }
 
@@ -106,7 +68,7 @@ function getFactors(factorChoices) {
  * @param {Number} currentIndex - The current index.
  * @returns {Number}
  */
- function arithA(base, baseIndex, currentIndex) {
+function arithA(base, baseIndex, currentIndex) {
   return base * (8 + (currentIndex - baseIndex)/100);
 }
 
@@ -117,7 +79,7 @@ function getFactors(factorChoices) {
  * @param {Number} currentIndex - The current index.
  * @returns {Number}
  */
- function arithB(base, ratio, currentIndex) {
+function arithB(base, ratio, currentIndex) {
   return (Math.round(base * ratio**2) + (Math.round(base * ratio**2))*((currentIndex - 500)/100))*1.5
 }
 
@@ -211,7 +173,7 @@ function generateDimensionScale(scaleChoices) {
     kingdom,
     category
   }
-}
+};
 // ===============================================
 
 // SPACES ========================================
@@ -220,26 +182,7 @@ function generateDimensionScale(scaleChoices) {
  * @param {Object} spaceChoices - The object containing spacing choices.
  */
 function getSpaces(spaceChoices) {
-  const { value, description, type, kingdom, category } = spaceChoices;
-
-  let modifiedValue = {};
-
-  Object.entries(value).forEach(([key, val]) => {
-    modifiedValue = {
-      ...modifiedValue,
-      [key]: {
-        'value': val,
-        description,
-        type
-      }
-    }
-  });
-
-  return {
-    tokenValues: modifiedValue,
-    kingdom,
-    category
-  };
+  return parseChoices(spaceChoices);
 }
 // ===============================================
 
@@ -249,25 +192,6 @@ function getSpaces(spaceChoices) {
  * @param {Object} staticSizeChoices - The object containing naming options for the prefix of each token.
  */
 function getStaticSizes(staticSizeChoices) {
-  const { value, description, type, kingdom, category } = staticSizeChoices;
-
-  let modifiedValue = {};
-
-  Object.entries(value).forEach(([key, val]) => {
-    modifiedValue = {
-      ...modifiedValue,
-      [key]: {
-        'value': val,
-        description,
-        type
-      }
-    }
-  });
-
-  return {
-    tokenValues: modifiedValue,
-    kingdom,
-    category
-  };
+  return parseChoices(staticSizeChoices);
 }
 // ===============================================
