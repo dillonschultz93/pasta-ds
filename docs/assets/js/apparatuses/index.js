@@ -88,7 +88,7 @@ function arithB(base, ratio, currentIndex) {
  * @param {Object} scaleChoices - The object containing naming options for the prefix of each token.
  */
 function generateDimensionScale(scaleChoices) {
-  const { value, description, type, kingdom, category } = scaleChoices;
+  const { value, description, type, kingdom, category, group } = scaleChoices;
   const { base, ratio, baseIndex, scaleStems } = value;
 
   let modifiedValue = {};
@@ -117,7 +117,8 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type
+              type,
+              group
             }
           }
           break;
@@ -129,7 +130,8 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type
+              type,
+              group
             }
           }
           break;
@@ -141,7 +143,8 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type
+              type,
+              group
             }
           }
           break;
@@ -153,7 +156,8 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type
+              type,
+              group
             }
           }
           break;

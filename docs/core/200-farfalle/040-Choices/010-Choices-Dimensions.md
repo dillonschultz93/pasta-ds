@@ -71,7 +71,7 @@ nav_order: 10
         "type": "other",
         "kingdom": "TKUI_M",
         "category": "scales",
-        "group": ""
+        "group": "scales"
       },
       "spaces": {
         "options": {

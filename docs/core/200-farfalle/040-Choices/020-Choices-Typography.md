@@ -33,7 +33,8 @@ nav_order: 20
         "description": "",
         "type": "other",
         "kingdom": "TKUI_C",
-        "category": "breakpoints"
+        "category": "breakpoints",
+        "group": "breakpoints"
       },
       "factors": {
         "options": {
@@ -56,7 +57,8 @@ nav_order: 20
         "description": "",
         "type": "other",
         "kingdom": "TKUI_C",
-        "category": "factors"
+        "category": "factors",
+        "group": "factors"
       },
       "scale": {
         "value": {
@@ -68,7 +70,8 @@ nav_order: 20
         "description": "",
         "type": "other",
         "kingdom": "TKUI_M",
-        "category": "scales"
+        "category": "scales",
+        "group": "scales"
       },
       "spaces": {
         "options": {
@@ -94,7 +97,8 @@ nav_order: 20
         "description": "",
         "type": "spacing",
         "kingdom": "TKUI_C",
-        "category": "spaces"
+        "category": "spaces",
+        "group": "spaces"
       },
       "staticSizes": {
         "options": {
@@ -114,7 +118,8 @@ nav_order: 20
         "description": "",
         "type": "sizing",
         "kingdom": "TKUI_C",
-        "category": "sizes"
+        "category": "sizes",
+        "group": "staticSizes"
       }
     },
     "typography": {
@@ -133,7 +138,8 @@ nav_order: 20
         "description": "",
         "type":"fontFamilies",
         "kingdom": "TKUI_C",
-        "category": "fontFamily"
+        "category": "fontFamily",
+        "group": "fontFamily"
       },
       "leading": {
         "options": {
@@ -150,21 +156,24 @@ nav_order: 20
         "description": "",
         "type": "lineHeights",
         "kingdom": "TKUI_C",
-        "category": "leading"
+        "category": "leading",
+        "group": "leading"
       },
       "paragraphSpacing": {
         "value":  1.5,
         "description": "",
         "type": "paragraphSpacing",
         "kingdom": "TKUI_C",
-        "category": "paragraphSpacing"
+        "category": "paragraphSpacing",
+        "group": "paragraphSpacing"
       },
       "trackingThreshold": {
         "value": 32,
         "description": "",
         "type": "other",
         "kingdom": "TKUI_C",
-        "category": "trackingThreshold"
+        "category": "trackingThreshold",
+        "group": "trackingThreshold"
       }
     },
     "color": {
@@ -173,14 +182,16 @@ nav_order: 20
         "description": "",
         "type": "color",
         "kingdom": "TKUI_C",
-        "category": "colors"
+        "category": "colors",
+        "group": "color"
       },
       "secondary": {
         "value": "#E05F1F",
         "description": "",
         "type": "color",
         "kingdom": "TKUI_C",
-        "category": "colors"
+        "category": "colors",
+        "group": "color"
       }
     }
   };
@@ -206,8 +217,8 @@ nav_order: 20
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
 
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
-<script defer src="{{ site.baseurl }}/assets/js/apparatuses/{{ page.title | downcase }}/index.js"></script>
-<script defer src="{{ site.baseurl }}/assets/js/apparatuses/{{ page.title | downcase }}/page-script.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
 # Typography `{{ page.project_id }}`
 {: .no_toc}

@@ -37,44 +37,54 @@ function buildOutputTable(tableElement, tokens) {
   const columns = [...tableElement.querySelectorAll('thead tr th')];
   const category = tableElement.dataset.choiceCategory;
 
-  console.log(tokens);
+  let filteredTokens = {};
+
+  const flattendByGroup = flattenTokens(tokens, 'group');
+  const flattendedByValue = flattenTokens(tokens);
+
+  Object.entries(flattendByGroup).forEach(([key, value]) => {
+    if (value === category) {
+      filteredTokens = {
+        ...filteredTokens,
+        [key]: flattendedByValue[key]
+      };
+    }
+  });
   
-  // const data = flattenTokens(tokens[category].raw);
+  const data = filteredTokens;
 
-  // console.log(data);
+  Object.entries(data).forEach(([key, value]) => {
+    const splitKeys = key.split('.');
+    const index = splitKeys[splitKeys.length - 1];
 
-  // Object.entries(data).forEach(([key, value]) => {
-  //   const splitKeys = key.split('.');
-  //   const index = splitKeys[splitKeys.length - 1];
+    const tr = document.createElement('tr');
 
-  //   const tr = document.createElement('tr');
+    columns.forEach((column, i) => {
+      const cell = document.createElement('td');
 
-  //   columns.forEach((column, i) => {
-  //     const cell = document.createElement('td');
+      switch (i) {
+        case 0:
+          cell.textContent = index;
+          break;
 
-  //     switch (i) {
-  //       case 0:
-  //         cell.textContent = index;
-  //         break;
+        case 1:
+          cell.textContent = value;
+          break;
 
-  //       case 1:
-  //         cell.textContent = value;
-  //         break;
+        case 2:
+          cell.innerHTML = `<span data-toolclip="${key}"><code class="language-plaintext highlighter-rouge">Token Key</code></span>`;
+          cell.addEventListener('click', () => handleCopyToClipboard(key));
+          break;
 
-  //       case 2:
-  //         cell.innerHTML = `<span data-toolclip="${key}"><code class="language-plaintext highlighter-rouge">Token Key</code></span>`;
-  //         cell.addEventListener('click', () => handleCopyToClipboard(key));
-  //         break;
+        default:
+          break;
+      }
 
-  //       default:
-  //         break;
-  //     }
+      tr.appendChild(cell);
+    });
 
-  //     tr.appendChild(cell);
-  //   });
-
-  //   tableBody.appendChild(tr);
-  // });
+    tableBody.appendChild(tr);
+  });
 };
 
 //TODO Create a fallback function just in case the user's browser doesn't support the clipboard API.
@@ -104,21 +114,66 @@ function handleCopyToClipboard(content) {
 }
 
 function handleCopyTokensToClipboard(buttonElement, tokens) {
-  // const id = buttonElement.id;
-  // const tokenFormat = [...id.split('-')].pop();
-  // const tokenCategory = [...id.split('-')].shift();
+  const id = buttonElement.id;
+  const tokenFormat = [...id.split('-')].pop();
+  const tokenCategory = [...id.split('-')].shift();
 
-  // if (tokenCategory === 'all') {
-  //   const allCategories = [];
+  let filteredRawTokens = {};
+  let filteredFigmaTokens = {}
 
-  //   Object.entries(tokens).forEach(([key, value]) => {
-  //     Object.entries(value).forEach(([k, v]) => {
-  //       k === tokenFormat ? allCategories.push(v) : null;
-  //     });
-  //   });
+  const flattenedByGroup = flattenTokens(tokens, 'group');
+  const flattenedByType = flattenTokens(tokens, 'type');
+  const flattenedByDescription = flattenTokens(tokens, 'description');
+  const flattenedByValue = flattenTokens(tokens);
 
-  //   handleCopyToClipboard(compileTokens(allCategories))
-  // } else {
-  //   handleCopyToClipboard(tokens[tokenCategory][tokenFormat]);
-  // }
+  Object.entries(flattenedByGroup).forEach(([key, value]) => {
+    if (value === tokenCategory) {
+      if (tokenFormat === 'raw') {
+        filteredRawTokens = {
+          ...filteredRawTokens,
+          [key]: flattenedByValue[key]
+        };
+      } else {
+        filteredFigmaTokens = {
+          ...filteredFigmaTokens,
+          [key]: {
+            'value': flattenedByValue[key],
+            'description': flattenedByDescription[key],
+            'type': flattenedByType[key],
+            'group': flattenedByGroup[key]
+          }
+        };
+
+        filteredFigmaTokens = unflatten(filteredFigmaTokens);
+      }
+    }
+  });
+
+  if (tokenCategory === 'all') {
+    switch (tokenFormat) {
+      case 'raw':
+        handleCopyToClipboard(flattenTokens(tokens));
+        return;
+
+      case 'figma':
+        handleCopyToClipboard(tokens);
+        return;
+    
+      default:
+        handleCopyToClipboard(tokens);
+        return;
+    }
+  } else {
+    switch (tokenFormat) {
+      case 'raw':
+        handleCopyToClipboard(filteredRawTokens);
+        return;
+      case 'figma':
+        handleCopyToClipboard(filteredFigmaTokens);
+        return;
+      default:
+        handleCopyToClipboard(filteredFigmaTokens);
+        return;
+    }
+  }
 }

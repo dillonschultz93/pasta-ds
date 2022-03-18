@@ -162,14 +162,14 @@ function resolveOverrides(preresolvedTokens, overrideOptions) {
   }
 }
 
-function flattenTokens(rawTokens) {
+function flattenTokens(rawTokens, keyToFilterBy = 'value') {
   const data = flatten(rawTokens);
   let parsedData = {};
   
   // Parse out the value of the token and delete entries that don't have the 'value' property
   Object.entries(data).forEach(([key, value]) => {
     const splitKeys = key.split('.');
-    const isValuePropKey = splitKeys[splitKeys.length - 1] === 'value';
+    const isValuePropKey = splitKeys[splitKeys.length - 1] === keyToFilterBy;
 
     if (!isValuePropKey) {
       delete data[key];
