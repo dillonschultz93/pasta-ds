@@ -28,7 +28,7 @@
 
 // A utility function that parses the contents of each config option
 function parseChoices(choiceObject) {
-  const { choice = choiceObject.options || choiceObject.value, description, type, kingdom, category } = choiceObject;
+  const { choice = choiceObject.options || choiceObject.value, description, type, kingdom, category, group } = choiceObject;
 
   let modifiedValue = {};
 
@@ -39,7 +39,8 @@ function parseChoices(choiceObject) {
         [k]: {
           ...v,
           description,
-          type
+          type,
+          group
         }
       }
     });
@@ -47,7 +48,8 @@ function parseChoices(choiceObject) {
     modifiedValue = {
       "value": choice,
       description,
-      type
+      type,
+      group
     }
   }
 
@@ -129,7 +131,18 @@ function unflatten(flatTokens) {
 }
 
 /**
- * @description Creates an object that contains the category's token value(s).
+ * @description Resolves the override options and deep merges them into the overall token object.
+ * @param {Object} preresolvedTokens - Object of tokens that need to be resolved
+ * @param {Object} overrideOptions - Object of override options from the config.
+ */
+function resolveOverrides(preresolvedTokens, overrideOptions) {
+  const overrides = unflatten(overrideOptions);
+
+  return compileTokens([preresolvedTokens, overrides]);
+}
+
+/**
+ * @description Generates a set of tokens.
  * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
  * @param {*} category - A string representing the category the tokens are in.
  * @param {*} data - Any type that represents the value of the token.

@@ -36,43 +36,45 @@ function buildOutputTable(tableElement, tokens) {
   const tableBody = tableElement.querySelector('tbody');
   const columns = [...tableElement.querySelectorAll('thead tr th')];
   const category = tableElement.dataset.choiceCategory;
+
+  console.log(tokens);
   
-  const data = flattenTokens(tokens[category].raw);
+  // const data = flattenTokens(tokens[category].raw);
 
-  console.log(data);
+  // console.log(data);
 
-  Object.entries(data).forEach(([key, value]) => {
-    const splitKeys = key.split('.');
-    const index = splitKeys[splitKeys.length - 1];
+  // Object.entries(data).forEach(([key, value]) => {
+  //   const splitKeys = key.split('.');
+  //   const index = splitKeys[splitKeys.length - 1];
 
-    const tr = document.createElement('tr');
+  //   const tr = document.createElement('tr');
 
-    columns.forEach((column, i) => {
-      const cell = document.createElement('td');
+  //   columns.forEach((column, i) => {
+  //     const cell = document.createElement('td');
 
-      switch (i) {
-        case 0:
-          cell.textContent = index;
-          break;
+  //     switch (i) {
+  //       case 0:
+  //         cell.textContent = index;
+  //         break;
 
-        case 1:
-          cell.textContent = value;
-          break;
+  //       case 1:
+  //         cell.textContent = value;
+  //         break;
 
-        case 2:
-          cell.innerHTML = `<span data-toolclip="${key}"><code class="language-plaintext highlighter-rouge">Token Key</code></span>`;
-          cell.addEventListener('click', () => handleCopyToClipboard(key));
-          break;
+  //       case 2:
+  //         cell.innerHTML = `<span data-toolclip="${key}"><code class="language-plaintext highlighter-rouge">Token Key</code></span>`;
+  //         cell.addEventListener('click', () => handleCopyToClipboard(key));
+  //         break;
 
-        default:
-          break;
-      }
+  //       default:
+  //         break;
+  //     }
 
-      tr.appendChild(cell);
-    });
+  //     tr.appendChild(cell);
+  //   });
 
-    tableBody.appendChild(tr);
-  });
+  //   tableBody.appendChild(tr);
+  // });
 };
 
 //TODO Create a fallback function just in case the user's browser doesn't support the clipboard API.
@@ -102,21 +104,21 @@ function handleCopyToClipboard(content) {
 }
 
 function handleCopyTokensToClipboard(buttonElement, tokens) {
-  const id = buttonElement.id;
-  const tokenFormat = [...id.split('-')].pop();
-  const tokenCategory = [...id.split('-')].shift();
+  // const id = buttonElement.id;
+  // const tokenFormat = [...id.split('-')].pop();
+  // const tokenCategory = [...id.split('-')].shift();
 
-  if (tokenCategory === 'all') {
-    const allCategories = [];
+  // if (tokenCategory === 'all') {
+  //   const allCategories = [];
 
-    Object.entries(tokens).forEach(([key, value]) => {
-      Object.entries(value).forEach(([k, v]) => {
-        k === tokenFormat ? allCategories.push(v) : null;
-      });
-    });
+  //   Object.entries(tokens).forEach(([key, value]) => {
+  //     Object.entries(value).forEach(([k, v]) => {
+  //       k === tokenFormat ? allCategories.push(v) : null;
+  //     });
+  //   });
 
-    handleCopyToClipboard(compileTokens(allCategories))
-  } else {
-    handleCopyToClipboard(tokens[tokenCategory][tokenFormat]);
-  }
+  //   handleCopyToClipboard(compileTokens(allCategories))
+  // } else {
+  //   handleCopyToClipboard(tokens[tokenCategory][tokenFormat]);
+  // }
 }
