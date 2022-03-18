@@ -1,15 +1,15 @@
 ---
 project_id: LGN # 3-letter code
 title: Template # title case
-UID: C0000 # "C" = Component + Hexa code/index
-permalink: linguine/components/template # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+UID: E0000 # "E" = Element + Hexa code/index
+permalink: linguine/element/template # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Linguine # title case
-parent: Components # title case
+parent: Elements # title case
 layout: default
 nav_order: 10
 ---
 
-# 🆃 Component Name&nbsp;`{{ page.project_id }}`
+# 🆃 Element Name&nbsp;`{{ page.project_id }}`
 {: .no_toc}
 
 | UID | Ticket | Owner |Pasta Release|
@@ -24,7 +24,7 @@ nav_order: 10
 
 Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue.
 
-![]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png)
+![]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
 
 ### Figma Link
 
@@ -39,7 +39,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 <section class="flex-1_2-cols">
    <div>
     <br>
-     In order to implement this Component you will need to implement all its dependencies first.<br>
+     In order to implement this Element you will need to implement all its dependencies first.<br>
      Please refer to each element in this list&nbsp;→
    </div>
    <div>
@@ -53,12 +53,12 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
        </thead>
         <tbody>
          <tr>
-            <td><code>LGN-V0001</code></td><td>Primitive (Icon)</td>
-            <td><a href="{{site.baseurl}}/farfalle/components/buttons#button-icons" alt="WIP" class="btn">Button Icon →</a></td>
+            <td><code>LGN-VXXXX</code></td><td>Primitive (Icon)</td>
+            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Button Icon →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-V000F</code></td><td>Primitive (typo)</td>
-            <td><a href="{{site.baseurl}}/farfalle/components/chips" alt="WIP" class="btn">Button Label →</a></td>
+            <td><code>LGN-VXXXX</code></td><td>Primitive (typo)</td>
+            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Button Label →</a></td>
          </tr>
         </tbody>
      </table>
@@ -71,12 +71,22 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ### Interaction
 
+#### default
+{: .no_toc}
+
 |↓ impacted| idle | over | pressed | disabled | focused | pending |
 |---|---|---|---|---|---|---|
-| Attribute &#35;1|`token`|N/A|`token`|`token`|`token`|N/A|
-| Attribute &#35;2|`token`|N/A|`token`|`token`|`token`|N/A|
-| Attribute &#35;3|`token`|N/A|`token`|`token`|`token`|N/A|
-| Attribute &#35;4|`token`|N/A|`token`|`token`|`token`|N/A|
+|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
+|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
+{: .type-01}
+
+#### highlighted
+{: .no_toc}
+
+|↓ impacted| h-idle | h-over | h-pressed | h-disabled | h-focused | h-pending |
+|---|---|---|---|---|---|---|
+|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
+|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
 {: .type-01}
 
 ### Variations
@@ -95,10 +105,8 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 |↓ impacted|Light|Dark|
 |---|---|---|
-| Attribute &#35;1|`token`|`token`|
-| Attribute &#35;2|`token`|`token`|
-| Attribute &#35;3|`token`|`token`|
-| Attribute &#35;4|`token`|`token`|
+| Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
+| Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
 {: .type-01}
 
 ##### Themes
@@ -106,10 +114,8 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 |↓ impacted|Theme &#35;1 |Theme &#35;2|Theme &#35;3|
 |---|---|---|
-| Attribute &#35;1|`token`|`token`|`token`|
-| Attribute &#35;2|`token`|`token`|`token`|
-| Attribute &#35;3|`token`|`token`|`token`|
-| Attribute &#35;4|`token`|`token`|`token`|
+| Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
+| Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
 {: .type-01}
 
 ### Animations
@@ -137,7 +143,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 |[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
 
 
-## Writing Guidelines
+## Copy Writing Guidelines
 
 <section class="flex-1_1-cols">
   <div>
@@ -154,26 +160,9 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
  </div>
  </section>
 
- ## Analytics Tracking
-
- Please inject the snippet below when you implement this component:
-
- <input type="checkbox" class="checklistItem" checked>Option #1<br>
- <input type="checkbox" class="checklistItem" checked>Option #2<br>
- <input type="checkbox" class="checklistItem">Option #3<br>
- <input type="checkbox" class="checklistItem">Option #4<br>
-
- ```
- //
- // The generated snippet will show there
- //
-
-
- ```
-
 ## Tokens Playground
 
-Playground · Component-siloed Tokens including all required Choices and Decisions:
+Playground · Element-siloed Tokens including all required Choices and Decisions:
 
 <table>
     <tr class="playground-details-row" id="css">
@@ -260,7 +249,7 @@ Playground · Component-siloed Tokens including all required Choices and Decisio
     "YPL.FFL.TKUI_C.colors.MD_dark.z100.backgrd": "2e2e2e", // background material
     "YPL.FFL.TKUI_C.colors.MD_dark.z400.backgrd": "151515", // foreground material
 
-  //// COMPONENTS & PRIMITIVES
+  //// ELEMENTS & PRIMITIVES
 
     // buttonIcon
     "YPL.FFL.TKUI_D.buttonIcon.width": "YPL.FFL.TKUI_M.scales.arithA.600",
@@ -319,46 +308,43 @@ Please comply to and update the checklist below:
 
 |Ops|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>UID</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Github Ticket</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Figma Link(s)</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Design Owner</strong>|
+|<input type="checkbox" class="checklistItem"><strong>UID</strong>|
+|<input type="checkbox" class="checklistItem"><strong>Github Ticket</strong>|
+|<input type="checkbox" class="checklistItem"><strong>Figma Link(s)</strong>|
+|<input type="checkbox" class="checklistItem"><strong>Design Owner</strong>|
 
 |Design|
 |---|
 |<input type="checkbox" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-|<input type="checkbox" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
-|<input type="checkbox" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
+|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
+|<input type="checkbox" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
 |<input type="checkbox" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
 
 |Design Constraints|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
+|<input type="checkbox" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
 |<input type="checkbox" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
 
 |Content|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
+|<input type="checkbox" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
 |<input type="checkbox" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
-|<input type="checkbox" class="checklistItem" checked><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
+|<input type="checkbox" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
 
 |Accessiblity|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
+|<input type="checkbox" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
 
 |Tokens|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
-|<input type="checkbox" class="checklistItem" checked><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
-
-|Analytics|
-|---|
-|<input type="checkbox" class="checklistItem" checked><strong>Log Snippet</strong><br>The analytics log snippet has been provided|
+|<input type="checkbox" class="checklistItem"><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
+|<input type="checkbox" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
 
 |Implementation|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-|<input type="checkbox" class="checklistItem" checked><strong>Pasta Release Version</strong><br>Pasta V0.1.0|
-|<input type="checkbox" class="checklistItem" checked><strong>iOS</strong><br>Artifact(s) have been implemented inside iOS component library|
-|<input type="checkbox" class="checklistItem" checked><strong>Android<strong><br>Artifact(s) have been implemented inside iOS component library|
-|<input type="checkbox" class="checklistItem" checked><strong>Web</strong><br>Artifact(s) have been implemented inside Web component library|
+|<input type="checkbox" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
+|<input type="checkbox" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta V0.1.0|
+|<input type="checkbox" class="checklistItem"><strong>iOS</strong><br>Artifact(s) have been implemented inside iOS component library|
+|<input type="checkbox" class="checklistItem"><strong>Android<strong><br>Artifact(s) have been implemented inside iOS component library|
+|<input type="checkbox" class="checklistItem"><strong>Web</strong><br>Artifact(s) have been implemented inside Web component library|
+|<input type="checkbox" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|

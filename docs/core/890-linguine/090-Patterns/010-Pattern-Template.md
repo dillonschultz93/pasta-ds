@@ -26,7 +26,6 @@ nav_order: 010
 
 Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue.
 
-<!-- ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
 
 
@@ -57,20 +56,20 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
        </thead>
         <tbody>
          <tr>
-            <td><code>LGN-C0001</code></td><td>Component</td>
-            <td><a href="{{site.baseurl}}/farfalle/components/buttons#button-icons" alt="WIP" class="btn">Button Icon →</a></td>
+            <td><code>LGN-EXXXX</code></td><td>Element</td>
+            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Button Icon →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-C000F</code></td><td>Component</td>
-            <td><a href="{{site.baseurl}}/farfalle/components/chips" alt="WIP" class="btn">Chip →</a></td>
+            <td><code>LGN-EXXXX</code></td><td>Element</td>
+            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Chip →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-C003A</code></td><td>Component</td>
-            <td><a href="{{site.baseurl}}/farfalle/components/ratings" alt="WIP" class="btn">Rating →</a></td>
+            <td><code>LGN-EXXXX</code></td><td>Element</td>
+            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Rating →</a></td>
          </tr>
          <tr>
             <td><code>LGN-V0004</code></td><td>Primitive</td>
-            <td><a href="{{site.baseurl}}/farfalle/primitives/typography#eyebrows" alt="WIP" class="btn">Eyebrow →</a></td>
+            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Eyebrow →</a></td>
          </tr>
         </tbody>
      </table>
@@ -83,12 +82,22 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ### Interaction
 
+#### default
+{: .no_toc}
+
 |↓ impacted| idle | over | pressed | disabled | focused | pending |
 |---|---|---|---|---|---|---|
-| Attribute &#35;1|<span data-toolclip="Nullam id dolor id nibh ultricies vehicula ut id elit."><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="Nullam id dolor id nibh ultricies vehicula ut id elit."><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="Nullam id dolor id nibh ultricies vehicula ut id elit."><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="Nullam id dolor id nibh ultricies vehicula ut id elit."><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-| Attribute &#35;2|`token`|N/A|`token`|`token`|`token`|N/A|
-| Attribute &#35;3|`token`|N/A|`token`|`token`|`token`|N/A|
-| Attribute &#35;4|<span data-tooltip="iqwuyeiuqwyieyqwiue yiuqwyeiuwqye oiuqy weiuqwy qiuwye qwiuey qwiuey qwiuey"><code>token</code></span>|N/A|`token`|`token`|<span data-tooltip="iqwuyeiuqwyieyqwiue yiuqwyeiuwqye oiuqy weiuqwy qiuwye qwiuey qwiuey qwiuey"><code>token</code></span>|N/A|
+|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
+|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
+{: .type-01}
+
+#### highlighted
+{: .no_toc}
+
+|↓ impacted| h-idle | h-over | h-pressed | h-disabled | h-focused | h-pending |
+|---|---|---|---|---|---|---|
+|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
+|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
 {: .type-01}
 
 ### Variations
@@ -98,8 +107,8 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 |↓ impacted|sm (320)| md (384)| lg(512)|
 |---|---|---|---|
-| Attribute &#35;1|`token`|`token`|`token`|
-| Attribute &#35;2|`token`|`token`|`token`|
+|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
+|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
 {: .type-01}
 
 ##### Modes
@@ -107,10 +116,8 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 |↓ impacted|Light|Dark|
 |---|---|---|
-| Attribute &#35;1|`token`|`token`|
-| Attribute &#35;2|`token`|`token`|
-| Attribute &#35;3|`token`|`token`|
-| Attribute &#35;4|`token`|`token`|
+|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
+|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
 {: .type-01}
 
 ##### Themes
@@ -118,10 +125,8 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 |↓ impacted|Theme &#35;1 |Theme &#35;2|Theme &#35;3|
 |---|---|---|
-| Attribute &#35;1|`token`|`token`|`token`|
-| Attribute &#35;2|`token`|`token`|`token`|
-| Attribute &#35;3|`token`|`token`|`token`|
-| Attribute &#35;4|`token`|`token`|`token`|
+|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
+|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
 {: .type-01}
 
 ### Animations
@@ -131,7 +136,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
      Little explanation. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
    </div>
    <div>
-      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgAnimPlaceholder-twoThird.gif" alt="WIP" class="darkenabled">
+      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgAnimPlaceholder-twoThird.gif" alt="WIP">
    </div>
  </section>
 
@@ -149,7 +154,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 |[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
 
 
-## Writing Guidelines
+## Copy Writing Guidelines
 
 <section class="flex-1_1-cols">
   <div>
@@ -165,24 +170,6 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
       <hr class="dd-dont">
  </div>
  </section>
-
-
-## Analytics Tracking
-
-Please inject the snippet below when you implement this pattern:
-
-<input type="checkbox" class="checklistItem" checked>Option #1<br>
-<input type="checkbox" class="checklistItem" checked>Option #2<br>
-<input type="checkbox" class="checklistItem">Option #3<br>
-<input type="checkbox" class="checklistItem">Option #4<br>
-
-```
-//
-// The generated snippet will show there
-//
-
-
-```
 
 ## Tokens Playground
 
@@ -273,7 +260,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     "YPL.FFL.TKUI_C.colors.MD_dark.z100.backgrd": "2e2e2e", // background material
     "YPL.FFL.TKUI_C.colors.MD_dark.z400.backgrd": "151515", // foreground material
 
-  //// COMPONENTS & PRIMITIVES
+  //// ELEMENT & PRIMITIVES
 
     // buttonIcon
     "YPL.FFL.TKUI_D.buttonIcon.width": "YPL.FFL.TKUI_M.scales.arithA.600",
@@ -332,47 +319,44 @@ Please comply to and update the checklist below:
 
 |Ops|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>UID</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Github Ticket</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Figma Link(s)</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Design Owner</strong>|
+|<input type="checkbox" class="checklistItem"><strong>UID</strong>|
+|<input type="checkbox" class="checklistItem"><strong>Github Ticket</strong>|
+|<input type="checkbox" class="checklistItem"><strong>Figma Link(s)</strong>|
+|<input type="checkbox" class="checklistItem"><strong>Design Owner</strong>|
 
 |Design|
 |---|
 |<input type="checkbox" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-|<input type="checkbox" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
-|<input type="checkbox" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
+|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
+|<input type="checkbox" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
 |<input type="checkbox" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
 
 |Design Constraints|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
+|<input type="checkbox" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
 |<input type="checkbox" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
 
 |Content|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
+|<input type="checkbox" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
 |<input type="checkbox" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
-|<input type="checkbox" class="checklistItem" checked><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
+|<input type="checkbox" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
 
 |Accessiblity|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
+|<input type="checkbox" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
 
 |Tokens|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
-|<input type="checkbox" class="checklistItem" checked><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
-
-|Analytics|
-|---|
-|<input type="checkbox" class="checklistItem" checked><strong>Log Snippet</strong><br>The analytics log snippet has been provided|
+|<input type="checkbox" class="checklistItem"><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
+|<input type="checkbox" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
 
 |Implementation|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
-|<input type="checkbox" class="checklistItem" checked><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-|<input type="checkbox" class="checklistItem" checked><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`|
-|<input type="checkbox" class="checklistItem" checked><strong>iOS</strong><br>Artifact(s) have been implemented inside iOS component library|
-|<input type="checkbox" class="checklistItem" checked><strong>Android<strong><br>Artifact(s) have been implemented inside iOS component library|
-|<input type="checkbox" class="checklistItem" checked><strong>Web</strong><br>Artifact(s) have been implemented inside Web component library|
+|<input type="checkbox" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
+|<input type="checkbox" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
+|<input type="checkbox" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`|
+|<input type="checkbox" class="checklistItem"><strong>iOS</strong><br>Artifact(s) have been implemented inside iOS component library|
+|<input type="checkbox" class="checklistItem"><strong>Android<strong><br>Artifact(s) have been implemented inside iOS component library|
+|<input type="checkbox" class="checklistItem"><strong>Web</strong><br>Artifact(s) have been implemented inside Web component library|
+|<input type="checkbox" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|
