@@ -52,13 +52,13 @@ function createTokenSet(dimensions, typography, color) {
   const typographySet = compileTokens([fontFamilySet, leadingSet, paragraphSpacingSet, trackingThresholdSet]);
 
   // Create color set
-  // const primaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(primary)); TODO: Port over color apparatuses from CLI Beta
-  // const secondaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(secondary)); TODO: Port over color apparatuses from CLI Beta
+  const primaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(primary));
+  const secondaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(secondary));
 
-  // const colorSet = compileTokens([primaryColorScaleSet, secondaryColorScaleSet]); TODO: Port over color apparatuses from CLI Beta
+  const colorSet = compileTokens([primaryColorScaleSet, secondaryColorScaleSet]);
 
   // Compile all sets down to a single token set
-  return compileTokens([dimensionSet, typographySet]);
+  return compileTokens([dimensionSet, typographySet, colorSet]);
 }
 
 function initChoices() {

@@ -1,22 +1,225 @@
 ---
-project_id: FFL # 3-letter code
-title: Colors # title case
-permalink: farfalle/choices/colors # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-grand_parent: Farfalle # title case
-parent: Choices # title case
+project_id: FFL # 3-letter code (✨ CHANGE ME ✨ )
+title: Colors # title case (⚠️ DO NOT TOUCH ME ⚠️ )
+permalink: farfalle/choices/colors # lowercase + use hyphens › https://tinyurl.com/27kmc4rb (✨ CHANGE ME ✨ )
+grand_parent: Farfalle # title case (✨ CHANGE ME ✨ )
+parent: Choices # title case (⚠️ DO NOT TOUCH ME ⚠️ )
 layout: default
 nav_order: 30
 ---
-<script type="module">
-  document.getElementsByTagName('body')[0].setAttribute('data-pasta-project-id', '{{ page.project_id }}');
-  import { tokens } from '{{site.baseurl}}/assets/projects/{{ page.project_id }}/tokens/tokens.js';
-  window.tokens = tokens;
+<!-- Set the choices and nomenclature for token naming -->
+<!-- ⚠️ WARNING: NEVER USE COMMENTS INSIDE SCRIPT TAGS ⚠️ -->
+<script>
+  const superChoices =  {
+    "dimensions": {
+      "breakpoints": {
+        "options": {
+          "sm": {
+            "value": 640
+          },
+          "md": {
+            "value": 768
+          },
+          "lg": {
+            "value": 1024
+          },
+          "xl": {
+            "value": 1280
+          },
+          "xxl": {
+            "value": 1536
+          }
+        },
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_C",
+        "category": "breakpoints",
+        "group": "breakpoints"
+      },
+      "factors": {
+        "options": {
+          "F1": {
+            "value": 1
+          },
+          "F2": {
+            "value": 1
+          },
+          "F3": {
+            "value": 1
+          },
+          "F4": {
+            "value": 1
+          },
+          "F5": {
+            "value": 2
+          }
+        },
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_C",
+        "category": "factors",
+        "group": "factors"
+      },
+      "scale": {
+        "value": {
+          "base": 2,
+          "ratio": 2,
+          "baseIndex": 400,
+          "scaleStems": ["geoA" , "arithA", "arithB"]
+        },
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_M",
+        "category": "scales",
+        "group": "scales"
+      },
+      "spaces": {
+        "options": {
+          "xs": {
+            "value": "$undefined"
+          },
+          "sm": {
+            "value": "$YPL.FFL.TKUI_M.scales.geoA.400"
+          },
+          "md": {
+            "value": "$YPL.FFL.TKUI_M.scales.geoA.500"
+          },
+          "lg": {
+            "value": "$YPL.FFL.TKUI_M.scales.geoA.600"
+          },
+          "xl": {
+            "value": "$undefined"
+          },
+          "xxl": {
+            "value": "$undefined"
+          }
+        },
+        "description": "",
+        "type": "spacing",
+        "kingdom": "TKUI_C",
+        "category": "spaces",
+        "group": "spaces"
+      },
+      "staticSizes": {
+        "options": {
+          "xs": {
+            "value": 1
+          },
+          "sm": {
+            "value": 2
+          },
+          "md": {
+            "value": 3
+          },
+          "lg": {
+            "value": 4
+          }
+        },
+        "description": "",
+        "type": "sizing",
+        "kingdom": "TKUI_C",
+        "category": "sizes",
+        "group": "staticSizes"
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "options": {
+          "light": {
+            "value": "europa-light"
+          },
+          "regular": {
+            "value": "europa-regular"
+          },
+          "bold": {
+            "value": "europa-bold"
+          }
+        },
+        "description": "",
+        "type":"fontFamilies",
+        "kingdom": "TKUI_C",
+        "category": "fontFamily",
+        "group": "fontFamily"
+      },
+      "leading": {
+        "options": {
+          "sm": {
+            "value": 1.2
+          },
+          "md":{
+            "value": 1.5
+          },
+          "lg": {
+            "value": 1.75
+          }
+        },
+        "description": "",
+        "type": "lineHeights",
+        "kingdom": "TKUI_C",
+        "category": "leading",
+        "group": "leading"
+      },
+      "paragraphSpacing": {
+        "value":  1.5,
+        "description": "",
+        "type": "paragraphSpacing",
+        "kingdom": "TKUI_C",
+        "category": "paragraphSpacing",
+        "group": "paragraphSpacing"
+      },
+      "trackingThreshold": {
+        "value": 32,
+        "description": "",
+        "type": "other",
+        "kingdom": "TKUI_C",
+        "category": "trackingThreshold",
+        "group": "trackingThreshold"
+      }
+    },
+    "color": {
+      "primary": {
+        "value": "#3B9792",
+        "description": "",
+        "type": "color",
+        "kingdom": "TKUI_C",
+        "category": "colors",
+        "group": "color"
+      },
+      "secondary": {
+        "value": "#E05F1F",
+        "description": "",
+        "type": "color",
+        "kingdom": "TKUI_C",
+        "category": "colors",
+        "group": "color"
+      }
+    }
+  };
+
+  const nomenclatureOptions = {
+    namespace: 'YPL',
+    project: '{{ page.project_id }}'
+  };
+
+  const overrideOptions = {};
 </script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chroma.min.js" defer></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/pasta.js" defer></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/pasta-colors.js" defer></script>
 
+<!-- Library/Vendor scripts -->
+<script defer src="{{ site.baseurl }}/assets/js/libs/chroma.min.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/libs/name-that-color.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist-plugin-legend.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist-plugin-axistitle.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist-plugin-zoom.min.js"></script>
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/chartist.css">
 
+<!-- Utility scripts -->
+<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-doc-utilities.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
+
+<!-- Inject Pasta Apparatus ad hoc script ↓ -->
+<script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 # Colors `{{ page.project_id }}`
 {: .no_toc}
 
