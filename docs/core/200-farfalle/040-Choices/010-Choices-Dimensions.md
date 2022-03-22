@@ -220,6 +220,7 @@ nav_order: 10
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/apparatuses/{{ page.title | downcase }}-script.js"></script>
 
 # Dimensions `{{ page.project_id }}`
 {: .no_toc}
@@ -235,24 +236,24 @@ nav_order: 10
 
 Scales are Mathematic functions that allow us to derivate all our sizes from a limited number of Super Choices:
 
-<!-- <section class="flex-1_1_1-cols inputsWrapper">
+<section class="flex-1_1_1-cols inputsWrapper">
       <div>
         <label for="base">Base</label><br>
-        <input class="scalingInputs" type="number" id="base" name="base" value="{{ page.scaleChoices.base }}" min="1">
+        <input class="scalingInputs" type="number" id="base" name="base" min="1">
       </div>
       <div>
         <label for="ratio">Ratio</label><br>
-        <input class="scalingInputs" type="number" id="ratio" name="ratio" value="{{ page.scaleChoices.ratio }}" min="1">
+        <input class="scalingInputs" type="number" id="ratio" name="ratio" min="1">
       </div>
       <div>
         <label for="baseIndex">Base Index</label><br>
-        <input class="scalingInputs" type="number" id="baseIndex" name="baseIndex" value="{{ page.scaleChoices.baseIndex }}" min="100" step="100">
+        <input class="scalingInputs" type="number" id="baseIndex" name="baseIndex" min="100" step="100">
       </div>
-</section> -->
+</section>
 
-To translate the complexity of our designs build before our design system we use 4 scales: a power of 2 geometric scale which encompasses **[1,2,4,8,16,32,64,128 …].** We use an arithmetic scale A that feeds the arithmetic scale B. All these scales take a base 100 index as input.
+To translate the complexity of our designs build before our design system we use 3 scales: a power of 2 geometric scale which encompasses **[1,2,4,8,16,32,64,128 …].** We use an arithmetic scale A that feeds the arithmetic scale B. All these scales take a base 100 index as input.
 
-<!-- <table class="type-02" id="scales-table">
+<table class="type-02" id="dimension-scales-table">
   <thead>
     <tr>
       <th id="index">Index</th>
@@ -263,7 +264,7 @@ To translate the complexity of our designs build before our design system we use
   </thead>
   <tbody>
   </tbody>
-</table> -->
+</table>
 
 ### Math Details
 Geometric Scale A:
