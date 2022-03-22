@@ -1,40 +1,24 @@
 ---
 name: New Pasta Candidate
 about: Start here to submit a new candidate for Pasta
-title: 'New Artifact Name · UID: X0000'
+title: "`XXX-X0000` Artifact Name"
 labels: candidate
 assignees: ''
 
 ---
 
-- [ ] Committee deliberation
-
-If selected for implementation ↓
-
-## Specification
-
-### Masthead 
-
-- [ ] UID: `XXX-X0000`
-- [ ] Pasta Branch or Release Version: [Branch](URL)
 - [ ] [Figma source](URL)
-- [ ] Designer ownership: `@designer`
-
-### Specification
-
-- [ ] All variants functional (Figma Demos-Prototypes)
-- [ ] Blueprint delivered: [Figma File Source](URL)
+- [ ] Design owner: @____
 - [ ] KB Documentation: [Pasta Link](URL)
+
+## Design
 
 #### Design
 
 - [ ] Dark and Light Modes
 - [ ] All interactive states
 - [ ] Document Variations
-- [ ] All color Schemes
-
-#### Design Constraints 
-
+- [ ] Color Schemes
 - [ ] Breakpoints and platform scales
 - [ ] “Yield point” behaviors
 
@@ -53,9 +37,10 @@ If selected for implementation ↓
 - [ ] All design tokens are published
 - [ ] Reversibility
 
-#### Analytics
+### Specification
 
-- [ ] Log Snippet
+- [ ] All Figma variants are functional (Demos-Prototypes)
+- [ ] Previews and Blueprints delivered
 
 ## Implementation
 
@@ -65,3 +50,4 @@ If selected for implementation ↓
 - [ ] iOS
 - [ ] Android
 - [ ] Web
+- [ ] Analytics Log Snippet
