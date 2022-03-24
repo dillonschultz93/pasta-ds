@@ -8,5 +8,4 @@ layout: default
 nav_order: 90
 ---
 
-
 # Patterns `{{ page.project_id }}`

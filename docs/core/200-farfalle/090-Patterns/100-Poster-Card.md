@@ -1,37 +1,35 @@
 ---
-project_id: LGN # 3-letter code
-title: Template # title case
-UID: P0000 # "P" = Pattern + Hexa code/index
-permalink: linguine/patterns/template # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-grand_parent: Linguine # title case
+project_id: FFL # 3-letter code
+title: Poster Card # title case
+UID: P0001 # "P" = Pattern + Hexa code/index
+permalink: farfalle/patterns/poster-card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 010
+nav_order: 100
 ---
-<!-- <script type="module" src="{{site.baseurl}}/assets/js/pasta-utilities/pasta-dark-switch.js"></script> -->
 
-
-# 🆃 Pattern Name&nbsp;`{{ page.project_id }}`
+# Poster Card&nbsp;`{{ page.project_id }}-{{ page.UID }}`
 {: .no_toc}
 
 | UID | Ticket | Owner |Pasta Branch or Release|
 |---|---|---|---|
-|`{{ page.project_id }}-{{ page.UID }}`|[Github Issue &#35;2](https://github.com/yummly/pasta/issues/2)|[Robert](https://github.com/robert-ANML)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}-{{ page.UID }}`|[Github Issue &#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[TBD](https://github.com/yummly/pasta/releases)|
 
 - TOC
 {:toc}
 
-
 ## Preview
 
-Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue.
+Poster Cards present a background image that fill all the card container. On top of this rich background the Cards can surface various types of information. At minima a Title is required.
+Poster Cards are used to surface key experiences within the user journey in a compeling way.
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_01.png){: .darkenabled}
 
 
 ### Figma Link
 
-<a href="https://www.figma.com/file/MAptaE54Hyzvx1FQCfWebi/YPL-Pattern-Card-Recipe-Large?node-id=0%3A1" class="btn">To Figma →</a>
+<a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn">To Figma →</a>
 
 … and beyond!
 
@@ -42,7 +40,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ## Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png)
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png)
 
 <section class="flex-1_2-cols">
    <div>
@@ -83,7 +81,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_01.png)
 
 ### Interaction
 
@@ -142,6 +140,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 |Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
 |Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
 {: .type-01}
+
 
 ### Animations
 
@@ -333,14 +332,14 @@ Please comply to and update the checklist below:
 
 |Ops|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>UID</strong>|
-|<input type="checkbox" class="checklistItem"><strong>Github Ticket</strong>|
-|<input type="checkbox" class="checklistItem"><strong>Figma Link(s)</strong>|
-|<input type="checkbox" class="checklistItem"><strong>Design Owner</strong>|
+|<input type="checkbox" class="checklistItem" checked><strong>UID</strong>|
+|<input type="checkbox" class="checklistItem" checked><strong>Github Ticket</strong>|
+|<input type="checkbox" class="checklistItem" checked><strong>Figma Link(s)</strong>|
+|<input type="checkbox" class="checklistItem" checked><strong>Design Owner</strong>|
 
 |Design|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
+|<input type="checkbox" class="checklistItem" checked><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
 |<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
 |<input type="checkbox" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
 |<input type="checkbox" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|

@@ -1,25 +1,30 @@
 ---
 project_id: FFL # 3-letter code
-title: Chips # title case
-permalink: farfalle/components/chips # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Buttons # title case
+permalink: farfalle/elements/buttons # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
-parent: Components # title case
+parent: Elements # title case
 layout: default
-nav_order: 150
+nav_order: 100
 ---
 
 
-# Chips  `{{ page.project_id }}`
+# Buttons  `{{ page.project_id }}`
 {: .no_toc}
 
 
 - TOC
 {:toc}
 
-## Anatomy
+
+## Standard
+
+### Anatomy
 {: .no_toc}
 
-![This is a representation of a component and its attributes](http://localhost:4000/pasta/assets/images/YPL-DOC-imgPlaceholder-Full.png)
+<!--[This is a representation of a component and its attributes]({{site.baseurl}}/assets/images/YPL-DOC-button-002.png)-->
+
+![This is a representation of a component and its attributes](http://localhost:4000/pasta/assets/images/YPL-DOC-button-002.png)
 
 [Figma](https://www.figma.com/file/zYeBHpXPApw1ujD0BoHjVe/Buttons?node-id=155%3A1786){: .btn }
 
@@ -34,9 +39,10 @@ We want to calculate our buttons size (height) as function of their text/label s
 - We always want an **even** value for the button height and width attributes to avoid pixel hinting issue at its border
 
 
-## Tokens
+### Tokens
+{: .no_toc}
 
-### Super Choices `TKUI_SC`
+#### Super Choices `TKUI_SC`
 {: .no_toc}
 
 ```
@@ -47,13 +53,13 @@ FFL-TKUI_SC.button.iconMirror
 TKSC.font.size.base
 ```
 
-### Choices `TKUI_C`
+#### Choices `TKUI_C`
 {: .no_toc}
 ```
 N/A
 ```
 
-### Math `TKUI_M`
+#### Math `TKUI_M`
 {: .no_toc}
 
 
@@ -76,7 +82,7 @@ FFL-TKUI_M.space.button.Margin.large
 FFL-TKUI_M.space.button.MarginBottom.large
 ```
 
-### Decisions `TKUI_D`
+#### Decisions `TKUI_D`
 {: .no_toc}
 
 ```json
@@ -84,7 +90,8 @@ FFL-TKUI_D.colors.button.fill.WCAG_AA
 ```
 
 
-## Checklist
+### Checklist
+{: .no_toc}
 
 Please comply with checklist below when adding a new component to pasta:
 

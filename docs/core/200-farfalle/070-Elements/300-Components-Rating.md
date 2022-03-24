@@ -1,9 +1,9 @@
 ---
 project_id: FFL # 3-letter code
 title: Ratings # title case
-permalink: farfalle/components/ratings # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/elements/ratings # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
-parent: Components # title case
+parent: Elements # title case
 layout: default
 nav_order: 300
 ---
