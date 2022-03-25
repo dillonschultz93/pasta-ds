@@ -2,6 +2,7 @@
 project_id: FFL # 3-letter code
 title: Poster Card # title case
 UID: P0001 # "P" = Pattern + Hexa code/index
+variants: [] # all variants index
 permalink: farfalle/patterns/poster-card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
@@ -9,12 +10,12 @@ layout: default
 nav_order: 100
 ---
 
-# Poster Card&nbsp;`{{ page.project_id }}-{{ page.UID }}`
+# Poster Card&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
 {: .no_toc}
 
-| UID | Ticket | Owner |Pasta Branch or Release|
+| UID | Ticket | Owner |Figma|Pasta Version|
 |---|---|---|---|
-|`{{ page.project_id }}-{{ page.UID }}`|[Github Issue &#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}.{{ page.UID }}`|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
 
 - TOC
 {:toc}
@@ -28,6 +29,7 @@ Poster Cards are used to surface key experiences within the user journey in a co
 
 
 ### Figma Link
+{: .no_toc}
 
 <a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn">To Figma →</a>
 

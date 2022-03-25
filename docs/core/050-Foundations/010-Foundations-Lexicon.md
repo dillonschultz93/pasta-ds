@@ -54,9 +54,13 @@ Choices, also known as Choice Tokens, are the foundational choices made for desi
 Decisions, also known as Decision Tokens, are how and where the choices are injected into the design elements: the brand accent color can be used for a button background attribute in idle state or/and an icon, etc.
 Choices feed Decisions.
 
-#### Math, Alias, Super, and Proxy Tokens
+#### Math, Alias, Super, and Proxy
 
 Other categories and sub-categories of tokens are often used used. They are explicit intermediates that help to guarantee Pasta Zero Information Loss Rule.
+
+#### TEST
+
+We use `TEST` tokens to experiments and test Pasta limitations, edge cases and other constraints. These should be removed after once Pasta goes to β. ie: the `YPL.TEST.textSizeFactor` allows us to blow fonts size up to 200% and see if we meet WCAG 1.4.4 criterion.
 
 
 #### Raw Tokens

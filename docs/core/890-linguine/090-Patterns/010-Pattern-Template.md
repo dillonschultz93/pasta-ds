@@ -11,12 +11,12 @@ nav_order: 010
 <!-- <script type="module" src="{{site.baseurl}}/assets/js/pasta-utilities/pasta-dark-switch.js"></script> -->
 
 
-# 🆃 Pattern Name&nbsp;`{{ page.project_id }}`
+# 🆃 Pattern Name&nbsp;`{{ page.project_id }}.{{ page.UID }}`
 {: .no_toc}
 
-| UID | Ticket | Owner |Pasta Branch or Release|
-|---|---|---|---|
-|`{{ page.project_id }}-{{ page.UID }}`|[Github Issue &#35;2](https://github.com/yummly/pasta/issues/2)|[Robert](https://github.com/robert-ANML)|[TBD](https://github.com/yummly/pasta/releases)|
+| UID | Ticket | Owner |Figma|Pasta Version|
+|---|---|---|---|---|
+|`{{ page.project_id }}.{{ page.UID }}`|[Github Issue &#35;2](https://github.com/yummly/pasta/issues/2)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
 
 - TOC
 {:toc}
@@ -30,6 +30,7 @@ Short Description: Praesent commodo cursus magna, vel scelerisque nisl consectet
 
 
 ### Figma Link
+{: .no_toc}
 
 <a href="https://www.figma.com/file/MAptaE54Hyzvx1FQCfWebi/YPL-Pattern-Card-Recipe-Large?node-id=0%3A1" class="btn">To Figma →</a>
 
