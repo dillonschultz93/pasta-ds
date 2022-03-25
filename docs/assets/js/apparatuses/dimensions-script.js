@@ -11,9 +11,11 @@ allDimensionInputs.forEach(input => {
   input.value = dimensionChoices.value[id];
 
   input.addEventListener('change', e => {
-    const changedChoice = e.target
+    const changedChoice = e.target;
 
-    dimensionChoices.value[changedChoice.id] = changedChoice.value;
+    dimensionChoices.value[changedChoice.id] = parseInt(changedChoice.value);
+
+    console.log(dimensionChoices);
 
     let newValues = generateDimensionScale(dimensionChoices).tokenValues;
 

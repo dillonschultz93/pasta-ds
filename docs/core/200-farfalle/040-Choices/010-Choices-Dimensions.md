@@ -14,13 +14,13 @@ nav_order: 10
     "dimensions": {
       "breakpoints": {
         "options": {
-          "sm": {
+          "s": {
             "value": 640
           },
-          "md": {
+          "m": {
             "value": 768
           },
-          "lg": {
+          "l": {
             "value": 1024
           },
           "xl": {
@@ -75,23 +75,14 @@ nav_order: 10
       },
       "spaces": {
         "options": {
-          "xs": {
-            "value": "$undefined"
+          "s": {
+            "value": "$YPL.FFL.TKUI_M.scales.arithA.200"
           },
-          "sm": {
-            "value": "$YPL.FFL.TKUI_M.scales.geoA.400"
+          "m": {
+            "value": "YPL.FFL.TKUI_M.scales.arithA.600"
           },
-          "md": {
-            "value": "$YPL.FFL.TKUI_M.scales.geoA.500"
-          },
-          "lg": {
-            "value": "$YPL.FFL.TKUI_M.scales.geoA.600"
-          },
-          "xl": {
-            "value": "$undefined"
-          },
-          "xxl": {
-            "value": "$undefined"
+          "l": {
+            "value": "$YPL.FFL.TKUI_M.scales.arithA.900"
           }
         },
         "description": "",
@@ -102,17 +93,98 @@ nav_order: 10
       },
       "staticSizes": {
         "options": {
-          "xs": {
-            "value": 1
+          "nano": {
+            "000": {
+              "value": 0
+            },
+            "100": {
+              "value": 1
+            },
+            "200": {
+              "value": 2
+            },
+            "300": {
+              "value": 3
+            },
+            "400": {
+              "value": 4
+            }
           },
-          "sm": {
-            "value": 2
+          "micro": {
+            "100": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.100"
+            },
+            "200": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.200"
+            },
+            "300": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.300"
+            },
+            "400": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.400"
+            },
+            "500": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.500"
+            },
+            "600": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.600"
+            },
+            "700": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.700"
+            },
+            "800": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.800"
+            },
+            "900": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.900"
+            },
+            "1000": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.1000"
+            },
+            "1100": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.1100"
+            },
+            "1200": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.1200"
+            },
+            "1300": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.1300"
+            }
           },
-          "md": {
-            "value": 3
-          },
-          "lg": {
-            "value": 4
+          "macro": {
+            "100": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.100"
+            },
+            "200": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.200"
+            },
+            "300": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.300"
+            },
+            "400": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.700"
+            },
+            "500": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.1200"
+            },
+            "600": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.1500"
+            },
+            "700": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.2600"
+            },
+            "800": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.2800"
+            },
+            "900": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.3100"
+            },
+            "1000": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.4700"
+            },
+            "1100": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithB.6300"
+            }
           }
         },
         "description": "",
@@ -122,78 +194,8 @@ nav_order: 10
         "group": "staticSizes"
       }
     },
-    "typography": {
-      "fontFamily": {
-        "options": {
-          "light": {
-            "value": "europa-light"
-          },
-          "regular": {
-            "value": "europa-regular"
-          },
-          "bold": {
-            "value": "europa-bold"
-          }
-        },
-        "description": "",
-        "type":"fontFamilies",
-        "kingdom": "TKUI_C",
-        "category": "fontFamily",
-        "group": "fontFamily"
-      },
-      "leading": {
-        "options": {
-          "sm": {
-            "value": 1.2
-          },
-          "md":{
-            "value": 1.5
-          },
-          "lg": {
-            "value": 1.75
-          }
-        },
-        "description": "",
-        "type": "lineHeights",
-        "kingdom": "TKUI_C",
-        "category": "leading",
-        "group": "leading"
-      },
-      "paragraphSpacing": {
-        "value":  1.5,
-        "description": "",
-        "type": "paragraphSpacing",
-        "kingdom": "TKUI_C",
-        "category": "paragraphSpacing",
-        "group": "paragraphSpacing"
-      },
-      "trackingThreshold": {
-        "value": 32,
-        "description": "",
-        "type": "other",
-        "kingdom": "TKUI_C",
-        "category": "trackingThreshold",
-        "group": "trackingThreshold"
-      }
-    },
-    "color": {
-      "primary": {
-        "value": "#3B9792",
-        "description": "",
-        "type": "color",
-        "kingdom": "TKUI_C",
-        "category": "colors",
-        "group": "color"
-      },
-      "secondary": {
-        "value": "#E05F1F",
-        "description": "",
-        "type": "color",
-        "kingdom": "TKUI_C",
-        "category": "colors",
-        "group": "color"
-      }
-    }
+    "typography": {},
+    "color": {}
   };
 
   const nomenclatureOptions = {
@@ -201,7 +203,97 @@ nav_order: 10
     project: '{{ page.project_id }}'
   };
 
-  const overrideOptions = {};
+  const overrideOptions = {
+    "YPL.FFL.TKUI_C.percents.s": {
+      "value": 0.33,
+      "description": "",
+      "type": "sizing",
+      "group": "percents"
+    },
+    "YPL.FFL.TKUI_C.percents.m": {
+      "value": 0.50,
+      "description": "",
+      "type": "sizing",
+      "group": "percents"
+    },
+    "YPL.FFL.TKUI_C.percents.ml": {
+      "value": 0.66,
+      "description": "",
+      "type": "sizing",
+      "group": "percents"
+    },
+    "YPL.FFL.TKUI_C.percents.l": {
+      "value": 0.75,
+      "description": "",
+      "type": "sizing",
+      "group": "percents"
+    },
+    "YPL.FFL.TKUI_C.percents.xl": {
+      "value": 0.85,
+      "description": "",
+      "type": "sizing",
+      "group": "percents"
+    },
+    "YPL.FFL.TKUI_C.percents.full": {
+      "value": 1,
+      "description": "",
+      "type": "sizing",
+      "group": "percents"
+    },
+    "YPL.TEST.textSizeFactor": {
+      "value": 1,
+      "description": "Inject this factor into Typography Sizes Choices. It's used to blow font sizes up to test compliancy with WCAG 1.4.4 · Remove it once in β release",
+      "type": "test"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.900 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.leading.s": {
+      "value": "",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.leading.m": {
+      "value": "",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.leading.l": {
+      "value": "",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.s": {
+      "value": "",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.m": {
+      "value": "",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.l": {
+      "value": "",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.700.tracking": {
+      "value": "",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    }
+  };
 </script>
 
 <!-- Library/Vendor scripts -->

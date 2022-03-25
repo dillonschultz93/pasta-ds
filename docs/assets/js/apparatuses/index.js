@@ -57,7 +57,7 @@ function getFactors(factorChoices) {
  * @param {Number} currentIndex - The current index.
  * @returns {Number}
  */
-function geoA(base, ratio, baseIndex, currentIndex) {
+ function geoA(base, ratio, baseIndex, currentIndex) {
   return Math.round(base * ratio ** ((200 + currentIndex - baseIndex) / 100));
 }
 
@@ -68,8 +68,8 @@ function geoA(base, ratio, baseIndex, currentIndex) {
  * @param {Number} currentIndex - The current index.
  * @returns {Number}
  */
-function arithA(base, baseIndex, currentIndex) {
-  return base * (8 + (currentIndex - baseIndex)/100);
+ function arithA(base, ratio, currentIndex) {
+  return base + ratio * ((currentIndex / 100) - 1);
 }
 
 /**
@@ -79,9 +79,10 @@ function arithA(base, baseIndex, currentIndex) {
  * @param {Number} currentIndex - The current index.
  * @returns {Number}
  */
-function arithB(base, ratio, currentIndex) {
-  return (Math.round(base * ratio**2) + (Math.round(base * ratio**2))*((currentIndex - 500)/100))*1.5
+ function arithB(base, ratio, currentIndex) {
+  return (base + 30) + (ratio * 8) * ((currentIndex / 100) - 1);
 }
+// ------------------------------------------------
 
 /**
  * @description Generates a scale from a minimum index to a maximum index using a scaling algorithm.
@@ -100,10 +101,9 @@ function generateDimensionScale(scaleChoices) {
 
   scaleStems.forEach(stem => {
     if (stem === 'arithA') {
-      max = 1600;
+      max = 1800;
     } else if (stem === 'arithB') {
-      min = 800;
-      max = 2000;
+      max = 6300;
     }
 
     for (let index = min; index < max + 1; index += 100) {
@@ -124,7 +124,7 @@ function generateDimensionScale(scaleChoices) {
           break;
 
         case 'arithA':
-          scaleVal = arithA(base, baseIndex, index);
+          scaleVal = arithA(base, ratio, index);
           val = {
             ...val,
             [index]: {
@@ -190,13 +190,37 @@ function getSpaces(spaceChoices) {
 }
 // ===============================================
 
-// STATIC SIZES ==================================
+// SIZES ==================================
 /**
  * @description Generates all static size tokens as choices using a set of constant values.
  * @param {Object} staticSizeChoices - The object containing naming options for the prefix of each token.
  */
-function getStaticSizes(staticSizeChoices) {
-  return parseChoices(staticSizeChoices);
+ function getSizes(sizeChoices) {
+  const { options, description, type, kingdom, category, group } = sizeChoices;
+
+  let modifiedValue = {};
+
+  Object.entries(options).forEach(([k, v]) => {
+    Object.entries(v).forEach(([nk, nv]) => {
+      modifiedValue = {
+        ...modifiedValue,
+        [k]: {
+          ...modifiedValue[k],
+          [nk]: {
+            value: nv.value,
+            description,
+            type,
+            group
+          }
+        }
+      }
+    });
+  });
+  return {
+    tokenValues: modifiedValue,
+    kingdom,
+    category
+  }
 }
 // ===============================================
 

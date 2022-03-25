@@ -39,26 +39,26 @@ function createTokenSet(dimensions, typography, color) {
   const factorsSet = generateTokens(nomenclatureOptions, getFactors(factors));
   const scaleSet = generateTokens(nomenclatureOptions, generateDimensionScale(scale));
   const spacesSet = generateTokens(nomenclatureOptions, getSpaces(spaces));
-  const staticSizesSet = generateTokens(nomenclatureOptions, getStaticSizes(staticSizes));
+  const sizesSet = generateTokens(nomenclatureOptions, getSizes(staticSizes));
 
-  const dimensionSet = compileTokens([breakpointSet, factorsSet, scaleSet, spacesSet, staticSizesSet]);
+  const dimensionSet = compileTokens([breakpointSet, factorsSet, scaleSet, spacesSet, sizesSet]);
 
   // Create typography set
-  const fontFamilySet = generateTokens(nomenclatureOptions, getFontFamily(fontFamily));
-  const leadingSet = generateTokens(nomenclatureOptions, getLeading(leading));
-  const paragraphSpacingSet = generateTokens(nomenclatureOptions, getParagraphSpacing(paragraphSpacing));
-  const trackingThresholdSet = generateTokens(nomenclatureOptions, getTrackingThreshold(trackingThreshold));
+  // const fontFamilySet = generateTokens(nomenclatureOptions, getFontFamily(fontFamily));
+  // const leadingSet = generateTokens(nomenclatureOptions, getLeading(leading));
+  // const paragraphSpacingSet = generateTokens(nomenclatureOptions, getParagraphSpacing(paragraphSpacing));
+  // const trackingThresholdSet = generateTokens(nomenclatureOptions, getTrackingThreshold(trackingThreshold));
 
-  const typographySet = compileTokens([fontFamilySet, leadingSet, paragraphSpacingSet, trackingThresholdSet]);
+  // const typographySet = compileTokens([fontFamilySet, leadingSet, paragraphSpacingSet, trackingThresholdSet]);
 
-  // Create color set
-  const primaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(primary));
-  const secondaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(secondary));
+  // // Create color set
+  // const primaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(primary));
+  // const secondaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(secondary));
 
-  const colorSet = compileTokens([primaryColorScaleSet, secondaryColorScaleSet]);
+  // const colorSet = compileTokens([primaryColorScaleSet, secondaryColorScaleSet]);
 
   // Compile all sets down to a single token set
-  return compileTokens([dimensionSet, typographySet, colorSet]);
+  return compileTokens([dimensionSet]);
 }
 
 function initChoices() {
@@ -79,10 +79,14 @@ const allTokens = getTokens();
 const allTables = [...document.querySelectorAll('.output-table')];
 const allCopyTokensButtons = [...document.querySelectorAll('.copy-token-btn')];
 
-// Set up all tables
-allTables.forEach(table => buildOutputTable(table, allTokens));
+if (allTables.length > 0) {
+  // Set up all tables
+  allTables.forEach(table => buildOutputTable(table, allTokens));
+}
 
-// Set up all copy to clipboard buttons
-allCopyTokensButtons.forEach(button => {
-  button.addEventListener('click', () => handleCopyTokensToClipboard(button, allTokens));
-});
+if (allCopyTokensButtons.length > 0) {
+  // Set up all copy to clipboard buttons
+  allCopyTokensButtons.forEach(button => {
+    button.addEventListener('click', () => handleCopyTokensToClipboard(button, allTokens));
+  });
+}
