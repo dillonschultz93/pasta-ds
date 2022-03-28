@@ -1,6 +1,7 @@
 ---
-project_id: FFL # 3-letter code
-title: Chip # title case
+project_name: Farfalle # title case
+project_id: FFL # 3-letter code 
+title: — Chip # title case
 UID: E0001 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
 permalink: farfalle/elements/chip # lowercase + use hyphens › https://tinyurl.com/27kmc4rb

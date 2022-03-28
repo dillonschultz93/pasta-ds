@@ -1,5 +1,6 @@
 ---
-project_id: FFL # 3-letter code
+project_name: Farfalle # title case
+project_id: FFL # 3-letter code 
 title: — Split Card # title case
 UID: P0005 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index

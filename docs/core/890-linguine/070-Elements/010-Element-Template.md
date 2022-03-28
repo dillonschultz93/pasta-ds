@@ -317,7 +317,7 @@ Please comply to and update the checklist below:
 |Design|
 |---|
 |<input type="checkbox" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
+|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
 |<input type="checkbox" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
 |<input type="checkbox" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
 

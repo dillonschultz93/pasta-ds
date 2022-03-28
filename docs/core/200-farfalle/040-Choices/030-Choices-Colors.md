@@ -1,5 +1,6 @@
 ---
-project_id: FFL # 3-letter code (✨ CHANGE ME ✨ )
+project_name: Farfalle # title case
+project_id: FFL # 3-letter code  (✨ CHANGE ME ✨ )
 title: Colors # title case (⚠️ DO NOT TOUCH ME ⚠️ )
 permalink: farfalle/choices/colors # lowercase + use hyphens › https://tinyurl.com/27kmc4rb (✨ CHANGE ME ✨ )
 grand_parent: Farfalle # title case (✨ CHANGE ME ✨ )

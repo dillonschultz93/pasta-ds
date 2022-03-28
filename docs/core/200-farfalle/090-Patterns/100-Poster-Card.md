@@ -1,4 +1,5 @@
 ---
+project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Poster Card # title case
 UID: P0001 # "P" = Pattern + Hexa code/index
@@ -11,7 +12,7 @@ nav_order: 100
 ---
 
 <!-- Set the choices and nomenclature for token naming -->
-<!-- ⚠️ WARNING: NEVER USE COMMENTS INSIDE SCRIPT TAGS ⚠️ -->
+<!-- ⚠️ WARNING: NEVER USE COMMENTS INSIDE SCRIPT TAGS -->
 <script>
   const superChoices =  {
     "dimensions": {
@@ -310,42 +311,38 @@ nav_order: 100
 # Poster Card&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
 {: .no_toc}
 
+Poster Cards distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Poster Cards are used to promote key features within the user journey.
+
 | UID | Ticket | Owner |Figma|Pasta Version|
 |---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}.{{ page.UID }}`|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[Poster Card Page](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_01.png){: .darkenabled}
+
+<a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn figmaFlagged">To Figma →</a>
 
 - TOC
 {:toc}
 
-## Preview
-
-Poster Cards present a background image that fill all the card container. On top of this rich background the Cards can surface various types of information. At minima a Title is required.
-Poster Cards are used to surface key experiences within the user journey in a compeling way.
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_01.png){: .darkenabled}
-
-
-### Figma Link
-{: .no_toc}
-
-<a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn">To Figma →</a>
-
-… and beyond!
+<!-- ## Preview -->
 
 ## Layout
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png)
-
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_layout_01.png)
 
 ## Dependencies
 
 ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png)
 
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_02.png)
+
+
 <section class="flex-1_2-cols">
    <div>
     <br>
      In order to implement this Pattern you will need to implement all its dependencies first.<br>
-     Please refer to each element in this list&nbsp;→
+     Please refer to each component in this list&nbsp;→
    </div>
    <div>
      <table>
@@ -353,96 +350,93 @@ Poster Cards are used to surface key experiences within the user journey in a co
          <tr>
            <th>UID</th>
            <th>Type</th>
-           <th>Link</th>
+           <th></th>
          </tr>
        </thead>
         <tbody>
+
          <tr>
-            <td><code>LGN-EXXXX</code></td><td>Element</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Button Icon →</a></td>
+            <td><code>FFL.E0001</code></td><td>Element</td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-EXXXX</code></td><td>Element</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Chip →</a></td>
+            <td><code>FFL.F0002-003</code></td><td>Primitive</td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#heading" alt="Link to Element page" class="btn">Heading 3 →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-EXXXX</code></td><td>Element</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Rating →</a></td>
+            <td><code>FFL.F0002-200</code></td><td>Primitive</td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#eyebrow" alt="Link to Primitive page" class="btn">Eyebrow →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-V0004</code></td><td>Primitive</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Eyebrow →</a></td>
+            <td><code>FFL-E0003</code></td><td>Element</td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/button" alt="Link to Element page" class="btn">Button Icon →</a></td>
+         </tr>
+         <tr>
+            <td><code>FFL-E0002-100</code></td><td>Primitive</td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#paragraph" alt="Link to Primitive page" class="btn">Paragraph Small →</a></td>
          </tr>
         </tbody>
      </table>
    </div>
  </section>
 
+
+ <section class="flex-1_2-cols">
+   <div>
+    Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options →
+   </div>
+   <div>
+     {% highlight txt %}
+          YPL.FFL.P0001.HMN_posterCard
+          ├─ .blockHeader
+          │   └─ .chip
+          ├─ .blockCopy
+          │   ├─ .chip (optional)
+          │   ├─ .h3
+          │   └─ .paragraphSmall (optional)
+          └─ .blockFooter
+              ├─ .eyebrow
+              └─ .butIcon (optional)
+     {% endhighlight %}
+   </div>
+ </section>
+
+
 ## Decisions
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_01.png)
 
-### Interaction
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_02.png)
 
-#### default
-{: .no_toc}
-
-|↓ impacted| idle | over | pressed | disabled | focused | pending |
-|---|---|---|---|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-{: .type-01}
-
-#### highlighted
-{: .no_toc}
-
-|↓ impacted| h-idle | h-over | h-pressed | h-disabled | h-focused | h-pending |
-|---|---|---|---|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-{: .type-01}
+### Interaction · N/A
 
 ### Variations
+
+##### Options
+{: .no_toc}
+
+|↓ IMPACTED | .OPT_small|.OPT_layout2 ||
+|---|---|---|
+|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.height">.height</span>|<span data-toolclip="YPL.FFL.TKUI_C.sizes.macro.500.value"><code class="language-plaintext highlighter-rouge">token</code></span>|||
+|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size">.h3.size</span>|<span data-toolclip="YPL.FFL.TKUI_C.sizes.micro.700.value"><code class="language-plaintext highlighter-rouge">token</code></span>|||
+|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgGradient">.bgGradient</span>||<span data-toolclip="YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR"><code class="language-plaintext highlighter-rouge">token</code></span>||
+|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color">.eyebrow.color</span>||<span data-toolclip="YPL.FFL.TKUI_C.colors.gray.200.value"><code class="language-plaintext highlighter-rouge">token</code></span>||
+{: .type-01 .lowerCaseHeader}
+
+<!-- ##### Modes · N/A
+{: .no_toc} -->
 
 ##### Breakpoints
 {: .no_toc}
 
-|↓ impacted|sm (320)| md (384)| lg(512)|
-|---|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-{: .type-01}
-
-##### Modes
-{: .no_toc}
-
-|↓ impacted|Light|Dark|
-|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-{: .type-01}
-
-##### Themes
-{: .no_toc}
-
-|↓ impacted|Theme &#35;1 |Theme &#35;2|Theme &#35;3|
-|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-{: .type-01}
-
-##### Variants
-{: .no_toc}
-
-|↓ impacted|Variant &#35;1 |Variant &#35;2|Variant &#35;3|
-|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-{: .type-01}
+|↓ impacted|s&nbsp;(480)&nbsp;&nbsp;┤| m&nbsp;(768)&nbsp;&nbsp;┤| l&nbsp;(1024)&nbsp;&nbsp;┤| xl&nbsp;(1920)&nbsp;&nbsp;┤ ||
+|---|---|---|---|---|---|
+|Attribute &#35;1|(default)|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>||||
+{: .type-01 .breakPoints}
 
 
+<!--
 ### Animations
-
 <section class="flex-1_2-cols">
    <div>
      Little explanation. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
@@ -451,6 +445,7 @@ Poster Cards are used to surface key experiences within the user journey in a co
       <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgAnimPlaceholder-twoThird.gif" alt="WIP">
    </div>
  </section>
+ -->
 
 ## Accessibility Checklist
 
@@ -465,7 +460,7 @@ Poster Cards are used to surface key experiences within the user journey in a co
 |[1.4.12](https://www.w3.org/TR/WCAG21/#text-spacing)|Text Spacing|<input type="radio" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="Pending" checked>|<input type="radio" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="Done">|<input type="radio" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A">|
 |[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
 
-
+<!--
 ## Copy Writing Guidelines
 
 <section class="flex-1_1-cols">
@@ -481,7 +476,7 @@ Poster Cards are used to surface key experiences within the user journey in a co
      </p>
       <hr class="dd-dont">
  </div>
- </section>
+ </section> -->
 
 ## Tokens Playground
 
@@ -639,7 +634,7 @@ Please comply to and update the checklist below:
 |Design|
 |---|
 |<input type="checkbox" class="checklistItem" checked><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
+|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
 |<input type="checkbox" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
 |<input type="checkbox" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
 

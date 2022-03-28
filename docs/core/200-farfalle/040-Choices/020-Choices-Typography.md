@@ -1,5 +1,6 @@
 ---
-project_id: FFL # 3-letter code (✨ CHANGE ME ✨ )
+project_name: Farfalle # title case
+project_id: FFL # 3-letter code  (✨ CHANGE ME ✨ )
 title: Typography # title case (⚠️ DO NOT TOUCH ME ⚠️ )
 permalink: farfalle/choices/typography # lowercase + use hyphens › https://tinyurl.com/27kmc4rb (✨ CHANGE ME ✨ )
 grand_parent: Farfalle # title case (✨ CHANGE ME ✨ )
@@ -265,4 +266,3 @@ Tracking, also known as letter spacing, is a typographic principle that defines 
 To dynamically generate letter spacing from a given font size we needed to explore the relation between our handpicked font size and tracking. The graph below shows our handpicked values as a plot of data points. Using [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression#:~:text=In%20statistics%2C%20polynomial%20regression%20is,nth%20degree%20polynomial%20in%20x.&text=For%20this%20reason%2C%20polynomial%20regression,case%20of%20multiple%20linear%20regression.) we can then construct a "best-fit line" to predict our desired letter spacing.
 
 This apparatus takes in a font size and outputs the approximate letter spacing appropriate for that font size. It does this by breaking up our handpicked tracking vs. font size choices into two sections. As you can see, at smaller font sizes our tracking can fluctuate. To capture those designer decisions we model the smaller font choices using polynomial regression at the seventh degree. As we approach larger font sizes we can see that the designer decisions become more linear. Our polynomial regression output then switches to model at the second degree.
-

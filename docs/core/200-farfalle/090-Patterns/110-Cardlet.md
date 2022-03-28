@@ -1,4 +1,5 @@
 ---
+project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Cardlet # title case
 UID: P0002 # ["P","E","F"] + Hexa code/index
@@ -13,27 +14,19 @@ nav_order: 110
 # Cardlet&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
 {: .no_toc}
 
+Cardlets are a way to present several items of a same category. They're part of collections, lists, caroussels. They sometimes present advanced interaction (swipe, move, re-order… ).
+
 | UID | Ticket | Owner |Figma|Pasta Version|
 |---|---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`|[&#35;8](https://github.com/yummly/pasta/issues/8)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}.{{ page.UID }}`|[&#35;8](https://github.com/yummly/pasta/issues/8)|[Robert](https://github.com/robert-ANML)|[Cardlet Page](https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781)|[TBD](https://github.com/yummly/pasta/releases)|
 
-- TOC
-{:toc}
-
-## Preview
-
-Poster Cards present a background image that fill all the card container. On top of this rich background the Cards can surface various types of information. At minima a Title is required.
-Poster Cards are used to surface key experiences within the user journey in a compeling way.
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-preview_01.png){: .darkenabled}
 
+<a href="https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781" class="btn figmaFlagged">To Figma →</a>
 
-### Figma Link
-{: .no_toc}
-
-<a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn">To Figma →</a>
-
-… and beyond!
+- TOC
+{:toc}
 
 
 ## Layout
@@ -334,7 +327,7 @@ Please comply to and update the checklist below:
 |Design|
 |---|
 |<input type="checkbox" class="checklistItem" checked><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all interactive states that are applicable: hover, down, focus, keyboard focus, disabled, etc.|
+|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
 |<input type="checkbox" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
 |<input type="checkbox" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
 

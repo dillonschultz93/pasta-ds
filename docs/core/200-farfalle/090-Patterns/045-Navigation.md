@@ -1,5 +1,6 @@
 ---
-project_id: FFL # 3-letter code
+project_name: Farfalle # title case
+project_id: FFL # 3-letter code 
 title: — Navigation # title case
 UID: P0009 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index

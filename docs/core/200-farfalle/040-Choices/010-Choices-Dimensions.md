@@ -1,5 +1,6 @@
 ---
-project_id: FFL # 3-letter code (✨ CHANGE ME ✨ )
+project_name: Farfalle # title case
+project_id: FFL # 3-letter code  (✨ CHANGE ME ✨ )
 title: Dimensions # title case (⚠️ DO NOT TOUCH ME ⚠️ )
 permalink: farfalle/choices/dimensions # lowercase + use hyphens › https://tinyurl.com/27kmc4rb (✨ CHANGE ME ✨ )
 grand_parent: Farfalle # title case (✨ CHANGE ME ✨ )
@@ -467,4 +468,3 @@ To expose two tokens specifically for iOS `YPL.FFL.TKUI_C.breakpoints.iOS.regula
 
 ### Android [WIP]
 {: .no_toc}
-

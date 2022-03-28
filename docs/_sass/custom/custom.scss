@@ -479,8 +479,9 @@ h1 + hr {
 }
 
 .btn {
+  background-color: #fcfcfc;
   box-shadow: none;
-  border: 1px solid $grey-dk-000;
+  border: 1px solid $grey-lt-300;
   border-radius: 5px;
   color: $grey-dk-100;
   font-size: $font-size-4;
@@ -491,6 +492,26 @@ h1 + hr {
   background-color: #222;
   border-color: #222;
   transition: all 0.1s
+}
+
+
+.btn.figmaFlagged {
+ padding: 0 16pt 0 4pt !important;
+ float: right;
+}
+.figmaFlagged::before {
+  opacity: 0.65;
+  display: inline-block;
+  vertical-align: middle;
+  content: url('../images/YPL-DOC-figma-logo.svg') !important;
+  width: 22pt;
+  height: 22pt;
+  padding: 8pt;
+  margin-right: 12pt;
+  border-right: 1px solid $grey-lt-300;
+}
+.figmaFlagged:hover::before {
+  filter: invert(100);
 }
 
 
@@ -586,9 +607,25 @@ td {
   font-size: 10px;
 }
 
+
+// variants
+
 .noBorder {
   border: none !important;
 }
+
+table.breakPoints th {
+  text-align: right;
+  // border-right: 1px solid #909090 !important;
+}
+table.breakPoints th:first-child {
+  text-align: left;
+}
+
+table.lowerCaseHeader th {
+  text-transform: lowercase;
+}
+
 
 // table just for layout / several cols
 
@@ -1263,6 +1300,14 @@ input[type="color"] {
   // space balance
   padding-right: 3px;
 }
+
+[data-toolclip]:active > * {
+  background-color: white;
+  border-color: #222;
+  color: #222;
+  // transition: all 0.4s;
+}
+
 
 
 //
