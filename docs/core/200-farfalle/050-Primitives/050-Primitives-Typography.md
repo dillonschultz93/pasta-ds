@@ -725,7 +725,6 @@ nav_order: 50
 </script>
 
 <!-- Utility scripts -->
-<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-doc-utilities.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
 
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
@@ -742,7 +741,7 @@ nav_order: 50
 {: .headTopBorder}
 
 - TOC
-  {:toc}
+{:toc}
 
 ## Headings
 
