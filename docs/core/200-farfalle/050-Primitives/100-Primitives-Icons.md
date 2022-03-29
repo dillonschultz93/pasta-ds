@@ -16,7 +16,8 @@ nav_order: 100
 
 | UID | Ticket | Owner | Figma | Pasta Version |
 |---|---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`|[&#35;26](https://github.com/yummly/pasta/issues/26)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}.{{ page.UID }}`|[&#35;26](https://github.com/yummly/pasta/issues/26)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|
+{: .headTopBorder}
 
 - TOC
 {:toc}

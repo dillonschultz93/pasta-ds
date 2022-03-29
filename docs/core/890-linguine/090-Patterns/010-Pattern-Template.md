@@ -17,6 +17,7 @@ nav_order: 010
 | UID | Ticket | Owner |Figma|Pasta Version|
 |---|---|---|---|---|
 |`{{ page.project_id }}.{{ page.UID }}`|[Github Issue &#35;2](https://github.com/yummly/pasta/issues/2)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+{: .headTopBorder}
 
 - TOC
 {:toc}

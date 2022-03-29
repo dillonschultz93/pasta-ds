@@ -148,9 +148,9 @@
         // OPT_small
         "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value",
         "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.size.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.tracking.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.leading.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.paragraphSpacing.value",
 
       // breakpoints
 

@@ -308,24 +308,39 @@ nav_order: 100
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
-# Poster Card&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
+# Poster Card
 {: .no_toc}
 
 Poster Cards distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Poster Cards are used to promote key features within the user journey.
 
 | UID | Ticket | Owner |Figma|Pasta Version|
 |---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[Poster Card Page](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[Poster Card Page](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+{: .headTopBorder}
 
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_01.png){: .darkenabled}
+<div class="tabs">
+  <input type="radio" name="tabs_previews" id="tab_preview_01" checked="checked">
+  <label for="tab_preview_01">( <i>default</i> )</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-opt1-preview_01.png" alt="Default Preview" class="darkenabled">
+  </div>
+  <input type="radio" name="tabs_previews" id="tab_preview_02">
+  <label for="tab_preview_02">OPT_layout2</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-opt2-preview_01.png" alt="Layout 2 Preview" class="darkenabled">
+  </div>
+  <input type="radio" name="tabs_previews" id="tab_preview_03">
+  <label for="tab_preview_03">OPT_small</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-opt3-preview_01.png" alt="Small Preview" class="darkenabled">
+  </div>
+</div>
 
 <a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn figmaFlagged">To Figma →</a>
 
 - TOC
 {:toc}
 
-<!-- ## Preview -->
 
 ## Layout
 
@@ -333,16 +348,26 @@ Poster Cards distinctive attribute is their background image that fill the card 
 
 ## Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png)
-
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_02.png)
-
+<div class="tabs">
+  <input type="radio" name="tabs_dependencies" id="tab_dependency_01" checked="checked">
+  <label for="tab_dependency_01">( <i>default</i> )</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png" alt="Default Preview">
+  </div>
+  <input type="radio" name="tabs_dependencies" id="tab_dependency_02">
+  <label for="tab_dependency_02">OPT_layout2</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_02.png" alt="Layout 2 Preview">
+  </div>
+</div>
 
 <section class="flex-1_2-cols">
    <div>
     <br>
+    <p>
      In order to implement this Pattern you will need to implement all its dependencies first.<br>
      Please refer to each component in this list&nbsp;→
+     </p>
    </div>
    <div>
      <table>
@@ -380,10 +405,13 @@ Poster Cards distinctive attribute is their background image that fill the card 
    </div>
  </section>
 
+## Tree
 
  <section class="flex-1_2-cols">
    <div>
-    Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options →
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options →
+    </p>
    </div>
    <div>
      {% highlight txt %}
@@ -404,48 +432,148 @@ Poster Cards distinctive attribute is their background image that fill the card 
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_01.png)
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_02.png)
+<div class="tabs">
+  <input type="radio" name="tabs_decisions" id="tab_decisions_01" checked="checked">
+  <label for="tab_decisions_01">( <i>default</i> )</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_01.png" alt="Default Preview">
+  </div>
+  <input type="radio" name="tabs_decisions" id="tab_decisions_02">
+  <label for="tab_decisions_02">OPT_layout2</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_02.png" alt="Layout 2 Preview">
+  </div>
+</div>
 
-### Interaction · N/A
+### Interaction
+
+#### Default
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.i (idle)</th>
+      <th>.o (mouse over)</th>
+      <th>.p (pressed)</th>
+      <th>.f (focus)</th>
+      <th>.w (waiting)</th>
+      <th>.d (disabled)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Highighted
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.hi (idle)</th>
+      <th>.ho (m. over)</th>
+      <th>.hp (pressed)</th>
+      <th>.hf (focus)</th>
+      <th>.hu (un+focus)</th>
+      <th>.hw (waiting)</th>
+      <th>.hd (disabled)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 ### Variations
 
 ##### Options
 {: .no_toc}
 
-|↓ IMPACTED | .OPT_small|.OPT_layout2 ||
-|---|---|---|
-|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.height">.height</span>|<span data-toolclip="YPL.FFL.TKUI_C.sizes.macro.500.value"><code class="language-plaintext highlighter-rouge">token</code></span>|||
-|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size">.h3.size</span>|<span data-toolclip="YPL.FFL.TKUI_C.sizes.micro.700.value"><code class="language-plaintext highlighter-rouge">token</code></span>|||
-|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgGradient">.bgGradient</span>||<span data-toolclip="YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR"><code class="language-plaintext highlighter-rouge">token</code></span>||
-|<span data-toolclip="YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color">.eyebrow.color</span>||<span data-toolclip="YPL.FFL.TKUI_C.colors.gray.200.value"><code class="language-plaintext highlighter-rouge">token</code></span>||
-{: .type-01 .lowerCaseHeader}
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.OPT_small</th>
+      <th>.OPT_layout2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.size.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.tracking.value"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.leading.value"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
+      </td>
+      <td>
+      <span data-toolclip='YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient: YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<!-- ##### Modes · N/A
+<!-- ##### Modes
 {: .no_toc} -->
 
 ##### Breakpoints
 {: .no_toc}
 
-|↓ impacted|s&nbsp;(480)&nbsp;&nbsp;┤| m&nbsp;(768)&nbsp;&nbsp;┤| l&nbsp;(1024)&nbsp;&nbsp;┤| xl&nbsp;(1920)&nbsp;&nbsp;┤ ||
-|---|---|---|---|---|---|
-|Attribute &#35;1|(default)|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>||||
-{: .type-01 .breakPoints}
+<table class="headerCentered headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="2">.BRKP_s&nbsp;(480)</th>
+      <th colspan="2">.BRKP_m&nbsp;(768)</th>
+      <th colspan="2">.BRKP_l&nbsp;(1024)</th>
+      <th colspan="2">.BRKP_xl&nbsp;(1920)</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <span class="dimmed">( <i> default </i> )</span>
+      </td>
+      <td colspan="2">
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.800.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.size.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.tracking.value"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.leading.value"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
+      </td>
+      <td colspan="2">
 
+      </td>
+      <td colspan="2">
 
-<!--
-### Animations
-<section class="flex-1_2-cols">
-   <div>
-     Little explanation. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
-   </div>
-   <div>
-      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgAnimPlaceholder-twoThird.gif" alt="WIP">
-   </div>
- </section>
- -->
+      </td>
+      <td colspan="2">
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Accessibility Checklist
 

@@ -11,14 +11,15 @@ layout: default
 nav_order: 110
 ---
 
-# Cardlet&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
+# Cardlet
 {: .no_toc}
 
 Cardlets are a way to present several items of a same category. They're part of collections, lists, caroussels. They sometimes present advanced interaction (swipe, move, re-order… ).
 
 | UID | Ticket | Owner |Figma|Pasta Version|
 |---|---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`|[&#35;8](https://github.com/yummly/pasta/issues/8)|[Robert](https://github.com/robert-ANML)|[Cardlet Page](https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}|[&#35;8](https://github.com/yummly/pasta/issues/8)|[Robert](https://github.com/robert-ANML)|[Cardlet Page](https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781)|[TBD](https://github.com/yummly/pasta/releases)|
+{: .headTopBorder}
 
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-preview_01.png){: .darkenabled}

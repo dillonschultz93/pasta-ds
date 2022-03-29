@@ -246,8 +246,6 @@ figure.highlight code {
   word-break: break-all;
 }
 
-
-
 code, div.highlighter-rouge code,
 div.highlighter-rouge div.highlight,
 div.highlighter-rouge pre.highlight {
@@ -311,8 +309,6 @@ figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL
 }
 
 
-
-
 //
 // OL
 //
@@ -364,7 +360,7 @@ content:none;
 display: none;
 }
 
-// checboxes
+// checkboxes
 .checklistItem {
   display: inline;
   width: initial;
@@ -372,8 +368,18 @@ display: none;
 }
 
 
+// Radio make it red!
+
+input[type="radio"][value="Pending"]:checked  {
+  filter: hue-rotate(130deg);
+}
 
 
+// dimmed stuff
+
+.dimmed {
+  opacity: 0.33;
+}
 
 //
 // ACCENTS
@@ -622,8 +628,8 @@ table.breakPoints th:first-child {
   text-align: left;
 }
 
-table.lowerCaseHeader th {
-  text-transform: lowercase;
+table.headerNoUpperCase th {
+  text-transform: none;
 }
 
 
@@ -652,7 +658,6 @@ table.layoutOnly th {
 }
 
 // headless tables
-// use {: .headless} after your table markdown
 
 .headless > thead {
   display: none;
@@ -660,6 +665,47 @@ table.layoutOnly th {
 .headless > tbody > tr:first-child > td {
   border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
 }
+
+// tables variations
+
+table.headerCentered th {
+  text-align: center;
+}
+table.colBordered td {
+  border-right: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+table.colBordered td:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+
+table.colBordered td:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+
+// head framed
+table.headFramed th {
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+table.headFramed th:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+table.headFramed th:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+
+// head framed
+table.headTopBorder th {
+  border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
+}
+
+
+// code inside td
+
+td span {
+  display: inline-block;
+  margin: 0.2rem !important;
+}
+
 
 //
 // COLORS TABLE
@@ -1286,21 +1332,7 @@ input[type="color"] {
   transition: all 0.4s;
 }
 
-// affordance sign (?)
-[data-toolclip] > code::after {
-  content: "·";
-  opacity: 0.8;
-  display: inline-block;
-  vertical-align: super;
-  line-height: 0;
-  padding: 0;
-  margin: 0 0 0 -0.1rem;
-}
-[data-toolclip] > code {
-  // space balance
-  padding-right: 3px;
-}
-
+// pressed state
 [data-toolclip]:active > * {
   background-color: white;
   border-color: #222;
@@ -1430,4 +1462,50 @@ input[type="color"] {
 .darkenabled.dark_mode {
   background-color: #000;
   transition: all 0.6s;
+}
+
+
+// Trying pure CSS Tabs
+// barrowed from: https://codepen.io/mikestreety/pen/yVNNNm
+
+
+.tabs {
+	display: flex;
+	flex-wrap: wrap; // make sure it wraps
+}
+.tabs label {
+  opacity: 0.7;
+	order: 1; // Put the labels first
+	display: block;
+	padding: 1.2rem 2rem;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  border-bottom: 3px solid #eee;
+	cursor: pointer;
+  transition: all 0.6s;
+}
+.tabs label:hover {
+  color: black;
+  opacity: 1;
+  transition: all 0.4s;
+}
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+	width: 100%;
+  display: none;
+}
+.tabs input[type="radio"] {
+	display: none;
+  opacity: 0;
+}
+.tabs input[type="radio"]:checked + label {
+  opacity: 1;
+  border-bottom: 3px solid #5c5962;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+  opacity: 1;
+  transition: opacity 0.6s;
+  transition-delay: 0.4s;
 }
