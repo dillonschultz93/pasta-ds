@@ -73,7 +73,6 @@ function buildOutputTable(tableElement, tokens) {
 
         case 2:
           cell.innerHTML = `<span data-toolclip="${key}"><code class="language-plaintext highlighter-rouge">Token Key</code></span>`;
-          cell.addEventListener('click', () => handleCopyToClipboard(key));
           break;
 
         default:

@@ -78,6 +78,7 @@ const allTokens = getTokens();
 // Collect all DOM selectors
 const allTables = [...document.querySelectorAll('.output-table')];
 const allCopyTokensButtons = [...document.querySelectorAll('.copy-token-btn')];
+const allToolClipButtons = [...document.querySelectorAll('span[data-toolclip]')];
 
 if (allTables.length > 0) {
   // Set up all tables
@@ -88,5 +89,13 @@ if (allCopyTokensButtons.length > 0) {
   // Set up all copy to clipboard buttons
   allCopyTokensButtons.forEach(button => {
     button.addEventListener('click', () => handleCopyTokensToClipboard(button, allTokens));
+  });
+}
+
+if (allToolClipButtons.length > 0) {
+  // Set up all toolclip buttons
+  allToolClipButtons.forEach(button => {
+    const data = button.dataset.toolclip;
+    button.addEventListener('click', () => handleCopyToClipboard(data));
   });
 }

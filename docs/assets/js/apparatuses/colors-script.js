@@ -26,6 +26,7 @@ function buildColorPalletteTable(table, allTokens) {
   Object.entries(data).forEach(([k, v]) => {
     const splitKeys = k.split('.');
     const index = splitKeys[splitKeys.length - 1];
+    const uiIndex = `${splitKeys[splitKeys.length - 2]}.${index}`;
 
     const tr = document.createElement('tr');
 
@@ -38,8 +39,8 @@ function buildColorPalletteTable(table, allTokens) {
           break;
 
         case 'token':
-          cell.innerHTML = `<span data-toolclip="${v}"><code class="language-plaintext highlighter-rouge">${k}</code></span>`;
-          cell.addEventListener('click', () => handleCopyToClipboard(k));
+          cell.innerHTML = `<span data-toolclip="${k}: ${v}"><code class="language-plaintext highlighter-rouge">${uiIndex}</code></span>`;
+          cell.addEventListener('click', () => handleCopyToClipboard(`${k}: ${v}`));
           break;
       
         default:

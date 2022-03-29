@@ -816,8 +816,8 @@ nav_order: 30
       <tr>
         <td>black</td>
         <td>
-          <span data-toolclip="YPL.FFL.TKUI_C.colors.black">
-            <code class="language-plaintext highlighter-rouge">YPL.FFL.TKUI_C.colors.black</code>
+          <span data-toolclip="YPL.FFL.TKUI_C.colors.black: #000000">
+            <code class="language-plaintext highlighter-rouge">.colors.black</code>
           </span>
         </td>
         <td>
@@ -827,8 +827,8 @@ nav_order: 30
       <tr>
         <td>white</td>
         <td>
-          <span data-toolclip="YPL.FFL.TKUI_C.colors.white">
-            <code class="language-plaintext highlighter-rouge">YPL.FFL.TKUI_C.colors.white</code>
+          <span data-toolclip="YPL.FFL.TKUI_C.colors.white: #ffffff">
+            <code class="language-plaintext highlighter-rouge">.colors.white</code>
           </span>
         </td>
         <td>
