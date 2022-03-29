@@ -725,7 +725,6 @@ nav_order: 50
 </script>
 
 <!-- Utility scripts -->
-<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-doc-utilities.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
 
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
@@ -739,6 +738,9 @@ nav_order: 50
 | -------------------------------------- | ---------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------- | ------------- |
 | `{{ page.project_id }}.{{ page.UID }}` | [&#35;25](https://github.com/yummly/pasta/issues/25) | [Robert](https://github.com/robert-ANML) | [TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH) |
 {: .headTopBorder}
+
+- TOC
+{:toc}
 
 ## Headings
 

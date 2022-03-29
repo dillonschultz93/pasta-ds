@@ -301,7 +301,6 @@ nav_order: 100
 </script>
 
 <!-- Utility scripts -->
-<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-doc-utilities.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
 
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
@@ -480,13 +479,13 @@ Poster Cards distinctive attribute is their background image that fill the card 
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.hi (idle)</th>
-      <th>.ho (m. over)</th>
-      <th>.hp (pressed)</th>
-      <th>.hf (focus)</th>
-      <th>.hu (un+focus)</th>
-      <th>.hw (waiting)</th>
-      <th>.hd (disabled)</th>
+      <th>.hi</th>
+      <th>.ho</th>
+      <th>.hp</th>
+      <th>.hf</th>
+      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+      <th>.hw</th>
+      <th>.hd</th>
     </tr>
   </thead>
   <tbody>
@@ -520,13 +519,13 @@ Poster Cards distinctive attribute is their background image that fill the card 
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.size.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.tracking.value"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.leading.value"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
       </td>
       <td>
-      <span data-toolclip='YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient: YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
+      <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
       </td>
     </tr>
   </tbody>
@@ -543,10 +542,10 @@ Poster Cards distinctive attribute is their background image that fill the card 
   <thead>
     <tr>
       <th></th>
-      <th colspan="2">.BRKP_s&nbsp;(480)</th>
-      <th colspan="2">.BRKP_m&nbsp;(768)</th>
-      <th colspan="2">.BRKP_l&nbsp;(1024)</th>
-      <th colspan="2">.BRKP_xl&nbsp;(1920)</th>
+      <th colspan="2">.BRKP_s&nbsp;(←&nbsp;480)</th>
+      <th colspan="2">.BRKP_m&nbsp;(←&nbsp;768)</th>
+      <th colspan="2">.BRKP_l&nbsp;(←&nbsp;1024)</th>
+      <th colspan="2">.BRKP_xl&nbsp;(←&nbsp;1920)</th>
       <th></th>
     </tr>
   </thead>
