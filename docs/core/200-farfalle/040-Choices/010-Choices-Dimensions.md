@@ -16,7 +16,7 @@ nav_order: 10
       "breakpoints": {
         "options": {
           "s": {
-            "value": 640
+            "value": 480
           },
           "m": {
             "value": 768
@@ -25,10 +25,7 @@ nav_order: 10
             "value": 1024
           },
           "xl": {
-            "value": 1280
-          },
-          "xxl": {
-            "value": 1536
+            "value": 1920
           }
         },
         "description": "",
@@ -76,14 +73,26 @@ nav_order: 10
       },
       "spaces": {
         "options": {
-          "s": {
+          "xs": {
             "value": "$YPL.FFL.TKUI_M.scales.arithA.200"
           },
+          "s": {
+            "value": "$YPL.FFL.TKUI_M.scales.arithA.400"
+          },
+          "sm": {
+            "value": "$YPL.FFL.TKUI_M.scales.arithA.600"
+          },
           "m": {
-            "value": "YPL.FFL.TKUI_M.scales.arithA.600"
+            "value": "YPL.FFL.TKUI_M.scales.arithA.800"
+          },
+          "ml": {
+            "value": "$YPL.FFL.TKUI_M.scales.arithA.1000"
           },
           "l": {
-            "value": "$YPL.FFL.TKUI_M.scales.arithA.900"
+            "value": "$YPL.FFL.TKUI_M.scales.arithA.1200"
+          },
+          "xl": {
+            "value": "$YPL.FFL.TKUI_M.scales.arithA.1600"
           }
         },
         "description": "",
@@ -150,6 +159,15 @@ nav_order: 10
             },
             "1300": {
               "value": "$YPL.FFL.TKUI_M.scales.arithA.1300"
+            },
+            "1400": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.1400"
+            },
+            "1500": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.1500"
+            },
+            "1600": {
+              "value": "$YPL.FFL.TKUI_M.scales.arithA.1600"
             }
           },
           "macro": {
@@ -246,52 +264,458 @@ nav_order: 10
       "description": "Inject this factor into Typography Sizes Choices. It's used to blow font sizes up to test compliancy with WCAG 1.4.4 · Remove it once in β release",
       "type": "test"
     },
-    "YPL.FFL.TKUI_C.typo.Europa.700.size": {
-      "value": "$YPL.FFL.TKUI_C.sizes.micro.900 * $YPL.TEST.textSizeFactor",
+    "YPL.FFL.TKUI_C.typo.Europa.familyName": {
+      "value": "Europa",
+      "description": "",
+      "type": "fontFamily",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.weights.400": {
+      "value": "regular",
+      "description": "",
+      "type": "fontWeight",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.weights.700": {
+      "value": "bold",
+      "description": "",
+      "type": "fontWeight",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h3.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
       "description": "",
       "type": "fontSizes",
       "group": "typo"
     },
-    "YPL.FFL.TKUI_C.typo.Europa.700.leading.s": {
-      "value": "",
+    "YPL.FFL.TKUI_C.typo.Europa.h3.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.700",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h3.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.1600 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h3.leading.m": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.1600 * 1.2",
       "description": "",
       "type": "lineHeights",
       "group": "typo"
     },
-    "YPL.FFL.TKUI_C.typo.Europa.700.leading.m": {
-      "value": "",
-      "description": "",
-      "type": "lineHeights",
-      "group": "typo"
-    },
-    "YPL.FFL.TKUI_C.typo.Europa.700.leading.l": {
-      "value": "",
-      "description": "",
-      "type": "lineHeights",
-      "group": "typo"
-    },
-    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.s": {
-      "value": "",
+    "YPL.FFL.TKUI_C.typo.Europa.h3.paragraphSpacing.m": {
+      "value": "17.28",
       "description": "",
       "type": "paragraphSpacing",
       "group": "typo"
     },
-    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.m": {
-      "value": "",
-      "description": "",
-      "type": "paragraphSpacing",
-      "group": "typo"
-    },
-    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.l": {
-      "value": "",
-      "description": "",
-      "type": "paragraphSpacing",
-      "group": "typo"
-    },
-    "YPL.FFL.TKUI_C.typo.Europa.700.tracking": {
-      "value": "",
+    "YPL.FFL.TKUI_C.typo.Europa.h3.tracking": {
+      "value": "-2%",
       "description": "",
       "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h5.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h5.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.700",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h5.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.1200 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h5.leading.m": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.1200 * 1.2",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h5.paragraphSpacing.m": {
+      "value": "12.96",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h5.tracking": {
+      "value": "-1%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h6.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h6.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.700",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h6.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.1000 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h6.leading.m": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.1000 * 1.2",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h6.paragraphSpacing.m": {
+      "value": "10.8",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.h6.tracking": {
+      "value": "0%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.strong.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.strong.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.700",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.strong.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.800 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.strong.leading.m": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.800 * 1.2",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.strong.paragraphSpacing.m": {
+      "value": "8.64",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.strong.tracking": {
+      "value": "-2%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.regular.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.regular.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.400",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.regular.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.800 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.regular.leading.m": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.800 * 1.2",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.regular.paragraphSpacing.m": {
+      "value": "8.64",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.m.regular.tracking": {
+      "value": "-2%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.strong.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.strong.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.700",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.strong.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.700 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.strong.leading.m": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.700 * 1.2",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.strong.paragraphSpacing.m": {
+      "value": "7.56",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.strong.tracking": {
+      "value": "-2%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.regular.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.regular.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.400",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.regular.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.700 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.regular.leading.m": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.700 * 1.2",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.regular.paragraphSpacing.m": {
+      "value": "7.56",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.p.s.regular.tracking": {
+      "value": "-2%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.strong.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.strong.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.700",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.strong.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.600 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.strong.leading.l": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.600 * 1.5",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.strong.paragraphSpacing.l": {
+      "value": "0",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.strong.tracking": {
+      "value": "-2%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.regular.family": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.familyName",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.regular.weight": {
+      "value": "$YPL.FFL.TKUI_C.typo.Europa.weights.400",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.regular.size": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.600 * $YPL.TEST.textSizeFactor",
+      "description": "",
+      "type": "fontSizes",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.regular.leading.l": {
+      "value": "$YPL.FFL.TKUI_C.sizes.micro.600 * 1.5",
+      "description": "",
+      "type": "lineHeights",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.regular.paragraphSpacing.l": {
+      "value": "0",
+      "description": "",
+      "type": "paragraphSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.typo.Europa.caption.regular.tracking": {
+      "value": "-2%",
+      "description": "",
+      "type": "letterSpacing",
+      "group": "typo"
+    },
+    "YPL.FFL.TKUI_C.colors.white": {
+      "value": "#ffffff",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.black": {
+      "value": "#000000",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.grey.100": {
+      "value": "#f5f5f5",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.grey.200": {
+      "value": "#E3E3E3",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.grey.300": {
+      "value": "#BABABA",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.grey.500": {
+      "value": "#707070",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.grey.700": {
+      "value": "#4A4A4A",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.grey.900": {
+      "value": "#242424",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.teal.300": {
+      "value": "#4BB9B3",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.teal.400": {
+      "value": "#3A9691",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.teal.500": {
+      "value": "#2C726E",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.orange.300": {
+      "value": "#E77F4B",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.orange.400": {
+      "value": "#E05F1F",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.colors.orange.500": {
+      "value": "#B44B18",
+      "description": "",
+      "type": "color",
+      "group": "colors"
+    },
+    "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR": {
+      "value": "linear-gradient(64deg, $YPL.FFL.TKUI_C.colors.black 0%, $YPL.FFL.TKUI_C.colors.black 100%)",
+      "description": "",
+      "type": "color",
+      "group": "gradients"
+    },
+    "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR": {
+      "value": "linear-gradient(116deg, $YPL.FFL.TKUI_C.colors.black 0%, $YPL.FFL.TKUI_C.colors.black 100%)",
+      "description": "",
+      "type": "color",
+      "group": "gradients"
+    },
+    "YPL.FFL.V0001.typo.h3": {
+      "value": {
+        "fontFamily": "$YPL.FFL.TKUI_C.typo.Europa.h3.family",
+        "fontWeight": "$YPL.FFL.TKUI_C.typo.Europa.h3.weights.700",
+        "lineHeight": "$YPL.FFL.TKUI_C.typo.Europa.h3.leading.m",
+        "fontSize": "$YPL.FFL.TKUI_C.typo.Europa.h3.size",
+        "letterSpacing": "$YPL.FFL.TKUI_C.typo.Europa.h3.tracking",
+        "paragraphSpacing": "$YPL.FFL.TKUI_C.typo.Europa.h3.paragraphSpacing.m",
+        "textDecoration": "none",
+        "textCase": "original",
+        "textAlignHorizontal": "left"
+      },
+      "description": "",
+      "type": "typography",
       "group": "typo"
     }
   };

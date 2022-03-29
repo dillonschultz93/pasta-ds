@@ -118,6 +118,8 @@ function handleCopyTokensToClipboard(buttonElement, tokens) {
   const tokenFormat = [...id.split('-')].pop();
   const tokenCategory = [...id.split('-')].shift();
 
+  console.log(tokenCategory);
+
   let filteredRawTokens = {};
   let filteredFigmaTokens = {}
 
@@ -125,6 +127,8 @@ function handleCopyTokensToClipboard(buttonElement, tokens) {
   const flattenedByType = flattenTokens(tokens, 'type');
   const flattenedByDescription = flattenTokens(tokens, 'description');
   const flattenedByValue = flattenTokens(tokens);
+
+  console.log(flattenedByGroup);
 
   Object.entries(flattenedByGroup).forEach(([key, value]) => {
     if (value === tokenCategory) {
