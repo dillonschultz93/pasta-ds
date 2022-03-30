@@ -1,7 +1,7 @@
 ---
-name: New Pasta Candidate
-about: Start here to submit a new candidate for Pasta
-title: "`XXX-X0000` Artifact Name"
+name: New Pasta Component
+about: Submit a new component or variant candidate for Pasta
+title: "`XXX.X0000` Component_Name"
 labels: candidate
 assignees: ''
 
@@ -13,14 +13,16 @@ assignees: ''
 
 ## Design
 
-#### Design
+#### Visual
 
+- [ ] Text Treatment
 - [ ] Dark and Light Modes
 - [ ] All interactive states
-- [ ] Document Variations
+- [ ] Document Options and Variations
 - [ ] Color Schemes
 - [ ] Breakpoints and platform scales
 - [ ] “Yield point” behaviors
+- [ ] Animations
 
 #### Content
 
@@ -50,4 +52,4 @@ assignees: ''
 - [ ] iOS
 - [ ] Android
 - [ ] Web
-- [ ] Analytics Log Snippet
+- [ ] Analytics Snippet(s)
