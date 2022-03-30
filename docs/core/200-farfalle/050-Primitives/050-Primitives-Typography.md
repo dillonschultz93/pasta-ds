@@ -760,16 +760,16 @@ nav_order: 50
         <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h1.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.size": "$YPL.FFL.TKUI_C.typo.europa.1100.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.size": "$YPL.FFL.TKUI_M.typo.europa.h1.size"'>
           <code class="language-plaintext highlighter-rouge">-h1.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.leading": 50.4'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.leading": "$YPL.FFL.TKUI_M.typo.europa.h1.leading"'>
           <code class="language-plaintext highlighter-rouge">-h1.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.paragraphSpacing": 22.68'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h1.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h1.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.letterSpacing": "-2%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.tracking": "$YPL.FFL.TKUI_M.typo.europa.h1.tracking'>
           <code class="language-plaintext highlighter-rouge">-h1.letterSpacing</code>
         </span>
         <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.textAlignHorizontal": "left"'>
@@ -802,31 +802,31 @@ nav_order: 50
   <tbody>
    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h2.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.size": "$YPL.FFL.TKUI_C.typo.europa.1000.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.size": "$YPL.FFL.TKUI_M.typo.europa.h2.size"'>
           <code class="language-plaintext highlighter-rouge">-h2.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.leading": 41.6'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.leading": "$YPL.FFL.TKUI_M.typo.europa.h2.leading"'>
           <code class="language-plaintext highlighter-rouge">-h2.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.paragraphSpacing": 23.12'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h2.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h2.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.letterSpacing": "-2%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.tracking": "$YPL.FFL.TKUI_M.typo.europa.h2.tracking"'>
           <code class="language-plaintext highlighter-rouge">-h2.letterSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.textAlignHorizontal": "left"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.textAlignHorizontal": "left"'>
           <code class="language-plaintext highlighter-rouge">-h2.textAlignHorizontal</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.textCase": "original"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.textCase": "original"'>
           <code class="language-plaintext highlighter-rouge">-h2.textCase</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.textDecoration": "none"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.textDecoration": "none"'>
           <code class="language-plaintext highlighter-rouge">-h2.textDecoration</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h2.color": "$YPL.FFL.TKUI_C.colors.black"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-002.HMN_typo_europa-h2.color": "$YPL.FFL.TKUI_C.colors.black"'>
           <code class="language-plaintext highlighter-rouge">-h2.color</code>
         </span>
       </td>
@@ -847,31 +847,31 @@ nav_order: 50
   <tbody>
    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h3.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.size": "$YPL.FFL.TKUI_C.typo.europa.900.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.size": "$YPL.FFL.TKUI_M.typo.europa.h3.size"'>
           <code class="language-plaintext highlighter-rouge">-h3.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.leading": $YPL.FFL.TKUI_C.typo.europa.900.leading'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.leading": "$YPL.FFL.TKUI_M.typo.europa.h3.leading"'>
           <code class="language-plaintext highlighter-rouge">-h3.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.paragraphSpacing": 17.28'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h3.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h3.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.letterSpacing": "-2%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.tracking": "$YPL.FFL.TKUI_M.typo.europa.h3.tracking"'>
           <code class="language-plaintext highlighter-rouge">-h3.letterSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.textAlignHorizontal": "left"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.textAlignHorizontal": "left"'>
           <code class="language-plaintext highlighter-rouge">-h3.textAlignHorizontal</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.textCase": "original"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.textCase": "original"'>
           <code class="language-plaintext highlighter-rouge">-h3.textCase</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.textDecoration": "none"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.textDecoration": "none"'>
           <code class="language-plaintext highlighter-rouge">-h3.textDecoration</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h3.color": "$YPL.FFL.TKUI_C.colors.black"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-003.HMN_typo_europa-h3.color": "$YPL.FFL.TKUI_C.colors.black"'>
           <code class="language-plaintext highlighter-rouge">-h3.color</code>
         </span>
       </td>
@@ -892,31 +892,31 @@ nav_order: 50
   <tbody>
    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h4.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.size": "$YPL.FFL.TKUI_C.typo.europa.800.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.size": "$YPL.FFL.TKUI_M.typo.europa.h4.size"'>
           <code class="language-plaintext highlighter-rouge">-h4.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.leading": $YPL.FFL.TKUI_C.typo.europa.800.leading'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.leading": "$YPL.FFL.TKUI_M.typo.europa.h4.leading"'>
           <code class="language-plaintext highlighter-rouge">-h4.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.paragraphSpacing": 15.12'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h4.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h4.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.letterSpacing": "-1%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.tracking": "$YPL.FFL.TKUI_M.typo.europa.h4.tracking"'>
           <code class="language-plaintext highlighter-rouge">-h4.letterSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.textAlignHorizontal": "left"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.textAlignHorizontal": "left"'>
           <code class="language-plaintext highlighter-rouge">-h4.textAlignHorizontal</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.textCase": "original"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.textCase": "original"'>
           <code class="language-plaintext highlighter-rouge">-h4.textCase</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.textDecoration": "none"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.textDecoration": "none"'>
           <code class="language-plaintext highlighter-rouge">-h4.textDecoration</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h4.color": "$YPL.FFL.TKUI_C.colors.black"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-004.HMN_typo_europa-h4.color": "$YPL.FFL.TKUI_C.colors.black"'>
           <code class="language-plaintext highlighter-rouge">-h4.color</code>
         </span>
       </td>
@@ -937,31 +937,31 @@ nav_order: 50
   <tbody>
    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h5.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.size": "$YPL.FFL.TKUI_C.typo.europa.700.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.size": "$YPL.FFL.TKUI_M.typo.europa.h5.size"'>
           <code class="language-plaintext highlighter-rouge">-h5.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.leading": $YPL.FFL.TKUI_C.typo.europa.700.leading'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.leading": "$YPL.FFL.TKUI_M.typo.europa.h5.leading"'>
           <code class="language-plaintext highlighter-rouge">-h5.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.paragraphSpacing": 12.96'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h5.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h5.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.letterSpacing": "-1%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.tracking": "$YPL.FFL.TKUI_M.typo.europa.h5.tracking"'>
           <code class="language-plaintext highlighter-rouge">-h5.letterSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.textAlignHorizontal": "left"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.textAlignHorizontal": "left"'>
           <code class="language-plaintext highlighter-rouge">-h5.textAlignHorizontal</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.textCase": "original"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.textCase": "original"'>
           <code class="language-plaintext highlighter-rouge">-h5.textCase</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.textDecoration": "none"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.textDecoration": "none"'>
           <code class="language-plaintext highlighter-rouge">-h5.textDecoration</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h5.color": "$YPL.FFL.TKUI_C.colors.black"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-005.HMN_typo_europa-h5.color": "$YPL.FFL.TKUI_C.colors.black"'>
           <code class="language-plaintext highlighter-rouge">-h5.color</code>
         </span>
       </td>
@@ -982,31 +982,31 @@ nav_order: 50
   <tbody>
    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h6.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.size": "$YPL.FFL.TKUI_C.typo.europa.600.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.size": "$YPL.FFL.TKUI_M.typo.europa.h6.size"'>
           <code class="language-plaintext highlighter-rouge">-h6.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.leading": $YPL.FFL.TKUI_C.typo.europa.600.leading'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.leading": "$YPL.FFL.TKUI_M.typo.europa.h6.leading"'>
           <code class="language-plaintext highlighter-rouge">-h6.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.paragraphSpacing": 10.8'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h6.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h6.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.letterSpacing": "0%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.tracking": "$YPL.FFL.TKUI_M.typo.europa.h6.tracking"'>
           <code class="language-plaintext highlighter-rouge">-h6.letterSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.textAlignHorizontal": "left"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.textAlignHorizontal": "left"'>
           <code class="language-plaintext highlighter-rouge">-h6.textAlignHorizontal</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.textCase": "original"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.textCase": "original"'>
           <code class="language-plaintext highlighter-rouge">-h6.textCase</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.textDecoration": "none"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.textDecoration": "none"'>
           <code class="language-plaintext highlighter-rouge">-h6.textDecoration</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h6.color": "$YPL.FFL.TKUI_C.colors.black"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-006.HMN_typo_europa-h6.color": "$YPL.FFL.TKUI_C.colors.black"'>
           <code class="language-plaintext highlighter-rouge">-h6.color</code>
         </span>
       </td>
@@ -1027,31 +1027,31 @@ nav_order: 50
   <tbody>
    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h7.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.size": "$YPL.FFL.TKUI_C.typo.europa.500.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.size": "$YPL.FFL.TKUI_M.typo.europa.h7.size"'>
           <code class="language-plaintext highlighter-rouge">-h7.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.leading": $YPL.FFL.TKUI_C.typo.europa.500.leading'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.leading": "$YPL.FFL.TKUI_M.typo.europa.h7.leading"'>
           <code class="language-plaintext highlighter-rouge">-h7.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.paragraphSpacing": 9.72'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h7.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h7.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.letterSpacing": "-2%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.tracking": "$YPL.FFL.TKUI_M.typo.europa.h7.tracking"'>
           <code class="language-plaintext highlighter-rouge">-h7.letterSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.textAlignHorizontal": "left"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.textAlignHorizontal": "left"'>
           <code class="language-plaintext highlighter-rouge">-h7.textAlignHorizontal</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.textCase": "original"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.textCase": "original"'>
           <code class="language-plaintext highlighter-rouge">-h7.textCase</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.textDecoration": "none"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.textDecoration": "none"'>
           <code class="language-plaintext highlighter-rouge">-h7.textDecoration</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h7.color": "$YPL.FFL.TKUI_C.colors.black"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-007.HMN_typo_europa-h7.color": "$YPL.FFL.TKUI_C.colors.black"'>
           <code class="language-plaintext highlighter-rouge">-h7.color</code>
         </span>
       </td>
@@ -1072,31 +1072,31 @@ nav_order: 50
   <tbody>
    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
           <code class="language-plaintext highlighter-rouge">-h8.familyName</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.size": "$YPL.FFL.TKUI_C.typo.europa.300.size"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.size": "$YPL.FFL.TKUI_M.typo.europa.h8.size"'>
           <code class="language-plaintext highlighter-rouge">-h8.size</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.leading": $YPL.FFL.TKUI_C.typo.europa.300.leading'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.leading": "$YPL.FFL.TKUI_M.typo.europa.h8.leading"'>
           <code class="language-plaintext highlighter-rouge">-h8.leading</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.paragraphSpacing": 7.56'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.h8.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h8.paragraphSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.letterSpacing": "0%"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.tracking": "$YPL.FFL.TKUI_M.typo.europa.h8.tracking"'>
           <code class="language-plaintext highlighter-rouge">-h8.letterSpacing</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.textAlignHorizontal": "left"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.textAlignHorizontal": "left"'>
           <code class="language-plaintext highlighter-rouge">-h8.textAlignHorizontal</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.textCase": "original"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.textCase": "original"'>
           <code class="language-plaintext highlighter-rouge">-h8.textCase</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.textDecoration": "none"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.textDecoration": "none"'>
           <code class="language-plaintext highlighter-rouge">-h8.textDecoration</code>
         </span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h8.color": "$YPL.FFL.TKUI_C.colors.black"'>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-008.HMN_typo_europa-h8.color": "$YPL.FFL.TKUI_C.colors.black"'>
           <code class="language-plaintext highlighter-rouge">-h8.color</code>
         </span>
       </td>
@@ -1106,4 +1106,366 @@ nav_order: 50
 
 ## Paragraphs
 
+<!-- Regular -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Regular Paragraph • F0002-101</p>
+        <span class="Europa-ed-r" style="font-size: 16px; line-height: 19.2px; letter-spacing: -0.02em; color: #000000;">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper.</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.size": "$YPL.FFL.TKUI_M.typo.europa.p.regular.size"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.leading": "$YPL.FFL.TKUI_M.typo.europa.p.regular.leading"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.p.regular.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.tracking": "$YPL.FFL.TKUI_M.typo.europa.p.regular.tracking'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-101.HMN_typo_europa-p_regular.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-p_regular.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<!-- Strong -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Strong Paragraph • F0002-102</p>
+        <span class="Europa-ed-b" style="font-size: 16px; line-height: 19.2px; letter-spacing: -0.02em; color: #000000;">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper.</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.size": "$YPL.FFL.TKUI_M.typo.europa.p.strong.size"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.leading": "$YPL.FFL.TKUI_M.typo.europa.p.strong.leading"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.p.strong.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.tracking": "$YPL.FFL.TKUI_M.typo.europa.p.strong.tracking'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-102.HMN_typo_europa-p_strong.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-p_strong.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<!-- Regular -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Regular Small Paragraph • F0002-201</p>
+        <span class="Europa-ed-r" style="font-size: 14px; line-height: 16.8px; letter-spacing: -0.02em; color: #000000;">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper.</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.size": "$YPL.FFL.TKUI_M.typo.europa.sp.regular.size"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.leading": "$YPL.FFL.TKUI_M.typo.europa.sp.regular.leading"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.sp.regular.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.tracking": "$YPL.FFL.TKUI_M.typo.europa.sp.regular.tracking'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-201.HMN_typo_europa-sp_regular.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-sp_regular.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<!-- Strong -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Strong Small Paragraph • F0002-202</p>
+        <span class="Europa-ed-b" style="font-size: 14px; line-height: 16.8px; letter-spacing: -0.02em; color: #000000;">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper.</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.size": "$YPL.FFL.TKUI_M.typo.europa.sp.strong.size"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.leading": "$YPL.FFL.TKUI_M.typo.europa.sp.strong.leading"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.sp.strong.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.tracking": "$YPL.FFL.TKUI_M.typo.europa.sp.strong.tracking'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-202.HMN_typo_europa-sp_strong.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-sp_strong.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+## Captions
+
+<!-- Regular -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Regular Caption • F0002-301</p>
+        <span class="Europa-ed-r" style="font-size: 12px; line-height: 18px; letter-spacing: -0.02em; color: #000000;">Lorem ipsum</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.regular"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.size": "$YPL.FFL.TKUI_M.typo.europa.caption.regular.size"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.leading": "$YPL.FFL.TKUI_M.typo.europa.caption.regular.leading"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.caption.regular.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.tracking": "$YPL.FFL.TKUI_M.typo.europa.caption.regular.tracking"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-301.HMN_typo_europa-caption_regular.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-caption_regular.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<!-- Strong -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Strong Caption • F0002-302</p>
+        <span class="Europa-ed-b" style="font-size: 12px; line-height: 18px; letter-spacing: -0.02em; color: #000000;">Lorem ipsum</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.size": "$YPL.FFL.TKUI_M.typo.europa.caption.strong.size"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.leading": "$YPL.FFL.TKUI_M.typo.europa.caption.strong.leading"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.caption.strong.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.tracking": "$YPL.FFL.TKUI_M.typo.europa.caption.strong.tracking"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-302.HMN_typo_europa-caption_strong.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-caption_strong.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
 ## Eyebrows
+
+<!-- Regular -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Eyebrow • F0002-401</p>
+        <span class="Europa-ed-b" style="font-size: 12px; line-height: 18px; letter-spacing: 0.1em; color: #000000; text-transform: uppercase;">Dolar sit amet</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.regular"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.size": "$YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.leading": "$YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.tracking": "$YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
+
+<!-- Small -->
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>
+        <p>Small Eyebrow • F0002-402</p>
+        <span class="Europa-ed-b" style="font-size: 10px; line-height: 14px; letter-spacing: 0.1em; color: #000000; text-transform: uppercase;">Dolar sit amet</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow_small.familyName": "$YPL.FFL.TKUI_C.typo.europa.familyName.bold"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.familyName</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow_small.size": "$YPL.FFL.TKUI_M.typo.europa.eyebrow.small.size"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.size</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow_small.leading": "$YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.leading</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow_small.paragraphSpacing": "$YPL.FFl.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.paragraphSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow_small.tracking": "$YPL.FFL.TKUI_M.typo.europa.eyebrow.small.tracking"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.letterSpacing</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow.small.textAlignHorizontal": "left"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.textAlignHorizontal</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow.small.textCase": "original"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.textCase</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow.small.textDecoration": "none"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.textDecoration</code>
+        </span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.F0002-402.HMN_typo_europa-eyebrow.small.color": "$YPL.FFL.TKUI_C.colors.black"'>
+          <code class="language-plaintext highlighter-rouge">-eyebrow.small.color</code>
+        </span>
+      </td>
+   </tr>
+  </tbody>
+</table>
