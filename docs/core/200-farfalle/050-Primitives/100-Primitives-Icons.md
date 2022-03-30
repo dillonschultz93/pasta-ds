@@ -11,13 +11,46 @@ layout: default
 nav_order: 100
 ---
 
-# Icons&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
+# Icons&nbsp;`{{ page.project_id }}.{{ page.UID }}`
 {: .no_toc}
 
-| UID | Ticket | Owner | Figma | Pasta Version |
+| UID | Ticket | Owner | Options | {{ page.project_id }} Version |
 |---|---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`|[&#35;26](https://github.com/yummly/pasta/issues/26)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|
+|`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}|[&#35;26](https://github.com/yummly/pasta/issues/26)|[Robert](https://github.com/robert-ANML)|<span data-toolclip='a lot'><code>N</code></span> |[TBD](https://github.com/yummly/pasta/releases)|
 {: .headTopBorder}
+
 
 - TOC
 {:toc}
+
+
+<table class="tableIcons">
+  <!-- <caption>my caption</caption> -->
+  <!-- <thead>
+    <tr>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+      <th>Column</th>
+    </tr>
+  </thead> -->
+  <tbody>
+    <tr>
+      <td><span data-toolclip='FFL.F0003-001 // "Figma"'><img src="{{site.baseurl}}/assets/images/YPL-DOC-icon-figma.svg" class="iconPreviewThumb"></span></td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn iconed downloadBadge">Download Zip</a>

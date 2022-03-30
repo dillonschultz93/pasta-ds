@@ -730,6 +730,7 @@ nav_order: 50
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
+
 # Typography&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
 
 {: .no_toc}
@@ -745,7 +746,7 @@ nav_order: 50
 ## Headings
 
 <!-- H1 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-001">
   <thead>
     <tr>
       <th>
@@ -790,7 +791,7 @@ nav_order: 50
 </table>
 
 <!-- H2 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-002">
   <thead>
     <tr>
       <th>
@@ -835,7 +836,7 @@ nav_order: 50
 </table>
 
 <!-- H3 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-003">
   <thead>
     <tr>
       <th>
@@ -880,7 +881,7 @@ nav_order: 50
 </table>
 
 <!-- H4 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-004">
   <thead>
     <tr>
       <th>
@@ -925,7 +926,7 @@ nav_order: 50
 </table>
 
 <!-- H5 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-005">
   <thead>
     <tr>
       <th>
@@ -970,7 +971,7 @@ nav_order: 50
 </table>
 
 <!-- H6 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-006">
   <thead>
     <tr>
       <th>
@@ -1015,7 +1016,7 @@ nav_order: 50
 </table>
 
 <!-- H7 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-007">
   <thead>
     <tr>
       <th>
@@ -1060,7 +1061,7 @@ nav_order: 50
 </table>
 
 <!-- H8 -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-008">
   <thead>
     <tr>
       <th>
@@ -1107,7 +1108,7 @@ nav_order: 50
 ## Paragraphs
 
 <!-- Regular -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-101">
   <thead>
     <tr>
       <th>
@@ -1152,7 +1153,7 @@ nav_order: 50
 </table>
 
 <!-- Strong -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-102">
   <thead>
     <tr>
       <th>
@@ -1197,7 +1198,7 @@ nav_order: 50
 </table>
 
 <!-- Regular -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-201">
   <thead>
     <tr>
       <th>
@@ -1242,7 +1243,7 @@ nav_order: 50
 </table>
 
 <!-- Strong -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-202">
   <thead>
     <tr>
       <th>
@@ -1289,7 +1290,7 @@ nav_order: 50
 ## Captions
 
 <!-- Regular -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-301">
   <thead>
     <tr>
       <th>
@@ -1334,7 +1335,7 @@ nav_order: 50
 </table>
 
 <!-- Strong -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-302">
   <thead>
     <tr>
       <th>
@@ -1381,7 +1382,7 @@ nav_order: 50
 ## Eyebrows
 
 <!-- Regular -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-401">
   <thead>
     <tr>
       <th>
@@ -1426,7 +1427,7 @@ nav_order: 50
 </table>
 
 <!-- Small -->
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table class="type-01 headerNoUpperCase colBordered headFramed" id="F0002-402">
   <thead>
     <tr>
       <th>

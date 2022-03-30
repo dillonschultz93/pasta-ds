@@ -302,19 +302,19 @@ nav_order: 100
 
 <!-- Utility scripts -->
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
-
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
+
 
 # Poster Card
 {: .no_toc}
 
 Poster Cards distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Poster Cards are used to promote key features within the user journey.
 
-| UID | Ticket | Owner |Figma|Pasta Version|
+| UID | Ticket | Owner | Options |{{ page.project_id }} Version|
 |---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|[Poster Card Page](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
+|`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|<span data-toolclip='OPT_layout2, OPT_small'><code>2</code></span> |[TBD](https://github.com/yummly/pasta/releases)|
 {: .headTopBorder}
 
 <div class="tabs">
@@ -335,7 +335,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
   </div>
 </div>
 
-<a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn figmaFlagged">To Figma →</a>
+<a href="https://www.figma.com/file/0bsuBBIh84iyjXEVC8AUE1/?node-id=12%3A1694" class="btn iconed figmaBadge">To Figma →</a>
 
 - TOC
 {:toc}
@@ -360,11 +360,13 @@ Poster Cards distinctive attribute is their background image that fill the card 
   </div>
 </div>
 
+### Instantiation
+
 <section class="flex-1_2-cols">
    <div>
-    <br>
+     <br>
     <p>
-     In order to implement this Pattern you will need to implement all its dependencies first.<br>
+     This Pattern requires that you implement and instantiate all these dependencies.<br>
      Please refer to each component in this list&nbsp;→
      </p>
    </div>
@@ -372,44 +374,88 @@ Poster Cards distinctive attribute is their background image that fill the card 
      <table>
        <thead>
          <tr>
-           <th>UID</th>
-           <th>Type</th>
+           <th>Instance</th>
+           <th>Component</th>
+           <!-- <th>Type</th> -->
            <th></th>
          </tr>
        </thead>
         <tbody>
-
          <tr>
-            <td><code>FFL.E0001</code></td><td>Element</td>
+            <td>.chip</td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip" // alias'><code>FFL.E0001</code></span></td>
+            <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
-            <td><code>FFL.F0002-003</code></td><td>Primitive</td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#heading" alt="Link to Element page" class="btn">Heading 3 →</a></td>
+            <td>.chip</td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip" // alias'><code>FFL.E0001</code></span></td>
+            <!-- <td>Element</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
-            <td><code>FFL.F0002-200</code></td><td>Primitive</td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#eyebrow" alt="Link to Primitive page" class="btn">Eyebrow →</a></td>
+            <td>.heading</td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europe-heading_3" // alias'><code>FFL.F0002-005</code></span></td>
+            <!-- <td>Primitive</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
          </tr>
          <tr>
-            <td><code>FFL-E0003</code></td><td>Element</td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/button" alt="Link to Element page" class="btn">Button Icon →</a></td>
+            <td>.eyebrow</td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-201.HMN_typo_europa-eyebrow_regular" // alias'><code>FFL.F0002-401</code></span></td>
+            <!-- <td>Primitive</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
          </tr>
          <tr>
-            <td><code>FFL-E0002-100</code></td><td>Primitive</td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#paragraph" alt="Link to Primitive page" class="btn">Paragraph Small →</a></td>
+            <td>.switchButton</td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon" // alias'><code>FFL.E0003-003</code></span></td>
+            <!-- <td>Element</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/button" alt="Link to Element page" class="btn">button →</a></td>
+         </tr>
+         <tr>
+            <td>.paragraph<sup> OPT</sup></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-101.HMN_typo_europa-p_small" // alias'><code>FFL.F0002-201</code></span></td>
+            <!-- <td>Primitive</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-201" alt="Link to Primitive page" class="btn">paragraph →</a></td>
          </tr>
         </tbody>
      </table>
    </div>
  </section>
 
-## Tree
+  <hr>
+
+  <details>
+  <summary>verbose snippet</summary>
+  <p>
+  {% highlight js %}
+  //// dependencies
+
+  // .blockHeader
+
+  "YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip",
+
+  // .blockCopy
+
+  "YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip",
+  "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europe-heading_3",
+  "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-101.HMN_typo_europa-p_small",
+
+  // .blockFooter
+
+  "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-201.HMN_typo_europa-eyebrow_regular",
+  "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon",
+  {% endhighlight %}
+  </p>
+  </details>
+
+  <hr>
+
+### Tree
 
  <section class="flex-1_2-cols">
    <div>
     <p>
-      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options →
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
     </p>
    </div>
    <div>
@@ -419,11 +465,11 @@ Poster Cards distinctive attribute is their background image that fill the card 
           │   └─ .chip
           ├─ .blockCopy
           │   ├─ .chip (optional)
-          │   ├─ .h3
-          │   └─ .paragraphSmall (optional)
+          │   ├─ .heading
+          │   └─ .paragraph (optional)
           └─ .blockFooter
               ├─ .eyebrow
-              └─ .butIcon (optional)
+              └─ .switchButton (optional)
      {% endhighlight %}
    </div>
  </section>
@@ -447,7 +493,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
 
 ### Interaction
 
-#### Default
+###### Default
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
@@ -473,7 +519,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
   </tbody>
 </table>
 
-#### Highighted
+###### Highighted
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
@@ -505,8 +551,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
 
 ### Variations
 
-##### Options
-{: .no_toc}
+###### Options
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
@@ -534,76 +579,40 @@ Poster Cards distinctive attribute is their background image that fill the card 
 <!-- ##### Modes
 {: .no_toc} -->
 
-##### Breakpoints
-{: .no_toc}
+
+###### Breakpoints
 
 <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th></th>
-      <th colspan="2">.BRKP_s&nbsp;(←&nbsp;480)</th>
-      <th colspan="2">.BRKP_m&nbsp;(←&nbsp;768)</th>
-      <th colspan="2">.BRKP_l&nbsp;(←&nbsp;1024)</th>
-      <th colspan="2">.BRKP_xl&nbsp;(←&nbsp;1920)</th>
-      <th></th>
+      <th>.BRKP_s&nbsp;(480)</th>
+      <th>.BRKP_m&nbsp;(768)</th>
+      <th>.BRKP_l&nbsp;(1024)</th>
+      <th>.BRKP_xl&nbsp;(1920)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="2">
+      <td>
         <span class="dimmed">( <i> default </i> )</span>
       </td>
-      <td colspan="2">
+      <td>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.800.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.size.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.tracking.value"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.leading.value"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
       </td>
-      <td colspan="2">
-
+      <td>
+        <span class="dimmed">N/A</span>
       </td>
-      <td colspan="2">
-
-      </td>
-      <td colspan="2">
-
+      <td>
+        <span class="dimmed">N/A</span>
       </td>
     </tr>
   </tbody>
 </table>
 
-
-## Accessibility Checklist
-
-| Criterion | Description | Pending| Done | N/A |
-|---|---|:---:|:---:|:---:|
-|[1.1.1](https://www.w3.org/TR/WCAG21/#text-alternatives)|Text Alternatives|<input type="radio" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="Pending" checked>|<input type="radio" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="Done">|<input type="radio" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A">|
-|[1.4.1](https://www.w3.org/TR/WCAG21/#use-of-color)|Color not the only way to convey information|<input type="radio" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="Pending" checked>|<input type="radio" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="Done">|<input type="radio" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A">|
-|[1.4.3](https://www.w3.org/TR/WCAG21/#contrast-minimum)|Text Color Contrast|<input type="radio" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="Pending" checked>|<input type="radio" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="Done">|<input type="radio" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A">|
-|[1.4.6](https://www.w3.org/TR/WCAG21/#contrast-enhanced)|Text Color Contrast AAA|<input type="radio" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="Pending" checked>|<input type="radio" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="Done">|<input type="radio" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A">|
-|[1.4.11](https://www.w3.org/TR/WCAG21/#non-text-contrast)|Fill Color Contrast|<input type="radio" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="Pending" checked>|<input type="radio" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="Done">|<input type="radio" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A">|
-|[1.4.4](https://www.w3.org/TR/WCAG21/#resize-text)|200% Text Size|<input type="radio" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="Pending" checked>|<input type="radio" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="Done">|<input type="radio" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A">|
-|[1.4.12](https://www.w3.org/TR/WCAG21/#text-spacing)|Text Spacing|<input type="radio" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="Pending" checked>|<input type="radio" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="Done">|<input type="radio" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A">|
-|[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
-
-<!--
-## Copy Writing Guidelines
-
-<section class="flex-1_1-cols">
-  <div>
-    <p>
-     Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
-    </p>
-    <hr class="dd-do">
-  </div>
-   <div>
-     <p>
-      Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
-     </p>
-      <hr class="dd-dont">
- </div>
- </section> -->
 
 ## Tokens Playground
 
@@ -745,6 +754,38 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 }
 {% endhighlight %}
 </details>
+
+<!--
+## Copy Writing Guidelines
+
+<section class="flex-1_1-cols">
+  <div>
+    <p>
+     Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
+    </p>
+    <hr class="dd-do">
+  </div>
+   <div>
+     <p>
+      Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
+     </p>
+      <hr class="dd-dont">
+ </div>
+ </section> -->
+
+
+## Accessibility Status
+
+| Criterion | Description | Pending| Done | N/A |
+|---|---|:---:|:---:|:---:|
+|[1.1.1](https://www.w3.org/TR/WCAG21/#text-alternatives)|Text Alternatives|<input type="radio" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="Pending" checked>|<input type="radio" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="Done">|<input type="radio" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A">|
+|[1.4.1](https://www.w3.org/TR/WCAG21/#use-of-color)|Color not the only way to convey information|<input type="radio" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="Pending" checked>|<input type="radio" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="Done">|<input type="radio" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A">|
+|[1.4.3](https://www.w3.org/TR/WCAG21/#contrast-minimum)|Text Color Contrast|<input type="radio" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="Pending" checked>|<input type="radio" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="Done">|<input type="radio" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A">|
+|[1.4.6](https://www.w3.org/TR/WCAG21/#contrast-enhanced)|Text Color Contrast AAA|<input type="radio" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="Pending" checked>|<input type="radio" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="Done">|<input type="radio" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A">|
+|[1.4.11](https://www.w3.org/TR/WCAG21/#non-text-contrast)|Fill Color Contrast|<input type="radio" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="Pending" checked>|<input type="radio" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="Done">|<input type="radio" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A">|
+|[1.4.4](https://www.w3.org/TR/WCAG21/#resize-text)|200% Text Size|<input type="radio" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="Pending" checked>|<input type="radio" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="Done">|<input type="radio" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A">|
+|[1.4.12](https://www.w3.org/TR/WCAG21/#text-spacing)|Text Spacing|<input type="radio" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="Pending" checked>|<input type="radio" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="Done">|<input type="radio" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A">|
+|[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
 
 
 ## Checklist

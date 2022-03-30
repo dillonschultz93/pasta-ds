@@ -220,6 +220,34 @@ p > img {
 }
 
 
+// icons
+
+.iconPreviewThumb {
+  width: 24pt;
+  height: 24pt;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+table.tableIcons {
+  border-collapse: collapse;
+  // border-spacing: 0px;
+}
+table.tableIcons td {
+  text-align: center;
+  padding: 0 !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+table.tableIcons td [data-toolclip]:hover > * {
+  background-color: transparent;
+  border: none;
+  // color: #eee;
+  // transition: all 0.4s;
+}
+table.tableIcons td img {
+  margin: 1.2rem;
+}
+
 // specific
 
 #thePermutationOfPasta {
@@ -501,23 +529,30 @@ h1 + hr {
 }
 
 
-.btn.figmaFlagged {
+.btn.iconed {
  padding: 0 16pt 0 4pt !important;
  float: right;
+ margin-left: 12pt;
 }
-.figmaFlagged::before {
+.iconed::before {
   opacity: 0.65;
   display: inline-block;
   vertical-align: middle;
-  content: url('../images/YPL-DOC-figma-logo.svg') !important;
   width: 22pt;
   height: 22pt;
   padding: 8pt;
   margin-right: 12pt;
   border-right: 1px solid $grey-lt-300;
 }
-.figmaFlagged:hover::before {
+.iconed:hover::before {
   filter: invert(100);
+}
+// flavors:
+.iconed.figmaBadge::before {
+  content: url('../images/YPL-DOC-icon-figma.svg') !important;
+}
+.iconed.downloadBadge::before {
+  content: url('../images/YPL-DOC-icon-download.svg') !important;
 }
 
 
@@ -704,6 +739,7 @@ table.headTopBorder th {
 td span {
   display: inline-block;
   margin: 0.2rem !important;
+  hyphens: none !important;
 }
 
 

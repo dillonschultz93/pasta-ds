@@ -24,7 +24,7 @@ Cardlets are a way to present several items of a same category. They're part of 
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-preview_01.png){: .darkenabled}
 
-<a href="https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781" class="btn figmaFlagged">To Figma →</a>
+<a href="https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781" class="btn iconed figmaBadge">To Figma →</a>
 
 - TOC
 {:toc}
