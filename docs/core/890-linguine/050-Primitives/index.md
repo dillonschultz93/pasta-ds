@@ -8,6 +8,6 @@ layout: default
 nav_order: 50
 ---
 
-# Primitives `LGN`
+# Primitives `{{ page.project_id }}`
 
 Your Content.

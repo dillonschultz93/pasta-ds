@@ -9,6 +9,6 @@ nav_order: 100
 ---
 
 
-# Content `LGN`
+# Content `{{ page.project_id }}`
 
 Your Content.

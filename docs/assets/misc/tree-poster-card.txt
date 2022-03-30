@@ -1,0 +1,28 @@
+
+
+PosterCard Tree
+
+
+Main
+  .blockHeader
+    .chip
+  .blockCopy
+    .chip
+    .heading3
+    .paragraphSmall
+  .blockFooter
+    .eyebrow
+    .butIcon
+
+
+
+YPL.FFL.P0001.HMN_posterCard
+├─ .blockHeader
+│   └─ .chip
+├─ .blockCopy
+│   ├─ .chip (toggle)
+│   ├─ .heading3
+│   └─ .paragraphSmall (toggle)
+└─ .blockFooter
+    ├─ .eyebrow
+    ├─ .butIcon (toggle)

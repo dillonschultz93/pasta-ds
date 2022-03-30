@@ -17,6 +17,7 @@ nav_order: 70
 ## Dependencies
 
 |Name|Description|Locator|Y. Fork|
+|---|---|---|---:|
 |**chroma.js**|lighweight color Manipulation|`assets/js/libs/chroma.min.js`|[→](https://github.com/yummly/chroma.js){: .btn}|
 |**chartist.js**|lighweight SVG graphs|`assets/js/libs/chartist.min.js`<br>`assets/css/chartist.min.css`|[→](https://github.com/yummly/chartist-js){: .btn}|
 ||Legend plugin|`assets/js/libs/chartist-plugin-legend.min.js`|[→](https://github.com/yummly/chartist-plugin-legend){: .btn}|

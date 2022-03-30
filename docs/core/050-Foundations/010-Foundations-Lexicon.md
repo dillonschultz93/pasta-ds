@@ -1,0 +1,137 @@
+---
+title: Lexicon # title case
+permalink: foundations/lexicon # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+parent: Foundations # title case
+layout: default
+nav_order: 10
+---
+
+# Lexicon
+{: .no_toc}
+
+
+<!-- FIXME ↓ Needs Update -->
+<a href="https://docs.google.com/document/d/1jLctpKyaXQ1c-7_8Sq6btXVsom8lTNNVsCfADxyvcWk/export?format=pdf" alt="WIP" class="btn">Cheat sheet (PDF)</a>
+
+
+<hr>
+
+- TOC
+{:toc}
+
+### Pasta
+
+Pasta refers to Yummly Product Language or its token-based Design System subpart. You can find "YPL" or "PST" as acronyms and prefixes referring to Pasta.
+
+### 2 Rules
+
+#### Zero Information Loss Rule
+
+The first rule of Pasta is that no information shall be lost or turned implicit at any granularity in the specifications and implementation of the system. In other words,  within Pasta and all its consumer-platforms, all implemented attributes can always be reverse-engineered to the primal design logic behind them.
+
+#### Reversibility Rule
+
+The second rule of Pasta is that the inheritance scheme shall be read with equal ease going down or upstream. Ie: We should easily access the all the Tokens used by Component (obviously), equally, we should easily access all the Components that use one specific Token.
+
+#### Principle: Usage over Maintenance
+
+The first Principle of Pasta is that in its development and implementation priority is given to its usability at the cost of development, implementation, and maintenance.
+
+#### How: Nomenclature and UIDs
+
+Pasta uses a verbose naming convention and UIDs for all its Components to comply with its First and Second Rules.
+
+### Tokens
+
+Tokens, also known as Design Tokens, are the constants required to implement all elements of Yummly's products interface or content. They are the quarks of Atomic Design.
+
+#### Choices
+
+Choices, also known as Choice Tokens, are the foundational choices made for design. Brand Color Palettes, Sizes and Spaces Relationship (Scales), Font Face, etc.
+
+#### Decisions
+
+Decisions, also known as Decision Tokens, are how and where the choices are injected into the design elements: the brand accent color can be used for a button background attribute in idle state or/and an icon, etc.
+Choices feed Decisions.
+
+#### Math, Alias, Super, and Proxy
+
+Other categories and sub-categories of tokens are often used used. They are explicit intermediates that help to guarantee Pasta Zero Information Loss Rule.
+
+#### TEST
+
+We use `TEST` tokens to experiments and test Pasta limitations, edge cases and other constraints. These should be removed after once Pasta goes to β. ie: the `YPL.TEST.textSizeFactor` allows us to blow fonts size up to 200% and see if we meet WCAG 1.4.4 criterion.
+
+
+#### Raw Tokens
+
+Raw tokens, or Pasta Tokens, are the tokens before they are translated into their platform's specific equivalent.
+
+#### Resolving
+
+Resolving tokens is the operation that reduces tokens into an end result (ie: 12pt) or into another or intermediate tokens (ie: aliases, proxy).
+
+### Pasta Taxonomy
+
+#### Pasta Components
+
+Following the Atomic Design approach, Pasta uses a hierarchy of Tokens and Components: Choices Tokens, Decisions Tokens, Primitives, Elements, Patterns, and sometimes Features.
+
+![Pasta Atomic Design]({{site.baseurl}}/assets/images/YPL-DOC-Taxonomy.svg)
+
+#### Primitives
+
+Are the simplest visual artifact used as the elementary brick to build most objects: text styles, background "material", icons, and glyphs.
+
+#### Elements
+
+Autonomous items that usually fulfill a single type of interaction and are used to build Patterns. They surface methods, states, animations: buttons, slider, radio buttons, form fields.
+
+#### Patterns
+
+Patterns are coherent assemblages of Elements providing a conventional UI block: a card, a carousel, a navigation bar.
+
+#### Features
+
+Features are an aggregation of Components that serves a specific task within a user experience or user flow: a shopping list, an onboarding funnel, a search result page. They are rarely documented inside Pasta.
+
+### Apparatuses
+
+Pasta Apparatuses are a collection of scripts that automates tedious tasks and prevent human errors. Examples: calculating accessibility colors, interpolating the tracking in relation to font sizes, following Pasta tokens naming convention, etc.
+
+#### Translators
+
+The translators, aka attributes mappers, are a set of scripts that uses the Attributes Dictionary to translate the Raw Tokens into Platform-specific equivalent (Cf. [Amazon Style Dictionary](https://amzn.github.io/style-dictionary/)).
+
+#### Attributes Dictionary
+
+The attributes Dictionary is a Hash Table that maps Pasta Raw Decisions Tokens Attributes to their platform's specific counterparts.
+
+#### Proxy Tokens
+
+Proxy tokens are the resolution of attributes that cannot be directly translated to specific platforms (ie: margins do not exist in iOS which implies the generation of a "fringe" Proxy Token — and [its strict resolution protocol]({{site.baseurl}}/foundations/challenges#rules) — to be finally used to feed the iOS "padding" attributes).
+
+
+### Operations
+
+All Operations required by the Pasta release cycle and its implementation: curation, committee meetings, maintenance, component election workflow, versioning, tests, etc.
+
+#### Pasta Committee
+
+The [Pasta Committee]({{site.baseurl}}/committee) has ownership and is responsible for the maintenance, decisions, curation, documentation, and implementation of Pasta. It meets at least once a week.
+Its members (curators, contributors, subscribers, and advisors) are appointed  each quarter.
+
+#### Curators
+
+Pasta Curator(s) have ownership over Pasta core functions:
+
+- All operations, including the hosting of the committee meetings, and task management
+- The supervision of the Components production by Designers
+- The production of the Design Tokens
+- The documentation of Pasta Knowledge Base
+- Quality control: insure that Pasta Rules are respected
+- Quality control: insure that all platforms implementations remain true to Pasta
+
+#### Platforms aka Subscribers
+
+All systems Pasta is servicing its tokens and specifications to. Currently: Figma, iOS, Web, Android.

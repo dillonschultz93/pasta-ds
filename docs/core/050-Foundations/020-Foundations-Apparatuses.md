@@ -46,20 +46,20 @@ Generates the prefix or domain of the token.
 
 <hr>
 
-Work in progress
-{: .label}
 ### Dimension
 Dimension apparatuses are used to create the various values of tokens associated with scale, space, sizing, factors, and breakpoints.
 
 <hr>
 
-#### `generateAllScaleTokens(...)`
+#### `generateScale(...)`
 
 ```js
-generateAllScaleTokens(
+generateScale(
   scales: Array<string>,
   scaleOptions: Object,
-  namingOptions: Object
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -70,14 +70,18 @@ Generates all scale tokens using a set of algorithms based off of the scale opti
 | `scales: ['geoA', 'arithA', 'arithB']`                                   | Yes          |
 | `scaleOptions: { base: number, ratio: number, baseIndex: number }`       | Yes          |
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
-#### `generateAllSpaceTokens(...)`
+#### `generateSpace(...)`
 
 ```js
-generateAllSpaceTokens(
-  namingOptions: Object
+generateSpace(
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -86,14 +90,18 @@ Generates all spacing tokens as choices using the scale token keys as values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
 
-#### `generateAllStaticSizeTokens(...)`
+#### `generateStaticSize(...)`
 
 ```js
-generateAllStaticSizeTokens(
-  namingOptions: Object
+generateStaticSize(
+  namingOptions: Object,
+  description: String,
+  type: String
 );
 ```
 
@@ -102,5 +110,82 @@ Generates all static size tokens as choices using a set of constant values.
 | **parameter**                                                            | **required** |
 |--------------------------------------------------------------------------|--------------|
 | `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
 
 <hr>
+
+#### `generateFactor(...)`
+
+```js
+generateFactor(
+  namingOptions: Object,
+  description: String,
+  type: String
+);
+```
+
+Generates all factor tokens as choices using a set of constant values.
+
+| **parameter**                                                            | **required** |
+|--------------------------------------------------------------------------|--------------|
+| `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
+
+<hr>
+
+#### `generateBreakpoint(...)`
+
+```js
+generateBreakpoint(
+  namingOptions: Object,
+  description: String,
+  type: String
+);
+```
+
+Generates all breakpoint tokens as choices using a set of constant values.
+
+| **parameter**                                                            | **required** |
+|--------------------------------------------------------------------------|--------------|
+| `namingOptions: { namespace: string, project: string, kingdom: string }` | Yes          |
+| `description: string`                                                    | No           |
+| `type: string`                                                           | No           |
+
+<hr>
+
+### Typography
+The typography apparatuses are used to help generate typography choice tokens and typography decision tokens.
+
+<hr>
+
+#### `getTracking(...)`
+
+```js
+getTracking(
+  fontSize: Number
+);
+```
+
+Gets the predicted tracking value based off of a desired font size
+
+| **parameter**      | **required** |
+|--------------------|--------------|
+| `fontSize: number` | Yes          |
+
+<hr>
+
+#### `getLeading(...)`
+
+```js
+getLeading(
+  fontSize: Number
+);
+```
+
+Gets the predicted leading value based off of a desired font size
+
+| **parameter**      | **required** |
+|--------------------|--------------|
+| `fontSize: number` | Yes          |
