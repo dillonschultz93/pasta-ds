@@ -395,7 +395,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
          </tr>
          <tr>
             <td>.heading</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europe-heading_3" // alias'><code>FFL.F0002-005</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europe-heading_5" // alias'><code>FFL.F0002-005</code></span></td>
             <!-- <td>Primitive</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
          </tr>
@@ -437,7 +437,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
   // .blockCopy
 
   "YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip",
-  "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europe-heading_3",
+  "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-heading_5",
   "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-101.HMN_typo_europa-p_small",
 
   // .blockFooter
