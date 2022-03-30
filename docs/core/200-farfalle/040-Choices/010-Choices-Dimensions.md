@@ -731,7 +731,7 @@ nav_order: 10
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/chartist.css">
 
 <!-- Utility scripts -->
-<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-doc-utilities.js"></script>
+
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
 
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
