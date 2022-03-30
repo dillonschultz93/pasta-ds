@@ -47,9 +47,18 @@
     "YPL.FFL.TKUI_C.sizes.macro.1200": {"value": "YPL.FFL.TKUI_M.scales.arithB.1100"}, // 1024 pt"
 
     // Spaces
-    "YPL.FFL.TKUI_C.spaces.s": {"value": "YPL.FFL.TKUI_M.scales.arithA.200"}, // 8pt"
-    "YPL.FFL.TKUI_C.spaces.m": {"value": "YPL.FFL.TKUI_M.scales.arithA.600"}, // 16pt"
-    "YPL.FFL.TKUI_C.spaces.l": {"value": "YPL.FFL.TKUI_M.scales.arithA.800"}, // 24pt"
+
+    "YPL.FFL.TKUI_C.spaces.none": 0, // 0
+    "YPL.FFL.TKUI_C.spaces.xs": "YPL.FFL.TKUI_M.scales.arithA.200", // 4
+    "YPL.FFL.TKUI_C.spaces.s": "YPL.FFL.TKUI_M.scales.arithA.400", // 8
+    "YPL.FFL.TKUI_C.spaces.sm": "YPL.FFL.TKUI_M.scales.arithA.600", // 12
+    "YPL.FFL.TKUI_C.spaces.m": "YPL.FFL.TKUI_M.scales.arithA.800", // 16
+    "YPL.FFL.TKUI_C.spaces.ml": "YPL.FFL.TKUI_M.scales.arithA.1000", //20
+    "YPL.FFL.TKUI_C.spaces.l": "YPL.FFL.TKUI_M.scales.arithA.1200", // 24
+    "YPL.FFL.TKUI_C.spaces.xl": "YPL.FFL.TKUI_M.scales.arithA.1600" // 32
+    "YPL.FFL.TKUI_C.spaces.xxl": "YPL.FFL.TKUI_M.scales.arithA.1800" // 36
+
+
 
     // breakpoints
     "YPL.FFL.TKUI_C.breakpoint.s": {"value": "460pt"},  // 428pt = iPhone 13 Pro Max → https://useyourloaf.com/blog/iphone-13-screen-sizes/
@@ -58,14 +67,14 @@
     "YPL.FFL.TKUI_C.breakpoint.xl": {"value": "1920pt"}, // → 2560
 
   //// Typography
-    "YPL.FFL.TKUI_C.typo.Europa.700.size": {"value": "YPL.FFL.TKUI_C.sizes.micro.900.value * YPL.TEST.textSizeFactor"},
-    "YPL.FFL.TKUI_C.typo.Europa.700.leading.s": {"value": "TBD - Math"}, // FIXME
-    "YPL.FFL.TKUI_C.typo.Europa.700.leading.m": {"value": "TBD - Math"}, // FIXME
-    "YPL.FFL.TKUI_C.typo.Europa.700.leading.l": {"value": "TBD - Math"}, // FIXME
-    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.s": {"value": "TBD - Math"}, // FIXME
-    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.m": {"value": "TBD - Math"}, // FIXME
-    "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.l": {"value": "TBD - Math"}, // FIXME
-    "YPL.FFL.TKUI_C.typo.Europa.700.tracking": {"value": "TBD - Math"}, // FIXME
+    "YPL.FFL.TKUI_C.typo.europa.700.size": {"value": "YPL.FFL.TKUI_C.sizes.micro.900.value * YPL.TEST.textSizeFactor"},
+    "YPL.FFL.TKUI_C.typo.europa.700.leading.s": {"value": "TBD - Math"}, // FIXME
+    "YPL.FFL.TKUI_C.typo.europa.700.leading.m": {"value": "TBD - Math"}, // FIXME
+    "YPL.FFL.TKUI_C.typo.europa.700.leading.l": {"value": "TBD - Math"}, // FIXME
+    "YPL.FFL.TKUI_C.typo.europa.700.paragraphSpacing.s": {"value": "TBD - Math"}, // FIXME
+    "YPL.FFL.TKUI_C.typo.europa.700.paragraphSpacing.m": {"value": "TBD - Math"}, // FIXME
+    "YPL.FFL.TKUI_C.typo.europa.700.paragraphSpacing.l": {"value": "TBD - Math"}, // FIXME
+    "YPL.FFL.TKUI_C.typo.europa.700.tracking": {"value": "TBD - Math"}, // FIXME
 
   //// Colors
 
@@ -83,14 +92,14 @@
 
   //// PRIMITIVE — TYPO STYLE
 
-  "YPL.FFL.V0001.typo.h3": {
+  "YPL.FFL.TKUI_D.F0002-003.HMN_europa_heading3": {
     "value": {
-      "family": "YPL.FFL.TKUI_C.face.Europa.familyName.value",
-      "weight": "YPL.FFL.TKUI_C.face.Europa.weights.400.value",
-      "size": "YPL.FFL.TKUI_C.typo.Europa.700.size.value",
-      "leading": "YPL.FFL.TKUI_C.typo.Europa.700.leading.m.value",
-      "paragraphSpacing": "YPL.FFL.TKUI_C.typo.Europa.700.paragraphSpacing.m.value",
-      "tracking": "YPL.FFL.TKUI_C.typo.Europa.700.tracking.value",
+      "familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.option1.value",
+      // "weight": "YPL.FFL.TKUI_C.face.europa.weights.400.value",  N/A
+      "size": "YPL.FFL.TKUI_C.typo.europa.900.size",
+      "leading": "YPL.FFL.TKUI_C.typo.europa.700.leading.m.value",
+      "paragraphSpacing": "YPL.FFL.TKUI_C.typo.europa.700.paragraphSpacing.m.value",
+      "tracking": "YPL.FFL.TKUI_C.typo.europa.700.tracking.value",
       "textAlignHorizontal": "LEFT", // "LEFT" | "CENTER" | "RIGHT" | "JUSTIFIED" · https://www.figma.com/plugin-docs/api/TextNode/#textalignhorizontal
       "textCase":  "ORIGINAL", // "ORIGINAL" | "UPPER" | "LOWER" | "TITLE" · https://www.figma.com/plugin-docs/api/TextCase/
       "TextDecoration": "NONE" // "NONE" | "UNDERLINE" | "STRIKETHROUGH" · https://www.figma.com/plugin-docs/api/TextDecoration/
@@ -100,62 +109,80 @@
   },
 
 
+
   //// PATTERN
   //  ⚠️ NB:
   //  ⚠️ Modifiers Order:  Options/Variations > Mode > Theme > Breakpoint
 
-    // Macro layout
+    // macro layout
 
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.width": "YPL.FFL.TKUI_C.percents.full.value",
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.margin": "YPL.FFL.TKUI_C.spaces.l.value",
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.padding": "YPL.FFL.TKUI_C.spaces.l.value",
-
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
-
       // blocks
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
 
-    // colors and background treatment
+      // dependencies
 
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgGradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgGradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
+        // .blockHeader
+        "YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+        // .blockCopy
+        "YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+        "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
+        // .blockFooter
+        "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
+        "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
+
+
+    // colors & stuff
+
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
-
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.color": "YPL.FFL.TKUI_C.colors.white.value",
+      // typo
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
 
-    // Micro layout
+    // micro layout
 
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.margin": "YPL.FFL.TKUI_C.sizes.micro.200.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.fringeBottom": "YPL.FFL.TKUI_C.sizes.micro.200.value", // NOPE → SPACES !!!! Please Mr Manu
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
 
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": "YPL.FFL.TKUI_C.sizes.micro.200.value", // NOPE → SPACES !!!! Please Mr Manu
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.sizes.micro.200.value",
+    // variations
 
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.size.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.leading.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.paragraphSpacing.value",
-
-    // Variations
-
-      // Options
+      // options
 
         // OPT_layout2
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color.OPT_layout2": "YPL.FFL.TKUI_C.colors.grey.200.value",
+
+          // dependencies
+          "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
+          // decisions
+          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
+          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
+          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
+          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
+
         // OPT_small
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.size.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.tracking.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.leading.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.paragraphSpacing.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
 
       // breakpoints
 
       "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.BRKP_m": "YPL.FFL.TKUI_C.sizes.micro.1300.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.BRKP_m": "YPL.FFL.TKUI_C.sizes.micro.1300.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.BRKP_m": "YPL.FFL.TKUI_C.sizes.micro.1300.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.sizes.micro.1300.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value",

@@ -312,10 +312,35 @@ nav_order: 100
 
 Poster Cards distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Poster Cards are used to promote key features within the user journey.
 
-| UID | Ticket | Owner | Options |{{ page.project_id }} Version|
-|---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}|[&#35;2](https://github.com/yummly/pasta/issues/7)|[Robert](https://github.com/robert-ANML)|<span data-toolclip='OPT_layout2, OPT_small'><code>2</code></span> |[TBD](https://github.com/yummly/pasta/releases)|
-{: .headTopBorder}
+<table class="headTopBorder">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>UID</th>
+      <th>Ticket</th>
+      <th>Owner</th>
+      <th>Options</th>
+      <th>{{ page.project_id }} Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
+      <td><a href="https://github.com/yummly/pasta/issues/7">&#35;7</a></td>
+      <td><a href="https://github.com/robert-ANML">Robert</a></td>
+      <td><span data-toolclip='OPT_layout2, OPT_small'><code>2</code></span></td>
+      <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
+    </tr>
+    {% if page.variants.size > 0 %}
+    <tr>
+      <td colspan="5" class="pageHeaderVariantsRow">
+        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
+      </td>
+    </tr>
+    {% endif %}
+  </tbody>
+</table>
+
 
 <div class="tabs">
   <input type="radio" name="tabs_previews" id="tab_preview_01" checked="checked">
@@ -383,39 +408,39 @@ Poster Cards distinctive attribute is their background image that fill the card 
         <tbody>
          <tr>
             <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip" // alias'><code>FFL.E0001</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip" // alias'><code>FFL.E0001</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.heading</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europe-heading_5" // alias'><code>FFL.F0002-005</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-005.HMN_typo_europe-heading_5"'><code>FFL.F0002-005</code></span></td>
             <!-- <td>Primitive</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
          </tr>
          <tr>
             <td>.eyebrow</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-201.HMN_typo_europa-eyebrow_regular" // alias'><code>FFL.F0002-401</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow_regular"'><code>FFL.F0002-401</code></span></td>
             <!-- <td>Primitive</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
          </tr>
          <tr>
             <td>.switchButton</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon" // alias'><code>FFL.E0003-003</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon"'><code>FFL.E0003-003</code></span></td>
             <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/button" alt="Link to Element page" class="btn">button →</a></td>
          </tr>
          <tr>
             <td>.paragraph<sup> OPT</sup></td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-101.HMN_typo_europa-p_small" // alias'><code>FFL.F0002-201</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_small"'><code>FFL.F0002-103</code></span></td>
             <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-201" alt="Link to Primitive page" class="btn">paragraph →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-103" alt="Link to Primitive page" class="btn">paragraph →</a></td>
          </tr>
         </tbody>
      </table>
@@ -673,84 +698,78 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 <summary>Raw</summary>
 {% highlight javascript %}
 {
-  //// CHOICES
+//////  DECISIONS - FFL.P0001
 
-    // Dimensions
-    "YPL.FFL.TKUI_M.scales.geoA.400": "8",
-    "YPL.FFL.TKUI_M.scales.arithA.100": "10",
-    "YPL.FFL.TKUI_M.scales.arithA.200": "12",
-    "YPL.FFL.TKUI_M.scales.arithA.400": "16",
-    "YPL.FFL.TKUI_M.scales.arithA.600": "24",
-    "YPL.FFL.TKUI_M.scales.arithA.1000": "28",
-    "YPL.FFL.TKUI_M.scales.arithC.900": "60",
-    "YPL.FFL.TKUI_M.scales.geoA.900": "256",
-    "YPL.FFL.TKUI_M.scales.geoA.1000": "512",
+  // macro layout
 
-    // Typography
-    "YPL.FFL.TKUI_C.typo.face.bold": "Europa-Bold",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.width": "YPL.FFL.TKUI_C.percents.full.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.margin": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.padding": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
+    // blocks
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
 
-    // Colors
-    "YPL.FFL.TKUI_C.colors.white": "ffffff",
-    "YPL.FFL.TKUI_C.colors.black": "000000",
-    "YPL.FFL.TKUI_C.colors.blackish": "242424",
-    "YPL.FFL.TKUI_C.colors.gray.300": "bababa",
-    "YPL.FFL.TKUI_C.colors.oldOrange": "e05f1f",
-    "YPL.FFL.TKUI_C.colors.oldCyan": "3b9690",
+    // dependencies
 
-    // Dark Theme Colors:
-    "YPL.FFL.TKUI_C.colors.springGreen": "00ee66", // option #1 for accent
-    "YPL.FFL.TKUI_C.colors.orangeFlame": "ff5221c", // option #2 for accent
-    "YPL.FFL.TKUI_C.colors.MD_dark.z100.backgrd": "2e2e2e", // background material
-    "YPL.FFL.TKUI_C.colors.MD_dark.z400.backgrd": "151515", // foreground material
+      // .blockHeader
+      "YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+      // .blockCopy
+      "YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+      "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
+      // .blockFooter
+      "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
+      "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
 
-  //// ELEMENT & PRIMITIVES
+  // colors & stuff
 
-    // buttonIcon
-    "YPL.FFL.TKUI_D.buttonIcon.width": "YPL.FFL.TKUI_M.scales.arithA.600",
-    "YPL.FFL.TKUI_D.buttonIcon.height": "YPL.FFL.TKUI_M.scales.arithA.600",
-    "YPL.FFL.TKUI_D.buttonIcon.glyphColor": "YPL.FFL.TKUI_C.colors.black",
-    "YPL.FFL.TKUI_D.buttonIcon.bgColor": "YPL.FFL.TKUI_C.colors.white",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
+    // typo
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
 
-    // chip
-    "YPL.FFL.TKUI_D.chip.width": "YPL.FFL.TKUI_M.scales.arithC.900",
-    "YPL.FFL.TKUI_D.chip.height": "YPL.FFL.TKUI_M.scales.arithA.600",
-    "YPL.FFL.TKUI_D.chip.bgColor": "YPL.FFL.TKUI_C.colors.black",
+  // micro layout
 
-    // rating
-    "YPL.FFL.TKUI_D.rating.height": "YPL.FFL.TKUI_M.scales.arithA.200",
-    "YPL.FFL.TKUI_D.rating.icon.color": "YPL.FFL.TKUI_C.colors.oldOrange",
-    "YPL.FFL.TKUI_D.rating.icon.width": "YPL.FFL.TKUI_M.scales.arithA.200",
-    "YPL.FFL.TKUI_D.rating.text.size": "YPL.FFL.TKUI_M.scales.arithA.200",
-    "YPL.FFL.TKUI_D.rating.text.color": "YPL.FFL.TKUI_C.colors.oldOrange",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
 
-    // eyebrow
-    "YPL.FFL.TKUI_D.eyebrow.face": "YPL.FFL.TKUI_C.typo.face.bold",
-    "YPL.FFL.TKUI_D.eyebrow.size": "YPL.FFL.TKUI_M.scales.arithA.200",
-    "YPL.FFL.TKUI_D.eyebrow.color": "YPL.FFL.TKUI_C.colors.gray.300",
+  // variations
 
-  //// DECISIONS
+    // options
 
-    // Main
-    "YPL.FFL.TKUI_D.cardRecipeLarge.width": "100%",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.height": "432pt",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.radius": "YPL.FFL.TKUI_M.scales.geoA.400",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.bgGradient": "gradient(58deg, #000000 100%, #000000 0%)",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.bgImage.fillMode": "COVER",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.paddingLeft": "YPL.FFL.TKUI_M.scales.arithA.600", // overrides all paddings ← Fringe
-    "YPL.FFL.TKUI_D.cardRecipeLarge.paddingRight": "YPL.FFL.TKUI_M.scales.arithA.600", // overrides all paddings ← Fringe
-    "YPL.FFL.TKUI_D.cardRecipeLarge.fringeBottom": "YPL.FFL.TKUI_M.scales.arithA.600", // ♺
+      // OPT_layout2
 
-    // (sub) Containers
-    "YPL.FFL.TKUI_D.cardRecipeLarge.block.width": "100%", // TBD
-    "YPL.FFL.TKUI_D.cardRecipeLarge.block.maxWidth": "YPL.FFL.TKUI_M.scales.geoA.1000", // TBD
-    "YPL.FFL.TKUI_D.cardRecipeLarge.blockCopy.width": "87%", // TBD
-    "YPL.FFL.TKUI_D.cardRecipeLarge.rating.fringeBottom": "YPL.FFL.TKUI_M.scales.geoA.400", // override?
+        // dependencies
+        "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
+        // decisions
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
 
-    // Typo
-    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.face": "YPL.FFL.TKUI_C.typo.face.bold",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.size": "YPL.FFL.TKUI_M.scales.arithA.600",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.lineHeight": "YPL.FFL.TKUI_M.scales.arithA.1000",
-    "YPL.FFL.TKUI_D.cardRecipeLarge.title.typo.fringeBottom": "YPL.FFL.TKUI_M.scales.arithA.400" // ♺
+      // OPT_small
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
+
+    // breakpoints
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
 }
 {% endhighlight %}
 </details>
