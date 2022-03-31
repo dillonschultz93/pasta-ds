@@ -1665,205 +1665,205 @@ nav_order: 110
       "type": "other",
       "group": "typo"
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.width": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.width": {
       "value": "YPL.FFL.TKUI_C.percents.full",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.height": {
       "value": "YPL.FFL.TKUI_C.sizes.macro.700",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.margin": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.margin": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.fringeBottom": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.fringeBottom": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.padding": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.padding": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.radius": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.radius": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.200",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockCopy.width": {
       "value": "YPL.FFL.TKUI_C.percents.full",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.slack": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockCopy.slack": {
       "value": "YPL.FFL.TKUI_C.sizes.macro.500",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockHeader.height": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockHeader.height": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.height": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockFooter.height": {
       "value": "YPL.FFL.TKUI_C.spaces.e",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.gradient": {
       "value": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgImage.fillMode": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.bgImage.fillMode": {
       "value": "FILL",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.color": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.color": {
       "value": "YPL.FFL.TKUI_C.colors.white",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.eyebrow.color": {
       "value": "YPL.FFL.TKUI_C.colors.grey.300",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.margin": {
       "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.fringeBottom": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.fringeBottom": {
       "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockCopy.chip.margin": {
       "value": "YPL.FFL.TKUI_C.spaces.s",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockCopy.chip.fringeBottom": {
       "value": "YPL.FFL.TKUI_C.spaces.s",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paddingLeft": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.paddingLeft": {
       "value": "YPL.FFL.TKUI_C.spaces.xxl",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockFooter.eyebrow.paddingLeft": {
       "value": "YPL.FFL.TKUI_C.spaces.sm",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.gradient.OPT_layout2": {
       "value": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockCopy.paragraph.color": {
       "value": "YPL.FFL.TKUI_C.colors.white.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin.OPT_layout2": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.margin.OPT_layout2": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft.OPT_layout2": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockFooter.eyebrow.paddingLeft.OPT_layout2": {
       "value": "YPL.FFL.TKUI_C.spaces.none",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.height.OPT_small": {
       "value": "YPL.FFL.TKUI_C.sizes.macro.700.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.OPT_small": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.size.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.OPT_small": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.tracking.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.OPT_small": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.leading.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.paragraphSpacing.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width.BRKP_m": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.blockCopy.width.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.percents.ml.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.BRKP_m": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.size.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.BRKP_m": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.tracking.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.BRKP_m": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.leading.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m": {
+    "YPL.FFL.TKUI_D.P0002.HMN_cardlet.heading.paragraphSpacing.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value",
       "description": "",
       "type": "other",
@@ -1883,11 +1883,34 @@ nav_order: 110
 
 Cardlets are a way to present several items of a same category. They're part of collections, lists, caroussels. They sometimes present advanced interaction (swipe, move, re-order… ).
 
-| UID | Ticket | Owner |Figma|Pasta Version|
-|---|---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}|[&#35;8](https://github.com/yummly/pasta/issues/8)|[Robert](https://github.com/robert-ANML)|[Cardlet Page](https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781)|[TBD](https://github.com/yummly/pasta/releases)|
-{: .headTopBorder}
-
+<table class="headTopBorder">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>UID</th>
+      <th>Ticket</th>
+      <th>Owner</th>
+      <th>Options</th>
+      <th>{{ page.project_id }} Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
+      <td><a href="https://github.com/yummly/pasta/issues/8">&#35;8</a></td>
+      <td><a href="https://github.com/robert-ANML">Robert</a></td>
+      <td><span data-toolclip='OPT_layout2, OPT_small'><code>2</code></span></td>
+      <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
+    </tr>
+    {% if page.variants.size > 0 %}
+    <tr>
+      <td colspan="5" class="pageHeaderVariantsRow">
+        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
+      </td>
+    </tr>
+    {% endif %}
+  </tbody>
+</table>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-preview_01.png){: .darkenabled}
 
@@ -1906,6 +1929,8 @@ Cardlets are a way to present several items of a same category. They're part of 
 
 ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_dependencies_01.png)
 
+### Instantiation
+
 <section class="flex-1_2-cols">
    <div>
     <br>
@@ -1916,30 +1941,64 @@ Cardlets are a way to present several items of a same category. They're part of 
      <table>
        <thead>
          <tr>
-           <th>UID</th>
-           <th>Type</th>
-           <th>Link</th>
+           <th>Instance</th>
+           <th>Component</th>
+           <th></th>
          </tr>
        </thead>
         <tbody>
          <tr>
-            <td><code>LGN-EXXXX</code></td><td>Element</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Button Icon →</a></td>
+            <td>.eyebrow</td>
+            <td><span data-toolclip='"YPL.FFL.P0002.HMN_cardlet.blockCopy.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow_regular"'><code>FFL.F0002-401</code></span></td>
+            <!-- <td>Primitive</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-EXXXX</code></td><td>Element</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Chip →</a></td>
+            <td>.heading</td>
+            <td><span data-toolclip='"YPL.FFL.P0002.HMN_cardlet.blockCopy.heading": "YPL.FFL.F0002-008.HMN_typo_europa-h8"'><code>FFL.F0002-008</code></span></td>
+            <!-- <td>Element</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-008" alt="Link to Primitive page" class="btn">heading →</a></td>
          </tr>
          <tr>
-            <td><code>LGN-EXXXX</code></td><td>Element</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Rating →</a></td>
-         </tr>
-         <tr>
-            <td><code>LGN-V0004</code></td><td>Primitive</td>
-            <td><a href="{{site.baseurl}}/TBD" alt="WIP" class="btn">Eyebrow →</a></td>
+            <td>.thumbnail</td>
+            <td><span data-toolclip='"YPL.FFL.P0002.HMN_cardlet.thumbnail": "YPL.FFL.E0002.HMN_thumbnail"'><code>YPL.FFL.E0002</code></span></td>
+            <!-- <td>Primitive</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/thumbnail" alt="Link to Thumbnail page" class="btn">thumbnail →</a></td>
          </tr>
         </tbody>
      </table>
+   </div>
+ </section>
+
+ <hr>
+
+  <details>
+  <summary>verbose snippet</summary>
+  <p>
+  {% highlight js %}
+  // Instantiate dependencies
+  {% endhighlight %}
+  </p>
+  </details>
+
+  <hr>
+
+### Tree
+
+ <section class="flex-1_2-cols">
+   <div>
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+    </p>
+   </div>
+   <div>
+     {% highlight txt %}
+          YPL.FFL.P0002.HMN_cardlet
+          ├─ .blockCopy
+          │   ├─ .eyebrow
+          │   └─ .heading
+          └─ .thumbnail
+     {% endhighlight %}
    </div>
  </section>
 
@@ -1950,98 +2009,144 @@ Cardlets are a way to present several items of a same category. They're part of 
 
 ### Interaction
 
-#### default
-{: .no_toc}
+###### Default (N/A)
+{: no_toc}
 
-|↓ impacted| idle | over | pressed | disabled | focused | pending |
-|---|---|---|---|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-{: .type-01}
+<!-- <table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.i (idle)</th>
+      <th>.o (mouse over)</th>
+      <th>.p (pressed)</th>
+      <th>.f (focus)</th>
+      <th>.w (waiting)</th>
+      <th>.d (disabled)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+    </tr>
+  </tbody>
+</table> -->
 
-#### highlighted
-{: .no_toc}
+###### Highighted (N/A)
+{: no_toc}
 
-|↓ impacted| h-idle | h-over | h-pressed | h-disabled | h-focused | h-pending |
-|---|---|---|---|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|N/A|
-{: .type-01}
+<!-- <table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.hi</th>
+      <th>.ho</th>
+      <th>.hp</th>
+      <th>.hf</th>
+      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+      <th>.hw</th>
+      <th>.hd</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+    </tr>
+  </tbody>
+</table> -->
 
 ### Variations
 
-##### Breakpoints
-{: .no_toc}
+###### Options
 
-|↓ impacted|sm (320)| md (384)| lg(512)|
-|---|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-{: .type-01}
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.OPT_small</th>
+      <th>.OPT_layout2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+      </td>
+      <td>
+      <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-##### Modes
-{: .no_toc}
+###### Modes (N/A)
+{: no_toc}
 
-|↓ impacted|Light|Dark|
-|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-{: .type-01}
-
-##### Themes
-{: .no_toc}
-
-|↓ impacted|Theme &#35;1 |Theme &#35;2|Theme &#35;3|
-|---|---|---|
-|Attribute &#35;1|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-|Attribute &#35;2|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|<span data-toolclip="TBD"><code class="language-plaintext highlighter-rouge">token</code></span>|
-{: .type-01}
-
-### Animations
-
-<section class="flex-1_2-cols">
-   <div>
-     Little explanation. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
-   </div>
-   <div>
-      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgAnimPlaceholder-twoThird.gif" alt="WIP">
-   </div>
- </section>
-
-## Accessibility Checklist
-
-| Criterion | Description | Pending| Done | N/A |
-|---|---|:---:|:---:|:---:|
-|[1.1.1](https://www.w3.org/TR/WCAG21/#text-alternatives)|Text Alternatives|<input type="radio" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="Pending" checked>|<input type="radio" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="Done">|<input type="radio" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A">|
-|[1.4.1](https://www.w3.org/TR/WCAG21/#use-of-color)|Color not the only way to convey information|<input type="radio" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="Pending" checked>|<input type="radio" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="Done">|<input type="radio" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A">|
-|[1.4.3](https://www.w3.org/TR/WCAG21/#contrast-minimum)|Text Color Contrast|<input type="radio" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="Pending" checked>|<input type="radio" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="Done">|<input type="radio" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A">|
-|[1.4.6](https://www.w3.org/TR/WCAG21/#contrast-enhanced)|Text Color Contrast AAA|<input type="radio" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="Pending" checked>|<input type="radio" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="Done">|<input type="radio" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A">|
-|[1.4.11](https://www.w3.org/TR/WCAG21/#non-text-contrast)|Fill Color Contrast|<input type="radio" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="Pending" checked>|<input type="radio" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="Done">|<input type="radio" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A">|
-|[1.4.4](https://www.w3.org/TR/WCAG21/#resize-text)|200% Text Size|<input type="radio" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="Pending" checked>|<input type="radio" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="Done">|<input type="radio" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A">|
-|[1.4.12](https://www.w3.org/TR/WCAG21/#text-spacing)|Text Spacing|<input type="radio" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="Pending" checked>|<input type="radio" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="Done">|<input type="radio" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A">|
-|[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
+<!-- <table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.MD_dark</th>
+      <th>.MD_light</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+    </tr>
+  </tbody>
+</table> -->
 
 
-## Copy Writing Guidelines
+###### Breakpoints
 
-<section class="flex-1_1-cols">
-  <div>
-    <p>
-     Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
-    </p>
-    <hr class="dd-do">
-  </div>
-   <div>
-     <p>
-      Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
-     </p>
-      <hr class="dd-dont">
- </div>
- </section>
+<table class="headerCentered headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.BRKP_s&nbsp;(480)</th>
+      <th>.BRKP_m&nbsp;(768)</th>
+      <th>.BRKP_l&nbsp;(1024)</th>
+      <th>.BRKP_xl&nbsp;(1920)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span class="dimmed">( <i> default </i> )</span>
+      </td>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">.TBD</code></span>
+      </td>
+      <td>
+        <span class="dimmed">N/A</span>
+      </td>
+      <td>
+        <span class="dimmed">N/A</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Tokens Playground
 
 Playground · Pattern-siloed Tokens including all required Choices and Decisions:
+
 
 <table>
     <tr class="playground-details-row" id="css">
@@ -2061,82 +2166,114 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 <details>
 <summary>Raw</summary>
 {% highlight javascript %}
-  {
-  //////  DECISIONS - FFL.P0001
+{
+//////  DECISIONS - FFL.P0001
 
-    // macro layout
+  // macro layout
 
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.width": "YPL.FFL.TKUI_C.percents.full.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.margin": "YPL.FFL.TKUI_C.spaces.l.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.padding": "YPL.FFL.TKUI_C.spaces.l.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
-      // blocks
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.width": "YPL.FFL.TKUI_C.percents.full.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.margin": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.padding": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
+    // blocks
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
 
-      // dependencies
+    // dependencies
 
-        // .blockHeader
-        "YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
-        // .blockCopy
-        "YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
-        "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
-        // .blockFooter
-        "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
-        "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
+      // .blockHeader
+      "YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+      // .blockCopy
+      "YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+      "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
+      // .blockFooter
+      "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
+      "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
 
-    // colors & stuff
+  // colors & stuff
 
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
-      // typo
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
+    // typo
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
 
-    // micro layout
+  // micro layout
 
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
 
-    // variations
+  // variations
 
-      // options
+    // options
 
-        // OPT_layout2
+      // OPT_layout2
 
-          // dependencies
-          "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
-          // decisions
-          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
-          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
-          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
-          "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
+        // dependencies
+        "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
+        // decisions
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
 
-        // OPT_small
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
+      // OPT_small
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
 
-      // breakpoints
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
-  }
+    // breakpoints
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
+    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
+}
 {% endhighlight %}
 </details>
+
+<!--
+## Copy Writing Guidelines
+
+<section class="flex-1_1-cols">
+  <div>
+    <p>
+     Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
+    </p>
+    <hr class="dd-do">
+  </div>
+   <div>
+     <p>
+      Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
+     </p>
+      <hr class="dd-dont">
+ </div>
+ </section> -->
+
+
+## Accessibility Status
+
+| Criterion | Description | Pending| Done | N/A |
+|---|---|:---:|:---:|:---:|
+|[1.1.1](https://www.w3.org/TR/WCAG21/#text-alternatives)|Text Alternatives|<input type="radio" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="Pending" checked>|<input type="radio" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="Done">|<input type="radio" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A">|
+|[1.4.1](https://www.w3.org/TR/WCAG21/#use-of-color)|Color not the only way to convey information|<input type="radio" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="Pending" checked>|<input type="radio" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="Done">|<input type="radio" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A">|
+|[1.4.3](https://www.w3.org/TR/WCAG21/#contrast-minimum)|Text Color Contrast|<input type="radio" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="Pending" checked>|<input type="radio" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="Done">|<input type="radio" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A">|
+|[1.4.6](https://www.w3.org/TR/WCAG21/#contrast-enhanced)|Text Color Contrast AAA|<input type="radio" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="Pending" checked>|<input type="radio" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="Done">|<input type="radio" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A">|
+|[1.4.11](https://www.w3.org/TR/WCAG21/#non-text-contrast)|Fill Color Contrast|<input type="radio" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="Pending" checked>|<input type="radio" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="Done">|<input type="radio" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A">|
+|[1.4.4](https://www.w3.org/TR/WCAG21/#resize-text)|200% Text Size|<input type="radio" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="Pending" checked>|<input type="radio" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="Done">|<input type="radio" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A">|
+|[1.4.12](https://www.w3.org/TR/WCAG21/#text-spacing)|Text Spacing|<input type="radio" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="Pending" checked>|<input type="radio" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="Done">|<input type="radio" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A">|
+|[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
 
 
 ## Checklist
