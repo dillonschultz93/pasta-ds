@@ -219,35 +219,6 @@ p > img {
   margin: 0;
 }
 
-
-// icons
-
-.iconPreviewThumb {
-  width: 24pt;
-  height: 24pt;
-  border: none;
-  border-radius: 0;
-  background-color: transparent;
-}
-table.tableIcons {
-  border-collapse: collapse;
-  // border-spacing: 0px;
-}
-table.tableIcons td {
-  text-align: center;
-  padding: 0 !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-}
-table.tableIcons td [data-toolclip]:hover > * {
-  background-color: transparent;
-  border: none;
-  // color: #eee;
-  // transition: all 0.4s;
-}
-table.tableIcons td img {
-  margin: 1.2rem;
-}
-
 // specific
 
 #thePermutationOfPasta {
@@ -668,8 +639,41 @@ table.headerNoUpperCase th {
 }
 
 
-// table just for layout / several cols
+// icons
 
+table.tableOfIcons td img {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: auto;
+  border-radius: 0;
+  margin: 1.2rem;
+}
+.iconPreviewThumb {
+  width: 24pt;
+  height: 24pt;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+table.tableOfIcons {
+  border-collapse: collapse;
+  // border-spacing: 0px;
+}
+table.tableOfIcons td {
+  text-align: center;
+  padding: 0 !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+table.tableOfIcons td [data-toolclip]:hover > * {
+  background-color: transparent;
+  border: none;
+  // color: #eee;
+  // transition: all 0.4s;
+}
+
+
+// table just for layout / several cols
 
 table.layoutOnly {
   margin: 2rem 0 0;
@@ -742,6 +746,15 @@ td span {
   hyphens: none !important;
 }
 
+// code as variants UID
+
+
+td.pageHeaderVariantsRow {
+  line-height: 1.6rem;
+}
+td.pageHeaderVariantsRow a {
+  color: #5c5962;
+}
 
 //
 // COLORS TABLE
