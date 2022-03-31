@@ -745,13 +745,15 @@ nav_order: 30
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/{{ page.title | downcase }}-script.js"></script>
 
-# Colors `{{ page.project_id }}`
+# Colors
 {: .no_toc}
 
 - TOC
 {:toc}
 
+
 {% include copy-all-tokens-section.html title="Color" %}
+
 
 ## Primary pallette
 
@@ -806,7 +808,7 @@ nav_order: 30
   </table>
 </section>
 
-### Black and white 
+### Black and white
 {: .no_toc}
 
 <section>
@@ -822,7 +824,7 @@ nav_order: 30
       <tr>
         <td>black</td>
         <td>
-          <span data-toolclip="YPL.FFL.TKUI_C.colors.black: #000000">
+          <span data-toolclip="YPL.FFL.TKUI_C.colors.black.value: #000000">
             <code class="language-plaintext highlighter-rouge">.colors.black</code>
           </span>
         </td>
@@ -833,7 +835,7 @@ nav_order: 30
       <tr>
         <td>white</td>
         <td>
-          <span data-toolclip="YPL.FFL.TKUI_C.colors.white: #ffffff">
+          <span data-toolclip="YPL.FFL.TKUI_C.colors.white.value: #ffffff">
             <code class="language-plaintext highlighter-rouge">.colors.white</code>
           </span>
         </td>

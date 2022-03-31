@@ -468,43 +468,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1700 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.size": {
@@ -564,43 +564,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.leading": {
       "value": 41.6,
       "description": "FIXME",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.leading": {
@@ -660,43 +660,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.paragraphSpacing": {
       "value": 7.56,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing": {
       "value": 9.72,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.paragraphSpacing": {
       "value": 10.8,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.paragraphSpacing": {
       "value": 12.96,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.paragraphSpacing": {
       "value": 15.12,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing": {
       "value": 17.28,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.paragraphSpacing": {
       "value": 23.12,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing": {
@@ -756,43 +756,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.tracking": {
       "value": "3.5%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.tracking": {
       "value": "0%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.tracking": {
       "value": "0%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.tracking": {
       "value": "-1%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.tracking": {
       "value": "-1%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.tracking": {
       "value": "-2%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.tracking": {
       "value": "-2%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.tracking": {
@@ -2074,7 +2074,6 @@ Poster Cards distinctive attribute is their background image that fill the card 
 
 ## Decisions
 
-
 <div class="tabs">
   <input type="radio" name="tabs_decisions" id="tab_decisions_01" checked="checked">
   <label for="tab_decisions_01">( <i>default</i> )</label>
@@ -2090,10 +2089,10 @@ Poster Cards distinctive attribute is their background image that fill the card 
 
 ### Interaction
 
-###### Default
+###### Default (N/A)
+{: no_toc}
 
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
+<!-- <table class="type-01 headerNoUpperCase colBordered headFramed">
   <thead>
     <tr>
       <th>.i (idle)</th>
@@ -2114,12 +2113,12 @@ Poster Cards distinctive attribute is their background image that fill the card 
       <td><span class="dimmed">N/A</span></td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
-###### Highighted
+###### Highighted (N/A)
+{: no_toc}
 
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
+<!-- <table class="type-01 headerNoUpperCase colBordered headFramed">
   <thead>
     <tr>
       <th>.hi</th>
@@ -2142,9 +2141,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
       <td><span class="dimmed">N/A</span></td>
     </tr>
   </tbody>
-</table>
-
-
+</table> -->
 
 ### Variations
 
@@ -2173,8 +2170,23 @@ Poster Cards distinctive attribute is their background image that fill the card 
   </tbody>
 </table>
 
-<!-- ##### Modes
-{: .no_toc} -->
+###### Modes (N/A)
+{: no_toc}
+
+<!-- <table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.MD_dark</th>
+      <th>.MD_light</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+    </tr>
+  </tbody>
+</table> -->
 
 
 ###### Breakpoints

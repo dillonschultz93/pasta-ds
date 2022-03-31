@@ -465,43 +465,43 @@ nav_order: 20
     "YPL.FFL.TKUI_M.typo.europa.h8.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1700 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.size": {
@@ -561,43 +561,43 @@ nav_order: 20
     "YPL.FFL.TKUI_M.typo.europa.h8.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.leading": {
       "value": 41.6,
       "description": "FIXME",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.leading": {
@@ -657,43 +657,43 @@ nav_order: 20
     "YPL.FFL.TKUI_M.typo.europa.h8.paragraphSpacing": {
       "value": 7.56,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing": {
       "value": 9.72,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.paragraphSpacing": {
       "value": 10.8,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.paragraphSpacing": {
       "value": 12.96,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.paragraphSpacing": {
       "value": 15.12,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing": {
       "value": 17.28,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.paragraphSpacing": {
       "value": 23.12,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing": {
@@ -753,43 +753,43 @@ nav_order: 20
     "YPL.FFL.TKUI_M.typo.europa.h8.tracking": {
       "value": "3.5%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.tracking": {
       "value": "0%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.tracking": {
       "value": "0%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.tracking": {
       "value": "-1%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.tracking": {
       "value": "-1%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.tracking": {
       "value": "-2%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.tracking": {
       "value": "-2%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.tracking": {
@@ -1886,7 +1886,7 @@ nav_order: 20
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
-# Typography `{{ page.project_id }}`
+# Typography
 {: .no_toc}
 
 - TOC

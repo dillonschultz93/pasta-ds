@@ -525,6 +525,9 @@ h1 + hr {
 .iconed.downloadBadge::before {
   content: url('../images/YPL-DOC-icon-download.svg') !important;
 }
+.iconed.clipboard::before {
+  content: url('../images/YPL-DOC-icon-addToclipBoard.svg') !important;
+}
 
 
 strong, .textbold {
@@ -532,6 +535,16 @@ strong, .textbold {
   color: #3c3c3c;
   letter-spacing: 0.06px;
 }
+
+// Ad Hoc
+
+.typoStyleUID {
+  float: right;
+  padding-right: 1rem;
+  opacity: 0.7;
+}
+
+
 
 //
 // QUOTES
@@ -577,7 +590,7 @@ blockquote.jumbo + figcaption a {
   // padding: 8px;
   box-shadow: none;
   border-radius: 0;
-  margin: 1.6rem 0 3.6rem 0 !important;
+  margin: 1.6rem 0 2.6rem 0 !important;
   background-color: transparent;
   overflow-x: visible;
 }
@@ -641,13 +654,31 @@ table.headerNoUpperCase th {
 
 // icons
 
+table.tableOfIcons {
+  border-collapse: collapse;
+  // border-spacing: 0px;
+}
+table.tableOfIcons td {
+  text-align: center;
+  padding: 1.2rem !important;
+  border: none !important;
+}
+table.tableOfIcons td span {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
 table.tableOfIcons td img {
   border: none;
   background-color: transparent;
   width: 20px;
   height: auto;
   border-radius: 0;
-  margin: 1.2rem;
+  margin: 1.2rem 1.2rem;
+}
+table.tableOfIcons td span:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 .iconPreviewThumb {
   width: 24pt;
@@ -655,15 +686,6 @@ table.tableOfIcons td img {
   border: none;
   border-radius: 0;
   background-color: transparent;
-}
-table.tableOfIcons {
-  border-collapse: collapse;
-  // border-spacing: 0px;
-}
-table.tableOfIcons td {
-  text-align: center;
-  padding: 0 !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 table.tableOfIcons td [data-toolclip]:hover > * {
   background-color: transparent;
@@ -1107,10 +1129,10 @@ p + .dd-dont {
 }
 
 .copy-card {
-  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0);
-  background-color: #f5f6fa;
-  border-radius: 5px;
-  padding: 2rem;
+  // box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0);
+  // background-color: #f5f6fa;
+  // border-radius: 5px;
+  // padding: 2rem;
 }
 
 //

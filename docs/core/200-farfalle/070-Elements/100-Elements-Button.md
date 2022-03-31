@@ -468,43 +468,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.size": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1700 * YPL.TEST.textSizeFactor",
       "description": "",
-      "type": "fontSizes", 
+      "type": "fontSizes",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.size": {
@@ -564,43 +564,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.leading": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
       "description": "",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.leading": {
       "value": 41.6,
       "description": "FIXME",
-      "type": "lineHeights", 
+      "type": "lineHeights",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.leading": {
@@ -660,43 +660,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.paragraphSpacing": {
       "value": 7.56,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing": {
       "value": 9.72,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.paragraphSpacing": {
       "value": 10.8,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.paragraphSpacing": {
       "value": 12.96,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.paragraphSpacing": {
       "value": 15.12,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing": {
       "value": 17.28,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.paragraphSpacing": {
       "value": 23.12,
       "description": "FIXME",
-      "type": "paragraphSpacing", 
+      "type": "paragraphSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing": {
@@ -756,43 +756,43 @@ nav_order: 100
     "YPL.FFL.TKUI_M.typo.europa.h8.tracking": {
       "value": "3.5%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h7.tracking": {
       "value": "0%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h6.tracking": {
       "value": "0%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h5.tracking": {
       "value": "-1%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h4.tracking": {
       "value": "-1%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h3.tracking": {
       "value": "-2%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h2.tracking": {
       "value": "-2%",
       "description": "FIXME",
-      "type": "letterSpacing", 
+      "type": "letterSpacing",
       "group": "typo"
     },
     "YPL.FFL.TKUI_M.typo.europa.h1.tracking": {
@@ -1665,205 +1665,205 @@ nav_order: 100
       "type": "other",
       "group": "typo"
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.width": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.width": {
       "value": "YPL.FFL.TKUI_C.percents.full",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height": {
       "value": "YPL.FFL.TKUI_C.sizes.macro.700",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.margin": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.margin": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.fringeBottom": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.fringeBottom": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.padding": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.padding": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.radius": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.radius": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.200",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width": {
       "value": "YPL.FFL.TKUI_C.percents.full",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.slack": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.slack": {
       "value": "YPL.FFL.TKUI_C.sizes.macro.500",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockHeader.height": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockHeader.height": {
       "value": "YPL.FFL.TKUI_C.spaces.l",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.height": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.height": {
       "value": "YPL.FFL.TKUI_C.spaces.e",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient": {
       "value": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgImage.fillMode": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgImage.fillMode": {
       "value": "FILL",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.color": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.color": {
       "value": "YPL.FFL.TKUI_C.colors.white",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": {
       "value": "YPL.FFL.TKUI_C.colors.grey.300",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": {
       "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.fringeBottom": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.fringeBottom": {
       "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.margin": {
       "value": "YPL.FFL.TKUI_C.spaces.s",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.fringeBottom": {
       "value": "YPL.FFL.TKUI_C.spaces.s",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paddingLeft": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paddingLeft": {
       "value": "YPL.FFL.TKUI_C.spaces.xxl",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": {
       "value": "YPL.FFL.TKUI_C.spaces.sm",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient.OPT_layout2": {
       "value": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.paragraph.color": {
       "value": "YPL.FFL.TKUI_C.colors.white.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin.OPT_layout2": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin.OPT_layout2": {
       "value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft.OPT_layout2": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft.OPT_layout2": {
       "value": "YPL.FFL.TKUI_C.spaces.none",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height.OPT_small": {
       "value": "YPL.FFL.TKUI_C.sizes.macro.700.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.OPT_small": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.OPT_small": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.OPT_small": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.OPT_small": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width.BRKP_m": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.percents.ml.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.BRKP_m": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.BRKP_m": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.BRKP_m": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
       "description": "",
       "type": "other",
       "group": ""
     },
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m": {
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.BRKP_m": {
       "value": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value",
       "description": "",
       "type": "other",
@@ -1928,7 +1928,7 @@ Buttons allow users to perform an action or to navigate to another page. They ha
 
 ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_dependencies_01.png)
 
-## Instantiation
+### Instantiation
 
 <section class="flex-1_2-cols">
    <div>
@@ -1951,12 +1951,12 @@ Buttons allow users to perform an action or to navigate to another page. They ha
         <tbody>
          <tr>
             <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.E0003.HMN_button.icon": "YPL.FFL.F0003.HMN_icon"'><code>FFL.F0003</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_button.icon": "YPL.FFL.F0003.HMN_icon"'><code>FFL.F0003</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
          <tr>
             <td>.label</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_button.blockLabel": "YPL.FFL.F0002-102.HMN_typo_europa-p_strong"'><code>FFL.F0002-102</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_button.label": "YPL.FFL.F0002-102.HMN_typo_europa-p_strong"'><code>FFL.F0002-102</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-102" alt="Link to Typography Primitives page" class="btn">label →</a></td>
          </tr>
         </tbody>
@@ -1988,10 +1988,9 @@ Buttons allow users to perform an action or to navigate to another page. They ha
    <div>
      {% highlight txt %}
           YPL.FFL.E0003.HMN_button
-          ├─ .blockIcon (optional)
-          │   └─ .icon
-          └─.blockLabel (optional)
-              └─ .label
+           └─ .block
+               └─ .icon (optional)
+               └─ .label (optional)
      {% endhighlight %}
    </div>
  </section>
@@ -2001,6 +2000,8 @@ Buttons allow users to perform an action or to navigate to another page. They ha
  ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_decisions_01.png)
 
 ### Interaction
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
 
 ###### Default
 
@@ -2018,12 +2019,12 @@ Buttons allow users to perform an action or to navigate to another page. They ha
   </thead>
   <tbody>
     <tr>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
+      <td><span class="">TODO</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="">TODO</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="">TODO</span></td>
     </tr>
   </tbody>
 </table>
@@ -2044,19 +2045,17 @@ Buttons allow users to perform an action or to navigate to another page. They ha
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-      <td><span class="dimmed">TODO</span></td>
-    </tr>
+  <tr>
+    <td><span class="">TODO</span></td>
+    <td><span class="dimmed">N/A</span></td>
+    <td><span class="">TODO</span></td>
+    <td><span class="dimmed">N/A</span></td>
+    <td><span class="dimmed">N/A</span></td>
+    <td><span class="dimmed">N/A</span></td>
+    <td><span class="">TODO</span></td>
+  </tr>
   </tbody>
 </table>
-
-
 
 ### Variations
 
@@ -2067,28 +2066,52 @@ Buttons allow users to perform an action or to navigate to another page. They ha
   <thead>
     <tr>
       <th>.OPT_small</th>
+      <th>.OPT_icon</th>
+      <th>.OPT_iconOnly</th>
+      <th>.OPT_outlined</th>
+      <th>.OPT_notContained</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.size.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.tracking.value"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h4.leading.value"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height.OPT_small": "YPL.FFL.TKUI_C.sizes.micro.1400.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
       </td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="">TODO</span></td>
+      <td><span class="dimmed">N/A</span></td>
     </tr>
   </tbody>
 </table>
 
-<!-- ##### Modes
-{: .no_toc} -->
+###### Modes
+{: no_toc}
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.MD_dark</th>
+      <th>.MD_light</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgColor.[…].MD_dark": "YPL.FFL.TKUI_C.colors.teal.300.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
 
 
-###### Breakpoints
 
-<table class="headerCentered headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
+
+      </td>
+      <td><span class="">TODO</span></td>
+    </tr>
+  </tbody>
+</table>
+
+###### Breakpoints (N/A)
+
+<!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
     <tr>
       <th>.BRKP_s&nbsp;(480)</th>
@@ -2099,24 +2122,13 @@ Buttons allow users to perform an action or to navigate to another page. They ha
   </thead>
   <tbody>
     <tr>
-      <td>
-        <span class="dimmed">( <i> default </i> )</span>
-      </td>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.800.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.size.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.size.value"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.tracking.value"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.leading.value"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
-      </td>
-      <td>
-        <span class="dimmed">N/A</span>
-      </td>
-      <td>
-        <span class="dimmed">N/A</span>
-      </td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
+      <td><span class="dimmed">N/A</span></td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 
 ## Tokens Playground
@@ -2143,50 +2155,50 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 <summary>Raw</summary>
 {% highlight javascript %}
 {
-//////  DECISIONS - FFL.P0001
+//////  DECISIONS - FFL.{{ page.UID }}
 
   // macro layout
 
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.width": "YPL.FFL.TKUI_C.percents.full.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.margin": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.padding": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.width": "YPL.FFL.TKUI_C.percents.full.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.margin": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.padding": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
     // blocks
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
 
     // dependencies
 
       // .blockHeader
-      "YPL.FFL.P0001.HMN_posterCard.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+      "YPL.FFL.{{ page.UID }}.HMN_button.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
       // .blockCopy
-      "YPL.FFL.P0001.HMN_posterCard.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
-      "YPL.FFL.P0001.HMN_posterCard.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
+      "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
+      "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
       // .blockFooter
-      "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
-      "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
+      "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
+      "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
 
   // colors & stuff
 
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
     // typo
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
 
   // micro layout
 
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
 
   // variations
 
@@ -2195,26 +2207,26 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
       // OPT_layout2
 
         // dependencies
-        "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
+        "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
         // decisions
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
+        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
+        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
+        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
+        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
 
       // OPT_small
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
-      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
 
     // breakpoints
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
-    "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
 }
 {% endhighlight %}
 </details>

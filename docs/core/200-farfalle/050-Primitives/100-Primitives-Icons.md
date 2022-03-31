@@ -1,7 +1,7 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: — Icons # title case
+title: Icons # title case
 UID: F0003 # ["P","E","F"] + Hexa code/index
 variants: ["001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016","017","018","019","020","021","022","023","024","025","026","027","028","029","401","402","403","404","405","406","407","408","409","410","411","412","413","414","415","416","417","418","419","420","421","422","423","424","425","426","427","428","429","430","431","432","433","434"] # all variants index
 permalink: farfalle/primitives/icons # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
@@ -51,6 +51,8 @@ nav_order: 100
 
 ## 16pt
 {: no_toc}
+
+Variants UIDs go from `0xx` to `3FF`.
 
 <table class="tableOfIcons">
   <!-- <caption>my caption</caption> -->
@@ -114,6 +116,9 @@ nav_order: 100
 
 ## 24pt
 {: no_toc}
+
+Variants UIDs go from `4xx` to `7FF`.
+
 
 <table class="tableOfIcons">
   <tbody>
