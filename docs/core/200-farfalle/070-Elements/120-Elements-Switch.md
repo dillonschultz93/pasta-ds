@@ -1,14 +1,14 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Button # title case
-UID: E0003 # ["P","E","F"] + Hexa code/index
-variants: [] # all variants index
-permalink: farfalle/elements/button # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Switch # title case
+UID: E0004 # ["P","E","F"] + Hexa code/index
+variants: ["001","002"] # all variants index
+permalink: farfalle/elements/switch # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 100
+nav_order: 120
 ---
 
 <!-- Set the choices and nomenclature for token naming -->
@@ -1878,7 +1878,7 @@ nav_order: 100
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
-# Button
+# Switch
 {: .no_toc}
 
 Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.
@@ -1897,9 +1897,9 @@ Buttons allow users to perform an action or to navigate to another page. They ha
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/27">&#35;27</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/29">&#35;29</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='OPT_small, OPT_icon, OPT_iconOnly, OPT_outlined, OPT_notContained'><code>5</code></span></td>
+      <td><span data-toolclip='OPT_layout2, OPT_small'><code>N/A</code></span></td>
       <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
     </tr>
     {% if page.variants.size > 0 %}
