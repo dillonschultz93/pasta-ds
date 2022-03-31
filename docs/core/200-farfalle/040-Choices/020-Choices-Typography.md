@@ -1912,9 +1912,7 @@ We use Europa across all platforms to maintain a consistent experience across al
   </div>
 </section>
 
-<section>
-  {% include output-table.html unit="weight" choiceType="typography" choiceCategory="fontFamily" %}
-</section>
+<!-- re-include liquid for table FIXME -->
 
 {% include copy-all-tokens-section.html section="fontFamily" %}
 
@@ -1925,7 +1923,9 @@ Leading, also known as line height, is a typographic concept that is simply defi
 
 ## Font Tracking Apparatus
 Tracking, also known as letter spacing, is a typographic principle that defines the horizontal distance between each charter/letter. Negative tracking allows more characters to fit into a horizontal space, while positive tracking spreads out the horizontal distance between character.
+
 ### Exploration
+{: .no_toc}
 
 To dynamically generate letter spacing from a given font size we needed to explore the relation between our handpicked font size and tracking. The graph below shows our handpicked values as a plot of data points. Using [polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression#:~:text=In%20statistics%2C%20polynomial%20regression%20is,nth%20degree%20polynomial%20in%20x.&text=For%20this%20reason%2C%20polynomial%20regression,case%20of%20multiple%20linear%20regression.) we can then construct a "best-fit line" to predict our desired letter spacing.
 

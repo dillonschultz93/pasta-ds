@@ -108,13 +108,25 @@ body {
 }
 .site-header {
   border: none;
+  margin-bottom: 1rem;
 }
 .site-header a:hover {
   background-color: #e9e9e9 !important;
 }
+.site-header a::after {
+  position: absolute;
+  top: 2.7rem;
+  display: block;
+  content: "pre-alpha";
+  font-size: 10px;
+  color: #E05F1F;
+}
+
 .side-bar a {
   color: #333;
 }
+
+
 
 //
 // Navigation
@@ -306,6 +318,17 @@ figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL
   top: 0;
   margin-top: -1.2rem;
 }
+
+// copy JSON Buttons
+
+.copyTokensButtons {
+  height: 52px;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.copy-token-btn {
+}
+
 
 
 //
@@ -1579,4 +1602,35 @@ input[type="color"] {
   opacity: 1;
   transition: opacity 0.6s;
   transition-delay: 0.4s;
+}
+
+// surfaces
+
+.surfaceSampleFlex {
+}
+.surfaceSample {
+  display: block;
+  width: 200px;
+  height: 200px;
+  // border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.25);
+}
+#light-elevation-01 {
+  background-color: #fcfcfc;
+}
+#light-elevation-02 {
+  background-color: #fefefe;
+}
+#light-elevation-03 {
+  background-color: #fff;
+}
+#dark-elevation-01 {
+  background-color: #000;
+}
+#dark-elevation-02 {
+  background-color: #222;
+}
+#dark-elevation-03 {
+  background-color: #333;
 }

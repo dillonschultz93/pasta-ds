@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Switch # title case
 UID: E0004 # ["P","E","F"] + Hexa code/index
-variants: ["001","002"] # all variants index
+variants: ["001","002","003"] # all variants index
 permalink: farfalle/elements/switch # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
@@ -1881,7 +1881,7 @@ nav_order: 120
 # Switch
 {: .no_toc}
 
-Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.
+Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
 
 <table class="headTopBorder">
   <!-- <caption>my caption</caption> -->
@@ -1899,7 +1899,7 @@ Buttons allow users to perform an action or to navigate to another page. They ha
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/29">&#35;29</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='OPT_layout2, OPT_small'><code>N/A</code></span></td>
+      <td><span class="dimmed">N/A</span></td>
       <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
     </tr>
     {% if page.variants.size > 0 %}
@@ -1913,20 +1913,19 @@ Buttons allow users to perform an action or to navigate to another page. They ha
 </table>
 
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-preview_01.png){: .darkenabled}
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833" class="btn iconed figmaBadge">To Figma →<a>
+<a href="https://www.figma.com/file/vgFO9FqjNe0EAmrVwaokOH/?node-id=2116%3A38531" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}
 
-## Layout
-
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-layout_01.png)
+<!-- ## Layout
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-layout_01.png) -->
 
 ## Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_dependencies_01.png)
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png)
 
 ### Instantiation
 
@@ -1951,13 +1950,13 @@ Buttons allow users to perform an action or to navigate to another page. They ha
         <tbody>
          <tr>
             <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_button.icon": "YPL.FFL.F0003.HMN_icon"'><code>FFL.F0003</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_checkbox.icon": "YPL.FFL.F0003-004.HMN_icon"'><code>FFL.F0003-004</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons#F0003-004" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
          <tr>
-            <td>.label</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_button.label": "YPL.FFL.F0002-102.HMN_typo_europa-p_strong"'><code>FFL.F0002-102</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-102" alt="Link to Typography Primitives page" class="btn">label →</a></td>
+            <td>.icon</td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_butIcon": "YPL.FFL.F0003-XXX.HMN_icon"'><code>FFL.F0003</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
         </tbody>
      </table>
@@ -1997,11 +1996,11 @@ Buttons allow users to perform an action or to navigate to another page. They ha
 
 ## Decisions
 
- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_decisions_01.png)
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}{: .darkenabled}
 
 ### Interaction
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}{: .darkenabled}
 
 ###### Default
 

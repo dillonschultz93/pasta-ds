@@ -2213,10 +2213,10 @@ Poster Cards distinctive attribute is their background image that fill the card 
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.HMN_posterCard.h3.leading.OPT_small": "YPL.FFL.TKUI_C.typo.Europa.h2.leading.value"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
       </td>
       <td>
-        <span class="dimmed">N/A</span>
+        <!-- <span class="dimmed">N/A</span> -->
       </td>
       <td>
-        <span class="dimmed">N/A</span>
+        <!-- <span class="dimmed">N/A</span> -->
       </td>
     </tr>
   </tbody>
