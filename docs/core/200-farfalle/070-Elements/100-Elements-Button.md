@@ -2126,16 +2126,16 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 
 <table>
     <tr class="playground-details-row" id="css">
-        <td><button class="btn tokens-btn">CSS Tokens</button></td>
+        <td><button class="btn copy-token-btn">CSS Tokens</button></td>
     </tr>
     <tr class="playground-details-row" id="ios">
-        <td><button class="btn tokens-btn">iOS Tokens</button></td>
+        <td><button class="btn copy-token-btn">iOS Tokens</button></td>
     </tr>
     <tr class="playground-details-row" id="android">
-        <td><button class="btn tokens-btn">Android Tokens</button></td>
+        <td><button class="btn copy-token-btn">Android Tokens</button></td>
     </tr>
     <tr class="playground-details-row" id="figma-tokens">
-        <td><button class="btn tokens-btn">Figma Tokens</button></td>
+        <td><button class="btn copy-token-btn">Figma Tokens</button></td>
     </tr>
 </table>
 

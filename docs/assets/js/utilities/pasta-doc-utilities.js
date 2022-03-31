@@ -114,69 +114,70 @@ function handleCopyToClipboard(content) {
 
 function handleCopyTokensToClipboard(buttonElement, tokens) {
   const id = buttonElement.id;
-  const tokenFormat = [...id.split('-')].pop();
-  const tokenCategory = [...id.split('-')].shift();
+  
+  if (id) {
+    const tokenFormat = [...id.split('-')].pop();
+    const tokenCategory = [...id.split('-')].shift();
 
-  console.log(tokenCategory);
+    let filteredRawTokens = {};
+    let filteredFigmaTokens = {}
 
-  let filteredRawTokens = {};
-  let filteredFigmaTokens = {}
+    const flattenedByGroup = flattenTokens(tokens, 'group');
+    const flattenedByType = flattenTokens(tokens, 'type');
+    const flattenedByDescription = flattenTokens(tokens, 'description');
+    const flattenedByValue = flattenTokens(tokens);
 
-  const flattenedByGroup = flattenTokens(tokens, 'group');
-  const flattenedByType = flattenTokens(tokens, 'type');
-  const flattenedByDescription = flattenTokens(tokens, 'description');
-  const flattenedByValue = flattenTokens(tokens);
+    Object.entries(flattenedByGroup).forEach(([key, value]) => {
+      if (value === tokenCategory) {
+        if (tokenFormat === 'raw') {
+          filteredRawTokens = {
+            ...filteredRawTokens,
+            [key]: flattenedByValue[key]
+          };
+        } else {
+          filteredFigmaTokens = {
+            ...filteredFigmaTokens,
+            [key]: {
+              'value': flattenedByValue[key],
+              'description': flattenedByDescription[key],
+              'type': flattenedByType[key],
+              'group': flattenedByGroup[key]
+            }
+          };
 
-  console.log(flattenedByGroup);
+          filteredFigmaTokens = unflatten(filteredFigmaTokens);
+        }
+      }
+    });
 
-  Object.entries(flattenedByGroup).forEach(([key, value]) => {
-    if (value === tokenCategory) {
-      if (tokenFormat === 'raw') {
-        filteredRawTokens = {
-          ...filteredRawTokens,
-          [key]: flattenedByValue[key]
-        };
-      } else {
-        filteredFigmaTokens = {
-          ...filteredFigmaTokens,
-          [key]: {
-            'value': flattenedByValue[key],
-            'description': flattenedByDescription[key],
-            'type': flattenedByType[key],
-            'group': flattenedByGroup[key]
-          }
-        };
+    if (tokenCategory === 'all') {
+      switch (tokenFormat) {
+        case 'raw':
+          handleCopyToClipboard(flattenTokens(tokens));
+          return;
 
-        filteredFigmaTokens = unflatten(filteredFigmaTokens);
+        case 'figma':
+          handleCopyToClipboard(tokens);
+          return;
+      
+        default:
+          handleCopyToClipboard(tokens);
+          return;
+      }
+    } else {
+      switch (tokenFormat) {
+        case 'raw':
+          handleCopyToClipboard(filteredRawTokens);
+          return;
+        case 'figma':
+          handleCopyToClipboard(filteredFigmaTokens);
+          return;
+        default:
+          handleCopyToClipboard(filteredFigmaTokens);
+          return;
       }
     }
-  });
-
-  if (tokenCategory === 'all') {
-    switch (tokenFormat) {
-      case 'raw':
-        handleCopyToClipboard(flattenTokens(tokens));
-        return;
-
-      case 'figma':
-        handleCopyToClipboard(tokens);
-        return;
-    
-      default:
-        handleCopyToClipboard(tokens);
-        return;
-    }
   } else {
-    switch (tokenFormat) {
-      case 'raw':
-        handleCopyToClipboard(filteredRawTokens);
-        return;
-      case 'figma':
-        handleCopyToClipboard(filteredFigmaTokens);
-        return;
-      default:
-        handleCopyToClipboard(filteredFigmaTokens);
-        return;
-    }
+    handleCopyToClipboard(tokens);
   }
 }
