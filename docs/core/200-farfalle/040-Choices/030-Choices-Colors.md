@@ -73,26 +73,32 @@ nav_order: 30
       },
       "spaces": {
         "options": {
+          "none": {
+            "value": 0
+          },
           "xs": {
-            "value": "$YPL.FFL.TKUI_M.scales.arithA.200"
+            "value": "YPL.FFL.TKUI_M.scales.arithA.200"
           },
           "s": {
-            "value": "$YPL.FFL.TKUI_M.scales.arithA.400"
+            "value": "YPL.FFL.TKUI_M.scales.arithA.400"
           },
           "sm": {
-            "value": "$YPL.FFL.TKUI_M.scales.arithA.600"
+            "value": "YPL.FFL.TKUI_M.scales.arithA.600"
           },
           "m": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.800"
           },
           "ml": {
-            "value": "$YPL.FFL.TKUI_M.scales.arithA.1000"
+            "value": "YPL.FFL.TKUI_M.scales.arithA.1000"
           },
           "l": {
-            "value": "$YPL.FFL.TKUI_M.scales.arithA.1200"
+            "value": "YPL.FFL.TKUI_M.scales.arithA.1200"
           },
           "xl": {
-            "value": "$YPL.FFL.TKUI_M.scales.arithA.1600"
+            "value": "YPL.FFL.TKUI_M.scales.arithA.1600"
+          },
+          "xxl": {
+            "value": "YPL.FFL.TKUI_M.scales.arithA.1800"
           }
         },
         "description": "",
@@ -122,87 +128,87 @@ nav_order: 30
           },
           "micro": {
             "100": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.100"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.100"
             },
             "200": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.200"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.200"
             },
             "300": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.300"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.300"
             },
             "400": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.400"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.400"
             },
             "500": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.500"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.500"
             },
             "600": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.600"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.600"
             },
             "700": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.700"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.700"
             },
             "800": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.800"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.800"
             },
             "900": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.900"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.900"
             },
             "1000": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.1000"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.1000"
             },
             "1100": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.1100"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.1100"
             },
             "1200": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.1200"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.1200"
             },
             "1300": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.1300"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.1300"
             },
             "1400": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.1400"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.1400"
             },
             "1500": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.1500"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.1500"
             },
             "1600": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithA.1600"
+              "value": "YPL.FFL.TKUI_M.scales.arithA.1600"
             }
           },
           "macro": {
             "100": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.100"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.100"
             },
             "200": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.200"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.200"
             },
             "300": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.300"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.300"
             },
             "400": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.700"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.700"
             },
             "500": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.1200"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.1200"
             },
             "600": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.1500"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.1500"
             },
             "700": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.2600"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.2600"
             },
             "800": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.2800"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.2800"
             },
             "900": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.3100"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.3100"
             },
             "1000": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.4700"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.4700"
             },
             "1100": {
-              "value": "$YPL.FFL.TKUI_M.scales.arithB.6300"
+              "value": "YPL.FFL.TKUI_M.scales.arithB.6300"
             }
           }
         },
@@ -739,13 +745,15 @@ nav_order: 30
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/{{ page.title | downcase }}-script.js"></script>
 
-# Colors `{{ page.project_id }}`
+# Colors
 {: .no_toc}
 
 - TOC
 {:toc}
 
+
 {% include copy-all-tokens-section.html title="Color" %}
+
 
 ## Primary pallette
 
@@ -800,7 +808,7 @@ nav_order: 30
   </table>
 </section>
 
-### Black and white 
+### Black and white
 {: .no_toc}
 
 <section>
@@ -816,7 +824,7 @@ nav_order: 30
       <tr>
         <td>black</td>
         <td>
-          <span data-toolclip="YPL.FFL.TKUI_C.colors.black: #000000">
+          <span data-toolclip="YPL.FFL.TKUI_C.colors.black.value: #000000">
             <code class="language-plaintext highlighter-rouge">.colors.black</code>
           </span>
         </td>
@@ -827,7 +835,7 @@ nav_order: 30
       <tr>
         <td>white</td>
         <td>
-          <span data-toolclip="YPL.FFL.TKUI_C.colors.white: #ffffff">
+          <span data-toolclip="YPL.FFL.TKUI_C.colors.white.value: #ffffff">
             <code class="language-plaintext highlighter-rouge">.colors.white</code>
           </span>
         </td>

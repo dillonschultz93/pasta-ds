@@ -39,10 +39,10 @@ function buildColorPalletteTable(table, allTokens) {
           break;
 
         case 'token':
-          cell.innerHTML = `<span data-toolclip="${k}: ${v}"><code class="language-plaintext highlighter-rouge">${uiIndex}</code></span>`;
+          cell.innerHTML = `<span data-toolclip="${k}.value: ${v}"><code class="language-plaintext highlighter-rouge">${uiIndex}</code></span>`;
           cell.addEventListener('click', () => handleCopyToClipboard(`${k}: ${v}`));
           break;
-      
+
         default:
           cell.innerHTML = `<span class="tableColorChip" style="background-color: ${v}"></span>`;
           break;

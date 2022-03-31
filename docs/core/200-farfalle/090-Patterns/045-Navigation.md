@@ -9,6 +9,7 @@ grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
 nav_order: 45
+nav_exclude: true
 ---
 
 # Navigation&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}

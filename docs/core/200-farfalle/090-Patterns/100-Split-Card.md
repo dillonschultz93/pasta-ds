@@ -9,6 +9,7 @@ grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
 nav_order: 100
+nav_exclude: true
 ---
 
 # Split Card&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
