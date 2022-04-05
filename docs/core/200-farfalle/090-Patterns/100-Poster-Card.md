@@ -2243,7 +2243,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     </tr>
 </table>
 
-<details>
+<details class="copyArea">
 <summary>Raw</summary>
 {% highlight javascript %}
 {

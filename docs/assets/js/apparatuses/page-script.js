@@ -78,6 +78,7 @@ const allTokens = getTokens();
 // Collect all DOM selectors
 const allTables = [...document.querySelectorAll('.output-table')];
 const allCopyTokensButtons = [...document.querySelectorAll('.copy-token-btn')];
+const allCopyAreas = [...document.querySelectorAll('.copyArea pre > code')];
 
 
 if (allTables.length > 0) {
@@ -89,5 +90,19 @@ if (allCopyTokensButtons.length > 0) {
   // Set up all copy to clipboard buttons
   allCopyTokensButtons.forEach(button => {
     button.addEventListener('click', () => handleCopyTokensToClipboard(button, allTokens));
+  });
+}
+
+if (allCopyAreas.length > 0) {
+  allCopyAreas.forEach(area => {
+    const copyButton = document.createElement('div');
+    copyButton.classList.add('copyCodeButton');
+    copyButton.addEventListener('click', () => handleCopyToClipboard(area.textContent));
+
+    const icon = document.createElement('img');
+    icon.src = '../../assets/images/YPL-DOC-icon-addToclipBoard.svg';
+
+    copyButton.appendChild(icon);
+    area.appendChild(copyButton);
   });
 }
