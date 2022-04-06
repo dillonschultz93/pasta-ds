@@ -144,12 +144,12 @@ function darkModeCookieInit() {
 document.addEventListener("DOMContentLoaded",darkModeCookieInit,false);
 
 
-// add a "Toast" node to body
+// // add a "Toast" node to body
 
-var toastNodeParent = document.createElement('div');
-var toastNode = document.createElement('div');
+// var toastNodeParent = document.createElement('div');
+// var toastNode = document.createElement('div');
 
-toastNode.dataset.toastContent = 'copied to clipboard';
+// toastNode.dataset.toastContent = 'copied to clipboard';
 
-document.body.appendChild(toastNodeParent);
-toastNodeParent.appendChild(toastNode);
+// document.body.appendChild(toastNodeParent);
+// toastNodeParent.appendChild(toastNode);

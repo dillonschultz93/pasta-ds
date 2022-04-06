@@ -1657,3 +1657,25 @@ input[type="color"] {
   text-decoration: none;
   background-image: none;
 }
+
+// TOAST
+.toast {
+  position: fixed;
+  right: 0;
+  bottom: -10%;
+  margin: 2rem;
+  padding: 1.4rem;
+  background-color: #222;
+  color: #eee;
+  width: 33vw;
+  min-width: 480px;
+  text-align: center;
+  border-radius: 6px;
+  transition: bottom 150ms ease-in-out;
+
+  &.shown {
+    bottom: 0 !important;
+  }
+}
+
+
