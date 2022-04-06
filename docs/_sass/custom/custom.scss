@@ -115,13 +115,15 @@ body {
 }
 .site-header a::after {
   position: absolute;
-  top: 2.7rem;
+  top: 2.85rem;
   display: block;
   content: "pre-alpha";
-  font-size: 10px;
-  color: #E05F1F;
+  font-size: 8px;
+  color: #fff;
+  background-color: #222;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
 }
-
 .side-bar a {
   color: #333;
 }
@@ -392,7 +394,7 @@ display: none;
 
 // Radio make it red!
 
-input[type="radio"][value="Pending"]:checked  {
+input[type="radio"][value="pending"]:checked  {
   filter: hue-rotate(130deg);
 }
 
@@ -1357,14 +1359,14 @@ input[type="color"] {
 // barrowed from
 // https://codepen.io/reiinii1/pen/aPGXEa
 
-[data-toolclip] {
+[data-toolclip], [data-tooltipped] {
   position: relative;
   cursor: pointer;
 }
 
 // Positioning and visibility settings of the tooltip
-[data-toolclip]:before,
-[data-toolclip]:after {
+[data-toolclip]::before,
+[data-toolclip]::after, [data-tooltipped]::before, [data-tooltipped]::after {
   position: absolute;
   // visibility: hidden;
   opacity: 0;
@@ -1376,9 +1378,8 @@ input[type="color"] {
 }
 
 // The actual tooltip with a dynamic width
-[data-toolclip]:before {
+[data-toolclip]::before, [data-tooltipped]::before {
   z-index: 999;
-  content: attr(data-toolclip);
   font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
   font-size: 13px;
   line-height: 16px;
@@ -1395,8 +1396,14 @@ input[type="color"] {
   white-space: pre-wrap;
   transform: translate(-50%, -5px);
 }
+[data-toolclip]::before {
+    content: attr(data-toolclip);
+}
+[data-tooltipped]::before {
+    content: attr(data-tooltipped);
+}
 // Tooltip arrow
-[data-toolclip]:after {
+[data-toolclip]::after, [data-tooltipped]::after {
   z-index: 999;
   content: '';
   border-style: solid;
@@ -1406,13 +1413,14 @@ input[type="color"] {
   transform-origin: top;
   transform: translateX(-50%) translateY(-10px) ;
 }
-[data-toolclip]:hover:before,
-[data-toolclip]:hover:after {
+[data-toolclip]:hover::before,
+[data-toolclip]:hover::after, [data-tooltipped]:hover::before,
+[data-tooltipped]:hover::after {
   // visibility: visible;
   opacity: 1;
   transition: opacity 0.4s;
 }
-[data-toolclip]:hover:after {
+[data-toolclip]:hover::after, [data-tooltipped]:hover::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
   transition: all 0.6s;
@@ -1633,4 +1641,19 @@ input[type="color"] {
 }
 #dark-elevation-03 {
   background-color: #333;
+}
+
+#statusWidget {
+  // content: "";
+  display: inline-block;
+  width: 40px;
+  height: 4px;
+  background-repeat: no-repeat;
+  // background-image: linear-gradient(to right, #2b84fb, #2b84fb 33%, rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0) 100%);
+  background-color: #ececec;
+  margin: 0.2rem 0.4rem 0.2rem 0;
+}
+.headTopBorder a[data-tooltipped] {
+  text-decoration: none;
+  background-image: none;
 }
