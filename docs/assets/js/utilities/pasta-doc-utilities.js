@@ -99,7 +99,8 @@ function copyToClipboard(content) {
   }
 
   navigator.clipboard.writeText(content).then(() => {
-    console.log('copied to clipboard');
+    // Emit event to show the user the content has been copied.
+    document.dispatchEvent(new CustomEvent('copy-to-clipboard'));
   }).catch(error => console.warn(error));
 }
 
@@ -182,8 +183,89 @@ function handleCopyTokensToClipboard(buttonElement, tokens) {
   }
 }
 
-// TOOL CLIP HANDLER
+function setPageStatusWidget () {
+  const statusContributorItems = document.querySelectorAll("[data-status-category]");
 
+  if (statusContributorItems.length > 0) {
+    let numberOfContributors = 0;
+    let numberOfTodos = 0;
+    let toolTipStr = "";
+    let radioNames = new Set();
+    let statusCategories = new Set();
+    let radioCurrentValue = "";
+    let categoryDetails = {};
+
+    for (let i = 0; i < statusContributorItems.length; ++i) {
+
+      // categories
+      let currentCategory = statusContributorItems[i].dataset.statusCategory;
+
+      // init category
+      if (!statusCategories.has(currentCategory)) {
+            statusCategories.add(currentCategory);
+            categoryDetails[currentCategory] = {
+              total: 0,
+              todo: 0
+            };
+      };
+
+      // RADIO ↓
+      if (statusContributorItems[i].type == "radio") { // radio
+        if (!radioNames.has(statusContributorItems[i].name)) {
+          radioNames.add(statusContributorItems[i].name);
+          if (statusContributorItems[i].checked && statusContributorItems[i].value == "pending") {
+            numberOfTodos += 1;
+            categoryDetails[currentCategory].todo += 1;
+          };
+          // categories
+          if (statusCategories.has(currentCategory)) {
+            categoryDetails[currentCategory].total += 1;
+          };
+        } else {
+          if (statusContributorItems[i].checked && statusContributorItems[i].value == "pending") {
+            numberOfTodos += 1;
+            categoryDetails[currentCategory].todo += 1;
+          };
+        };
+      // CHECKBOXES ↓
+      } else {
+        if (!statusContributorItems[i].checked) {
+          numberOfTodos += 1;
+          categoryDetails[currentCategory].todo += 1;
+        };
+        numberOfContributors += 1;
+        // categories
+        if (statusCategories.has(currentCategory)) {
+          categoryDetails[currentCategory].total += 1;
+        };
+      }
+    }
+    numberOfContributors = numberOfContributors + radioNames.size;
+
+    let progressWidget = document.getElementById("statusWidget");
+
+    let toolTipString = "";
+    for(var item in categoryDetails) {
+      toolTipString += item + ": " + Math.round(100*((categoryDetails[item].total - categoryDetails[item].todo)/categoryDetails[item].total)) + "%, ";
+    };
+    let progressStatus = (numberOfContributors-numberOfTodos)/numberOfContributors;
+    let progressStatusPercent = Math.round(progressStatus*100);
+    let statusColor = "#2b84fb";
+    // Injections:
+    if (progressStatus < 0.5) {
+      statusColor = "#FF2F3B";
+      progressWidget.nextSibling.style.color = statusColor;
+    }
+    progressWidget.style.backgroundImage = 'linear-gradient(to right, ' + statusColor + ', ' + statusColor + ' ' + progressStatusPercent + '%, rgba(0, 0, 0, 0) ' + progressStatusPercent + '%, rgba(0, 0, 0, 0) 100%)';
+    progressWidget.parentElement.dataset.tooltipped = toolTipString;
+    progressWidget.nextSibling.innerHTML = progressStatusPercent + "%";
+  }
+}
+
+// status widget
+setPageStatusWidget();
+
+// TOOL CLIP HANDLER
 const allToolClipButtons = [...document.querySelectorAll('span[data-toolclip]')];
 
 if (allToolClipButtons.length > 0) {
