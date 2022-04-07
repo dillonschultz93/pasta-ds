@@ -763,7 +763,7 @@ nav_order: 50
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
-      <td colspan="5" class="pageHeaderVariantsRow">
+      <td colspan="6" class="pageHeaderVariantsRow">
         {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
       </td>
     </tr>
