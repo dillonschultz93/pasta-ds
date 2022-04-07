@@ -2005,9 +2005,9 @@ Poster Cards distinctive attribute is their background image that fill the card 
          </tr>
          <tr>
             <td>.switchButton</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon"'><code>FFL.E0003-003</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0004-003.HMN_button-switchIcon"'><code>FFL.E0004-003</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/button" alt="Link to Element page" class="btn">button →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch" alt="Link to Element page" class="btn">switch →</a></td>
          </tr>
          <tr>
             <td>.paragraph<sup> OPT</sup></td>
