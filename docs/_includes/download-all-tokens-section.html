@@ -1,0 +1,37 @@
+
+<div class="copyTokensButtons projectTokens">
+  <table>
+    <!-- <caption>my caption</caption> -->
+    <thead>
+      <tr>
+        <th>downloads</th>
+        <th>URL (click to copy)</th>
+        <th>Archive</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-raw-tokens.hjson" class="btn iconed downloadBadge" id="{% if include.section %}{{ include.section }}-raw{% else %}all-raw{% endif %}">Raw HJSON</a>
+        </td>
+        <td>
+          <span data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-raw-tokens.hjson">…&nbsp;{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-raw-tokens.hjson</span>
+        </td>
+        <td>
+          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/old"><code>&nbsp;→&nbsp;</code></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-figma-tokens.json" class="btn iconed downloadBadge" id="{% if include.section %}{{ include.section }}-figma{% else %}all-figma{% endif %}">Figma JSON</a>
+        </td>
+        <td>
+          <span data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-figma-tokens.json">…&nbsp;{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-figam-tokens.json</span>
+        </td>
+        <td>
+          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/old"><code>&nbsp;→&nbsp;</code></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

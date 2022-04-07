@@ -330,8 +330,22 @@ figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL
 }
 .copy-token-btn {
 }
+.projectTokens .btn.iconed {
+  float: none;
+}
+.projectTokens.copyTokensButtons {
+    height: initial;
+}
+.projectTokens table td:last-child, .projectTokens table th:last-child {
+  text-align: right;
+}
+.projectTokens + hr {
+  display: none;
+}
 
-
+.projectTokens + hr + .text-delta {
+  margin-top: 18px;
+}
 
 //
 // OL
@@ -1677,5 +1691,3 @@ input[type="color"] {
     bottom: 0 !important;
   }
 }
-
-
