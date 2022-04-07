@@ -1884,14 +1884,14 @@ nav_order: 150
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
 
 <table class="headTopBorder">
-  <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
       <th>UID</th>
       <th>Ticket</th>
       <th>Owner</th>
       <th>Options</th>
-      <th>{{ page.project_id }} Version</th>
+      <th>Tokens</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
@@ -1899,18 +1899,22 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/9">&#35;9</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='OPT_layout2, OPT_small'><code>NA</code></span></td>
-      <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
+      <td><span data-toolclip='TBD'><code>TBD</code></span></td>
+      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
+      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
-      <td colspan="5" class="pageHeaderVariantsRow">
+      <td colspan="6" class="pageHeaderVariantsRow">
         {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
       </td>
     </tr>
     {% endif %}
   </tbody>
 </table>
+
+
+
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_01.png){: .darkenabled}
 

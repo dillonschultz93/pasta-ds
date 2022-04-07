@@ -1884,14 +1884,14 @@ nav_order: 100
 Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.
 
 <table class="headTopBorder">
-  <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
       <th>UID</th>
       <th>Ticket</th>
       <th>Owner</th>
       <th>Options</th>
-      <th>{{ page.project_id }} Version</th>
+      <th>Tokens</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
@@ -1900,17 +1900,24 @@ Buttons allow users to perform an action or to navigate to another page. They ha
       <td><a href="https://github.com/yummly/pasta/issues/27">&#35;27</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
       <td><span data-toolclip='OPT_small, OPT_icon, OPT_iconOnly, OPT_outlined, OPT_notContained'><code>5</code></span></td>
-      <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
+      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
+      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
-      <td colspan="5" class="pageHeaderVariantsRow">
-        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>{{item | default: ""}}</code></a> {% endfor %}
+      <td colspan="6" class="pageHeaderVariantsRow">
+        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
       </td>
     </tr>
     {% endif %}
   </tbody>
 </table>
+
+
+
+
+
+
 
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
