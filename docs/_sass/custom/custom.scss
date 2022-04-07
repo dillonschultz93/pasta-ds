@@ -43,6 +43,7 @@
   text-transform: uppercase !important;
   font-weight: 600 !important;
   letter-spacing: 0.4px !important;
+  color: #222 !important;
 }
 
 //
@@ -115,13 +116,16 @@ body {
 }
 .site-header a::after {
   position: absolute;
-  top: 2.7rem;
+  top: 2.85rem;
   display: block;
   content: "pre-alpha";
-  font-size: 10px;
-  color: #E05F1F;
+  font-size: 7px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #222;
+  padding: 0.1rem 0.3rem;
+  border-radius: 2px;
 }
-
 .side-bar a {
   color: #333;
 }
@@ -302,21 +306,28 @@ figure.highlight:hover .copyCodeButton, div.highlight:hover .copyCodeButton {
   opacity: 0;
   display: block;
   position: absolute;
-  width: 20px;
+  width: 32px;
   top: 12px;
   right: 12px;
   border: none;
-  fill: red;
   cursor: pointer;
-  transition: all 1s;
+  transition: all 0.6s;
 }
 .copyCodeButton img {
   border: none;
   border-radius: 0;
+  padding: 0.4rem;
+  background-color: transparent;
 }
 figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL-apparatusBaby) .copyCodeButton  {
   top: 0;
   margin-top: -1.2rem;
+}
+.copyCodeButton:hover img {
+  border-radius: 3px;
+  border: 1px solid #444;
+  transition: all 0.4s;
+  transform: scale(116%);
 }
 
 // copy JSON Buttons
@@ -328,8 +339,22 @@ figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL
 }
 .copy-token-btn {
 }
-
-
+.projectTokens .btn.iconed {
+  float: none;
+  margin-left: 0;
+}
+.projectTokens.copyTokensButtons {
+    height: initial;
+}
+.projectTokens table td:last-child, .projectTokens table th:last-child {
+  text-align: right;
+}
+.projectTokens + hr {
+  display: none;
+}
+.projectTokens + hr + .text-delta {
+  margin-top: 18px;
+}
 
 //
 // OL
@@ -392,7 +417,7 @@ display: none;
 
 // Radio make it red!
 
-input[type="radio"][value="Pending"]:checked  {
+input[type="radio"][value="pending"]:checked  {
   filter: hue-rotate(130deg);
 }
 
@@ -674,6 +699,10 @@ table.headerNoUpperCase th {
   text-transform: none;
 }
 
+table.accessibilityTable th:nth-last-child(-n+3) {
+  text-align: center;
+}
+
 
 // icons
 
@@ -719,6 +748,7 @@ table.tableOfIcons td [data-toolclip]:hover > * {
 
 
 // table just for layout / several cols
+// FIXME ↓ can probably be removed (?) replaced with flex
 
 table.layoutOnly {
   margin: 2rem 0 0;
@@ -1357,14 +1387,14 @@ input[type="color"] {
 // barrowed from
 // https://codepen.io/reiinii1/pen/aPGXEa
 
-[data-toolclip] {
+[data-toolclip], [data-tooltipped] {
   position: relative;
   cursor: pointer;
 }
 
 // Positioning and visibility settings of the tooltip
-[data-toolclip]:before,
-[data-toolclip]:after {
+[data-toolclip]::before,
+[data-toolclip]::after, [data-tooltipped]::before, [data-tooltipped]::after {
   position: absolute;
   // visibility: hidden;
   opacity: 0;
@@ -1376,9 +1406,8 @@ input[type="color"] {
 }
 
 // The actual tooltip with a dynamic width
-[data-toolclip]:before {
+[data-toolclip]::before, [data-tooltipped]::before {
   z-index: 999;
-  content: attr(data-toolclip);
   font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
   font-size: 13px;
   line-height: 16px;
@@ -1395,8 +1424,14 @@ input[type="color"] {
   white-space: pre-wrap;
   transform: translate(-50%, -5px);
 }
+[data-toolclip]::before {
+    content: attr(data-toolclip);
+}
+[data-tooltipped]::before {
+    content: attr(data-tooltipped);
+}
 // Tooltip arrow
-[data-toolclip]:after {
+[data-toolclip]::after, [data-tooltipped]::after {
   z-index: 999;
   content: '';
   border-style: solid;
@@ -1406,13 +1441,14 @@ input[type="color"] {
   transform-origin: top;
   transform: translateX(-50%) translateY(-10px) ;
 }
-[data-toolclip]:hover:before,
-[data-toolclip]:hover:after {
+[data-toolclip]:hover::before,
+[data-toolclip]:hover::after, [data-tooltipped]:hover::before,
+[data-tooltipped]:hover::after {
   // visibility: visible;
   opacity: 1;
   transition: opacity 0.4s;
 }
-[data-toolclip]:hover:after {
+[data-toolclip]:hover::after, [data-tooltipped]:hover::after {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
   transition: all 0.6s;
@@ -1633,4 +1669,42 @@ input[type="color"] {
 }
 #dark-elevation-03 {
   background-color: #333;
+}
+
+#statusWidget {
+  // content: "";
+  display: inline-block;
+  width: 40px;
+  height: 4px;
+  background-repeat: no-repeat;
+  // background-image: linear-gradient(to right, #2b84fb, #2b84fb 33%, rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0) 100%);
+  background-color: #ececec;
+  margin: 0.2rem 0.4rem 0.2rem 0;
+}
+.headTopBorder a[data-tooltipped] {
+  text-decoration: none;
+  background-image: none;
+}
+
+// TOAST
+.toast {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: -100px;
+  margin: 2rem;
+  padding: 1.4rem;
+  background-color: #222;
+  color: #eee;
+  width: 33vw;
+  min-width: 480px;
+  text-align: center;
+  border-radius: 6px;
+  opacity: 0;
+  transition: all 250ms ease-in-out;
+
+  &.shown {
+    bottom: 0 !important;
+    opacity: 1 !important;
+  }
 }

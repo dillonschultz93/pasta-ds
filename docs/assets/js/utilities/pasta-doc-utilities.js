@@ -26,6 +26,8 @@
 // SOFTWARE.
 // -----------------------------------------------
 
+const COPY_EVENT = new Event('copy-to-clipboard');
+
 /**
  * @description - A function that builds the contents of the scales output table.
  * @param {string} tableID - The id attribute of the <table> element.
@@ -99,7 +101,9 @@ function copyToClipboard(content) {
   }
 
   navigator.clipboard.writeText(content).then(() => {
-    console.log('copied to clipboard');
+    console.log('Copied to clipboard');
+    // Emit event to show the user the content has been copied.
+    document.dispatchEvent(COPY_EVENT);
   }).catch(error => console.warn(error));
 }
 
@@ -180,4 +184,116 @@ function handleCopyTokensToClipboard(buttonElement, tokens) {
   } else {
     handleCopyToClipboard(tokens);
   }
+}
+
+function setPageStatusWidget () {
+  const statusContributorItems = document.querySelectorAll("[data-status-category]");
+
+  if (statusContributorItems.length > 0) {
+    let numberOfContributors = 0;
+    let numberOfTodos = 0;
+    let toolTipStr = "";
+    let radioNames = new Set();
+    let statusCategories = new Set();
+    let radioCurrentValue = "";
+    let categoryDetails = {};
+
+    for (let i = 0; i < statusContributorItems.length; ++i) {
+
+      // categories
+      let currentCategory = statusContributorItems[i].dataset.statusCategory;
+
+      // init category
+      if (!statusCategories.has(currentCategory)) {
+            statusCategories.add(currentCategory);
+            categoryDetails[currentCategory] = {
+              total: 0,
+              todo: 0
+            };
+      };
+
+      // RADIO ↓
+      if (statusContributorItems[i].type == "radio") { // radio
+        if (!radioNames.has(statusContributorItems[i].name)) {
+          radioNames.add(statusContributorItems[i].name);
+          if (statusContributorItems[i].checked && statusContributorItems[i].value == "pending") {
+            numberOfTodos += 1;
+            categoryDetails[currentCategory].todo += 1;
+          };
+          // categories
+          if (statusCategories.has(currentCategory)) {
+            categoryDetails[currentCategory].total += 1;
+          };
+        } else {
+          if (statusContributorItems[i].checked && statusContributorItems[i].value == "pending") {
+            numberOfTodos += 1;
+            categoryDetails[currentCategory].todo += 1;
+          };
+        };
+      // CHECKBOXES ↓
+      } else {
+        if (!statusContributorItems[i].checked) {
+          numberOfTodos += 1;
+          categoryDetails[currentCategory].todo += 1;
+        };
+        numberOfContributors += 1;
+        // categories
+        if (statusCategories.has(currentCategory)) {
+          categoryDetails[currentCategory].total += 1;
+        };
+      }
+    }
+    numberOfContributors = numberOfContributors + radioNames.size;
+
+    let progressWidget = document.getElementById("statusWidget");
+
+    let toolTipString = "";
+    for(var item in categoryDetails) {
+      toolTipString += item + ": " + Math.round(100*((categoryDetails[item].total - categoryDetails[item].todo)/categoryDetails[item].total)) + "%, ";
+    };
+    let progressStatus = (numberOfContributors-numberOfTodos)/numberOfContributors;
+    let progressStatusPercent = Math.round(progressStatus*100);
+    let statusColor = "#2b84fb";
+    // Injections:
+    if (progressStatus < 0.5) {
+      statusColor = "#FF2F3B";
+      progressWidget.nextSibling.style.color = statusColor;
+    }
+    progressWidget.style.backgroundImage = 'linear-gradient(to right, ' + statusColor + ', ' + statusColor + ' ' + progressStatusPercent + '%, rgba(0, 0, 0, 0) ' + progressStatusPercent + '%, rgba(0, 0, 0, 0) 100%)';
+    progressWidget.parentElement.dataset.tooltipped = toolTipString;
+    progressWidget.nextSibling.innerHTML = progressStatusPercent + "%";
+  }
+}
+
+// status widget
+setPageStatusWidget();
+
+// Copy to clipboard toast
+function createToast() {
+  const toastNode = document.createElement('div');
+  toastNode.classList.add('toast');
+  toastNode.innerHTML = `<span>Copied to clipboard!</span>`;
+
+  document.addEventListener('copy-to-clipboard', () => {
+    console.log('show toast');
+    toastNode.classList.toggle('shown');
+    setTimeout(() => {
+      toastNode.classList.toggle('shown');
+    }, 2000);
+  })
+
+  document.body.appendChild(toastNode);
+}
+
+createToast();
+
+// TOOL CLIP HANDLER
+const allToolClipButtons = [...document.querySelectorAll('span[data-toolclip]')];
+
+if (allToolClipButtons.length > 0) {
+  // Set up all toolclip buttons
+  allToolClipButtons.forEach(button => {
+    const data = button.dataset.toolclip;
+    button.addEventListener('click', () => handleCopyToClipboard(data));
+  });
 }

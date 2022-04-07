@@ -1879,20 +1879,15 @@ nav_order: 100
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
 
-# Poster Card
-{: .no_toc}
-
-Poster Cards distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Poster Cards are used to promote key features within the user journey.
-
 <table class="headTopBorder">
-  <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
       <th>UID</th>
       <th>Ticket</th>
       <th>Owner</th>
       <th>Options</th>
-      <th>{{ page.project_id }} Version</th>
+      <th>Tokens</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
@@ -1900,18 +1895,24 @@ Poster Cards distinctive attribute is their background image that fill the card 
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/7">&#35;7</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='OPT_layout2, OPT_small'><code>2</code></span></td>
-      <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
+      <td><span data-toolclip='.OPT_layout2.OPT_small'><code>2</code></span></td>
+      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
+      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
-      <td colspan="5" class="pageHeaderVariantsRow">
+      <td colspan="6" class="pageHeaderVariantsRow">
         {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
       </td>
     </tr>
     {% endif %}
   </tbody>
 </table>
+
+# Poster Card
+{: .no_toc}
+
+Poster Cards distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Poster Cards are used to promote key features within the user journey.
 
 
 <div class="tabs">
@@ -1921,12 +1922,12 @@ Poster Cards distinctive attribute is their background image that fill the card 
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-opt1-preview_01.png" alt="Default Preview" class="darkenabled">
   </div>
   <input type="radio" name="tabs_previews" id="tab_preview_02">
-  <label for="tab_preview_02">OPT_layout2</label>
+  <label for="tab_preview_02">.OPT_layout2</label>
   <div class="tab">
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-opt2-preview_01.png" alt="Layout 2 Preview" class="darkenabled">
   </div>
   <input type="radio" name="tabs_previews" id="tab_preview_03">
-  <label for="tab_preview_03">OPT_small</label>
+  <label for="tab_preview_03">.OPT_small</label>
   <div class="tab">
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-opt3-preview_01.png" alt="Small Preview" class="darkenabled">
   </div>
@@ -1951,7 +1952,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png" alt="Default Preview">
   </div>
   <input type="radio" name="tabs_dependencies" id="tab_dependency_02">
-  <label for="tab_dependency_02">OPT_layout2</label>
+  <label for="tab_dependency_02">.OPT_layout2</label>
   <div class="tab">
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_02.png" alt="Layout 2 Preview">
   </div>
@@ -2004,9 +2005,9 @@ Poster Cards distinctive attribute is their background image that fill the card 
          </tr>
          <tr>
             <td>.switchButton</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon"'><code>FFL.E0003-003</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "YPL.FFL.E0004-003.HMN_button-switchIcon"'><code>FFL.E0004-003</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/button" alt="Link to Element page" class="btn">button →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch" alt="Link to Element page" class="btn">switch →</a></td>
          </tr>
          <tr>
             <td>.paragraph<sup> OPT</sup></td>
@@ -2081,7 +2082,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_01.png" alt="Default Preview">
   </div>
   <input type="radio" name="tabs_decisions" id="tab_decisions_02">
-  <label for="tab_decisions_02">OPT_layout2</label>
+  <label for="tab_decisions_02">.OPT_layout2</label>
   <div class="tab">
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_02.png" alt="Layout 2 Preview">
   </div>
@@ -2243,7 +2244,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     </tr>
 </table>
 
-<details>
+<details class="copyArea">
 <summary>Raw</summary>
 {% highlight javascript %}
 {
@@ -2344,16 +2345,77 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 
 ## Accessibility Status
 
-| Criterion | Description | Pending| Done | N/A |
-|---|---|:---:|:---:|:---:|
-|[1.1.1](https://www.w3.org/TR/WCAG21/#text-alternatives)|Text Alternatives|<input type="radio" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="Pending" checked>|<input type="radio" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="Done">|<input type="radio" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A">|
-|[1.4.1](https://www.w3.org/TR/WCAG21/#use-of-color)|Color not the only way to convey information|<input type="radio" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="Pending" checked>|<input type="radio" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="Done">|<input type="radio" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A">|
-|[1.4.3](https://www.w3.org/TR/WCAG21/#contrast-minimum)|Text Color Contrast|<input type="radio" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="Pending" checked>|<input type="radio" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="Done">|<input type="radio" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A">|
-|[1.4.6](https://www.w3.org/TR/WCAG21/#contrast-enhanced)|Text Color Contrast AAA|<input type="radio" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="Pending" checked>|<input type="radio" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="Done">|<input type="radio" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A">|
-|[1.4.11](https://www.w3.org/TR/WCAG21/#non-text-contrast)|Fill Color Contrast|<input type="radio" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="Pending" checked>|<input type="radio" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="Done">|<input type="radio" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A">|
-|[1.4.4](https://www.w3.org/TR/WCAG21/#resize-text)|200% Text Size|<input type="radio" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="Pending" checked>|<input type="radio" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="Done">|<input type="radio" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A">|
-|[1.4.12](https://www.w3.org/TR/WCAG21/#text-spacing)|Text Spacing|<input type="radio" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="Pending" checked>|<input type="radio" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="Done">|<input type="radio" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A">|
-|[2.1.3](https://www.w3.org/TR/WCAG21/#keyboard-no-exception)|Keyboard Operable|<input type="radio" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="Pending" checked>|<input type="radio" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="Done">|<input type="radio" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A">|
+
+<table class="accessibilityTable">
+    <thead>
+      <tr>
+          <th>Criterion</th>
+          <th>Description</th>
+          <th>Pending</th>
+          <th>Done</th>
+          <th>N/A</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#text-alternatives">1.1.1</a></td>
+          <td>Text Alternatives</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A"></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1</a></td>
+          <td>Color not the only way to convey information</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A"></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3</a></td>
+          <td>Text Color Contrast</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A"></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6</a></td>
+          <td>Text Color Contrast AAA</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A"></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11</a></td>
+          <td>Fill Color Contrast</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A"></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4</a></td>
+          <td>200% Text Size</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A"></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing">1.4.12</a></td>
+          <td>Text Spacing</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A"></td>
+      </tr>
+      <tr>
+          <td><a href="https://www.w3.org/TR/WCAG21/#keyboard-no-exception">2.1.3</a></td>
+          <td>Keyboard Operable</td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="pending" checked></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="done"></td>
+          <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A"></td>
+      </tr>
+    </tbody>
+</table>
+
 
 
 ## Checklist
@@ -2362,44 +2424,51 @@ Please comply to and update the checklist below:
 
 |Ops|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>UID</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Github Ticket</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Figma Link(s)</strong>|
-|<input type="checkbox" class="checklistItem" checked><strong>Design Owner</strong>|
+|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>|
+|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>|
+|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Figma Link(s)</strong>|
+|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>|
+|<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
+{: .checklistTable}
 
 |Design|
 |---|
-|<input type="checkbox" class="checklistItem" checked><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-|<input type="checkbox" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
-|<input type="checkbox" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
-|<input type="checkbox" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
+|<input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
+|<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
+|<input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
+|<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
+{: .checklistTable}
 
 |Design Constraints|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-|<input type="checkbox" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
+|<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
+|<input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
+{: .checklistTable}
 
 |Content|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
-|<input type="checkbox" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
-|<input type="checkbox" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
+|<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
+|<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
+|<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
+{: .checklistTable}
 
 |Accessiblity|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
+|<input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
+{: .checklistTable}
 
 |Tokens|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
-|<input type="checkbox" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
+|<input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
+|<input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
+{: .checklistTable}
 
 |Implementation|
 |---|
-|<input type="checkbox" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
-|<input type="checkbox" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-|<input type="checkbox" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`|
-|<input type="checkbox" class="checklistItem"><strong>iOS</strong><br>Artifact(s) have been implemented inside iOS component library|
-|<input type="checkbox" class="checklistItem"><strong>Android<strong><br>Artifact(s) have been implemented inside iOS component library|
-|<input type="checkbox" class="checklistItem"><strong>Web</strong><br>Artifact(s) have been implemented inside Web component library|
-|<input type="checkbox" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|
+|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
+|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Project Release Version</strong><br>Pasta `YPL.{{ page.project_id }}` `0.1.0`|
+|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library|
+|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library|
+|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library|
+|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|
+{: .checklistTable}

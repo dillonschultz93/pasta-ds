@@ -12,13 +12,40 @@ nav_order: 60
 nav_exclude: true
 ---
 
-# Toolbar&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
+# Toolbar
 {: .no_toc}
 
-| UID | Ticket | Owner | Figma | Pasta Version |
-|---|---|---|---|---|
-|`{{ page.project_id }}.{{ page.UID }}`|[&#35;20](https://github.com/yummly/pasta/issues/20)|[Robert](https://github.com/robert-ANML)|[TBD](https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH)|[TBD](https://github.com/yummly/pasta/releases)|
-{: .headTopBorder}
+<table class="headTopBorder">
+  <thead>
+    <tr>
+      <th>UID</th>
+      <th>Ticket</th>
+      <th>Owner</th>
+      <th>Options</th>
+      <th>Tokens</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
+      <td><a href="https://github.com/yummly/pasta/issues/20">&#35;20</a></td>
+      <td><a href="https://github.com/robert-ANML">Robert</a></td>
+      <td><span data-toolclip='TBD'><code>TBD</code></span></td>
+      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
+      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
+    </tr>
+    {% if page.variants.size > 0 %}
+    <tr>
+      <td colspan="6" class="pageHeaderVariantsRow">
+        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
+      </td>
+    </tr>
+    {% endif %}
+  </tbody>
+</table>
+
+
 
 - TOC
 {:toc}

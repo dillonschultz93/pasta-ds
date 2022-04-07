@@ -70,7 +70,7 @@ Other categories and sub-categories of tokens are used. They are explicit interm
            └─ Override - TKUI_O (optional)
                └─ Alias - TKUI_A  (optional)
     ——————————————————————————————————————————
-                   ├─ Decision - TKUI_D
+                   └─ Decision - TKUI_D
                        └─ Proxy - TKUI_P (if required)
    {% endhighlight %}
    </div>

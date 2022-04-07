@@ -15,14 +15,14 @@ nav_order: 100
 {: .no_toc}
 
 <table class="headTopBorder">
-  <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
       <th>UID</th>
       <th>Ticket</th>
       <th>Owner</th>
       <th>Options</th>
-      <th>{{ page.project_id }} Version</th>
+      <th>Tokens</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
@@ -30,13 +30,14 @@ nav_order: 100
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/26">&#35;26</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td>N/A</td>
-      <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
+      <td><span data-toolclip='TBD'><code>TBD</code></span></td>
+      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
+      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
-      <td colspan="5" class="pageHeaderVariantsRow">
-        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>{{item | default: ""}}</code></a> {% endfor %}
+      <td colspan="6" class="pageHeaderVariantsRow">
+        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
       </td>
     </tr>
     {% endif %}

@@ -118,13 +118,14 @@ function ToggleDark() {
   }
 }
 
-
 // INJECT LISTENERS
 
 document.getElementById('mode-dark-light').addEventListener("change",ToggleDark, false);
 
+
 // INIT
 
+// dark mode
 function darkModeCookieInit() {
   if (!testIfCookieExist("darkModeOn")) {
     console.log("• cookie doesn't exist");
@@ -134,10 +135,8 @@ function darkModeCookieInit() {
       console.log("• cookie = false");
     } else {
       console.log("• cookie = true");
-      // console.log("—————before-ini-toggle-dark");
       document.getElementById("mode-dark-light").checked = true;
       switchImagesToDark();
-      // console.log("—————after-ini-toggle-dark");
     }
   }
 }
