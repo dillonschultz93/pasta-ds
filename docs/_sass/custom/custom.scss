@@ -332,6 +332,7 @@ figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL
 }
 .projectTokens .btn.iconed {
   float: none;
+  margin-left: 0;
 }
 .projectTokens.copyTokensButtons {
     height: initial;
@@ -342,7 +343,6 @@ figure.highlight:not(.YPL-apparatusBaby) .copyCodeButton, div.highlight:not(.YPL
 .projectTokens + hr {
   display: none;
 }
-
 .projectTokens + hr + .text-delta {
   margin-top: 18px;
 }
@@ -735,6 +735,7 @@ table.tableOfIcons td [data-toolclip]:hover > * {
 
 
 // table just for layout / several cols
+// FIXME ↓ can probably be removed (?) replaced with flex
 
 table.layoutOnly {
   margin: 2rem 0 0;
