@@ -1879,6 +1879,7 @@ nav_order: 150
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
 # Chip
+
 {: .no_toc}
 
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
@@ -1913,15 +1914,12 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table>
 
-
-
-
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_01.png){: .darkenabled}
 
 <a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
-{:toc}
+  {:toc}
 
 ## Layout
 
@@ -1973,8 +1971,13 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   <summary>verbose snippet</summary>
   <p>
   {% highlight js %}
-  TODO: Add tokens here
-  {% endhighlight %}
+/// dependencies.
+
+// .block
+"YPL.FFL.E0001.HMN_chip.block.icon": "YPL.FFL.F0003", // select icon here (for example "YPL.FFL.F0003-028")
+"YPL.FFL.E0001.HMN_chip.block.label": "YPL.FFL.F0002-102",
+{% endhighlight %}
+
   </p>
   </details>
 
@@ -2000,7 +2003,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 
 ## Decisions
 
- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
 
 ### Interaction
 
@@ -2087,6 +2090,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 </table>
 
 ###### Modes
+
 {: no_toc}
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
@@ -2101,12 +2105,10 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
       <td>
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgColor.[…].MD_dark": "YPL.FFL.TKUI_C.colors.teal.300.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
 
-
-
-
       </td>
       <td><span class="">TODO</span></td>
     </tr>
+
   </tbody>
 </table>
 
@@ -2131,11 +2133,9 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table> -->
 
-
 ## Tokens Playground
 
 Playground · Pattern-siloed Tokens including all required Choices and Decisions:
-
 
 <table>
     <tr class="playground-details-row" id="css">
@@ -2158,7 +2158,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 {
 //////  DECISIONS - FFL.{{ page.UID }}
 
-  // macro layout
+// macro layout
 
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.width": "YPL.FFL.TKUI_C.percents.full.value",
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
@@ -2183,7 +2183,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
       "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
       "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
 
-  // colors & stuff
+// colors & stuff
 
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
@@ -2192,7 +2192,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
 
-  // micro layout
+// micro layout
 
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
@@ -2201,7 +2201,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
 
-  // variations
+// variations
 
     // options
 
@@ -2228,8 +2228,10 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
+
 }
 {% endhighlight %}
+
 </details>
 
 <!--
@@ -2250,10 +2252,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
  </div>
  </section> -->
 
-
-
 ## Accessibility Status
-
 
  <table class="accessibilityTable">
      <thead>
@@ -2327,48 +2326,48 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 
 ## Checklist
 
-  Please comply to and update the checklist below:
+Please comply to and update the checklist below:
 
-  |Ops|
-  |---|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Link(s)</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
+| Ops                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>                                                                                                                                                                            |
+| <input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>                                                                                                                                                                  |
+| <input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Link(s)</strong>                                                                                                                                                                          |
+| <input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>                                                                                                                                                                   |
+| <input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
 
-  |Design|
-  |---|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
+| Design                                                                                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes                                                                                           |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
+| <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations                               |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes                                                                                             |
 
-  |Design Constraints|
-  |---|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
+| Design Constraints                                                                                                                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)                                       |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation |
 
-  |Content|
-  |---|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
+| Content                                                                                                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component |
+| <input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)              |
+| <input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)                                                             |
 
-  |Accessiblity|
-  |---|
-  |<input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
+| Accessiblity                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed |
 
-  |Tokens|
-  |---|
-  |<input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
-  |<input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
+| Tokens                                                                                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms |
+| <input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)                                                                                                  |
 
-  |Implementation|
-  |---|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android<strong><br>Component(s) have been implemented inside iOS component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|
+| Implementation                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested  |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`                                    |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library     |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android<strong><br>Component(s) have been implemented inside iOS component library  |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library     |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented |
