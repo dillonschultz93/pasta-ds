@@ -1506,7 +1506,7 @@ nav_order: 50
 
 ## Accessibility Status
 
-<table class="accessibilityTable">
+<table class="Last3ThCentered">
     <thead>
       <tr>
           <th>Criterion</th>

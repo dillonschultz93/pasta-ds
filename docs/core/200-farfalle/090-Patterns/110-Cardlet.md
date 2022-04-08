@@ -2270,7 +2270,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 ## Accessibility Status
 
 
-<table class="accessibilityTable">
+<table class="Last3ThCentered">
     <thead>
       <tr>
           <th>Criterion</th>
