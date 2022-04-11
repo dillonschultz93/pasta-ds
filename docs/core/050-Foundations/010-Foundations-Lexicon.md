@@ -66,12 +66,12 @@ Other categories and sub-categories of tokens are used. They are explicit interm
    {% highlight txt %}
    Super - TKUI_SC
    └─ Math - TKUI_M (optional)
-       └─ Choice - TKUI_C
-           └─ Override - TKUI_O (optional)
-               └─ Alias - TKUI_A  (optional)
+      └─ Override - TKUI_O (optional)
+         └─ Choice - TKUI_C
+            └─ Alias - TKUI_A  (optional)
     ——————————————————————————————————————————
-                   └─ Decision - TKUI_D
-                       └─ Proxy - TKUI_P (if required)
+               └─ Decision - TKUI_D
+                  └─ Proxy - TKUI_P (if required)
    {% endhighlight %}
    </div>
 </section>
