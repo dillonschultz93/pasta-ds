@@ -1929,8 +1929,26 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-layout_01.png) -->
 
 ## Dependencies
+<div class="tabs">
+  <input type="radio" name="tabs_dependencies" id="tab_dependencies_01" checked="checked">
+  <label for="tab_dependencies_01">-001</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png" alt="Switch Check Dependencies">
+  </div>
+  <input type="radio" name="tabs_dependencies" id="tab_dependencies_02">
+  <label for="tab_dependencies_02">-002</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_02.png" alt="Switch Toggle Dependencies">
+  </div>
+  <input type="radio" name="tabs_dependencies" id="tab_dependencies_03">
+  <label for="tab_dependencies_03">-003</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_03.png" alt="Switch ButIcon Dependencies">
+  </div>
+</div>
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png)
+
+<!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png) -->
 
 ### Instantiation
 
@@ -1955,13 +1973,8 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
         <tbody>
          <tr>
             <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_checkbox.icon": "YPL.FFL.F0003-004.HMN_icon"'><code>FFL.F0003-004</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_checkbox.icon": "YPL.FFL.F0003-004.HMN_icon"'><code>FFL.F0003</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons#F0003-004" alt="Link to Icon page" class="btn">Icon →</a></td>
-         </tr>
-         <tr>
-            <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_butIcon": "YPL.FFL.F0003-XXX.HMN_icon"'><code>FFL.F0003</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
         </tbody>
      </table>
@@ -1991,21 +2004,38 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
    </div>
    <div>
      {% highlight txt %}
-          YPL.FFL.E0003.HMN_button
-           └─ .block
-               └─ .icon (optional)
-               └─ .label (optional)
+          YPL.FFL.E0004-001.HMN_switch-check
+          └─ .icon
+
+          YPL.FFL.E0004-002.HMN_switch-toggle
+
+          YPL.FFL.E0004-003.HMN_switch-butIcon
+          └─ .icon
      {% endhighlight %}
    </div>
  </section>
 
 ## Decisions
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}{: .darkenabled}
+<div class="tabs">
+  <input type="radio" name="tabs_decisions" id="tab_decisions_01" checked="checked">
+  <label for="tab_decisions_01">-001</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_01.png" alt="Switch Check decisions">
+  </div>
+  <input type="radio" name="tabs_decisions" id="tab_decisions_02">
+  <label for="tab_decisions_02">-002</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_02.png" alt="Switch Toggle decisions">
+  </div>
+  <input type="radio" name="tabs_decisions" id="tab_decisions_03">
+  <label for="tab_decisions_03">-003</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_03.png" alt="Switch ButIcon decisions">
+  </div>
+</div>
 
 ### Interaction
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}{: .darkenabled}
 
 ###### Default
 
@@ -2033,7 +2063,7 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </tbody>
 </table>
 
-###### Highighted
+###### Highlighted
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
@@ -2058,58 +2088,6 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
     <td><span class="dimmed">N/A</span></td>
     <td><span class="">TODO</span></td>
   </tr>
-  </tbody>
-</table>
-
-### Variations
-
-###### Options
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.OPT_small</th>
-      <th>.OPT_icon</th>
-      <th>.OPT_iconOnly</th>
-      <th>.OPT_outlined</th>
-      <th>.OPT_notContained</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height.OPT_small": "YPL.FFL.TKUI_C.sizes.micro.1400.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-      </td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="">TODO</span></td>
-      <td><span class="dimmed">N/A</span></td>
-    </tr>
-  </tbody>
-</table>
-
-###### Modes
-{: no_toc}
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.MD_dark</th>
-      <th>.MD_light</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgColor.[…].MD_dark": "YPL.FFL.TKUI_C.colors.teal.300.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-
-
-
-
-      </td>
-      <td><span class="">TODO</span></td>
-    </tr>
   </tbody>
 </table>
 
