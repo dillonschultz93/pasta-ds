@@ -2001,7 +2001,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
          </tr>
          <tr>
             <td>.eyebrow</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow_regular}"'><code>FFL.F0002-401</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}"'><code>FFL.F0002-401</code></span></td>
             <!-- <td>Primitive</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
          </tr>
@@ -2009,11 +2009,11 @@ Poster Cards distinctive attribute is their background image that fill the card 
             <td>.switchButton</td>
             <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "{YPL.FFL.E0004-003.HMN_button-switchIcon}"'><code>FFL.E0004-003</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch" alt="Link to Element page" class="btn">switch →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch#E0004-003" alt="Link to Element page" class="btn">switch →</a></td>
          </tr>
          <tr>
             <td>.paragraph<sup> OPT</sup></td>
-            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "{YPL.FFL.F0002-103.HMN_typo_europa-p_small}"'><code>FFL.F0002-103</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "{YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular}"'><code>FFL.F0002-103</code></span></td>
             <!-- <td>Primitive</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-103" alt="Link to Primitive page" class="btn">paragraph →</a></td>
          </tr>
@@ -2021,6 +2021,8 @@ Poster Cards distinctive attribute is their background image that fill the card 
      </table>
    </div>
  </section>
+
+"YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "{YPL.FFL.F0002-103.HMN_typo_europa-p_small}"
 
   <hr>
 
@@ -2042,7 +2044,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
 
   // .blockFooter
 
-  "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "{YPL.FFL.F0002-201.HMN_typo_europa-eyebrow_regular}",
+  "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "{YPL.FFL.F0002-201.HMN_typo_europa-eyebrow}",
   "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "{YPL.FFL.E0003-003.HMN_button-switchIcon}",
   {% endhighlight %}
   </p>

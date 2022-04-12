@@ -2,14 +2,14 @@
   "Design System": "Pasta",
   "project": "FFL",
   "version": "0.1.0 (220406-1536)",
-  "plateform": "raw",
+  "platform": "raw",
   "description": "Platform agnostic design tokens (aka raw) in HJSON format",
   "patent": "
       -----------------------------------------------
       PASTA TOKENS
       -----------------------------------------------
       Description: Pasta Tokens Output
-      Authors: Manuel Colom · manuel.colom@yummly.com, Dillon Schultz · dillon.schultz@yummly.com
+      Authors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com
 
       Copyright (c) 2022 Yummly, Inc.
 

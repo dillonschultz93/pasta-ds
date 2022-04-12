@@ -3341,7 +3341,7 @@
   "Design System": "Pasta",
   "project": "FFL",
   "version": "0.1.0 (220406-1536)",
-  "plateform": "raw",
+  "platform": "raw",
   "description": "Platform agnostic design tokens (aka raw) in HJSON format",
   "patent": "
       -----------------------------------------------
