@@ -9,6 +9,7 @@ grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
 nav_order: 100
+nav_exclude: true
 ---
 
 <!-- Set the choices and nomenclature for token naming -->
