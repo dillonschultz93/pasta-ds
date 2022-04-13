@@ -2854,8 +2854,6 @@ Poster Cards distinctive attribute is their background image that fill the card 
    </div>
  </section>
 
-"YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "{YPL.FFL.F0002-103.HMN_typo_europa-p_small}"
-
   <hr>
 
   <details>

@@ -2012,9 +2012,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 
 ### Variations
 
-###### Options
-
-<br> <!--  FIXME -->
+#### Options
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
 
@@ -2039,7 +2037,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.NONE.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>    
       </td>
       <td>
@@ -2051,11 +2049,21 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table>
 
-###### Modes (N/A)
+{% highlight javascript %}
+// Sequence formula:
+
+".OPT_notContained" + 
+".OPT_icon" || "OPT_iconOnly" + 
+".OPT_inverse" + 
+".OPT_accent"
+{% endhighlight %}
+
+
+#### Modes (N/A)
 {: no_toc}
 
 
-###### Breakpoints (N/A)
+#### Breakpoints (N/A)
 {: no_toc}
 
 <!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
@@ -2110,9 +2118,8 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingLeft": "{YPL.FFL.TKUI_C.spaces.s.value}",
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingRight": "{YPL.FFL.TKUI_C.spaces.s.value}",            
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.precents.m.value}", // 0.5   
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.sizes.micro.600.value}", // fallback 12pt
-    // blocks
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.blockHeader.height": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.sizes.micro.600.value}", // fallback 12pt,
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display": "NONE", // FIXME
 
     // dependencies
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
@@ -2142,10 +2149,14 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
       "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
       "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
 
-      // .OPT_iconOnly
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",       
+      // .OPT_icon 
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display": "INLINE-BLOCK", // FIXME
 
+      // .OPT_iconOnly
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display": "INLINE-BLOCK", // FIXME      
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
+             
       // .OPT_notContained
       "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.none.value}", // TBD
 
