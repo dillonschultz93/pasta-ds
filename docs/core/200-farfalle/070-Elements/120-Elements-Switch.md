@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Switch # title case
 UID: E0004 # ["P","E","F"] + Hexa code/index
-variants: ["001","002","003"] # all variants index
+variants: ['001', '002', '003'] # all variants index
 permalink: farfalle/elements/switch # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
@@ -2711,6 +2711,7 @@ nav_order: 120
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
 # Switch
+
 {: .no_toc}
 
 Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
@@ -2745,32 +2746,23 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </tbody>
 </table>
 
-
-
-
-
-
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-preview_01.png){: .darkenabled}
 
 <a href="https://www.figma.com/file/vgFO9FqjNe0EAmrVwaokOH/?node-id=2116%3A38531" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
-{:toc}
+  {:toc}
 
 <!-- ## Layout
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-layout_01.png) -->
 
 ## Dependencies
+
 <div class="tabs">
   <input type="radio" name="tabs_dependencies" id="tab_dependencies_01" checked="checked">
   <label for="tab_dependencies_01">-001</label>
   <div class="tab">
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png" alt="Switch Check Dependencies">
-  </div>
-  <input type="radio" name="tabs_dependencies" id="tab_dependencies_02">
-  <label for="tab_dependencies_02">-002</label>
-  <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_02.png" alt="Switch Toggle Dependencies">
   </div>
   <input type="radio" name="tabs_dependencies" id="tab_dependencies_03">
   <label for="tab_dependencies_03">-003</label>
@@ -2778,7 +2770,6 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_03.png" alt="Switch ButIcon Dependencies">
   </div>
 </div>
-
 
 <!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png) -->
 
@@ -2809,25 +2800,6 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
             <td>.icon</td>
             <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-001.HMN_switch-check.icon": "YPL.FFL.F0003-XXX"'><code>FFL.F0003</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
-         </tr>
-        </tbody>
-     </table>
-     <!-- E0004-002 -->
-    <h3><code>.E0004-002.HMN_switch-toggle</code></h3>
-     <table>
-       <thead>
-         <tr>
-           <th>Instance</th>
-           <th>Component</th>
-           <!-- <th>Type</th> -->
-           <th></th>
-         </tr>
-       </thead>
-        <tbody>
-         <tr>
-            <td class="dimmed">N/A</td>
-            <td class="dimmed">N/A</td>
-            <td class="dimmed">N/A</td>
          </tr>
         </tbody>
      </table>
@@ -2866,12 +2838,13 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   {% highlight js %}
   /// dependencies
 
-  // .i.icon
-  "YPL.FFL.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}" // idle icon
+// .icon.i
+"YPL.FFL.E0004-003.HMN_switch-butIcon.icon.i": "{YPL.FFL.F0003-001.HMN_icon}" // idle icon
 
-  // .hi.icon
-  "YPL.FFL.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}" // highlighted icon
-  {% endhighlight %}
+// .icon.hi
+"YPL.FFL.E0004-003.HMN_switch-butIcon.icon.hi": "{YPL.FFL.F0003-027.HMN_icon}" // highlighted icon
+{% endhighlight %}
+
   </p>
   </details>
 
@@ -2893,11 +2866,11 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
           YPL.FFL.E0004-002.HMN_switch-toggle
 
           YPL.FFL.E0004-003.HMN_switch-butIcon
-          ├─ .i
-          |   └─ .icon
-          └─ .hi
-              └─ .icon
+          └─ .icon
+              ├─ .i
+              └─ .hi
      {% endhighlight %}
+
    </div>
  </section>
 
@@ -2907,194 +2880,178 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   <input type="radio" name="tabs_decisions" id="tab_decisions_01" checked="checked">
   <label for="tab_decisions_01">-001</label>
   <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_01.png" alt="Switch Check decisions">
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_01.png" alt="Switch Check decisions">
+    <h3>Interaction</h3>
+    <h4>Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.o (mouse over)</th>
+          <th>.p (pressed)</th>
+          <th>.f (focus)</th>
+          <th>.w (waiting)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <h4>Highlighted</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.hi</th>
+          <th>.ho</th>
+          <th>.hp</th>
+          <th>.hf</th>
+          <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+          <th>.hw</th>
+          <th>.hd</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><span class="">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+      </tr>
+      </tbody>
+    </table>
   </div>
   <input type="radio" name="tabs_decisions" id="tab_decisions_02">
   <label for="tab_decisions_02">-002</label>
   <div class="tab">
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_02.png" alt="Switch Toggle decisions">
+     <h3>Interaction</h3>
+    <h4>Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.o (mouse over)</th>
+          <th>.p (pressed)</th>
+          <th>.f (focus)</th>
+          <th>.w (waiting)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <h4>Highlighted</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.hi</th>
+          <th>.ho</th>
+          <th>.hp</th>
+          <th>.hf</th>
+          <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+          <th>.hw</th>
+          <th>.hd</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><span class="">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+      </tr>
+      </tbody>
+    </table>
   </div>
   <input type="radio" name="tabs_decisions" id="tab_decisions_03">
   <label for="tab_decisions_03">-003</label>
   <div class="tab">
      <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_03.png" alt="Switch ButIcon decisions">
+     <h3>Interaction</h3>
+    <h4>Default</h4>
+     <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.o (mouse over)</th>
+          <th>.p (pressed)</th>
+          <th>.f (focus)</th>
+          <th>.w (waiting)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="">
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
+          </span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">TBD</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <h4>Highlighted</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.hi</th>
+          <th>.ho</th>
+          <th>.hp</th>
+          <th>.hf</th>
+          <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+          <th>.hw</th>
+          <th>.hd</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><span class="">
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.grey.500.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
+        </span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">TBD</span></td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 </div>
-
-### Interaction
-
-#### `.E0004-001.HMN_switch-check`
-##### Default
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.i (idle)</th>
-      <th>.o (mouse over)</th>
-      <th>.p (pressed)</th>
-      <th>.f (focus)</th>
-      <th>.w (waiting)</th>
-      <th>.d (disabled)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span class="">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-    </tr>
-  </tbody>
-</table>
-
-##### Highlighted
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.hi</th>
-      <th>.ho</th>
-      <th>.hp</th>
-      <th>.hf</th>
-      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-      <th>.hw</th>
-      <th>.hd</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td><span class="">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-  </tr>
-  </tbody>
-</table>
-
-#### `.E0004-002.HMN_switch-toggle`
-
-##### Default
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.i (idle)</th>
-      <th>.o (mouse over)</th>
-      <th>.p (pressed)</th>
-      <th>.f (focus)</th>
-      <th>.w (waiting)</th>
-      <th>.d (disabled)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span class="">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-    </tr>
-  </tbody>
-</table>
-
-##### Highlighted
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.hi</th>
-      <th>.ho</th>
-      <th>.hp</th>
-      <th>.hf</th>
-      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-      <th>.hw</th>
-      <th>.hd</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td><span class="">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-  </tr>
-  </tbody>
-</table>
-
-#### `.E0004-003.HMN_switch-butIcon`
-
-##### Default
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.i (idle)</th>
-      <th>.o (mouse over)</th>
-      <th>.p (pressed)</th>
-      <th>.f (focus)</th>
-      <th>.w (waiting)</th>
-      <th>.d (disabled)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span class="">
-        <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
-      </span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-      <td><span class="dimmed">TBD</span></td>
-    </tr>
-  </tbody>
-</table>
-
-##### Highlighted
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.hi</th>
-      <th>.ho</th>
-      <th>.hp</th>
-      <th>.hf</th>
-      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-      <th>.hw</th>
-      <th>.hd</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td><span class="">
-      <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.grey.500.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
-      <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
-    </span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-    <td><span class="dimmed">TBD</span></td>
-  </tr>
-  </tbody>
-</table>
 
 ###### Breakpoints (N/A)
 
@@ -3117,11 +3074,9 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </tbody>
 </table> -->
 
-
 ## Tokens Playground
 
 Playground · Pattern-siloed Tokens including all required Choices and Decisions:
-
 
 <table>
     <tr class="playground-details-row" id="css">
@@ -3144,71 +3099,48 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 {
   ////// DECISIONS - FFL.E0004-001
 
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.width": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.height": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.width": "{YPL.FFL.TKUI_C.sizes.nano.100.value}",
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.width": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.height": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} \* 100 + '%'",
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.width": "{YPL.FFL.TKUI_C.sizes.nano.100.value}",
 
-  // dependencies
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // instantiation
+// dependencies
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // instantiation
 
-  // interaction
+// interaction
 
-  // idle
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.i.border.color": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.i.bg": "transparent", // TODO: Tokenize this value
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.i.icon.opacity": "0", // TODO: Tokenize this value
+// idle
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.color.i": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.bg.i": "none", // TODO: Tokenize this value
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon.opacity.i": "0", // TODO: Tokenize this value
 
-  // highlighted
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.hi.border.color": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.hi.bg": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
-  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.hi.icon.opacity": "1", // TODO: Tokenize this value
+// highlighted
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.color.hi": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.bg.hi": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon.opacity.hi": "1", // TODO: Tokenize this value
 }
 
 {
-  ////// DECISIONS - FFL.E0004-002 // TODO: Implement this
+////// DECISIONS - FFL.E0004-003
 
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.width": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.height": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.border.width": "{YPL.FFL.TKUI_C.sizes.nano.100.value}",
+"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.width": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.height": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} \* 100 + '%'",
 
-  // dependencies
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // instantiation
+// dependencies
+"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.icon.i": "{YPL.FFL.F0003-001.HMN_icon}", // instantiation
+"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.icon.hi": "{YPL.FFL.F0003-027.HMN_icon}", // instantiation
 
-  // interaction
+// interaction
 
-  // idle
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.i.border.color": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.i.bg": "transparent", // TODO: Tokenize this value
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.i.icon.opacity": "0", // TODO: Tokenize this value
+// idle
+"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.bg.i": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
 
-  // highlighted
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.hi.border.color": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.hi.bg": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
-  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.hi.icon.opacity": "1", // TODO: Tokenize this value
-}
-
-{
-  ////// DECISIONS - FFL.E0004-003
-
-  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.width": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
-  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.height": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
-  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
-
-  // dependencies
-  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}", // instantiation
-  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.hi.icon": "{YPL.FFL.F0003-027.HMN_icon}", // instantiation
-
-  // interaction
-
-  // idle
-  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
-
-  // highlighted
-  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.hi.bg": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
+// highlighted
+"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.bg.hi": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
 }
 {% endhighlight %}
+
 </details>
 
 <!--
@@ -3229,9 +3161,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
  </div>
  </section> -->
 
-
 ## Accessibility Status
-
 
  <table class="Last3ThCentered">
      <thead>
@@ -3305,48 +3235,48 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 
 ## Checklist
 
-  Please comply to and update the checklist below:
+Please comply to and update the checklist below:
 
-  |Ops|
-  |---|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Link(s)</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
+| Ops                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>                                                                                                                                                                            |
+| <input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>                                                                                                                                                                  |
+| <input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Link(s)</strong>                                                                                                                                                                          |
+| <input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>                                                                                                                                                                   |
+| <input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
 
-  |Design|
-  |---|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
+| Design                                                                                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes                                                                                           |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
+| <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations                               |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes                                                                                             |
 
-  |Design Constraints|
-  |---|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
+| Design Constraints                                                                                                                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)                                       |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation |
 
-  |Content|
-  |---|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
+| Content                                                                                                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component |
+| <input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)              |
+| <input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)                                                             |
 
-  |Accessiblity|
-  |---|
-  |<input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
+| Accessiblity                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed |
 
-  |Tokens|
-  |---|
-  |<input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
-  |<input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
+| Tokens                                                                                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms |
+| <input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)                                                                                                  |
 
-  |Implementation|
-  |---|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android<strong><br>Component(s) have been implemented inside iOS component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|
+| Implementation                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested  |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`                                    |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library     |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android<strong><br>Component(s) have been implemented inside iOS component library  |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library     |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented |
