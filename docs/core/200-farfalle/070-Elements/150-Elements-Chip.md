@@ -2014,6 +2014,8 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 
 ###### Options
 
+<br> <!--  FIXME -->
+
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
 
 
@@ -2021,48 +2023,40 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.OPT_icon</th>
       <th>.OPT_iconOnly</th>
       <th>.OPT_notContained</th>
+      <th>.OPT_accent</th>      
       <th>.OPT_inverse</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.height.OPT_small": "YPL.FFL.TKUI_C.sizes.micro.1400.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.marginRight</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.fringeRight</code></span>        
       </td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="">TODO</span></td>
-      <td><span class="dimmed">N/A</span></td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.NONE.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+      </td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>    
+      </td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_inverse": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>                
+      </td>
     </tr>
   </tbody>
 </table>
 
-###### Modes
-
+###### Modes (N/A)
 {: no_toc}
 
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.MD_dark</th>
-      <th>.MD_light</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.[…].MD_dark": "YPL.FFL.TKUI_C.colors.teal.300.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-
-      </td>
-      <td><span class="">TODO</span></td>
-    </tr>
-
-  </tbody>
-</table>
 
 ###### Breakpoints (N/A)
+{: no_toc}
 
 <!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
@@ -2121,36 +2115,43 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.blockHeader.height": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
 
     // dependencies
-    "YPL.FFL.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
-    "YPL.FFL.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
 
 // colors & stuff
 
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor": "{YPL.FFL.TKUI_C.colors.white.value}"
-    // typo
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color": "{YPL.FFL.TKUI_C.colors.black.value}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color": "{YPL.FFL.TKUI_C.colors.black.value}",
 
 // micro layout
 
-
-    "YPL.FFL.{{ page.UID }}.HMN_chip.block.label.leading": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
-    "YPL.FFL.{{ page.UID }}.HMN_chip.block.icon.width": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
-    "YPL.FFL.{{ page.UID }}.HMN_chip.block.icon.height": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.leading": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.width": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.height": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight": "{YPL.FFL.TKUI_C.spaces.xs.value}", 
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight": "{YPL.FFL.TKUI_C.spaces.xs.value}", 
 
 
 // variations
 
     // options
 
-      // .OPT_icon
       // .OPT_inverse
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_inverse": "{YPL.FFL.TKUI_C.colors.grey.900.value}"
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
+
       // .OPT_iconOnly
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",       
+
       // .OPT_notContained
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.none.value}", // TBD
 
-    // modes
-
-      // .MD_dark
-      // .MD_light
+      // .OPT_accent      
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}",      
 }
 {% endhighlight %}
 

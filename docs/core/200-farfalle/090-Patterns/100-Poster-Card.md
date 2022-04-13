@@ -3111,6 +3111,9 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
       // .blockFooter
       "YPL.FFL.P0001.HMN_posterCard.blockFooter.eyebrow": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}", // instantiation TBD
       "YPL.FFL.P0001.HMN_posterCard.blockFooter.switchButton": "{YPL.FFL.E0003-003.HMN_button-switchIcon}", // TBD
+      // .OPT_layout2
+      "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "{YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular}", // instantiation
+      "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": "{YPL.FFL.TKUI_C.colors.white.value}",            
 
   // colors & stuff
 
@@ -3136,13 +3139,9 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 
       // OPT_layout2
 
-        // dependencies
-        "YPL.FFL.P0001.HMN_posterCard.blockCopy.paragraph": "{YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular}", // instantiation
-        // decisions
         "YPL.FFL.TKUI_D.P0001.HMN_posterCard.gradient.OPT_layout2": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value}",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockCopy.paragraph.color": "{YPL.FFL.TKUI_C.colors.white.value}",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
-        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft": "{YPL.FFL.TKUI_C.spaces.none.value}", // TBD
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.margin.OPT_layout2": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
+        "YPL.FFL.TKUI_D.P0001.HMN_posterCard.blockFooter.eyebrow.paddingLeft.OPT_layout2": "{YPL.FFL.TKUI_C.spaces.none.value}", // TBD
 
       // OPT_small
 
