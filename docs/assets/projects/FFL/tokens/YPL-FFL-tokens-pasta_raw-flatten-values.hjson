@@ -450,5 +450,7 @@
   "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.OPT_small.value": "{YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value}",
   "YPL.FFL.TKUI_D.P0001.HMN_posterCard.heading.paragraphSpacing.BRKP_m.value": "{YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value}",
   "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
-  "YPL.TEST.textSizeFactor.value": 1
+  "YPL.TEST.textSizeFactor.value": 1,
+  "YPL.boolean.true.value": true,
+  "YPL.boolean.false.value": false
 }

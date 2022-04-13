@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Icons # title case
 UID: F0003 # ["P","E","F"] + Hexa code/index
-variants: ["001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016","017","018","019","020","021","022","023","024","025","026","027","028","029","401","402","403","404","405","406","407","408","409","410","411","412","413","414","415","416","417","418","419","420","421","422","423","424","425","426","427","428","429","430","431","432","433","434"] # all variants index
+variants: ["001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016","017","018","019","020","021","022","023","024","025","026","027","028","029","401","402","403","404","405","406","407","408","409","410","411","412","413","414","415","416","417","418","419","420","421","422","423","424","425","426","427","428","429","430","431","432","433","434","3FF","7FF"] # all variants index
 permalink: farfalle/primitives/icons # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
@@ -53,7 +53,7 @@ nav_order: 100
 ## 16pt
 {: no_toc}
 
-Variants UIDs go from `0xx` to `3FF`.
+Variants UIDs go from `0xx` to `3FE`. `3FF` is reserved for placholder.
 
 <table class="tableOfIcons">
   <!-- <caption>my caption</caption> -->
@@ -112,13 +112,16 @@ Variants UIDs go from `0xx` to `3FF`.
       <td id="F0003-029"><span data-toolclip='YPL.FFL.F0003-029'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-029.svg"></span></td>
       <td id="F0003-xxx"></td>
     </tr>
+    <tr>
+      <td id="F0003-3FF"><span data-toolclip='YPL.FFL.F0003-3FF'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-3FF.svg"></span></td>  
+    </tr>    
   </tbody>
 </table>
 
 ## 24pt
 {: no_toc}
 
-Variants UIDs go from `4xx` to `7FF`.
+Variants UIDs go from `4xx` to `7FE`. `7FF` is reserved for placholder.
 
 
 <table class="tableOfIcons">
@@ -171,6 +174,8 @@ Variants UIDs go from `4xx` to `7FF`.
       <td id="F0003-xxx"></td>
       <td id="F0003-xxx"></td>
     </tr>
-
+    <tr>
+      <td id="F0003-7FF"><span data-toolclip='YPL.FFL.F0003-7FF'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-7FF.svg"></span></td>      
+    </tr>  
   </tbody>
 </table>

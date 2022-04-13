@@ -4720,8 +4720,16 @@
         "value": 1,
         "description": "Inject this factor into Typography Sizes Choices. It's used to blow font sizes up to test compliancy with WCAG 1.4.4 · Remove it once in β release",
         "type": {
-          "figma": "test"
+          "figma": "other"
         }
+      }
+    },
+    "boolean" {
+      "true" {
+        "value": true,
+      },
+      "false" {
+        "value": false,
       }
     }
   }

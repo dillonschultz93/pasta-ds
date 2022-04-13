@@ -2108,5 +2108,7 @@
   "YPL.FFL.TKUI_D.P0001.HMN_posterCard.eyebrow.color.UIDs": {},
   "YPL.TEST.textSizeFactor.value": 1,
   "YPL.TEST.textSizeFactor.description": "Inject this factor into Typography Sizes Choices. It's used to blow font sizes up to test compliancy with WCAG 1.4.4 · Remove it once in β release",
-  "YPL.TEST.textSizeFactor.type.figma": "test"
+  "YPL.TEST.textSizeFactor.type.figma": "other",
+  "YPL.boolean.true.value": true,
+  "YPL.boolean.false.value": false
 }

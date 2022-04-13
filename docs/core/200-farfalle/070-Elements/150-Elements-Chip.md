@@ -2034,10 +2034,10 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.NONE.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display.OPT_icon": "INLINE-BLOCK"// FIXME'><code class="language-plaintext highlighter-rouge">.icon.display</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible.OPT_icon": "{YPL.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.icon.visible</code></span>
       </td>    
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display.OPT_iconOnly": "INLINE-BLOCK"// FIXME'><code class="language-plaintext highlighter-rouge">.icon.display</code></span>      
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible.OPT_icon": "{YPL.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.icon.visible</code></span> 
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.icon.marginRight</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.icon.fringeRight</code></span>        
       </td>
@@ -2055,21 +2055,22 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 </table>
 
 {% highlight javascript %}
-// Sequence formula:
+// Sequence protocol:
 
 ".OPT_notContained" + 
 ".OPT_icon" || "OPT_iconOnly" + 
 ".OPT_inverse" + 
 ".OPT_accent"
+
 {% endhighlight %}
 
 
 #### Modes (N/A)
-{: no_toc}
+{: .no_toc}
 
 
 #### Breakpoints (N/A)
-{: no_toc}
+{: .no_toc}
 
 <!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
@@ -2124,7 +2125,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingRight": "{YPL.FFL.TKUI_C.spaces.s.value}",            
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.precents.m.value}", // 0.5   
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.sizes.micro.600.value}", // fallback 12pt,
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display": "NONE", // FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.false.value"}",
 
     // dependencies
     "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
@@ -2155,10 +2156,10 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
       "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
 
       // .OPT_icon 
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display": "INLINE-BLOCK", // FIXME
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.true.value}",
 
       // .OPT_iconOnly
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.display": "INLINE-BLOCK", // FIXME      
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.true.value}",     
       "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
       "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
              
