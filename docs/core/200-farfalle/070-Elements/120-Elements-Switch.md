@@ -2793,6 +2793,8 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
      </p>
    </div>
    <div>
+    <!-- E0004-001 -->
+    <h3><code>.E0004-001.HMN_switch-check</code></h3>
      <table>
        <thead>
          <tr>
@@ -2805,8 +2807,51 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
         <tbody>
          <tr>
             <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_checkbox.icon": "YPL.FFL.F0003-004.HMN_icon"'><code>FFL.F0003</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons#F0003-004" alt="Link to Icon page" class="btn">Icon →</a></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-001.HMN_switch-check.icon": "YPL.FFL.F0003-XXX"'><code>FFL.F0003</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
+         </tr>
+        </tbody>
+     </table>
+     <!-- E0004-002 -->
+    <h3><code>.E0004-002.HMN_switch-toggle</code></h3>
+     <table>
+       <thead>
+         <tr>
+           <th>Instance</th>
+           <th>Component</th>
+           <!-- <th>Type</th> -->
+           <th></th>
+         </tr>
+       </thead>
+        <tbody>
+         <tr>
+            <td class="dimmed">N/A</td>
+            <td class="dimmed">N/A</td>
+            <td class="dimmed">N/A</td>
+         </tr>
+        </tbody>
+     </table>
+     <!-- E0004-003 -->
+    <h3><code>.E0004-003.HMN_switch-butIcon</code></h3>
+     <table>
+       <thead>
+         <tr>
+           <th>Instance</th>
+           <th>Component</th>
+           <!-- <th>Type</th> -->
+           <th></th>
+         </tr>
+       </thead>
+        <tbody>
+         <tr>
+            <td>.i.icon</td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}"'><code>FFL.F0003-001</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons#F0003-001" alt="Link to Icon page" class="btn">Icon →</a></td>
+         </tr>
+         <tr>
+            <td>.hi.icon</td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}"'><code>FFL.F0003-027</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons#F0003-027" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
         </tbody>
      </table>
@@ -2819,7 +2864,13 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   <summary>verbose snippet</summary>
   <p>
   {% highlight js %}
-  TODO: Add tokens here
+  /// dependencies
+
+  // .i.icon
+  "YPL.FFL.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}" // idle icon
+
+  // .hi.icon
+  "YPL.FFL.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}" // highlighted icon
   {% endhighlight %}
   </p>
   </details>
@@ -2842,7 +2893,10 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
           YPL.FFL.E0004-002.HMN_switch-toggle
 
           YPL.FFL.E0004-003.HMN_switch-butIcon
-          └─ .icon
+          ├─ .i
+          |   └─ .icon
+          └─ .hi
+              └─ .icon
      {% endhighlight %}
    </div>
  </section>
@@ -2869,7 +2923,8 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
 
 ### Interaction
 
-###### Default
+#### `.E0004-001.HMN_switch-check`
+##### Default
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
@@ -2885,17 +2940,17 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </thead>
   <tbody>
     <tr>
-      <td><span class="">TODO</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="">TODO</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="">TODO</span></td>
+      <td><span class="">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
     </tr>
   </tbody>
 </table>
 
-###### Highlighted
+##### Highlighted
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
@@ -2912,13 +2967,131 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </thead>
   <tbody>
   <tr>
-    <td><span class="">TODO</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="">TODO</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="">TODO</span></td>
+    <td><span class="">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+  </tr>
+  </tbody>
+</table>
+
+#### `.E0004-002.HMN_switch-toggle`
+
+##### Default
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.i (idle)</th>
+      <th>.o (mouse over)</th>
+      <th>.p (pressed)</th>
+      <th>.f (focus)</th>
+      <th>.w (waiting)</th>
+      <th>.d (disabled)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Highlighted
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.hi</th>
+      <th>.ho</th>
+      <th>.hp</th>
+      <th>.hf</th>
+      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+      <th>.hw</th>
+      <th>.hd</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><span class="">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+  </tr>
+  </tbody>
+</table>
+
+#### `.E0004-003.HMN_switch-butIcon`
+
+##### Default
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.i (idle)</th>
+      <th>.o (mouse over)</th>
+      <th>.p (pressed)</th>
+      <th>.f (focus)</th>
+      <th>.w (waiting)</th>
+      <th>.d (disabled)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="">
+        <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
+      </span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+      <td><span class="dimmed">TBD</span></td>
+    </tr>
+  </tbody>
+</table>
+
+##### Highlighted
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.hi</th>
+      <th>.ho</th>
+      <th>.hp</th>
+      <th>.hf</th>
+      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+      <th>.hw</th>
+      <th>.hd</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><span class="">
+      <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.grey.500.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
+      <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
+    </span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
+    <td><span class="dimmed">TBD</span></td>
   </tr>
   </tbody>
 </table>
@@ -2965,82 +3138,75 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     </tr>
 </table>
 
-<details>
+<details class="copyArea">
 <summary>Raw</summary>
 {% highlight javascript %}
 {
-//////  DECISIONS - FFL.{{ page.UID }}
+  ////// DECISIONS - FFL.E0004-001
 
-  // macro layout
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.width": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.height": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.width": "{YPL.FFL.TKUI_C.sizes.nano.100.value}",
 
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.width": "YPL.FFL.TKUI_C.percents.full.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.margin": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.padding": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
-    // blocks
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
+  // dependencies
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // instantiation
 
-    // dependencies
+  // interaction
 
-      // .blockHeader
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
-      // .blockCopy
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
-      // .blockFooter
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
+  // idle
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.i.border.color": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.i.bg": "transparent", // TODO: Tokenize this value
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.i.icon.opacity": "0", // TODO: Tokenize this value
 
-  // colors & stuff
+  // highlighted
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.hi.border.color": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.hi.bg": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+  "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.hi.icon.opacity": "1", // TODO: Tokenize this value
+}
 
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
-    // typo
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
+{
+  ////// DECISIONS - FFL.E0004-002 // TODO: Implement this
 
-  // micro layout
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.width": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.height": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.border.width": "{YPL.FFL.TKUI_C.sizes.nano.100.value}",
 
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
+  // dependencies
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // instantiation
 
-  // variations
+  // interaction
 
-    // options
+  // idle
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.i.border.color": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.i.bg": "transparent", // TODO: Tokenize this value
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.i.icon.opacity": "0", // TODO: Tokenize this value
 
-      // OPT_layout2
+  // highlighted
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.hi.border.color": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.hi.bg": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+  "YPL.FFL.TKUI_D.E0004-002.HMN_switch-toggle.hi.icon.opacity": "1", // TODO: Tokenize this value
+}
 
-        // dependencies
-        "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
-        // decisions
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
+{
+  ////// DECISIONS - FFL.E0004-003
 
-      // OPT_small
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
+  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.width": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.height": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
 
-    // breakpoints
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
+  // dependencies
+  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}", // instantiation
+  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.hi.icon": "{YPL.FFL.F0003-027.HMN_icon}", // instantiation
+
+  // interaction
+
+  // idle
+  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+
+  // highlighted
+  "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.hi.bg": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
 }
 {% endhighlight %}
 </details>
