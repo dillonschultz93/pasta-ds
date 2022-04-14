@@ -2711,7 +2711,6 @@ nav_order: 120
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
 # Switch
-
 {: .no_toc}
 
 Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
@@ -2732,7 +2731,7 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/29">&#35;29</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='TBD'><code>TBD</code></span></td>
+      <td><span data-toolclip='N/A'><code>N/A</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
       <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
@@ -2746,12 +2745,27 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </tbody>
 </table>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-preview_01.png){: .darkenabled}
+<section class="flex-1_1_1-cols">
+  <div>
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-001-preview_01.png" class="darkenabled">
+    <br><code>-001.HMN_switch-check</code>
+  </div>
+  <div>
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-002-preview_01.png" class="darkenabled">
+    <br><code>-002.HMN_switch-toggle</code>
+  </div>
+  <div>
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-003-preview_01.png" class="darkenabled">
+    <br><code>-003.HMN_switch-butIcon</code>
+  </div>
+</section>
+
+<hr>
 
 <a href="https://www.figma.com/file/vgFO9FqjNe0EAmrVwaokOH/?node-id=2116%3A38531" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
-  {:toc}
+{:toc}
 
 <!-- ## Layout
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-layout_01.png) -->
@@ -2860,15 +2874,14 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
    </div>
    <div>
      {% highlight txt %}
-          YPL.FFL.E0004-001.HMN_switch-check
-          └─ .icon
+      YPL.FFL.E0004-001.HMN_switch-check
+        └─ .icon
 
-          YPL.FFL.E0004-002.HMN_switch-toggle
+      YPL.FFL.E0004-002.HMN_switch-toggle
+        └─ .knob
 
-          YPL.FFL.E0004-003.HMN_switch-butIcon
-          └─ .icon
-              ├─ .i
-              └─ .hi
+      YPL.FFL.E0004-003.HMN_switch-butIcon
+        └─ .icon
      {% endhighlight %}
 
    </div>
