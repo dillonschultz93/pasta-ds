@@ -89,7 +89,7 @@ function getFactors(factorChoices) {
  * @param {Object} scaleChoices - The object containing naming options for the prefix of each token.
  */
 function generateDimensionScale(scaleChoices) {
-  const { value, description, type, kingdom, category, group } = scaleChoices;
+  const { value, description, kingdom, category, apparatusTags, UIDs, figma } = scaleChoices;
   const { base, ratio, baseIndex, scaleStems } = value;
 
   let modifiedValue = {};
@@ -117,8 +117,9 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type,
-              group
+              apparatusTags,
+              UIDs,
+              figma
             }
           }
           break;
@@ -130,8 +131,9 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type,
-              group
+              apparatusTags,
+              UIDs,
+              figma
             }
           }
           break;
@@ -143,8 +145,9 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type,
-              group
+              apparatusTags,
+              UIDs,
+              figma
             }
           }
           break;
@@ -156,8 +159,9 @@ function generateDimensionScale(scaleChoices) {
             [index]: {
               'value': scaleVal,
               description,
-              type,
-              group
+              apparatusTags,
+              UIDs,
+              figma
             }
           }
           break;
@@ -196,7 +200,7 @@ function getSpaces(spaceChoices) {
  * @param {Object} staticSizeChoices - The object containing naming options for the prefix of each token.
  */
  function getSizes(sizeChoices) {
-  const { options, description, type, kingdom, category, group } = sizeChoices;
+  const { options, description, kingdom, category, apparatusTags, UIDs, figma } = sizeChoices;
 
   let modifiedValue = {};
 
@@ -209,8 +213,9 @@ function getSpaces(spaceChoices) {
           [nk]: {
             value: nv.value,
             description,
-            type,
-            group
+            apparatusTags,
+            figma,
+            UIDs
           }
         }
       }

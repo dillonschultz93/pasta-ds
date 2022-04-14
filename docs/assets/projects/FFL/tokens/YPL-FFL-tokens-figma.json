@@ -2,14 +2,16 @@
   "Design System": "Pasta",
   "project": "FFL",
   "version": "0.1.0 (220406-1536)",
-  "plateform": "figma",
-  "description": "Pasta design tokens targeting Figma Tokens plugin plateform in JSON format",
+  "platform": "figma",
+  "type": "Figma Tokens Plugin Format",
+  "format": "json",
+  "description": "Pasta design tokens targeting Figma Tokens plugin platform in JSON format",
   "patent": "
       -----------------------------------------------
       PASTA TOKENS
       -----------------------------------------------
       Description: Pasta Tokens Output
-      Authors: Manuel Colom · manuel.colom@yummly.com, Dillon Schultz · dillon.schultz@yummly.com
+      Authors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com
 
       Copyright (c) 2022 Yummly, Inc.
 
@@ -42,25 +44,25 @@
             "value": 480,
             "description": "",
             "type": "other",
-            "group": "breakpoints"
+            "apparatusTags": ["breakpoints"]
           },
           "m": {
             "value": 768,
             "description": "",
             "type": "other",
-            "group": "breakpoints"
+            "apparatusTags": ["breakpoints"]
           },
           "l": {
             "value": 1024,
             "description": "",
             "type": "other",
-            "group": "breakpoints"
+            "apparatusTags": ["breakpoints"]
           },
           "xl": {
             "value": 1920,
             "description": "",
             "type": "other",
-            "group": "breakpoints"
+            "apparatusTags": ["breakpoints"]
           }
         },
         "factors": {
@@ -68,31 +70,31 @@
             "value": 1,
             "description": "",
             "type": "other",
-            "group": "factors"
+            "apparatusTags": ["factors"]
           },
           "F2": {
             "value": 1,
             "description": "",
             "type": "other",
-            "group": "factors"
+            "apparatusTags": ["factors"]
           },
           "F3": {
             "value": 1,
             "description": "",
             "type": "other",
-            "group": "factors"
+            "apparatusTags": ["factors"]
           },
           "F4": {
             "value": 1,
             "description": "",
             "type": "other",
-            "group": "factors"
+            "apparatusTags": ["factors"]
           },
           "F5": {
             "value": 2,
             "description": "",
             "type": "other",
-            "group": "factors"
+            "apparatusTags": ["factors"]
           }
         },
         "spaces": {
@@ -100,55 +102,55 @@
             "value": 0,
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "xs": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.200",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "s": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.400",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "sm": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.600",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "m": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.800",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "ml": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.1000",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "l": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.1200",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "xl": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.1600",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           },
           "xxl": {
             "value": "YPL.FFL.TKUI_M.scales.arithA.1800",
             "description": "",
             "type": "spacing",
-            "group": "spaces"
+            "apparatusTags": ["spaces"]
           }
         },
         "sizes": {
@@ -157,31 +159,31 @@
               "value": 1,
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "200": {
               "value": 2,
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "300": {
               "value": 3,
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "400": {
               "value": 4,
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "000": {
               "value": 0,
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             }
           },
           "micro": {
@@ -189,103 +191,103 @@
               "value": "YPL.FFL.TKUI_M.scales.arithA.100",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "200": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.200",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "300": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.300",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "400": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.400",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "500": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.500",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "600": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.600",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "700": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.700",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "800": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.800",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "900": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.900",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1000": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.1000",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1100": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.1100",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1200": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.1200",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1300": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.1300",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1400": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.1400",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1500": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.1500",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1600": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.1600",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1700": {
               "value": "YPL.FFL.TKUI_M.scales.arithA.2000",
               "description": "",
               "type": "sizing",
-              "group": "sizes"
+              "apparatusTags": ["sizes"]
             }
           },
           "macro": {
@@ -293,67 +295,67 @@
               "value": "YPL.FFL.TKUI_M.scales.arithB.100",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "200": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.200",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "300": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.300",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "400": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.700",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "500": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.1200",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "600": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.1500",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "700": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.2600",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "800": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.2800",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "900": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.3100",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1000": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.4700",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             },
             "1100": {
               "value": "YPL.FFL.TKUI_M.scales.arithB.6300",
               "description": "",
               "type": "sizing",
-              "group": "staticSizes"
+              "apparatusTags": ["staticSizes"]
             }
           }
         },
@@ -362,37 +364,37 @@
             "value": 0.33,
             "description": "",
             "type": "sizing",
-            "group": "percents"
+            "apparatusTags": ["percents"]
           },
           "m": {
             "value": 0.5,
             "description": "",
             "type": "sizing",
-            "group": "percents"
+            "apparatusTags": ["percents"]
           },
           "ml": {
             "value": 0.66,
             "description": "",
             "type": "sizing",
-            "group": "percents"
+            "apparatusTags": ["percents"]
           },
           "l": {
             "value": 0.75,
             "description": "",
             "type": "sizing",
-            "group": "percents"
+            "apparatusTags": ["percents"]
           },
           "xl": {
             "value": 0.85,
             "description": "",
             "type": "sizing",
-            "group": "percents"
+            "apparatusTags": ["percents"]
           },
           "full": {
             "value": 1,
             "description": "",
             "type": "sizing",
-            "group": "percents"
+            "apparatusTags": ["percents"]
           }
         },
         "colors": {
@@ -400,50 +402,50 @@
             "value": "#ffffff",
             "description": "",
             "type": "color",
-            "group": "colors"
+            "apparatusTags": ["colors"]
           },
           "black": {
             "value": "#000000",
             "description": "",
             "type": "color",
-            "group": "colors"
+            "apparatusTags": ["colors"]
           },
           "grey": {
             "100": {
               "value": "#f5f5f5",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "200": {
               "value": "#E3E3E3",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "300": {
               "value": "#BABABA",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "500": {
               "value": "#707070",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "700": {
               "value": "#4A4A4A",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "900": {
               "value": "#242424",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             }
           },
           "teal": {
@@ -451,19 +453,19 @@
               "value": "#4BB9B3",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "400": {
               "value": "#3A9691",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "500": {
               "value": "#2C726E",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             }
           },
           "orange": {
@@ -471,19 +473,19 @@
               "value": "#E77F4B",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "400": {
               "value": "#E05F1F",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             },
             "500": {
               "value": "#B44B18",
               "description": "",
               "type": "color",
-              "group": "colors"
+              "apparatusTags": ["colors"]
             }
           }
         },
@@ -494,13 +496,13 @@
                 "value": "linear-gradient(64deg, YPL.FFL.TKUI_C.colors.black 0%, YPL.FFL.TKUI_C.colors.black 100%)",
                 "description": "",
                 "type": "color",
-                "group": "gradients"
+                "apparatusTags": ["gradients"]
               },
               "TL_BR": {
                 "value": "linear-gradient(116deg, YPL.FFL.TKUI_C.colors.black 0%, YPL.FFL.TKUI_C.colors.black 100%)",
                 "description": "",
                 "type": "color",
-                "group": "gradients"
+                "apparatusTags": ["gradients"]
               }
             }
           }
@@ -512,19 +514,19 @@
                 "value": "Europa-Light",
                 "description": "",
                 "type": "fontFamilies",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "regular": {
                 "value": "Europa-Regular",
                 "description": "",
                 "type": "fontFamilies",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "bold": {
                 "value": "Europa-Bold",
                 "description": "",
                 "type": "fontFamilies",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "leadingRatio": {
@@ -532,19 +534,19 @@
                 "value": 1.2,
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "m": {
                 "value": 1.4,
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "l": {
                 "value": 1.5,
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             }
           }
@@ -557,67 +559,67 @@
               "value": 1,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "200": {
               "value": 2,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "300": {
               "value": 4,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "400": {
               "value": 8,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "500": {
               "value": 16,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "600": {
               "value": 32,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "700": {
               "value": 64,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "800": {
               "value": 128,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "900": {
               "value": 256,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1000": {
               "value": 512,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1100": {
               "value": 1024,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             }
           },
           "arithA": {
@@ -625,115 +627,115 @@
               "value": 2,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "200": {
               "value": 4,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "300": {
               "value": 6,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "400": {
               "value": 8,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "500": {
               "value": 10,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "600": {
               "value": 12,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "700": {
               "value": 14,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "800": {
               "value": 16,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "900": {
               "value": 18,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1000": {
               "value": 20,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1100": {
               "value": 22,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1200": {
               "value": 24,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1300": {
               "value": 26,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1400": {
               "value": 28,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1500": {
               "value": 30,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1600": {
               "value": 32,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1700": {
               "value": 34,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1800": {
               "value": 36,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2000": {
               "value": 40,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             }
           },
           "arithB": {
@@ -741,379 +743,379 @@
               "value": 32,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "200": {
               "value": 48,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "300": {
               "value": 64,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "400": {
               "value": 80,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "500": {
               "value": 96,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "600": {
               "value": 112,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "700": {
               "value": 128,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "800": {
               "value": 144,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "900": {
               "value": 160,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1000": {
               "value": 176,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1100": {
               "value": 192,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1200": {
               "value": 208,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1300": {
               "value": 224,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1400": {
               "value": 240,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1500": {
               "value": 256,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1600": {
               "value": 272,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1700": {
               "value": 288,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1800": {
               "value": 304,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "1900": {
               "value": 320,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2000": {
               "value": 336,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2100": {
               "value": 352,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2200": {
               "value": 368,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2300": {
               "value": 384,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2400": {
               "value": 400,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2500": {
               "value": 416,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2600": {
               "value": 432,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2700": {
               "value": 448,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2800": {
               "value": 464,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "2900": {
               "value": 480,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3000": {
               "value": 496,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3100": {
               "value": 512,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3200": {
               "value": 528,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3300": {
               "value": 544,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3400": {
               "value": 560,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3500": {
               "value": 576,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3600": {
               "value": 592,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3700": {
               "value": 608,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3800": {
               "value": 624,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "3900": {
               "value": 640,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4000": {
               "value": 656,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4100": {
               "value": 672,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4200": {
               "value": 688,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4300": {
               "value": 704,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4400": {
               "value": 720,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4500": {
               "value": 736,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4600": {
               "value": 752,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4700": {
               "value": 768,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4800": {
               "value": 784,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "4900": {
               "value": 800,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5000": {
               "value": 816,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5100": {
               "value": 832,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5200": {
               "value": 848,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5300": {
               "value": 864,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5400": {
               "value": 880,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5500": {
               "value": 896,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5600": {
               "value": 912,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5700": {
               "value": 928,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5800": {
               "value": 944,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "5900": {
               "value": 960,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "6000": {
               "value": 976,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "6100": {
               "value": 992,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "6200": {
               "value": 1008,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             },
             "6300": {
               "value": 1024,
               "description": "",
               "type": "other",
-              "group": "scales"
+              "apparatusTags": ["scales"]
             }
           }
         },
@@ -1125,25 +1127,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.600 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": 18,
                   "description": "FIXME",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 0,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "10%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               },
               "small": {
@@ -1151,25 +1153,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.500 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": 14,
                   "description": "FIXME",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 0,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "10%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               }
             },
@@ -1179,25 +1181,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.600 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": 18,
                   "description": "FIXME",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 0,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               },
               "strong": {
@@ -1205,25 +1207,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.600 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": 18,
                   "description": "FIXME",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 0,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               }
             },
@@ -1233,25 +1235,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                   "description": "",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 7.56,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               },
               "strong": {
@@ -1259,25 +1261,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                   "description": "",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 7.56,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               }
             },
@@ -1287,25 +1289,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.800 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": "YPL.FFL.TKUI_C.sizes.micro.800 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                   "description": "",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 8.64,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               },
               "strong": {
@@ -1313,25 +1315,25 @@
                   "value": "YPL.FFL.TKUI_C.sizes.micro.800 * YPL.TEST.textSizeFactor",
                   "description": "",
                   "type": "fontSizes",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "leading": {
                   "value": "YPL.FFL.TKUI_C.sizes.micro.800 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                   "description": "",
                   "type": "lineHeights",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "paragraphSpacing": {
                   "value": 8.64,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 },
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
-                  "group": "typo"
+                  "apparatusTags": ["typo"]
                 }
               }
             },
@@ -1340,25 +1342,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": "YPL.FFL.TKUI_C.sizes.micro.700 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 7.56,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "3.5%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "h7": {
@@ -1366,25 +1368,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": "YPL.FFL.TKUI_C.sizes.micro.900 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 9.72,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "0%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "h6": {
@@ -1392,25 +1394,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1000 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 10.8,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "0%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "h5": {
@@ -1418,25 +1420,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1200 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 12.96,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "-1%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "h4": {
@@ -1444,25 +1446,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1400 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 15.12,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "-1%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "h3": {
@@ -1470,25 +1472,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1600 * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s",
                 "description": "",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 17.28,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "-2%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "h2": {
@@ -1496,25 +1498,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.micro.1700 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": 41.6,
                 "description": "FIXME",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 23.12,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "-2%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             },
             "h1": {
@@ -1522,25 +1524,25 @@
                 "value": "YPL.FFL.TKUI_C.sizes.macro.200 * YPL.TEST.textSizeFactor",
                 "description": "",
                 "type": "fontSizes",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "leading": {
                 "value": 50.4,
                 "description": "FIXME",
                 "type": "lineHeights",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "paragraphSpacing": {
                 "value": 22.68,
                 "description": "FIXME",
                 "type": "paragraphSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               },
               "tracking": {
                 "value": "-2%",
                 "description": "FIXME",
                 "type": "letterSpacing",
-                "group": "typo"
+                "apparatusTags": ["typo"]
               }
             }
           }
@@ -1553,55 +1555,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.regular",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -1611,55 +1613,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -1669,55 +1671,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.regular",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.caption.regular.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.caption.regular.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.caption.regular.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.caption.regular.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -1727,55 +1729,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.caption.strong.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.caption.strong.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.caption.strong.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.caption.strong.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -1785,55 +1787,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.regular",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.ps.regular.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.ps.regular.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.ps.regular.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.ps.regular.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -1843,55 +1845,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.ps.strong.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.ps.strong.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.ps.strong.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.ps.strong.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -1901,55 +1903,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.regular",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.p.regular.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.p.regular.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.p.regular.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.p.regular.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -1959,55 +1961,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.p.strong.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.p.strong.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.p.strong.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.p.strong.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2017,55 +2019,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h1.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h1.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h1.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h1.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2075,55 +2077,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h2.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h2.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h2.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h2.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2133,55 +2135,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h3.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h3.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h3.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h3.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2191,55 +2193,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h4.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h4.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h4.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h4.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2249,55 +2251,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h5.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h5.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h5.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h5.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2307,55 +2309,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h6.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h6.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h6.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h6.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2365,55 +2367,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h7.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h7.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h7.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h7.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2423,55 +2425,55 @@
               "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold",
               "description": "",
               "type": "fontFamilies",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "size": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h8.size",
               "description": "",
               "type": "fontSizes",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "leading": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h8.leading",
               "description": "",
               "type": "lineHeights",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "paragraphSpacing": {
               "value": "YPL.FFl.TKUI_M.typo.europa.h8.paragraphSpacing",
               "description": "",
               "type": "paragraphSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "tracking": {
               "value": "YPL.FFL.TKUI_M.typo.europa.h8.tracking",
               "description": "",
               "type": "letterSpacing",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textAlignHorizontal": {
               "value": "LEFT",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textCase": {
               "value": "ORIGINAL",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "textDecoration": {
               "value": "NONE",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             },
             "color": {
               "value": "YPL.FFL.TKUI_C.colors.black",
               "description": "",
               "type": "other",
-              "group": "typo"
+              "apparatusTags": ["typo"]
             }
           }
         },
@@ -2481,75 +2483,75 @@
               "value": "YPL.FFL.TKUI_C.percents.full",
               "description": "",
               "type": "other",
-              "group": ""
+              "apparatusTags": [""]
             },
             "height": {
               "value": "YPL.FFL.TKUI_C.sizes.macro.700",
               "description": "",
               "type": "other",
-              "group": "",
+              "apparatusTags": ["",]
               "OPT_small": {
                 "value": "YPL.FFL.TKUI_C.sizes.macro.700.value",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               }
             },
             "margin": {
               "value": "YPL.FFL.TKUI_C.spaces.l",
               "description": "",
               "type": "other",
-              "group": ""
+              "apparatusTags": [""]
             },
             "fringeBottom": {
               "value": "YPL.FFL.TKUI_C.spaces.l",
               "description": "",
               "type": "other",
-              "group": ""
+              "apparatusTags": [""]
             },
             "padding": {
               "value": "YPL.FFL.TKUI_C.spaces.l",
               "description": "",
               "type": "other",
-              "group": ""
+              "apparatusTags": [""]
             },
             "radius": {
               "value": "YPL.FFL.TKUI_C.sizes.micro.200",
               "description": "",
               "type": "other",
-              "group": ""
+              "apparatusTags": [""]
             },
             "blockCopy": {
               "width": {
                 "value": "YPL.FFL.TKUI_C.percents.full",
                 "description": "",
                 "type": "other",
-                "group": "",
+                "apparatusTags": ["",]
                 "BRKP_m": {
                   "value": "YPL.FFL.TKUI_C.percents.ml.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               },
               "slack": {
                 "value": "YPL.FFL.TKUI_C.sizes.macro.500",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               },
               "chip": {
                 "margin": {
                   "value": "YPL.FFL.TKUI_C.spaces.s",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 },
                 "fringeBottom": {
                   "value": "YPL.FFL.TKUI_C.spaces.s",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               },
               "paragraph": {
@@ -2557,7 +2559,7 @@
                   "value": "YPL.FFL.TKUI_C.colors.white.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               }
             },
@@ -2566,7 +2568,7 @@
                 "value": "YPL.FFL.TKUI_C.spaces.l",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               }
             },
             "blockFooter": {
@@ -2574,19 +2576,19 @@
                 "value": "YPL.FFL.TKUI_C.spaces.e",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               },
               "eyebrow": {
                 "paddingLeft": {
                   "value": "YPL.FFL.TKUI_C.spaces.sm",
                   "description": "",
                   "type": "other",
-                  "group": "",
+                  "apparatusTags": ["",]
                   "OPT_layout2": {
                     "value": "YPL.FFL.TKUI_C.spaces.none",
                     "description": "",
                     "type": "other",
-                    "group": ""
+                    "apparatusTags": [""]
                   }
                 }
               }
@@ -2595,12 +2597,12 @@
               "value": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
               "description": "",
               "type": "other",
-              "group": "",
+              "apparatusTags": ["",]
               "OPT_layout2": {
                 "value": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               }
             },
             "bgImage": {
@@ -2608,7 +2610,7 @@
                 "value": "FILL",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               }
             },
             "heading": {
@@ -2616,44 +2618,44 @@
                 "value": "YPL.FFL.TKUI_C.colors.white",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               },
               "margin": {
                 "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
                 "description": "",
                 "type": "other",
-                "group": "",
+                "apparatusTags": ["",]
                 "OPT_layout2": {
                   "value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               },
               "fringeBottom": {
                 "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               },
               "paddingLeft": {
                 "value": "YPL.FFL.TKUI_C.spaces.xxl",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               },
               "size": {
                 "OPT_small": {
                   "value": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 },
                 "BRKP_m": {
                   "value": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               },
               "tracking": {
@@ -2661,13 +2663,13 @@
                   "value": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 },
                 "BRKP_m": {
                   "value": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               },
               "leading": {
@@ -2675,13 +2677,13 @@
                   "value": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 },
                 "BRKP_m": {
                   "value": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               },
               "paragraphSpacing": {
@@ -2689,13 +2691,13 @@
                   "value": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 },
                 "BRKP_m": {
                   "value": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value",
                   "description": "",
                   "type": "other",
-                  "group": ""
+                  "apparatusTags": [""]
                 }
               }
             },
@@ -2704,7 +2706,7 @@
                 "value": "YPL.FFL.TKUI_C.colors.grey.300",
                 "description": "",
                 "type": "other",
-                "group": ""
+                "apparatusTags": [""]
               }
             }
           }

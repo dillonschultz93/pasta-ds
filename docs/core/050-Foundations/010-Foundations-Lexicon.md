@@ -66,12 +66,12 @@ Other categories and sub-categories of tokens are used. They are explicit interm
    {% highlight txt %}
    Super - TKUI_SC
    └─ Math - TKUI_M (optional)
-       └─ Choice - TKUI_C
-           └─ Override - TKUI_O (optional)
-               └─ Alias - TKUI_A  (optional)
+      └─ Override - TKUI_O (optional)
+         └─ Choice - TKUI_C
+            └─ Alias - TKUI_A  (optional)
     ——————————————————————————————————————————
-                   └─ Decision - TKUI_D
-                       └─ Proxy - TKUI_P (if required)
+               └─ Decision - TKUI_D
+                  └─ Proxy - TKUI_P (if required)
    {% endhighlight %}
    </div>
 </section>
@@ -117,17 +117,45 @@ Patterns are coherent assemblages of Elements providing a conventional UI block:
 
 Features are an aggregation of Components that serves a specific task within a user experience or user flow: a shopping list, an onboarding funnel, a search result page. They are rarely documented inside Pasta.
 
-#### Variants
+### Default, Options, Variants, Components
 
-We use the term `variant` to qualify a component that surfaces the same sub-components as its `default` counterpart but presents them using a different layout that requires to "break" the original layout.
 
-Variants are also used to identify Primitives variations: a specific icon in a set, typographic styles.
 
-Variants are required to have their own UID. A 3 hexa digits extension is added to a Component UID to target a specific Variant, ie: `F0002` represents the Primitives for typographic Styles and `F0002-006` its "Heading 6" Variant.
+   <section class="flex-1_1-cols">
+      <div>
+One tedious task we have is to draw a line in between these categories. We consider the following to distinguish them:
+     </div>
+      <div>
+   {% highlight txt %}
+   Component
+     └─ Variant ( default )  
+     └─ Variant(s) 
+          └─ Options
+   {% endhighlight %}
+      </div>
+    </section>
+
+#### Default
+
+We use the term Default, often noted *`( default )`* to qualify the defaulted set of attributes values for a given variant/component. The "default" attributes values are not explicitly collected under a "default" Option umbrella. They are the foundations that other Options or Variants might override.
 
 #### Options
 
-We use the term `options` to qualify a component that surfaces the same sub-components as a `default` but display some of them and hide others, or that presents attributes changes, including simple re-positioning of its sub-components.
+We use the term Option to qualify a set of attributes values that override those to a given variant Default. Options are modifiers different from standard ones (such as Interaction States).
+
+Options use the `TKUI_OPTS` Kingdom Stem in their name's Domain.
+
+#### Variants
+
+Variants provide the same "Function" or "Usage" of other instances of a component but their form varies in ways that Options cannot easily handle, often by having very different design, layout or behavior. For instance a Switch can either be a Checkbox or a Toggle: they are variants of the same component, but one cannot be instantiated from the other.
+Variant can be considered as different Object from an implementation standpoint: they might surface drastically different Options, Assets and Methods.
+
+Variants are required to have their own UID. A 3 hexadecimal-digit extension is added to a Component UID to target a specific Variant, ie: `F0002` represents the Primitives for typographic Styles and `F0002-006` selects its "Heading 6" Variant.
+
+#### Components
+
+Different components deliver different "Usages" or "Forms" that neither Options nor Variants can handle.
+
 
 ### Apparatuses
 

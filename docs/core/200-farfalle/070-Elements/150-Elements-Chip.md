@@ -11,6 +11,7 @@ layout: default
 nav_order: 150
 ---
 
+
 <!-- Set the choices and nomenclature for token naming -->
 <!-- ⚠️ WARNING: NEVER USE COMMENTS INSIDE SCRIPT TAGS -->
 <script>
@@ -1872,11 +1873,15 @@ nav_order: 150
   };
 </script>
 
+
+
 <!-- Utility scripts -->
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
+
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
+
 
 # Chip
 {: .no_toc}
@@ -1901,7 +1906,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
       <td><span data-toolclip='TBD'><code>TBD</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
-      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
+      <td><a href="#status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
@@ -1913,12 +1918,9 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table>
 
-
-
-
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_01.png){: .darkenabled}
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833" class="btn iconed figmaBadge">To Figma →<a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1519%3A36181" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}
@@ -1954,13 +1956,13 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
         <tbody>
          <tr>
             <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_button.icon": "YPL.FFL.F0003.HMN_icon"'><code>FFL.F0003</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}"'><code>FFL.F0003</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
          <tr>
             <td>.label</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_button.label": "YPL.FFL.F0002-102.HMN_typo_europa-p_strong"'><code>FFL.F0002-102</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-102" alt="Link to Typography Primitives page" class="btn">label →</a></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow}"'><code>FFL.F0002-401</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Typography Primitives page" class="btn">Eyebrow →</a></td>
          </tr>
         </tbody>
      </table>
@@ -1973,8 +1975,13 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   <summary>verbose snippet</summary>
   <p>
   {% highlight js %}
-  TODO: Add tokens here
-  {% endhighlight %}
+/// dependencies.
+
+// .block
+"YPL.FFL.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
+"YPL.FFL.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
+{% endhighlight %}
+
   </p>
   </details>
 
@@ -1990,7 +1997,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
    </div>
    <div>
      {% highlight txt %}
-          YPL.FFL.1.HMN_button
+          YPL.FFL.1.HMN_chip
            └─ .block
                └─ .icon (optional)
                └─ .label (optional)
@@ -2000,117 +2007,70 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 
 ## Decisions
 
- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
 
-### Interaction
-
-###### Default
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.i (idle)</th>
-      <th>.o (mouse over)</th>
-      <th>.p (pressed)</th>
-      <th>.f (focus)</th>
-      <th>.w (waiting)</th>
-      <th>.d (disabled)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span class="">TODO</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="">TODO</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="">TODO</span></td>
-    </tr>
-  </tbody>
-</table>
-
-###### Highighted
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.hi</th>
-      <th>.ho</th>
-      <th>.hp</th>
-      <th>.hf</th>
-      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-      <th>.hw</th>
-      <th>.hd</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td><span class="">TODO</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="">TODO</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="dimmed">N/A</span></td>
-    <td><span class="">TODO</span></td>
-  </tr>
-  </tbody>
-</table>
 
 ### Variations
 
-###### Options
+#### Options
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
+
 
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.OPT_small</th>
+      <th>.OPT_notContained</th>
       <th>.OPT_icon</th>
       <th>.OPT_iconOnly</th>
-      <th>.OPT_outlined</th>
-      <th>.OPT_notContained</th>
+      <th>.OPT_inverse</th>
+      <th>.OPT_accent</th>      
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height.OPT_small": "YPL.FFL.TKUI_C.sizes.micro.1400.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.NONE.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
       </td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="">TODO</span></td>
-      <td><span class="dimmed">N/A</span></td>
-    </tr>
-  </tbody>
-</table>
-
-###### Modes
-{: no_toc}
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.MD_dark</th>
-      <th>.MD_light</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgColor.[…].MD_dark": "YPL.FFL.TKUI_C.colors.teal.300.value"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-
-
-
-
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible.OPT_icon": "{YPL.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.icon.visible</code></span>
+      </td>    
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible.OPT_icon": "{YPL.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.icon.visible</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.icon.marginRight</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.icon.fringeRight</code></span>        
       </td>
-      <td><span class="">TODO</span></td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_inverse": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>                
+      </td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>    
+      </td>
     </tr>
   </tbody>
 </table>
 
-###### Breakpoints (N/A)
+{% highlight javascript %}
+// Sequence protocol:
+
+".OPT_notContained" + 
+".OPT_icon" || "OPT_iconOnly" + 
+".OPT_inverse" + 
+".OPT_accent"
+
+{% endhighlight %}
+
+
+#### Modes (N/A)
+{: .no_toc}
+
+
+#### Breakpoints (N/A)
+{: .no_toc}
 
 <!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
@@ -2131,24 +2091,22 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table> -->
 
-
 ## Tokens Playground
 
 Playground · Pattern-siloed Tokens including all required Choices and Decisions:
 
-
 <table>
     <tr class="playground-details-row" id="css">
-        <td><button class="btn copy-token-btn">CSS Tokens</button></td>
+        <td><button class="btn">CSS Tokens</button></td>
     </tr>
     <tr class="playground-details-row" id="ios">
         <td><button class="btn copy-token-btn">iOS Tokens</button></td>
     </tr>
     <tr class="playground-details-row" id="android">
-        <td><button class="btn copy-token-btn">Android Tokens</button></td>
+        <td><button class="btn">Android Tokens</button></td>
     </tr>
     <tr class="playground-details-row" id="figma-tokens">
-        <td><button class="btn copy-token-btn">Figma Tokens</button></td>
+        <td><button class="btn">Figma Tokens</button></td>
     </tr>
 </table>
 
@@ -2158,78 +2116,62 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 {
 //////  DECISIONS - FFL.{{ page.UID }}
 
-  // macro layout
+// macro layout
 
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.width": "YPL.FFL.TKUI_C.percents.full.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height": "YPL.FFL.TKUI_C.sizes.macro.700.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.margin": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.fringeBottom": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.padding": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.radius": "YPL.FFL.TKUI_C.sizes.micro.200.value",
-    // blocks
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width": "YPL.FFL.TKUI_C.percents.full.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.slack": "YPL.FFL.TKUI_C.sizes.macro.500.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockHeader.height": "YPL.FFL.TKUI_C.spaces.l.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.height": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.height": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingTop": "{YPL.FFL.TKUI_C.spaces.xs.value}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingBottom": "{YPL.FFL.TKUI_C.spaces.xs.value}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingLeft": "{YPL.FFL.TKUI_C.spaces.s.value}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingRight": "{YPL.FFL.TKUI_C.spaces.s.value}",            
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.precents.m.value}", // 0.5   
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.sizes.micro.600.value}", // fallback 12pt,
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.false.value"}",
 
     // dependencies
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
 
-      // .blockHeader
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockHeader.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
-      // .blockCopy
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.chip": "YPL.FFL.E0001.HMN_chip", // instantiation
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.heading": "YPL.FFL.F0002-003.HMN_typo_europa-h5", // instantiation
-      // .blockFooter
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.eyebrow": "YPL.FFL.F0002-401.HMN_typo_europa-eyebrow.", // instantiation
-      "YPL.FFL.{{ page.UID }}.HMN_button.blockFooter.switchButton": "YPL.FFL.E0003-003.HMN_button-switchIcon", // TBD
+// colors & stuff
 
-  // colors & stuff
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor": "{YPL.FFL.TKUI_C.colors.white.value}"
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color": "{YPL.FFL.TKUI_C.colors.black.value}",
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color": "{YPL.FFL.TKUI_C.colors.black.value}",
 
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient": "YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode
-    // typo
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.color": "YPL.FFL.TKUI_C.colors.white.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.eyebrow.color": "YPL.FFL.TKUI_C.colors.grey.300.value",
+// micro layout
 
-  // micro layout
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.leading": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.width": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.height": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight": "{YPL.FFL.TKUI_C.spaces.xs.value}", 
+    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight": "{YPL.FFL.TKUI_C.spaces.xs.value}", 
 
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.fringeBottom": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)", //  it's a negative values
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.margin": "YPL.FFL.TKUI_C.spaces.s",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.chip.fringeBottom": "YPL.FFL.TKUI_C.spaces.s",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paddingLeft": "YPL.FFL.TKUI_C.spaces.xxl",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.sm",
 
-  // variations
+// variations
 
     // options
 
-      // OPT_layout2
+      // .OPT_inverse
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_inverse": "{YPL.FFL.TKUI_C.colors.grey.900.value}"
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
 
-        // dependencies
-        "YPL.FFL.{{ page.UID }}.HMN_button.blockCopy.paragraph": "YPL.FFL.F0002-103.HMN_typo_europa-p_s_regular", // instantiation
-        // decisions
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.gradient.OPT_layout2": "YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR",
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.paragraph.color": "YPL.FFL.TKUI_C.colors.white.value",
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.margin": "YPL.FFL.TKUI_C.sizes.micro.400.value",
-        "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockFooter.eyebrow.paddingLeft": "YPL.FFL.TKUI_C.spaces.none", // TBD
+      // .OPT_icon 
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.true.value}",
 
-      // OPT_small
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.height.OPT_small": "YPL.FFL.TKUI_C.sizes.macro.700.value", // 432
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.size.value",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.tracking.value",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.leading.value",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.OPT_small": "YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value",
+      // .OPT_iconOnly
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.true.value}",     
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
+             
+      // .OPT_notContained
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.none.value}", // TBD
 
-    // breakpoints
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.blockCopy.width.BRKP_m": "YPL.FFL.TKUI_C.percents.ml.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.size.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.size.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.tracking.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.tracking.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.leading.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.leading.value",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_button.heading.paragraphSpacing.BRKP_m": "YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value"
+      // .OPT_accent      
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
+      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}",      
 }
 {% endhighlight %}
+
 </details>
 
 <!--
@@ -2250,125 +2192,214 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
  </div>
  </section> -->
 
+ <section class="status-section">
 
+   <h2 id="status">Status</h2>
 
-## Accessibility Status
+   <h3 id="checklist-accessibility-section">Accessibility</h3>
 
+   <table class="checklist-accessibility-details Last3ThCentered">
+       <thead>
+         <tr>
+             <th>Criterion</th>
+             <th>Description</th>
+             <th>Pending</th>
+             <th>Done</th>
+             <th>N/A</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#text-alternatives">1.1.1</a></td>
+             <td>Text Alternatives</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A"></td>
+         </tr>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1</a></td>
+             <td>Color not the only way to convey information</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A"></td>
+         </tr>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3</a></td>
+             <td>Text Color Contrast</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A"></td>
+         </tr>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6</a></td>
+             <td>Text Color Contrast AAA</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A"></td>
+         </tr>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11</a></td>
+             <td>Fill Color Contrast</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A"></td>
+         </tr>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4</a></td>
+             <td>200% Text Size</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A"></td>
+         </tr>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing">1.4.12</a></td>
+             <td>Text Spacing</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A"></td>
+         </tr>
+         <tr>
+             <td><a href="https://www.w3.org/TR/WCAG21/#keyboard-no-exception">2.1.3</a></td>
+             <td>Keyboard Operable</td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="pending" checked></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="done"></td>
+             <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A"></td>
+         </tr>
+       </tbody>
+   </table>
 
- <table class="accessibilityTable">
-     <thead>
-       <tr>
-           <th>Criterion</th>
-           <th>Description</th>
-           <th>Pending</th>
-           <th>Done</th>
-           <th>N/A</th>
-       </tr>
-     </thead>
-     <tbody>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#text-alternatives">1.1.1</a></td>
-           <td>Text Alternatives</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A"></td>
-       </tr>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1</a></td>
-           <td>Color not the only way to convey information</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A"></td>
-       </tr>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3</a></td>
-           <td>Text Color Contrast</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A"></td>
-       </tr>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6</a></td>
-           <td>Text Color Contrast AAA</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A"></td>
-       </tr>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11</a></td>
-           <td>Fill Color Contrast</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A"></td>
-       </tr>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4</a></td>
-           <td>200% Text Size</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A"></td>
-       </tr>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing">1.4.12</a></td>
-           <td>Text Spacing</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A"></td>
-       </tr>
-       <tr>
-           <td><a href="https://www.w3.org/TR/WCAG21/#keyboard-no-exception">2.1.3</a></td>
-           <td>Keyboard Operable</td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="pending" checked></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="done"></td>
-           <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A"></td>
-       </tr>
-     </tbody>
- </table>
+   <h3 id="checklist-general">General</h3>
 
-## Checklist
+  <table id="checklist-ops">
+      <thead>
+          <tr>
+              <th>Ops</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong></td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong></td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Link(s)</strong></td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong></td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the <a href="https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details">Figma Component Details Panel</a></td>
+          </tr>
+      </tbody>
+  </table>
 
-  Please comply to and update the checklist below:
+  <table id="checklist-design">
+      <thead>
+          <tr>
+              <th>Design</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes
+              </td>
+          </tr>
+          <tr>
+              <td>
+                <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.
+              </td>
+          </tr>
+          <tr>
+              <td>
+                <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations
+              </td>
+          </tr>
+          <tr>
+              <td>
+                <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes
+              </td>
+          </tr>
+          <tr>
+              <td>
+               <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)
+             </td>
+          </tr>
+          <tr>
+              <td>
+                <input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation
+              </td>
+          </tr>
+      </tbody>
+  </table>
 
-  |Ops|
-  |---|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Link(s)</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>|
-  |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
+  <table id="checklist-content">
+      <thead>
+          <tr>
+              <th>Content</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component</td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)</td>
+          </tr>
+          <tr>
+              <td><input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)</td>
+          </tr>
+      </tbody>
+  </table>
 
-  |Design|
-  |---|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
+  <table id="checklist-tokens">
+      <thead>
+          <tr>
+              <th>Tokens</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                <input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms
+              </td>
+          </tr>
+          <tr>
+              <td>
+                <input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)
+              </td>
+          </tr>
+      </tbody>
+  </table>
 
-  |Design Constraints|
-  |---|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-  |<input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
+  <table id="checklist-implementation">
+  <thead>
+      <tr>
+          <th>Implementation</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested</td>
+      </tr>
+      <tr>
+          <td><input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Release Version</strong><br><code>{{ page.project_id }}</code> <code>0.1.0</code></td>
+      </tr>
+      <tr>
+          <td><input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library</td>
+      </tr>
+      <tr>
+          <td><input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library</td>
+      </tr>
+      <tr>
+          <td><input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library</td>
+      </tr>
+      <tr>
+          <td><input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented</td>
+      </tr>
+  </tbody>
+  </table>
 
-  |Content|
-  |---|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
-  |<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
-
-  |Accessiblity|
-  |---|
-  |<input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
-
-  |Tokens|
-  |---|
-  |<input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
-  |<input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
-
-  |Implementation|
-  |---|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android<strong><br>Component(s) have been implemented inside iOS component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library|
-  |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|
+</section>

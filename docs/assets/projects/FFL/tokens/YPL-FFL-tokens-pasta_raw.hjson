@@ -1,0 +1,4736 @@
+{
+  "Design System": "Pasta",
+  "project": "FFL",
+  "version": "0.1.0 (220406-1536)",
+  "platform": "pasta",
+  "type": "raw",
+  "format": "hjson",
+  "description": "Pasta design tokens HJSON format",
+  "patent": "
+      -----------------------------------------------
+      PASTA TOKENS
+      -----------------------------------------------
+      Description: Pasta Tokens Output
+      Authors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com
+
+      Copyright (c) 2022 Yummly, Inc.
+
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the `Software`), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
+
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED `AS IS`, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.
+      -----------------------------------------------
+  "
+},
+{
+  "YPL": {
+    "FFL": {
+      "TKUI_C": {
+        "breakpoints": {
+          "s": {
+            "value": 480,
+            "description": "",
+            "apparatusTags": [
+              "breakpoints"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          },
+          "m": {
+            "value": 768,
+            "description": "",
+            "apparatusTags": [
+              "breakpoints"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          },
+          "l": {
+            "value": 1024,
+            "description": "",
+            "apparatusTags": [
+              "breakpoints"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          },
+          "xl": {
+            "value": 1920,
+            "description": "",
+            "apparatusTags": [
+              "breakpoints"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          }
+        },
+        "factors": {
+          "F1": {
+            "value": 1,
+            "description": "",
+            "apparatusTags": [
+              "factors"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          },
+          "F2": {
+            "value": 1,
+            "description": "",
+            "apparatusTags": [
+              "factors"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          },
+          "F3": {
+            "value": 1,
+            "description": "",
+            "apparatusTags": [
+              "factors"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          },
+          "F4": {
+            "value": 1,
+            "description": "",
+            "apparatusTags": [
+              "factors"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          },
+          "F5": {
+            "value": 2,
+            "description": "",
+            "apparatusTags": [
+              "factors"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "other"
+            }
+          }
+        },
+        "spaces": {
+          "none": {
+            "value": 0,
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "xs": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.200.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "s": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.400.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "sm": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.600.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "m": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.800.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "ml": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.1000.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "l": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.1200.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "xl": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.1600.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          },
+          "xxl": {
+            "value": "{YPL.FFL.TKUI_M.scales.arithA.1800.value}",
+            "description": "",
+            "apparatusTags": [
+              "spaces"
+            ],
+            "UIDs": {},
+            "figma": {
+              "type": "spacing"
+            }
+          }
+        },
+        "sizes": {
+          "nano": {
+            "100": {
+              "value": 1,
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "200": {
+              "value": 2,
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "300": {
+              "value": 3,
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "400": {
+              "value": 4,
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "000": {
+              "value": 0,
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            }
+          },
+          "micro": {
+            "100": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.100.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "200": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.200.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "300": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.300.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "400": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.400.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "500": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.500.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "600": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.600.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "700": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.700.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "800": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.800.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "900": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.900.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1000": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.1000.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1100": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.1100.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1200": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.1200.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1300": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.1300.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1400": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.1400.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1500": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.1500.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1600": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.1600.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1700": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}",
+              "description": "",
+              "figma": {
+                "type": "sizing"
+              },
+              "apparatusTags": [
+                "sizes"
+              ],
+              "UIDs": {}
+            }
+          },
+          "macro": {
+            "100": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.100.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "200": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.200.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "300": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.300.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "400": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.700.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "500": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.1200.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "600": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.1500.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "700": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.2600.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "800": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.2800.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "900": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.3100.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1000": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.4700.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            },
+            "1100": {
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.6300.value}",
+              "description": "",
+              "apparatusTags": [
+                "staticSizes"
+              ],
+              "figma": {
+                "type": "sizing"
+              },
+              "UIDs": {}
+            }
+          }
+        },
+        "percents": {
+          "s": {
+            "value": 0.33,
+            "description": "",
+            "figma": {
+              "type": "sizing"
+            },
+            "apparatusTags": [
+              "percents"
+            ],
+            "UIDs": {}
+          },
+          "m": {
+            "value": 0.5,
+            "description": "",
+            "figma": {
+              "type": "sizing"
+            },
+            "apparatusTags": [
+              "percents"
+            ],
+            "UIDs": {}
+          },
+          "ml": {
+            "value": 0.66,
+            "description": "",
+            "figma": {
+              "type": "sizing"
+            },
+            "apparatusTags": [
+              "percents"
+            ],
+            "UIDs": {}
+          },
+          "l": {
+            "value": 0.75,
+            "description": "",
+            "figma": {
+              "type": "sizing"
+            },
+            "apparatusTags": [
+              "percents"
+            ],
+            "UIDs": {}
+          },
+          "xl": {
+            "value": 0.85,
+            "description": "",
+            "figma": {
+              "type": "sizing"
+            },
+            "apparatusTags": [
+              "percents"
+            ],
+            "UIDs": {}
+          },
+          "full": {
+            "value": 1,
+            "description": "",
+            "figma": {
+              "type": "sizing"
+            },
+            "apparatusTags": [
+              "percents"
+            ],
+            "UIDs": {}
+          }
+        },
+        "colors": {
+          "white": {
+            "value": "#ffffff",
+            "description": "",
+            "figma": {
+              "type": "color"
+            },
+            "apparatusTags": [
+              "colors"
+            ],
+            "UIDs": {}
+          },
+          "black": {
+            "value": "#000000",
+            "description": "",
+            "figma": {
+              "type": "color"
+            },
+            "apparatusTags": [
+              "colors"
+            ],
+            "UIDs": {}
+          },
+          "grey": {
+            "100": {
+              "value": "#f5f5f5",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "200": {
+              "value": "#E3E3E3",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "300": {
+              "value": "#BABABA",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "500": {
+              "value": "#707070",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "700": {
+              "value": "#4A4A4A",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "900": {
+              "value": "#242424",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            }
+          },
+          "teal": {
+            "300": {
+              "value": "#4BB9B3",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "400": {
+              "value": "#3A9691",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "500": {
+              "value": "#2C726E",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            }
+          },
+          "orange": {
+            "300": {
+              "value": "#E77F4B",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "400": {
+              "value": "#E05F1F",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            },
+            "500": {
+              "value": "#B44B18",
+              "description": "",
+              "figma": {
+                "type": "color"
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "gradients": {
+          "overlay": {
+            "black": {
+              "BL_TR": {
+                "value": "linear-gradient(64deg, {YPL.FFL.TKUI_C.colors.black.value} 0%, {YPL.FFL.TKUI_C.colors.black.value} 100%)",
+                "description": "",
+                "figma": {
+                  "type": "color"
+                },
+                "apparatusTags": [
+                  "gradients"
+                ],
+                "UIDs": {}
+              },
+              "TL_BR": {
+                "value": "linear-gradient(116deg, {YPL.FFL.TKUI_C.colors.black.value} 0%, {YPL.FFL.TKUI_C.colors.black.value} 100%)",
+                "description": "",
+                "figma": {
+                  "type": "color"
+                },
+                "apparatusTags": [
+                  "gradients"
+                ],
+                "UIDs": {}
+              }
+            }
+          }
+        },
+        "typo": {
+          "europa": {
+            "familyName": {
+              "light": {
+                "value": "Europa-Light",
+                "description": "",
+                "figma": {
+                  "type": "fontFamilies"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "regular": {
+                "value": "Europa-Regular",
+                "description": "",
+                "figma": {
+                  "type": "fontFamilies"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "bold": {
+                "value": "Europa-Bold",
+                "description": "",
+                "figma": {
+                  "type": "fontFamilies"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "leadingRatio": {
+              "s": {
+                "value": 1.2,
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "m": {
+                "value": 1.4,
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "l": {
+                "value": 1.5,
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            }
+          }
+        }
+      },
+      "TKUI_M": {
+        "scales": {
+          "geoA": {
+            "100": {
+              "value": 1,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "200": {
+              "value": 2,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "300": {
+              "value": 4,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "400": {
+              "value": 8,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "500": {
+              "value": 16,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "600": {
+              "value": 32,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "700": {
+              "value": 64,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "800": {
+              "value": 128,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "900": {
+              "value": 256,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1000": {
+              "value": 512,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1100": {
+              "value": 1024,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            }
+          },
+          "arithA": {
+            "100": {
+              "value": 2,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "200": {
+              "value": 4,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "300": {
+              "value": 6,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "400": {
+              "value": 8,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "500": {
+              "value": 10,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "600": {
+              "value": 12,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "700": {
+              "value": 14,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "800": {
+              "value": 16,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "900": {
+              "value": 18,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1000": {
+              "value": 20,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1100": {
+              "value": 22,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1200": {
+              "value": 24,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1300": {
+              "value": 26,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1400": {
+              "value": 28,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1500": {
+              "value": 30,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1600": {
+              "value": 32,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1700": {
+              "value": 34,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1800": {
+              "value": 36,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2000": {
+              "value": 40,
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {}
+            }
+          },
+          "arithB": {
+            "100": {
+              "value": 32,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "200": {
+              "value": 48,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "300": {
+              "value": 64,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "400": {
+              "value": 80,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "500": {
+              "value": 96,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "600": {
+              "value": 112,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "700": {
+              "value": 128,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "800": {
+              "value": 144,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "900": {
+              "value": 160,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1000": {
+              "value": 176,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1100": {
+              "value": 192,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1200": {
+              "value": 208,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1300": {
+              "value": 224,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1400": {
+              "value": 240,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1500": {
+              "value": 256,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1600": {
+              "value": 272,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1700": {
+              "value": 288,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1800": {
+              "value": 304,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "1900": {
+              "value": 320,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2000": {
+              "value": 336,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2100": {
+              "value": 352,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2200": {
+              "value": 368,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2300": {
+              "value": 384,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2400": {
+              "value": 400,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2500": {
+              "value": 416,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2600": {
+              "value": 432,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2700": {
+              "value": 448,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2800": {
+              "value": 464,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "2900": {
+              "value": 480,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3000": {
+              "value": 496,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3100": {
+              "value": 512,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3200": {
+              "value": 528,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3300": {
+              "value": 544,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3400": {
+              "value": 560,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3500": {
+              "value": 576,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3600": {
+              "value": 592,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3700": {
+              "value": 608,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3800": {
+              "value": 624,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "3900": {
+              "value": 640,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4000": {
+              "value": 656,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4100": {
+              "value": 672,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4200": {
+              "value": 688,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4300": {
+              "value": 704,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4400": {
+              "value": 720,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4500": {
+              "value": 736,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4600": {
+              "value": 752,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4700": {
+              "value": 768,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4800": {
+              "value": 784,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "4900": {
+              "value": 800,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5000": {
+              "value": 816,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5100": {
+              "value": 832,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5200": {
+              "value": 848,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5300": {
+              "value": 864,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5400": {
+              "value": 880,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5500": {
+              "value": 896,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5600": {
+              "value": 912,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5700": {
+              "value": 928,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5800": {
+              "value": 944,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "5900": {
+              "value": 960,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "6000": {
+              "value": 976,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "6100": {
+              "value": 992,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "6200": {
+              "value": 1008,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            },
+            "6300": {
+              "value": 1024,
+              "description": "",
+              "apparatusTags": [
+                "scales"
+              ],
+              "UIDs": {},
+              "figma": {
+                "type": "other"
+              }
+            }
+          }
+        },
+        "typo": {
+          "europa": {
+            "eyebrow": {
+              "regular": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.600.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": 18,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 0,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "10%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              },
+              "small": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.500.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": 14,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 0,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "10%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              }
+            },
+            "caption": {
+              "regular": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.600.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": 18,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 0,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "-2%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              },
+              "strong": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.600.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": 18,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 0,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "-2%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              }
+            },
+            "ps": {
+              "regular": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 7.56,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "-2%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              },
+              "strong": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 7.56,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "-2%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              }
+            },
+            "p": {
+              "regular": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 8.64,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "-2%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              },
+              "strong": {
+                "size": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.TEST.textSizeFactor.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "fontSizes"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "leading": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "lineHeights"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "paragraphSpacing": {
+                  "value": 8.64,
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                },
+                "tracking": {
+                  "value": "-2%",
+                  "description": "FIXME",
+                  "figma": {
+                    "type": "letterSpacing"
+                  },
+                  "apparatusTags": [
+                    "typo"
+                  ],
+                  "UIDs": {}
+                }
+              }
+            },
+            "h8": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 7.56,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "3.5%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "h7": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.900.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.900.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 9.72,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "0%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "h6": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1000.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1000.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 10.8,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "0%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "h5": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 12.96,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "-1%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "h4": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1400.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1400.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 15.12,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "-1%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "h3": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1600.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1600.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
+                "description": "",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 17.28,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "-2%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "h2": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1700.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": 41.6,
+                "description": "FIXME",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 23.12,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "-2%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            },
+            "h1": {
+              "size": {
+                "value": "{YPL.FFL.TKUI_C.sizes.macro.200.value} * {YPL.TEST.textSizeFactor.value}",
+                "description": "",
+                "figma": {
+                  "type": "fontSizes"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "leading": {
+                "value": 50.4,
+                "description": "FIXME",
+                "figma": {
+                  "type": "lineHeights"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "paragraphSpacing": {
+                "value": 22.68,
+                "description": "FIXME",
+                "figma": {
+                  "type": "paragraphSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              },
+              "tracking": {
+                "value": "-2%",
+                "description": "FIXME",
+                "figma": {
+                  "type": "letterSpacing"
+                },
+                "apparatusTags": [
+                  "typo"
+                ],
+                "UIDs": {}
+              }
+            }
+          }
+        }
+      },
+      "TKUI_D": {
+        "F0002-401": {
+          "HMN_typo_europa-eyebrow": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-402": {
+          "HMN_typo_europa-eyebrow_small": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-301": {
+          "HMN_typo_europa-caption_regular": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.caption.regular.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-302": {
+          "HMN_typo_europa-caption_strong": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.caption.strong.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-103": {
+          "HMN_typo_europa-p_s_regular": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.ps.regular.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-104": {
+          "HMN_typo_europa-p_s_strong": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.ps.strong.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-101": {
+          "HMN_typo_europa-p_regular": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.p.regular.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-102": {
+          "HMN_typo_europa-p_strong": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.p.strong.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-001": {
+          "HMN_typo_europa-h1": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h1.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h1.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h1.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h1.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-002": {
+          "HMN_typo_europa-h2": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h2.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h2.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h2.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h2.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-003": {
+          "HMN_typo_europa-h3": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h3.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h3.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h3.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h3.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-004": {
+          "HMN_typo_europa-h4": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h4.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h4.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h4.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h4.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-005": {
+          "HMN_typo_europa-h5": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h5.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h5.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h5.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h5.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-006": {
+          "HMN_typo_europa-h6": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h6.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h6.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h6.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h6.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-007": {
+          "HMN_typo_europa-h7": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h7.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h7.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h7.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h7.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "F0002-008": {
+          "HMN_typo_europa-h8": {
+            "familyName": {
+              "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
+              "description": "",
+              "figma": {
+                "type": "fontFamilies"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "size": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h8.size.value}",
+              "description": "",
+              "figma": {
+                "type": "fontSizes"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "leading": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h8.leading.value}",
+              "description": "",
+              "figma": {
+                "type": "lineHeights"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "paragraphSpacing": {
+              "value": "{YPL.FFl.TKUI_M.typo.europa.h8.paragraphSpacing.value}",
+              "description": "",
+              "figma": {
+                "type": "paragraphSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "tracking": {
+              "value": "{YPL.FFL.TKUI_M.typo.europa.h8.tracking.value}",
+              "description": "",
+              "figma": {
+                "type": "letterSpacing"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textAlignHorizontal": {
+              "value": "LEFT",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textCase": {
+              "value": "ORIGINAL",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "textDecoration": {
+              "value": "NONE",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [
+                "typo"
+              ],
+              "UIDs": {}
+            }
+          }
+        },
+        "P0001": {
+          "HMN_posterCard": {
+            "width": {
+              "value": "{YPL.FFL.TKUI_C.percents.full.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "height": {
+              "value": "{YPL.FFL.TKUI_C.sizes.macro.700.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [],
+              "UIDs": {},
+              "OPT_small": {
+                "value": "{YPL.FFL.TKUI_C.sizes.macro.700.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "margin": {
+              "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "fringeBottom": {
+              "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "padding": {
+              "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "radius": {
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.200.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "blockCopy": {
+              "width": {
+                "value": "{YPL.FFL.TKUI_C.percents.full.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {},
+                "BRKP_m": {
+                  "value": "{YPL.FFL.TKUI_C.percents.ml.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "slack": {
+                "value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "chip": {
+                "margin": {
+                  "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "fringeBottom": {
+                  "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "paragraph": {
+                "color": {
+                  "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              }
+            },
+            "blockHeader": {
+              "height": {
+                "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "blockFooter": {
+              "height": {
+                "value": "{YPL.FFL.TKUI_C.spaces.e.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "eyebrow": {
+                "paddingLeft": {
+                  "value": "{YPL.FFL.TKUI_C.spaces.sm.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {},
+                  "OPT_layout2": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+                    "description": "",
+                    "figma": {
+                      "type": "other"
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                }
+              }
+            },
+            "gradient": {
+              "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR.value}",
+              "description": "",
+              "figma": {
+                "type": "other"
+              },
+              "apparatusTags": [],
+              "UIDs": {},
+              "OPT_layout2": {
+                "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "bgImage": {
+              "fillMode": {
+                "value": "FILL",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "heading": {
+              "color": {
+                "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "margin": {
+                "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {},
+                "OPT_layout2": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "fringeBottom": {
+                "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "paddingLeft": {
+                "value": "{YPL.FFL.TKUI_C.spaces.xxl.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "size": {
+                "OPT_small": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.size.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "BRKP_m": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.size.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "tracking": {
+                "OPT_small": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.tracking.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "BRKP_m": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.tracking.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "leading": {
+                "OPT_small": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.leading.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "BRKP_m": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.leading.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "paragraphSpacing": {
+                "OPT_small": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "BRKP_m": {
+                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value}",
+                  "description": "",
+                  "figma": {
+                    "type": "other"
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              }
+            },
+            "eyebrow": {
+              "color": {
+                "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                "description": "",
+                "figma": {
+                  "type": "other"
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "TEST": {
+      "textSizeFactor": {
+        "value": 1,
+        "description": "Inject this factor into Typography Sizes Choices. It's used to blow font sizes up to test compliancy with WCAG 1.4.4 · Remove it once in β release",
+        "type": {
+          "figma": "other"
+        }
+      }
+    },
+    "boolean" {
+      "true" {
+        "value": true,
+      },
+      "false" {
+        "value": false,
+      }
+    }
+  }
+}

@@ -28,7 +28,7 @@
 
 // A utility function that parses the contents of each config option
 function parseChoices(choiceObject) {
-  const { choice = choiceObject.options || choiceObject.value, description, type, kingdom, category, group } = choiceObject;
+  const { choice = choiceObject.options || choiceObject.value, description, kingdom, category, apparatusTags, UIDs, figma } = choiceObject;
 
   let modifiedValue = {};
 
@@ -39,8 +39,9 @@ function parseChoices(choiceObject) {
         [k]: {
           ...v,
           description,
-          type,
-          group
+          apparatusTags,
+          UIDs,
+          figma
         }
       }
     });
@@ -49,7 +50,9 @@ function parseChoices(choiceObject) {
       "value": choice,
       description,
       type,
-      group
+      apparatusTags,
+      UIDs,
+      figma
     }
   }
 
@@ -63,7 +66,7 @@ function parseChoices(choiceObject) {
 // A utility function that deep merges multiple token objects.
 function deepMerge(target, source) {
   Object.entries(source).forEach(([key, value]) => {
-    if (value && typeof value === 'object') {
+    if (value && typeof value === 'object' && !Array.isArray(value)) {
       deepMerge(target[key] = target[key] || {}, value);
       return;
     }
@@ -162,23 +165,36 @@ function resolveOverrides(preresolvedTokens, overrideOptions) {
   }
 }
 
-function flattenTokens(rawTokens, keyToFilterBy = 'value') {
+function flattenTokens(rawTokens) {
+  const data = flatten(rawTokens);
+  let parsedData = {};
+  
+  // Parse out the value of the token and delete entries that don't have the 'value' property
+  Object.entries(data).forEach(([key, value]) => {
+    parsedData = {
+      ...parsedData,
+      [key]: value
+    }
+  });
+
+  return parsedData;
+}
+
+function flattenTokenValues(rawTokens) {
   const data = flatten(rawTokens);
   let parsedData = {};
   
   // Parse out the value of the token and delete entries that don't have the 'value' property
   Object.entries(data).forEach(([key, value]) => {
     const splitKeys = key.split('.');
-    const isValuePropKey = splitKeys[splitKeys.length - 1] === keyToFilterBy;
+    const isValuePropKey = splitKeys[splitKeys.length - 1] === 'value';
 
     if (!isValuePropKey) {
       delete data[key];
     } else {
-      let newKey = key.split('.').slice(0, -1).join('.');
-
       parsedData = {
         ...parsedData,
-        [newKey]: value
+        [key]: value
       }
     }
   });
