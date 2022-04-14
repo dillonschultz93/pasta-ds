@@ -119,7 +119,21 @@ Features are an aggregation of Components that serves a specific task within a u
 
 ### Default, Options, Variants, Components
 
+
+
+   <section class="flex-1_1-cols">
+      <div>
 One tedious task we have is to draw a line in between these categories. We consider the following to distinguish them:
+     </div>
+      <div>
+   {% highlight txt %}
+   Component
+     └─ Variant ( default )  
+     └─ Variant(s) 
+          └─ Options
+   {% endhighlight %}
+      </div>
+    </section>
 
 #### Default
 
