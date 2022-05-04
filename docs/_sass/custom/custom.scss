@@ -1413,7 +1413,7 @@ input[type="color"] {
   line-height: 16px;
   padding: 0.6rem 1rem;
   min-width: 100px;
-  max-width: 40vw;
+  max-width: 36vw;
   width: max-content;
   width: -moz-max-content;
   background-color: #222;
@@ -1435,7 +1435,7 @@ input[type="color"] {
   z-index: 999;
   content: '';
   border-style: solid;
-  border-width: 5px 5px 0px 5px; // CSS triangle
+  border-width: 8px 8px 0px 8px; // CSS triangle
   border-color: #222 transparent transparent transparent;
   transition-duration: 0s;
   transform-origin: top;

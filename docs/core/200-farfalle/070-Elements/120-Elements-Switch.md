@@ -3118,7 +3118,7 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
 "YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.width": "{YPL.FFL.TKUI_C.sizes.nano.100.value}",
 
 // dependencies
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // instantiation
+"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon": "{YPL.FFL.F0003-3FF.HMN_icon}", // instantiation
 
 // interaction
 
