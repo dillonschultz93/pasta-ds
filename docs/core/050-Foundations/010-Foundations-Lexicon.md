@@ -117,23 +117,35 @@ Patterns are coherent assemblages of Elements providing a conventional UI block:
 
 Features are an aggregation of Components that serves a specific task within a user experience or user flow: a shopping list, an onboarding funnel, a search result page. They are rarely documented inside Pasta.
 
-### Default, Options, Variants, Components
+### Options, Variants, Components and SCPA
+
+<section class="flex-1_1-cols">
+  <div>
+One tedious task we have is to draw a line in between these categories.
+ </div>
+  <div>
+{% highlight txt %}
+Component
+ └─ Options   
+ └─ Variants
+     └─ Options
+{% endhighlight %}
+  </div>
+</section>
 
 
+#### SCPA (Specification Cost Per Attribute)
 
-   <section class="flex-1_1-cols">
-      <div>
-One tedious task we have is to draw a line in between these categories. We consider the following to distinguish them:
-     </div>
-      <div>
-   {% highlight txt %}
-   Component
-     └─ Variant ( default )  
-     └─ Variant(s) 
-          └─ Options
-   {% endhighlight %}
-      </div>
-    </section>
+We calculate the cost of specification per attributes to assess our willingness to escalate from Options to a Variant and to Variants to new Component(s).
+
+||cost|
+|---|---|
+|New component| 100% |
+|New variant| 50% |
+|Options| 5% |
+
+To calculate the SCPA we just devide the values above per the number of attributes 
+
 
 #### Default
 
@@ -141,9 +153,23 @@ We use the term Default, often noted *`( default )`* to qualify the defaulted se
 
 #### Options
 
-We use the term Option to qualify a set of attributes values that override those to a given variant Default. Options are modifiers different from standard ones (such as Interaction States).
+We use the Options to deliver a set of values aimed at overriding pre-existing Decisions.
+`TKUI_OPTS` is used for their Kingdom. They are then individually selected with a stem `OPT_{name}`. 
 
-Options use the `TKUI_OPTS` Kingdom Stem in their name's Domain.
+{% highlight js %}
+YPL.FFL.TKUI_OPTS.{component UID}.{component name}.OPT_{name}: {
+      "value": {
+         // set of Decisions
+      }
+      "modifierType": {typeName},
+      "precedence": {integer}
+}
+{% endhighlight %}
+
+
+
+
+
 
 #### Variants
 

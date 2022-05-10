@@ -1,0 +1,49 @@
+// modes › themes › option1 › option2 › option3 › breakpoints
+
+{
+  "YPL.FFL.TKUI_MDS.E0001.HMN_chip.darkMode": {   
+    "value": {
+      "YPL.FFL.TKUI_D.P0001.HMN_chip.bgColor": "{YPL.FFL.TKUI_C.color.grey.800.value}",
+    },
+    "modifierType": "mode",
+    "order": 1
+  },
+  "YPL.FFL.TKUI_MDS.E0001.HMN_chip.pinkTheme": {
+    "value": {
+      "YPL.FFL.TKUI_D.P0001.HMN_chip.bgColor": "{YPL.FFL.TKUI_C.color.pink.800.value}",
+    },
+    "modifierType": "theme",
+    "order": 2
+  },  
+  "YPL.FFL.TKUI_MDS.E0001.HMN_chip.inverse": {   
+      "value": {
+        "YPL.FFL.TKUI_D.P0001.HMN_chip.label.color": "{YPL.FFL.TKUI_C.color.white.value}",
+        "YPL.FFL.TKUI_D.P0001.HMN_chip.icon.color": "{YPL.FFL.TKUI_C.color.white.value}",        
+        "YPL.FFL.TKUI_D.P0001.HMN_chip.bgColor": "{YPL.FFL.TKUI_C.color.black.value}"      
+      },
+      "modifierType": "option",
+      "order": 3
+  },
+  "YPL.FFL.TKUI_MDS.E0001.HMN_chip.accent": {   
+      "value": {
+        "YPL.FFL.TKUI_D.P0001.HMN_chip.label.color": "{YPL.FFL.TKUI_C.color.orange.400.value}",
+        "YPL.FFL.TKUI_D.P0001.HMN_chip.icon.color": "{YPL.FFL.TKUI_C.color.orange.400.value}"        
+      },
+      "modifierType": "option",    
+      "order": 4
+  },
+
+
+  "YPL.FFL.TKUI_MDS.E0001.HMN_chip.breakPoint_m": {
+    "value": {
+      "YPL.FFL.TKUI_D.P0001.HMN_chip.label.color": "{YPL.FFL.TKUI_C.color.orange.400.value}",
+      "YPL.FFL.TKUI_D.P0001.HMN_chip.icon.color": "{YPL.FFL.TKUI_C.color.orange.400.value}"
+    },
+    "modifierType": "option",
+    "order": "none";
+  }  
+}
+
+
+
+"User Dark > Yummly Pro (scheme) > theme (green)"
