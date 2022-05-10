@@ -28,7 +28,7 @@
 
 // A utility function that parses the contents of each config option
 function parseChoices(choiceObject) {
-  const { choice = choiceObject.options || choiceObject.value, description, kingdom, category, apparatusTags, UIDs, figma } = choiceObject;
+  const { choice = choiceObject.options || choiceObject.value, description, kingdom, category, apparatusTags, UIDs, dictionary } = choiceObject;
 
   let modifiedValue = {};
 
@@ -41,7 +41,7 @@ function parseChoices(choiceObject) {
           description,
           apparatusTags,
           UIDs,
-          figma
+          dictionary
         }
       }
     });
@@ -52,7 +52,7 @@ function parseChoices(choiceObject) {
       type,
       apparatusTags,
       UIDs,
-      figma
+      dictionary
     }
   }
 
@@ -84,12 +84,12 @@ function deepMerge(target, source) {
 function flatten(rawTokens) {
  const output = {};
 
- const flatten = (currentItem, prop) => {
+ const flattenRecursion = (currentItem, prop) => {
    if (Object(currentItem) !== currentItem) {
      output[prop] = currentItem;
    } else if (Array.isArray(currentItem)) {
      currentItem.forEach((item, index) => {
-       flatten(item, prop + '[' + index + ']');
+       flattenRecursion(item, prop + '[' + index + ']');
      });
 
      if (currentItem.length === 0) {
@@ -101,7 +101,7 @@ function flatten(rawTokens) {
      for (let p in currentItem) {
        isEmpty = false;
 
-       flatten(currentItem[p], prop ? prop + '.' + p : p);
+       flattenRecursion(currentItem[p], prop ? prop + '.' + p : p);
      }
 
      if (isEmpty && prop) {
@@ -110,7 +110,7 @@ function flatten(rawTokens) {
    }
  }
 
- flatten(rawTokens, '');
+ flattenRecursion(rawTokens, '');
 
  return output;
 }
@@ -138,17 +138,16 @@ function unflatten(flatTokens) {
  * @param {Object} preresolvedTokens - Object of tokens that need to be resolved
  * @param {Object} overrideOptions - Object of override options from the config.
  */
-function resolveOverrides(preresolvedTokens, overrideOptions) {
+ function resolveOverrides(preresolvedTokens, overrideOptions) {
   const overrides = unflatten(overrideOptions);
 
   return compileTokens([preresolvedTokens, overrides]);
 }
 
 /**
- * @description Generates a set of tokens.
+ * @description Creates an object that contains the category's token value(s).
  * @param {Object} nomenclatureOptions - An object that contains the properties for namespace, project, and kingdom.
- * @param {*} category - A string representing the category the tokens are in.
- * @param {*} data - Any type that represents the value of the token.
+ * @param {Object} data - The choice object from the config object.
  */
  function generateTokens(nomenclatureOptions, data) {
   const { namespace, project } = nomenclatureOptions;
@@ -200,6 +199,45 @@ function flattenTokenValues(rawTokens) {
   });
 
   return parsedData;
+}
+
+function formatFigmaValues(value) {
+  if (typeof value === 'string') {
+    if (value.includes('.value}')) {
+      return value.replaceAll('.value}', '}');
+    } else {
+      return value;
+    }
+  } else {
+    return value;
+  }
+}
+
+function figmaFormat(rawTokens) {
+  const data = flatten(rawTokens);
+
+  let parsedData = {};
+
+  Object.entries(data).forEach(([key, value]) => {
+    const splitKeys = key.split('.');
+    const isFigmaPropKey = splitKeys[splitKeys.length - 2] === 'figma';
+
+    if (isFigmaPropKey) {
+      const newKey = `${splitKeys.slice(0, splitKeys.length - 3).join('.')}.${splitKeys[splitKeys.length - 1]}`;
+
+      parsedData = {
+        ...parsedData,
+        [newKey]: formatFigmaValues(value)
+      }
+    } else {
+      parsedData = {
+        ...parsedData,
+        [key]: formatFigmaValues(value)
+      }
+    }
+  });
+
+  return unflatten(parsedData);
 }
 
 function compileTokens(tokensArray) {
