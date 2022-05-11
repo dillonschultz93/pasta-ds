@@ -1,11 +1,11 @@
 {
   "_header": {
-    "Design System": "iOS",
+    "Design System": "Pasta",
     "project": "FFL",
     "version": "0.1.0 (220511-1154)",
-    "platform": "pasta",
-    "type": "raw-flattened",
-    "format": "hjson",
+    "platform": "iOS",
+    "type": "flattened",
+    "format": "json",
     "description": "iOS design tokens JSON format flattened",
     "patent": "
         -----------------------------------------------
