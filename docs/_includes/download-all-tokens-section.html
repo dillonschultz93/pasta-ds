@@ -1,131 +1,167 @@
-
 <div class="copyTokensButtons projectTokens">
-  <h3 id="pasta">Pasta (Raw)</h3>
-  <table>
-    <!-- <caption>my caption</caption> -->
-    <thead>
-      <tr>
-        <th></th>
-        <th></th>
-        <th>downloads</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>WIP</td>
-        <td>
-          <span
-            data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-pasta.json">copy
-            URL</span>
-        </td>
-        <td>
-          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta.hjson"
-            class="btn iconed downloadBadge" download>Raw</a>
-        </td>
-      </tr>
-      <tr>
-        <td>WIP</td>
-        <td>
-          <span data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened.hjson">copy URL</span>
-        </td>
-        <td>
-          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened.hjson"
-            class="btn iconed downloadBadge" id="{% if include.section %}{{ include.section }}-raw{% else %}all-raw{% endif %}"
-            download>Raw Flattened</a>
-        </td>
-      </tr>
-      <tr>
-        <td>WIP</td>
-        <td>
-          <span data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened-justTheValues.hjson">copy URL</span>
-        </td>
-        <td>
-          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened-justTheValues.hjson"
-            class="btn iconed downloadBadge" download>Just Values</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="figma">Figma</h3>
-  <table>
-    <!-- <caption>my caption</caption> -->
-    <thead>
-      <tr>
-        <th></th>
-        <th></th>
-        <th>downloads</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>WIP</td>
-        <td>
-          <span
-            data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-figma.json">copy
-            URL</span>
-        </td>
-        <td>
-          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-figma.json"
-            class="btn iconed downloadBadge" download>Figma</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="ios">iOS</h3>
-  <table>
-    <!-- <caption>my caption</caption> -->
-    <thead>
-      <tr>
-        <th></th>
-        <th></th>
-        <th>downloads</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>WIP</td>
-        <td>
-          <span
-            data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS.json">copy
-            URL</span>
-        </td>
-        <td>
-          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS.json"
-            class="btn iconed downloadBadge" download>iOS</a>
-        </td>
-      </tr>
-      <tr>
-        <td>WIP</td>
-        <td>
-          <span
-            data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened.json">copy
-            URL</span>
-        </td>
-        <td>
-          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened.json"
-            class="btn iconed downloadBadge" download>iOS Flattened</a>
-        </td>
-      </tr>
-      <tr>
-        <td>WIP</td>
-        <td>
-          <span
-            data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened-justTheValues">copy
-            URL</span>
-        </td>
-        <td>
-          <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened-justTheValues.json" class="btn iconed downloadBadge" download>iOS Just Values</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <p>
-    <a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/old">Archive&nbsp;→</a>          
-  </p>
-  <br>
-  <hr>
-  <br>
+	<h3 id="pasta">Pasta (Raw)</h3>
+	<table>
+		<!-- <caption>my caption</caption> -->
+		<thead>
+			<tr>
+				<th>Description</th>
+				<th></th>
+				<th>downloads</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Pasta design tokens, in HJSON formatting</td>
+				<td>
+					<span
+						data-toolclip="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta.hjson"
+						><code>Copy URL</code></span
+					>
+				</td>
+				<td>
+					<a
+						href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta.hjson"
+						class="btn iconed downloadBadge"
+						download
+						>Raw</a
+					>
+				</td>
+			</tr>
+			<tr>
+				<td>Pasta design tokens, in flattened formatting</td>
+				<td>
+					<span
+						data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened.hjson"
+						><code>Copy URL</code></span
+					>
+				</td>
+				<td>
+					<a
+						href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened.hjson"
+						class="btn iconed downloadBadge"
+						download
+						>Raw Flattened</a
+					>
+				</td>
+			</tr>
+			<tr>
+				<td>Pasta design tokens, values-only in flattened formatting</td>
+				<td>
+					<span
+						data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened-justTheValues.hjson"
+						><code>Copy URL</code></span
+					>
+				</td>
+				<td>
+					<a
+						href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-pasta-flattened-justTheValues.hjson"
+						class="btn iconed downloadBadge"
+						download
+						>Just Values</a
+					>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3 id="figma">Figma</h3>
+	<table>
+		<!-- <caption>my caption</caption> -->
+		<thead>
+			<tr>
+				<th></th>
+				<th></th>
+				<th>downloads</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Pasta design tokens formatted for Figma</td>
+				<td>
+					<span
+						data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-figma.json"
+						><code>Copy URL</code></span
+					>
+				</td>
+				<td>
+					<a
+						href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-figma.json"
+						class="btn iconed downloadBadge"
+						download
+						>Figma</a
+					>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3 id="ios">iOS</h3>
+	<table>
+		<!-- <caption>my caption</caption> -->
+		<thead>
+			<tr>
+				<th></th>
+				<th></th>
+				<th>downloads</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>iOS design tokens, in JSON formatting</td>
+				<td>
+					<span
+						data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS.json"
+						><code>Copy URL</code></span
+					>
+				</td>
+				<td>
+					<a
+						href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS.json"
+						class="btn iconed downloadBadge"
+						download
+						>iOS</a
+					>
+				</td>
+			</tr>
+			<tr>
+				<td>iOS design tokens, in flattened formatting</td>
+				<td>
+					<span
+						data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened.json"
+						><code>Copy URL</code></span
+					>
+				</td>
+				<td>
+					<a
+						href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened.json"
+						class="btn iconed downloadBadge"
+						download
+						>iOS Flattened</a
+					>
+				</td>
+			</tr>
+			<tr>
+				<td>iOS design tokens, values-only in flattened formatting</td>
+				<td>
+					<span
+						data-toolclip="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened-justTheValues"
+						><code>Copy URL</code></span
+					>
+				</td>
+				<td>
+					<a
+						href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/YPL-{{ page.project_id }}-tokens-iOS-flattened-justTheValues.json"
+						class="btn iconed downloadBadge"
+						download
+						>iOS Just Values</a
+					>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p>
+		<a href="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/tokens/old">Archive&nbsp;→</a>
+	</p>
+	<br />
+	<hr />
+	<br />
 </div>
-
-

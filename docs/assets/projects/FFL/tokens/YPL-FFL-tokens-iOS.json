@@ -2,40 +2,13 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220511-1154)",
+    "version": "0.1.0 (220511-1426)",
     "platform": "iOS",
-    "type": "nested",
+    "type": "raw-nested",
     "format": "json",
-    "description": "iOS design tokens JSON format",
-    "patent": "
-        -----------------------------------------------
-        PASTA TOKENS
-        -----------------------------------------------
-        Description: Pasta Tokens Output
-        Authors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com
-
-        Copyright (c) 2022 Yummly, Inc.
-
-        Permission is hereby granted, free of charge, to any person obtaining a copy
-        of this software and associated documentation files (the `Software`), to deal
-        in the Software without restriction, including without limitation the rights
-        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-        copies of the Software, and to permit persons to whom the Software is
-        furnished to do so, subject to the following conditions:
-
-        The above copyright notice and this permission notice shall be included in all
-        copies or substantial portions of the Software.
-
-        THE SOFTWARE IS PROVIDED `AS IS`, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-        SOFTWARE.
-        -----------------------------------------------
-    "
-  }
+    "description": "iOS design tokens, in JSON formatting",
+    "patent": "-----------------------------------------------\nPASTA TOKENS\n-----------------------------------------------\nDescription: Pasta Tokens Output\nAuthors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com\n\nCopyright (c) 2022 Yummly, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+  },
   "_tokens": {
     "YPL": {
       "FFL": {
@@ -48,8 +21,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             },
             "m": {
@@ -59,8 +34,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             },
             "l": {
@@ -70,8 +47,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             },
             "xl": {
@@ -81,8 +60,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             }
           },
@@ -94,8 +75,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             },
             "F2": {
@@ -105,8 +88,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             },
             "F3": {
@@ -116,8 +101,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             },
             "F4": {
@@ -127,8 +114,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             },
             "F5": {
@@ -138,8 +127,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "other"
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                }
               }
             }
           },
@@ -151,8 +142,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "xs": {
@@ -162,8 +155,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "s": {
@@ -173,8 +168,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "sm": {
@@ -184,8 +181,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "m": {
@@ -195,8 +194,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "ml": {
@@ -206,8 +207,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "l": {
@@ -217,8 +220,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "xl": {
@@ -228,8 +233,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             },
             "xxl": {
@@ -239,8 +246,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "figma": {
-                "type": "spacing"
+              "dictionary": {
+                "figma": {
+                  "type": "spacing"
+                }
               }
             }
           },
@@ -252,8 +261,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -263,8 +274,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -274,8 +287,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -285,8 +300,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -296,8 +313,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               }
@@ -309,8 +328,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -320,8 +341,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -331,8 +354,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -342,8 +367,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -353,8 +380,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -364,8 +393,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -375,8 +406,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -386,8 +419,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -397,8 +432,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -408,8 +445,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -419,8 +458,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -430,8 +471,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -441,8 +484,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -452,8 +497,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -463,8 +510,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -474,16 +523,20 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
               "1700": {
                 "value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}",
                 "description": "",
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "apparatusTags": [
                   "sizes"
@@ -498,8 +551,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -509,8 +564,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -520,8 +577,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -531,8 +590,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -542,8 +603,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -553,8 +616,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -564,8 +629,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -575,8 +642,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -586,8 +655,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -597,8 +668,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               },
@@ -608,8 +681,10 @@
                 "apparatusTags": [
                   "staticSizes"
                 ],
-                "figma": {
-                  "type": "sizing"
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  }
                 },
                 "UIDs": {}
               }
@@ -619,8 +694,10 @@
             "s": {
               "value": 0.33,
               "description": "",
-              "figma": {
-                "type": "sizing"
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                }
               },
               "apparatusTags": [
                 "percents"
@@ -630,8 +707,10 @@
             "m": {
               "value": 0.5,
               "description": "",
-              "figma": {
-                "type": "sizing"
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                }
               },
               "apparatusTags": [
                 "percents"
@@ -641,8 +720,10 @@
             "ml": {
               "value": 0.66,
               "description": "",
-              "figma": {
-                "type": "sizing"
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                }
               },
               "apparatusTags": [
                 "percents"
@@ -652,8 +733,10 @@
             "l": {
               "value": 0.75,
               "description": "",
-              "figma": {
-                "type": "sizing"
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                }
               },
               "apparatusTags": [
                 "percents"
@@ -663,8 +746,10 @@
             "xl": {
               "value": 0.85,
               "description": "",
-              "figma": {
-                "type": "sizing"
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                }
               },
               "apparatusTags": [
                 "percents"
@@ -674,8 +759,10 @@
             "full": {
               "value": 1,
               "description": "",
-              "figma": {
-                "type": "sizing"
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                }
               },
               "apparatusTags": [
                 "percents"
@@ -687,8 +774,10 @@
             "white": {
               "value": "#ffffff",
               "description": "",
-              "figma": {
-                "type": "color"
+              "dictionary": {
+                "figma": {
+                  "type": "color"
+                }
               },
               "apparatusTags": [
                 "colors"
@@ -698,8 +787,10 @@
             "black": {
               "value": "#000000",
               "description": "",
-              "figma": {
-                "type": "color"
+              "dictionary": {
+                "figma": {
+                  "type": "color"
+                }
               },
               "apparatusTags": [
                 "colors"
@@ -710,8 +801,10 @@
               "100": {
                 "value": "#f5f5f5",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -721,8 +814,10 @@
               "200": {
                 "value": "#E3E3E3",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -732,8 +827,10 @@
               "300": {
                 "value": "#BABABA",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -743,8 +840,10 @@
               "500": {
                 "value": "#707070",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -754,8 +853,10 @@
               "700": {
                 "value": "#4A4A4A",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -765,8 +866,10 @@
               "900": {
                 "value": "#242424",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -778,8 +881,10 @@
               "300": {
                 "value": "#4BB9B3",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -789,8 +894,10 @@
               "400": {
                 "value": "#3A9691",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -800,8 +907,10 @@
               "500": {
                 "value": "#2C726E",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -813,8 +922,10 @@
               "300": {
                 "value": "#E77F4B",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -824,8 +935,10 @@
               "400": {
                 "value": "#E05F1F",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -835,8 +948,10 @@
               "500": {
                 "value": "#B44B18",
                 "description": "",
-                "figma": {
-                  "type": "color"
+                "dictionary": {
+                  "figma": {
+                    "type": "color"
+                  }
                 },
                 "apparatusTags": [
                   "colors"
@@ -851,8 +966,10 @@
                 "BL_TR": {
                   "value": "linear-gradient(64deg, {YPL.FFL.TKUI_C.colors.black.value} 0%, {YPL.FFL.TKUI_C.colors.black.value} 100%)",
                   "description": "",
-                  "figma": {
-                    "type": "color"
+                  "dictionary": {
+                    "figma": {
+                      "type": "color"
+                    }
                   },
                   "apparatusTags": [
                     "gradients"
@@ -862,8 +979,10 @@
                 "TL_BR": {
                   "value": "linear-gradient(116deg, {YPL.FFL.TKUI_C.colors.black.value} 0%, {YPL.FFL.TKUI_C.colors.black.value} 100%)",
                   "description": "",
-                  "figma": {
-                    "type": "color"
+                  "dictionary": {
+                    "figma": {
+                      "type": "color"
+                    }
                   },
                   "apparatusTags": [
                     "gradients"
@@ -879,8 +998,10 @@
                 "light": {
                   "value": "Europa-Light",
                   "description": "",
-                  "figma": {
-                    "type": "fontFamilies"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontFamilies"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -890,8 +1011,10 @@
                 "regular": {
                   "value": "Europa-Regular",
                   "description": "",
-                  "figma": {
-                    "type": "fontFamilies"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontFamilies"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -901,8 +1024,10 @@
                 "bold": {
                   "value": "Europa-Bold",
                   "description": "",
-                  "figma": {
-                    "type": "fontFamilies"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontFamilies"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -914,8 +1039,10 @@
                 "s": {
                   "value": 1.2,
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -925,8 +1052,10 @@
                 "m": {
                   "value": 1.4,
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -936,8 +1065,10 @@
                 "l": {
                   "value": 1.5,
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -958,8 +1089,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "200": {
@@ -969,8 +1102,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "300": {
@@ -980,8 +1115,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "400": {
@@ -991,8 +1128,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "500": {
@@ -1002,8 +1141,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "600": {
@@ -1013,8 +1154,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "700": {
@@ -1024,8 +1167,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "800": {
@@ -1035,8 +1180,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "900": {
@@ -1046,8 +1193,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1000": {
@@ -1057,8 +1206,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1100": {
@@ -1068,8 +1219,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               }
             },
@@ -1081,8 +1234,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "200": {
@@ -1092,8 +1247,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "300": {
@@ -1103,8 +1260,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "400": {
@@ -1114,8 +1273,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "500": {
@@ -1125,8 +1286,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "600": {
@@ -1136,8 +1299,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "700": {
@@ -1147,8 +1312,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "800": {
@@ -1158,8 +1325,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "900": {
@@ -1169,8 +1338,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1000": {
@@ -1180,8 +1351,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1100": {
@@ -1191,8 +1364,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1200": {
@@ -1202,8 +1377,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1300": {
@@ -1213,8 +1390,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1400": {
@@ -1224,8 +1403,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1500": {
@@ -1235,8 +1416,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1600": {
@@ -1246,8 +1429,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1700": {
@@ -1257,8 +1442,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1800": {
@@ -1268,15 +1455,19 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2000": {
                 "value": 40,
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "scales"
@@ -1292,8 +1483,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "200": {
@@ -1303,8 +1496,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "300": {
@@ -1314,8 +1509,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "400": {
@@ -1325,8 +1522,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "500": {
@@ -1336,8 +1535,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "600": {
@@ -1347,8 +1548,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "700": {
@@ -1358,8 +1561,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "800": {
@@ -1369,8 +1574,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "900": {
@@ -1380,8 +1587,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1000": {
@@ -1391,8 +1600,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1100": {
@@ -1402,8 +1613,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1200": {
@@ -1413,8 +1626,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1300": {
@@ -1424,8 +1639,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1400": {
@@ -1435,8 +1652,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1500": {
@@ -1446,8 +1665,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1600": {
@@ -1457,8 +1678,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1700": {
@@ -1468,8 +1691,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1800": {
@@ -1479,8 +1704,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "1900": {
@@ -1490,8 +1717,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2000": {
@@ -1501,8 +1730,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2100": {
@@ -1512,8 +1743,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2200": {
@@ -1523,8 +1756,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2300": {
@@ -1534,8 +1769,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2400": {
@@ -1545,8 +1782,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2500": {
@@ -1556,8 +1795,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2600": {
@@ -1567,8 +1808,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2700": {
@@ -1578,8 +1821,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2800": {
@@ -1589,8 +1834,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "2900": {
@@ -1600,8 +1847,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3000": {
@@ -1611,8 +1860,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3100": {
@@ -1622,8 +1873,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3200": {
@@ -1633,8 +1886,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3300": {
@@ -1644,8 +1899,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3400": {
@@ -1655,8 +1912,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3500": {
@@ -1666,8 +1925,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3600": {
@@ -1677,8 +1938,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3700": {
@@ -1688,8 +1951,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3800": {
@@ -1699,8 +1964,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "3900": {
@@ -1710,8 +1977,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4000": {
@@ -1721,8 +1990,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4100": {
@@ -1732,8 +2003,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4200": {
@@ -1743,8 +2016,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4300": {
@@ -1754,8 +2029,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4400": {
@@ -1765,8 +2042,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4500": {
@@ -1776,8 +2055,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4600": {
@@ -1787,8 +2068,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4700": {
@@ -1798,8 +2081,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4800": {
@@ -1809,8 +2094,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "4900": {
@@ -1820,8 +2107,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5000": {
@@ -1831,8 +2120,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5100": {
@@ -1842,8 +2133,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5200": {
@@ -1853,8 +2146,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5300": {
@@ -1864,8 +2159,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5400": {
@@ -1875,8 +2172,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5500": {
@@ -1886,8 +2185,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5600": {
@@ -1897,8 +2198,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5700": {
@@ -1908,8 +2211,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5800": {
@@ -1919,8 +2224,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "5900": {
@@ -1930,8 +2237,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "6000": {
@@ -1941,8 +2250,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "6100": {
@@ -1952,8 +2263,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "6200": {
@@ -1963,8 +2276,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               },
               "6300": {
@@ -1974,8 +2289,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 }
               }
             }
@@ -1987,8 +2304,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.600.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -1998,8 +2317,10 @@
                   "leading": {
                     "value": 18,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2009,8 +2330,10 @@
                   "paragraphSpacing": {
                     "value": 0,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2020,8 +2343,10 @@
                   "tracking": {
                     "value": "10%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2033,8 +2358,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.500.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2044,8 +2371,10 @@
                   "leading": {
                     "value": 14,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2055,8 +2384,10 @@
                   "paragraphSpacing": {
                     "value": 0,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2066,8 +2397,10 @@
                   "tracking": {
                     "value": "10%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2081,8 +2414,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.600.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2092,8 +2427,10 @@
                   "leading": {
                     "value": 18,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2103,8 +2440,10 @@
                   "paragraphSpacing": {
                     "value": 0,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2114,8 +2453,10 @@
                   "tracking": {
                     "value": "-2%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2127,8 +2468,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.600.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2138,8 +2481,10 @@
                   "leading": {
                     "value": 18,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2149,8 +2494,10 @@
                   "paragraphSpacing": {
                     "value": 0,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2160,8 +2507,10 @@
                   "tracking": {
                     "value": "-2%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2175,8 +2524,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2186,8 +2537,10 @@
                   "leading": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                     "description": "",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2197,8 +2550,10 @@
                   "paragraphSpacing": {
                     "value": 7.56,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2208,8 +2563,10 @@
                   "tracking": {
                     "value": "-2%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2221,8 +2578,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2232,8 +2591,10 @@
                   "leading": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                     "description": "",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2243,8 +2604,10 @@
                   "paragraphSpacing": {
                     "value": 7.56,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2254,8 +2617,10 @@
                   "tracking": {
                     "value": "-2%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2269,8 +2634,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2280,8 +2647,10 @@
                   "leading": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                     "description": "",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2291,8 +2660,10 @@
                   "paragraphSpacing": {
                     "value": 8.64,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2302,8 +2673,10 @@
                   "tracking": {
                     "value": "-2%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2315,8 +2688,10 @@
                   "size": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.TEST.textSizeFactor.value}",
                     "description": "",
-                    "figma": {
-                      "type": "fontSizes"
+                    "dictionary": {
+                      "figma": {
+                        "type": "fontSizes"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2326,8 +2701,10 @@
                   "leading": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                     "description": "",
-                    "figma": {
-                      "type": "lineHeights"
+                    "dictionary": {
+                      "figma": {
+                        "type": "lineHeights"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2337,8 +2714,10 @@
                   "paragraphSpacing": {
                     "value": 8.64,
                     "description": "FIXME",
-                    "figma": {
-                      "type": "paragraphSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "paragraphSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2348,8 +2727,10 @@
                   "tracking": {
                     "value": "-2%",
                     "description": "FIXME",
-                    "figma": {
-                      "type": "letterSpacing"
+                    "dictionary": {
+                      "figma": {
+                        "type": "letterSpacing"
+                      }
                     },
                     "apparatusTags": [
                       "typo"
@@ -2362,8 +2743,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2373,8 +2756,10 @@
                 "leading": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.700.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2384,8 +2769,10 @@
                 "paragraphSpacing": {
                   "value": 7.56,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2395,8 +2782,10 @@
                 "tracking": {
                   "value": "3.5%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2408,8 +2797,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.900.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2419,8 +2810,10 @@
                 "leading": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.900.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2430,8 +2823,10 @@
                 "paragraphSpacing": {
                   "value": 9.72,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2441,8 +2836,10 @@
                 "tracking": {
                   "value": "0%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2454,8 +2851,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1000.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2465,8 +2864,10 @@
                 "leading": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1000.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2476,8 +2877,10 @@
                 "paragraphSpacing": {
                   "value": 10.8,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2487,8 +2890,10 @@
                 "tracking": {
                   "value": "0%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2500,8 +2905,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2511,8 +2918,10 @@
                 "leading": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2522,8 +2931,10 @@
                 "paragraphSpacing": {
                   "value": 12.96,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2533,8 +2944,10 @@
                 "tracking": {
                   "value": "-1%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2546,8 +2959,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1400.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2557,8 +2972,10 @@
                 "leading": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1400.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2568,8 +2985,10 @@
                 "paragraphSpacing": {
                   "value": 15.12,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2579,8 +2998,10 @@
                 "tracking": {
                   "value": "-1%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2592,8 +3013,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1600.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2603,8 +3026,10 @@
                 "leading": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1600.value} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value}",
                   "description": "",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2614,8 +3039,10 @@
                 "paragraphSpacing": {
                   "value": 17.28,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2625,8 +3052,10 @@
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2638,8 +3067,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1700.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2649,8 +3080,10 @@
                 "leading": {
                   "value": 41.6,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2660,8 +3093,10 @@
                 "paragraphSpacing": {
                   "value": 23.12,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2671,8 +3106,10 @@
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2684,8 +3121,10 @@
                 "size": {
                   "value": "{YPL.FFL.TKUI_C.sizes.macro.200.value} * {YPL.TEST.textSizeFactor.value}",
                   "description": "",
-                  "figma": {
-                    "type": "fontSizes"
+                  "dictionary": {
+                    "figma": {
+                      "type": "fontSizes"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2695,8 +3134,10 @@
                 "leading": {
                   "value": 50.4,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "lineHeights"
+                  "dictionary": {
+                    "figma": {
+                      "type": "lineHeights"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2706,8 +3147,10 @@
                 "paragraphSpacing": {
                   "value": 22.68,
                   "description": "FIXME",
-                  "figma": {
-                    "type": "paragraphSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "paragraphSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2717,8 +3160,10 @@
                 "tracking": {
                   "value": "-2%",
                   "description": "FIXME",
-                  "figma": {
-                    "type": "letterSpacing"
+                  "dictionary": {
+                    "figma": {
+                      "type": "letterSpacing"
+                    }
                   },
                   "apparatusTags": [
                     "typo"
@@ -2735,8 +3180,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2746,8 +3193,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2757,8 +3206,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2766,10 +3217,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2779,8 +3232,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2788,10 +3243,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2801,8 +3258,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2812,8 +3271,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2823,8 +3284,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2838,8 +3301,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2849,8 +3314,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2860,8 +3327,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2869,10 +3338,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2882,8 +3353,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2891,10 +3364,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2904,8 +3379,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2915,8 +3392,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2926,8 +3405,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2941,8 +3422,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2952,8 +3435,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2963,8 +3448,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2972,10 +3459,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.caption.regular.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2985,8 +3474,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -2994,10 +3485,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3007,8 +3500,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3018,8 +3513,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3029,8 +3526,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3044,8 +3543,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3055,8 +3556,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3066,8 +3569,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3075,10 +3580,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.caption.strong.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3088,8 +3595,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3097,10 +3606,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3110,8 +3621,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3121,8 +3634,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3132,8 +3647,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3147,8 +3664,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3158,8 +3677,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3169,8 +3690,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3178,10 +3701,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.ps.regular.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3191,8 +3716,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3200,10 +3727,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3213,8 +3742,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3224,8 +3755,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3235,8 +3768,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3250,8 +3785,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3261,8 +3798,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3272,8 +3811,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3281,10 +3822,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.ps.strong.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3294,8 +3837,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3303,10 +3848,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3316,8 +3863,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3327,8 +3876,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3338,8 +3889,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3353,8 +3906,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3364,8 +3919,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3375,8 +3932,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3384,10 +3943,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.p.regular.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3397,8 +3958,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3406,10 +3969,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3419,8 +3984,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3430,8 +3997,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3441,8 +4010,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3456,8 +4027,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3467,8 +4040,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3478,8 +4053,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3487,10 +4064,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.p.strong.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3500,8 +4079,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3509,10 +4090,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3522,8 +4105,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3533,8 +4118,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3544,8 +4131,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3559,8 +4148,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3570,8 +4161,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h1.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3581,8 +4174,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h1.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3590,10 +4185,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h1.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3603,8 +4200,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h1.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3612,10 +4211,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3625,8 +4226,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3636,8 +4239,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3647,8 +4252,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3662,8 +4269,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3673,8 +4282,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h2.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3684,8 +4295,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h2.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3693,10 +4306,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h2.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h2.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3706,8 +4321,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h2.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3715,10 +4332,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3728,8 +4347,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3739,8 +4360,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3750,8 +4373,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3765,8 +4390,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3776,8 +4403,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h3.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3787,8 +4416,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h3.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3796,10 +4427,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h3.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3809,8 +4442,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h3.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3818,10 +4453,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3831,8 +4468,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3842,8 +4481,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3853,8 +4494,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3868,8 +4511,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3879,8 +4524,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h4.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3890,8 +4537,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h4.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3899,10 +4548,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h4.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h4.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3912,8 +4563,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h4.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3921,10 +4574,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3934,8 +4589,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3945,8 +4602,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3956,8 +4615,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3971,8 +4632,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3982,8 +4645,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h5.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -3993,8 +4658,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h5.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4002,10 +4669,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h5.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h5.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4015,8 +4684,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h5.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4024,10 +4695,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4037,8 +4710,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4048,8 +4723,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4059,8 +4736,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4074,8 +4753,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4085,8 +4766,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h6.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4096,8 +4779,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h6.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4105,10 +4790,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h6.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h6.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4118,8 +4805,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h6.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4127,10 +4816,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4140,8 +4831,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4151,8 +4844,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4162,8 +4857,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4177,8 +4874,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4188,8 +4887,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h7.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4199,8 +4900,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h7.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4208,10 +4911,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h7.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4221,8 +4926,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h7.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4230,10 +4937,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4243,8 +4952,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4254,8 +4965,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4265,8 +4978,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4280,8 +4995,10 @@
               "familyName": {
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontFamilies"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontFamilies"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4291,8 +5008,10 @@
               "size": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h8.size.value}",
                 "description": "",
-                "figma": {
-                  "type": "fontSizes"
+                "dictionary": {
+                  "figma": {
+                    "type": "fontSizes"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4302,8 +5021,10 @@
               "leading": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h8.leading.value}",
                 "description": "",
-                "figma": {
-                  "type": "lineHeights"
+                "dictionary": {
+                  "figma": {
+                    "type": "lineHeights"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4311,10 +5032,12 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFl.TKUI_M.typo.europa.h8.paragraphSpacing.value}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.h8.paragraphSpacing.value}",
                 "description": "",
-                "figma": {
-                  "type": "paragraphSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "paragraphSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4324,8 +5047,10 @@
               "tracking": {
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h8.tracking.value}",
                 "description": "",
-                "figma": {
-                  "type": "letterSpacing"
+                "dictionary": {
+                  "figma": {
+                    "type": "letterSpacing"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4333,10 +5058,12 @@
                 "UIDs": {}
               },
               "textAlignHorizontal": {
-                "value": "LEFT",
+                "value": "{YPL.CONST.textAlignHorizontal.left.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4346,8 +5073,10 @@
               "textCase": {
                 "value": "ORIGINAL",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4357,8 +5086,10 @@
               "textDecoration": {
                 "value": "NONE",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4368,8 +5099,10 @@
               "color": {
                 "value": "{YPL.FFL.TKUI_C.colors.black.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [
                   "typo"
@@ -4383,8 +5116,10 @@
               "width": {
                 "value": "{YPL.FFL.TKUI_C.percents.full.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [],
                 "UIDs": {}
@@ -4392,16 +5127,20 @@
               "height": {
                 "value": "{YPL.FFL.TKUI_C.sizes.macro.700.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [],
                 "UIDs": {},
                 "OPT_small": {
                   "value": "{YPL.FFL.TKUI_C.sizes.macro.700.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4410,8 +5149,10 @@
               "margin": {
                 "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [],
                 "UIDs": {}
@@ -4419,8 +5160,10 @@
               "fringeBottom": {
                 "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [],
                 "UIDs": {}
@@ -4428,8 +5171,10 @@
               "padding": {
                 "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [],
                 "UIDs": {}
@@ -4437,8 +5182,10 @@
               "radius": {
                 "value": "{YPL.FFL.TKUI_C.sizes.micro.200.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [],
                 "UIDs": {}
@@ -4447,16 +5194,20 @@
                 "width": {
                   "value": "{YPL.FFL.TKUI_C.percents.full.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {},
                   "BRKP_m": {
                     "value": "{YPL.FFL.TKUI_C.percents.ml.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4465,8 +5216,10 @@
                 "slack": {
                   "value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4475,8 +5228,10 @@
                   "margin": {
                     "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4484,8 +5239,10 @@
                   "fringeBottom": {
                     "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4495,8 +5252,10 @@
                   "color": {
                     "value": "{YPL.FFL.TKUI_C.colors.white.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4507,8 +5266,10 @@
                 "height": {
                   "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4518,8 +5279,10 @@
                 "height": {
                   "value": "{YPL.FFL.TKUI_C.spaces.e.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4528,16 +5291,20 @@
                   "paddingLeft": {
                     "value": "{YPL.FFL.TKUI_C.spaces.sm.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {},
                     "OPT_layout2": {
                       "value": "{YPL.FFL.TKUI_C.spaces.none.value}",
                       "description": "",
-                      "figma": {
-                        "type": "other"
+                      "dictionary": {
+                        "figma": {
+                          "type": "other"
+                        }
                       },
                       "apparatusTags": [],
                       "UIDs": {}
@@ -4548,16 +5315,20 @@
               "gradient": {
                 "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR.value}",
                 "description": "",
-                "figma": {
-                  "type": "other"
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
                 },
                 "apparatusTags": [],
                 "UIDs": {},
                 "OPT_layout2": {
                   "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4567,8 +5338,10 @@
                 "fillMode": {
                   "value": "FILL",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4578,8 +5351,10 @@
                 "color": {
                   "value": "{YPL.FFL.TKUI_C.colors.white.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4587,16 +5362,20 @@
                 "margin": {
                   "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {},
                   "OPT_layout2": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4605,8 +5384,10 @@
                 "fringeBottom": {
                   "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4614,8 +5395,10 @@
                 "paddingLeft": {
                   "value": "{YPL.FFL.TKUI_C.spaces.xxl.value}",
                   "description": "",
-                  "figma": {
-                    "type": "other"
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4624,8 +5407,10 @@
                   "OPT_small": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.size.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4633,8 +5418,10 @@
                   "BRKP_m": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.size.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4644,8 +5431,10 @@
                   "OPT_small": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.tracking.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4653,8 +5442,10 @@
                   "BRKP_m": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.tracking.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4664,8 +5455,10 @@
                   "OPT_small": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.leading.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4673,8 +5466,10 @@
                   "BRKP_m": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.leading.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4684,8 +5479,10 @@
                   "OPT_small": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4693,8 +5490,10 @@
                   "BRKP_m": {
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value}",
                     "description": "",
-                    "figma": {
-                      "type": "other"
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
                     },
                     "apparatusTags": [],
                     "UIDs": {}
@@ -4705,8 +5504,378 @@
                 "color": {
                   "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
                   "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              }
+            }
+          },
+          "E0001": {
+            "HMN_chip": {
+              "height": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+                "description": "",
+                "dictionary": {
                   "figma": {
                     "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "paddingTop": {
+                "value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "paddingBottom": {
+                "value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "paddingLeft": {
+                "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "paddingRight": {
+                "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "radius": {
+                "value": "{YPL.FFL.TKUI_C.precents.m.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {},
+                "fallback": {
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "block": {
+                "icon": {
+                  "value": "{YPL.FFL.F0003-XXX.HMN_icon}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {},
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {},
+                    "OPT_inverse": {
+                      "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "other"
+                        }
+                      },
+                      "apparatusTags": [],
+                      "UIDs": {}
+                    },
+                    "OPT_accent": {
+                      "value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "other"
+                        }
+                      },
+                      "apparatusTags": [],
+                      "UIDs": {}
+                    }
+                  },
+                  "width": {
+                    "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "height": {
+                    "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "marginRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {},
+                    "OPT_iconOnly": {
+                      "value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "other"
+                        }
+                      },
+                      "apparatusTags": [],
+                      "UIDs": {}
+                    }
+                  },
+                  "fringeRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {},
+                    "OPT_iconOnly": {
+                      "value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "other"
+                        }
+                      },
+                      "apparatusTags": [],
+                      "UIDs": {}
+                    }
+                  }
+                },
+                "label": {
+                  "value": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {},
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.black.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {},
+                    "OPT_inverse": {
+                      "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "other"
+                        }
+                      },
+                      "apparatusTags": [],
+                      "UIDs": {}
+                    },
+                    "OPT_accent": {
+                      "value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "other"
+                        }
+                      },
+                      "apparatusTags": [],
+                      "UIDs": {}
+                    }
+                  },
+                  "leading": {
+                    "value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      }
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                }
+              },
+              "bgColor": {
+                "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {},
+                "OPT_inverse": {
+                  "value": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "OPT_notContained": {
+                  "value": "{YPL.FFL.TKUI_C.colors.none.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              }
+            }
+          },
+          "E0004-003": {
+            "HMN_switch-butIcon": {
+              "width": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "height": {
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  }
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "border": {
+                "radius": {
+                  "value": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "icon": {
+                "i": {
+                  "value": "{YPL.FFL.F0003-001.HMN_icon}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "hi": {
+                  "value": "{YPL.FFL.F0003-027.HMN_icon}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              },
+              "bg": {
+                "i": {
+                  "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "hi": {
+                  "value": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    }
                   },
                   "apparatusTags": [],
                   "UIDs": {}
@@ -4721,16 +5890,161 @@
           "value": 1,
           "description": "Inject this factor into Typography Sizes Choices. It's used to blow font sizes up to test compliancy with WCAG 1.4.4 · Remove it once in β release",
           "type": {
-            "figma": "other"
+            "figma": "test"
           }
         }
       },
-      "boolean" {
-        "true" {
-          "value": true,
+      "CONST": {
+        "boolean": {
+          "true": {
+            "value": "true",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "false": {
+            "value": "false",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          }
         },
-        "false" {
-          "value": false,
+        "textAlignHorizontal": {
+          "left": {
+            "value": "LEFT",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "right": {
+            "value": "RIGHT",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "center": {
+            "value": "CENTER",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "justified": {
+            "value": "JUSTIFIED",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          }
+        },
+        "textCase": {
+          "original": {
+            "value": "ORIGINAL",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "upper": {
+            "value": "UPPER",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "lower": {
+            "value": "LOWER",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "title": {
+            "value": "TITLE",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          }
+        },
+        "textDecoration": {
+          "none": {
+            "value": "NONE",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "underline": {
+            "value": "UNDERLINE",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          },
+          "strikethrough": {
+            "value": "STRIKETHROUGH",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              }
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          }
         }
       }
     }
