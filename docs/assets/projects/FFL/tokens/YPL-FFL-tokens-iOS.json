@@ -827,6 +827,22 @@
               "UIDs": {}
             }
           },
+          "corner": {
+            "round": {
+              "value": 100,
+              "description": "",
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                },
+                "ios": true
+              },
+              "apparatusTags": [
+                "corner"
+              ],
+              "UIDs": {}
+            }
+          },
           "colors": {
             "white": {
               "value": "#ffffff",
@@ -3414,7 +3430,7 @@
           "F0002-401": {
             "HMN_typo_europa-eyebrow": {
               "familyName": {
-                "value": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+                "value": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
                 "description": "",
                 "dictionary": {
                   "figma": {
@@ -3428,7 +3444,7 @@
                 "UIDs": {}
               },
               "size": {
-                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size.value",
+                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.size.value",
                 "description": "",
                 "dictionary": {
                   "figma": {
@@ -3442,7 +3458,7 @@
                 "UIDs": {}
               },
               "leading": {
-                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading.value",
+                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.leading.value",
                 "description": "",
                 "dictionary": {
                   "figma": {
@@ -3456,7 +3472,7 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing.value",
+                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.paragraphSpacing.value",
                 "description": "",
                 "dictionary": {
                   "figma": {
@@ -3470,7 +3486,7 @@
                 "UIDs": {}
               },
               "tracking": {
-                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking.value",
+                "value": "YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.tracking.value",
                 "description": "",
                 "dictionary": {
                   "figma": {
@@ -6263,7 +6279,7 @@
               },
               "border": {
                 "radius": {
-                  "value": "YPL.FFL.TKUI_C.percents.full.value * 100 + '%'",
+                  "value": "YPL.FFL.TKUI_C.corner.round.value",
                   "description": "",
                   "dictionary": {
                     "figma": {

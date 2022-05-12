@@ -713,6 +713,20 @@
               "UIDs": {}
             }
           },
+          "corner": {
+            "round": {
+              "value": 100,
+              "description": "",
+              "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [
+                "corner"
+              ],
+              "UIDs": {}
+            }
+          },
           "colors": {
             "white": {
               "value": "#ffffff",
@@ -2942,7 +2956,7 @@
           "F0002-401": {
             "HMN_typo_europa-eyebrow": {
               "familyName": {
-                "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular}",
+                "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
                 "dictionary": {
@@ -2954,7 +2968,7 @@
                 "UIDs": {}
               },
               "size": {
-                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.size}",
                 "description": "",
                 "type": "fontSizes",
                 "dictionary": {
@@ -2966,7 +2980,7 @@
                 "UIDs": {}
               },
               "leading": {
-                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.leading}",
                 "description": "",
                 "type": "lineHeights",
                 "dictionary": {
@@ -2978,7 +2992,7 @@
                 "UIDs": {}
               },
               "paragraphSpacing": {
-                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
                 "dictionary": {
@@ -2990,7 +3004,7 @@
                 "UIDs": {}
               },
               "tracking": {
-                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking}",
+                "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.bold.tracking}",
                 "description": "",
                 "type": "letterSpacing",
                 "dictionary": {
@@ -5381,7 +5395,7 @@
               },
               "border": {
                 "radius": {
-                  "value": "{YPL.FFL.TKUI_C.percents.full} * 100 + '%'",
+                  "value": "{YPL.FFL.TKUI_C.corner.round}",
                   "description": "",
                   "type": "other",
                   "dictionary": {
