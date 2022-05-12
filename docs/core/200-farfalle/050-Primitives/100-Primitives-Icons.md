@@ -4,12 +4,14 @@ project_id: FFL # 3-letter code
 title: Icons # title case
 UID: F0003 # ["P","E","F"] + Hexa code/index
 variants: ["001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016","017","018","019","020","021","022","023","024","025","026","027","028","029","401","402","403","404","405","406","407","408","409","410","411","412","413","414","415","416","417","418","419","420","421","422","423","424","425","426","427","428","429","430","431","432","433","434","3FF","7FF"] # all variants index
-permalink: farfalle/primitives/icons # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/primitives/icons # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
 nav_order: 100
 ---
+
+<!-- FIXME — ↑↓ not clear where "3FF" and "7FF" are represented, in the local SVG yup but not inside the Zip archive  -->
 
 # Icons
 {: .no_toc}
@@ -45,7 +47,7 @@ nav_order: 100
 </table>
 
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220330.zip" class="btn iconed downloadBadge">Download Zip</a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220512.zip" class="btn iconed downloadBadge">Download Zip</a>
 
 <!-- - TOC
 {:toc} -->
