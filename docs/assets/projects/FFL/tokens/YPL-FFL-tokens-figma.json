@@ -21,7 +21,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             },
             "m": {
               "value": 768,
@@ -30,7 +33,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             },
             "l": {
               "value": 1024,
@@ -39,7 +45,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             },
             "xl": {
               "value": 1920,
@@ -48,7 +57,10 @@
                 "breakpoints"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             }
           },
           "factors": {
@@ -59,7 +71,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             },
             "F2": {
               "value": 1,
@@ -68,7 +83,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             },
             "F3": {
               "value": 1,
@@ -77,7 +95,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             },
             "F4": {
               "value": 1,
@@ -86,7 +107,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             },
             "F5": {
               "value": 2,
@@ -95,7 +119,10 @@
                 "factors"
               ],
               "UIDs": {},
-              "type": "other"
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              }
             }
           },
           "spaces": {
@@ -106,7 +133,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "xs": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.200}",
@@ -115,7 +145,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "s": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.400}",
@@ -124,7 +157,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "sm": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.600}",
@@ -133,7 +169,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "m": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.800}",
@@ -142,7 +181,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "ml": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.1000}",
@@ -151,7 +193,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "l": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.1200}",
@@ -160,7 +205,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "xl": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.1600}",
@@ -169,7 +217,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             },
             "xxl": {
               "value": "{YPL.FFL.TKUI_M.scales.arithA.1800}",
@@ -178,7 +229,10 @@
                 "spaces"
               ],
               "UIDs": {},
-              "type": "spacing"
+              "type": "spacing",
+              "dictionary": {
+                "ios": true
+              }
             }
           },
           "sizes": {
@@ -190,6 +244,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "200": {
@@ -199,6 +256,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "300": {
@@ -208,6 +268,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "400": {
@@ -217,6 +280,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "000": {
@@ -226,6 +292,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               }
             },
@@ -237,6 +306,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "200": {
@@ -246,6 +318,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "300": {
@@ -255,6 +330,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "400": {
@@ -264,6 +342,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "500": {
@@ -273,6 +354,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "600": {
@@ -282,6 +366,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "700": {
@@ -291,6 +378,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "800": {
@@ -300,6 +390,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "900": {
@@ -309,6 +402,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1000": {
@@ -318,6 +414,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1100": {
@@ -327,6 +426,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1200": {
@@ -336,6 +438,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1300": {
@@ -345,6 +450,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1400": {
@@ -354,6 +462,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1500": {
@@ -363,6 +474,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1600": {
@@ -372,12 +486,18 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1700": {
                 "value": "{YPL.FFL.TKUI_M.scales.arithA.2000}",
                 "description": "",
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "sizes"
                 ],
@@ -392,6 +512,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "200": {
@@ -401,6 +524,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "300": {
@@ -410,6 +536,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "400": {
@@ -419,6 +548,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "500": {
@@ -428,6 +560,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "600": {
@@ -437,6 +572,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "700": {
@@ -446,6 +584,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "800": {
@@ -455,6 +596,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "900": {
@@ -464,6 +608,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1000": {
@@ -473,6 +620,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               },
               "1100": {
@@ -482,6 +632,9 @@
                   "staticSizes"
                 ],
                 "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
                 "UIDs": {}
               }
             }
@@ -491,6 +644,9 @@
               "value": 0.33,
               "description": "",
               "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "percents"
               ],
@@ -500,6 +656,9 @@
               "value": 0.5,
               "description": "",
               "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "percents"
               ],
@@ -509,6 +668,9 @@
               "value": 0.66,
               "description": "",
               "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "percents"
               ],
@@ -518,6 +680,9 @@
               "value": 0.75,
               "description": "",
               "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "percents"
               ],
@@ -527,6 +692,9 @@
               "value": 0.85,
               "description": "",
               "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "percents"
               ],
@@ -536,6 +704,9 @@
               "value": 1,
               "description": "",
               "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "percents"
               ],
@@ -547,6 +718,9 @@
               "value": "#ffffff",
               "description": "",
               "type": "color",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "colors"
               ],
@@ -556,6 +730,9 @@
               "value": "#000000",
               "description": "",
               "type": "color",
+              "dictionary": {
+                "ios": true
+              },
               "apparatusTags": [
                 "colors"
               ],
@@ -566,6 +743,9 @@
                 "value": "#f5f5f5",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -575,6 +755,9 @@
                 "value": "#E3E3E3",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -584,6 +767,9 @@
                 "value": "#BABABA",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -593,6 +779,9 @@
                 "value": "#707070",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -602,6 +791,9 @@
                 "value": "#4A4A4A",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -611,6 +803,9 @@
                 "value": "#242424",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -622,6 +817,9 @@
                 "value": "#4BB9B3",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -631,6 +829,9 @@
                 "value": "#3A9691",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -640,6 +841,9 @@
                 "value": "#2C726E",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -651,6 +855,9 @@
                 "value": "#E77F4B",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -660,6 +867,9 @@
                 "value": "#E05F1F",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -669,6 +879,9 @@
                 "value": "#B44B18",
                 "description": "",
                 "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "colors"
                 ],
@@ -683,6 +896,9 @@
                   "value": "linear-gradient(64deg, {YPL.FFL.TKUI_C.colors.black} 0%, {YPL.FFL.TKUI_C.colors.black} 100%)",
                   "description": "",
                   "type": "color",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "gradients"
                   ],
@@ -692,6 +908,9 @@
                   "value": "linear-gradient(116deg, {YPL.FFL.TKUI_C.colors.black} 0%, {YPL.FFL.TKUI_C.colors.black} 100%)",
                   "description": "",
                   "type": "color",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "gradients"
                   ],
@@ -707,6 +926,9 @@
                   "value": "Europa-Light",
                   "description": "",
                   "type": "fontFamilies",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -716,6 +938,9 @@
                   "value": "Europa-Regular",
                   "description": "",
                   "type": "fontFamilies",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -725,6 +950,9 @@
                   "value": "Europa-Bold",
                   "description": "",
                   "type": "fontFamilies",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -736,6 +964,9 @@
                   "value": 1.2,
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -745,6 +976,9 @@
                   "value": 1.4,
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -754,6 +988,9 @@
                   "value": 1.5,
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -773,7 +1010,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "200": {
                 "value": 2,
@@ -782,7 +1022,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "300": {
                 "value": 4,
@@ -791,7 +1034,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "400": {
                 "value": 8,
@@ -800,7 +1046,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "500": {
                 "value": 16,
@@ -809,7 +1058,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "600": {
                 "value": 32,
@@ -818,7 +1070,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "700": {
                 "value": 64,
@@ -827,7 +1082,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "800": {
                 "value": 128,
@@ -836,7 +1094,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "900": {
                 "value": 256,
@@ -845,7 +1106,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1000": {
                 "value": 512,
@@ -854,7 +1118,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1100": {
                 "value": 1024,
@@ -863,7 +1130,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               }
             },
             "arithA": {
@@ -874,7 +1144,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "200": {
                 "value": 4,
@@ -883,7 +1156,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "300": {
                 "value": 6,
@@ -892,7 +1168,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "400": {
                 "value": 8,
@@ -901,7 +1180,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "500": {
                 "value": 10,
@@ -910,7 +1192,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "600": {
                 "value": 12,
@@ -919,7 +1204,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "700": {
                 "value": 14,
@@ -928,7 +1216,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "800": {
                 "value": 16,
@@ -937,7 +1228,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "900": {
                 "value": 18,
@@ -946,7 +1240,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1000": {
                 "value": 20,
@@ -955,7 +1252,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1100": {
                 "value": 22,
@@ -964,7 +1264,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1200": {
                 "value": 24,
@@ -973,7 +1276,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1300": {
                 "value": 26,
@@ -982,7 +1288,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1400": {
                 "value": 28,
@@ -991,7 +1300,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1500": {
                 "value": 30,
@@ -1000,7 +1312,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1600": {
                 "value": 32,
@@ -1009,7 +1324,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1700": {
                 "value": 34,
@@ -1018,7 +1336,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1800": {
                 "value": 36,
@@ -1027,12 +1348,18 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2000": {
                 "value": 40,
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "scales"
                 ],
@@ -1047,7 +1374,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "200": {
                 "value": 48,
@@ -1056,7 +1386,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "300": {
                 "value": 64,
@@ -1065,7 +1398,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "400": {
                 "value": 80,
@@ -1074,7 +1410,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "500": {
                 "value": 96,
@@ -1083,7 +1422,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "600": {
                 "value": 112,
@@ -1092,7 +1434,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "700": {
                 "value": 128,
@@ -1101,7 +1446,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "800": {
                 "value": 144,
@@ -1110,7 +1458,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "900": {
                 "value": 160,
@@ -1119,7 +1470,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1000": {
                 "value": 176,
@@ -1128,7 +1482,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1100": {
                 "value": 192,
@@ -1137,7 +1494,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1200": {
                 "value": 208,
@@ -1146,7 +1506,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1300": {
                 "value": 224,
@@ -1155,7 +1518,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1400": {
                 "value": 240,
@@ -1164,7 +1530,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1500": {
                 "value": 256,
@@ -1173,7 +1542,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1600": {
                 "value": 272,
@@ -1182,7 +1554,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1700": {
                 "value": 288,
@@ -1191,7 +1566,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1800": {
                 "value": 304,
@@ -1200,7 +1578,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "1900": {
                 "value": 320,
@@ -1209,7 +1590,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2000": {
                 "value": 336,
@@ -1218,7 +1602,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2100": {
                 "value": 352,
@@ -1227,7 +1614,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2200": {
                 "value": 368,
@@ -1236,7 +1626,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2300": {
                 "value": 384,
@@ -1245,7 +1638,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2400": {
                 "value": 400,
@@ -1254,7 +1650,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2500": {
                 "value": 416,
@@ -1263,7 +1662,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2600": {
                 "value": 432,
@@ -1272,7 +1674,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2700": {
                 "value": 448,
@@ -1281,7 +1686,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2800": {
                 "value": 464,
@@ -1290,7 +1698,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "2900": {
                 "value": 480,
@@ -1299,7 +1710,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3000": {
                 "value": 496,
@@ -1308,7 +1722,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3100": {
                 "value": 512,
@@ -1317,7 +1734,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3200": {
                 "value": 528,
@@ -1326,7 +1746,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3300": {
                 "value": 544,
@@ -1335,7 +1758,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3400": {
                 "value": 560,
@@ -1344,7 +1770,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3500": {
                 "value": 576,
@@ -1353,7 +1782,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3600": {
                 "value": 592,
@@ -1362,7 +1794,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3700": {
                 "value": 608,
@@ -1371,7 +1806,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3800": {
                 "value": 624,
@@ -1380,7 +1818,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "3900": {
                 "value": 640,
@@ -1389,7 +1830,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4000": {
                 "value": 656,
@@ -1398,7 +1842,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4100": {
                 "value": 672,
@@ -1407,7 +1854,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4200": {
                 "value": 688,
@@ -1416,7 +1866,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4300": {
                 "value": 704,
@@ -1425,7 +1878,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4400": {
                 "value": 720,
@@ -1434,7 +1890,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4500": {
                 "value": 736,
@@ -1443,7 +1902,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4600": {
                 "value": 752,
@@ -1452,7 +1914,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4700": {
                 "value": 768,
@@ -1461,7 +1926,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4800": {
                 "value": 784,
@@ -1470,7 +1938,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "4900": {
                 "value": 800,
@@ -1479,7 +1950,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5000": {
                 "value": 816,
@@ -1488,7 +1962,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5100": {
                 "value": 832,
@@ -1497,7 +1974,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5200": {
                 "value": 848,
@@ -1506,7 +1986,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5300": {
                 "value": 864,
@@ -1515,7 +1998,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5400": {
                 "value": 880,
@@ -1524,7 +2010,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5500": {
                 "value": 896,
@@ -1533,7 +2022,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5600": {
                 "value": 912,
@@ -1542,7 +2034,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5700": {
                 "value": 928,
@@ -1551,7 +2046,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5800": {
                 "value": 944,
@@ -1560,7 +2058,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "5900": {
                 "value": 960,
@@ -1569,7 +2070,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "6000": {
                 "value": 976,
@@ -1578,7 +2082,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "6100": {
                 "value": 992,
@@ -1587,7 +2094,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "6200": {
                 "value": 1008,
@@ -1596,7 +2106,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               },
               "6300": {
                 "value": 1024,
@@ -1605,7 +2118,10 @@
                   "scales"
                 ],
                 "UIDs": {},
-                "type": "other"
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                }
               }
             }
           },
@@ -1617,6 +2133,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.600} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1626,6 +2145,9 @@
                     "value": 18,
                     "description": "FIXME",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1635,6 +2157,9 @@
                     "value": 0,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1644,6 +2169,9 @@
                     "value": "10%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1655,6 +2183,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.500} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1664,6 +2195,9 @@
                     "value": 14,
                     "description": "FIXME",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1673,6 +2207,9 @@
                     "value": 0,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1682,6 +2219,9 @@
                     "value": "10%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1695,6 +2235,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.600} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1704,6 +2247,9 @@
                     "value": 18,
                     "description": "FIXME",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1713,6 +2259,9 @@
                     "value": 0,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1722,6 +2271,9 @@
                     "value": "-2%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1733,6 +2285,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.600} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1742,6 +2297,9 @@
                     "value": 18,
                     "description": "FIXME",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1751,6 +2309,9 @@
                     "value": 0,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1760,6 +2321,9 @@
                     "value": "-2%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1773,6 +2337,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1782,6 +2349,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                     "description": "",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1791,6 +2361,9 @@
                     "value": 7.56,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1800,6 +2373,9 @@
                     "value": "-2%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1811,6 +2387,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1820,6 +2399,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                     "description": "",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1829,6 +2411,9 @@
                     "value": 7.56,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1838,6 +2423,9 @@
                     "value": "-2%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1851,6 +2439,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1860,6 +2451,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                     "description": "",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1869,6 +2463,9 @@
                     "value": 8.64,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1878,6 +2475,9 @@
                     "value": "-2%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1889,6 +2489,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800} * {YPL.TEST.textSizeFactor}",
                     "description": "",
                     "type": "fontSizes",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1898,6 +2501,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                     "description": "",
                     "type": "lineHeights",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1907,6 +2513,9 @@
                     "value": 8.64,
                     "description": "FIXME",
                     "type": "paragraphSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1916,6 +2525,9 @@
                     "value": "-2%",
                     "description": "FIXME",
                     "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [
                       "typo"
                     ],
@@ -1928,6 +2540,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -1937,6 +2552,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -1946,6 +2564,9 @@
                   "value": 7.56,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -1955,6 +2576,9 @@
                   "value": "3.5%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -1966,6 +2590,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.900} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -1975,6 +2602,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.900} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -1984,6 +2614,9 @@
                   "value": 9.72,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -1993,6 +2626,9 @@
                   "value": "0%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2004,6 +2640,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1000} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2013,6 +2652,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1000} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2022,6 +2664,9 @@
                   "value": 10.8,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2031,6 +2676,9 @@
                   "value": "0%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2042,6 +2690,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1200} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2051,6 +2702,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1200} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2060,6 +2714,9 @@
                   "value": 12.96,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2069,6 +2726,9 @@
                   "value": "-1%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2080,6 +2740,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1400} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2089,6 +2752,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1400} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2098,6 +2764,9 @@
                   "value": 15.12,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2107,6 +2776,9 @@
                   "value": "-1%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2118,6 +2790,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1600} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2127,6 +2802,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1600} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
                   "description": "",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2136,6 +2814,9 @@
                   "value": 17.28,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2145,6 +2826,9 @@
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2156,6 +2840,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.1700} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2165,6 +2852,9 @@
                   "value": 41.6,
                   "description": "FIXME",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2174,6 +2864,9 @@
                   "value": 23.12,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2183,6 +2876,9 @@
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2194,6 +2890,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.macro.200} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2203,6 +2902,9 @@
                   "value": 50.4,
                   "description": "FIXME",
                   "type": "lineHeights",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2212,6 +2914,9 @@
                   "value": 22.68,
                   "description": "FIXME",
                   "type": "paragraphSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2221,6 +2926,9 @@
                   "value": "-2%",
                   "description": "FIXME",
                   "type": "letterSpacing",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [
                     "typo"
                   ],
@@ -2237,6 +2945,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2246,6 +2957,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2255,6 +2969,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2264,6 +2981,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2273,6 +2993,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2282,6 +3005,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2291,6 +3017,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2300,6 +3029,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2309,6 +3041,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2322,6 +3057,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2331,6 +3069,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2340,6 +3081,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2349,6 +3093,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2358,6 +3105,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.eyebrow.small.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2367,6 +3117,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2376,6 +3129,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2385,6 +3141,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2394,6 +3153,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2407,6 +3169,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2416,6 +3181,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2425,6 +3193,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2434,6 +3205,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2443,6 +3217,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.regular.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2452,6 +3229,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2461,6 +3241,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2470,6 +3253,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2479,6 +3265,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2492,6 +3281,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2501,6 +3293,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2510,6 +3305,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2519,6 +3317,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2528,6 +3329,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.caption.strong.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2537,6 +3341,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2546,6 +3353,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2555,6 +3365,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2564,6 +3377,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2577,6 +3393,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2586,6 +3405,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2595,6 +3417,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2604,6 +3429,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2613,6 +3441,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.regular.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2622,6 +3453,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2631,6 +3465,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2640,6 +3477,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2649,6 +3489,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2662,6 +3505,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2671,6 +3517,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2680,6 +3529,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2689,6 +3541,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2698,6 +3553,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.ps.strong.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2707,6 +3565,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2716,6 +3577,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2725,6 +3589,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2734,6 +3601,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2747,6 +3617,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.regular}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2756,6 +3629,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2765,6 +3641,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2774,6 +3653,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2783,6 +3665,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.regular.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2792,6 +3677,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2801,6 +3689,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2810,6 +3701,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2819,6 +3713,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2832,6 +3729,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2841,6 +3741,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2850,6 +3753,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2859,6 +3765,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2868,6 +3777,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.p.strong.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2877,6 +3789,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2886,6 +3801,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2895,6 +3813,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2904,6 +3825,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2917,6 +3841,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2926,6 +3853,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h1.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2935,6 +3865,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h1.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2944,6 +3877,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2953,6 +3889,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h1.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2962,6 +3901,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2971,6 +3913,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2980,6 +3925,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -2989,6 +3937,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3002,6 +3953,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3011,6 +3965,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h2.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3020,6 +3977,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h2.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3029,6 +3989,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h2.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3038,6 +4001,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h2.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3047,6 +4013,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3056,6 +4025,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3065,6 +4037,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3074,6 +4049,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3087,6 +4065,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3096,6 +4077,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h3.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3105,6 +4089,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h3.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3114,6 +4101,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3123,6 +4113,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h3.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3132,6 +4125,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3141,6 +4137,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3150,6 +4149,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3159,6 +4161,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3172,6 +4177,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3181,6 +4189,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h4.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3190,6 +4201,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h4.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3199,6 +4213,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h4.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3208,6 +4225,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h4.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3217,6 +4237,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3226,6 +4249,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3235,6 +4261,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3244,6 +4273,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3257,6 +4289,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3266,6 +4301,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h5.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3275,6 +4313,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h5.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3284,6 +4325,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h5.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3293,6 +4337,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h5.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3302,6 +4349,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3311,6 +4361,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3320,6 +4373,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3329,6 +4385,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3342,6 +4401,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3351,6 +4413,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h6.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3360,6 +4425,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h6.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3369,6 +4437,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h6.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3378,6 +4449,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h6.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3387,6 +4461,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3396,6 +4473,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3405,6 +4485,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3414,6 +4497,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3427,6 +4513,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3436,6 +4525,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h7.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3445,6 +4537,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h7.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3454,6 +4549,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3463,6 +4561,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h7.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3472,6 +4573,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3481,6 +4585,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3490,6 +4597,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3499,6 +4609,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3512,6 +4625,9 @@
                 "value": "{YPL.FFL.TKUI_C.typo.europa.familyName.bold}",
                 "description": "",
                 "type": "fontFamilies",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3521,6 +4637,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h8.size}",
                 "description": "",
                 "type": "fontSizes",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3530,6 +4649,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h8.leading}",
                 "description": "",
                 "type": "lineHeights",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3539,6 +4661,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h8.paragraphSpacing}",
                 "description": "",
                 "type": "paragraphSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3548,6 +4673,9 @@
                 "value": "{YPL.FFL.TKUI_M.typo.europa.h8.tracking}",
                 "description": "",
                 "type": "letterSpacing",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3557,6 +4685,9 @@
                 "value": "{YPL.CONST.textAlignHorizontal.left}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3566,6 +4697,9 @@
                 "value": "ORIGINAL",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3575,6 +4709,9 @@
                 "value": "NONE",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3584,6 +4721,9 @@
                 "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [
                   "typo"
                 ],
@@ -3597,6 +4737,9 @@
                 "value": "{YPL.FFL.TKUI_C.percents.full}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3604,12 +4747,18 @@
                 "value": "{YPL.FFL.TKUI_C.sizes.macro.700}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {},
                 "OPT_small": {
                   "value": "{YPL.FFL.TKUI_C.sizes.macro.700}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -3618,6 +4767,9 @@
                 "value": "{YPL.FFL.TKUI_C.spaces.l}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3625,6 +4777,9 @@
                 "value": "{YPL.FFL.TKUI_C.spaces.l}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3632,6 +4787,9 @@
                 "value": "{YPL.FFL.TKUI_C.spaces.l}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3639,6 +4797,9 @@
                 "value": "{YPL.FFL.TKUI_C.sizes.micro.200}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3647,12 +4808,18 @@
                   "value": "{YPL.FFL.TKUI_C.percents.full}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {},
                   "BRKP_m": {
                     "value": "{YPL.FFL.TKUI_C.percents.ml}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3661,6 +4828,9 @@
                   "value": "{YPL.FFL.TKUI_C.sizes.macro.500}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -3669,6 +4839,9 @@
                     "value": "{YPL.FFL.TKUI_C.spaces.s}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   },
@@ -3676,6 +4849,9 @@
                     "value": "{YPL.FFL.TKUI_C.spaces.s}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3685,6 +4861,9 @@
                     "value": "{YPL.FFL.TKUI_C.colors.white}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3695,6 +4874,9 @@
                   "value": "{YPL.FFL.TKUI_C.spaces.l}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -3704,6 +4886,9 @@
                   "value": "{YPL.FFL.TKUI_C.spaces.e}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -3712,12 +4897,18 @@
                     "value": "{YPL.FFL.TKUI_C.spaces.sm}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {},
                     "OPT_layout2": {
                       "value": "{YPL.FFL.TKUI_C.spaces.none}",
                       "description": "",
                       "type": "other",
+                      "dictionary": {
+                        "ios": true
+                      },
                       "apparatusTags": [],
                       "UIDs": {}
                     }
@@ -3728,12 +4919,18 @@
                 "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {},
                 "OPT_layout2": {
                   "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -3743,6 +4940,9 @@
                   "value": "FILL",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -3752,6 +4952,9 @@
                   "value": "{YPL.FFL.TKUI_C.colors.white}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -3759,12 +4962,18 @@
                   "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {},
                   "OPT_layout2": {
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.400}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3773,6 +4982,9 @@
                   "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -3780,6 +4992,9 @@
                   "value": "{YPL.FFL.TKUI_C.spaces.xxl}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -3788,6 +5003,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.size}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   },
@@ -3795,6 +5013,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.size}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3804,6 +5025,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.tracking}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   },
@@ -3811,6 +5035,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.tracking}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3820,6 +5047,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.leading}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   },
@@ -3827,6 +5057,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.leading}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3836,6 +5069,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   },
@@ -3843,6 +5079,9 @@
                     "value": "{YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -3853,6 +5092,9 @@
                   "value": "{YPL.FFL.TKUI_C.colors.grey.300}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -3865,6 +5107,9 @@
                 "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3872,6 +5117,9 @@
                 "value": "{YPL.FFL.TKUI_C.spaces.xs}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3879,6 +5127,9 @@
                 "value": "{YPL.FFL.TKUI_C.spaces.xs}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3886,6 +5137,9 @@
                 "value": "{YPL.FFL.TKUI_C.spaces.s}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3893,6 +5147,9 @@
                 "value": "{YPL.FFL.TKUI_C.spaces.s}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -3900,12 +5157,18 @@
                 "value": "{YPL.FFL.TKUI_C.precents.m}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {},
                 "fallback": {
                   "value": "{YPL.FFL.TKUI_C.sizes.micro.600}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -3915,18 +5178,27 @@
                   "value": "{YPL.FFL.F0003-XXX.HMN_icon}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {},
                   "color": {
                     "value": "{YPL.FFL.TKUI_C.colors.black}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {},
                     "OPT_inverse": {
                       "value": "{YPL.FFL.TKUI_C.colors.white}",
                       "description": "",
                       "type": "other",
+                      "dictionary": {
+                        "ios": true
+                      },
                       "apparatusTags": [],
                       "UIDs": {}
                     },
@@ -3934,6 +5206,9 @@
                       "value": "{YPL.FFL.TKUI_C.colors.orange.400}",
                       "description": "",
                       "type": "other",
+                      "dictionary": {
+                        "ios": true
+                      },
                       "apparatusTags": [],
                       "UIDs": {}
                     }
@@ -3942,6 +5217,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   },
@@ -3949,6 +5227,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   },
@@ -3956,12 +5237,18 @@
                     "value": "{YPL.FFL.TKUI_C.spaces.xs}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {},
                     "OPT_iconOnly": {
                       "value": "{YPL.FFL.TKUI_C.spaces.none}",
                       "description": "",
                       "type": "other",
+                      "dictionary": {
+                        "ios": true
+                      },
                       "apparatusTags": [],
                       "UIDs": {}
                     }
@@ -3970,12 +5257,18 @@
                     "value": "{YPL.FFL.TKUI_C.spaces.xs}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {},
                     "OPT_iconOnly": {
                       "value": "{YPL.FFL.TKUI_C.spaces.none}",
                       "description": "",
                       "type": "other",
+                      "dictionary": {
+                        "ios": true
+                      },
                       "apparatusTags": [],
                       "UIDs": {}
                     }
@@ -3985,18 +5278,27 @@
                   "value": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {},
                   "color": {
                     "value": "{YPL.FFL.TKUI_C.colors.black}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {},
                     "OPT_inverse": {
                       "value": "{YPL.FFL.TKUI_C.colors.white}",
                       "description": "",
                       "type": "other",
+                      "dictionary": {
+                        "ios": true
+                      },
                       "apparatusTags": [],
                       "UIDs": {}
                     },
@@ -4004,6 +5306,9 @@
                       "value": "{YPL.FFL.TKUI_C.colors.orange.400}",
                       "description": "",
                       "type": "other",
+                      "dictionary": {
+                        "ios": true
+                      },
                       "apparatusTags": [],
                       "UIDs": {}
                     }
@@ -4012,6 +5317,9 @@
                     "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
                     "description": "",
                     "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
@@ -4021,12 +5329,18 @@
                 "value": "{YPL.FFL.TKUI_C.colors.white}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {},
                 "OPT_inverse": {
                   "value": "{YPL.FFL.TKUI_C.colors.grey.900}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -4034,6 +5348,9 @@
                   "value": "{YPL.FFL.TKUI_C.colors.none}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -4046,6 +5363,9 @@
                 "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -4053,6 +5373,9 @@
                 "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
                 "description": "",
                 "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
                 "apparatusTags": [],
                 "UIDs": {}
               },
@@ -4061,6 +5384,9 @@
                   "value": "{YPL.FFL.TKUI_C.percents.full} * 100 + '%'",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -4070,6 +5396,9 @@
                   "value": "{YPL.FFL.F0003-001.HMN_icon}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -4077,6 +5406,9 @@
                   "value": "{YPL.FFL.F0003-027.HMN_icon}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -4086,6 +5418,9 @@
                   "value": "{YPL.FFL.TKUI_C.colors.teal.400}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 },
@@ -4093,6 +5428,9 @@
                   "value": "{YPL.FFL.TKUI_C.colors.grey.500}",
                   "description": "",
                   "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
                   "apparatusTags": [],
                   "UIDs": {}
                 }
@@ -4105,9 +5443,14 @@
         "textSizeFactor": {
           "value": 1,
           "description": "Inject this factor into Typography Sizes Choices. It's used to blow font sizes up to test compliancy with WCAG 1.4.4 · Remove it once in β release",
-          "type": {
-            "figma": "test"
-          }
+          "type": "sizing",
+          "dictionary": {
+            "ios": true
+          },
+          "apparatusTags": [
+            "test"
+          ],
+          "UIDs": {}
         }
       },
       "CONST": {
@@ -4116,6 +5459,9 @@
             "value": "true",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4123,6 +5469,9 @@
             "value": "false",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           }
@@ -4132,6 +5481,9 @@
             "value": "LEFT",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4139,6 +5491,9 @@
             "value": "RIGHT",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4146,6 +5501,9 @@
             "value": "CENTER",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4153,6 +5511,9 @@
             "value": "JUSTIFIED",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           }
@@ -4162,6 +5523,9 @@
             "value": "ORIGINAL",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4169,6 +5533,9 @@
             "value": "UPPER",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4176,6 +5543,9 @@
             "value": "LOWER",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4183,6 +5553,9 @@
             "value": "TITLE",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           }
@@ -4192,6 +5565,9 @@
             "value": "NONE",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4199,6 +5575,9 @@
             "value": "UNDERLINE",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           },
@@ -4206,6 +5585,9 @@
             "value": "STRIKETHROUGH",
             "description": "",
             "type": "other",
+            "dictionary": {
+              "ios": true
+            },
             "apparatusTags": [],
             "UIDs": {}
           }
