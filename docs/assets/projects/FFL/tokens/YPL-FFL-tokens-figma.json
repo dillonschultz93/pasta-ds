@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220517-1615)",
+    "version": "0.1.0 (220520-0935)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -4871,280 +4871,42 @@
               "UIDs": {}
             }
           },
-          "P0001": {
-            "width": {
-              "name": "posterCard",
-              "value": "{YPL.FFL.TKUI_C.percents.full}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "height": {
-              "name": "posterCard",
-              "value": "{YPL.FFL.TKUI_C.sizes.macro.700}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {},
-              "OPT_small": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.sizes.macro.700}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            },
-            "margin": {
-              "name": "posterCard",
-              "value": "{YPL.FFL.TKUI_C.spaces.l}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "fringeBottom": {
-              "name": "posterCard",
-              "value": "{YPL.FFL.TKUI_C.spaces.l}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "padding": {
-              "name": "posterCard",
-              "value": "{YPL.FFL.TKUI_C.spaces.l}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "radius": {
-              "name": "posterCard",
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.200}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "blockCopy": {
-              "width": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.percents.full}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {},
-                "BRKP_m": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.percents.ml}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
-              },
-              "slack": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.sizes.macro.500}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              },
-              "chip": {
-                "margin": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.spaces.s}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "fringeBottom": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.spaces.s}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
-              },
-              "paragraph": {
-                "color": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.colors.white}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
-              }
-            },
-            "blockHeader": {
+          "E0001": {
+            "baseOption": {
               "height": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.spaces.l}",
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
                 "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            },
-            "blockFooter": {
-              "height": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.spaces.e}",
-                "description": "",
-                "type": "other",
+                "type": "sizing",
                 "dictionary": {
                   "ios": true
                 },
                 "apparatusTags": [],
                 "UIDs": {}
               },
-              "eyebrow": {
-                "paddingLeft": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.spaces.sm}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {},
-                  "OPT_layout2": {
-                    "name": "posterCard",
-                    "value": "{YPL.FFL.TKUI_C.spaces.none}",
-                    "description": "",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  }
-                }
-              }
-            },
-            "gradient": {
-              "name": "posterCard",
-              "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {},
-              "OPT_layout2": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR}",
+              "paddingTop": {
+                "value": "{YPL.FFL.TKUI_C.spaces.xs}",
                 "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            },
-            "bgImage": {
-              "fillMode": {
-                "name": "posterCard",
-                "value": "FILL",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            },
-            "heading": {
-              "color": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.colors.white}",
-                "description": "",
-                "type": "other",
+                "type": "spacing",
                 "dictionary": {
                   "ios": true
                 },
                 "apparatusTags": [],
                 "UIDs": {}
               },
-              "margin": {
-                "name": "posterCard",
-                "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
+              "paddingBottom": {
+                "value": "{YPL.FFL.TKUI_C.spaces.xs}",
                 "description": "",
-                "type": "other",
+                "type": "spacing",
                 "dictionary": {
                   "ios": true
                 },
                 "apparatusTags": [],
-                "UIDs": {},
-                "OPT_layout2": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.400}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
+                "UIDs": {}
               },
-              "fringeBottom": {
-                "name": "posterCard",
-                "value": "negativeOf(YPL.FFL.TKUI_C.spaces.xs)",
+              "paddingRight": {
+                "value": "{YPL.FFL.TKUI_C.spaces.s}",
                 "description": "",
-                "type": "other",
+                "type": "spacing",
                 "dictionary": {
                   "ios": true
                 },
@@ -5152,198 +4914,133 @@
                 "UIDs": {}
               },
               "paddingLeft": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.spaces.xxl}",
+                "value": "{YPL.FFL.TKUI_C.spaces.s}",
                 "description": "",
-                "type": "other",
+                "type": "spacing",
                 "dictionary": {
                   "ios": true
                 },
                 "apparatusTags": [],
                 "UIDs": {}
               },
-              "size": {
-                "OPT_small": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.size}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "BRKP_m": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.size}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
-              },
-              "tracking": {
-                "OPT_small": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.tracking}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "BRKP_m": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.tracking}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
-              },
-              "leading": {
-                "OPT_small": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.leading}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "BRKP_m": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.leading}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
-              },
-              "paragraphSpacing": {
-                "OPT_small": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "BRKP_m": {
-                  "name": "posterCard",
-                  "value": "{YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                }
-              }
-            },
-            "eyebrow": {
-              "color": {
-                "name": "posterCard",
-                "value": "{YPL.FFL.TKUI_C.colors.grey.300}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            }
-          },
-          "E0001": {
-            "height": {
-              "name": "chip",
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "topPadding": {
-              "name": "chip",
-              "value": "{YPL.FFL.TKUI_C.spaces.xs}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "bottomPadding": {
-              "name": "chip",
-              "value": "{YPL.FFL.TKUI_C.spaces.xs}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "paddingLeft": {
-              "name": "chip",
-              "value": "{YPL.FFL.TKUI_C.spaces.s}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "paddingRight": {
-              "name": "chip",
-              "value": "{YPL.FFL.TKUI_C.spaces.s}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "radius": {
-              "name": "chip",
-              "value": "{YPL.FFL.TKUI_C.precents.m}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {},
-              "fallback": {
-                "name": "chip",
+              "radius": {
                 "value": "{YPL.FFL.TKUI_C.sizes.micro.600}",
                 "description": "",
-                "type": "other",
+                "type": "borderRadius",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "block": {
+                "icon": {
+                  "value": "{YPL.FFL.F0003-023}",
+                  "description": "",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {},
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.black}",
+                    "description": "",
+                    "type": "color",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "width": {
+                    "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
+                    "description": "",
+                    "type": "color",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "height": {
+                    "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
+                    "description": "",
+                    "type": "color",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                },
+                "label": {
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.true}",
+                    "description": "",
+                    "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "family": {
+                    "value": "{YPL.FFL.TKUI_D.F0002-401.familyName}",
+                    "description": "",
+                    "type": "fontFamily",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "size": {
+                    "value": "{YPL.FFL.TKUI_D.F0002-401.size}",
+                    "description": "",
+                    "type": "fontSize",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "letterSpacing": {
+                    "value": "{YPL.FFL.TKUI_D.F0002-401.letterSpacing}",
+                    "description": "",
+                    "type": "letterSpacing",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "leading": {
+                    "value": "{YPL.FFL.TKUI_D.F0002-401.leading}",
+                    "description": "",
+                    "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.black}",
+                    "description": "",
+                    "type": "color",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                }
+              },
+              "bgColor": {
+                "value": "{YPL.FFL.TKUI_C.colors.white}",
+                "description": "",
+                "type": "borderRadius",
                 "dictionary": {
                   "ios": true
                 },
@@ -5351,43 +5048,23 @@
                 "UIDs": {}
               }
             },
-            "block": {
-              "icon": {
-                "name": "chip",
-                "value": "{YPL.FFL.TKUI_D.F0003-023}",
+            "inverse": {
+              "bgColor": {
+                "value": "{YPL.FFL.TKUI_C.colors.black}",
                 "description": "",
                 "type": "other",
                 "dictionary": {
                   "ios": true
                 },
                 "apparatusTags": [],
-                "UIDs": {},
-                "color": {
-                  "name": "chip",
-                  "value": "{YPL.FFL.TKUI_C.colors.black}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {},
-                  "OPT_inverse": {
-                    "name": "chip",
+                "UIDs": {}
+              },
+              "block": {
+                "label": {
+                  "color": {
                     "value": "{YPL.FFL.TKUI_C.colors.white}",
                     "description": "",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  },
-                  "OPT_accent": {
-                    "name": "chip",
-                    "value": "{YPL.FFL.TKUI_C.colors.orange.400}",
-                    "description": "",
-                    "type": "other",
+                    "type": "color",
                     "dictionary": {
                       "ios": true
                     },
@@ -5395,63 +5072,25 @@
                     "UIDs": {}
                   }
                 },
-                "width": {
-                  "name": "chip",
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "height": {
-                  "name": "chip",
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "marginRight": {
-                  "name": "chip",
-                  "value": "{YPL.FFL.TKUI_C.spaces.xs}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {},
-                  "OPT_iconOnly": {
-                    "name": "chip",
-                    "value": "{YPL.FFL.TKUI_C.spaces.none}",
+                "icon": {
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.white}",
                     "description": "",
-                    "type": "other",
+                    "type": "color",
                     "dictionary": {
                       "ios": true
                     },
                     "apparatusTags": [],
                     "UIDs": {}
                   }
-                },
-                "fringeRight": {
-                  "name": "chip",
-                  "value": "{YPL.FFL.TKUI_C.spaces.xs}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {},
-                  "OPT_iconOnly": {
-                    "name": "chip",
-                    "value": "{YPL.FFL.TKUI_C.spaces.none}",
+                }
+              }
+            },
+            "withIcon": {
+              "block": {
+                "icon": {
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.true}",
                     "description": "",
                     "type": "other",
                     "dictionary": {
@@ -5461,41 +5100,13 @@
                     "UIDs": {}
                   }
                 }
-              },
-              "label": {
-                "name": "chip",
-                "value": "{YPL.FFL.TKUI_D.F0002-401.size}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {},
-                "color": {
-                  "name": "chip",
-                  "value": "{YPL.FFL.TKUI_C.colors.black}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {},
-                  "OPT_inverse": {
-                    "name": "chip",
-                    "value": "{YPL.FFL.TKUI_C.colors.white}",
-                    "description": "",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  },
-                  "OPT_accent": {
-                    "name": "chip",
-                    "value": "{YPL.FFL.TKUI_C.colors.orange.400}",
+              }
+            },
+            "onlyIcon": {
+              "block": {
+                "icon": {
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.true}",
                     "description": "",
                     "type": "other",
                     "dictionary": {
@@ -5505,135 +5116,18 @@
                     "UIDs": {}
                   }
                 },
-                "leading": {
-                  "name": "chip",
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.800}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
+                "label": {
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.false}",
+                    "description": "",
+                    "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
                 }
-              }
-            },
-            "bgColor": {
-              "name": "chip",
-              "value": "{YPL.FFL.TKUI_C.colors.white}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {},
-              "OPT_inverse": {
-                "name": "chip",
-                "value": "{YPL.FFL.TKUI_C.colors.grey.900}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              },
-              "OPT_notContained": {
-                "name": "chip",
-                "value": "{YPL.FFL.TKUI_C.colors.none}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            }
-          },
-          "E0004-003": {
-            "width": {
-              "name": "switch-butIcon",
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "height": {
-              "name": "switch-butIcon",
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
-              "description": "",
-              "type": "other",
-              "dictionary": {
-                "ios": true
-              },
-              "apparatusTags": [],
-              "UIDs": {}
-            },
-            "border": {
-              "radius": {
-                "name": "switch-butIcon",
-                "value": "{YPL.FFL.TKUI_C.corner.round}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            },
-            "icon": {
-              "i": {
-                "name": "switch-butIcon",
-                "value": "{YPL.FFL.TKUI_D.F0003-001}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              },
-              "hi": {
-                "name": "switch-butIcon",
-                "value": "{YPL.FFL.TKUI_D.F0003-027}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              }
-            },
-            "bg": {
-              "i": {
-                "name": "switch-butIcon",
-                "value": "{YPL.FFL.TKUI_C.colors.teal.400}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
-              },
-              "hi": {
-                "name": "switch-butIcon",
-                "value": "{YPL.FFL.TKUI_C.colors.grey.500}",
-                "description": "",
-                "type": "other",
-                "dictionary": {
-                  "ios": true
-                },
-                "apparatusTags": [],
-                "UIDs": {}
               }
             }
           }
