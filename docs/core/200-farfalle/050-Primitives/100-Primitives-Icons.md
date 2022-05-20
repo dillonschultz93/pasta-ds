@@ -47,7 +47,7 @@ nav_order: 100
 </table>
 
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.TKUI_D.icons-220520.zip" class="btn iconed downloadBadge">Download Zip</a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220520.zip" class="btn iconed downloadBadge">Download Zip</a>
 
 <!-- - TOC
 {:toc} -->
