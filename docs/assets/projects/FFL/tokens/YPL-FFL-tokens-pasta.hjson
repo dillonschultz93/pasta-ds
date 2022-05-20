@@ -5939,6 +5939,60 @@
                   }
                 }
               }
+            },
+            "rating": {
+              "block": {
+                "icon": {
+                  "value": "{YPL.FFL.F0003-028}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "other"
+                    },
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {},
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "color"
+                      },
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                },
+                "label": {
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "color"
+                      },
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                }
+              },
+              "bgColor": {
+                "value": "none",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  },
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
             }
           }
         }

@@ -5129,6 +5129,52 @@
                   }
                 }
               }
+            },
+            "rating": {
+              "block": {
+                "icon": {
+                  "value": "{YPL.FFL.F0003-028}",
+                  "description": "",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {},
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.orange.400}",
+                    "description": "",
+                    "type": "color",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                },
+                "label": {
+                  "color": {
+                    "value": "{YPL.FFL.TKUI_C.colors.orange.400}",
+                    "description": "",
+                    "type": "color",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  }
+                }
+              },
+              "bgColor": {
+                "value": "none",
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
             }
           }
         }
