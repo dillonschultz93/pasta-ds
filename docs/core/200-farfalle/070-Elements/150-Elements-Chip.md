@@ -2021,49 +2021,35 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.OPT_notContained</th>
-      <th>.OPT_icon</th>
-      <th>.OPT_iconOnly</th>
-      <th>.OPT_inverse</th>
-      <th>.OPT_accent</th>      
+      <th>.withIcon</th>
+      <th>.onlyIcon</th>
+      <th>.inverse</th>
+      <th>.rating</th>      
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.NONE.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
-      </td>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible.OPT_icon": "{YPL.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.icon.visible</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.withIcon.block.icon.visible.value": "{YPL.CONST.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.visible</code></span>
       </td>    
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible.OPT_icon": "{YPL.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.icon.visible</code></span> 
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.icon.marginRight</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.icon.fringeRight</code></span>        
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.onlyIcon.block.icon.visible.value": "{YPL.CONST.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.visible</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.onlyIcon.block.label.visible.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.block.label.visible</code></span>
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_inverse": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span> 
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>                
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.bgColor.value": "{YPL.FFL.TKUI_C.colors.black.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.block.label.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.block.icon.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>                
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span> 
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>    
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.rating.block.icon.value": "{YPL.FFL.F0003-028}",'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.rating.block.icon.color.value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.rating.block.label.color.value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.rating.bgColor.value": "none",'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
       </td>
     </tr>
   </tbody>
 </table>
-
-{% highlight javascript %}
-// Sequence protocol:
-
-".OPT_notContained" + 
-".OPT_icon" || "OPT_iconOnly" + 
-".OPT_inverse" + 
-".OPT_accent"
-
-{% endhighlight %}
-
 
 #### Modes (N/A)
 {: .no_toc}
