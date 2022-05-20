@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220520-0935)",
+    "version": "0.1.0 (220520-1552)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -4935,14 +4935,46 @@
               },
               "block": {
                 "icon": {
-                  "value": "{YPL.FFL.F0003-023}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
+                  "marginRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.xs}",
+                    "description": "",
+                    "type": "spacing",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
                   },
-                  "apparatusTags": [],
-                  "UIDs": {},
+                  "fringeRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.xs}",
+                    "description": "",
+                    "type": "spacing",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.false}",
+                    "description": "",
+                    "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "asset": {
+                    "value": "{YPL.FFL.TKUI_D.F0003-23}",
+                    "description": "",
+                    "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
                   "color": {
                     "value": "{YPL.FFL.TKUI_C.colors.black}",
                     "description": "",
@@ -4985,40 +5017,10 @@
                     "apparatusTags": [],
                     "UIDs": {}
                   },
-                  "family": {
-                    "value": "{YPL.FFL.TKUI_D.F0002-401.familyName}",
+                  "primitive": {
+                    "value": "{YPL.FFL.TKUI_D.F0002-401}",
                     "description": "",
                     "type": "fontFamily",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  },
-                  "size": {
-                    "value": "{YPL.FFL.TKUI_D.F0002-401.size}",
-                    "description": "",
-                    "type": "fontSize",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  },
-                  "letterSpacing": {
-                    "value": "{YPL.FFL.TKUI_D.F0002-401.letterSpacing}",
-                    "description": "",
-                    "type": "letterSpacing",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  },
-                  "leading": {
-                    "value": "{YPL.FFL.TKUI_D.F0002-401.leading}",
-                    "description": "",
-                    "type": "other",
                     "dictionary": {
                       "ios": true
                     },
@@ -5133,16 +5135,28 @@
             "rating": {
               "block": {
                 "icon": {
-                  "value": "{YPL.FFL.F0003-028}",
-                  "description": "",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
+                  "asset": {
+                    "value": "{YPL.FFL.TKUI_D.F0003-28}",
+                    "description": "",
+                    "type": "other",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
                   },
-                  "apparatusTags": [],
-                  "UIDs": {},
                   "color": {
                     "value": "{YPL.FFL.TKUI_C.colors.orange.400}",
+                    "description": "",
+                    "type": "color",
+                    "dictionary": {
+                      "ios": true
+                    },
+                    "apparatusTags": [],
+                    "UIDs": {}
+                  },
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.true}",
                     "description": "",
                     "type": "color",
                     "dictionary": {
@@ -5166,7 +5180,7 @@
                 }
               },
               "bgColor": {
-                "value": "none",
+                "value": "#clear",
                 "description": "",
                 "type": "other",
                 "dictionary": {
