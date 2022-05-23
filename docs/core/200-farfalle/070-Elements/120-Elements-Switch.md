@@ -3023,14 +3023,14 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
       <tbody>
         <tr>
           <td><span class="">
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.bgColor.i": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.icon.asset.i": "{YPL.FFL.TKUI_D.F0003-1}"'><code class="language-plaintext highlighter-rouge">.icon.asset</code></span>
           </span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
+          <td><span class="dimmed">-</span></td>
+          <td><span class="dimmed">-</span></td>
+          <td><span class="dimmed">-</span></td>
+          <td><span class="dimmed">-</span></td>
+          <td><span class="dimmed">-</span></td>
         </tr>
       </tbody>
     </table>
@@ -3051,15 +3051,15 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
       <tbody>
       <tr>
         <td><span class="">
-          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.bg": "{YPL.FFL.TKUI_C.colors.grey.500.value}"'><code class="language-plaintext highlighter-rouge">.bg</code></span>
-          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}"'><code class="language-plaintext highlighter-rouge">.icon</code></span>
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.bgColor.hi": "{YPL.FFL.TKUI_C.colors.grey.500.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.icon.asset.hi.value": "{YPL.FFL.TKUI_D.F0003-27}"'><code class="language-plaintext highlighter-rouge">.icon.asset</code></span>
         </span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
+        <td><span class="dimmed">-</span></td>
+        <td><span class="dimmed">-</span></td>
+        <td><span class="dimmed">-</span></td>
+        <td><span class="dimmed">-</span></td>
+        <td><span class="dimmed">-</span></td>
+        <td><span class="dimmed">-</span></td>
       </tr>
       </tbody>
     </table>
