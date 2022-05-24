@@ -1925,17 +1925,17 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 - TOC
 {:toc}
 
-## Layout
+<!-- ## Layout -->
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_layout_01.png)
+<!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_layout_01.png) -->
 
-## Dependencies
+<!-- ## Dependencies -->
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_dependencies_01.png)
+<!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_dependencies_01.png) -->
 
-### Instantiation
+<!-- ### Instantiation -->
 
-<section class="flex-1_2-cols">
+<!-- <section class="flex-1_2-cols">
    <div>
      <br>
     <p>
@@ -1949,7 +1949,6 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
          <tr>
            <th>Instance</th>
            <th>Component</th>
-           <!-- <th>Type</th> -->
            <th></th>
          </tr>
        </thead>
@@ -1967,63 +1966,32 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
         </tbody>
      </table>
    </div>
- </section>
+ </section> -->
 
-  <hr>
+  <!-- <hr> -->
 
-  <details>
-  <summary>verbose snippet</summary>
-  <p>
-  {% highlight js %}
-/// dependencies.
+  <!-- <hr> -->
 
-// .block
-"YPL.FFL.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
-"YPL.FFL.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
-{% endhighlight %}
+<!-- ### Tree -->
 
-  </p>
-  </details>
-
-  <hr>
-
-### Tree
-
- <section class="flex-1_2-cols">
-   <div>
-    <p>
-      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
-    </p>
-   </div>
-   <div>
-     {% highlight txt %}
-          YPL.FFL.1.HMN_chip
-           └─ .block
-               └─ .icon (optional)
-               └─ .label (optional)
-     {% endhighlight %}
-   </div>
- </section>
-
-## Decisions
+## Specs
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
 
 
-### Variations
+<!-- ### Variations -->
 
 #### Options
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
 
-
+##### Base Options
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
       <th>.withIcon</th>
       <th>.onlyIcon</th>
-      <th>.inverse</th>
       <th>.rating</th>      
     </tr>
   </thead>
@@ -2037,11 +2005,6 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.onlyIcon.block.label.visible.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.block.label.visible</code></span>
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.bgColor.value": "{YPL.FFL.TKUI_C.colors.black.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.block.label.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
-        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.block.icon.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>                
-      </td>
-      <td>
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.rating.block.icon.value": "{YPL.FFL.F0003-028}",'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.rating.block.icon.color.value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.rating.block.label.color.value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span>
@@ -2051,12 +2014,45 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table>
 
-#### Modes (N/A)
-{: .no_toc}
+##### Inverse Options
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.inverse</th>
+      <th>.inverseWithIcon</th>
+      <th>.inverseOnlyIcon</th>  
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.bgColor.value": "{YPL.FFL.TKUI_C.surface.dark.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.block.label.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverse.block.icon.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>                
+      </td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseWithIcon.bgColor.value": "{YPL.FFL.TKUI_C.surface.dark.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseWithIcon.block.label.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.label.color</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseWithIcon.block.icon.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseWithIcon.block.icon.visible.value": "{YPL.CONST.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.visible</code></span>
+      </td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseOnlyIcon.bgColor.value": "{YPL.FFL.TKUI_C.surface.dark.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseOnlyIcon.block.label.visible.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.block.label.visible</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseOnlyIcon.block.icon.color.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.color</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.inverseOnlyIcon.block.icon.visible.value": "{YPL.CONST.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.block.icon.visible</code></span>                
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- #### Modes (N/A) -->
+<!-- {: .no_toc} -->
 
 
-#### Breakpoints (N/A)
-{: .no_toc}
+<!-- #### Breakpoints (N/A) -->
+<!-- {: .no_toc} -->
 
 <!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
@@ -2077,11 +2073,11 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table> -->
 
-## Tokens Playground
+<!-- ## Tokens Playground -->
 
-Playground · Pattern-siloed Tokens including all required Choices and Decisions:
+<!-- Playground · Pattern-siloed Tokens including all required Choices and Decisions: -->
 
-<table>
+<!-- <table>
     <tr class="playground-details-row" id="css">
         <td><button class="btn">CSS Tokens</button></td>
     </tr>
@@ -2094,71 +2090,8 @@ Playground · Pattern-siloed Tokens including all required Choices and Decisions
     <tr class="playground-details-row" id="figma-tokens">
         <td><button class="btn">Figma Tokens</button></td>
     </tr>
-</table>
+</table> -->
 
-<details>
-<summary>Raw</summary>
-{% highlight javascript %}
-{
-//////  DECISIONS - FFL.{{ page.UID }}
-
-// macro layout
-
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.height": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingTop": "{YPL.FFL.TKUI_C.spaces.xs.value}",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingBottom": "{YPL.FFL.TKUI_C.spaces.xs.value}",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingLeft": "{YPL.FFL.TKUI_C.spaces.s.value}",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.paddingRight": "{YPL.FFL.TKUI_C.spaces.s.value}",            
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.precents.m.value}", // 0.5   
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.radius": "{YPL.FFL.TKUI_C.sizes.micro.600.value}", // fallback 12pt,
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.false.value"}",
-
-    // dependencies
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}", // select icon here (for example "YPL.FFL.F0003-028")
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.F0002-401.HMN_typo_europa-eyebrow}",
-
-// colors & stuff
-
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor": "{YPL.FFL.TKUI_C.colors.white.value}"
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color": "{YPL.FFL.TKUI_C.colors.black.value}",
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color": "{YPL.FFL.TKUI_C.colors.black.value}",
-
-// micro layout
-
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.leading": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.width": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.height": "{YPL.FFL.TKUI_C.sizes.micro.800.value}", // TBD-FIXME
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight": "{YPL.FFL.TKUI_C.spaces.xs.value}", 
-    "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight": "{YPL.FFL.TKUI_C.spaces.xs.value}", 
-
-
-// variations
-
-    // options
-
-      // .OPT_inverse
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_inverse": "{YPL.FFL.TKUI_C.colors.grey.900.value}"
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_inverse": "{YPL.FFL.TKUI_C.colors.white.value}",
-
-      // .OPT_icon 
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.true.value}",
-
-      // .OPT_iconOnly
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.visible": "{YPL.boolean.true.value}",     
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.marginRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.fringeRight.OPT_iconOnly": "{YPL.FFL.TKUI_C.spaces.none.value}",
-             
-      // .OPT_notContained
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.bgColor.OPT_notContained": "{YPL.FFL.TKUI_C.colors.none.value}", // TBD
-
-      // .OPT_accent      
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.label.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
-      "YPL.FFL.TKUI_D.{{ page.UID }}.HMN_chip.block.icon.color.OPT_accent": "{YPL.FFL.TKUI_C.colors.orange.400.value}",      
-}
-{% endhighlight %}
-
-</details>
 
 <!--
 ## Copy Writing Guidelines
