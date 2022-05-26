@@ -2745,20 +2745,8 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </tbody>
 </table>
 
-<section class="flex-1_1_1-cols">
-  <div>
-    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-001-preview_01.png" class="darkenabled">
-    <br><code>-001.HMN_switch-check</code>
-  </div>
-  <div>
-    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-002-preview_01.png" class="darkenabled">
-    <br><code>-002.HMN_switch-toggle</code>
-  </div>
-  <div>
-    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-003-preview_01.png" class="darkenabled">
-    <br><code>-003.HMN_switch-butIcon</code>
-  </div>
-</section>
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-preview_02.png){: .darkenabled}
 
 <hr>
 
@@ -2767,127 +2755,7 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
 - TOC
 {:toc}
 
-<!-- ## Layout
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-layout_01.png) -->
-
-## Dependencies
-
-<div class="tabs">
-  <input type="radio" name="tabs_dependencies" id="tab_dependencies_01" checked="checked">
-  <label for="tab_dependencies_01">-001</label>
-  <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png" alt="Switch Check Dependencies">
-  </div>
-  <input type="radio" name="tabs_dependencies" id="tab_dependencies_03">
-  <label for="tab_dependencies_03">-003</label>
-  <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_03.png" alt="Switch ButIcon Dependencies">
-  </div>
-</div>
-
-<!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png) -->
-
-### Instantiation
-
-<section class="flex-1_2-cols">
-   <div>
-     <br>
-    <p>
-     This Element requires that you implement and instantiate all these dependencies.<br>
-     Please refer to each component in this list&nbsp;→
-     </p>
-   </div>
-   <div>
-    <!-- E0004-001 -->
-    <h3><code>.E0004-001.HMN_switch-check</code></h3>
-     <table>
-       <thead>
-         <tr>
-           <th>Instance</th>
-           <th>Component</th>
-           <!-- <th>Type</th> -->
-           <th></th>
-         </tr>
-       </thead>
-        <tbody>
-         <tr>
-            <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-001.HMN_switch-check.icon": "YPL.FFL.F0003-XXX"'><code>FFL.F0003</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
-         </tr>
-        </tbody>
-     </table>
-     <!-- E0004-003 -->
-    <h3><code>.E0004-003.HMN_switch-butIcon</code></h3>
-     <table>
-       <thead>
-         <tr>
-           <th>Instance</th>
-           <th>Component</th>
-           <!-- <th>Type</th> -->
-           <th></th>
-         </tr>
-       </thead>
-        <tbody>
-         <tr>
-            <td>.i.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-001.HMN_icon}"'><code>FFL.F0003-001</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons#F0003-001" alt="Link to Icon page" class="btn">Icon →</a></td>
-         </tr>
-         <tr>
-            <td>.hi.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}-003.HMN_switch-butIcon.i.icon": "{YPL.FFL.F0003-027.HMN_icon}"'><code>FFL.F0003-027</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons#F0003-027" alt="Link to Icon page" class="btn">Icon →</a></td>
-         </tr>
-        </tbody>
-     </table>
-   </div>
- </section>
-
-  <hr>
-
-  <details>
-  <summary>verbose snippet</summary>
-  <p>
-  {% highlight js %}
-  /// dependencies
-
-// .icon.i
-"YPL.FFL.E0004-003.HMN_switch-butIcon.icon.i": "{YPL.FFL.F0003-001.HMN_icon}" // idle icon
-
-// .icon.hi
-"YPL.FFL.E0004-003.HMN_switch-butIcon.icon.hi": "{YPL.FFL.F0003-027.HMN_icon}" // highlighted icon
-{% endhighlight %}
-
-  </p>
-  </details>
-
-  <hr>
-
-### Tree
-
- <section class="flex-1_2-cols">
-   <div>
-    <p>
-      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
-    </p>
-   </div>
-   <div>
-     {% highlight txt %}
-      YPL.FFL.E0004-001.HMN_switch-check
-        └─ .icon
-
-      YPL.FFL.E0004-002.HMN_switch-toggle
-        └─ .knob
-
-      YPL.FFL.E0004-003.HMN_switch-butIcon
-        └─ .icon
-     {% endhighlight %}
-
-   </div>
- </section>
-
-## Decisions
+## Specs
 
 <div class="tabs">
   <input type="radio" name="tabs_decisions" id="tab_decisions_01" checked="checked">
@@ -3066,8 +2934,6 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
   </div>
 </div>
 
-###### Breakpoints (N/A)
-
 <!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
     <tr>
@@ -3086,93 +2952,6 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
     </tr>
   </tbody>
 </table> -->
-
-## Tokens Playground
-
-Playground · Pattern-siloed Tokens including all required Choices and Decisions:
-
-<table>
-    <tr class="playground-details-row" id="css">
-        <td><button class="btn">CSS Tokens</button></td>
-    </tr>
-    <tr class="playground-details-row" id="ios">
-        <td><button class="btn copy-token-btn">iOS Tokens</button></td>
-    </tr>
-    <tr class="playground-details-row" id="android">
-        <td><button class="btn">Android Tokens</button></td>
-    </tr>
-    <tr class="playground-details-row" id="figma-tokens">
-        <td><button class="btn">Figma Tokens</button></td>
-    </tr>
-</table>
-
-<details class="copyArea">
-<summary>Raw</summary>
-{% highlight javascript %}
-{
-  ////// DECISIONS - FFL.E0004-001
-
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.width": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.height": "{YPL.FFL.TKUI_C.sizes.micro.1000.value}",
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} \* 100 + '%'",
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.width": "{YPL.FFL.TKUI_C.sizes.nano.100.value}",
-
-// dependencies
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon": "{YPL.FFL.F0003-3FF.HMN_icon}", // instantiation
-
-// interaction
-
-// idle
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.color.i": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.bg.i": "none", // TODO: Tokenize this value
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon.opacity.i": "0", // TODO: Tokenize this value
-
-// highlighted
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.border.color.hi": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.bg.hi": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
-"YPL.FFL.TKUI_D.E0004-001.HMN_switch-check.icon.opacity.hi": "1", // TODO: Tokenize this value
-}
-
-{
-////// DECISIONS - FFL.E0004-003
-
-"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.width": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
-"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.height": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
-"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.border.radius": "{YPL.FFL.TKUI_C.percents.full.value} \* 100 + '%'",
-
-// dependencies
-"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.icon.i": "{YPL.FFL.F0003-001.HMN_icon}", // instantiation
-"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.icon.hi": "{YPL.FFL.F0003-027.HMN_icon}", // instantiation
-
-// interaction
-
-// idle
-"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.bg.i": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
-
-// highlighted
-"YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.bg.hi": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
-}
-{% endhighlight %}
-
-</details>
-
-<!--
-## Copy Writing Guidelines
-
-<section class="flex-1_1-cols">
-  <div>
-    <p>
-     Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
-    </p>
-    <hr class="dd-do">
-  </div>
-   <div>
-     <p>
-      Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
-     </p>
-      <hr class="dd-dont">
- </div>
- </section> -->
 
 ## Accessibility Status
 
