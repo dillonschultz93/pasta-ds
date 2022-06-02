@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220531-1600)",
+    "version": "0.1.0 (220602-1547)",
     "platform": "pasta",
     "type": "raw-nested",
     "format": "json",
@@ -6341,7 +6341,7 @@
               }
             }
           },
-          "E0004-003": {
+          "E0004-002": {
             "width": {
               "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
               "description": "",
@@ -6675,7 +6675,7 @@
                 },
                 "switch": {
                   "element": {
-                    "value": "{YPL.FFL.TKUI_D.E0004-003}",
+                    "value": "{YPL.FFL.TKUI_D.E0004-002}",
                     "dictionary": {
                       "figma": {
                         "type": "other"

@@ -3693,7 +3693,7 @@ nav_order: 10
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.width": {
+    "YPL.FFL.TKUI_D.E0004-002.HMN_switch-butIcon.width": {
       "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
       "description": "",
       "dictionary": {
@@ -3704,7 +3704,7 @@ nav_order: 10
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.height": {
+    "YPL.FFL.TKUI_D.E0004-002.HMN_switch-butIcon.height": {
       "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
       "description": "",
       "dictionary": {
@@ -3715,7 +3715,7 @@ nav_order: 10
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.border.radius": {
+    "YPL.FFL.TKUI_D.E0004-002.HMN_switch-butIcon.border.radius": {
       "value": "{YPL.FFL.TKUI_C.percents.full.value} * 100 + '%'",
       "description": "",
       "dictionary": {
@@ -3726,7 +3726,7 @@ nav_order: 10
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.icon.i": {
+    "YPL.FFL.TKUI_D.E0004-002.HMN_switch-butIcon.icon.i": {
       "value": "{YPL.FFL.F0003-001.HMN_icon}",
       "description": "",
       "dictionary": {
@@ -3737,7 +3737,7 @@ nav_order: 10
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.icon.hi": {
+    "YPL.FFL.TKUI_D.E0004-002.HMN_switch-butIcon.icon.hi": {
       "value": "{YPL.FFL.F0003-027.HMN_icon}",
       "description": "",
       "dictionary": {
@@ -3748,7 +3748,7 @@ nav_order: 10
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.bg.i": {
+    "YPL.FFL.TKUI_D.E0004-002.HMN_switch-butIcon.bg.i": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
       "description": "",
       "dictionary": {
@@ -3759,7 +3759,7 @@ nav_order: 10
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.E0004-003.HMN_switch-butIcon.bg.hi": {
+    "YPL.FFL.TKUI_D.E0004-002.HMN_switch-butIcon.bg.hi": {
       "value": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
       "description": "",
       "dictionary": {
