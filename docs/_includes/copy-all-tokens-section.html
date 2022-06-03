@@ -1,5 +1,5 @@
 
-<div class="copyTokensButtons">
-  <button class="btn copy-token-btn iconed clipboard" id="{% if include.section %}{{ include.section }}-raw{% else %}all-raw{% endif %}" data>raw JSON</button>
-  <button class="btn copy-token-btn iconed clipboard" id="{% if include.section %}{{ include.section }}-figma{% else %}all-figma{% endif %}" data>Figma Tokens JSON</button>
+<div class="copyTokensButtons" id="{% if include.section %}{{ include.section }}{% else %}all{% endif %}">
+  <button class="btn copy-token-btn iconed clipboard raw">raw JSON</button>
+  <button class="btn copy-token-btn iconed clipboard figma">Figma Tokens JSON</button>
 </div>

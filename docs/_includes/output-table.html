@@ -1,15 +1,15 @@
-<table class="output-table" data-choice-type="{{ include.choiceType }}" data-choice-category="{{ include.choiceCategory }}">
+<table class="output-table" data-choice-type="{{ include.choiceType }}" data-choice-category="{{ include.choiceCategory }}" id="{{include.choiceCategory}}">
   <thead>
     <tr>
-      <th>
+      <th id="unit">
         {% if include.unit %}
           {{ include.unit }}
         {% else %}
           index
         {% endif %}
       </th>
-      <th>value</th>
-      <th>token</th>
+      <th id="value">value</th>
+      <th id="token">token</th>
     </tr>
   </thead>
   <tbody>

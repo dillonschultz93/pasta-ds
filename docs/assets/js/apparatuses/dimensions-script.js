@@ -1,48 +1,83 @@
-// Collect all DOM selectors
-const allDimensionInputs = [...document.querySelectorAll('.scalingInputs')];
+async function getDimensionTokens() {
+  const allTokens = await readTokensFile();
 
-let dimensionChoices = { ...superChoices.dimensions.scale };
+  const dimensionTokens = {
+    "breakpoints": {},
+    "sizes": {},
+    "spaces": {},
+    "factors": {},
+    "scales": {},
+  };
 
-const values = generateDimensionScale(dimensionChoices).tokenValues;
-
-allDimensionInputs.forEach(input => {
-  const id = input.id;
-
-  input.value = dimensionChoices.value[id];
-
-  input.addEventListener('change', e => {
-    const changedChoice = e.target;
-
-    dimensionChoices.value[changedChoice.id] = parseInt(changedChoice.value);
-
-    console.log(dimensionChoices);
-
-    let newValues = generateDimensionScale(dimensionChoices).tokenValues;
-
-    buildDimensionScaleTable(dimensionChoices, newValues, 2000);
+  Object.entries(allTokens).forEach(([key, value]) => {
+    if (key.includes('breakpoint')) {
+      dimensionTokens.breakpoints[key] = value;
+    } else if (key.includes('size') && !key.includes('TKUI_D') && !key.includes('TKUI_M')) {
+      dimensionTokens.sizes[key] = value;
+    } else if (key.includes('space')) {
+      dimensionTokens.spaces[key] = value;
+    } else if (key.includes('factor')) {
+      dimensionTokens.factors[key] = value;
+    } else if (key.includes('scale')) {
+      dimensionTokens.scales[key] = value;
+    }
   });
-});
 
-function buildDimensionScaleTable(choices, tokenValues, maxIndex) {
-  const tableEl = document.querySelector('#dimension-scales-table');
+  return dimensionTokens;
+}
+
+async function getFigmaDimensionTokens() {
+  const allTokens = await readFigmaTokensFile();
+
+  const flattenTokens = flatten(allTokens);
+
+  const dimensionTokens = {
+    "breakpoints": {},
+    "sizes": {},
+    "spaces": {},
+    "factors": {},
+    "scales": {},
+  };
+
+  Object.entries(flattenTokens).forEach(([key, value]) => {
+    if (key.includes('breakpoint')) {
+      dimensionTokens.breakpoints[key] = value;
+      dimensionTokens.breakpoints = unflatten(dimensionTokens.breakpoints);
+    } else if (key.includes('size') && !key.includes('TKUI_D') && !key.includes('TKUI_M')) {
+      dimensionTokens.sizes[key] = value;
+      dimensionTokens.sizes = unflatten(dimensionTokens.sizes);
+    } else if (key.includes('space')) {
+      dimensionTokens.spaces[key] = value;
+      dimensionTokens.spaces = unflatten(dimensionTokens.spaces);
+    } else if (key.includes('factor')) {
+      dimensionTokens.factors[key] = value;
+      dimensionTokens.factors = unflatten(dimensionTokens.factors);
+    } else if (key.includes('scale')) {
+      dimensionTokens.scales[key] = value;
+      dimensionTokens.scales = unflatten(dimensionTokens.scales);
+    }
+  });
+
+  return dimensionTokens;
+}
+
+async function buildOutputTable(tableType) {
+  const tableEl = document.querySelector(`.output-table#${tableType}`);
   const tableBody = tableEl.querySelector('tbody');
   const columns = [...tableEl.querySelectorAll('thead tr th')];
 
-  tableBody.innerHTML = '';
+  const dimensionTokens = await getDimensionTokens();
 
-  const indexColArr = [...Array((maxIndex - 100) / 100 + 1)].map((_, i) => 100 + 100 * i);
-
-  indexColArr.forEach(item => {
+  Object.entries(dimensionTokens[tableType]).forEach(([key, value]) => {
     const tr = document.createElement('tr');
+    const splitKey = key.split('.');
+
+    const indexKey = splitKey[5];
+    const strippedValueKey = splitKey[splitKey.length - 2];
 
     columns.forEach(col => {
       const td = document.createElement('td');
-      
-      if (col.id === 'index') {
-        td.innerHTML = item === choices.value.baseIndex ? `<span class="textbold">• ${item}</span>` : item;
-      } else {
-        td.innerHTML = tokenValues[col.id][item] ? tokenValues[col.id][item].value : '<span class="textfaded">-</span>';
-      }
+      col.id === 'unit' ? td.textContent = tableType === 'scales' || tableType === 'sizes' ? `${splitKey[4]}.${indexKey}`: strippedValueKey : col.id === 'value' ? td.textContent = value : td.innerHTML = `<span data-toolclip="${key}: ${value}"><code>${key}</code></span>`;
 
       tr.appendChild(td);
     });
@@ -51,4 +86,47 @@ function buildDimensionScaleTable(choices, tokenValues, maxIndex) {
   });
 }
 
-buildDimensionScaleTable(dimensionChoices, values, 2000);
+async function buildOutputTables() {
+  const dimensionTokens = await getDimensionTokens();
+
+  Object.keys(dimensionTokens).forEach(key => {
+    buildOutputTable(key);
+  }
+  );
+}
+
+async function initCopyTokensButtons() {
+  const allCopyAreas = [...document.querySelectorAll('.copyTokensButtons')];
+  const rawTokens = await getDimensionTokens();
+  const figmaTokens = await getFigmaDimensionTokens();
+
+  allCopyAreas.forEach(area => {
+    const copyCategory = area.id;
+
+    const rawButton = area.querySelector('.raw');
+    const figmaButton = area.querySelector('.figma');
+
+    if (copyCategory === 'all') {
+      rawButton.addEventListener('click', () => {
+        handleCopyToClipboard(rawTokens);
+      });
+
+      figmaButton.addEventListener('click', () => {
+        handleCopyToClipboard(figmaTokens);
+      });
+    } else {
+      rawButton.addEventListener('click', () => {
+        handleCopyToClipboard(rawTokens[copyCategory]);
+      });
+
+      figmaButton.addEventListener('click', () => {
+        handleCopyToClipboard(figmaTokens[copyCategory]);
+      });
+    }
+  });
+
+  handleToolClips();
+}
+
+buildOutputTables();
+initCopyTokensButtons();

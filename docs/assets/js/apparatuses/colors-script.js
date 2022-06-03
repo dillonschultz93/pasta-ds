@@ -1,58 +1,125 @@
-const allColorTables = [...document.querySelectorAll('.color-pallette-table')];
+async function getColorTokens() {
+  const allTokens = await readTokensFile();
 
-function buildColorPalletteTable(table, allTokens) {
-  const tableBody = table.querySelector('tbody');
-  const columns = [...table.querySelectorAll('thead tr th')];
-  const hue = table.id;
+  const colorTokens = {
+    "teal": {},
+    "orange": {},
+    "grey": {},
+    "black_and_white": {},
+  };
 
-  let filteredTokens = {};
-
-  const flattendByGroup = flattenTokens(allTokens, 'group');
-  const flattendedByValue = flattenTokens(allTokens);
-
-  Object.entries(flattendByGroup).forEach(([key, value]) => {
-    if (value === 'colors') {
-      if (key.includes(hue)) {
-        filteredTokens = {
-          ...filteredTokens,
-          [key]: flattendedByValue[key]
-        };
-      }
+  Object.entries(allTokens).forEach(([key, value]) => {
+    if (key.includes('teal')) {
+      colorTokens.teal[key] = value;
+    } else if (key.includes('orange')) {
+      colorTokens.orange[key] = value;
+    } else if (key.includes('grey')) {
+      colorTokens.grey[key] = value;
+    } else if (!key.includes('gradients') && key.includes('black') || key.includes('white')) {
+      colorTokens.black_and_white[key] = value;
     }
   });
 
-  const data = filteredTokens;
+  return colorTokens;
+}
 
-  Object.entries(data).forEach(([k, v]) => {
-    const splitKeys = k.split('.');
-    const index = splitKeys[splitKeys.length - 1];
-    const uiIndex = `${splitKeys[splitKeys.length - 2]}.${index}`;
+async function getFigmaDimensionTokens() {
+  const allTokens = await readFigmaTokensFile();
 
+  const flattenTokens = flatten(allTokens);
+
+  const colorTokens = {
+    "teal": {},
+    "orange": {},
+    "grey": {},
+    "black_and_white": {},
+  };
+
+  Object.entries(flattenTokens).forEach(([key, value]) => {
+    if (key.includes('teal')) {
+      colorTokens.teal[key] = value;
+      colorTokens.teal = unflatten(colorTokens.teal);
+    } else if (key.includes('orange')) {
+      colorTokens.orange[key] = value;
+      colorTokens.orange = unflatten(colorTokens.orange);
+    } else if (key.includes('grey')) {
+      colorTokens.grey[key] = value;
+      colorTokens.grey = unflatten(colorTokens.grey);
+    } else if (key.includes('black') || key.includes('white') && !key.includes('gradients')) {
+      colorTokens.black_and_white[key] = value;
+      colorTokens.black_and_white = unflatten(colorTokens.black_and_white);
+    }
+  });
+
+  return colorTokens;
+}
+
+async function buildOutputTable(tableType) {
+  const tableEl = document.querySelector(`.color-pallette-table#${tableType}`);
+  const tableBody = tableEl.querySelector('tbody');
+  const columns = [...tableEl.querySelectorAll('thead tr th')];
+
+  const colorTokens = await getColorTokens();
+
+  Object.entries(colorTokens[tableType]).forEach(([key, value]) => {
     const tr = document.createElement('tr');
+    const splitKey = key.split('.');
 
-    columns.forEach(column => {
-      const cell = document.createElement('td');
+    const indexKey = splitKey[splitKey.length - 2];
+    const colorKey = splitKey[splitKey.length - 3];
 
-      switch (column.textContent) {
-        case 'index':
-          cell.textContent = index;
-          break;
+    columns.forEach(col => {
+      const td = document.createElement('td');
+      col.id === 'unit' ? td.textContent = `${colorKey}.${indexKey}` : col.id === 'color' ? td.innerHTML = `<span class="tableColorChip" style="background-color: ${value}"></span>` : td.innerHTML = `<span data-toolclip="${key}: ${value}"><code>${key}</code></span>`;
 
-        case 'token':
-          cell.innerHTML = `<span data-toolclip="${k}.value: ${v}"><code class="language-plaintext highlighter-rouge">${uiIndex}</code></span>`;
-          cell.addEventListener('click', () => handleCopyToClipboard(`${k}: ${v}`));
-          break;
-
-        default:
-          cell.innerHTML = `<span class="tableColorChip" style="background-color: ${v}"></span>`;
-          break;
-      }
-
-      tr.appendChild(cell);
+      tr.appendChild(td);
     });
 
     tableBody.appendChild(tr);
   });
 }
 
-allColorTables.forEach(table => buildColorPalletteTable(table, allTokens));
+async function buildOutputTables() {
+  const colorTokens = await getColorTokens();
+
+  Object.keys(colorTokens).forEach(key => {
+    buildOutputTable(key);
+  }
+  );
+}
+
+async function initCopyTokensButtons() {
+  const allCopyAreas = [...document.querySelectorAll('.copyTokensButtons')];
+  const rawTokens = await getColorTokens();
+  const figmaTokens = await getFigmaDimensionTokens();
+
+  allCopyAreas.forEach(area => {
+    const copyCategory = area.id;
+
+    const rawButton = area.querySelector('.raw');
+    const figmaButton = area.querySelector('.figma');
+
+    if (copyCategory === 'all') {
+      rawButton.addEventListener('click', () => {
+        handleCopyToClipboard(rawTokens);
+      });
+
+      figmaButton.addEventListener('click', () => {
+        handleCopyToClipboard(figmaTokens);
+      });
+    } else {
+      rawButton.addEventListener('click', () => {
+        handleCopyToClipboard(rawTokens[copyCategory]);
+      });
+
+      figmaButton.addEventListener('click', () => {
+        handleCopyToClipboard(figmaTokens[copyCategory]);
+      });
+    }
+  });
+
+  handleToolClips();
+}
+
+buildOutputTables();
+initCopyTokensButtons();
