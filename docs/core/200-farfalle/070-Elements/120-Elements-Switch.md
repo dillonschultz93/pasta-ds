@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Switch # title case
 UID: E0004 # ["P","E","F"] + Hexa code/index
-variants: ['001', '002', '003'] # all variants index
+variants: ['001', '002'] # all variants index
 permalink: farfalle/elements/switch # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
@@ -2866,68 +2866,6 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
         <td><span class="dimmed">TBD</span></td>
         <td><span class="dimmed">TBD</span></td>
         <td><span class="dimmed">TBD</span></td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-  <input type="radio" name="tabs_decisions" id="tab_decisions_03">
-  <label for="tab_decisions_03">-003</label>
-  <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_03.png" alt="Switch ButIcon decisions">
-     <h3>Interaction</h3>
-    <h4>Default</h4>
-     <table class="type-01 headerNoUpperCase colBordered headFramed">
-      <!-- <caption>my caption</caption> -->
-      <thead>
-        <tr>
-          <th>.i (idle)</th>
-          <th>.o (mouse over)</th>
-          <th>.p (pressed)</th>
-          <th>.f (focus)</th>
-          <th>.w (waiting)</th>
-          <th>.d (disabled)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="">
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.bgColor.i": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.icon.asset.i": "{YPL.FFL.TKUI_D.F0003-1}"'><code class="language-plaintext highlighter-rouge">.icon.asset</code></span>
-          </span></td>
-          <td><span class="dimmed">-</span></td>
-          <td><span class="dimmed">-</span></td>
-          <td><span class="dimmed">-</span></td>
-          <td><span class="dimmed">-</span></td>
-          <td><span class="dimmed">-</span></td>
-        </tr>
-      </tbody>
-    </table>
-    <h4>Highlighted</h4>
-    <table class="type-01 headerNoUpperCase colBordered headFramed">
-      <!-- <caption>my caption</caption> -->
-      <thead>
-        <tr>
-          <th>.hi</th>
-          <th>.ho</th>
-          <th>.hp</th>
-          <th>.hf</th>
-          <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-          <th>.hw</th>
-          <th>.hd</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td><span class="">
-          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.bgColor.hi": "{YPL.FFL.TKUI_C.colors.grey.500.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
-          <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.icon.asset.hi.value": "{YPL.FFL.TKUI_D.F0003-27}"'><code class="language-plaintext highlighter-rouge">.icon.asset</code></span>
-        </span></td>
-        <td><span class="dimmed">-</span></td>
-        <td><span class="dimmed">-</span></td>
-        <td><span class="dimmed">-</span></td>
-        <td><span class="dimmed">-</span></td>
-        <td><span class="dimmed">-</span></td>
-        <td><span class="dimmed">-</span></td>
       </tr>
       </tbody>
     </table>

@@ -26,83 +26,99 @@
 // SOFTWARE.
 // -----------------------------------------------
 
-// // Destructure super choices
-const { dimensions, typography, color } = superChoices;
+// // // Destructure super choices
+// const { dimensions, typography, color } = superChoices;
 
-function createTokenSet(dimensions, typography, color) {
-  const { breakpoints, factors, scale, spaces, staticSizes } = dimensions;
-  const { fontFamily, leading, paragraphSpacing, trackingThreshold } = typography;
-  const { primary, secondary } = color;
+// function createTokenSet(dimensions, typography, color) {
+//   const { breakpoints, factors, scale, spaces, staticSizes } = dimensions;
+//   const { fontFamily, leading, paragraphSpacing, trackingThreshold } = typography;
+//   const { primary, secondary } = color;
 
-  // Create dimension set
-  const breakpointSet = generateTokens(nomenclatureOptions, getBreakpoints(breakpoints));
-  const factorsSet = generateTokens(nomenclatureOptions, getFactors(factors));
-  const scaleSet = generateTokens(nomenclatureOptions, generateDimensionScale(scale));
-  const spacesSet = generateTokens(nomenclatureOptions, getSpaces(spaces));
-  const sizesSet = generateTokens(nomenclatureOptions, getSizes(staticSizes));
+//   // Create dimension set
+//   const breakpointSet = generateTokens(nomenclatureOptions, getBreakpoints(breakpoints));
+//   const factorsSet = generateTokens(nomenclatureOptions, getFactors(factors));
+//   const scaleSet = generateTokens(nomenclatureOptions, generateDimensionScale(scale));
+//   const spacesSet = generateTokens(nomenclatureOptions, getSpaces(spaces));
+//   const sizesSet = generateTokens(nomenclatureOptions, getSizes(staticSizes));
 
-  const dimensionSet = compileTokens([breakpointSet, factorsSet, scaleSet, spacesSet, sizesSet]);
+//   const dimensionSet = compileTokens([breakpointSet, factorsSet, scaleSet, spacesSet, sizesSet]);
 
-  // Create typography set
-  // const fontFamilySet = generateTokens(nomenclatureOptions, getFontFamily(fontFamily));
-  // const leadingSet = generateTokens(nomenclatureOptions, getLeading(leading));
-  // const paragraphSpacingSet = generateTokens(nomenclatureOptions, getParagraphSpacing(paragraphSpacing));
-  // const trackingThresholdSet = generateTokens(nomenclatureOptions, getTrackingThreshold(trackingThreshold));
+//   // Create typography set
+//   // const fontFamilySet = generateTokens(nomenclatureOptions, getFontFamily(fontFamily));
+//   // const leadingSet = generateTokens(nomenclatureOptions, getLeading(leading));
+//   // const paragraphSpacingSet = generateTokens(nomenclatureOptions, getParagraphSpacing(paragraphSpacing));
+//   // const trackingThresholdSet = generateTokens(nomenclatureOptions, getTrackingThreshold(trackingThreshold));
 
-  // const typographySet = compileTokens([fontFamilySet, leadingSet, paragraphSpacingSet, trackingThresholdSet]);
+//   // const typographySet = compileTokens([fontFamilySet, leadingSet, paragraphSpacingSet, trackingThresholdSet]);
 
-  // // Create color set
-  // const primaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(primary));
-  // const secondaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(secondary));
+//   // // Create color set
+//   // const primaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(primary));
+//   // const secondaryColorScaleSet = generateTokens(nomenclatureOptions, generateColorScale(secondary));
 
-  // const colorSet = compileTokens([primaryColorScaleSet, secondaryColorScaleSet]);
+//   // const colorSet = compileTokens([primaryColorScaleSet, secondaryColorScaleSet]);
 
-  // Compile all sets down to a single token set
-  return compileTokens([dimensionSet]);
+//   // Compile all sets down to a single token set
+//   return compileTokens([dimensionSet]);
+// }
+
+// function initChoices() {
+//   return createTokenSet(dimensions, typography, color);
+// }
+
+// function getTokens() {
+//   const preresolvedTokens = initChoices();
+
+//   return resolveOverrides(preresolvedTokens, overrideOptions);
+// }
+
+// const allTokens = getTokens();
+
+// // THIS IS WHERE WE ARE DOING DOM MANIPULATION
+
+// // Collect all DOM selectors
+// const allTables = [...document.querySelectorAll('.output-table')];
+// const allCopyTokensButtons = [...document.querySelectorAll('.copy-token-btn')];
+// const allCopyAreas = [...document.querySelectorAll('.copyArea pre > code')];
+
+
+// if (allTables.length > 0) {
+//   // Set up all tables
+//   allTables.forEach(table => buildOutputTable(table, allTokens));
+// }
+
+// if (allCopyTokensButtons.length > 0) {
+//   // Set up all copy to clipboard buttons
+//   allCopyTokensButtons.forEach(button => {
+//     button.addEventListener('click', () => handleCopyTokensToClipboard(button, allTokens));
+//   });
+// }
+
+// if (allCopyAreas.length > 0) {
+//   allCopyAreas.forEach(area => {
+//     const copyButton = document.createElement('div');
+//     copyButton.classList.add('copyCodeButton');
+//     copyButton.addEventListener('click', () => handleCopyToClipboard(area.textContent));
+
+//     const icon = document.createElement('img');
+//     icon.src = '../../assets/images/YPL-DOC-icon-addToclipBoard.svg';
+
+//     copyButton.appendChild(icon);
+//     area.appendChild(copyButton);
+//   });
+// }
+
+async function readTokensFile() {
+  const response = await fetch('../../assets/projects/FFL/tokens/YPL-FFL-tokens-pasta-flattened-justTheValues.json');
+
+  const json = await response.json();
+
+  return json._tokens;
 }
 
-function initChoices() {
-  return createTokenSet(dimensions, typography, color);
-}
+async function readFigmaTokensFile() {
+  const response = await fetch('../../assets/projects/FFL/tokens/YPL-FFL-tokens-figma.json');
 
-function getTokens() {
-  const preresolvedTokens = initChoices();
+  const json = await response.json();
 
-  return resolveOverrides(preresolvedTokens, overrideOptions);
-}
-
-const allTokens = getTokens();
-
-// THIS IS WHERE WE ARE DOING DOM MANIPULATION
-
-// Collect all DOM selectors
-const allTables = [...document.querySelectorAll('.output-table')];
-const allCopyTokensButtons = [...document.querySelectorAll('.copy-token-btn')];
-const allCopyAreas = [...document.querySelectorAll('.copyArea pre > code')];
-
-
-if (allTables.length > 0) {
-  // Set up all tables
-  allTables.forEach(table => buildOutputTable(table, allTokens));
-}
-
-if (allCopyTokensButtons.length > 0) {
-  // Set up all copy to clipboard buttons
-  allCopyTokensButtons.forEach(button => {
-    button.addEventListener('click', () => handleCopyTokensToClipboard(button, allTokens));
-  });
-}
-
-if (allCopyAreas.length > 0) {
-  allCopyAreas.forEach(area => {
-    const copyButton = document.createElement('div');
-    copyButton.classList.add('copyCodeButton');
-    copyButton.addEventListener('click', () => handleCopyToClipboard(area.textContent));
-
-    const icon = document.createElement('img');
-    icon.src = '../../assets/images/YPL-DOC-icon-addToclipBoard.svg';
-
-    copyButton.appendChild(icon);
-    area.appendChild(copyButton);
-  });
+  return json._tokens;
 }

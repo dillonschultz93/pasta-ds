@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220602-1547)",
+    "version": "0.1.0 (220603-1504)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -5429,7 +5429,7 @@
               },
               "visibility": {
                 "i": {
-                  "value": "{YPL.CONST.boolean.true}",
+                  "value": "{YPL.CONST.boolean.false}",
                   "description": "",
                   "type": "other",
                   "dictionary": {
@@ -5439,7 +5439,7 @@
                   "UIDs": {}
                 },
                 "hi": {
-                  "value": "{YPL.CONST.boolean.false}",
+                  "value": "{YPL.CONST.boolean.true}",
                   "description": "",
                   "type": "other",
                   "dictionary": {
