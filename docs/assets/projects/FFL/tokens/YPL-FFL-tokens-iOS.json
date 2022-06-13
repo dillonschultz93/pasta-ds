@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220603-1504)",
+    "version": "0.1.0 (220613-1335)",
     "platform": "iOS",
     "type": "raw-nested",
     "format": "json",
@@ -742,8 +742,22 @@
             }
           },
           "percents": {
+            "xs": {
+              "value": "25%",
+              "description": "",
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                },
+                "ios": true
+              },
+              "apparatusTags": [
+                "percents"
+              ],
+              "UIDs": {}
+            },
             "s": {
-              "value": 0.33,
+              "value": "33%",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -757,7 +771,7 @@
               "UIDs": {}
             },
             "m": {
-              "value": 0.5,
+              "value": "50%",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -771,7 +785,7 @@
               "UIDs": {}
             },
             "ml": {
-              "value": 0.66,
+              "value": "66%",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -785,7 +799,7 @@
               "UIDs": {}
             },
             "l": {
-              "value": 0.75,
+              "value": "75%",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -799,7 +813,7 @@
               "UIDs": {}
             },
             "xl": {
-              "value": 0.85,
+              "value": "85%",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -813,7 +827,7 @@
               "UIDs": {}
             },
             "full": {
-              "value": 1,
+              "value": "100%",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -2594,7 +2608,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 18,
+                    "value": 9,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2652,7 +2666,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 14,
+                    "value": 7,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2712,7 +2726,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 18,
+                    "value": 9,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2770,7 +2784,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 18,
+                    "value": 9,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2830,7 +2844,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "YPL.FFL.TKUI_C.sizes.micro.700.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                    "value": 8,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -2888,7 +2902,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "YPL.FFL.TKUI_C.sizes.micro.700.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                    "value": 8,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -2948,7 +2962,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "YPL.FFL.TKUI_C.sizes.micro.800.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                    "value": 10,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -3006,7 +3020,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "YPL.FFL.TKUI_C.sizes.micro.800.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                    "value": 10,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -3065,7 +3079,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "YPL.FFL.TKUI_C.sizes.micro.700.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                  "value": 8,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3123,7 +3137,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "YPL.FFL.TKUI_C.sizes.micro.900.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                  "value": 11,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3181,7 +3195,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "YPL.FFL.TKUI_C.sizes.micro.1000.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                  "value": 12,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3239,7 +3253,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "YPL.FFL.TKUI_C.sizes.micro.1200.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                  "value": 14,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3297,7 +3311,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "YPL.FFL.TKUI_C.sizes.micro.1400.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                  "value": 17,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3355,7 +3369,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "YPL.FFL.TKUI_C.sizes.micro.1600.value * YPL.FFL.TKUI_C.typo.europa.leadingRatio.s.value",
+                  "value": 19,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3413,7 +3427,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 41.6,
+                  "value": 21,
                   "description": "FIXME",
                   "dictionary": {
                     "figma": {
@@ -3471,7 +3485,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 50.4,
+                  "value": 25,
                   "description": "FIXME",
                   "dictionary": {
                     "figma": {
@@ -6453,7 +6467,7 @@
               "UIDs": {}
             },
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.macro.700.value",
+              "value": "YPL.FFL.TKUI_M.scales.arithB.2600.value",
               "dictionary": {
                 "figma": {
                   "type": "other"
@@ -6615,8 +6629,8 @@
                   }
                 },
                 "heading": {
-                  "primitive": {
-                    "value": "YPL.FFL.TKUI_D.F0002-401",
+                  "element": {
+                    "value": "YPL.FFL.TKUI_D.F0002-005",
                     "dictionary": {
                       "figma": {
                         "type": "other"
@@ -6649,7 +6663,7 @@
                     "UIDs": {}
                   },
                   "paddingRight": {
-                    "value": "-YPL.FFL.TKUI_C.spaces.xs.value",
+                    "value": "YPL.FFL.TKUI_C.spaces.xl.value",
                     "dictionary": {
                       "figma": {
                         "type": "other"

@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220603-1504)",
+    "version": "0.1.0 (220613-1335)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -640,8 +640,20 @@
             }
           },
           "percents": {
+            "xs": {
+              "value": "25%",
+              "description": "",
+              "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [
+                "percents"
+              ],
+              "UIDs": {}
+            },
             "s": {
-              "value": 0.33,
+              "value": "33%",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -653,7 +665,7 @@
               "UIDs": {}
             },
             "m": {
-              "value": 0.5,
+              "value": "50%",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -665,7 +677,7 @@
               "UIDs": {}
             },
             "ml": {
-              "value": 0.66,
+              "value": "66%",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -677,7 +689,7 @@
               "UIDs": {}
             },
             "l": {
-              "value": 0.75,
+              "value": "75%",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -689,7 +701,7 @@
               "UIDs": {}
             },
             "xl": {
-              "value": 0.85,
+              "value": "85%",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -701,7 +713,7 @@
               "UIDs": {}
             },
             "full": {
-              "value": 1,
+              "value": "100%",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -2234,7 +2246,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 18,
+                    "value": 9,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2284,7 +2296,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 14,
+                    "value": 7,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2336,7 +2348,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 18,
+                    "value": 9,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2386,7 +2398,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 18,
+                    "value": 9,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2438,7 +2450,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                    "value": 8,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2488,7 +2500,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                    "value": 8,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2540,7 +2552,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "{YPL.FFL.TKUI_C.sizes.micro.800} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                    "value": 10,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2590,7 +2602,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": "{YPL.FFL.TKUI_C.sizes.micro.800} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                    "value": 10,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2641,7 +2653,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.700} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                  "value": 8,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2691,7 +2703,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.900} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                  "value": 11,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2741,7 +2753,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.1000} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                  "value": 12,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2791,7 +2803,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.1200} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                  "value": 14,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2841,7 +2853,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.1400} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                  "value": 17,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2891,7 +2903,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.1600} * {YPL.FFL.TKUI_C.typo.europa.leadingRatio.s}",
+                  "value": 19,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2941,7 +2953,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 41.6,
+                  "value": 21,
                   "description": "FIXME",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2991,7 +3003,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 50.4,
+                  "value": 25,
                   "description": "FIXME",
                   "type": "lineHeights",
                   "dictionary": {
@@ -5567,7 +5579,7 @@
               "UIDs": {}
             },
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.macro.700}",
+              "value": "{YPL.FFL.TKUI_M.scales.arithB.2600}",
               "type": "other",
               "dictionary": {
                 "ios": true
@@ -5701,8 +5713,8 @@
                   }
                 },
                 "heading": {
-                  "primitive": {
-                    "value": "{YPL.FFL.TKUI_D.F0002-401}",
+                  "element": {
+                    "value": "{YPL.FFL.TKUI_D.F0002-005}",
                     "type": "other",
                     "dictionary": {
                       "ios": true
@@ -5729,7 +5741,7 @@
                     "UIDs": {}
                   },
                   "paddingRight": {
-                    "value": "-{YPL.FFL.TKUI_C.spaces.xs}",
+                    "value": "{YPL.FFL.TKUI_C.spaces.xl}",
                     "type": "other",
                     "dictionary": {
                       "ios": true
