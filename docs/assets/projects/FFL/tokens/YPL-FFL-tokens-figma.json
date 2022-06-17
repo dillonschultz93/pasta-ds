@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220613-1335)",
+    "version": "0.1.0 (220617-1438)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -4948,7 +4948,7 @@
             }
           },
           "E0001": {
-            "baseOption": {
+            "OPT_baseOption": {
               "height": {
                 "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
                 "description": "",
@@ -5126,7 +5126,7 @@
                 "UIDs": {}
               }
             },
-            "withIcon": {
+            "OPT_withIcon": {
               "block": {
                 "icon": {
                   "visible": {
@@ -5142,7 +5142,7 @@
                 }
               }
             },
-            "onlyIcon": {
+            "OPT_onlyIcon": {
               "block": {
                 "icon": {
                   "visible": {
@@ -5170,7 +5170,7 @@
                 }
               }
             },
-            "rating": {
+            "OPT_rating": {
               "block": {
                 "icon": {
                   "asset": {
@@ -5228,7 +5228,7 @@
                 "UIDs": {}
               }
             },
-            "inverse": {
+            "OPT_inverse": {
               "bgColor": {
                 "value": "{YPL.FFL.TKUI_C.surface.dark.300}",
                 "description": "",
@@ -5266,7 +5266,7 @@
                 }
               }
             },
-            "inverseWithIcon": {
+            "OPT_inverseWithIcon": {
               "bgColor": {
                 "value": "{YPL.FFL.TKUI_C.surface.dark.300}",
                 "description": "",
@@ -5314,7 +5314,7 @@
                 }
               }
             },
-            "inverseOnlyIcon": {
+            "OPT_inverseOnlyIcon": {
               "bgColor": {
                 "value": "{YPL.FFL.TKUI_C.surface.dark.300}",
                 "description": "",
@@ -5632,10 +5632,68 @@
               "apparatusTags": [],
               "UIDs": {}
             },
-            "block": {
-              "header": {
+            "BLK_header": {
+              "marginBottom": {
+                "value": "{YPL.FFL.TKUI_C.spaces.l}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "fringeBottom": {
+                "value": "{YPL.FFL.TKUI_C.spaces.l}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "chip": {
+                "element": {
+                  "value": "{YPL.FFL.TKUI_D.E0001.OPT_baseOption}",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              }
+            },
+            "BLK_copy": {
+              "width": {
+                "value": "{YPL.FFL.TKUI_C.percents.full}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "slack": {
+                "value": "{YPL.FFL.TKUI_C.sizes.macro.500}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "element": {
+                "value": "{YPL.FFL.TKUI_D.E0001.OPT_rating}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "chip": {
                 "marginBottom": {
-                  "value": "{YPL.FFL.TKUI_C.spaces.l}",
+                  "value": "{YPL.FFL.TKUI_C.spaces.s}",
                   "type": "other",
                   "dictionary": {
                     "ios": true
@@ -5644,47 +5702,18 @@
                   "UIDs": {}
                 },
                 "fringeBottom": {
-                  "value": "{YPL.FFL.TKUI_C.spaces.l}",
+                  "value": "{YPL.FFL.TKUI_C.spaces.s}",
                   "type": "other",
                   "dictionary": {
                     "ios": true
                   },
                   "apparatusTags": [],
                   "UIDs": {}
-                },
-                "chip": {
-                  "element": {
-                    "value": "{YPL.FFL.TKUI_D.E0001.baseOption}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  }
                 }
               },
-              "copy": {
-                "width": {
-                  "value": "{YPL.FFL.TKUI_C.percents.full}",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
-                "slack": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.macro.500}",
-                  "type": "other",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [],
-                  "UIDs": {}
-                },
+              "heading": {
                 "element": {
-                  "value": "{YPL.FFL.TKUI_D.E0001.rating}",
+                  "value": "{YPL.FFL.TKUI_D.F0002-005}",
                   "type": "other",
                   "dictionary": {
                     "ios": true
@@ -5692,68 +5721,59 @@
                   "apparatusTags": [],
                   "UIDs": {}
                 },
-                "chip": {
-                  "marginBottom": {
-                    "value": "{YPL.FFL.TKUI_C.spaces.s}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
+                "marginBottom": {
+                  "value": "-{YPL.FFL.TKUI_C.spaces.xs}",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
                   },
-                  "fringeBottom": {
-                    "value": "{YPL.FFL.TKUI_C.spaces.s}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  }
+                  "apparatusTags": [],
+                  "UIDs": {}
                 },
-                "heading": {
-                  "element": {
-                    "value": "{YPL.FFL.TKUI_D.F0002-005}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
+                "fringeBottom": {
+                  "value": "-{YPL.FFL.TKUI_C.spaces.xs}",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
                   },
-                  "marginBottom": {
-                    "value": "-{YPL.FFL.TKUI_C.spaces.xs}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
+                "paddingRight": {
+                  "value": "{YPL.FFL.TKUI_C.spaces.xl}",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
                   },
-                  "fringeBottom": {
-                    "value": "-{YPL.FFL.TKUI_C.spaces.xs}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
+                  "apparatusTags": [],
+                  "UIDs": {}
+                }
+              }
+            },
+            "BLK_footer": {
+              "height": {
+                "value": "{YPL.FFL.TKUI_C.sizing.micro.1200}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "switch": {
+                "element": {
+                  "value": "{YPL.FFL.TKUI_D.E0004-002}",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
                   },
-                  "paddingRight": {
-                    "value": "{YPL.FFL.TKUI_C.spaces.xl}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  }
+                  "apparatusTags": [],
+                  "UIDs": {}
                 }
               },
-              "footer": {
-                "height": {
-                  "value": "{YPL.FFL.TKUI_C.sizing.micro.1200}",
+              "eyebrow": {
+                "primitive": {
+                  "value": "{YPL.FFL.TKUI_D.F0002-401}",
                   "type": "other",
                   "dictionary": {
                     "ios": true
@@ -5761,36 +5781,14 @@
                   "apparatusTags": [],
                   "UIDs": {}
                 },
-                "switch": {
-                  "element": {
-                    "value": "{YPL.FFL.TKUI_D.E0004-002}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  }
-                },
-                "eyebrow": {
-                  "primitive": {
-                    "value": "{YPL.FFL.TKUI_D.F0002-401}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
+                "paddingRight": {
+                  "value": "{YPL.FFL.TKUI_C.spaces.s}",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
                   },
-                  "paddingRight": {
-                    "value": "{YPL.FFL.TKUI_C.spaces.s}",
-                    "type": "other",
-                    "dictionary": {
-                      "ios": true
-                    },
-                    "apparatusTags": [],
-                    "UIDs": {}
-                  }
+                  "apparatusTags": [],
+                  "UIDs": {}
                 }
               }
             }

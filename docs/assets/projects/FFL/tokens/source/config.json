@@ -3509,7 +3509,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.height": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.height": {
 			"value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
 			"description": "",
 			"dictionary": {
@@ -3521,7 +3521,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.paddingTop": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingTop": {
 			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
@@ -3533,7 +3533,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.paddingBottom": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingBottom": {
 			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
@@ -3545,7 +3545,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.paddingRight": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingRight": {
 			"value": "{YPL.FFL.TKUI_C.spaces.s.value}",
 			"description": "",
 			"dictionary": {
@@ -3557,7 +3557,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.paddingLeft": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingLeft": {
 			"value": "{YPL.FFL.TKUI_C.spaces.s.value}",
 			"description": "",
 			"dictionary": {
@@ -3569,7 +3569,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.radius": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.radius": {
 			"value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
 			"description": "",
 			"dictionary": {
@@ -3581,7 +3581,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.icon.marginRight": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.marginRight": {
 			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
@@ -3593,7 +3593,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.icon.fringeRight": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.fringeRight": {
 			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
@@ -3605,7 +3605,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.visible": {
 			"value": "{YPL.CONST.boolean.false.value}",
 			"description": "",
 			"dictionary": {
@@ -3617,7 +3617,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.label.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.label.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3629,7 +3629,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.icon.asset": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.asset": {
 			"value": "{YPL.FFL.TKUI_D.F0003-23}",
 			"description": "",
 			"dictionary": {
@@ -3641,7 +3641,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.label.primitive": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.label.primitive": {
 			"value": "{YPL.FFL.TKUI_D.F0002-401}",
 			"description": "",
 			"dictionary": {
@@ -3653,7 +3653,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.label.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.label.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.black.value}",
 			"description": "",
 			"dictionary": {
@@ -3665,7 +3665,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.icon.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.black.value}",
 			"description": "",
 			"dictionary": {
@@ -3677,7 +3677,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.icon.width": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.width": {
 			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
 			"description": "",
 			"dictionary": {
@@ -3689,7 +3689,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.block.icon.height": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.height": {
 			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
 			"description": "",
 			"dictionary": {
@@ -3701,7 +3701,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.baseOption.bgColor": {
+		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.bgColor": {
 			"value": "{YPL.FFL.TKUI_C.surface.light.100.value}",
 			"description": "",
 			"dictionary": {
@@ -3713,7 +3713,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.withIcon.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_withIcon.block.icon.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3725,7 +3725,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.onlyIcon.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_onlyIcon.block.icon.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3737,7 +3737,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.onlyIcon.block.label.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_onlyIcon.block.label.visible": {
 			"value": "{YPL.CONST.boolean.false.value}",
 			"description": "",
 			"dictionary": {
@@ -3749,7 +3749,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.rating.block.icon.asset": {
+		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.icon.asset": {
 			"value": "{YPL.FFL.TKUI_D.F0003-28}",
 			"description": "",
 			"dictionary": {
@@ -3761,7 +3761,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.rating.bgColor": {
+		"YPL.FFL.TKUI_D.E0001.OPT_rating.bgColor": {
 			"value": "#clear",
 			"description": "",
 			"dictionary": {
@@ -3773,7 +3773,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.rating.block.label.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.label.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
 			"description": "",
 			"dictionary": {
@@ -3785,7 +3785,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.rating.block.icon.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.icon.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
 			"description": "",
 			"dictionary": {
@@ -3797,7 +3797,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.rating.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.icon.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3809,7 +3809,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverse.bgColor": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverse.bgColor": {
 			"value": "{YPL.FFL.TKUI_C.surface.dark.300.value}",
 			"description": "",
 			"dictionary": {
@@ -3821,7 +3821,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverse.block.label.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverse.block.label.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
 			"description": "",
 			"dictionary": {
@@ -3833,7 +3833,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverse.block.icon.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverse.block.icon.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
 			"description": "",
 			"dictionary": {
@@ -3845,7 +3845,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseWithIcon.bgColor": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.bgColor": {
 			"value": "{YPL.FFL.TKUI_C.surface.dark.300.value}",
 			"description": "",
 			"dictionary": {
@@ -3857,7 +3857,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseWithIcon.block.label.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.block.label.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
 			"description": "",
 			"dictionary": {
@@ -3869,7 +3869,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseWithIcon.block.icon.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.block.icon.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
 			"description": "",
 			"dictionary": {
@@ -3881,7 +3881,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseWithIcon.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.block.icon.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3893,7 +3893,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseOnlyIcon.bgColor": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.bgColor": {
 			"value": "{YPL.FFL.TKUI_C.surface.dark.300.value}",
 			"description": "",
 			"dictionary": {
@@ -3905,7 +3905,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseOnlyIcon.block.icon.color": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.block.icon.color": {
 			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
 			"description": "",
 			"dictionary": {
@@ -3917,7 +3917,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseOnlyIcon.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.block.icon.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3929,7 +3929,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.inverseOnlyIcon.block.label.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.block.label.visible": {
 			"value": "{YPL.CONST.boolean.false.value}",
 			"description": "",
 			"dictionary": {
@@ -4243,7 +4243,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.header.marginBottom": {
+    "YPL.FFL.TKUI_D.P0001.BLK_header.marginBottom": {
       "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
       "dictionary": {
         "figma": {
@@ -4254,7 +4254,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.header.fringeBottom": {
+    "YPL.FFL.TKUI_D.P0001.BLK_header.fringeBottom": {
       "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
       "dictionary": {
         "figma": {
@@ -4265,8 +4265,8 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.header.chip.element": {
-      "value": "{YPL.FFL.TKUI_D.E0001.baseOption}",
+    "YPL.FFL.TKUI_D.P0001.BLK_header.chip.element": {
+      "value": "{YPL.FFL.TKUI_D.E0001.OPT_baseOption}",
       "dictionary": {
         "figma": {
           "type": "other"
@@ -4276,7 +4276,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.width": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.width": {
       "value": "{YPL.FFL.TKUI_C.percents.full.value}",
       "dictionary": {
         "figma": {
@@ -4287,7 +4287,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.slack": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.slack": {
       "value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}",
       "dictionary": {
         "figma": {
@@ -4298,8 +4298,8 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.element": {
-      "value": "{YPL.FFL.TKUI_D.E0001.rating}",
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.element": {
+      "value": "{YPL.FFL.TKUI_D.E0001.OPT_rating}",
       "dictionary": {
         "figma": {
           "type": "other"
@@ -4309,7 +4309,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.chip.marginBottom": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.chip.marginBottom": {
       "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
       "dictionary": {
         "figma": {
@@ -4320,7 +4320,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.chip.fringeBottom": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.chip.fringeBottom": {
       "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
       "dictionary": {
         "figma": {
@@ -4331,7 +4331,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.heading.element": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.heading.element": {
       "value": "{YPL.FFL.TKUI_D.F0002-005}",
       "dictionary": {
         "figma": {
@@ -4342,7 +4342,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.heading.marginBottom": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.heading.marginBottom": {
       "value": "-{YPL.FFL.TKUI_C.spaces.xs.value}",
       "dictionary": {
         "figma": {
@@ -4353,7 +4353,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.heading.fringeBottom": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.heading.fringeBottom": {
       "value": "-{YPL.FFL.TKUI_C.spaces.xs.value}",
       "dictionary": {
         "figma": {
@@ -4364,7 +4364,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.copy.heading.paddingRight": {
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.heading.paddingRight": {
       "value": "{YPL.FFL.TKUI_C.spaces.xl.value}",
       "dictionary": {
         "figma": {
@@ -4375,7 +4375,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.footer.height": {
+    "YPL.FFL.TKUI_D.P0001.BLK_footer.height": {
       "value": "{YPL.FFL.TKUI_C.sizing.micro.1200.value}",
       "dictionary": {
         "figma": {
@@ -4386,7 +4386,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.footer.switch.element": {
+    "YPL.FFL.TKUI_D.P0001.BLK_footer.switch.element": {
       "value": "{YPL.FFL.TKUI_D.E0004-002}",
       "dictionary": {
         "figma": {
@@ -4397,7 +4397,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.footer.eyebrow.primitive": {
+    "YPL.FFL.TKUI_D.P0001.BLK_footer.eyebrow.primitive": {
       "value": "{YPL.FFL.TKUI_D.F0002-401}",
       "dictionary": {
         "figma": {
@@ -4408,7 +4408,7 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.block.footer.eyebrow.paddingRight": {
+    "YPL.FFL.TKUI_D.P0001.BLK_footer.eyebrow.paddingRight": {
       "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
       "dictionary": {
         "figma": {

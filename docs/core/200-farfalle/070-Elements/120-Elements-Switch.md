@@ -2755,7 +2755,83 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
 - TOC
 {:toc}
 
-## Specs
+<!-- ## Layout -->
+
+## Dependencies
+
+<div class="tabs">
+  <input type="radio" name="tabs_dependencies" id="tab_dependency_01" checked="checked">
+  <label for="tab_dependency_01">-001</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png" alt="Default Preview">
+  </div>
+  <input type="radio" name="tabs_dependencies" id="tab_dependency_02">
+  <label for="tab_dependency_02">-002</label>
+  <div class="tab">
+     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_03.png" alt="Layout 2 Preview">
+  </div>
+</div>
+
+### Instantiation
+
+<section class="flex-1_2-cols">
+   <div>
+     <br>
+    <p>
+     This Element requires that you implement and instantiate all these dependencies.<br>
+     Please refer to each component in this list&nbsp;→
+     </p>
+   </div>
+   <div>
+     <table>
+       <thead>
+         <tr>
+           <th>Instance</th>
+           <th>Component</th>
+           <th></th>
+         </tr>
+       </thead>
+        <tbody>
+         <tr>
+            <td>.icon</td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}"'><code>FFL.F0003</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
+         </tr>
+        </tbody>
+     </table>
+   </div>
+ </section>
+
+  <hr>
+  <details>
+  <summary>verbose snippet</summary>
+  <p>
+  {% highlight js %}
+  //// dependencies
+
+  //
+  {% endhighlight %}
+  </p>
+  </details>
+  <hr>
+
+### Tree
+
+ <section class="flex-1_2-cols">
+   <div>
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+    </p>
+   </div>
+   <div>
+     {% highlight txt %}
+          YPL.FFL.E0004
+          └─ .icon
+     {% endhighlight %}
+   </div>
+ </section>
+
+## Decisions
 
 <div class="tabs">
   <input type="radio" name="tabs_decisions" id="tab_decisions_01" checked="checked">
