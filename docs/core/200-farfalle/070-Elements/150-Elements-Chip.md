@@ -1925,17 +1925,17 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 - TOC
 {:toc}
 
-<!-- ## Layout -->
+## Layout
 
-<!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_layout_01.png) -->
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_layout_01.png)
 
-<!-- ## Dependencies -->
+## Dependencies
 
-<!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_dependencies_01.png) -->
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_dependencies_01.png)
 
-<!-- ### Instantiation -->
+### Instantiation
 
-<!-- <section class="flex-1_2-cols">
+<section class="flex-1_2-cols">
    <div>
      <br>
     <p>
@@ -1966,33 +1966,61 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
         </tbody>
      </table>
    </div>
- </section> -->
+ </section>
 
-  <!-- <hr> -->
+  <hr>
+  <details>
+  <summary>verbose snippet</summary>
+  <p>
+  {% highlight js %}
+  //// dependencies
 
-  <!-- <hr> -->
+  // .block.icon
+  "YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.asset": "{YPL.FFL.TKUI_D.F0003-23}" // icon asset can be overridden by higher level tokens
 
-<!-- ### Tree -->
+  // .block.label
+  "YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.label.primitive": "{YPL.FFL.TKUI_D.F0002-401}",
+  {% endhighlight %}
+  </p>
+  </details>
+  <hr>
 
-## Specs
+### Tree
+
+ <section class="flex-1_2-cols">
+   <div>
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+    </p>
+   </div>
+   <div>
+     {% highlight txt %}
+          YPL.FFL.E0001
+          └─ .block
+              ├─ .icon (optional)
+              └─ .label (optional)
+     {% endhighlight %}
+   </div>
+ </section>
+
+## Decisions
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
 
 
-<!-- ### Variations -->
+### Variations
 
-#### Options
+###### Options
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
 
-##### Base Options
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.withIcon</th>
-      <th>.onlyIcon</th>
-      <th>.rating</th>      
+      <th>.OPT_withIcon</th>
+      <th>.OPT_onlyIcon</th>
+      <th>.OPT_rating</th>      
     </tr>
   </thead>
   <tbody>
@@ -2014,14 +2042,13 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table>
 
-##### Inverse Options
 <table class="type-01 headerNoUpperCase colBordered headFramed">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.inverse</th>
-      <th>.inverseWithIcon</th>
-      <th>.inverseOnlyIcon</th>  
+      <th>.OPT_inverse</th>
+      <th>.OPT_inverseWithIcon</th>
+      <th>.OPT_inverseOnlyIcon</th>  
     </tr>
   </thead>
   <tbody>
@@ -2073,11 +2100,11 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
   </tbody>
 </table> -->
 
-<!-- ## Tokens Playground -->
+## Tokens Playground
 
-<!-- Playground · Pattern-siloed Tokens including all required Choices and Decisions: -->
+Playground · Pattern-siloed Tokens including all required Choices and Decisions:
 
-<!-- <table>
+<table>
     <tr class="playground-details-row" id="css">
         <td><button class="btn">CSS Tokens</button></td>
     </tr>
@@ -2090,7 +2117,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
     <tr class="playground-details-row" id="figma-tokens">
         <td><button class="btn">Figma Tokens</button></td>
     </tr>
-</table> -->
+</table>
 
 
 <!--
