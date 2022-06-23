@@ -289,6 +289,39 @@ To escape Rouge, like in the example above ↑ where we document Rouge code, use
 {% raw %}{% end{% endraw %}{% raw %}raw %}{% endraw %}
 ```
 
+### Do & Don't indicators
+
+We use `hr`:
+
+```
+<section class="flex-1_1-cols">
+   <div>
+      <p> you shouldn't do this</p>
+      <hr class="dd-dont">
+   </div>
+   <div>
+      <p> …but do this instead</p>
+      <hr class="dd-do">
+   </div>
+</section>
+```
+… renders into:
+
+ <section class="flex-1_1-cols">
+   <div>
+      <p> you shouldn't do this</p>
+      <hr class="dd-dont">
+   </div>
+   <div>
+      <p> …but do this instead</p>
+      <hr class="dd-do">
+   </div>
+</section>
+
+
+
+
+
 ### Multiple columns sections
 {: .no_toc}
 
