@@ -4,7 +4,7 @@ project_id: FFL # 3-letter code
 title: Chip # title case
 UID: E0001 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/elements/chip # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/elements/chip-E0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default

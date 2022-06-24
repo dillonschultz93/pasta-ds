@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Toggle # title case
 UID: E0005 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/toggle # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/elements/toggle-E0005 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default

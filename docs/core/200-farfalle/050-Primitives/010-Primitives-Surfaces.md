@@ -4,7 +4,7 @@ project_id: FFL # 3-letter code
 title: Surfaces # title case
 UID: F0001 # ["P","E","F"] + Hexa code/index
 variants: ["001","002","003","101","102","103"] # all variants index
-permalink: farfalle/primitives/surfaces # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/primitives/surfaces-F0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default

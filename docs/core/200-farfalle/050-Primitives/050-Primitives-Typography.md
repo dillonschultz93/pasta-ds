@@ -4,7 +4,7 @@ project_id: FFL # 3-letter code
 title: Typography # title case
 UID: F0002 # ["P","E","F"] + Hexa code/index
 variants: ["001","002","003","004","005","006","007","008","101","102","103","104","301","302","401","402"] # all variants index
-permalink: farfalle/primitives/typography # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/primitives/typography-F0002 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default

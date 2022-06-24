@@ -4,7 +4,7 @@ project_id: FFL # 3-letter code
 title: Poster Card # title case
 UID: P0001 # "P" = Pattern + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/poster-card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/poster-card-P0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
