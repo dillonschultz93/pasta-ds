@@ -1,10 +1,10 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Switch # title case
+title: Switch # title case + UID
 UID: E0004 # ["P","E","F"] + Hexa code/index
 variants: ['001', '002'] # all variants index
-permalink: farfalle/elements/switch # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/elements/switch-E0004 # lowercase & UID + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
@@ -2713,8 +2713,6 @@ nav_order: 120
 # Switch
 {: .no_toc}
 
-Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
-
 <table class="headTopBorder">
   <thead>
     <tr>
@@ -2746,11 +2744,9 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
 </table>
 
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-preview_01.png){: .darkenabled}
 
-<hr>
-
-<a href="https://www.figma.com/file/vgFO9FqjNe0EAmrVwaokOH/?node-id=2116%3A38531" class="btn iconed figmaBadge">To Figma →<a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=2116%3A38531" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}
@@ -2759,20 +2755,27 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
 
 ## Dependencies
 
-<div class="tabs">
-  <input type="radio" name="tabs_dependencies" id="tab_dependency_01" checked="checked">
-  <label for="tab_dependency_01">-001</label>
-  <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png" alt="Default Preview">
-  </div>
-  <input type="radio" name="tabs_dependencies" id="tab_dependency_02">
-  <label for="tab_dependency_02">-002</label>
-  <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_03.png" alt="Layout 2 Preview">
-  </div>
-</div>
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_dependencies_01.png)
 
-### Instantiation
+<details>
+<summary>Tree</summary>
+ <section class="flex-1_2-cols">
+   <div>
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+    </p>
+   </div>
+   <div>
+     {% highlight txt %}
+          YPL.FFL.E0004
+          └─ .icon
+     {% endhighlight %}
+   </div>
+ </section>
+</details>
+<hr>
+
+### Links
 
 <section class="flex-1_2-cols">
    <div>
@@ -2802,170 +2805,142 @@ Switches includes 3 variants: Checbox, Toggle and Button Icon (butIcon).
    </div>
  </section>
 
-  <hr>
-  <details>
-  <summary>verbose snippet</summary>
-  <p>
-  {% highlight js %}
-  //// dependencies
-
-  //
-  {% endhighlight %}
-  </p>
-  </details>
-  <hr>
-
-### Tree
-
- <section class="flex-1_2-cols">
-   <div>
-    <p>
-      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
-    </p>
-   </div>
-   <div>
-     {% highlight txt %}
-          YPL.FFL.E0004
-          └─ .icon
-     {% endhighlight %}
-   </div>
- </section>
-
 ## Decisions
 
-<div class="tabs">
-  <input type="radio" name="tabs_decisions" id="tab_decisions_01" checked="checked">
-  <label for="tab_decisions_01">-001</label>
-  <div class="tab">
-    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_01.png" alt="Switch Check decisions">
-    <h3>Interaction</h3>
-    <h4>Default</h4>
-    <table class="type-01 headerNoUpperCase colBordered headFramed">
-      <!-- <caption>my caption</caption> -->
-      <thead>
-        <tr>
-          <th>.i (idle)</th>
-          <th>.o (mouse over)</th>
-          <th>.p (pressed)</th>
-          <th>.f (focus)</th>
-          <th>.w (waiting)</th>
-          <th>.d (disabled)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-        </tr>
-      </tbody>
-    </table>
-    <h4>Highlighted</h4>
-    <table class="type-01 headerNoUpperCase colBordered headFramed">
-      <!-- <caption>my caption</caption> -->
-      <thead>
-        <tr>
-          <th>.hi</th>
-          <th>.ho</th>
-          <th>.hp</th>
-          <th>.hf</th>
-          <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-          <th>.hw</th>
-          <th>.hd</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td><span class="">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-  <input type="radio" name="tabs_decisions" id="tab_decisions_02">
-  <label for="tab_decisions_02">-002</label>
-  <div class="tab">
-     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_02.png" alt="Switch Toggle decisions">
-     <h3>Interaction</h3>
-    <h4>Default</h4>
-    <table class="type-01 headerNoUpperCase colBordered headFramed">
-      <!-- <caption>my caption</caption> -->
-      <thead>
-        <tr>
-          <th>.i (idle)</th>
-          <th>.o (mouse over)</th>
-          <th>.p (pressed)</th>
-          <th>.f (focus)</th>
-          <th>.w (waiting)</th>
-          <th>.d (disabled)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><span class="">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-          <td><span class="dimmed">TBD</span></td>
-        </tr>
-      </tbody>
-    </table>
-    <h4>Highlighted</h4>
-    <table class="type-01 headerNoUpperCase colBordered headFramed">
-      <!-- <caption>my caption</caption> -->
-      <thead>
-        <tr>
-          <th>.hi</th>
-          <th>.ho</th>
-          <th>.hp</th>
-          <th>.hf</th>
-          <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-          <th>.hw</th>
-          <th>.hd</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td><span class="">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-        <td><span class="dimmed">TBD</span></td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_01.png)
 
-<!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.BRKP_s&nbsp;(480)</th>
-      <th>.BRKP_m&nbsp;(768)</th>
-      <th>.BRKP_l&nbsp;(1024)</th>
-      <th>.BRKP_xl&nbsp;(1920)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="dimmed">N/A</span></td>
-      <td><span class="dimmed">N/A</span></td>
-    </tr>
-  </tbody>
-</table> -->
+### Interaction
+
+
+ <div class="tabs">
+     <input type="radio" name="Variants" id="variant_01" checked="checked">
+     <label for="variant_01">-001</label>
+     <div class="tab">
+        <br>
+        <h4 class="no_toc">Default</h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <!-- <caption>my caption</caption> -->
+          <thead>
+            <tr>
+              <th>.i (idle)</th>
+              <th>.o (mouse over)</th>
+              <th>.p (pressed)</th>
+              <th>.f (focus)</th>
+              <th>.w (waiting)</th>
+              <th>.d (disabled)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.i.value": "#clear"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.border.color.i.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.visibility.i.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.icon.visibility</code></span>                                                  
+              </td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 class="no_toc">Highlighted</h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <!-- <caption>my caption</caption> -->
+          <thead>
+            <tr>
+              <th>.hi</th>
+              <th>.ho</th>
+              <th>.hp</th>
+              <th>.hf</th>
+              <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the component is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+              <th>.hw</th>
+              <th>.hd</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>
+              <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.hi.value": "YPL.FFL.TKUI_C.colors.grey.900.value"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+              <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.border.color.hi.value": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
+              <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.visibility.hi.value": "{YPL.CONST.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.icon.visibility</code></span>                
+            </td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+          </tr>
+          </tbody>
+        </table>
+   </div>
+   <input type="radio" name="Variants" id="variant_02">
+   <label for="variant_02">-002</label>
+   <div class="tab">
+      <br>
+      <h4 class="no_toc">Default</h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <!-- <caption>my caption</caption> -->
+          <thead>
+            <tr>
+              <th>.i (idle)</th>
+              <th>.o (mouse over)</th>
+              <th>.p (pressed)</th>
+              <th>.f (focus)</th>
+              <th>.w (waiting)</th>
+              <th>.d (disabled)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.asset.i.value": "{YPL.FFL.F0003-001}"'><code class="language-plaintext highlighter-rouge">icon.asset</code></span>              
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.i.value": "YPL.FFL.TKUI_C.colors.teal.400.value"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+              </td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 class="no_toc">Highlighted</h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <!-- <caption>my caption</caption> -->
+          <thead>
+            <tr>
+              <th>.hi</th>
+              <th>.ho</th>
+              <th>.hp</th>
+              <th>.hf</th>
+              <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the component is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+              <th>.hw</th>
+              <th>.hd</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.asset.hi.value": "{YPL.FFL.F0003-027}"'><code class="language-plaintext highlighter-rouge">.icon.asset</code></span>              
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.hi.value": "YPL.FFL.TKUI_C.colors.grey.500.value"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>            
+            </td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+          </tr>
+          </tbody>
+        </table>
+   </div>
+ </div>
+
+
+
 
 ## Accessibility Status
 
