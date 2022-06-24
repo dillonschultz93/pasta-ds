@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Icons # title case
 UID: F0003 # ["P","E","F"] + Hexa code/index
-variants: ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65"] # all variants index
+variants: ["001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016","017","018","019","020","021","022","023","024","025","026","027","028","029","401","402","403","404","405","406","407","408","409","410","411","412","413","414","415","416","417","418","419","420","421","422","423","424","425","426","427","428","429","430","431","432","433","434","3FF","7FF"] # all variants index
 permalink: farfalle/primitives/icons # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
@@ -47,7 +47,7 @@ nav_order: 100
 </table>
 
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220520.zip" class="btn iconed downloadBadge">Download Zip</a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220624.zip" class="btn iconed downloadBadge">Download Zip</a>
 
 <!-- - TOC
 {:toc} -->
@@ -73,47 +73,47 @@ nav_order: 100
   </thead> -->
   <tbody>
     <tr>
-      <td id="F0003-1"><span data-toolclip='YPL.FFL.TKUI_D.F0003-1'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-1.svg"></span></td>
-      <td id="F0003-2"><span data-toolclip='YPL.FFL.TKUI_D.F0003-2'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-2.svg"></span></td>
-      <td id="F0003-3"><span data-toolclip='YPL.FFL.TKUI_D.F0003-3'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-3.svg"></span></td>
-      <td id="F0003-4"><span data-toolclip='YPL.FFL.TKUI_D.F0003-4'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-4.svg"></span></td>
-      <td id="F0003-5"><span data-toolclip='YPL.FFL.TKUI_D.F0003-5'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-6.svg"></span></td>
-      <td id="F0003-6"><span data-toolclip='YPL.FFL.TKUI_D.F0003-7'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-7.svg"></span></td>
+      <td id="F0003-001"><span data-toolclip='YPL.FFL.F0003-001'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-001.svg"></span></td>
+      <td id="F0003-002"><span data-toolclip='YPL.FFL.F0003-002'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-002.svg"></span></td>
+      <td id="F0003-003"><span data-toolclip='YPL.FFL.F0003-003'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-003.svg"></span></td>
+      <td id="F0003-004"><span data-toolclip='YPL.FFL.F0003-004'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-004.svg"></span></td>
+      <td id="F0003-005"><span data-toolclip='YPL.FFL.F0003-005'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-005.svg"></span></td>
+      <td id="F0003-006"><span data-toolclip='YPL.FFL.F0003-006'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-006.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-7"><span data-toolclip='YPL.FFL.TKUI_D.F0003-7'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-7.svg"></span></td>
-      <td id="F0003-8"><span data-toolclip='YPL.FFL.TKUI_D.F0003-8'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-8.svg"></span></td>
-      <td id="F0003-9"><span data-toolclip='YPL.FFL.TKUI_D.F0003-9'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-9.svg"></span></td>
-      <td id="F0003-10"><span data-toolclip='YPL.FFL.TKUI_D.F0003-10'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-10.svg"></span></td>
-      <td id="F0003-11"><span data-toolclip='YPL.FFL.TKUI_D.F0003-11'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-11.svg"></span></td>
-      <td id="F0003-12"><span data-toolclip='YPL.FFL.TKUI_D.F0003-12'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-12.svg"></span></td>
+      <td id="F0003-007"><span data-toolclip='YPL.FFL.F0003-007'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-007.svg"></span></td>
+      <td id="F0003-008"><span data-toolclip='YPL.FFL.F0003-008'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-008.svg"></span></td>
+      <td id="F0003-009"><span data-toolclip='YPL.FFL.F0003-009'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-009.svg"></span></td>
+      <td id="F0003-010"><span data-toolclip='YPL.FFL.F0003-010'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-010.svg"></span></td>
+      <td id="F0003-011"><span data-toolclip='YPL.FFL.F0003-011'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-011.svg"></span></td>
+      <td id="F0003-012"><span data-toolclip='YPL.FFL.F0003-012'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-012.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-13"><span data-toolclip='YPL.FFL.TKUI_D.F0003-13'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-13.svg"></span></td>
-      <td id="F0003-14"><span data-toolclip='YPL.FFL.TKUI_D.F0003-14'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-14.svg"></span></td>
-      <td id="F0003-15"><span data-toolclip='YPL.FFL.TKUI_D.F0003-15'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-15.svg"></span></td>
-      <td id="F0003-16"><span data-toolclip='YPL.FFL.TKUI_D.F0003-16'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-16.svg"></span></td>
-      <td id="F0003-17"><span data-toolclip='YPL.FFL.TKUI_D.F0003-17'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-17.svg"></span></td>
-      <td id="F0003-18"><span data-toolclip='YPL.FFL.TKUI_D.F0003-18'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-18.svg"></span></td>
+      <td id="F0003-013"><span data-toolclip='YPL.FFL.F0003-013'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-013.svg"></span></td>
+      <td id="F0003-014"><span data-toolclip='YPL.FFL.F0003-014'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-014.svg"></span></td>
+      <td id="F0003-015"><span data-toolclip='YPL.FFL.F0003-015'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-015.svg"></span></td>
+      <td id="F0003-016"><span data-toolclip='YPL.FFL.F0003-016'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-016.svg"></span></td>
+      <td id="F0003-017"><span data-toolclip='YPL.FFL.F0003-017'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-017.svg"></span></td>
+      <td id="F0003-018"><span data-toolclip='YPL.FFL.F0003-018'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-018.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-19"><span data-toolclip='YPL.FFL.TKUI_D.F0003-19'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-19.svg"></span></td>
-      <td id="F0003-20"><span data-toolclip='YPL.FFL.TKUI_D.F0003-20'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-20.svg"></span></td>
-      <td id="F0003-21"><span data-toolclip='YPL.FFL.TKUI_D.F0003-21'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-21.svg"></span></td>
-      <td id="F0003-22"><span data-toolclip='YPL.FFL.TKUI_D.F0003-22'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-22.svg"></span></td>
-      <td id="F0003-23"><span data-toolclip='YPL.FFL.TKUI_D.F0003-23'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-23.svg"></span></td>
-      <td id="F0003-24"><span data-toolclip='YPL.FFL.TKUI_D.F0003-24'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-24.svg"></span></td>
+      <td id="F0003-019"><span data-toolclip='YPL.FFL.F0003-019'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-019.svg"></span></td>
+      <td id="F0003-020"><span data-toolclip='YPL.FFL.F0003-020'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-020.svg"></span></td>
+      <td id="F0003-021"><span data-toolclip='YPL.FFL.F0003-021'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-021.svg"></span></td>
+      <td id="F0003-022"><span data-toolclip='YPL.FFL.F0003-022'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-022.svg"></span></td>
+      <td id="F0003-023"><span data-toolclip='YPL.FFL.F0003-023'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-023.svg"></span></td>
+      <td id="F0003-024"><span data-toolclip='YPL.FFL.F0003-024'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-024.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-25"><span data-toolclip='YPL.FFL.TKUI_D.F0003-25'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-25.svg"></span></td>
-      <td id="F0003-26"><span data-toolclip='YPL.FFL.TKUI_D.F0003-26'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-26.svg"></span></td>
-      <td id="F0003-27"><span data-toolclip='YPL.FFL.TKUI_D.F0003-27'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-27.svg"></span></td>
-      <td id="F0003-28"><span data-toolclip='YPL.FFL.TKUI_D.F0003-28'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-28.svg"></span></td>
-      <td id="F0003-29"><span data-toolclip='YPL.FFL.TKUI_D.F0003-29'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-29.svg"></span></td>
+      <td id="F0003-025"><span data-toolclip='YPL.FFL.F0003-025'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-025.svg"></span></td>
+      <td id="F0003-026"><span data-toolclip='YPL.FFL.F0003-026'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-026.svg"></span></td>
+      <td id="F0003-027"><span data-toolclip='YPL.FFL.F0003-027'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-027.svg"></span></td>
+      <td id="F0003-028"><span data-toolclip='YPL.FFL.F0003-028'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-028.svg"></span></td>
+      <td id="F0003-029"><span data-toolclip='YPL.FFL.F0003-029'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-029.svg"></span></td>
       <td id="F0003-xxx"></td>
     </tr>
     <tr>
-      <td id="F0003-3FF"><span data-toolclip='YPL.FFL.TKUI_D.F0003-3FF'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-3FF.svg"></span></td>  
+      <td id="F0003-3FF"><span data-toolclip='YPL.FFL.F0003-3FF'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-3FF.svg"></span></td>  
     </tr>    
   </tbody>
 </table>
@@ -127,55 +127,55 @@ Variants UIDs go from `4xx` to `7FE`. `7FF` is reserved for placholder.
 <table class="tableOfIcons">
   <tbody>
     <tr>
-      <td id="F0003-30"><span data-toolclip='YPL.FFL.TKUI_D.F0003-30'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-30.svg"></span></td>
-      <td id="F0003-31"><span data-toolclip='YPL.FFL.TKUI_D.F0003-31'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-31.svg"></span></td>
-      <td id="F0003-32"><span data-toolclip='YPL.FFL.TKUI_D.F0003-32'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-32.svg"></span></td>
-      <td id="F0003-33"><span data-toolclip='YPL.FFL.TKUI_D.F0003-33'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-33.svg"></span></td>
-      <td id="F0003-34"><span data-toolclip='YPL.FFL.TKUI_D.F0003-34'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-34.svg"></span></td>
-      <td id="F0003-35"><span data-toolclip='YPL.FFL.TKUI_D.F0003-35'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-35.svg"></span></td>
+      <td id="F0003-401"><span data-toolclip='YPL.FFL.F0003-401'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-401.svg"></span></td>
+      <td id="F0003-402"><span data-toolclip='YPL.FFL.F0003-402'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-402.svg"></span></td>
+      <td id="F0003-403"><span data-toolclip='YPL.FFL.F0003-403'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-403.svg"></span></td>
+      <td id="F0003-404"><span data-toolclip='YPL.FFL.F0003-404'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-404.svg"></span></td>
+      <td id="F0003-405"><span data-toolclip='YPL.FFL.F0003-405'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-405.svg"></span></td>
+      <td id="F0003-406"><span data-toolclip='YPL.FFL.F0003-406'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-406.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-36"><span data-toolclip='YPL.FFL.TKUI_D.F0003-36'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-36.svg"></span></td>
-      <td id="F0003-37"><span data-toolclip='YPL.FFL.TKUI_D.F0003-37'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-37.svg"></span></td>
-      <td id="F0003-38"><span data-toolclip='YPL.FFL.TKUI_D.F0003-38'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-38.svg"></span></td>
-      <td id="F0003-39"><span data-toolclip='YPL.FFL.TKUI_D.F0003-39'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-39.svg"></span></td>
-      <td id="F0003-40"><span data-toolclip='YPL.FFL.TKUI_D.F0003-40'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-40.svg"></span></td>
-      <td id="F0003-41"><span data-toolclip='YPL.FFL.TKUI_D.F0003-41'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-41.svg"></span></td>
+      <td id="F0003-407"><span data-toolclip='YPL.FFL.F0003-407'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-407.svg"></span></td>
+      <td id="F0003-408"><span data-toolclip='YPL.FFL.F0003-408'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-408.svg"></span></td>
+      <td id="F0003-409"><span data-toolclip='YPL.FFL.F0003-409'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-409.svg"></span></td>
+      <td id="F0003-410"><span data-toolclip='YPL.FFL.F0003-410'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-410.svg"></span></td>
+      <td id="F0003-411"><span data-toolclip='YPL.FFL.F0003-411'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-411.svg"></span></td>
+      <td id="F0003-412"><span data-toolclip='YPL.FFL.F0003-412'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-412.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-42"><span data-toolclip='YPL.FFL.TKUI_D.F0003-42'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-42.svg"></span></td>
-      <td id="F0003-43"><span data-toolclip='YPL.FFL.TKUI_D.F0003-43'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-43.svg"></span></td>
-      <td id="F0003-44"><span data-toolclip='YPL.FFL.TKUI_D.F0003-44'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-44.svg"></span></td>
-      <td id="F0003-45"><span data-toolclip='YPL.FFL.TKUI_D.F0003-45'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-45.svg"></span></td>
-      <td id="F0003-46"><span data-toolclip='YPL.FFL.TKUI_D.F0003-46'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-46.svg"></span></td>
-      <td id="F0003-47"><span data-toolclip='YPL.FFL.TKUI_D.F0003-47'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-47.svg"></span></td>
+      <td id="F0003-413"><span data-toolclip='YPL.FFL.F0003-413'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-413.svg"></span></td>
+      <td id="F0003-414"><span data-toolclip='YPL.FFL.F0003-414'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-414.svg"></span></td>
+      <td id="F0003-415"><span data-toolclip='YPL.FFL.F0003-415'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-415.svg"></span></td>
+      <td id="F0003-416"><span data-toolclip='YPL.FFL.F0003-416'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-416.svg"></span></td>
+      <td id="F0003-417"><span data-toolclip='YPL.FFL.F0003-417'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-417.svg"></span></td>
+      <td id="F0003-418"><span data-toolclip='YPL.FFL.F0003-418'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-418.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-48"><span data-toolclip='YPL.FFL.TKUI_D.F0003-48'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-48.svg"></span></td>
-      <td id="F0003-49"><span data-toolclip='YPL.FFL.TKUI_D.F0003-49'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-49.svg"></span></td>
-      <td id="F0003-50"><span data-toolclip='YPL.FFL.TKUI_D.F0003-50'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-50.svg"></span></td>
-      <td id="F0003-51"><span data-toolclip='YPL.FFL.TKUI_D.F0003-51'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-51.svg"></span></td>
-      <td id="F0003-52"><span data-toolclip='YPL.FFL.TKUI_D.F0003-52'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-52.svg"></span></td>
-      <td id="F0003-53"><span data-toolclip='YPL.FFL.TKUI_D.F0003-53'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-53.svg"></span></td>
+      <td id="F0003-419"><span data-toolclip='YPL.FFL.F0003-419'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-419.svg"></span></td>
+      <td id="F0003-420"><span data-toolclip='YPL.FFL.F0003-420'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-420.svg"></span></td>
+      <td id="F0003-421"><span data-toolclip='YPL.FFL.F0003-421'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-421.svg"></span></td>
+      <td id="F0003-422"><span data-toolclip='YPL.FFL.F0003-422'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-422.svg"></span></td>
+      <td id="F0003-423"><span data-toolclip='YPL.FFL.F0003-423'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-423.svg"></span></td>
+      <td id="F0003-424"><span data-toolclip='YPL.FFL.F0003-424'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-424.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-54"><span data-toolclip='YPL.FFL.TKUI_D.F0003-54'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-54.svg"></span></td>
-      <td id="F0003-55"><span data-toolclip='YPL.FFL.TKUI_D.F0003-55'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-55.svg"></span></td>
-      <td id="F0003-56"><span data-toolclip='YPL.FFL.TKUI_D.F0003-56'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-56.svg"></span></td>
-      <td id="F0003-57"><span data-toolclip='YPL.FFL.TKUI_D.F0003-57'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-57.svg"></span></td>
-      <td id="F0003-58"><span data-toolclip='YPL.FFL.TKUI_D.F0003-58'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-58.svg"></span></td>
-      <td id="F0003-59"><span data-toolclip='YPL.FFL.TKUI_D.F0003-59'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-59.svg"></span></td>
+      <td id="F0003-425"><span data-toolclip='YPL.FFL.F0003-425'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-425.svg"></span></td>
+      <td id="F0003-426"><span data-toolclip='YPL.FFL.F0003-426'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-426.svg"></span></td>
+      <td id="F0003-427"><span data-toolclip='YPL.FFL.F0003-427'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-427.svg"></span></td>
+      <td id="F0003-428"><span data-toolclip='YPL.FFL.F0003-428'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-428.svg"></span></td>
+      <td id="F0003-429"><span data-toolclip='YPL.FFL.F0003-429'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-429.svg"></span></td>
+      <td id="F0003-430"><span data-toolclip='YPL.FFL.F0003-430'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-430.svg"></span></td>
     </tr>
     <tr>
-      <td id="F0003-60"><span data-toolclip='YPL.FFL.TKUI_D.F0003-60'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-60.svg"></span></td>
-      <td id="F0003-61"><span data-toolclip='YPL.FFL.TKUI_D.F0003-61'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-61.svg"></span></td>
-      <td id="F0003-62"><span data-toolclip='YPL.FFL.TKUI_D.F0003-62'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-62.svg"></span></td>
-      <td id="F0003-63"><span data-toolclip='YPL.FFL.TKUI_D.F0003-63'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-63.svg"></span></td>
+      <td id="F0003-431"><span data-toolclip='YPL.FFL.F0003-431'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-431.svg"></span></td>
+      <td id="F0003-432"><span data-toolclip='YPL.FFL.F0003-432'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-432.svg"></span></td>
+      <td id="F0003-433"><span data-toolclip='YPL.FFL.F0003-433'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-433.svg"></span></td>
+      <td id="F0003-434"><span data-toolclip='YPL.FFL.F0003-434'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-434.svg"></span></td>
       <td id="F0003-xxx"></td>
       <td id="F0003-xxx"></td>
     </tr>
     <tr>
-      <td id="F0003-7FF"><span data-toolclip='YPL.FFL.TKUI_D.F0003-7FF'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.TKUI_D.F0003-7FF.svg"></span></td>      
+      <td id="F0003-7FF"><span data-toolclip='YPL.FFL.F0003-7FF'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-7FF.svg"></span></td>      
     </tr>  
   </tbody>
 </table>
