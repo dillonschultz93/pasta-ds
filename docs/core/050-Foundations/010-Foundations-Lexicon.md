@@ -47,12 +47,12 @@ Tokens, also known as Design Tokens, are the constants required to implement all
 
 #### Choices
 
-Choices, also known as Choice Tokens, are the foundational choices made for design. Brand Color Palettes, Sizes and Spaces Relationship (Scales), Font Face, etc.
+Choices, also known as Choice Tokens, are the foundational choices made for design. Brand Color Palettes, Sizes and Spaces Relationship (Scales), Font Face, etc. You can consider Choices as being the Constants that will feed your Attributes when building an interface.
 
 #### Decisions
 
 Decisions, also known as Decision Tokens, are how and where the choices are injected into the design elements: the brand accent color can be used for a button background attribute in idle state or/and an icon, etc.
-Choices feed Decisions.
+Choices feed Decisions. You can consider Decisions as being attributes. Or more precisely the place where an Attribute find its resolution by pointing to a Choice.
 
 #### Super, Math, Override, Alias, and Proxy
 
@@ -134,9 +134,11 @@ Component
 </section>
 
 
-#### SCPA (Specification Cost Per Attribute)
+#### SCPA (Specification Cost Per Attributes)
 
-We calculate the cost of specification per attributes to assess our willingness to escalate from Options to a Variant and to Variants to new Component(s).
+We calculate the Specification Cost Per Attributes to assess our willingness to escalate from Options to a Variant and to Variants to new Component(s). 
+Let's say a new Candidate Component requires to modify 12 attributes from an existing Component that requires 29 attributes to be built (all dependencies included), it's SCPA would then be `12/29 = ~0.41` (~41%). This would be used to make an inform decision if we should address it's building by adding Options or Variants to this already existing Component, or to create a new one. The SCPA should be used as a guideline to help decisions, not as a strict rule.
+[FIXME] These are random values, we need to agree on the one we are using:
 
 ||cost|
 |---|---|
@@ -144,7 +146,6 @@ We calculate the cost of specification per attributes to assess our willingness 
 |New variant| 50% |
 |Options| 5% |
 
-To calculate the SCPA we just devide the values above per the number of attributes 
 
 
 #### Default

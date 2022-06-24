@@ -8,10 +8,6 @@ nav_order: 60
 
 # Jekyll
 {: .no_toc}
-<!-- ↑ skips H1 inside TOC -->
-
-- TOC
-{:toc}
 
 <figure>
     <blockquote cite="" class="jumbo">
@@ -24,9 +20,11 @@ nav_order: 60
     <!-- <figcaption>Author Name, Company · <cite><a href="">Source</a></cite></figcaption> -->
 </figure>
 
-
 "Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, [and more →](https://jekyllrb.com/docs/)."
 
+
+- TOC
+{:toc}
 
 ## Get started
 
@@ -66,7 +64,7 @@ If you need help for the following steps please contact our current [Pasta Docum
 
 1. <input type="checkbox" class="checklistItem"> Install Ruby and [Jekyll](https://jekyllrb.com/): You'll find an [installation tutorial here](https://jekyllrb.com/docs/installation/macos/).
 2. <input type="checkbox" class="checklistItem">  You need to clone our [Pasta Repo](https://github.com/yummly/pasta) using Git or [Github Desktop]({{site.baseurl}}/tools/github#github-desktop-app).
-3. <input type="checkbox" class="checklistItem"> Then everytime you need to run Jekyll make sure you are localized inisde the `pasta/docs` folder:
+3. <input type="checkbox" class="checklistItem"> Then every time you need to run Jekyll make sure you are localized inside the `pasta/docs` folder:
 
     ```shell
     cd ~/pasta/docs
@@ -85,13 +83,13 @@ If you need help for the following steps please contact our current [Pasta Docum
     bundle
     ```
 
-6. <input type="checkbox" class="checklistItem"> … then launch Jekyll via Bundler everytime to want to work on Pasta locally:
+6. <input type="checkbox" class="checklistItem"> … then launch Jekyll via Bundler every time to want to work on Pasta locally:
 
     ```shell
     bundle exec jekyll serve --livereload --incremental
     ```
 
-    The `--liverload` option automatically refresh the browser when a file update is detected. `--incremental` should help with the built duration length (experimental feature).
+    The `--livereload` option automatically refresh the browser when a file update is detected. `--incremental` should help with the built duration length (experimental feature).
 
 7. <input type="checkbox" class="checklistItem"> Pasta will be running on port `4000` on [your local host](http://localhost:4000/pasta/):
 
@@ -244,7 +242,6 @@ Not sure this is necessary, inside <code>Gemfile</code>:<br><br>
 ## Usefull Snippets
 
 ### Relative URL
-{: .no_toc}
 
 Use the `{% raw %}{{site.baseurl}}{% endraw %}` moustache to access your assets, ie:
 
@@ -258,7 +255,6 @@ or
 ```
 
 ### Code
-{: .no_toc}
 
 #### Markdown
 {: .no_toc}
@@ -291,9 +287,9 @@ To escape Rouge, like in the example above ↑ where we document Rouge code, use
 
 ### Do & Don't indicators
 
-We use `hr`:
+We use `<hr>` with `dd-do` and `dd-dont` classes:
 
-```
+```html
 <section class="flex-1_1-cols">
    <div>
       <p> you shouldn't do this</p>
@@ -319,11 +315,7 @@ We use `hr`:
 </section>
 
 
-
-
-
 ### Multiple columns sections
-{: .no_toc}
 
 We use bespoke CSS classes:
 
@@ -392,38 +384,53 @@ We use bespoke CSS classes:
   </div>
 </section>
 
-### Color Table (JS required)
-{: .no_toc}
+### Tabs
 
-To allow Colors tables to be generated to need to call a little script with your page by adding this line after the Front Matter block:
+We use 2 classes `tabs` and `tab`, and radio buttons:
 
-```html
-<script type="text/javascript" src="{{site.baseurl}}/assets/vanilla/pasta.js" defer></script>
-```
-Then the Color table is generated using the `colorTable` class and adding the proper `data-colorValue` for each `<tr>`:
+{% highlight html %}
+   <div class="tabs">
+     <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
+     <label for="tab_name_01">Tab #1</label>
+     <div class="tab">
+       Tab 1 content
+     </div>
+     <input type="radio" name="tabs_section_name" id="tab_name_02">
+     <label for="tab_name_02">Tab #2</label>
+     <div class="tab">
+      Tab 2 content
+     </div>
+     <input type="radio" name="tabs_section_name" id="tab_name_03">
+     <label for="tab_name_03">Tab #3</label>
+     <div class="tab">
+        Tab 3 content
+     </div>  
+   </div>
+{% endhighlight %}
 
-```html
-<table class="colorTable">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>Column</th>
-      <th>Column</th>
-      <th>Column</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr data-colorValue="hsla(177, 44%, 51%, 1.00)">
-      <td>TKUI_A.colors.cyan~teal.300</td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-```
+… renders into:
 
-### HTML Table Sandbox
-{: .no_toc}
+<div class="tabs">
+  <input type="radio" name="tabs_previews" id="tab_preview_01" checked="checked">
+  <label for="tab_preview_01">Tab #1</label>
+  <div class="tab">
+    Tab 1 content
+  </div>
+  <input type="radio" name="tabs_previews" id="tab_preview_02">
+  <label for="tab_preview_02">Tab #2</label>
+  <div class="tab">
+   Tab 2 content
+  </div>
+  <input type="radio" name="tabs_previews" id="tab_preview_03">
+  <label for="tab_preview_03">Tab #3</label>
+  <div class="tab">
+     Tab 3 content
+  </div>  
+</div>
+
+
+### Basic HTML Table
+
 
 ```html
 <table>
