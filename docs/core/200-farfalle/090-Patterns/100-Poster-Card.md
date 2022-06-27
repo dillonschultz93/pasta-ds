@@ -162,12 +162,6 @@ Poster Cards distinctive attribute is their background image that fill the card 
             <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch-E0004" alt="Link to Element page" class="btn">Switch →</a></td>
          </tr>
-         <tr>
-            <td>.paragraph<sup> OPT</sup></td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.paragraph": "{YPL.FFL.F0002-103-p_s_regular}"'><code>FFL.F0002-103</code></span></td>
-            <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-103" alt="Link to Primitive page" class="btn">paragraph →</a></td>
-         </tr>
         </tbody>
      </table>
    </div>
@@ -192,10 +186,9 @@ Poster Cards distinctive attribute is their background image that fill the card 
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height.OPT_small": "{YPL.FFL.TKUI_C.sizes.macro.700.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.size.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h4.size.value}"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.tracking.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h4.tracking.value}"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.leading.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h4.leading.value}"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.height": "{YPL.FFL.TKUI_C.sizes.macro.500.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style": "{YPL.FFL.F0002-005}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>        
       </td>
       <!-- <td>
       <span data-toolclip='"YPL.FFL.TKUI_D.P0001.gradient": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
@@ -217,10 +210,10 @@ Light and Dark are the same.
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.BRKP_s&nbsp;(480)</th>
-      <th>.BRKP_m&nbsp;(768)</th>
-      <th>.BRKP_l&nbsp;(1024)</th>
-      <th>.BRKP_xl&nbsp;(1920)</th>
+      <th>← .BRKP_s&nbsp;(480)</th>
+      <th>← .BRKP_m&nbsp;(768)</th>
+      <th>← .BRKP_l&nbsp;(1024)</th>
+      <th>← .BRKP_xl&nbsp;(1920)</th>
     </tr>
   </thead>
   <tbody>
@@ -229,10 +222,8 @@ Light and Dark are the same.
         <span class="dimmed">( <i> default </i> )</span>
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height": "{YPL.FFL.TKUI_C.sizes.macro.800.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.size.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h2.size.value}"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.tracking.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h2.tracking.value}"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.leading.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h2.leading.value}"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height.BKRP_m": "{YPL.FFL.TKUI_C.sizes.macro.800.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.BLK_copy.heading.style": "{YPL.FFL.F0002-002}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
       </td>
       <td>
         <!-- <span class="dimmed">N/A</span> -->
