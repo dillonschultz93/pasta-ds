@@ -112,12 +112,12 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
          <tr>
             <td>.icon</td>
             <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_chip.block.icon": "{YPL.FFL.F0003-XXX.HMN_icon}"'><code>FFL.F0003</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons" alt="Link to Icon page" class="btn">Icon →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons-F0003" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
          <tr>
             <td>.label</td>
             <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.HMN_chip.block.label": "{YPL.FFL.TKUI_D.F0002-401.HMN_typo_europa-eyebrow}"'><code>FFL.F0002-401</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Typography Primitives page" class="btn">Eyebrow →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Typography Primitives page" class="btn">Eyebrow →</a></td>
          </tr>
         </tbody>
      </table>

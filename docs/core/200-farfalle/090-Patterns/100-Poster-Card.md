@@ -136,37 +136,37 @@ Poster Cards distinctive attribute is their background image that fill the card 
             <td>.chip</td>
             <td><span data-toolclip='"YPL.FFL.P0001.BLK_header.chip": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.chip</td>
             <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.chip": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.heading</td>
             <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.heading": "{YPL.FFL.F0002-005-heading_5}"'><code>FFL.F0002-005</code></span></td>
             <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
          </tr>
          <tr>
             <td>.eyebrow</td>
             <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.eyebrow": "{YPL.FFL.F0002-401-eyebrow}"'><code>FFL.F0002-401</code></span></td>
             <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
          </tr>
          <tr>
             <td>.switchButton</td>
             <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.switchButton": "{YPL.FFL.E0004-002-switchIcon}"'><code>FFL.E0004-002</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch#E0004-002" alt="Link to Element page" class="btn">switch →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch-E0004" alt="Link to Element page" class="btn">Switch →</a></td>
          </tr>
          <tr>
             <td>.paragraph<sup> OPT</sup></td>
             <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.paragraph": "{YPL.FFL.F0002-103-p_s_regular}"'><code>FFL.F0002-103</code></span></td>
             <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-103" alt="Link to Primitive page" class="btn">paragraph →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-103" alt="Link to Primitive page" class="btn">paragraph →</a></td>
          </tr>
         </tbody>
      </table>
