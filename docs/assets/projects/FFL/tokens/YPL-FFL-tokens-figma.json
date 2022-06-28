@@ -4921,7 +4921,7 @@
             },
             "textCase": {
               "name": "h8",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4934,7 +4934,7 @@
             },
             "textDecoration": {
               "name": "h8",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -5357,7 +5357,7 @@
             "icon": {
               "asset": {
                 "i": {
-                  "value": "{YPL.FFL.F0003-1}",
+                  "value": "{YPL.FFL.F0003-001}",
                   "type": "other",
                   "dictionary": {
                     "ios": true
@@ -5366,7 +5366,7 @@
                   "UIDs": {}
                 },
                 "hi": {
-                  "value": "{YPL.FFL.F0003-27}",
+                  "value": "{YPL.FFL.F0003-027}",
                   "type": "other",
                   "dictionary": {
                     "ios": true

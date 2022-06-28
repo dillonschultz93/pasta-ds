@@ -5693,7 +5693,7 @@
             },
             "textCase": {
               "name": "h8",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5708,7 +5708,7 @@
             },
             "textDecoration": {
               "name": "h8",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -6207,7 +6207,7 @@
             "icon": {
               "asset": {
                 "i": {
-                  "value": "{YPL.FFL.F0003-1}",
+                  "value": "{YPL.FFL.F0003-001}",
                   "dictionary": {
                     "figma": {
                       "type": "other"
@@ -6218,7 +6218,7 @@
                   "UIDs": {}
                 },
                 "hi": {
-                  "value": "{YPL.FFL.F0003-27}",
+                  "value": "{YPL.FFL.F0003-027}",
                   "dictionary": {
                     "figma": {
                       "type": "other"
