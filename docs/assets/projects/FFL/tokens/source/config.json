@@ -545,6 +545,18 @@
 			"apparatusTags": ["colors"],
 			"UIDs": {}
 		},
+    "YPL.FFL.TKUI_C.colors.transparent": {
+			"value": "#clear",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "color"
+				},
+				"ios": true
+			},
+			"apparatusTags": ["colors"],
+			"UIDs": {}
+		},
 		"YPL.FFL.TKUI_C.surface.light.300": {
 			"value": "#fcfcfc",
 			"description": "",
@@ -3509,7 +3521,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.height": {
+		"YPL.FFL.TKUI_D.E0001.height": {
 			"value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
 			"description": "",
 			"dictionary": {
@@ -3521,7 +3533,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingTop": {
+		"YPL.FFL.TKUI_D.E0001.paddingTop": {
 			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
@@ -3533,7 +3545,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingBottom": {
+		"YPL.FFL.TKUI_D.E0001.paddingBottom": {
 			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
@@ -3545,7 +3557,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingRight": {
+		"YPL.FFL.TKUI_D.E0001.paddingRight": {
 			"value": "{YPL.FFL.TKUI_C.spaces.s.value}",
 			"description": "",
 			"dictionary": {
@@ -3557,7 +3569,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.paddingLeft": {
+		"YPL.FFL.TKUI_D.E0001.paddingLeft": {
 			"value": "{YPL.FFL.TKUI_C.spaces.s.value}",
 			"description": "",
 			"dictionary": {
@@ -3569,7 +3581,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.radius": {
+		"YPL.FFL.TKUI_D.E0001.radius": {
 			"value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
 			"description": "",
 			"dictionary": {
@@ -3581,128 +3593,8 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.marginRight": {
-			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "spacing"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.fringeRight": {
-			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "spacing"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.visible": {
-			"value": "{YPL.CONST.boolean.false.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.label.visible": {
-			"value": "{YPL.CONST.boolean.true.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.asset": {
-			"value": "{YPL.FFL.TKUI_D.F0003-23}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.label.primitive": {
-			"value": "{YPL.FFL.TKUI_D.F0002-401}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "fontFamily"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.label.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.black.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.black.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.width": {
-			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.block.icon.height": {
-			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_baseOption.bgColor": {
-			"value": "{YPL.FFL.TKUI_C.surface.light.100.value}",
+    "YPL.FFL.TKUI_D.E0001.bgColor": {
+			"value": "{YPL.FFL.TKUI_C.colors.grey.100.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -3713,31 +3605,31 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_withIcon.block.icon.visible": {
-			"value": "{YPL.CONST.boolean.true.value}",
+		"YPL.FFL.TKUI_D.E0001.BLK_main.icon.marginRight": {
+			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
-					"type": "other"
+					"type": "spacing"
 				},
 				"ios": true
 			},
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_onlyIcon.block.icon.visible": {
-			"value": "{YPL.CONST.boolean.true.value}",
+		"YPL.FFL.TKUI_D.E0001.BLK_main.icon.fringeRight": {
+			"value": "{YPL.FFL.TKUI_C.spaces.xs.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
-					"type": "other"
+					"type": "spacing"
 				},
 				"ios": true
 			},
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_onlyIcon.block.label.visible": {
+		"YPL.FFL.TKUI_D.E0001.BLK_main.icon.visible": {
 			"value": "{YPL.CONST.boolean.false.value}",
 			"description": "",
 			"dictionary": {
@@ -3749,139 +3641,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.icon.asset": {
-			"value": "{YPL.FFL.TKUI_D.F0003-28}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_rating.bgColor": {
-			"value": "#clear",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.label.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.icon.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.orange.400.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_rating.block.icon.visible": {
-			"value": "{YPL.CONST.boolean.true.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverse.bgColor": {
-			"value": "{YPL.FFL.TKUI_C.surface.dark.300.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverse.block.label.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverse.block.icon.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.bgColor": {
-			"value": "{YPL.FFL.TKUI_C.surface.dark.300.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.block.label.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.block.icon.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseWithIcon.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.BLK_main.label.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3893,8 +3653,8 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.bgColor": {
-			"value": "{YPL.FFL.TKUI_C.surface.dark.300.value}",
+		"YPL.FFL.TKUI_D.E0001.BLK_main.icon.asset": {
+			"value": "{YPL.FFL.F0003-23}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -3905,8 +3665,20 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.block.icon.color": {
-			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
+		"YPL.FFL.TKUI_D.E0001.BLK_main.label.style": {
+			"value": "{YPL.FFL.F0002-401}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "fontFamily"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+		"YPL.FFL.TKUI_D.E0001.BLK_main.label.color": {
+			"value": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -3917,7 +3689,43 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.block.icon.visible": {
+		"YPL.FFL.TKUI_D.E0001.BLK_main.icon.color": {
+			"value": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "color"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+		"YPL.FFL.TKUI_D.E0001.BLK_main.icon.width": {
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "color"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+		"YPL.FFL.TKUI_D.E0001.BLK_main.icon.height": {
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "color"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+		"YPL.FFL.TKUI_D.E0001.OPT_withIcon.BLK_main.icon.visible": {
 			"value": "{YPL.CONST.boolean.true.value}",
 			"description": "",
 			"dictionary": {
@@ -3929,7 +3737,19 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0001.OPT_inverseOnlyIcon.block.label.visible": {
+		"YPL.FFL.TKUI_D.E0001.OPT_onlyIcon.BLK_main.icon.visible": {
+			"value": "{YPL.CONST.boolean.true.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+		"YPL.FFL.TKUI_D.E0001.OPT_onlyIcon.BLK_main.label.visible": {
 			"value": "{YPL.CONST.boolean.false.value}",
 			"description": "",
 			"dictionary": {
@@ -3990,7 +3810,31 @@
 			"UIDs": {}
 		},
     "YPL.FFL.TKUI_D.E0004-001.icon.asset": {
-			"value": "{YPL.FFL.TKUI_D.F0003-11}",
+			"value": "{YPL.FFL.F0003-11}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.E0004-001.icon.width": {
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.E0004-001.icon.height": {
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -4014,7 +3858,7 @@
 			"UIDs": {}
 		},
     "YPL.FFL.TKUI_D.E0004-001.bgColor.i": {
-			"value": "#clear",
+			"value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -4112,7 +3956,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_D.E0004-002.icon.asset.i": {
-			"value": "{YPL.FFL.TKUI_D.F0003-1}",
+			"value": "{YPL.FFL.F0003-1}",
 			"dictionary": {
 				"figma": {
 					"type": "other"
@@ -4122,7 +3966,42 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0004-002.icon.color": {
+		"YPL.FFL.TKUI_D.E0004-002.icon.color.i": {
+			"value": "{YPL.FFL.TKUI_C.colors.grey.900.value}",
+			"dictionary": {
+				"figma": {
+					"type": "color"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.E0004-002.icon.width": {
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.E0004-002.icon.height": {
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+		"YPL.FFL.TKUI_D.E0004-002.bgColor.i": {
 			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
 			"dictionary": {
 				"figma": {
@@ -4133,19 +4012,8 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-		"YPL.FFL.TKUI_D.E0004-002.bgColor.i": {
-			"value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": [],
-			"UIDs": {}
-		},
 		"YPL.FFL.TKUI_D.E0004-002.icon.asset.hi": {
-			"value": "{YPL.FFL.TKUI_D.F0003-27}",
+			"value": "{YPL.FFL.F0003-27}",
 			"dictionary": {
 				"figma": {
 					"type": "other"
@@ -4157,6 +4025,17 @@
 		},
 		"YPL.FFL.TKUI_D.E0004-002.bgColor.hi": {
 			"value": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
+			"dictionary": {
+				"figma": {
+					"type": "color"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.E0004-002.icon.color.hi": {
+			"value": "{YPL.FFL.TKUI_C.colors.white.value}",
 			"dictionary": {
 				"figma": {
 					"type": "color"
@@ -4266,7 +4145,7 @@
       "UIDs": {}
     },
     "YPL.FFL.TKUI_D.P0001.BLK_header.chip.element": {
-      "value": "{YPL.FFL.TKUI_D.E0001.OPT_baseOption}",
+      "value": "{YPL.FFL.E0001}",
       "dictionary": {
         "figma": {
           "type": "other"
@@ -4299,7 +4178,7 @@
       "UIDs": {}
     },
     "YPL.FFL.TKUI_D.P0001.BLK_copy.element": {
-      "value": "{YPL.FFL.TKUI_D.E0001.OPT_rating}",
+      "value": "{YPL.FFL.E0001.OPT_withIcon}",
       "dictionary": {
         "figma": {
           "type": "other"
@@ -4331,8 +4210,8 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.BLK_copy.heading.element": {
-      "value": "{YPL.FFL.TKUI_D.F0002-005}",
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.heading.style": {
+      "value": "{YPL.FFL.F0002-005}",
       "dictionary": {
         "figma": {
           "type": "other"
@@ -4387,7 +4266,7 @@
       "UIDs": {}
     },
     "YPL.FFL.TKUI_D.P0001.BLK_footer.switch.element": {
-      "value": "{YPL.FFL.TKUI_D.E0004-002}",
+      "value": "{YPL.FFL.E0004-002}",
       "dictionary": {
         "figma": {
           "type": "other"
@@ -4397,8 +4276,8 @@
       "apparatusTags": [],
       "UIDs": {}
     },
-    "YPL.FFL.TKUI_D.P0001.BLK_footer.eyebrow.primitive": {
-      "value": "{YPL.FFL.TKUI_D.F0002-401}",
+    "YPL.FFL.TKUI_D.P0001.BLK_footer.eyebrow.style": {
+      "value": "{YPL.FFL.F0002-401}",
       "dictionary": {
         "figma": {
           "type": "other"
@@ -4410,6 +4289,61 @@
     },
     "YPL.FFL.TKUI_D.P0001.BLK_footer.eyebrow.paddingRight": {
       "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0001.height.BRKP_m": {
+      "value": "{YPL.FFL.TKUI_C.sizes.macro.800.value}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0001.BLK_copy.heading.style.BRKP_m": {
+      "value": "{YPL.FFL.F0002-002}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0001.OPT_small.height": {
+      "value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style": {
+      "value": "{YPL.FFL.F0002-005}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element": {
+      "value": "{YPL.FFL.E0001.OPT_iconOnly}",
       "dictionary": {
         "figma": {
           "type": "other"

@@ -4,7 +4,7 @@ project_id: FFL # 3-letter code
 title: Poster Card # title case
 UID: P0001 # "P" = Pattern + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/poster-card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/poster-card-P0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
@@ -134,39 +134,33 @@ Poster Cards distinctive attribute is their background image that fill the card 
         <tbody>
          <tr>
             <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_header.chip": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_header.chip.element.value": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.chip": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.chip.element.value": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip" alt="Link to Element page" class="btn">Chip →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.heading</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.heading": "{YPL.FFL.F0002-005-heading_5}"'><code>FFL.F0002-005</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code>FFL.F0002-005</code></span></td>
             <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
          </tr>
          <tr>
             <td>.eyebrow</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.eyebrow": "{YPL.FFL.F0002-401-eyebrow}"'><code>FFL.F0002-401</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.eyebrow.style.value": "{YPL.FFL.F0002-401}"'><code>FFL.F0002-401</code></span></td>
             <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
          </tr>
          <tr>
             <td>.switchButton</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.switchButton": "{YPL.FFL.E0004-002-switchIcon}"'><code>FFL.E0004-002</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.switchButton.element.value": "{YPL.FFL.E0004-002}"'><code>FFL.E0004-002</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch#E0004-002" alt="Link to Element page" class="btn">switch →</a></td>
-         </tr>
-         <tr>
-            <td>.paragraph<sup> OPT</sup></td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.paragraph": "{YPL.FFL.F0002-103-p_s_regular}"'><code>FFL.F0002-103</code></span></td>
-            <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography#F0002-103" alt="Link to Primitive page" class="btn">paragraph →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch-E0004" alt="Link to Element page" class="btn">Switch →</a></td>
          </tr>
         </tbody>
      </table>
@@ -192,10 +186,9 @@ Poster Cards distinctive attribute is their background image that fill the card 
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height.OPT_small": "{YPL.FFL.TKUI_C.sizes.macro.700.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.size.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h4.size.value}"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.tracking.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h4.tracking.value}"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.leading.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h4.leading.value}"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.height.value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element.value": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>        
       </td>
       <!-- <td>
       <span data-toolclip='"YPL.FFL.TKUI_D.P0001.gradient": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
@@ -217,10 +210,10 @@ Light and Dark are the same.
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.BRKP_s&nbsp;(480)</th>
-      <th>.BRKP_m&nbsp;(768)</th>
-      <th>.BRKP_l&nbsp;(1024)</th>
-      <th>.BRKP_xl&nbsp;(1920)</th>
+      <th>← .BRKP_s&nbsp;(480)</th>
+      <th>← .BRKP_m&nbsp;(768)</th>
+      <th>← .BRKP_l&nbsp;(1024)</th>
+      <th>← .BRKP_xl&nbsp;(1920)</th>
     </tr>
   </thead>
   <tbody>
@@ -229,10 +222,8 @@ Light and Dark are the same.
         <span class="dimmed">( <i> default </i> )</span>
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height": "{YPL.FFL.TKUI_C.sizes.macro.800.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.size.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h2.size.value}"'><code class="language-plaintext highlighter-rouge">.h3.size</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.tracking.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h2.tracking.value}"'><code class="language-plaintext highlighter-rouge">.h3.tracking</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.h3.leading.OPT_small": "{YPL.FFL.TKUI_C.typo.Europa.h2.leading.value}"'><code class="language-plaintext highlighter-rouge">.h3.leading</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height.BKRP_m.value": "{YPL.FFL.TKUI_C.sizes.macro.800.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.BLK_copy.heading.style.value": "{YPL.FFL.F0002-002}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
       </td>
       <td>
         <!-- <span class="dimmed">N/A</span> -->
