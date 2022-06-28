@@ -134,31 +134,31 @@ Poster Cards distinctive attribute is their background image that fill the card 
         <tbody>
          <tr>
             <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_header.chip": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_header.chip.element.value": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.chip": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.chip.element.value": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
             <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
          </tr>
          <tr>
             <td>.heading</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.heading": "{YPL.FFL.F0002-005-heading_5}"'><code>FFL.F0002-005</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code>FFL.F0002-005</code></span></td>
             <!-- <td>Primitive</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
          </tr>
          <tr>
             <td>.eyebrow</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.eyebrow": "{YPL.FFL.F0002-401-eyebrow}"'><code>FFL.F0002-401</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.eyebrow.style.value": "{YPL.FFL.F0002-401}"'><code>FFL.F0002-401</code></span></td>
             <!-- <td>Primitive</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
          </tr>
          <tr>
             <td>.switchButton</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.switchButton": "{YPL.FFL.E0004-002-switchIcon}"'><code>FFL.E0004-002</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.switchButton.element.value": "{YPL.FFL.E0004-002}"'><code>FFL.E0004-002</code></span></td>
             <!-- <td>Element</td> -->
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch-E0004" alt="Link to Element page" class="btn">Switch →</a></td>
          </tr>
@@ -186,9 +186,9 @@ Poster Cards distinctive attribute is their background image that fill the card 
   <tbody>
     <tr>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.height": "{YPL.FFL.TKUI_C.sizes.macro.500.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style": "{YPL.FFL.F0002-005}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>        
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.height.value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element.value": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>        
       </td>
       <!-- <td>
       <span data-toolclip='"YPL.FFL.TKUI_D.P0001.gradient": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
@@ -222,8 +222,8 @@ Light and Dark are the same.
         <span class="dimmed">( <i> default </i> )</span>
       </td>
       <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height.BKRP_m": "{YPL.FFL.TKUI_C.sizes.macro.800.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.BLK_copy.heading.style": "{YPL.FFL.F0002-002}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.height.BKRP_m.value": "{YPL.FFL.TKUI_C.sizes.macro.800.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.BLK_copy.heading.style.value": "{YPL.FFL.F0002-002}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
       </td>
       <td>
         <!-- <span class="dimmed">N/A</span> -->

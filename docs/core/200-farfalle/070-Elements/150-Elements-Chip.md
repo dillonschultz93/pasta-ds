@@ -40,7 +40,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/9">&#35;9</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='TBD'><code>2</code></span></td>
+      <td><span data-toolclip='.OPT_withIcon, .OPT_onlyIcon'><code>2</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
       <td><a href="#status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
@@ -80,7 +80,7 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
    <div>
      {% highlight txt %}
           YPL.FFL.E0001
-          └─ .BLK_lockup
+          └─ .BLK_main
               ├─ .icon (optional)
               └─ .label (optional)
      {% endhighlight %}
@@ -111,12 +111,12 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
         <tbody>
          <tr>
             <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.icon": "{YPL.FFL.F0003-XXX}"'><code>FFL.F0003</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.icon.asset.value": "{YPL.FFL.F0003-XXX}"'><code>FFL.F0003</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons-F0003" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
          <tr>
             <td>.label</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label": "{YPL.FFLF0002-401}"'><code>FFL.F0002-401</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFLF0002-401}"'><code>FFL.F0002-401</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Typography Primitives page" class="btn">Eyebrow →</a></td>
          </tr>
         </tbody>

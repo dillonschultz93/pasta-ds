@@ -104,7 +104,7 @@ nav_order: 120
         <tbody>
          <tr>
             <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.icon.asset": "{YPL.FFL.F0003-XXX.HMN_icon}"'><code>FFL.F0003</code></span></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.icon.asset.value": "{YPL.FFL.F0003-XXX}"'><code>FFL.F0003</code></span></td>
             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons-F0003" alt="Link to Icon page" class="btn">Icon →</a></td>
          </tr>
         </tbody>
@@ -140,7 +140,7 @@ nav_order: 120
           <tbody>
             <tr>
               <td>
-                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.i.value": "#clear"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.transparent.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
                 <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.border.color.i.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
                 <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.visibility.i.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.icon.visibility</code></span>                                                  
               </td>
