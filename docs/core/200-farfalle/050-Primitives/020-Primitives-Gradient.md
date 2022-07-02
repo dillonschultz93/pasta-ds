@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Gradient # title case
 UID: F0004 # ["P","E","F"] + Hexa code/index
-variants: [] # all variants index
+variants: ["001","002"] # all variants index
 permalink: farfalle/primitives/gradient-F0004 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
@@ -11,7 +11,7 @@ layout: default
 nav_order: 020
 ---
 
-# Surfaces
+# Gradient
 {: .no_toc}
 
 
@@ -53,35 +53,14 @@ nav_order: 020
 
 ## Preview
 
-<section class="flex-1_1_1-cols surfaceSampleFlex">
-    <div>
-     <div class="surfaceSample" data-toolclip="YPL.FFL.TKUI_C.colors.lights.300" id="light-elevation-01"></div>
-     <p>Light Elevation 001</p>
-    </div>
-    <div>
-    <div class="surfaceSample" data-toolclip="YPL.FFL.TKUI_C.colors.lights.200" id="light-elevation-02"></div>
-     <p>Light Elevation 002</p>
-    </div>
-    <div>
-    <div class="surfaceSample" data-toolclip="YPL.FFL.TKUI_C.colors.lights.100" id="light-elevation-03"></div>
-     <p>Light Elevation 003</p>
-    </div>
-</section>
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-F0004-preview_01.png)
 
-<section class="flex-1_1_1-cols">
-    <div>
-     <div class="surfaceSample" data-toolclip="YPL.FFL.TKUI_C.colors.darks.900" id="dark-elevation-01"></div>
-     <p>Dark Elevation 101</p>
-    </div>
-    <div>
-    <div class="surfaceSample" data-toolclip="YPL.FFL.TKUI_C.colors.darks.800" id="dark-elevation-02"></div>
-     <p>Dark Elevation 102</p>
-    </div>
-    <div>
-    <div class="surfaceSample" data-toolclip="YPL.FFL.TKUI_C.colors.darks.700" id="dark-elevation-03"></div>
-     <p>Dark Elevation 103</p>
-    </div>
-</section>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=3643%3A49538" class="btn iconed figmaBadge">To Figma →</a>
+
+
+## Decisions
+
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-F0004-bp_decisions_01.png)
 
 ## Accessibility Status
 
