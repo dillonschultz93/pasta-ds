@@ -1,14 +1,14 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Surfaces # title case
-UID: F0001 # ["P","E","F"] + Hexa code/index
-variants: ["001","002","003","101","102","103"] # all variants index
-permalink: farfalle/primitives/surfaces-F0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Gradient # title case
+UID: F0004 # ["P","E","F"] + Hexa code/index
+variants: [] # all variants index
+permalink: farfalle/primitives/gradient-F0004 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 010
+nav_order: 020
 ---
 
 # Surfaces
@@ -30,9 +30,9 @@ nav_order: 010
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/27">&#35;27</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/42">&#35;42</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='OPT_layout2, OPT_small'><code>2</code></span></td>
+      <td><span data-toolclip='N/A'><code>N/A</code></span></td>
       <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
       <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
