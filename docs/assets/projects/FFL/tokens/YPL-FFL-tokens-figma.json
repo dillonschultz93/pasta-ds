@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220627-1756)",
+    "version": "0.1.0 (220701-1700)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -4959,6 +4959,246 @@
               "UIDs": {}
             }
           },
+          "F0004-001": {
+            "angle": {
+              "value": 64.93,
+              "description": "",
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "pointStart": {
+              "x": {
+                "value": 0,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "y": {
+                "value": 1,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "pointEnd": {
+              "x": {
+                "value": 0.63,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "y": {
+                "value": 0.24,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "point1": {
+              "position": {
+                "value": 0,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "color": {
+                "value": "{YPL.FFL.TKUI_C.colors.black}",
+                "description": "",
+                "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "opacity": {
+                "value": 0.87,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "point2": {
+              "position": {
+                "value": 0.67,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "color": {
+                "value": "{YPL.FFL.TKUI_C.colors.black}",
+                "description": "",
+                "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "opacity": {
+                "value": 0,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            }
+          },
+          "F0004-002": {
+            "angle": {
+              "value": 57.49,
+              "description": "",
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "pointStart": {
+              "x": {
+                "value": 0.07,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "y": {
+                "value": 1.11,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "pointEnd": {
+              "x": {
+                "value": 0.63,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "y": {
+                "value": 0.24,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "point1": {
+              "position": {
+                "value": -0.19,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "color": {
+                "value": "{YPL.FFL.TKUI_C.colors.black}",
+                "description": "",
+                "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "opacity": {
+                "value": 1,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "point2": {
+              "position": {
+                "value": 0.67,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "color": {
+                "value": "{YPL.FFL.TKUI_C.colors.black}",
+                "description": "",
+                "type": "color",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "opacity": {
+                "value": 0,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            }
+          },
           "E0001": {
             "height": {
               "value": "{YPL.FFL.TKUI_C.sizes.micro.1200}",
@@ -5176,6 +5416,150 @@
                     },
                     "apparatusTags": [],
                     "UIDs": {}
+                  }
+                }
+              }
+            }
+          },
+          "E0002": {
+            "BLK_image": {
+              "width": {
+                "value": "{YPL.FFL.TKUI_C.percents.full}",
+                "description": "",
+                "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                }
+              },
+              "height": {
+                "value": "{YPL.FFL.TKUI_C.percents.full}",
+                "description": "",
+                "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                }
+              },
+              "image": {
+                "width": {
+                  "value": "{YPL.FFL.TKUI_C.percents.full}",
+                  "description": "",
+                  "type": "sizing",
+                  "dictionary": {
+                    "ios": true
+                  }
+                },
+                "height": {
+                  "value": "{YPL.FFL.TKUI_C.percents.full}",
+                  "description": "",
+                  "type": "sizing",
+                  "dictionary": {
+                    "ios": true
+                  }
+                },
+                "radius": {
+                  "value": "{YPL.FFL.TKUI_C.corner.round}",
+                  "description": "",
+                  "type": "borderRadius",
+                  "dictionary": {
+                    "ios": true
+                  }
+                }
+              }
+            },
+            "BLK_copy": {
+              "width": {
+                "value": "{YPL.FFL.TKUI_C.percents.full}",
+                "description": "",
+                "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                }
+              },
+              "marginTop": {
+                "value": "{YPL.FFL.TKUI_C.spaces.s}",
+                "description": "",
+                "type": "spacing",
+                "dictionary": {
+                  "ios": true
+                }
+              },
+              "fringeTop": {
+                "value": "{YPL.FFL.TKUI_C.spaces.s}",
+                "description": "",
+                "type": "spacing",
+                "dictionary": {
+                  "ios": true
+                }
+              },
+              "label": {
+                "style": {
+                  "value": "{YPL.FFL.F0002-401}",
+                  "description": "",
+                  "type": "other",
+                  "dictionary": {
+                    "ios": true
+                  }
+                },
+                "visible": {
+                  "value": "{YPL.CONST.boolean.true}",
+                  "description": "",
+                  "type": "sizing",
+                  "dictionary": {
+                    "ios": true
+                  }
+                }
+              }
+            },
+            "OPT_noLabel": {
+              "BLK_copy": {
+                "label": {
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.false}",
+                    "description": "",
+                    "type": "sizing",
+                    "dictionary": {
+                      "ios": true
+                    }
+                  }
+                }
+              }
+            },
+            "OPT_square": {
+              "BLK_image": {
+                "image": {
+                  "radius": {
+                    "value": "{YPL.FFL.TKUI_C.sizes.micro.400}",
+                    "description": "",
+                    "type": "borderRadius",
+                    "dictionary": {
+                      "ios": true
+                    }
+                  }
+                }
+              }
+            },
+            "OPT_squareNoLabel": {
+              "BLK_image": {
+                "image": {
+                  "radius": {
+                    "value": "{YPL.FFL.TKUI_C.sizes.micro.400}",
+                    "description": "",
+                    "type": "borderRadius",
+                    "dictionary": {
+                      "ios": true
+                    }
+                  }
+                }
+              },
+              "BLK_copy": {
+                "label": {
+                  "visible": {
+                    "value": "{YPL.CONST.boolean.false}",
+                    "description": "",
+                    "type": "sizing",
+                    "dictionary": {
+                      "ios": true
+                    }
                   }
                 }
               }
@@ -5502,7 +5886,7 @@
               "UIDs": {}
             },
             "gradient": {
-              "value": "{YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR}",
+              "value": "{YPL.FFL.F0004-001}",
               "type": "other",
               "dictionary": {
                 "ios": true
@@ -5714,6 +6098,15 @@
                     "UIDs": {}
                   }
                 }
+              },
+              "gradient": {
+                "value": "{YPL.FFL.F0004-002}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
               }
             }
           }
