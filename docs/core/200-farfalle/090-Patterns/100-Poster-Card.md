@@ -96,6 +96,7 @@ Poster Cards distinctive attribute is their background image that fill the card 
    <div>
      {% highlight txt %}
           YPL.FFL.P0001
+          ├─ .gradient
           ├─ .BLK_header
           │   └─ .chip
           ├─ .BLK_copy
@@ -132,6 +133,12 @@ Poster Cards distinctive attribute is their background image that fill the card 
          </tr>
        </thead>
         <tbody>
+        <tr>
+            <td>.gradient</td>
+            <td><span data-toolclip='"YPL.FFL.P0001.gradient.value": "{YPL.FFL.F0004-001}"'><code>FFL.F0004</code></span></td>
+            <!-- <td>Element</td> -->
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/gradient-F0004" alt="Link to Primitive page" class="btn">Gradient →</a></td>
+         </tr>
          <tr>
             <td>.chip</td>
             <td><span data-toolclip='"YPL.FFL.P0001.BLK_header.chip.element.value": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
@@ -188,7 +195,8 @@ Poster Cards distinctive attribute is their background image that fill the card 
       <td>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.height.value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element.value": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>        
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element.value": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.gradient.value": "{YPL.FFL.F0004-002}"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>            
       </td>
       <!-- <td>
       <span data-toolclip='"YPL.FFL.TKUI_D.P0001.gradient": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
