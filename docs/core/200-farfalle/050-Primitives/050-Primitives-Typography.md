@@ -2767,16 +2767,16 @@ nav_order: 50
           <code class="language-plaintext highlighter-rouge">-h1.familyName</code>
         </span>
         <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.size": "YPL.FFL.TKUI_M.typo.europa.h1.size"'>
-          <code class="language-plaintext highlighter-rouge">-h1.size</code>
+          <code class="language-plaintext highlighter-rouge">-h1.size:&nbsp;48pt</code>
         </span>
         <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.leading": "YPL.FFL.TKUI_M.typo.europa.h1.leading"'>
-          <code class="language-plaintext highlighter-rouge">-h1.leading</code>
+          <code class="language-plaintext highlighter-rouge">-h1.leading:&nbsp;50.4pt</code>
         </span>
         <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing"'>
           <code class="language-plaintext highlighter-rouge">-h1.paragraphSpacing</code>
         </span>
         <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.tracking": "YPL.FFL.TKUI_M.typo.europa.h1.tracking'>
-          <code class="language-plaintext highlighter-rouge">-h1.letterSpacing</code>
+          <code class="language-plaintext highlighter-rouge">-h1.letterSpacing:&nbsp;</code>
         </span>
         <span data-toolclip='"YPL.FFL.TKUI_D.F0002-001.HMN_typo_europa-h1.textAlignHorizontal": "LEFT"'>
           <code class="language-plaintext highlighter-rouge">-h1.textAlignHorizontal</code>
