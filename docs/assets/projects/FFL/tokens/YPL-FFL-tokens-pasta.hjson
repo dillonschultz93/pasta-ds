@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220706-1712)",
+    "version": "0.1.0 (220707-1033)",
     "platform": "pasta",
     "type": "raw-nested",
     "format": "json",
@@ -2636,7 +2636,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2694,7 +2694,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 7,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2754,7 +2754,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2812,7 +2812,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2872,7 +2872,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 8,
+                    "value": 16.8,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -2930,7 +2930,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 8,
+                    "value": 16.8,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -2990,7 +2990,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 10,
+                    "value": 19.2,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -3048,7 +3048,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 10,
+                    "value": 19.2,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -3107,7 +3107,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 8,
+                  "value": 16.8,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3165,7 +3165,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 11,
+                  "value": 21.6,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3223,7 +3223,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 12,
+                  "value": 24,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3281,7 +3281,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 14,
+                  "value": 28.2,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3339,7 +3339,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 17,
+                  "value": 33.6,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3397,7 +3397,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 19,
+                  "value": 38.4,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3455,7 +3455,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 21,
+                  "value": 41.6,
                   "description": "FIXME",
                   "dictionary": {
                     "figma": {
@@ -3513,7 +3513,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 25,
+                  "value": 50.4,
                   "description": "FIXME",
                   "dictionary": {
                     "figma": {
