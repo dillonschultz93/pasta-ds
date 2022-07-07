@@ -931,7 +931,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading": {
-			"value": 9,
+			"value": 18,
 			"description": "FIXME",
 			"dictionary": {
 				"figma": {
@@ -943,7 +943,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading": {
-			"value": 7,
+			"value": 18,
 			"description": "FIXME",
 			"dictionary": {
 				"figma": {
@@ -955,7 +955,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.caption.regular.leading": {
-			"value": 9,
+			"value": 18,
 			"description": "FIXME",
 			"dictionary": {
 				"figma": {
@@ -967,7 +967,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.caption.strong.leading": {
-			"value": 9,
+			"value": 18,
 			"description": "FIXME",
 			"dictionary": {
 				"figma": {
@@ -979,7 +979,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.ps.regular.leading": {
-			"value": 8,
+			"value": 16.8,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -991,7 +991,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.ps.strong.leading": {
-			"value": 8,
+			"value": 16.8,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1003,7 +1003,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.p.regular.leading": {
-			"value": 10,
+			"value": 19.2,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1015,7 +1015,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.p.strong.leading": {
-			"value": 10,
+			"value": 19.2,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1027,7 +1027,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h8.leading": {
-			"value": 8,
+			"value": 16.8,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1039,7 +1039,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h7.leading": {
-			"value": 11,
+			"value": 21.6,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1051,7 +1051,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h6.leading": {
-			"value": 12,
+			"value": 24,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1063,7 +1063,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h5.leading": {
-			"value": 14,
+			"value": 28.2,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1075,7 +1075,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h4.leading": {
-			"value": 17,
+			"value": 33.6,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1087,7 +1087,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h3.leading": {
-			"value": 19,
+			"value": 38.4,
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -1099,7 +1099,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h2.leading": {
-			"value": 21,
+			"value": 41.6,
 			"description": "FIXME",
 			"dictionary": {
 				"figma": {
@@ -1111,7 +1111,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h1.leading": {
-			"value": 25,
+			"value": 50.4,
 			"description": "FIXME",
 			"dictionary": {
 				"figma": {
