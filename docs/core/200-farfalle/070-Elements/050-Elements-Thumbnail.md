@@ -2,14 +2,13 @@
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Thumbnail # title case
-UID: E0003 # ["P","E","F"] + Hexa code/index
+UID: E0002 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
 permalink: farfalle/elements/thumbnail-E0003 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
 nav_order: 050
-nav_exclude: true
 ---
 
 <!-- Utility scripts -->
@@ -39,7 +38,7 @@ Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Integer 
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/22">&#35;22</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='TBD'><code>TBD</code></span></td>
+      <td><span data-toolclip='.OPT_noLabel, .OPT_square, .OPT_squareNoLabel'><code>3</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
       <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
@@ -53,12 +52,103 @@ Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Integer 
   </tbody>
 </table>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}{: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
 <a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1948%3A36688" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}
+
+## Layout
+
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_layout_01.png)
+
+## Dependencies
+
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_dependencies_01.png)
+
+<details>
+<summary>Tree</summary>
+ <section class="flex-1_2-cols">
+   <div>
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+    </p>
+   </div>
+   <div>
+     {% highlight txt %}
+          YPL.FFL.{{page.UID}}
+          └─ .BLK_copy
+              └─ .label (optional)
+     {% endhighlight %}
+   </div>
+ </section>
+</details>
+<hr>
+
+### Links
+
+<section class="flex-1_2-cols">
+   <div>
+     <br>
+    <p>
+     This Element requires that you implement and instantiate all these dependencies.<br>
+     Please refer to each component in this list&nbsp;→
+     </p>
+   </div>
+   <div>
+     <table>
+       <thead>
+         <tr>
+           <th>Instance</th>
+           <th>Component</th>
+           <th></th>
+         </tr>
+       </thead>
+        <tbody>
+         <tr>
+            <td>.label</td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_copy.label.style.value": "{YPL.FFL.F0002-401}"'><code>FFL.F0002-401</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Typography Primitives page" class="btn">Eyebrow →</a></td>
+         </tr>
+        </tbody>
+     </table>
+   </div>
+ </section>
+
+## Decisions
+
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_decisions_01.png)
+
+### Variations
+
+#### Options
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.OPT_noLabel</th>
+      <th>.OPT_square</th>
+      <th>.OPT_squareNoLabel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{page.UID}}.OPT_noLabel.BLK_copy.label.visible.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.label.visible</code></span>
+      </td>    
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{page.UID}}.OPT_square.BLK_image.image.radius.value": "{YPL.FFL.TKUI_C.sizes.micro.400.value}"'><code class="language-plaintext highlighter-rouge">.BLK_image.image.radius</code></span>
+      </td>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{page.UID}}.OPT_squareNoLabel.BLK_image.image.radius.value": "{YPL.FFL.TKUI_C.sizes.micro.400.value}"'><code class="language-plaintext highlighter-rouge">.BLK_image.image.radius</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{page.UID}}.OPT_noLabel.BLK_copy.label.visible.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.label.visible</code></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Checklist
