@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220701-1700)",
+    "version": "0.1.0 (220707-1033)",
     "platform": "pasta",
     "type": "raw-nested",
     "format": "json",
@@ -814,6 +814,20 @@
             },
             "xl": {
               "value": "85%",
+              "description": "",
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                },
+                "ios": true
+              },
+              "apparatusTags": [
+                "percents"
+              ],
+              "UIDs": {}
+            },
+            "xxl": {
+              "value": "89%",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -2622,7 +2636,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2680,7 +2694,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 7,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2740,7 +2754,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2798,7 +2812,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "dictionary": {
                       "figma": {
@@ -2858,7 +2872,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 8,
+                    "value": 16.8,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -2916,7 +2930,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 8,
+                    "value": 16.8,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -2976,7 +2990,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 10,
+                    "value": 19.2,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -3034,7 +3048,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 10,
+                    "value": 19.2,
                     "description": "",
                     "dictionary": {
                       "figma": {
@@ -3093,7 +3107,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 8,
+                  "value": 16.8,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3151,7 +3165,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 11,
+                  "value": 21.6,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3209,7 +3223,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 12,
+                  "value": 24,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3267,7 +3281,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 14,
+                  "value": 28.2,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3325,7 +3339,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 17,
+                  "value": 33.6,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3383,7 +3397,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 19,
+                  "value": 38.4,
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -3441,7 +3455,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 21,
+                  "value": 41.6,
                   "description": "FIXME",
                   "dictionary": {
                     "figma": {
@@ -3499,7 +3513,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 25,
+                  "value": 50.4,
                   "description": "FIXME",
                   "dictionary": {
                     "figma": {
@@ -3638,7 +3652,7 @@
             },
             "textCase": {
               "name": "eyebrow",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -3653,7 +3667,7 @@
             },
             "textDecoration": {
               "name": "eyebrow",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -3775,7 +3789,7 @@
             },
             "textCase": {
               "name": "eyebrowSmall",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -3790,7 +3804,7 @@
             },
             "textDecoration": {
               "name": "eyebrowSmall",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -3912,7 +3926,7 @@
             },
             "textCase": {
               "name": "captionRegular",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -3927,7 +3941,7 @@
             },
             "textDecoration": {
               "name": "captionRegular",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4049,7 +4063,7 @@
             },
             "textCase": {
               "name": "captionStrong",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4064,7 +4078,7 @@
             },
             "textDecoration": {
               "name": "captionStrong",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4186,7 +4200,7 @@
             },
             "textCase": {
               "name": "paragraphSmallRegular",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4201,7 +4215,7 @@
             },
             "textDecoration": {
               "name": "paragraphSmallRegular",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4323,7 +4337,7 @@
             },
             "textCase": {
               "name": "paragraphSmallStrong",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4338,7 +4352,7 @@
             },
             "textDecoration": {
               "name": "paragraphSmallStrong",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4460,7 +4474,7 @@
             },
             "textCase": {
               "name": "paragraphRegular",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4475,7 +4489,7 @@
             },
             "textDecoration": {
               "name": "paragraphRegular",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4597,7 +4611,7 @@
             },
             "textCase": {
               "name": "paragraphStrong",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4612,7 +4626,7 @@
             },
             "textDecoration": {
               "name": "paragraphStrong",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4734,7 +4748,7 @@
             },
             "textCase": {
               "name": "h1",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4749,7 +4763,7 @@
             },
             "textDecoration": {
               "name": "h1",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4871,7 +4885,7 @@
             },
             "textCase": {
               "name": "h2",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -4886,7 +4900,7 @@
             },
             "textDecoration": {
               "name": "h2",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5008,7 +5022,7 @@
             },
             "textCase": {
               "name": "h3",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5023,7 +5037,7 @@
             },
             "textDecoration": {
               "name": "h3",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5145,7 +5159,7 @@
             },
             "textCase": {
               "name": "h4",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5160,7 +5174,7 @@
             },
             "textDecoration": {
               "name": "h4",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5282,7 +5296,7 @@
             },
             "textCase": {
               "name": "h5",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5297,7 +5311,7 @@
             },
             "textDecoration": {
               "name": "h5",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5419,7 +5433,7 @@
             },
             "textCase": {
               "name": "h6",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5434,7 +5448,7 @@
             },
             "textDecoration": {
               "name": "h6",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5556,7 +5570,7 @@
             },
             "textCase": {
               "name": "h7",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -5571,7 +5585,7 @@
             },
             "textDecoration": {
               "name": "h7",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none.value}",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -6848,6 +6862,17 @@
               "apparatusTags": [],
               "UIDs": {}
             },
+            "bgFillMode": {
+              "value": "{YPL.CONST.backgroundSize.cover.value}",
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                },
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
             "BLK_header": {
               "marginBottom": {
                 "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
@@ -6966,6 +6991,17 @@
                     "UIDs": {}
                   }
                 },
+                "color": {
+                  "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                  "dictionary": {
+                    "figma": {
+                      "type": "color"
+                    },
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
                 "marginBottom": {
                   "value": "-{YPL.FFL.TKUI_C.spaces.xs.value}",
                   "dictionary": {
@@ -7038,6 +7074,17 @@
                   "apparatusTags": [],
                   "UIDs": {}
                 },
+                "color": {
+                  "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                  "dictionary": {
+                    "figma": {
+                      "type": "color"
+                    },
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
                 "paddingRight": {
                   "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
                   "dictionary": {
@@ -7095,6 +7142,30 @@
               },
               "gradient": {
                 "value": "{YPL.FFL.F0004-002}",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  },
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "OPT_inSlider": {
+              "width": {
+                "value": "{YPL.FFL.TKUI_C.percents.xxl.value}",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  },
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "fringeRight": {
+                "value": "{YPL.FFL.TKUI_C.spaces.sm.value}",
                 "dictionary": {
                   "figma": {
                     "type": "other"
@@ -7278,6 +7349,20 @@
           },
           "strikethrough": {
             "value": "STRIKETHROUGH",
+            "description": "",
+            "dictionary": {
+              "figma": {
+                "type": "other"
+              },
+              "ios": true
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          }
+        },
+        "backgroundSize": {
+          "cover": {
+            "value": "cover",
             "description": "",
             "dictionary": {
               "figma": {

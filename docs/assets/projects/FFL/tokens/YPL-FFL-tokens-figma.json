@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220701-1700)",
+    "version": "0.1.0 (220707-1033)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -702,6 +702,18 @@
             },
             "xl": {
               "value": "85%",
+              "description": "",
+              "type": "sizing",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [
+                "percents"
+              ],
+              "UIDs": {}
+            },
+            "xxl": {
+              "value": "89%",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -2258,7 +2270,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2308,7 +2320,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 7,
+                    "value": 18,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2360,7 +2372,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2410,7 +2422,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 9,
+                    "value": 18,
                     "description": "FIXME",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2462,7 +2474,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 8,
+                    "value": 16.8,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2512,7 +2524,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 8,
+                    "value": 16.8,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2564,7 +2576,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 10,
+                    "value": 19.2,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2614,7 +2626,7 @@
                     "UIDs": {}
                   },
                   "leading": {
-                    "value": 10,
+                    "value": 19.2,
                     "description": "",
                     "type": "lineHeights",
                     "dictionary": {
@@ -2665,7 +2677,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 8,
+                  "value": 16.8,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2715,7 +2727,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 11,
+                  "value": 21.6,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2765,7 +2777,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 12,
+                  "value": 24,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2815,7 +2827,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 14,
+                  "value": 28.2,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2865,7 +2877,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 17,
+                  "value": 33.6,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2915,7 +2927,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 19,
+                  "value": 38.4,
                   "description": "",
                   "type": "lineHeights",
                   "dictionary": {
@@ -2965,7 +2977,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 21,
+                  "value": 41.6,
                   "description": "FIXME",
                   "type": "lineHeights",
                   "dictionary": {
@@ -3015,7 +3027,7 @@
                   "UIDs": {}
                 },
                 "leading": {
-                  "value": 25,
+                  "value": 50.4,
                   "description": "FIXME",
                   "type": "lineHeights",
                   "dictionary": {
@@ -3136,7 +3148,7 @@
             },
             "textCase": {
               "name": "eyebrow",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3149,7 +3161,7 @@
             },
             "textDecoration": {
               "name": "eyebrow",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3255,7 +3267,7 @@
             },
             "textCase": {
               "name": "eyebrowSmall",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3268,7 +3280,7 @@
             },
             "textDecoration": {
               "name": "eyebrowSmall",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3374,7 +3386,7 @@
             },
             "textCase": {
               "name": "captionRegular",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3387,7 +3399,7 @@
             },
             "textDecoration": {
               "name": "captionRegular",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3493,7 +3505,7 @@
             },
             "textCase": {
               "name": "captionStrong",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3506,7 +3518,7 @@
             },
             "textDecoration": {
               "name": "captionStrong",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3612,7 +3624,7 @@
             },
             "textCase": {
               "name": "paragraphSmallRegular",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3625,7 +3637,7 @@
             },
             "textDecoration": {
               "name": "paragraphSmallRegular",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3731,7 +3743,7 @@
             },
             "textCase": {
               "name": "paragraphSmallStrong",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3744,7 +3756,7 @@
             },
             "textDecoration": {
               "name": "paragraphSmallStrong",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3850,7 +3862,7 @@
             },
             "textCase": {
               "name": "paragraphRegular",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3863,7 +3875,7 @@
             },
             "textDecoration": {
               "name": "paragraphRegular",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3969,7 +3981,7 @@
             },
             "textCase": {
               "name": "paragraphStrong",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -3982,7 +3994,7 @@
             },
             "textDecoration": {
               "name": "paragraphStrong",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4088,7 +4100,7 @@
             },
             "textCase": {
               "name": "h1",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4101,7 +4113,7 @@
             },
             "textDecoration": {
               "name": "h1",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4207,7 +4219,7 @@
             },
             "textCase": {
               "name": "h2",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4220,7 +4232,7 @@
             },
             "textDecoration": {
               "name": "h2",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4326,7 +4338,7 @@
             },
             "textCase": {
               "name": "h3",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4339,7 +4351,7 @@
             },
             "textDecoration": {
               "name": "h3",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4445,7 +4457,7 @@
             },
             "textCase": {
               "name": "h4",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4458,7 +4470,7 @@
             },
             "textDecoration": {
               "name": "h4",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4564,7 +4576,7 @@
             },
             "textCase": {
               "name": "h5",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4577,7 +4589,7 @@
             },
             "textDecoration": {
               "name": "h5",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4683,7 +4695,7 @@
             },
             "textCase": {
               "name": "h6",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4696,7 +4708,7 @@
             },
             "textDecoration": {
               "name": "h6",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4802,7 +4814,7 @@
             },
             "textCase": {
               "name": "h7",
-              "value": "ORIGINAL",
+              "value": "{YPL.CONST.textCase.original}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -4815,7 +4827,7 @@
             },
             "textDecoration": {
               "name": "h7",
-              "value": "NONE",
+              "value": "{YPL.CONST.textDecoration.none}",
               "description": "",
               "type": "other",
               "dictionary": {
@@ -5894,6 +5906,15 @@
               "apparatusTags": [],
               "UIDs": {}
             },
+            "bgFillMode": {
+              "value": "{YPL.CONST.backgroundSize.cover}",
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
             "BLK_header": {
               "marginBottom": {
                 "value": "{YPL.FFL.TKUI_C.spaces.l}",
@@ -5992,6 +6013,15 @@
                     "UIDs": {}
                   }
                 },
+                "color": {
+                  "value": "{YPL.FFL.TKUI_C.colors.white}",
+                  "type": "color",
+                  "dictionary": {
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
                 "marginBottom": {
                   "value": "-{YPL.FFL.TKUI_C.spaces.xs}",
                   "type": "other",
@@ -6052,6 +6082,15 @@
                   "apparatusTags": [],
                   "UIDs": {}
                 },
+                "color": {
+                  "value": "{YPL.FFL.TKUI_C.colors.white}",
+                  "type": "color",
+                  "dictionary": {
+                    "ios": true
+                  },
+                  "apparatusTags": [],
+                  "UIDs": {}
+                },
                 "paddingRight": {
                   "value": "{YPL.FFL.TKUI_C.spaces.s}",
                   "type": "other",
@@ -6101,6 +6140,26 @@
               },
               "gradient": {
                 "value": "{YPL.FFL.F0004-002}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "OPT_inSlider": {
+              "width": {
+                "value": "{YPL.FFL.TKUI_C.percents.xxl}",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "fringeRight": {
+                "value": "{YPL.FFL.TKUI_C.spaces.sm}",
                 "type": "other",
                 "dictionary": {
                   "ios": true
@@ -6256,6 +6315,18 @@
           },
           "strikethrough": {
             "value": "STRIKETHROUGH",
+            "description": "",
+            "type": "other",
+            "dictionary": {
+              "ios": true
+            },
+            "apparatusTags": [],
+            "UIDs": {}
+          }
+        },
+        "backgroundSize": {
+          "cover": {
+            "value": "cover",
             "description": "",
             "type": "other",
             "dictionary": {

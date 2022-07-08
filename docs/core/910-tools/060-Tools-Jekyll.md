@@ -140,7 +140,7 @@ We host Pasta using <a href="https://docs.github.com/en/pages/setting-up-a-githu
 
 ## Just The Docs · Jekyll's template
 
-We are using [Just The Docs](https://pmarsceill.github.io/just-the-docs/). The template has its own set of features, styling and rules and you'd better get familiar with it if you have to contribute to Pasta.
+We are using [Just The Docs](https://just-the-docs.github.io/just-the-docs/). The template has its own set of features, styling and rules and you'd better get familiar with it if you have to contribute to Pasta.
 
 [RTFM](https://en.wikipedia.org/wiki/RTFM)
 {: .label}
@@ -451,3 +451,19 @@ We use 2 classes `tabs` and `tab`, and radio buttons:
   </tbody>
 </table>
 ```
+
+## Images and Videos
+
+### 4x PNGs
+
+All static material is exported from Figma as 4x transparent png. The background color of the images is managed by our CSS (which allows for future cross site tweaking).
+
+For the optimization we highly recommend using a utility such as [ImageOptim](https://imageoptim.com/mac) on Mac OS.
+
+### Animated GIFs for videos
+
+Github [now allows to embed videos](https://www.cazzulino.com/github-pages-embed-video.html), but for now we're using animated GIFs. We highly recommend to use [Gifox](https://gifox.io/) on Mac to create and export GIFs.
+
+For easy Video crops that doesn't involve heavy lifting (Final Cut Pro or Adobe Premiere) we highly recommend to use utility such as [Capto](https://www.globaldelight.com/capto/)
+
+

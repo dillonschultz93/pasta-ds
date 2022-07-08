@@ -79,8 +79,8 @@ nav_order: 50
   <div>
     <p>
       To help to resolve our margins into fringes we use some rules of thumb:
-      <li><code>fringeTop</code> is always null, or set to zero</li>
-      <li>Always try to resolve vertical space between two components into the <code>fringeBottom</code> of the component on top</li>
+      <li><code>fringeTop</code> and <code>fringeLeft</code> are always null, or set to zero</li>
+      <li>Always try to resolve vertical space between two components into the <code>fringeBottom</code> of the component on top — Always try to resolve horizontal space between two components into the <code>fringeRight</code> of the component the farthest left</li>
     </p>
   </div>
   <div>
