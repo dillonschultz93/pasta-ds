@@ -9,6 +9,7 @@ grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
 nav_order: 050
+nav_exclude: true
 ---
 
 <!-- Utility scripts -->
