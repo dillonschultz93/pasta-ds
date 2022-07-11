@@ -8,7 +8,7 @@ permalink: farfalle/primitives/surfaces-F0001 # lowercase + use hyphens › htt
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 040
+nav_order: 100
 ---
 
 # Surfaces

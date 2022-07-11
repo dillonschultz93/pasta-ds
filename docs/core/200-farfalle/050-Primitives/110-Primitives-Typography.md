@@ -8,7 +8,7 @@ permalink: farfalle/primitives/typography-F0002 # lowercase + use hyphens › h
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 50
+nav_order: 110
 ---
 
 <!-- Set the choices and nomenclature for token naming -->

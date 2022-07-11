@@ -8,7 +8,7 @@ permalink: farfalle/primitives/gradient-F0004 # lowercase + use hyphens › htt
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 020
+nav_order: 130
 ---
 
 # Gradient

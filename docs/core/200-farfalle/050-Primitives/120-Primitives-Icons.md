@@ -8,7 +8,7 @@ permalink: farfalle/primitives/icons-F0003 # lowercase + use hyphens › https:/
 grand_parent: Farfalle # title case
 parent: Primitives # title case
 layout: default
-nav_order: 100
+nav_order: 120
 ---
 
 <!-- FIXME — ↑↓ not clear where "3FF" and "7FF" are represented, in the local SVG yup but not inside the Zip archive  -->
