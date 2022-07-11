@@ -8,7 +8,7 @@ permalink: farfalle/elements/button # lowercase + use hyphens › https://tinyu
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 100
+nav_order: 120
 nav_exclude: true
 ---
 

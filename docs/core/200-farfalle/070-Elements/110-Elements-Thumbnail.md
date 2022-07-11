@@ -4,12 +4,11 @@ project_id: FFL # 3-letter code
 title: Thumbnail # title case
 UID: E0002 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/elements/thumbnail-E0003 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/elements/thumbnail-E0002 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 050
-nav_exclude: true
+nav_order: 110
 ---
 
 <!-- Utility scripts -->

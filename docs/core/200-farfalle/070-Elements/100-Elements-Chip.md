@@ -1,26 +1,28 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Toggle # title case
-UID: E0005 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/toggle-E0005 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Chip # title case
+UID: E0001 # ["P","E","F"] + Hexa code/index
+variants: [] # all variants index
+permalink: farfalle/elements/chip-E0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 130
-nav_exclude: true
+nav_order: 100
 ---
 
 <!-- Utility scripts -->
 <script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
+
 <!-- Inject Pasta Apparatus ad hoc script ↓ -->
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
-# Toggle
+
+# Chip
 {: .no_toc}
 
-Typical toggle buttons are used to switch between two states.
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
 
 <table class="headTopBorder">
   <thead>
@@ -36,11 +38,11 @@ Typical toggle buttons are used to switch between two states.
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td>TBD</td>
+      <td><a href="https://github.com/yummly/pasta/issues/9">&#35;9</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='N/A'><code>N/A</code></span></td>
+      <td><span data-toolclip='.OPT_withIcon, .OPT_onlyIcon'><code>2</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
-      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
+      <td><a href="#status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
@@ -52,70 +54,113 @@ Typical toggle buttons are used to switch between two states.
   </tbody>
 </table>
 
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_01.png){: .darkenabled}
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0005.png){: .darkenabled}
-
-<hr>
-
-<a href="https://www.figma.com/file/vgFO9FqjNe0EAmrVwaokOH/?node-id=2116%3A38531" class="btn iconed figmaBadge">To Figma →<a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1519%3A36181" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}
 
-## Specs
+## Layout
 
-![Toggle Specs]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0005-bp_decisions.png)
-### Interactions
-<h4>Default</h4>
-  <table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.i (idle)</th>
-      <th>.o (mouse over)</th>
-      <th>.p (pressed)</th>
-      <th>.f (focus)</th>
-      <th>.w (waiting)</th>
-      <th>.d (disabled)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><span class="">-</span></td>
-      <td><span class="dimmed">-</span></td>
-      <td><span class="dimmed">-</span></td>
-      <td><span class="dimmed">-</span></td>
-      <td><span class="dimmed">-</span></td>
-      <td><span class="dimmed">-</span></td>
-    </tr>
-  </tbody>
-</table>
-<h4>Highlighted</h4>
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_layout_01.png)
+
+## Dependencies
+
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_dependencies_01.png)
+
+<details>
+<summary>Tree</summary>
+ <section class="flex-1_2-cols">
+   <div>
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+    </p>
+   </div>
+   <div>
+     {% highlight txt %}
+          YPL.FFL.E0001
+          └─ .BLK_main
+              ├─ .icon (optional)
+              └─ .label (optional)
+     {% endhighlight %}
+   </div>
+ </section>
+</details>
+<hr>
+
+### Links
+
+<section class="flex-1_2-cols">
+   <div>
+     <br>
+    <p>
+     This Element requires that you implement and instantiate all these dependencies.<br>
+     Please refer to each component in this list&nbsp;→
+     </p>
+   </div>
+   <div>
+     <table>
+       <thead>
+         <tr>
+           <th>Instance</th>
+           <th>Component</th>
+           <th></th>
+         </tr>
+       </thead>
+        <tbody>
+         <tr>
+            <td>.icon</td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.icon.asset.value": "{YPL.FFL.F0003-XXX}"'><code>FFL.F0003</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons-F0003" alt="Link to Icon page" class="btn">Icon →</a></td>
+         </tr>
+         <tr>
+            <td>.label</td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFLF0002-401}"'><code>FFL.F0002-401</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Typography Primitives page" class="btn">Eyebrow →</a></td>
+         </tr>
+        </tbody>
+     </table>
+   </div>
+ </section>
+
+## Decisions
+
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
+
+
+### Variations
+
+#### Options
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
+
 <table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.hi</th>
-      <th>.ho</th>
-      <th>.hp</th>
-      <th>.hf</th>
-      <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the compoment is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
-      <th>.hw</th>
-      <th>.hd</th>
+      <th>.OPT_withIcon</th>
+      <th>.OPT_onlyIcon</th>   
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td><span class="">-</span></td>
-    <td><span class="dimmed">-</span></td>
-    <td><span class="dimmed">-</span></td>
-    <td><span class="dimmed">-</span></td>
-    <td><span class="dimmed">-</span></td>
-    <td><span class="dimmed">-</span></td>
-    <td><span class="dimmed">-</span></td>
-  </tr>
+    <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.OPT_withIcon.BLK_main.icon.visible.value": "{YPL.CONST.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.BLK_main.icon.visible</code></span>
+      </td>    
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.OPT_onlyIcon.BLK_main.icon.visible.value": "{YPL.CONST.boolean.true.value}"'><code class="language-plaintext highlighter-rouge">.BLK_main.icon.visible</code></span> 
+        <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}.OPT_onlyIcon.BLK_main.label.visible.value": "{YPL.CONST.boolean.false.value}"'><code class="language-plaintext highlighter-rouge">.BLK_main.label.visible</code></span>
+      </td>
+    </tr>
   </tbody>
 </table>
+
+<!-- #### Modes (N/A) -->
+<!-- {: .no_toc} -->
+
+
+<!-- #### Breakpoints (N/A) -->
+<!-- {: .no_toc} -->
 
 <!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
@@ -135,6 +180,44 @@ Typical toggle buttons are used to switch between two states.
     </tr>
   </tbody>
 </table> -->
+
+<!-- ## Tokens Playground
+
+Playground · Pattern-siloed Tokens including all required Choices and Decisions: -->
+
+<!-- <table>
+    <tr class="playground-details-row" id="css">
+        <td><button class="btn">CSS Tokens</button></td>
+    </tr>
+    <tr class="playground-details-row" id="ios">
+        <td><button class="btn copy-token-btn">iOS Tokens</button></td>
+    </tr>
+    <tr class="playground-details-row" id="android">
+        <td><button class="btn">Android Tokens</button></td>
+    </tr>
+    <tr class="playground-details-row" id="figma-tokens">
+        <td><button class="btn">Figma Tokens</button></td>
+    </tr>
+</table> -->
+
+
+<!--
+## Copy Writing Guidelines
+
+<section class="flex-1_1-cols">
+  <div>
+    <p>
+     Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
+    </p>
+    <hr class="dd-do">
+  </div>
+   <div>
+     <p>
+      Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo.<br><br>
+     </p>
+      <hr class="dd-dont">
+ </div>
+ </section> -->
 
 ## Accessibility Status
 
