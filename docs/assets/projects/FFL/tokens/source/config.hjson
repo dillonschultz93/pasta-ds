@@ -3921,7 +3921,7 @@
 
     // THUMBNAIL ------------------------------------------------------------------------------------------------------------------------
 
-    "YPL.FFL.TKUI_D.E0002.BLK_image.width": {
+    "YPL.FFL.TKUI_D.E0002.BLK_main.width": {
       "value": "{YPL.FFL.TKUI_C.percents.full.value}",
       "description": "",
       "dictionary": {
@@ -3931,7 +3931,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0002.BLK_image.height": {
+    "YPL.FFL.TKUI_D.E0002.BLK_main.height": {
       "value": "{YPL.FFL.TKUI_C.percents.full.value}",
       "description": "",
       "dictionary": {
@@ -3941,125 +3941,23 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0002.BLK_image.image.width": {
-      "value": "{YPL.FFL.TKUI_C.percents.full.value}",
+    "YPL.FFL.TKUI_D.E0002.BLK_main.radius": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
       "description": "",
       "dictionary": {
         "figma": {
-          "type": "sizing"
+          "type": "borderRadius"
         },
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0002.BLK_image.image.height": {
-      "value": "{YPL.FFL.TKUI_C.percents.full.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0002.BLK_image.image.radius": {
+    // OPT_circle
+    "YPL.FFL.TKUI_D.E0002.OPT_circle.BLK_main.radius": {
       "value": "{YPL.FFL.TKUI_C.corner.round.value}",
       "description": "",
       "dictionary": {
         "figma": {
           "type": "borderRadius"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0002.BLK_copy.width": {
-      "value": "{YPL.FFL.TKUI_C.percents.full.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0002.BLK_copy.marginTop": {
-      "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "spacing"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0002.BLK_copy.fringeTop": {
-      "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "spacing"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0002.BLK_copy.label.style": {
-      "value": "{YPL.FFL.F0002-401}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "other"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0002.BLK_copy.label.visible": {
-      "value": "{YPL.CONST.boolean.true.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
-    // OPT_noLabel
-    "YPL.FFL.TKUI_D.E0002.OPT_noLabel.BLK_copy.label.visible": {
-      "value": "{YPL.CONST.boolean.false.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
-    // OPT_square
-    "YPL.FFL.TKUI_D.E0002.OPT_square.BLK_image.image.radius": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "borderRadius"
-        },
-        "ios": true
-      },
-    },
-    //OPT_squareNoLabel
-    "YPL.FFL.TKUI_D.E0002.OPT_squareNoLabel.BLK_image.image.radius": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "borderRadius"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0002.OPT_squareNoLabel.BLK_copy.label.visible": {
-      "value": "{YPL.CONST.boolean.false.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
         },
         "ios": true
       },
