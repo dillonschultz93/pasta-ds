@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220711-1153)",
+    "version": "0.1.0 (220711-1625)",
     "platform": "iOS",
     "type": "raw-nested",
     "format": "json",
@@ -1087,6 +1087,20 @@
                 "colors"
               ],
               "UIDs": {}
+            },
+            "shadow": {
+              "value": "rgba(0, 0, 0, 0.15)",
+              "description": "",
+              "dictionary": {
+                "figma": {
+                  "type": "color"
+                },
+                "ios": true
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
             }
           },
           "surface": {
@@ -1176,40 +1190,6 @@
                   "colors"
                 ],
                 "UIDs": {}
-              }
-            }
-          },
-          "gradients": {
-            "overlay": {
-              "black": {
-                "BL_TR": {
-                  "value": "linear-gradient(64deg, YPL.FFL.TKUI_C.colors.black.value 0%, YPL.FFL.TKUI_C.colors.black.value 100%)",
-                  "description": "",
-                  "dictionary": {
-                    "figma": {
-                      "type": "color"
-                    },
-                    "ios": true
-                  },
-                  "apparatusTags": [
-                    "gradients"
-                  ],
-                  "UIDs": {}
-                },
-                "TL_BR": {
-                  "value": "linear-gradient(116deg, YPL.FFL.TKUI_C.colors.black.value 0%, YPL.FFL.TKUI_C.colors.black.value 100%)",
-                  "description": "",
-                  "dictionary": {
-                    "figma": {
-                      "type": "color"
-                    },
-                    "ios": true
-                  },
-                  "apparatusTags": [
-                    "gradients"
-                  ],
-                  "UIDs": {}
-                }
               }
             }
           },
@@ -6033,6 +6013,58 @@
                 "apparatusTags": [],
                 "UIDs": {}
               }
+            }
+          },
+          "F0005-001": {
+            "offset": {
+              "x": {
+                "value": 0,
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  },
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "y": {
+                "value": "YPL.FFL.TKUI_C.sizes.nano.200.value",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "other"
+                  },
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "blur": {
+              "value": "YPL.FFL.TKUI_C.sizes.micro.600.value",
+              "description": "",
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                },
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "YPL.FFL.TKUI_C.colors.shadow.value",
+              "description": "",
+              "dictionary": {
+                "figma": {
+                  "type": "other"
+                },
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
             }
           },
           "E0001": {

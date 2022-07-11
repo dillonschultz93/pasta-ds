@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220711-1153)",
+    "version": "0.1.0 (220711-1625)",
     "platform": "Figma",
     "type": "figma-nested",
     "format": "json",
@@ -937,6 +937,18 @@
                 "colors"
               ],
               "UIDs": {}
+            },
+            "shadow": {
+              "value": "rgba(0, 0, 0, 0.15)",
+              "description": "",
+              "type": "color",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [
+                "colors"
+              ],
+              "UIDs": {}
             }
           },
           "surface": {
@@ -1014,36 +1026,6 @@
                   "colors"
                 ],
                 "UIDs": {}
-              }
-            }
-          },
-          "gradients": {
-            "overlay": {
-              "black": {
-                "BL_TR": {
-                  "value": "linear-gradient(64deg, {YPL.FFL.TKUI_C.colors.black} 0%, {YPL.FFL.TKUI_C.colors.black} 100%)",
-                  "description": "",
-                  "type": "color",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [
-                    "gradients"
-                  ],
-                  "UIDs": {}
-                },
-                "TL_BR": {
-                  "value": "linear-gradient(116deg, {YPL.FFL.TKUI_C.colors.black} 0%, {YPL.FFL.TKUI_C.colors.black} 100%)",
-                  "description": "",
-                  "type": "color",
-                  "dictionary": {
-                    "ios": true
-                  },
-                  "apparatusTags": [
-                    "gradients"
-                  ],
-                  "UIDs": {}
-                }
               }
             }
           },
@@ -5209,6 +5191,50 @@
                 "apparatusTags": [],
                 "UIDs": {}
               }
+            }
+          },
+          "F0005-001": {
+            "offset": {
+              "x": {
+                "value": 0,
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              },
+              "y": {
+                "value": "{YPL.FFL.TKUI_C.sizes.nano.200}",
+                "description": "",
+                "type": "other",
+                "dictionary": {
+                  "ios": true
+                },
+                "apparatusTags": [],
+                "UIDs": {}
+              }
+            },
+            "blur": {
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.600}",
+              "description": "",
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
+            },
+            "color": {
+              "value": "{YPL.FFL.TKUI_C.colors.shadow}",
+              "description": "",
+              "type": "other",
+              "dictionary": {
+                "ios": true
+              },
+              "apparatusTags": [],
+              "UIDs": {}
             }
           },
           "E0001": {
