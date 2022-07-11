@@ -570,6 +570,18 @@
 			"apparatusTags": ["colors"],
 			"UIDs": {}
 		},
+    "YPL.FFL.TKUI_C.colors.shadow": {
+			"value": "rgba(0, 0, 0, 0.15)",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "color"
+				},
+				"ios": true
+			},
+			"apparatusTags": ["colors"],
+			"UIDs": {}
+		},
 		"YPL.FFL.TKUI_C.surface.light.300": {
 			"value": "#fcfcfc",
 			"description": "",
@@ -640,30 +652,6 @@
 				"ios": true
 			},
 			"apparatusTags": ["colors"],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR": {
-			"value": "linear-gradient(64deg, {YPL.FFL.TKUI_C.colors.black.value} 0%, {YPL.FFL.TKUI_C.colors.black.value} 100%)",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": ["gradients"],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR": {
-			"value": "linear-gradient(116deg, {YPL.FFL.TKUI_C.colors.black.value} 0%, {YPL.FFL.TKUI_C.colors.black.value} 100%)",
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "color"
-				},
-				"ios": true
-			},
-			"apparatusTags": ["gradients"],
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_C.typo.europa.familyName.light": {
@@ -3664,6 +3652,56 @@
 		},
     "YPL.FFL.TKUI_D.F0004-002.point2.opacity": {
 			"value": 0,
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+
+    // Elevations
+    "YPL.FFL.TKUI_D.F0005-001.offset.x": {
+			"value": 0,
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.F0005-001.offset.y": {
+			"value": "{YPL.FFL.TKUI_C.sizes.nano.200.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.F0005-001.blur": {
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.600.value}",
+			"description": "",
+			"dictionary": {
+				"figma": {
+					"type": "other"
+				},
+				"ios": true
+			},
+			"apparatusTags": [],
+			"UIDs": {}
+		},
+    "YPL.FFL.TKUI_D.F0005-001.color": {
+			"value": "{YPL.FFL.TKUI_C.colors.shadow.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
