@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220707-1033)",
+    "version": "0.1.0 (220711-1153)",
     "platform": "iOS",
     "type": "raw-nested",
     "format": "json",
@@ -6298,7 +6298,7 @@
             }
           },
           "E0002": {
-            "BLK_image": {
+            "BLK_main": {
               "width": {
                 "value": "YPL.FFL.TKUI_C.percents.full.value",
                 "description": "",
@@ -6319,27 +6319,19 @@
                   "ios": true
                 }
               },
-              "image": {
-                "width": {
-                  "value": "YPL.FFL.TKUI_C.percents.full.value",
-                  "description": "",
-                  "dictionary": {
-                    "figma": {
-                      "type": "sizing"
-                    },
-                    "ios": true
-                  }
-                },
-                "height": {
-                  "value": "YPL.FFL.TKUI_C.percents.full.value",
-                  "description": "",
-                  "dictionary": {
-                    "figma": {
-                      "type": "sizing"
-                    },
-                    "ios": true
-                  }
-                },
+              "radius": {
+                "value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "borderRadius"
+                  },
+                  "ios": true
+                }
+              }
+            },
+            "OPT_circle": {
+              "BLK_main": {
                 "radius": {
                   "value": "YPL.FFL.TKUI_C.corner.round.value",
                   "description": "",
@@ -6348,122 +6340,6 @@
                       "type": "borderRadius"
                     },
                     "ios": true
-                  }
-                }
-              }
-            },
-            "BLK_copy": {
-              "width": {
-                "value": "YPL.FFL.TKUI_C.percents.full.value",
-                "description": "",
-                "dictionary": {
-                  "figma": {
-                    "type": "sizing"
-                  },
-                  "ios": true
-                }
-              },
-              "marginTop": {
-                "value": "YPL.FFL.TKUI_C.spaces.s.value",
-                "description": "",
-                "dictionary": {
-                  "figma": {
-                    "type": "spacing"
-                  },
-                  "ios": true
-                }
-              },
-              "fringeTop": {
-                "value": "YPL.FFL.TKUI_C.spaces.s.value",
-                "description": "",
-                "dictionary": {
-                  "figma": {
-                    "type": "spacing"
-                  },
-                  "ios": true
-                }
-              },
-              "label": {
-                "style": {
-                  "value": "YPL.FFL.F0002-401",
-                  "description": "",
-                  "dictionary": {
-                    "figma": {
-                      "type": "other"
-                    },
-                    "ios": true
-                  }
-                },
-                "visible": {
-                  "value": "YPL.CONST.boolean.true.value",
-                  "description": "",
-                  "dictionary": {
-                    "figma": {
-                      "type": "sizing"
-                    },
-                    "ios": true
-                  }
-                }
-              }
-            },
-            "OPT_noLabel": {
-              "BLK_copy": {
-                "label": {
-                  "visible": {
-                    "value": "YPL.CONST.boolean.false.value",
-                    "description": "",
-                    "dictionary": {
-                      "figma": {
-                        "type": "sizing"
-                      },
-                      "ios": true
-                    }
-                  }
-                }
-              }
-            },
-            "OPT_square": {
-              "BLK_image": {
-                "image": {
-                  "radius": {
-                    "value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
-                    "description": "",
-                    "dictionary": {
-                      "figma": {
-                        "type": "borderRadius"
-                      },
-                      "ios": true
-                    }
-                  }
-                }
-              }
-            },
-            "OPT_squareNoLabel": {
-              "BLK_image": {
-                "image": {
-                  "radius": {
-                    "value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
-                    "description": "",
-                    "dictionary": {
-                      "figma": {
-                        "type": "borderRadius"
-                      },
-                      "ios": true
-                    }
-                  }
-                }
-              },
-              "BLK_copy": {
-                "label": {
-                  "visible": {
-                    "value": "YPL.CONST.boolean.false.value",
-                    "description": "",
-                    "dictionary": {
-                      "figma": {
-                        "type": "sizing"
-                      },
-                      "ios": true
-                    }
                   }
                 }
               }
