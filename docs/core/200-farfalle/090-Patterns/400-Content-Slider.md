@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Content Slider # title case
 UID: P0010 # "P" = Pattern + Hexa code/index
-variants: [] # all variants index
+variants: ["001","002","003"] # all variants index
 permalink: farfalle/patterns/content-slider-P0010 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
@@ -31,9 +31,9 @@ nav_order: 400
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/7">&#35;7</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/44">&#35;44</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='.OPT_small'><code>1</code></span></td>
+      <td><span data-toolclip='N/A'><code>N/A</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
       <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
@@ -63,13 +63,14 @@ Content Sliders offer horizontal scroll to a row of Components.
 {:toc}
 
 
-## Layout
+<!-- ## Layout -->
+<!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_layout_01.png) -->
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_layout_01.png)
+## Dependencies (WIP)
 
-## Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png)
+
+<!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png) -->
 
 <details>
 <summary>Tree</summary>
@@ -81,16 +82,8 @@ Content Sliders offer horizontal scroll to a row of Components.
    </div>
    <div>
      {% highlight txt %}
-          YPL.FFL.P0001
-          ├─ .gradient
-          ├─ .BLK_header
-          │   └─ .chip
-          ├─ .BLK_copy
-              ├─ .chip          
-          │   └─ .heading
-          └─ .BLK_footer
-              ├─ .eyebrow
-              └─ .switchButton (optional)
+          YPL.FFL.P0010-001
+          └─ .posterCard
      {% endhighlight %}
    </div>
  </section>
@@ -120,40 +113,10 @@ Content Sliders offer horizontal scroll to a row of Components.
        </thead>
         <tbody>
         <tr>
-            <td>.gradient</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.gradient.value": "{YPL.FFL.F0004-001}"'><code>FFL.F0004</code></span></td>
+            <td>.posterCard</td>
+            <td><span data-toolclip='"YPL.FFL.TKUI_D.P0010.posterCard.value": "{YPL.FFL.P0001}"'><code>FFL.P0001</code></span></td>
             <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/gradient-F0004" alt="Link to Primitive page" class="btn">Gradient →</a></td>
-         </tr>
-         <tr>
-            <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_header.chip.element.value": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
-            <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
-         </tr>
-         <tr>
-            <td>.chip</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.chip.element.value": "{YPL.FFL.E0001}"'><code>FFL.E0001</code></span></td>
-            <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/chip-E0001" alt="Link to Element page" class="btn">Chip →</a></td>
-         </tr>
-         <tr>
-            <td>.heading</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code>FFL.F0002-005</code></span></td>
-            <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-005" alt="Link to Element page" class="btn">heading →</a></td>
-         </tr>
-         <tr>
-            <td>.eyebrow</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.eyebrow.style.value": "{YPL.FFL.F0002-401}"'><code>FFL.F0002-401</code></span></td>
-            <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
-         </tr>
-         <tr>
-            <td>.switchButton</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.switchButton.element.value": "{YPL.FFL.E0004-002}"'><code>FFL.E0004-002</code></span></td>
-            <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/switch-E0004" alt="Link to Element page" class="btn">Switch →</a></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/patterns/poster-card-P0001" alt="Link to Primitive page" class="btn">Poster Card →</a></td>
          </tr>
         </tbody>
      </table>
@@ -162,46 +125,19 @@ Content Sliders offer horizontal scroll to a row of Components.
 
 ## Decisions
 
-![Decision Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_decisions_01.png)
+![Decision Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-bp_decisions_01.png)
 
-### Variations
-
-##### Options
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
-  <thead>
-    <tr>
-      <th>.OPT_small</th>
-      <!-- <th>.OPT_layout2</th> -->
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.height.value": "{YPL.FFL.TKUI_C.sizes.macro.500.value}"'><code class="language-plaintext highlighter-rouge">.height</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element.value": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.gradient.value": "{YPL.FFL.F0004-002}"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>            
-      </td>
-      <!-- <td>
-      <span data-toolclip='"YPL.FFL.TKUI_D.P0001.gradient": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>
-      </td> -->
-    </tr>
-  </tbody>
-</table>
+<!-- ### Variations -->
 
 <!-- ##### Interaction -->
 
-##### Modes (N/A)
-{: no_toc}
+<!-- ##### Modes (N/A) -->
+<!-- {: no_toc} -->
 
-Light and Dark are the same.
 
-##### Breakpoints
+<!-- ##### Breakpoints -->
 
-<table class="headerCentered headerNoUpperCase colBordered headFramed">
-  <!-- <caption>my caption</caption> -->
+<!-- <table class="headerCentered headerNoUpperCase colBordered headFramed">
   <thead>
     <tr>
       <th>← .BRKP_s&nbsp;(480)</th>
@@ -220,121 +156,12 @@ Light and Dark are the same.
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.BLK_copy.heading.style.value": "{YPL.FFL.F0002-002}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
       </td>
       <td>
-        <!-- <span class="dimmed">N/A</span> -->
       </td>
       <td>
-        <!-- <span class="dimmed">N/A</span> -->
       </td>
     </tr>
   </tbody>
-</table>
-
-
-<!--   TOKENS PLAYGROUND GRAVEYARD · HJSON representation -->
-<!--
-
-## Tokens Playground
-
-Playground · Pattern-siloed Tokens including all required Choices and Decisions:
-
-<table>
-    <tr class="playground-details-row" id="css">
-        <td><button class="btn">CSS Tokens</button></td>
-    </tr>
-    <tr class="playground-details-row" id="ios">
-        <td><button class="btn copy-token-btn">iOS Tokens</button></td>
-    </tr>
-    <tr class="playground-details-row" id="android">
-        <td><button class="btn">Android Tokens</button></td>
-    </tr>
-    <tr class="playground-details-row" id="figma-tokens">
-        <td><button class="btn">Figma Tokens</button></td>
-    </tr>
-</table>
-
-<details class="copyArea">
-<summary>Raw</summary>
-{% highlight javascript %}
-{
-//////  DECISIONS - FFL.P0001
-
-  // macro layout
-
-    "YPL.FFL.TKUI_D.P0001.width": "{YPL.FFL.TKUI_C.percents.full.value}",
-    "YPL.FFL.TKUI_D.P0001.height": "{YPL.FFL.TKUI_C.sizes.macro.700.value}",
-    "YPL.FFL.TKUI_D.P0001.margin": "{YPL.FFL.TKUI_C.spaces.l.value}",
-    "YPL.FFL.TKUI_D.P0001.fringeBottom": "{YPL.FFL.TKUI_C.spaces.l.value}",
-    "YPL.FFL.TKUI_D.P0001.padding": "{YPL.FFL.TKUI_C.spaces.l.value}",
-    "YPL.FFL.TKUI_D.P0001.radius": "{YPL.FFL.TKUI_C.sizes.micro.200.value}",
-
-    // blocks
-
-    "YPL.FFL.TKUI_D.P0001.BLK_copy.width": "{YPL.FFL.TKUI_C.percents.full.value}",
-    "YPL.FFL.TKUI_D.P0001.BLK_copy.slack": "{YPL.FFL.TKUI_C.sizes.macro.500.value}",
-    "YPL.FFL.TKUI_D.P0001.BLK_header.height": "{YPL.FFL.TKUI_C.spaces.l.value}",
-    "YPL.FFL.TKUI_D.P0001.BLK_footer.height": "{YPL.FFL.TKUI_C.spaces.l.value}",
-
-    // dependencies
-
-      // .BLK_header
-      "YPL.FFL.P0001.BLK_header.chip": "{YPL.FFL.E0001}", // instantiation TBD
-      // .BLK_copy
-      "YPL.FFL.P0001.BLK_copy.chip": "{YPL.FFL.E0001}", // instantiation TBD
-      "YPL.FFL.P0001.BLK_copy.heading": "{YPL.FFL.F0002-003-h5}", // instantiation TBD
-      // .BLK_footer
-      "YPL.FFL.P0001.BLK_footer.eyebrow": "{YPL.FFL.F0002-401-eyebrow}", // instantiation TBD
-      "YPL.FFL.P0001.BLK_footer.switchButton": "{YPL.FFL.E0003-003-switchIcon}", // TBD
-      // .OPT_layout2
-      "YPL.FFL.P0001.BLK_copy.paragraph": "{YPL.FFL.F0002-103-p_s_regular}", // instantiation
-      "YPL.FFL.TKUI_D.P0001.BLK_copy.paragraph.color": "{YPL.FFL.TKUI_C.colors.white.value}",            
-
-  // colors & stuff
-
-    "YPL.FFL.TKUI_D.P0001.gradient": "{YPL.FFL.TKUI_C.gradients.overlay.black.BL_TR.value}",
-    "YPL.FFL.TKUI_D.P0001.bgImage.fillMode": "FILL", // https://www.figma.com/plugin-docs/api/Paint/#scalemode — Should be raw token in the end
-    // typo
-    "YPL.FFL.TKUI_D.P0001.heading.color": "{YPL.FFL.TKUI_C.colors.white.value}",
-    "YPL.FFL.TKUI_D.P0001.eyebrow.color": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
-    "YPL.FFL.TKUI_D.P0001.eyebrow.color": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
-
-  // micro layout
-
-    "YPL.FFL.TKUI_D.P0001.heading.margin": "-{YPL.FFL.TKUI_C.spaces.xs.value}", //  it's a negative values
-    "YPL.FFL.TKUI_D.P0001.heading.fringeBottom": "-{YPL.FFL.TKUI_C.spaces.xs.value}", //  it's a negative values
-    "YPL.FFL.TKUI_D.P0001.BLK_copy.chip.margin": "{YPL.FFL.TKUI_C.spaces.s.value}",
-    "YPL.FFL.TKUI_D.P0001.BLK_copy.chip.fringeBottom": "{YPL.FFL.TKUI_C.spaces.s.value}",
-    "YPL.FFL.TKUI_D.P0001.heading.paddingLeft": "{YPL.FFL.TKUI_C.spaces.xxl.value}",
-    "YPL.FFL.TKUI_D.P0001.BLK_footer.eyebrow.paddingLeft": "{YPL.FFL.TKUI_C.spaces.sm.value}",
-
-  // variations
-
-    // options
-
-      // OPT_layout2
-
-        "YPL.FFL.TKUI_D.P0001.gradient.OPT_layout2": "{YPL.FFL.TKUI_C.gradients.overlay.black.TL_BR.value}",
-        "YPL.FFL.TKUI_D.P0001.heading.margin.OPT_layout2": "{YPL.FFL.TKUI_C.sizes.micro.400.value}",
-        "YPL.FFL.TKUI_D.P0001.BLK_footer.eyebrow.paddingLeft.OPT_layout2": "{YPL.FFL.TKUI_C.spaces.none.value}", // TBD
-
-      // OPT_small
-
-      "YPL.FFL.TKUI_D.P0001.height.OPT_small": "{YPL.FFL.TKUI_C.sizes.macro.700.value}", // 432
-      "YPL.FFL.TKUI_D.P0001.heading.size.OPT_small": "{YPL.FFL.TKUI_C.typo.europa.h7.size.value}",
-      "YPL.FFL.TKUI_D.P0001.heading.tracking.OPT_small": "{YPL.FFL.TKUI_C.typo.europa.h7.tracking.value}",
-      "YPL.FFL.TKUI_D.P0001.heading.leading.OPT_small": "{YPL.FFL.TKUI_C.typo.europa.h7.leading.value}",
-      "YPL.FFL.TKUI_D.P0001.heading.paragraphSpacing.OPT_small": "{YPL.FFL.TKUI_C.typo.europa.h7.paragraphSpacing.value}",
-
-    // breakpoints
-
-    "YPL.FFL.TKUI_D.P0001.BLK_copy.width.BRKP_m": "{YPL.FFL.TKUI_C.percents.ml.value}",
-    "YPL.FFL.TKUI_D.P0001.heading.size.BRKP_m": "{YPL.FFL.TKUI_C.typo.europa.h3.size.value}",
-    "YPL.FFL.TKUI_D.P0001.heading.tracking.BRKP_m": "{YPL.FFL.TKUI_C.typo.europa.h3.tracking.value}",
-    "YPL.FFL.TKUI_D.P0001.heading.leading.BRKP_m": "{YPL.FFL.TKUI_C.typo.europa.h3.leading.value}",
-    "YPL.FFL.TKUI_D.P0001.heading.paragraphSpacing.BRKP_m": "{YPL.FFL.TKUI_C.typo.europa.h3.paragraphSpacing.value}"
-}
-{% endhighlight %}
-</details>
--->
+</table> -->
 
 
 <!-- ## Copy Writing Guidelines -->
