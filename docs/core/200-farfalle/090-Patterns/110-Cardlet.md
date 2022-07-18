@@ -145,9 +145,40 @@ Cardlets are a way to present several items of a same category. They're part of 
         </tbody>
      </table>
    </div>
- </section>## Decisions
+ </section>
+ 
+## Decisions
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_decisions_01.png)
+
+### Variations
+
+#### Options
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <!-- <caption>my caption</caption> -->
+  <thead>
+    <tr>
+      <th>.OPT_notContained</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.bgColor.value": "{YPL.FFL.TKUI_C.colors.transparent.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.title.color.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.title.color</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.eyebrow.style.value": "{YPL.FFL.F0002-103}"'><code class="language-plaintext highlighter-rouge">.eyebrow.style</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.eyebrow.color.value": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.eyebrow.color</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.marginRight.value": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.marginRight</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.fringeRight.value": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.fringeRight</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.marginLeft.value": "{YPL.FFL.TKUI_C.spaces.s.value}"'><code class="language-plaintext highlighter-rouge">.marginLeft</code></span>
+        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.fringeLeft.value": "{YPL.FFL.TKUI_C.spaces.s.value}"'><code class="language-plaintext highlighter-rouge">.fringeLeft</code></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- ### Interaction -->
 
