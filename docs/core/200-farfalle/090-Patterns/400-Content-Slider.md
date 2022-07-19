@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Content Slider # title case
 UID: P0010 # "P" = Pattern + Hexa code/index
-variants: ["001","002","003"] # all variants index
+variants: ["001","002"] # all variants index
 permalink: farfalle/patterns/content-slider-P0010 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
@@ -52,9 +52,26 @@ nav_order: 400
 
 Content Sliders offer horizontal scroll to a row of Components.
 
-<figure class="videoSnippet AR-16x10">
-   <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/try.gif" alt="Default Preview" >
-</figure>
+
+   <div class="tabs">
+     <input type="radio" name="previews" id="tab_preview_01" checked="checked">
+     <label for="tab_preview_01">( Animation )</label>
+     <div class="tab">
+        <figure class="videoSnippet AR-16x10">
+          <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-preview_01.gif" alt="Animation" >
+        </figure>
+     </div>
+     <input type="radio" name="previews" id="tab_preview_02">
+     <label for="tab_preview_02">-001</label>
+     <div class="tab">
+          <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-preview_02.png" alt="Poster Card Slider" class="darkenabled">
+     </div>
+     <input type="radio" name="previews" id="tab_preview_03">
+     <label for="tab_preview_03">-002</label>
+     <div class="tab">
+          <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-preview_03.png" alt="Poster Card Slider" class="darkenabled">
+     </div>  
+   </div>
 
 
 <a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=12%3A1694" class="btn iconed figmaBadge">To Figma →</a>
@@ -66,66 +83,155 @@ Content Sliders offer horizontal scroll to a row of Components.
 <!-- ## Layout -->
 <!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_layout_01.png) -->
 
-## Dependencies (WIP)
+## Dependencies
+
+ <div class="tabs">
+   <input type="radio" name="dependencies" id="tab_dependencies_01" checked="checked">
+   <label for="tab_dependencies_01">-001</label>
+   <div class="tab">
+    <br>
+    <details>
+    <summary>Tree</summary>
+     <section class="flex-1_2-cols">
+       <div>
+        <p>
+          Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+        </p>
+       </div>
+       <div>
+         {% highlight txt %}
+              YPL.FFL.P0010-001
+              └─ .posterCard
+         {% endhighlight %}
+       </div>
+     </section>
+    </details>
+    <hr>
+    <h3>Links</h3>
+    <section class="flex-1_2-cols">
+       <div>
+         <br>
+        <p>
+         This Pattern requires that you implement and instantiate all these dependencies.<br>
+         Please refer to each component in this list&nbsp;→
+         </p>
+       </div>
+       <div>
+         <table>
+           <thead>
+             <tr>
+               <th>Instance</th>
+               <th>Component</th>
+               <!-- <th>Type</th> -->
+               <th></th>
+             </tr>
+           </thead>
+            <tbody>
+            <tr>
+                <td>.posterCard</td>
+                <td><span data-toolclip='"YPL.FFL.TKUI_D.P0010.posterCard.value": "{YPL.FFL.P0001}"'><code>FFL.P0001</code></span></td>
+                <!-- <td>Element</td> -->
+                <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/patterns/poster-card-P0001" alt="Link to Primitive page" class="btn">Poster Card →</a></td>
+             </tr>       
+            </tbody>
+         </table>
+       </div>
+     </section>
 
 
+   </div>
+   <input type="radio" name="dependencies" id="tab_dependencies_02">
+   <label for="tab_dependencies_02">-002</label>
+   <div class="tab">
+    <br>   
+    <details>
+    <summary>Tree</summary>
+     <section class="flex-1_2-cols">
+       <div>
+        <p>
+          Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+        </p>
+       </div>
+       <div>
+         {% highlight txt %}
+              YPL.FFL.P0010-002
+              └─ .posterCard
+         {% endhighlight %}
+       </div>
+     </section>
+    </details>
+    <hr>
+    <h3>Links</h3>
+    <section class="flex-1_2-cols">
+       <div>
+         <br>
+        <p>
+         This Pattern requires that you implement and instantiate all these dependencies.<br>
+         Please refer to each component in this list&nbsp;→
+         </p>
+       </div>
+       <div>
+         <table>
+           <thead>
+             <tr>
+               <th>Instance</th>
+               <th>Component</th>
+               <!-- <th>Type</th> -->
+               <th></th>
+             </tr>
+           </thead>
+            <tbody>
+            <tr>
+                <td>.posterCard</td>
+                <td><span data-toolclip='"YPL.FFL.TKUI_D.P0010.posterCard.value": "{YPL.FFL.P0001.OPT_small}"'><code>FFL.P0001</code></span></td>
+                <!-- <td>Element</td> -->
+                <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/patterns/poster-card-P0001" alt="Link to Primitive page" class="btn">(.OPT_small) →</a></td>
+             </tr>         
+            </tbody>
+         </table>
+       </div>
+     </section>    
+   </div>
+ </div>
 
 <!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png) -->
 
-<details>
-<summary>Tree</summary>
- <section class="flex-1_2-cols">
-   <div>
-    <p>
-      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
-    </p>
-   </div>
-   <div>
-     {% highlight txt %}
-          YPL.FFL.P0010-001
-          └─ .posterCard
-     {% endhighlight %}
-   </div>
- </section>
-</details>
 
-<hr>
 
-### Links
 
-<section class="flex-1_2-cols">
-   <div>
-     <br>
-    <p>
-     This Pattern requires that you implement and instantiate all these dependencies.<br>
-     Please refer to each component in this list&nbsp;→
-     </p>
-   </div>
-   <div>
-     <table>
-       <thead>
-         <tr>
-           <th>Instance</th>
-           <th>Component</th>
-           <!-- <th>Type</th> -->
-           <th></th>
-         </tr>
-       </thead>
-        <tbody>
-        <tr>
-            <td>.posterCard</td>
-            <td><span data-toolclip='"YPL.FFL.TKUI_D.P0010.posterCard.value": "{YPL.FFL.P0001}"'><code>FFL.P0001</code></span></td>
-            <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/patterns/poster-card-P0001" alt="Link to Primitive page" class="btn">Poster Card →</a></td>
-         </tr>
-        </tbody>
-     </table>
-   </div>
- </section>
+
 
 ## Decisions
 
 ![Decision Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-bp_decisions_01.png)
+
+
+```
+"YPL.FFL.TKUI_M.scales.arithA.2800.value": 56,
+"YPL.FFL.TKUI_C.spaces.xxxl.value": "YPL.FFL.TKUI_M.scales.arithA.2800.value",
+```
+
+```
+"YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+"YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.xxxl.value",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+"YPL.FFL.TKUI_D.P0010-001.CHILD_FIRST.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+"YPL.FFL.TKUI_D.P0010-001.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+```
+
+```
+"YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
+"YPL.FFL.TKUI_D.P0010-002.CHILD_FIRST.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+"YPL.FFL.TKUI_D.P0010-002.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+```
+
 
 <!-- ### Variations -->
 
