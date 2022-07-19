@@ -2,11 +2,9 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (220718-2005)",
+    "version": "0.1.0 (2022619-1348)",
     "platform": "pasta",
-    "type": "raw-nested",
-    "format": "json",
-    "description": "Pasta design tokens, in HJSON formatting",
+    "format": "hjson",
     "patent": "-----------------------------------------------\nPASTA TOKENS\n-----------------------------------------------\nDescription: Pasta Tokens Output\nAuthors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com\n\nCopyright (c) 2022 Yummly, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
   },
   "_tokens": {
@@ -6854,6 +6852,68 @@
                   },
                   "ios": true
                 }
+              },
+              "p": {
+                "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "colors"
+                  },
+                  "ios": true
+                }
+              },
+              "d": {
+                "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "colors"
+                  },
+                  "ios": true
+                }
+              }
+            },
+            "borderWidth": {
+              "value": "{YPL.FFL.TKUI_C.sizes.nano.200.value}",
+              "description": "",
+              "dictionary": {
+                "figma": {
+                  "type": "sizing"
+                },
+                "ios": true
+              }
+            },
+            "borderColor": {
+              "i": {
+                "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  },
+                  "ios": true
+                }
+              },
+              "p": {
+                "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  },
+                  "ios": true
+                }
+              },
+              "d": {
+                "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                "description": "",
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  },
+                  "ios": true
+                }
               }
             },
             "BLK_main": {
@@ -6869,13 +6929,35 @@
                   }
                 },
                 "color": {
-                  "value": "{YPL.FFL.TKUI_C.colors.white.value}",
-                  "description": "",
-                  "dictionary": {
-                    "figma": {
-                      "type": "colors"
-                    },
-                    "ios": true
+                  "i": {
+                    "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "colors"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "p": {
+                    "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "colors"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "d": {
+                    "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "colors"
+                      },
+                      "ios": true
+                    }
                   }
                 },
                 "width": {
@@ -6928,6 +7010,512 @@
                       "type": "colors"
                     },
                     "ios": true
+                  }
+                }
+              }
+            },
+            "OPT_withIconLeft": {
+              "BLK_main": {
+                "icon": {
+                  "visibility": {
+                    "value": "{YPL.CONST.boolean.true.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "marginRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "fringeRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  }
+                }
+              }
+            },
+            "OPT_withIconRight": {
+              "BLK_main": {
+                "icon": {
+                  "visibility": {
+                    "value": "{YPL.CONST.boolean.true.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "marginLeft": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "fringeLeft": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  }
+                }
+              }
+            },
+            "OPT_outline": {
+              "bgColor": {
+                "i": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                },
+                "p": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                },
+                "d": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                }
+              },
+              "borderColor": {
+                "i": {
+                  "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                },
+                "p": {
+                  "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                },
+                "d": {
+                  "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                }
+              },
+              "BLK_main": {
+                "label": {
+                  "color": {
+                    "i": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "p": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "d": {
+                      "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "OPT_outlineWithIconLeft": {
+              "bgColor": {
+                "i": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                },
+                "p": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                },
+                "d": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                }
+              },
+              "borderColor": {
+                "i": {
+                  "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                },
+                "p": {
+                  "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                },
+                "d": {
+                  "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                }
+              },
+              "BLK_main": {
+                "icon": {
+                  "color": {
+                    "i": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "p": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "d": {
+                      "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    }
+                  },
+                  "visibility": {
+                    "value": "{YPL.CONST.boolean.true.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "marginRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "fringeRight": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  }
+                },
+                "label": {
+                  "color": {
+                    "i": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "p": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "d": {
+                      "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "OPT_outlineWithIconRight": {
+              "bgColor": {
+                "i": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                },
+                "p": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                },
+                "d": {
+                  "value": "{YPL.FFL.TKUI_C.colors.transparent.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "colors"
+                    },
+                    "ios": true
+                  }
+                }
+              },
+              "borderColor": {
+                "i": {
+                  "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                },
+                "p": {
+                  "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                },
+                "d": {
+                  "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                  "description": "",
+                  "dictionary": {
+                    "figma": {
+                      "type": "sizing"
+                    },
+                    "ios": true
+                  }
+                }
+              },
+              "BLK_main": {
+                "icon": {
+                  "color": {
+                    "i": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "p": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "d": {
+                      "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    }
+                  },
+                  "visibility": {
+                    "value": "{YPL.CONST.boolean.true.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "other"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "marginLeft": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  },
+                  "fringeLeft": {
+                    "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+                    "description": "",
+                    "dictionary": {
+                      "figma": {
+                        "type": "sizing"
+                      },
+                      "ios": true
+                    }
+                  }
+                },
+                "label": {
+                  "color": {
+                    "i": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "p": {
+                      "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    },
+                    "d": {
+                      "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
+                      "description": "",
+                      "dictionary": {
+                        "figma": {
+                          "type": "colors"
+                        },
+                        "ios": true
+                      }
+                    }
                   }
                 }
               }
