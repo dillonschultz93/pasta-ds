@@ -139,6 +139,83 @@ Buttons allow users to perform an action or to navigate to another page. They ha
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
 
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.OPT_withIconLeft</th>
+      <th>.OPT_withIconRight</th>
+      <th>.OPT_outline</th>
+      <th>.OPT_outlineWithIconLeft</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.OPT_outlineWithIconRight</th>
+      <th>.OPT_small</th>
+      <th>.OPT_smallOutline</th>
+      <th>.OPT_notContained</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td> 
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="type-01 headerNoUpperCase colBordered headFramed">
+  <thead>
+    <tr>
+      <th>.OPT_notContainedWithIcon</th>
+      <th>.OPT_iconOnly</th>
+      <th>.OPT_iconOnlyNotContained</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td> 
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+      <td>
+        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Accessibility Status
 
  <table class="Last3ThCentered">
