@@ -4134,7 +4134,77 @@
       "description": "",
       "dictionary": {
         "figma": {
-          "type": "borderRadius"
+          "type": "colors"
+        },
+        "ios": true
+      },
+    },
+    "YPL.FFL.TKUI_D.E0003.BLK_main.icon.visibility": {
+      "value": "{YPL.CONST.boolean.false.value}",
+      "description": "",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+    },
+    "YPL.FFL.TKUI_D.E0003.BLK_main.icon.color": {
+      "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+      "description": "",
+      "dictionary": {
+        "figma": {
+          "type": "colors"
+        },
+        "ios": true
+      },
+    },
+    "YPL.FFL.TKUI_D.E0003.BLK_main.icon.width": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+      "description": "",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+    },
+    "YPL.FFL.TKUI_D.E0003.BLK_main.icon.height": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+      "description": "",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+    },
+    "YPL.FFL.TKUI_D.E0003.BLK_main.label.visibility": {
+      "value": "{YPL.CONST.boolean.true.value}",
+      "description": "",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+    },
+    "YPL.FFL.TKUI_D.E0003.BLK_main.label.color": {
+      "value": "{YPL.FFL.TKUI_C.colors.white.value}",
+      "description": "",
+      "dictionary": {
+        "figma": {
+          "type": "colors"
+        },
+        "ios": true
+      },
+    },
+    "YPL.FFL.TKUI_D.E0003.BLK_main.label.style": {
+      "value": "{YPL.FFLF0002-102}",
+      "description": "",
+      "dictionary": {
+        "figma": {
+          "type": "colors"
         },
         "ios": true
       },
