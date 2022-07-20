@@ -116,6 +116,8 @@ nav_order: 130
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-bp_decisions_01.png)
 
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0004-preview_02.png){: .darkenabled}
+
 ### Interaction
 
 
@@ -233,6 +235,70 @@ nav_order: 130
             <td>
                 <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.asset.hi.value": "{YPL.FFL.F0003-027}"'><code class="language-plaintext highlighter-rouge">.icon.asset</code></span>              
                 <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.hi.value": "YPL.FFL.TKUI_C.colors.grey.500.value"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>            
+            </td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+            <td><span class="dimmed">N/A</span></td>
+          </tr>
+          </tbody>
+        </table>
+   </div>
+   <!-- -003 -->
+   <input type="radio" name="Variants" id="variant_03">
+   <label for="variant_03">-003</label>
+   <div class="tab">
+      <br>
+      <h4 class="no_toc">Default</h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <!-- <caption>my caption</caption> -->
+          <thead>
+            <tr>
+              <th>.i (idle)</th>
+              <th>.o (mouse over)</th>
+              <th>.p (pressed)</th>
+              <th>.f (focus)</th>
+              <th>.w (waiting)</th>
+              <th>.d (disabled)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.icon.asset.i.value": "{YPL.FFL.F0003-401}"'><code class="language-plaintext highlighter-rouge">icon.asset</code></span>              
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+              </td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+              <td><span class="dimmed">N/A</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 class="no_toc">Highlighted</h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <!-- <caption>my caption</caption> -->
+          <thead>
+            <tr>
+              <th>.hi</th>
+              <th>.ho</th>
+              <th>.hp</th>
+              <th>.hf</th>
+              <th>.hu <span data-toolclip='Occurs when a parent or grand-parent node loses the focus while the component is still highlighted. Cf. OSX Finder Columns View, when navigating within nested folders.'>(?)</span></th>
+              <th>.hw</th>
+              <th>.hd</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.icon.asset.hi.value": "{YPL.FFL.F0003-435}"'><code class="language-plaintext highlighter-rouge">icon.asset</code></span>              
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.icon.color.hi.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-003.bgColor.hi.value": "{YPL.FFL.TKUI_C.colors.grey.700.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
             </td>
             <td><span class="dimmed">N/A</span></td>
             <td><span class="dimmed">N/A</span></td>

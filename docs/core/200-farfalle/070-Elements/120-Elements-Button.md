@@ -226,12 +226,12 @@ Buttons allow users to perform an action or to navigate to another page. They ha
       <tbody>
         <tr>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.border.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
           </td>
-          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.border.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
           <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
-          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.border.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
           <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
         </tr>
       </tbody>
@@ -254,17 +254,17 @@ Buttons allow users to perform an action or to navigate to another page. They ha
       <tbody>
         <tr>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.border.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
           </td>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.border.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.icon.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
           </td>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.border.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.icon.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
           </td>
@@ -289,17 +289,17 @@ Buttons allow users to perform an action or to navigate to another page. They ha
       <tbody>
         <tr>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.border.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
           </td>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.border.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.icon.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
           </td>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.border.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.icon.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
           </td>
@@ -354,12 +354,12 @@ Buttons allow users to perform an action or to navigate to another page. They ha
       <tbody>
         <tr>
           <td>
-            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.border.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
             <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
           </td>
-          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.border.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
           <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
-          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.border.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.border.color</code></span>
           <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
         </tr>
       </tbody>
