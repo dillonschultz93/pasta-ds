@@ -205,8 +205,9 @@ nav_order: 130
           <tbody>
             <tr>
               <td>
-                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.asset.i.value": "{YPL.FFL.F0003-001}"'><code class="language-plaintext highlighter-rouge">icon.asset</code></span>              
-                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.i.value": "YPL.FFL.TKUI_C.colors.teal.400.value"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.icon.asset.i.value": "{YPL.FFL.F0003-001}"'><code class="language-plaintext highlighter-rouge">icon.asset</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
               </td>
               <td><span class="dimmed">N/A</span></td>
               <td><span class="dimmed">N/A</span></td>
@@ -233,8 +234,9 @@ nav_order: 130
           <tbody>
           <tr>
             <td>
-                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.icon.asset.hi.value": "{YPL.FFL.F0003-027}"'><code class="language-plaintext highlighter-rouge">.icon.asset</code></span>              
-                <span data-toolclip='"YPL.FFL.TKUI_D.{{ page.UID }}-001.bgColor.hi.value": "YPL.FFL.TKUI_C.colors.grey.500.value"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>            
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.icon.asset.hi.value": "{YPL.FFL.F0003-027}"'><code class="language-plaintext highlighter-rouge">icon.asset</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.icon.color.hi.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+                <span data-toolclip='"YPL.FFL.TKUI_D.E0004-002.bgColor.hi.value": "{YPL.FFL.TKUI_C.colors.grey.700.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
             </td>
             <td><span class="dimmed">N/A</span></td>
             <td><span class="dimmed">N/A</span></td>

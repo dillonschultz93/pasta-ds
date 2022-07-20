@@ -6270,7 +6270,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_D.E0004-002.bgColor.hi": {
-			"value": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
+			"value": "{YPL.FFL.TKUI_C.colors.grey.700.value}",
 			"dictionary": {
 				"figma": {
 					"type": "color"
