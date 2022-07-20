@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (2022620-1433)",
+    "version": "0.1.0 (2022620-1616)",
     "platform": "iOS",
     "format": "json",
     "patent": "-----------------------------------------------\nPASTA TOKENS\n-----------------------------------------------\nDescription: Pasta Tokens Output\nAuthors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com\n\nCopyright (c) 2022 Yummly, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
@@ -582,10 +582,10 @@
                 "UIDs": {}
               },
               "1700": {
-                "value": "YPL.FFL.TKUI_M.scales.arithA.2000.value",
+                "value": "YPL.FFL.TKUI_M.scales.arithA.1800.value",
                 "description": "",
                 "apparatusTags": [
-                  "sizes"
+                  "staticSizes"
                 ],
                 "dictionary": {
                   "figma": {
@@ -596,7 +596,7 @@
                 "UIDs": {}
               },
               "1800": {
-                "value": "YPL.FFL.TKUI_M.scales.arithA.2400.value",
+                "value": "YPL.FFL.TKUI_M.scales.arithA.2000.value",
                 "description": "",
                 "apparatusTags": [
                   "staticSizes"
@@ -610,7 +610,7 @@
                 "UIDs": {}
               },
               "1900": {
-                "value": "YPL.FFL.TKUI_M.scales.arithA.2800.value",
+                "value": "YPL.FFL.TKUI_M.scales.arithA.2400.value",
                 "description": "",
                 "apparatusTags": [
                   "staticSizes"
@@ -624,7 +624,7 @@
                 "UIDs": {}
               },
               "2000": {
-                "value": "YPL.FFL.TKUI_M.scales.arithA.3200.value",
+                "value": "YPL.FFL.TKUI_M.scales.arithA.2800.value",
                 "description": "",
                 "apparatusTags": [
                   "staticSizes"
@@ -638,6 +638,20 @@
                 "UIDs": {}
               },
               "2100": {
+                "value": "YPL.FFL.TKUI_M.scales.arithA.3200.value",
+                "description": "",
+                "apparatusTags": [
+                  "staticSizes"
+                ],
+                "dictionary": {
+                  "figma": {
+                    "type": "sizing"
+                  },
+                  "ios": true
+                },
+                "UIDs": {}
+              },
+              "2200": {
                 "value": "YPL.FFL.TKUI_M.scales.arithA.3600.value",
                 "description": "",
                 "apparatusTags": [
@@ -3787,7 +3801,7 @@
               },
               "h2": {
                 "size": {
-                  "value": "YPL.FFL.TKUI_C.sizes.micro.1700.value * YPL.TEST.textSizeFactor.value",
+                  "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value * YPL.TEST.textSizeFactor.value",
                   "description": "",
                   "dictionary": {
                     "figma": {
@@ -6757,7 +6771,7 @@
           },
           "E0003-001": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -6915,7 +6929,7 @@
           },
           "E0003-002": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -7125,7 +7139,7 @@
           },
           "E0003-003": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -7335,7 +7349,7 @@
           },
           "E0003-004": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -7537,7 +7551,7 @@
           },
           "E0003-005": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -7813,7 +7827,7 @@
           },
           "E0003-006": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -8639,7 +8653,7 @@
           },
           "E0003-00B": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.2000.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -8649,7 +8663,7 @@
               }
             },
             "width": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.2000.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -8727,7 +8741,7 @@
           },
           "E0003-00C": {
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1700.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -8737,7 +8751,7 @@
               }
             },
             "width": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1700.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.1800.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -9724,7 +9738,7 @@
               "UIDs": {}
             },
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.2100.value",
+              "value": "YPL.FFL.TKUI_C.sizes.micro.2200.value",
               "dictionary": {
                 "figma": {
                   "type": "sizing"
@@ -9940,7 +9954,7 @@
             },
             "BLK_thumbnail": {
               "width": {
-                "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
+                "value": "YPL.FFL.TKUI_C.sizes.micro.2000.value",
                 "dictionary": {
                   "figma": {
                     "type": "sizing"
@@ -9951,7 +9965,7 @@
                 "UIDs": {}
               },
               "height": {
-                "value": "YPL.FFL.TKUI_C.sizes.micro.1900.value",
+                "value": "YPL.FFL.TKUI_C.sizes.micro.2000.value",
                 "dictionary": {
                   "figma": {
                     "type": "sizing"

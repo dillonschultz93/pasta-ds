@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (2022620-1433)",
+    "version": "0.1.0 (2022620-1616)",
     "platform": "Figma",
     "format": "json",
     "patent": "-----------------------------------------------\nPASTA TOKENS\n-----------------------------------------------\nDescription: Pasta Tokens Output\nAuthors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com\n\nCopyright (c) 2022 Yummly, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
@@ -502,10 +502,10 @@
                 "UIDs": {}
               },
               "1700": {
-                "value": "{YPL.FFL.TKUI_M.scales.arithA.2000}",
+                "value": "{YPL.FFL.TKUI_M.scales.arithA.1800}",
                 "description": "",
                 "apparatusTags": [
-                  "sizes"
+                  "staticSizes"
                 ],
                 "type": "sizing",
                 "dictionary": {
@@ -514,7 +514,7 @@
                 "UIDs": {}
               },
               "1800": {
-                "value": "{YPL.FFL.TKUI_M.scales.arithA.2400}",
+                "value": "{YPL.FFL.TKUI_M.scales.arithA.2000}",
                 "description": "",
                 "apparatusTags": [
                   "staticSizes"
@@ -526,7 +526,7 @@
                 "UIDs": {}
               },
               "1900": {
-                "value": "{YPL.FFL.TKUI_M.scales.arithA.2800}",
+                "value": "{YPL.FFL.TKUI_M.scales.arithA.2400}",
                 "description": "",
                 "apparatusTags": [
                   "staticSizes"
@@ -538,7 +538,7 @@
                 "UIDs": {}
               },
               "2000": {
-                "value": "{YPL.FFL.TKUI_M.scales.arithA.3200}",
+                "value": "{YPL.FFL.TKUI_M.scales.arithA.2800}",
                 "description": "",
                 "apparatusTags": [
                   "staticSizes"
@@ -550,6 +550,18 @@
                 "UIDs": {}
               },
               "2100": {
+                "value": "{YPL.FFL.TKUI_M.scales.arithA.3200}",
+                "description": "",
+                "apparatusTags": [
+                  "staticSizes"
+                ],
+                "type": "sizing",
+                "dictionary": {
+                  "ios": true
+                },
+                "UIDs": {}
+              },
+              "2200": {
                 "value": "{YPL.FFL.TKUI_M.scales.arithA.3600}",
                 "description": "",
                 "apparatusTags": [
@@ -3261,7 +3273,7 @@
               },
               "h2": {
                 "size": {
-                  "value": "{YPL.FFL.TKUI_C.sizes.micro.1700} * {YPL.TEST.textSizeFactor}",
+                  "value": "{YPL.FFL.TKUI_C.sizes.micro.1800} * {YPL.TEST.textSizeFactor}",
                   "description": "",
                   "type": "fontSizes",
                   "dictionary": {
@@ -5825,7 +5837,7 @@
           },
           "E0003-001": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -5953,7 +5965,7 @@
           },
           "E0003-002": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -6123,7 +6135,7 @@
           },
           "E0003-003": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -6293,7 +6305,7 @@
           },
           "E0003-004": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -6457,7 +6469,7 @@
           },
           "E0003-005": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -6681,7 +6693,7 @@
           },
           "E0003-006": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -7353,7 +7365,7 @@
           },
           "E0003-00B": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.2000}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -7361,7 +7373,7 @@
               }
             },
             "width": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.2000}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -7425,7 +7437,7 @@
           },
           "E0003-00C": {
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1700}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -7433,7 +7445,7 @@
               }
             },
             "width": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.1700}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.1800}",
               "description": "",
               "type": "sizing",
               "dictionary": {
@@ -8256,7 +8268,7 @@
               "UIDs": {}
             },
             "height": {
-              "value": "{YPL.FFL.TKUI_C.sizes.micro.2100}",
+              "value": "{YPL.FFL.TKUI_C.sizes.micro.2200}",
               "type": "sizing",
               "dictionary": {
                 "ios": true
@@ -8434,7 +8446,7 @@
             },
             "BLK_thumbnail": {
               "width": {
-                "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.2000}",
                 "type": "sizing",
                 "dictionary": {
                   "ios": true
@@ -8443,7 +8455,7 @@
                 "UIDs": {}
               },
               "height": {
-                "value": "{YPL.FFL.TKUI_C.sizes.micro.1900}",
+                "value": "{YPL.FFL.TKUI_C.sizes.micro.2000}",
                 "type": "sizing",
                 "dictionary": {
                   "ios": true

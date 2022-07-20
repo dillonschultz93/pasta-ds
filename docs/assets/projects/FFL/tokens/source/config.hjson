@@ -192,18 +192,21 @@
 							"value": "{YPL.FFL.TKUI_M.scales.arithA.1600.value}" // 32
 						},
             "1700": {
-							"value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}" // 40
+							"value": "{YPL.FFL.TKUI_M.scales.arithA.1800.value}" // 36
 						},
             "1800": {
-							"value": "{YPL.FFL.TKUI_M.scales.arithA.2400.value}" // 48
+							"value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}" // 40
 						},
             "1900": {
-							"value": "{YPL.FFL.TKUI_M.scales.arithA.2800.value}" // 56
+							"value": "{YPL.FFL.TKUI_M.scales.arithA.2400.value}" // 48
 						},
             "2000": {
-							"value": "{YPL.FFL.TKUI_M.scales.arithA.3200.value}" // 64
+							"value": "{YPL.FFL.TKUI_M.scales.arithA.2800.value}" // 56
 						},
             "2100": {
+							"value": "{YPL.FFL.TKUI_M.scales.arithA.3200.value}" // 64
+						},
+            "2200": {
 							"value": "{YPL.FFL.TKUI_M.scales.arithA.3600.value}" // 72
 						},
 					},
@@ -264,31 +267,7 @@
 		"project": "FFL"
 	},
 	"overrideOptions": {
-		"YPL.FFL.TKUI_M.scales.arithA.2000": {
-			"value": 40,
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "other"
-				},
-				"ios": true
-			},
-			"apparatusTags": ["scales"],
-			"UIDs": {}
-		},
-		"YPL.FFL.TKUI_C.sizes.micro.1700": {
-			"value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}", // 40
-			"description": "",
-			"dictionary": {
-				"figma": {
-					"type": "sizing"
-				},
-				"ios": true
-			},
-			"apparatusTags": ["sizes"],
-			"UIDs": {}
-		},
-    "YPL.FFL.TKUI_C.percents.xs": {
+		"YPL.FFL.TKUI_C.percents.xs": {
 			"value": "25%",
 			"description": "",
 			"dictionary": {
@@ -913,7 +892,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_M.typo.europa.h2.size": {
-			"value": "{YPL.FFL.TKUI_C.sizes.micro.1700.value} * {YPL.TEST.textSizeFactor.value}",
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value} * {YPL.TEST.textSizeFactor.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -4034,7 +4013,7 @@
     // BUTTON ------------------------------------------------------------------------------------------------------------------------
     // Primary variant -001
     "YPL.FFL.TKUI_D.E0003-001.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -4186,7 +4165,7 @@
 
     // Icon on left variant -002
     "YPL.FFL.TKUI_D.E0003-002.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -4388,7 +4367,7 @@
 
     // Icon on right variant -003
     "YPL.FFL.TKUI_D.E0003-003.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -4590,7 +4569,7 @@
 
     // Outline variant -004
     "YPL.FFL.TKUI_D.E0003-004.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -4782,7 +4761,7 @@
 
     // Outline icon left variant -005
     "YPL.FFL.TKUI_D.E0003-005.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -5044,7 +5023,7 @@
 
     // Outline icon right variant -006
     "YPL.FFL.TKUI_D.E0003-006.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -5824,7 +5803,7 @@
 
     // -00B
     "YPL.FFL.TKUI_D.E0003-00B.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.2000.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -5834,7 +5813,7 @@
       },
     },
     "YPL.FFL.TKUI_D.E0003-00B.width": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.2000.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -5906,7 +5885,7 @@
 
     // -00C
     "YPL.FFL.TKUI_D.E0003-00C.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1700.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -5916,7 +5895,7 @@
       },
     },
     "YPL.FFL.TKUI_D.E0003-00C.width": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1700.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -6845,7 +6824,7 @@
       "UIDs": {}
     },
     "YPL.FFL.TKUI_D.P0002.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.2100.value}", // 72
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.2200.value}", // 72
       "dictionary": {
         "figma": {
           "type": "sizing"
@@ -7054,7 +7033,7 @@
       "UIDs": {}
     },
     "YPL.FFL.TKUI_D.P0002.BLK_thumbnail.width": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.2000.value}",
       "dictionary": {
         "figma": {
           "type": "sizing"
@@ -7065,7 +7044,7 @@
       "UIDs": {}
     },
     "YPL.FFL.TKUI_D.P0002.BLK_thumbnail.height": {
-      "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.2000.value}",
       "dictionary": {
         "figma": {
           "type": "sizing"

@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Switch # title case + UID
 UID: E0004 # ["P","E","F"] + Hexa code/index
-variants: ['001', '002'] # all variants index
+variants: ['001', '002', '003'] # all variants index
 permalink: farfalle/elements/switch-E0004 # lowercase & UID + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
