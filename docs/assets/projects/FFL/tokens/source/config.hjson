@@ -4699,7 +4699,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-004.borderWidth": {
+    "YPL.FFL.TKUI_D.E0003-004.border.width": {
       "value": "{YPL.FFL.TKUI_C.sizes.nano.200.value}",
       "description": "",
       "dictionary": {
@@ -4709,7 +4709,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-004.borderColor.i": {
+    "YPL.FFL.TKUI_D.E0003-004.border.color.i": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
       "description": "",
       "dictionary": {
@@ -4719,7 +4719,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-004.borderColor.p": {
+    "YPL.FFL.TKUI_D.E0003-004.border.color.p": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
       "description": "",
       "dictionary": {
@@ -4729,7 +4729,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-004.borderColor.d": {
+    "YPL.FFL.TKUI_D.E0003-004.border.color.d": {
       "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
       "description": "",
       "dictionary": {
@@ -4891,7 +4891,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-005.borderWidth": {
+    "YPL.FFL.TKUI_D.E0003-005.border.width": {
       "value": "{YPL.FFL.TKUI_C.sizes.nano.200.value}",
       "description": "",
       "dictionary": {
@@ -4901,7 +4901,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-005.borderColor.i": {
+    "YPL.FFL.TKUI_D.E0003-005.border.color.i": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
       "description": "",
       "dictionary": {
@@ -4911,7 +4911,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-005.borderColor.p": {
+    "YPL.FFL.TKUI_D.E0003-005.border.color.p": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
       "description": "",
       "dictionary": {
@@ -4921,7 +4921,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-005.borderColor.d": {
+    "YPL.FFL.TKUI_D.E0003-005.border.color.d": {
       "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
       "description": "",
       "dictionary": {
@@ -5153,7 +5153,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-006.borderWidth": {
+    "YPL.FFL.TKUI_D.E0003-006.border.width": {
       "value": "{YPL.FFL.TKUI_C.sizes.nano.200.value}",
       "description": "",
       "dictionary": {
@@ -5163,7 +5163,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-006.borderColor.i": {
+    "YPL.FFL.TKUI_D.E0003-006.border.color.i": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
       "description": "",
       "dictionary": {
@@ -5173,7 +5173,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-006.borderColor.p": {
+    "YPL.FFL.TKUI_D.E0003-006.border.color.p": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
       "description": "",
       "dictionary": {
@@ -5183,7 +5183,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-006.borderColor.d": {
+    "YPL.FFL.TKUI_D.E0003-006.border.color.d": {
       "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
       "description": "",
       "dictionary": {
@@ -5567,7 +5567,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-008.borderColor.i": {
+    "YPL.FFL.TKUI_D.E0003-008.border.color.i": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.400.value}",
       "description": "",
       "dictionary": {
@@ -5577,7 +5577,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-008.borderColor.p": {
+    "YPL.FFL.TKUI_D.E0003-008.border.color.p": {
       "value": "{YPL.FFL.TKUI_C.colors.teal.500.value}",
       "description": "",
       "dictionary": {
@@ -5587,7 +5587,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-008.borderColor.d": {
+    "YPL.FFL.TKUI_D.E0003-008.border.color.d": {
       "value": "{YPL.FFL.TKUI_C.colors.grey.300.value}",
       "description": "",
       "dictionary": {
@@ -5597,7 +5597,7 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-008.borderWidth": {
+    "YPL.FFL.TKUI_D.E0003-008.border.width": {
       "value": "{YPL.FFL.TKUI_C.sizes.nano.200.value}",
       "description": "",
       "dictionary": {
