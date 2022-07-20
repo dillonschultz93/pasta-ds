@@ -18,6 +18,7 @@ nav_order: 120
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
 # Button
+
 {: .no_toc}
 
 Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.
@@ -52,19 +53,12 @@ Buttons allow users to perform an action or to navigate to another page. They ha
   </tbody>
 </table>
 
-
-
-
-
-
-
-
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
 <a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
-{:toc}
+  {:toc}
 
 ## Layout
 
@@ -131,90 +125,369 @@ Buttons allow users to perform an action or to navigate to another page. They ha
 
 ## Decisions
 
- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_decisions_01.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_decisions_01.png)
 
 ### Variations
 
-#### Options
-
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
 
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.OPT_withIconLeft</th>
-      <th>.OPT_withIconRight</th>
-      <th>.OPT_outline</th>
-      <th>.OPT_outlineWithIconLeft</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-     <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+### Interaction
 
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.OPT_outlineWithIconRight</th>
-      <th>.OPT_small</th>
-      <th>.OPT_smallOutline</th>
-      <th>.OPT_notContained</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-     <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td> 
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.OPT_notContainedWithIcon</th>
-      <th>.OPT_iconOnly</th>
-      <th>.OPT_iconOnlyNotContained</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-     <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td> 
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-      <td>
-        <span data-toolclip='TBD'><code class="language-plaintext highlighter-rouge">TBD</code></span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="tabs">
+  <input type="radio" name="Variants" id="variant_01" checked="checked">
+  <label for="variant_01">-001</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-001.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>                                           
+          </td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-001.bgColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span></td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-001.bgColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="radio" name="Variants" id="variant_02">
+  <label for="variant_02">-002</label>
+  <div class="tab">
+  <br>
+  <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-002.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>                                           
+          </td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-002.bgColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span></td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-002.bgColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span></td>
+        </tr>
+      </tbody>
+    </table>
+   </div>
+   <input type="radio" name="Variants" id="variant_03">
+  <label for="variant_03">-003</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-003.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>                                           
+          </td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-003.bgColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span></td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-003.bgColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="radio" name="Variants" id="variant_04">
+  <label for="variant_04">-004</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+          </td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0003-004.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="radio" name="Variants" id="variant_05">
+  <label for="variant_05">-005</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.icon.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-005.BLK_main.icon.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="radio" name="Variants" id="variant_06">
+  <label for="variant_06">-006</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.icon.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-006.BLK_main.icon.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="radio" name="Variants" id="variant_07">
+  <label for="variant_07">-007</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-007.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-007.bgColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-007.bgColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- -008 -->
+  <input type="radio" name="Variants" id="variant_08">
+  <label for="variant_08">-008</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.borderColor.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+          </td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.borderColor.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.borderColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.borderColor</code></span>
+          <span data-toolclip='"YPL.FFL.TKUI_D.E0003-008.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- -009 -->
+  <input type="radio" name="Variants" id="variant_09">
+  <label for="variant_09">-009</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+          </td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
+          <td><span data-toolclip='"YPL.FFL.TKUI_D.E0003-009.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- -00A -->
+  <input type="radio" name="Variants" id="variant_0A">
+  <label for="variant_0A">-00A</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.label.color.i.value": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.label.color.p.value": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.icon.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.label.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.label.color</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.icon.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- -00B -->
+  <input type="radio" name="Variants" id="variant_0B">
+  <label for="variant_0B">-00B</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.icon.color.p.value": "{YPL.FFL.TKUI_C.colors.teal.500.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00A.BLK_main.icon.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- -00C -->
+  <input type="radio" name="Variants" id="variant_0C">
+  <label for="variant_0C">-00C</label>
+  <div class="tab">
+    <br>
+    <h4 class="no_toc">Default</h4>
+    <table class="type-01 headerNoUpperCase colBordered headFramed">
+      <!-- <caption>my caption</caption> -->
+      <thead>
+        <tr>
+          <th>.i (idle)</th>
+          <th>.p (pressed)</th>
+          <th>.d (disabled)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00C.bgColor.i.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00C.BLK_main.icon.color.i.value": "{YPL.FFL.TKUI_C.colors.black.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00C.bgColor.p.value": "{YPL.FFL.TKUI_C.colors.white.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00C.BLK_main.icon.color.p.value": "{YPL.FFL.TKUI_C.colors.grey.400.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+          <td>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00C.bgColor.d.value": "{YPL.FFL.TKUI_C.colors.grey.200.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
+            <span data-toolclip='"YPL.FFL.TKUI_D.E0003-00C.BLK_main.icon.color.d.value": "{YPL.FFL.TKUI_C.colors.grey.300.value}"'><code class="language-plaintext highlighter-rouge">.icon.color</code></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ </div>
 
 ## Accessibility Status
 
@@ -332,6 +605,6 @@ Please comply to and update the checklist below:
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested  |
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Release Version</strong><br>Pasta `V0.1.0`                                    |
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library     |
-| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library  |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library |
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library     |
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented |
