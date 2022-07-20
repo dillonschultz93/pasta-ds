@@ -17,7 +17,7 @@ nav_order: 30
 
 ## Atomic
 
-The types of objects described inside Pasta's Design System are named following an atomic design approach as advocated by [Brad Frost](https://atomicdesign.bradfrost.com/chapter-2/). Pasta is highly Design-Tokens focused, a category not represented inside Brad Frost classification. Here's the adapted atomic hierarchy used inside Pasta Design System:
+The types of objects, or `Components`, described inside Pasta's Design System are named following an inheritance scheme such as the one advocated by [Brad Frost's Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/). Pasta is a Design-Tokens based System. Tokens (aka "Design Tokens") is a category not represented inside Brad Frost classification. Here's Brad's Frost hierarchy equivalent used inside Pasta:
 
 <table class="type-01">
     <!-- <caption>vertical-align</caption> -->
@@ -26,7 +26,7 @@ The types of objects described inside Pasta's Design System are named following 
             <th></th>
             <th>Tokens</th>
             <th>Primitives</th>
-            <th>Components</th>
+            <th>Elements</th>
             <th>Patterns</th>
         </tr>
     </thead>
@@ -43,17 +43,18 @@ The types of objects described inside Pasta's Design System are named following 
             <td valign="top">The foundational constants used to build everything</td>
             <td valign="top">An indivisible part of a visual or UI item</td>
             <td valign="top">An autonomous item which surface clear affordance</td>
-            <td valign="top">A coherent assemblage of components providing a conventional UI block</td>
+            <td valign="top">A coherent assemblage of Elements providing a conventional UI block</td>
         </tr>
         <tr>
             <td valign="top"></td>
             <td valign="top">
-                Split in 4 categories:
+                Split in sub categories:
                 <ol>
                     <li>Choices: (as limited as possible)</li>
                     <li>Decisions: where we map the Choices to objects attributes</li>
                     <li>Aliases: sometimes used to make Tokens more human-friendly/readable</li>
                     <li>Math: logic generated tokens such as size scale and color contrast dependencies</li>
+                    <li><a href="{{site.baseurl}}/foundations/nomenclature#kingdom">etc.</a></li>                    
                 </ol>
             </td>
             <td valign="top">
@@ -86,13 +87,14 @@ The types of objects described inside Pasta's Design System are named following 
         <tr>
             <td valign="top">Alternate Names (on other DS or Platforms)</td>
             <td valign="top">"Design Tokens"</td>
-            <td valign="top">"Component" (misleading in our opinion), "Element"</td>
-            <td valign="top">"Widget"</td>
+            <td valign="top">"Component" (misleading in our opinion)</td>
+            <td valign="top">"Component" (misleading in our opinion), "Widget"</td>
             <td valign="top">"Block"</td>
         </tr>
     </tbody>
 </table>
 
+Since the term "Component" is used as a generic name in the industry (including in designers' tools such as Figma), we've decided to keep this conventional meaning and scope and disqualified it as a candidate to signify more specific (class of) objects inside Pasta.
 
 ## Units
 

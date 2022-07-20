@@ -8,6 +8,8 @@ nav_order: 40
 
 # Tokens
 
+DEPRECATED
+{: .label}
 
 ## UI vs Content
 

@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Button # title case
 UID: E0003 # ["P","E","F"] + Hexa code/index
-variants: [] # all variants index
+variants: ["001","002","003","004","005","006","007","008","009","00A", "00B", "00C"] # all variants index
 permalink: farfalle/elements/button-E0003 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
@@ -37,9 +37,9 @@ Buttons allow users to perform an action or to navigate to another page. They ha
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/27">&#35;27</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/23">&#35;23</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='.OPT_withIconLeft, .OPT_withIconRight, .OPT_outline, .OPT_outlineWithIconLeft, .OPT_outlineWithIconRight, .OPT_small, .OPT_smallOutline, .OPT_notContained, .OPT_notContainedWithIcon, .OPT_iconOnly, .OPT_iconOnlyNotContained'><code>11</code></span></td>
+      <td><span data-toolclip='N/A'><code>N/A</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
       <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
@@ -58,7 +58,7 @@ Buttons allow users to perform an action or to navigate to another page. They ha
 <a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
-  {:toc}
+{:toc}
 
 ## Layout
 
