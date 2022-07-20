@@ -187,7 +187,6 @@ Poster Cards distinctive attribute is their background image that fill the card 
   <thead>
     <tr>
       <th>.OPT_small</th>
-      <th>.OPT_inSlider</th>
     </tr>
   </thead>
   <tbody>
@@ -197,10 +196,6 @@ Poster Cards distinctive attribute is their background image that fill the card 
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_copy.heading.style.value": "{YPL.FFL.F0002-005}"'><code class="language-plaintext highlighter-rouge">.BLK_copy.heading.style</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.BLK_header.chip.element.value": "{YPL.FFL.E0001.OPT_iconOnly}"'><code class="language-plaintext highlighter-rouge">.BLK_header.chip.element</code></span>
         <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_small.gradient.value": "{YPL.FFL.F0004-002}"'><code class="language-plaintext highlighter-rouge">.gradient</code></span>            
-      </td>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_inSlider.width.value": "{YPL.FFL.TKUI_C.percents.xxl.value}"'><code class="language-plaintext highlighter-rouge">.width</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0001.OPT_inSlider.fringeRight.value": "{YPL.FFL.TKUI_C.spaces.sm.value}"'><code class="language-plaintext highlighter-rouge">.fringeRight</code></span>
       </td>
     </tr>
   </tbody>

@@ -74,7 +74,7 @@ Content Sliders offer horizontal scroll to a row of Components.
    </div>
 
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=12%3A1694" class="btn iconed figmaBadge">To Figma →</a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=3935%3A52818" class="btn iconed figmaBadge">To Figma →</a>
 
 - TOC
 {:toc}
@@ -185,7 +185,7 @@ Content Sliders offer horizontal scroll to a row of Components.
                 <td>.posterCard</td>
                 <td><span data-toolclip='"YPL.FFL.TKUI_D.P0010.posterCard.value": "{YPL.FFL.P0001.OPT_small}"'><code>FFL.P0001</code></span></td>
                 <!-- <td>Element</td> -->
-                <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/patterns/poster-card-P0001" alt="Link to Primitive page" class="btn">(.OPT_small) →</a></td>
+                <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/patterns/poster-card-P0001#options" alt="Link to Primitive page" class="btn">(.OPT_small) →</a></td>
              </tr>         
             </tbody>
          </table>
@@ -197,40 +197,40 @@ Content Sliders offer horizontal scroll to a row of Components.
 <!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-bp_dependencies_01.png) -->
 
 
-
-
-
-
 ## Decisions
 
 ![Decision Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-bp_decisions_01.png)
 
 
-```
-"YPL.FFL.TKUI_M.scales.arithA.2800.value": 56,
-"YPL.FFL.TKUI_C.spaces.xxxl.value": "YPL.FFL.TKUI_M.scales.arithA.2800.value",
-```
+<details>
+<summary>Raw Tokens Playground</summary>
+{% highlight json %}
 
-```
+// -001
+
 "YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
-"YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.xxxl.value",
+"YPL.FFL.TKUI_D.P0010-001.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.xxxl.value",
 "YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
 "YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
 "YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
 "YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
 "YPL.FFL.TKUI_D.P0010-001.CHILD_FIRST.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
 "YPL.FFL.TKUI_D.P0010-001.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
-```
+{% endhighlight %}
+{% highlight json %}
 
-```
-"YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+// -002
+
+"YPL.FFL.TKUI_D.P0010-002.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+"YPL.FFL.TKUI_D.P0010-002.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.xxxl.value",
 "YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
 "YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
 "YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
 "YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
 "YPL.FFL.TKUI_D.P0010-002.CHILD_FIRST.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
 "YPL.FFL.TKUI_D.P0010-002.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
-```
+{% endhighlight %}
+</details>
 
 
 <!-- ### Variations -->
