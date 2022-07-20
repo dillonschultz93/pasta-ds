@@ -47,7 +47,7 @@ nav_order: 120
 </table>
 
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220624.zip" class="btn iconed downloadBadge">Download Zip</a>
+<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220720.zip" class="btn iconed downloadBadge">Download Zip</a>
 
 <!-- - TOC
 {:toc} -->
@@ -171,7 +171,7 @@ Variants UIDs go from `4xx` to `7FE`. `7FF` is reserved for placholder.
       <td id="F0003-432"><span data-toolclip='YPL.FFL.F0003-432'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-432.svg"></span></td>
       <td id="F0003-433"><span data-toolclip='YPL.FFL.F0003-433'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-433.svg"></span></td>
       <td id="F0003-434"><span data-toolclip='YPL.FFL.F0003-434'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-434.svg"></span></td>
-      <td id="F0003-xxx"></td>
+      <td id="F0003-435"><span data-toolclip='YPL.FFL.F0003-435'><img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/icons/stripped/YPL.FFL.F0003-435.svg"></span></td>
       <td id="F0003-xxx"></td>
     </tr>
     <tr>
