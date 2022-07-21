@@ -115,8 +115,8 @@ Buttons allow users to perform an action or to navigate to another page. They ha
          </tr>
          <tr>
             <td>.label</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFLF0002-401}"'><code>FFL.F0002-401</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Typography Primitives page" class="btn">Eyebrow →</a></td>
+            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFLF0002-102}"'><code>FFL.F0002-102</code></span></td>
+            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-102" alt="Link to Typography Primitives page" class="btn">Strong Paragraph →</a></td>
          </tr>
         </tbody>
      </table>

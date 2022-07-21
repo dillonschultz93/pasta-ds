@@ -54,9 +54,9 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. S
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
 
-
+<!-- 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fle9hbXPWmA55qUA7a7otgH%2Fbranch%2F63eOdP9xlxgPcmHnwcHGO5%2FPasta-0.1.0%3Fpage-id%3D4001%253A70652%26node-id%3D4053%253A63175%26viewport%3D711%252C25%252C0.12%26scaling%3Dmin-zoom%26starting-point-node-id%3D4053%253A63175%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+ -->
 
 
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fle9hbXPWmA55qUA7a7otgH%2Fbranch%2F63eOdP9xlxgPcmHnwcHGO5%2FPasta-0.1.0%3Fpage-id%3D4001%253A70652%26node-id%3D4053%253A63177%26viewport%3D711%252C25%252C0.12%26scaling%3Dmin-zoom%26starting-point-node-id%3D4053%253A63175" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="910" height="610" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fle9hbXPWmA55qUA7a7otgH%2Fbranch%2F63eOdP9xlxgPcmHnwcHGO5%2FPasta-0.1.0%3Fpage-id%3D4001%253A70652%26node-id%3D4053%253A63177%26viewport%3D711%252C25%252C0.12%26scaling%3Dmin-zoom%26starting-point-node-id%3D4053%253A63175" allowfullscreen></iframe>
