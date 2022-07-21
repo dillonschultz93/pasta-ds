@@ -4022,16 +4022,6 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-001.width": {
-      "value": "{}", // Do we need to specify this?
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
     "YPL.FFL.TKUI_D.E0003-001.minWidth": {
       "value": "{YPL.FFL.TKUI_M.scales.arithB.900.value}",
       "description": "",
@@ -4166,16 +4156,6 @@
     // Icon on left variant -002
     "YPL.FFL.TKUI_D.E0003-002.height": {
       "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0003-002.width": {
-      "value": "{}", // Do we need to specify this?
       "description": "",
       "dictionary": {
         "figma": {
@@ -4376,16 +4356,6 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-003.width": {
-      "value": "{}", // Do we need to specify this?
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
     "YPL.FFL.TKUI_D.E0003-003.minWidth": {
       "value": "{YPL.FFL.TKUI_M.scales.arithB.900.value}",
       "description": "",
@@ -4578,16 +4548,6 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-004.width": {
-      "value": "{}", // Do we need to specify this?
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
     "YPL.FFL.TKUI_D.E0003-004.minWidth": {
       "value": "{YPL.FFL.TKUI_M.scales.arithB.900.value}",
       "description": "",
@@ -4762,16 +4722,6 @@
     // Outline icon left variant -005
     "YPL.FFL.TKUI_D.E0003-005.height": {
       "value": "{YPL.FFL.TKUI_C.sizes.micro.1900.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0003-005.width": {
-      "value": "{}", // Do we need to specify this?
       "description": "",
       "dictionary": {
         "figma": {
@@ -5032,16 +4982,6 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-006.width": {
-      "value": "{}", // Do we need to specify this?
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
     "YPL.FFL.TKUI_D.E0003-006.minWidth": {
       "value": "{YPL.FFL.TKUI_M.scales.arithB.900.value}",
       "description": "",
@@ -5294,16 +5234,6 @@
         "ios": true
       },
     },
-    "YPL.FFL.TKUI_D.E0003-007.width": {
-      "value": "{}", // Do we need to specify this?
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
     "YPL.FFL.TKUI_D.E0003-007.minWidth": {
       "value": "{YPL.FFL.TKUI_M.scales.arithB.900.value}",
       "description": "",
@@ -5438,16 +5368,6 @@
     // Small outline button variant -008
     "YPL.FFL.TKUI_D.E0003-008.height": {
       "value": "{YPL.FFL.TKUI_C.sizes.micro.1400.value}",
-      "description": "",
-      "dictionary": {
-        "figma": {
-          "type": "sizing"
-        },
-        "ios": true
-      },
-    },
-    "YPL.FFL.TKUI_D.E0003-008.width": {
-      "value": "{}", // Do we need to specify this?
       "description": "",
       "dictionary": {
         "figma": {
@@ -7149,6 +7069,253 @@
       "dictionary": {
         "figma": {
           "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+
+    // PAGE_NAVIGATION P0009 -----------------------------------------------------------------------------------------
+    // -001
+    "YPL.FFL.TKUI_D.P0009-001.width": {
+      "value": "{YPL.FFL.TKUI_C.percents.full.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.height": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.paddingLeft": {
+      "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.paddingRight": {
+      "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.marginTop": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}", // FIXME: We need a spacing token that reaches 40pts. So for now we are using a sizing token.
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.fringeTop": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}", // FIXME: We need a spacing token that reaches 40pts. So for now we are using a sizing token.
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.BLK_left.width": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.BLK_left.height": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.BLK_left.button.element": {
+      "value": "{YPL.FFL.E0003-00C}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.BLK_right.CHILDREN.elements": { // NOTE: I am specifying it this why so I don't have to specify each child slot.
+      "value": "{YPL.FFL.E0003-00C}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.BLK_right.CHILDREN.marginRight": {
+      "value": "{YPL.FFL.TKUI_C.spaces.s.value}",
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-001.BLK_right.CHILD_LAST.marginRight": {
+      "value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+
+    // -002 ------
+    "YPL.FFL.TKUI_D.P0009-002.width": {
+      "value": "{YPL.FFL.TKUI_C.percents.full.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.height": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.paddingLeft": {
+      "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.paddingRight": {
+      "value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.marginTop": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}", // FIXME: We need a spacing token that reaches 40pts. So for now we are using a sizing token.
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.fringeTop": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}", // FIXME: We need a spacing token that reaches 40pts. So for now we are using a sizing token.
+      "dictionary": {
+        "figma": {
+          "type": "spacing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.BLK_left.width": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.BLK_left.height": {
+      "value": "{YPL.FFL.TKUI_C.sizes.micro.1800.value}",
+      "dictionary": {
+        "figma": {
+          "type": "sizing"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.BLK_left.button.element": {
+      "value": "{YPL.FFL.E0003-00C}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
+        },
+        "ios": true
+      },
+      "apparatusTags": [],
+      "UIDs": {}
+    },
+    "YPL.FFL.TKUI_D.P0009-002.BLK_right.button.element": {
+      "value": "{YPL.FFL.E0003-00C}",
+      "dictionary": {
+        "figma": {
+          "type": "other"
         },
         "ios": true
       },
