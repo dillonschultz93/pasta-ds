@@ -207,28 +207,29 @@ Content Sliders offer horizontal scroll to a row of Components.
 {% highlight json %}
 
 // -001
-
-"YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
-"YPL.FFL.TKUI_D.P0010-001.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.xxxl.value",
-"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
-"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
-"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
-"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
-"YPL.FFL.TKUI_D.P0010-001.CHILD_FIRST.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
-"YPL.FFL.TKUI_D.P0010-001.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+"YPL.FFL.TKUI_D.P0010-001.width": "{YPL.FFL.TKUI_C.sizes.macro.650.value}",
+"YPL.FFL.TKUI_D.P0010-001.paddingTop.value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+"YPL.FFL.TKUI_D.P0010-001.paddingBottom.value": "{YPL.FFL.TKUI_C.spaces.xxxl.value}",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginTop.value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginRight.value": "{YPL.FFL.TKUI_C.spaces.m.value}",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginBottom.value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+"YPL.FFL.TKUI_D.P0010-001.CHILDREN.marginLeft.value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+"YPL.FFL.TKUI_D.P0010-001.CHILD_FIRST.marginLeft.value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+"YPL.FFL.TKUI_D.P0010-001.CHILD_LAST.marginRight.value": "{YPL.FFL.TKUI_C.spaces.l.value}",
 {% endhighlight %}
+
 {% highlight json %}
 
 // -002
-
-"YPL.FFL.TKUI_D.P0010-002.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
-"YPL.FFL.TKUI_D.P0010-002.paddingBottom.value": "YPL.FFL.TKUI_C.spaces.xxxl.value",
-"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginTop.value": "YPL.FFL.TKUI_C.spaces.none.value",
-"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.m.value",
-"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginBottom.value": "YPL.FFL.TKUI_C.spaces.none.value",
-"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginLeft.value": "YPL.FFL.TKUI_C.spaces.none.value",
-"YPL.FFL.TKUI_D.P0010-002.CHILD_FIRST.marginLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
-"YPL.FFL.TKUI_D.P0010-002.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.l.value",
+"YPL.FFL.TKUI_D.P0010-001.width": "{YPL.FFL.TKUI_C.sizes.macro.660.value}",
+"YPL.FFL.TKUI_D.P0010-002.paddingTop.value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+"YPL.FFL.TKUI_D.P0010-002.paddingBottom.value": "{YPL.FFL.TKUI_C.spaces.xxxl.value}",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginTop.value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginRight.value": "{YPL.FFL.TKUI_C.spaces.m.value}",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginBottom.value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+"YPL.FFL.TKUI_D.P0010-002.CHILDREN.marginLeft.value": "{YPL.FFL.TKUI_C.spaces.none.value}",
+"YPL.FFL.TKUI_D.P0010-002.CHILD_FIRST.marginLeft.value": "{YPL.FFL.TKUI_C.spaces.l.value}",
+"YPL.FFL.TKUI_D.P0010-002.CHILD_LAST.marginRight.value": "{YPL.FFL.TKUI_C.spaces.l.value}",
 {% endhighlight %}
 </details>
 
