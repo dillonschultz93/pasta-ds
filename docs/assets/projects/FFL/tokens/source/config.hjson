@@ -6221,9 +6221,10 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
+    
     // SWITCH -003 ----------------------------------------------------------------------------------------------------------------------
 		"YPL.FFL.TKUI_D.E0004-003.width": {
-			"value": "{YPL.FFL.TKUI_C.sizes.micro.1700.value}",
+			"value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -6235,7 +6236,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_D.E0004-003.height": {
-			"value": "{YPL.FFL.TKUI_C.sizes.micro.1700.value}",
+			"value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -6271,7 +6272,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_D.E0004-003.icon.asset.i": {
-			"value": "{YPL.FFL.F0003-401}",
+			"value": "{YPL.FFL.F0003-001}",
 			"dictionary": {
 				"figma": {
 					"type": "other"
@@ -6293,7 +6294,7 @@
 			"UIDs": {}
 		},
     "YPL.FFL.TKUI_D.E0004-003.icon.width": {
-			"value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -6305,7 +6306,7 @@
 			"UIDs": {}
 		},
     "YPL.FFL.TKUI_D.E0004-003.icon.height": {
-			"value": "{YPL.FFL.TKUI_C.sizes.micro.1200.value}",
+			"value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
 			"description": "",
 			"dictionary": {
 				"figma": {
@@ -6328,7 +6329,7 @@
 			"UIDs": {}
 		},
 		"YPL.FFL.TKUI_D.E0004-003.icon.asset.hi": {
-			"value": "{YPL.FFL.F0003-435}",
+			"value": "{YPL.FFL.F0003-024}",
 			"dictionary": {
 				"figma": {
 					"type": "other"

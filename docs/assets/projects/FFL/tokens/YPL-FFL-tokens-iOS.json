@@ -2,7 +2,7 @@
   "_header": {
     "Design System": "Pasta",
     "project": "FFL",
-    "version": "0.1.0 (2022622-919)",
+    "version": "0.1.0 (2022622-146)",
     "platform": "iOS",
     "format": "json",
     "patent": "-----------------------------------------------\nPASTA TOKENS\n-----------------------------------------------\nDescription: Pasta Tokens Output\nAuthors: Manuel Colom - manuel.colom@yummly.com, Dillon Schultz - dillon.schultz@yummly.com\n\nCopyright (c) 2022 Yummly, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
@@ -9123,7 +9123,7 @@
           },
           "E0004-003": {
             "width": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1700.value",
+              "value": "YPL.FFL.TKUI_M.scales.arithA.2000.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -9135,7 +9135,7 @@
               "UIDs": {}
             },
             "height": {
-              "value": "YPL.FFL.TKUI_C.sizes.micro.1700.value",
+              "value": "YPL.FFL.TKUI_M.scales.arithA.2000.value",
               "description": "",
               "dictionary": {
                 "figma": {
@@ -9173,7 +9173,7 @@
             "icon": {
               "asset": {
                 "i": {
-                  "value": "YPL.FFL.F0003-401",
+                  "value": "YPL.FFL.F0003-001",
                   "dictionary": {
                     "figma": {
                       "type": "other"
@@ -9184,7 +9184,7 @@
                   "UIDs": {}
                 },
                 "hi": {
-                  "value": "YPL.FFL.F0003-435",
+                  "value": "YPL.FFL.F0003-024",
                   "dictionary": {
                     "figma": {
                       "type": "other"
@@ -9220,7 +9220,7 @@
                 }
               },
               "width": {
-                "value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+                "value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
                 "description": "",
                 "dictionary": {
                   "figma": {
@@ -9232,7 +9232,7 @@
                 "UIDs": {}
               },
               "height": {
-                "value": "YPL.FFL.TKUI_C.sizes.micro.1200.value",
+                "value": "YPL.FFL.TKUI_C.sizes.micro.800.value",
                 "description": "",
                 "dictionary": {
                   "figma": {
