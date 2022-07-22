@@ -4487,7 +4487,7 @@
       },
     },
     "YPL.FFL.TKUI_D.E0003-003.BLK_main.label.style": {
-      "value": "{YPL.FFL.F0003-102}",
+      "value": "{YPL.FFL.F0002-102}",
       "description": "",
       "dictionary": {
         "figma": {
@@ -6221,7 +6221,7 @@
 			"apparatusTags": [],
 			"UIDs": {}
 		},
-    
+
     // SWITCH -003 ----------------------------------------------------------------------------------------------------------------------
 		"YPL.FFL.TKUI_D.E0004-003.width": {
 			"value": "{YPL.FFL.TKUI_M.scales.arithA.2000.value}",
