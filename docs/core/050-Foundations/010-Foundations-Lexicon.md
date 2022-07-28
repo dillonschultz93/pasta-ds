@@ -117,7 +117,7 @@ Patterns are coherent assemblages of Elements providing a conventional UI block:
 
 Features are an aggregation of Components that serves a specific task within a user experience or user flow: a shopping list, an onboarding funnel, a search result page. They are rarely documented inside Pasta.
 
-### Options, Variants, Components and SCPA
+### Options, Variants, Components and Variation Ratio
 
 <section class="flex-1_1-cols">
   <div>
@@ -134,17 +134,25 @@ Component
 </section>
 
 
-#### SCPA (Specification Cost Per Attributes)
+#### Variants
 
-We calculate the Specification Cost Per Attributes to assess our willingness to escalate from Options to a Variant and to Variants to new Component(s). 
-Let's say a new Candidate Component requires to modify 12 attributes from an existing Component that requires 29 attributes to be built (all dependencies included), it's SCPA would then be `12/29 = ~0.41` (~41%). This would be used to make an inform decision if we should address it's building by adding Options or Variants to this already existing Component, or to create a new one. The SCPA should be used as a guideline to help decisions, not as a strict rule.
-[FIXME] These are random values, we need to agree on the one we are using:
+Variants share general characteristics (behaviour, aspect) but are totally decoupled from one another. In that respect we serve all their Decisions (attributes) and don't use Overrides to address their Variations.
+
+#### Options
+
+Options are using Decisions Overrides to address a Variation from a `Default` set of attributes. They are modifiers that use a `OPT_` prefix for their stem.
+
+####  Variation Ratio
+
+We calculate the Variation Ratio to assess our willingness to escalate from Options to Variants and to Variants to new Components. 
+Let's say a new Candidate requires to modify 12 attributes from an existing Component that requires 29 attributes to be built, it's Variation Ratio would then be `12/29 = ~0.41` (or ~41%). This ratio would be used to make an informed decision: shall it be an Option, a Variant or a new  Component. This Ratio should be used as a guideline to help decisions, not as a strict rule.
+These early proposals:
 
 ||cost|
 |---|---|
-|New component| 100% |
-|New variant| 50% |
-|Options| 5% |
+|New component| 0.6 (60%) |
+|New variant| 0.25 (25%) |
+|Options| N/A |
 
 
 
