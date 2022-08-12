@@ -5925,7 +5925,7 @@
       },
     },
     "YPL.FFL.TKUI_D.E0003-00C.BLK_main.icon.color.d": {
-      "value": "{YPL.FFL.TKUI_C.colors.grey.400.value}",
+      "value": "{YPL.FFL.TKUI_C.colors.grey.500.value}",
       "description": "",
       "dictionary": {
         "figma": {
