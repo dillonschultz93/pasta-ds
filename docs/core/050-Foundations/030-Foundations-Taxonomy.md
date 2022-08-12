@@ -19,6 +19,13 @@ nav_order: 30
 
 The types of objects, or `Components`, described inside Pasta's Design System are named following an inheritance scheme such as the one advocated by [Brad Frost's Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/). Pasta is a Design-Tokens based System. Tokens (aka "Design Tokens") is a category not represented inside Brad Frost classification. Here's Brad's Frost hierarchy equivalent used inside Pasta:
 
+![Pasta Atomic Design]({{site.baseurl}}/assets/images/YPL-DOC-Taxonomy.svg)
+
+NB:
+{: .label}
+
+**Pasta rarely serves or specifies `Features` or "Templates + Pages" and, stops most of the time at the Pattern level. Other specifications tools are used to address the stacking of Components in a specific order, should that staking be dynamic or static (ie: Mockups, YML Layout description).**
+
 <table class="type-01">
     <!-- <caption>vertical-align</caption> -->
     <thead>
@@ -84,12 +91,12 @@ The types of objects, or `Components`, described inside Pasta's Design System ar
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr class="faded">
             <td valign="top">Alternate Names (on other DS or Platforms)</td>
             <td valign="top">"Design Tokens"</td>
             <td valign="top">"Component" (misleading in our opinion)</td>
             <td valign="top">"Component" (misleading in our opinion), "Widget"</td>
-            <td valign="top">"Block"</td>
+            <td valign="top">"Block" (used for Container inside Pasta)</td>
         </tr>
     </tbody>
 </table>

@@ -152,7 +152,7 @@ These early proposals:
 |---|---|
 |New component| 0.6 (60%) |
 |New variant| 0.25 (25%) |
-|Options| N/A |
+|Options| &lt;0.25 |
 
 
 
