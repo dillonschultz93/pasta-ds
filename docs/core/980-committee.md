@@ -29,7 +29,7 @@ nav_order: 980
 |**SUBSCRIBERS**|
 |Implementation|[HB Stone](mailto:HB@yummly.com)|Dev.|[hbstone](https://github.com/hbstone)|Web|
 |Implementation|[Jan Jorgensen](mailto:jan@yummly.com)|Dev.|[ramblinjan](https://github.com/ramblinjan)|Web|
-|Implementation|[Kevin Malek](mailto:kevin.malek@yummly.com)|Dev.|[kevmalek](https://github.com/kevmalek)|iOS|
+|Implementation|[Praveen Nagaraj](mailto:praveen.nagaraj@yummly.com)|Dev.|[prvnngrj](https://github.com/prvnngrj)|iOS|
 |Implementation|[Michael Leung](mailto:mleung@yummly.com)|Dev.|[mleung-yummly](mleung-yummly)|Android|
 
 ## 2022 · Q2
