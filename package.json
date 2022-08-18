@@ -1,0 +1,26 @@
+{
+  "name": "pasta-docs",
+  "version": "0.0.1",
+  "description": "Aka Yummly Math-Based Product Language",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yummly/pasta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yummly/pasta/issues"
+  },
+  "homepage": "https://github.com/yummly/pasta#readme",
+  "devDependencies": {
+    "@yummly/pasta-cli": "^0.0.1",
+    "parcel": "^2.7.0"
+  }
+}
