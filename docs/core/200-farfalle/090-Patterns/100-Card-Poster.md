@@ -1,10 +1,10 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Poster Card # title case
+title: Card Poster # title case
 UID: P0001 # "P" = Pattern + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/poster-card-P0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/card-poster-P0001 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
@@ -47,10 +47,10 @@ nav_order: 100
   </tbody>
 </table>
 
-# Poster Card
+# Card Poster
 {: .no_toc}
 
-Poster Cards distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Poster Cards are used to promote key features within the user journey.
+Card Posters distinctive attribute is their background image that fill the card container (bleed). The Cards can embed various information. At minima a Heading is required. Card Posters are used to promote key features within the user journey.
 
 
 <div class="tabs">
