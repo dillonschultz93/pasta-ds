@@ -1,10 +1,10 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: — Card # title case
+title: — Split Card # title case
 UID: P0005 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/split-card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
@@ -12,7 +12,7 @@ nav_order: 100
 nav_exclude: true
 ---
 
-# Card
+# Split Card
 {: .no_toc}
 
 <table class="headTopBorder">
