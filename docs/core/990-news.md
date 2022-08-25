@@ -8,6 +8,13 @@ nav_order: 990
 
 # To be documented
 
+## Component management inside Figma
+
+- Figma components should always present a "realistic" (no Lorem, No placeholder) look'n feel to be used by Designers (especially new comers)
+- Naming: The naming of Figma components should be human readable (and do not require to match Pasta conventions)
+- Naming: Still, for known variants of a given component (that matches Pasta nomenclatura) we want to surface the variant UID suffix at the of the Figma component name (Cf. Icons), ie: `butIcon-004` 
+
+
 ## Nesting level protocol within components
 
 ### We do not allow nested blocks selectors
