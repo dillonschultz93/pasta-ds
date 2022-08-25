@@ -58,3 +58,24 @@ In the spirit of "how Design Systems implementation goes against some of code be
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TqfbAXCCVwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+## How to consume videos 
+
+```html
+<figure>
+  <video autoplay="" muted="" loop="" playsinline="" poster="" width="100%" height="auto"><source src="https://uxcm-pasta.s3.us-west-1.amazonaws.com/FFL/FFL-P0016-Collapsible-anim-001.mp4" type="video/mp4"></video>
+  <!-- <figcaption>
+  	Collapsible unfurling
+  </figcaption> -->
+</figure>
+```
+
+does this:
+
+<figure>
+  <video autoplay="" muted="" loop="" playsinline="" poster="" width="100%" height="auto"><source src="https://uxcm-pasta.s3.us-west-1.amazonaws.com/FFL/FFL-P0016-Collapsible-anim-001.mp4" type="video/mp4"></video>
+  <!-- <figcaption>
+  	Collapsible unfurling
+  </figcaption> -->
+</figure>
+
