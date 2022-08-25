@@ -38,6 +38,16 @@ color_scheme: pasta
 plugins:
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: "assets/projects/FFL/images/icons/stripped/16"
+    values:
+      size: "16"
+  - scope:
+      path: "assets/projects/FFL/images/icons/stripped/24"
+    values:
+      size: "24"
+
 
 
 
