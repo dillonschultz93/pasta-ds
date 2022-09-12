@@ -3,7 +3,20 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Button # title case
 UID: E0003 # ["P","E","F"] + Hexa code/index
-variants: ["001","002","003","004","005","006","007","008","009","00A", "00B", "00C"] # all variants index
+variants: [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "00A",
+    "00B",
+    "00C",
+  ] # all variants index
 permalink: farfalle/elements/button-E0003 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
@@ -23,35 +36,7 @@ nav_order: 120
 
 Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.
 
-<table class="headTopBorder">
-  <thead>
-    <tr>
-      <th>UID</th>
-      <th>Ticket</th>
-      <th>Owner</th>
-      <th>Options</th>
-      <th>Tokens</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/23">&#35;23</a></td>
-      <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='N/A'><code>N/A</code></span></td>
-      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
-      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
-    </tr>
-    {% if page.variants.size > 0 %}
-    <tr>
-      <td colspan="6" class="pageHeaderVariantsRow">
-        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
-      </td>
-    </tr>
-    {% endif %}
-  </tbody>
-</table>
+{% include element-header.html %}
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
@@ -91,42 +76,42 @@ Buttons allow users to perform an action or to navigate to another page. They ha
 ### Links
 
 <section class="flex-1_2-cols">
-   <div>
-     <br>
-    <p>
-     This Element requires that you implement and instantiate all these dependencies.<br>
-     Please refer to each component in this list&nbsp;→
-     </p>
-   </div>
-   <div>
-     <table>
-       <thead>
-         <tr>
-           <th>Instance</th>
-           <th>Component</th>
-           <th></th>
-         </tr>
-       </thead>
-        <tbody>
-         <tr>
-            <td>.icon</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.icon.asset.value": "{YPL.FFL.F0003-XXX}"'><code>FFL.F0003</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons-F0003" alt="Link to Icon page" class="btn">Icon →</a></td>
-         </tr>
-         <tr>
-            <td>.label</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFL.F0002-102}"'><code>FFL.F0002-102</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-102" alt="Link to Typography Primitives page" class="btn">Strong Paragraph →</a></td>
-         </tr>
-         <tr>
-            <td><code>-009</code> .label</td>
-            <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFLF0002-104}"'><code>FFL.F0002-104</code></span></td>
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-104" alt="Link to Typography Primitives page" class="btn">Strong S. Paragraph →</a></td>
-         </tr>         
-        </tbody>
-     </table>
-   </div>
- </section>
+    <div>
+      <br>
+     <p>
+      This Element requires that you implement and instantiate all these dependencies.<br>
+      Please refer to each component in this list&nbsp;→
+      </p>
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Instance</th>
+            <th>Component</th>
+            <th></th>
+          </tr>
+        </thead>
+         <tbody>
+          <tr>
+             <td>.icon  </td>
+             <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.icon.asset.value": "{YPL.FFL.F0003-XXX}"'><code>FFL.F0003</code></span></td>
+             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/icons-F0003" alt="Link to Icon page" class="btn">Icon →</a></td>
+          </tr>
+          <tr>
+             <td>.label</td>
+             <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFL.F0002-102}"'><code>FFL.F0002-102</code></span></td>
+             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-102" alt="Link to Typography Primitives page" class="btn">Strong Paragraph →</a></td>
+          </tr>
+          <tr>
+             <td><code>-009</code> .label</td>
+             <td><span data-toolclip='"YPL.FFL.{{ page.UID }}.BLK_main.label.style.value": "{YPL.FFLF0002-104}"'><code>FFL.F0002-104</code></span></td>
+             <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-104" alt="Link to Typography Primitives page" class="btn">Strong S. Paragraph →</a></td>
+          </tr>         
+         </tbody>
+      </table>
+    </div>
+  </section>
 
 ## Decisions
 
