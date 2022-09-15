@@ -12,16 +12,30 @@
     <tbody>
       <tr>
         <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-        <td><a href="https://github.com/yummly/pasta/issues/23">&#35;23</a></td>
-        <td><a href="https://github.com/robert-ANML">Robert</a></td>
-        <td><span data-toolclip='N/A'><code>N/A</code></span></td>
+        <td><a href="{{site.data[page.UID].meta.ticketURL}}">&#35;{{site.data[page.UID].meta.ticketNumber}}</a></td>
+        <td><a href="{{site.data[page.UID].meta.ownerGitHubURL}}">{{site.data[page.UID].meta.ownerName}}</a></td>
+        <td><span data-toolclip='N/A'><code>
+          {% if site.data[page.UID].meta.options %}
+            {% for option in site.data[page.UID].meta.options %}
+              {{ option }}
+            {% endfor %}
+          {% else %}
+            N/A
+          {% endif %}
+        </code></span></td>
         <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
         <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
       </tr>
-      {% if page.variants.size > 0 %}
+      {% if site.data[page.UID].meta.variants %}
       <tr>
         <td colspan="6" class="pageHeaderVariantsRow">
-          {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
+          {% for variant in site.data[page.UID].meta.variants %}
+          <a href="#{{page.UID}}-{{variant}}">
+            <code>
+              -{{variant | default: ""}}
+            </code>
+          </a>
+          {% endfor %}
         </td>
       </tr>
       {% endif %}

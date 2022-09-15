@@ -34,13 +34,13 @@ nav_order: 120
 
 {: .no_toc}
 
-Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs.
+{{site.data[page.UID].meta.description}}
 
 {% include element-header.html %}
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=1737%3A68833" class="btn iconed figmaBadge">To Figma →<a>
+<a href="{{site.data[page.UID].meta.figmaLink}}">To Figma →<a>
 
 - TOC
 {:toc}
