@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "cd docs; bundle exec jekyll serve --watch --incremental;",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
