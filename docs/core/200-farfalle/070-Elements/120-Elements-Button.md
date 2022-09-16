@@ -40,7 +40,7 @@ nav_order: 120
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
-<a href="{{site.data[page.UID].meta.figmaLink}}">To Figma →<a>
+<a href="{{site.data[page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}
