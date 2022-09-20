@@ -53,24 +53,7 @@ nav_order: 120
 
 ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_dependencies_01.png)
 
-<details>
-<summary>Tree</summary>
- <section class="flex-1_2-cols">
-   <div>
-    <p>
-      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
-    </p>
-   </div>
-   <div>
-     {% highlight txt %}
-          YPL.FFL.{{page.UID}}
-          └─ .BLK_main
-              ├─ .icon (optional)
-              └─ .label (optional)
-     {% endhighlight %}
-   </div>
- </section>
-</details>
+{% include dependency-tree.html %}
 <hr>
 
 ### Links

@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "npm run postinstall && cd docs; bundle exec jekyll serve --watch --incremental;",
+    "start": "cd docs; bundle exec jekyll serve --watch --incremental --livereload;",
     "postinstall": "node postinstall.js"
   },
   "repository": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/yummly/pasta#readme",
   "devDependencies": {
-    "@yummly/pasta-dictionary": "0.2.1",
+    "@yummly/pasta-dictionary": "0.2.4",
     "parcel": "^2.7.0"
   }
 }
