@@ -1,0 +1,69 @@
+<section class="flex-1_2-cols">
+	<div>
+		<br />
+		<p>
+			This Element requires that you implement and instantiate all these dependencies.<br />
+			Please refer to each component in this list&nbsp;→
+		</p>
+	</div>
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th>Instance</th>
+					<th>Component</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+        {% for block in site.data[page.UID].meta.dependencyTree %}
+          {% if block.children.size >= 1 %}
+            {% for item in block.children %}
+              <tr>
+                <td>
+                  {{ item.instance }}
+                </td>
+                <td>
+                  <code>
+                    {{ item.component }}
+                  </code>
+                </td>
+                <td>
+                  {% assign splitKeys = item.component | split: '.' %}
+                  {% assign hasVariants = splitKeys[1] | split: '-' %}
+                  <a 
+                    href="{{ site.baseurl }}/{{ page.project_name | downcase }}/{% if item.type == 'primitive' %}primitives{% else %}elements{% endif %}/{{item.subType}}-{% if hasVariants.size >= 2 %}{{ hasVariants[0] }}#{{ splitKeys[1] }}{% else %}{{ splitKeys[1] }}{% endif %}"
+                    alt="Link to {{ item.name }} page"
+                    class="btn">
+                    {{ item.name | capitalize }} →
+                  </a>
+                </td>
+              </tr>
+            {% endfor %}
+          {% else %}
+            <tr>
+              <td>
+                {{ block.instance }}
+              </td>
+              <td>
+                <code>
+                  {{ block.component }}
+                </code>
+              </td>
+              <td>
+                {% assign splitKeys = block.component | split: '.' %}
+                {% assign hasVariants = splitKeys[1] | split: '-' %}
+                <a 
+                  href="{{ site.baseurl }}/{{ page.project_name | downcase }}/{% if block.type == 'primitive' %}primitives{% else %}elements{% endif %}/{{block.subType}}-{% if hasVariants.size >= 2 %}{{ hasVariants[0] }}#{{ splitKeys[1] }}{% else %}{{ splitKeys[1] }}{% endif %}"
+                  alt="Link to {{ block.name }} page"
+                  class="btn">
+                  {{ block.name | capitalize }} →
+                </a>
+              </td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+			</tbody>
+		</table>
+	</div>
+</section>

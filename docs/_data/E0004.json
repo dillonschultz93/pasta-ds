@@ -50,12 +50,15 @@
       "002",
       "003"
     ],
+    "hasInteractionStates": true,
     "dependencyTree": [
       {
         "name": "icon",
         "component": "FFL.F0003",
+        "type": "primitive",
+        "subType": "icons",
         "instance": ".icon",
-        "optional": false
+        "optional": true
       }
     ]
   },
@@ -102,5 +105,7 @@
       "YPL.FFL.TKUI_D.E0004-003.icon.height.value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}",
       "YPL.FFL.TKUI_D.E0004-003.icon.width.value": "{YPL.FFL.TKUI_C.sizes.micro.800.value}"
     }
-  }
+  },
+  "options": null,
+  "breakpoints": null
 }

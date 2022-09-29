@@ -1,0 +1,452 @@
+<!-- VARIANTS -->
+<div class="tabs">
+  {% if site.data[page.UID].variants %}
+    {% for variant in site.data[page.UID].variants %}
+      <input type="radio" name="Variants" id="variant_{{ variant[0] }}" {% if variant[0] == '001' %}checked{% endif %}>
+      <label for="variant_{{ variant[0] }}">
+        -{{ variant[0] }}
+      </label>
+      <div class="tab">
+        <br>
+        <h4 class="no_toc">
+          {{ page.UID }}-{{ variant[0] }}
+        </h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <thead>
+            <tr>
+              <th>
+                .i (idle)
+              </th>
+              <th>
+                .o (over)
+              </th>
+              <th>
+                .f (focus)
+              </th>
+              <th>
+                .p (pressed)
+              </th>
+              <th>
+                .d (disabled)
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'i' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'o' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'f' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'p' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'd' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <thead>
+            <tr>
+              <th>
+                .hi (highlight idle)
+              </th>
+              <th>
+                .ho (highlight over)
+              </th>
+              <th>
+                .hf (highlight focus)
+              </th>
+              <th>
+                .hp (highlight pressed)
+              </th>
+              <th>
+                .hd (highlight disabled)
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hi' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'ho' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hf' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hp' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in variant[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hd' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    {% endfor %}
+  {% endif %}
+<!-- OPTIONS -->
+  {% if site.data[page.UID].options %}
+    {% for option in site.data[page.UID].options %}
+      <input type="radio" name="Options" id="option_{{ option[0] }}" {% if forloop.first %}checked{% endif %}>
+      <label for="option_{{ option[0] }}">{{ option[0] }}</label>
+      <div class="tab">
+        <br>
+        <h4 class="no_toc">
+          {{ page.UID }}-{{ option[0] }}
+        </h4>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <thead>
+            <tr>
+              <th>
+                .i (idle)
+              </th>
+              <th>
+                .o (over)
+              </th>
+              <th>
+                .f (focus)
+              </th>
+              <th>
+                .p (pressed)
+              </th>
+              <th>
+                .d (disabled)
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'i' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'o' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'f' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'p' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'd' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <table class="type-01 headerNoUpperCase colBordered headFramed">
+          <thead>
+            <tr>
+              <th>
+                .hi (highlight idle)
+              </th>
+              <th>
+                .ho (highlight over)
+              </th>
+              <th>
+                .hf (highlight focus)
+              </th>
+              <th>
+                .hp (highlight pressed)
+              </th>
+              <th>
+                .hd (highlight disabled)
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hi' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'ho' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hf' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hp' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+              <td>
+                {% for tokens in option[1] %}
+                  {% assign splitTokens = tokens[0] | split: '.' %}
+                  {% assign zeroLength = splitTokens.size | minus: 1 %}
+                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                  {% assign test = subToken | join: '.' %}
+                  {% for tokenKey in splitTokens %}
+                    {% if tokenKey == 'hd' %}
+                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                        <code>
+                          .{{ test | remove_first: '.value' | strip }}
+                        </code>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>

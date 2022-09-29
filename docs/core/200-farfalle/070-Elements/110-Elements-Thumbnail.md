@@ -10,51 +10,16 @@ parent: Elements # title case
 layout: default
 nav_order: 110
 ---
-
-<!-- Utility scripts -->
-<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
-<!-- Inject Pasta Apparatus ad hoc script ↓ -->
-<script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
-<script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
-
-# Thumbnail
+# {{ page.title }}
 {: .no_toc}
 
-Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+{{site.data[page.UID].meta.description}}
 
-<table class="headTopBorder">
-  <thead>
-    <tr>
-      <th>UID</th>
-      <th>Ticket</th>
-      <th>Owner</th>
-      <th>Options</th>
-      <th>Tokens</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/22">&#35;22</a></td>
-      <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='.OPT_circle'><code>1</code></span></td>
-      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
-      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
-    </tr>
-    {% if page.variants.size > 0 %}
-    <tr>
-      <td colspan="6" class="pageHeaderVariantsRow">
-        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
-      </td>
-    </tr>
-    {% endif %}
-  </tbody>
-</table>
+{% include element-header.html %}
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/?node-id=1948%3A36688" class="btn iconed figmaBadge">To Figma →<a>
+<a href="{{site.data[page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}
@@ -79,21 +44,7 @@ Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Integer 
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
 
-<table class="type-01 headerNoUpperCase colBordered headFramed">
-  <thead>
-    <tr>
-      <th>.OPT_circle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.E0002.OPT_circle.BLK_main.radius.value": "{YPL.FFL.TKUI_C.corner.round.value}"'><code class="language-plaintext highlighter-rouge">.BLK_main.radius</code></span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+{% include options-table.html %}
 
 ## Checklist
 

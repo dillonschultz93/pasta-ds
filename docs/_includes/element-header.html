@@ -14,15 +14,17 @@
         <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
         <td><a href="{{site.data[page.UID].meta.ticketURL}}">&#35;{{site.data[page.UID].meta.ticketNumber}}</a></td>
         <td><a href="{{site.data[page.UID].meta.ownerGitHubURL}}">{{site.data[page.UID].meta.ownerName}}</a></td>
-        <td><span data-toolclip='N/A'><code>
+        <td>
           {% if site.data[page.UID].meta.options %}
-            {% for option in site.data[page.UID].meta.options %}
-              {{ option }}
-            {% endfor %}
+            <span data-toolclip="{{ site.data[page.UID].meta.options | join: ', ' }}">
+              <code>
+                {{ site.data[page.UID].meta.options.size }}
+              </code>
+            </span>
           {% else %}
-            N/A
+            <code>N/A</code>
           {% endif %}
-        </code></span></td>
+        </td>
         <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
         <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
       </tr>
