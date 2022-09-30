@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Icons # title case
 UID: F0003 # ["P","E","F"] + Hexa code/index
-variants: ["001","002","003","004","005","006","007","008","009","00A","00B","00C","00D","00E","00F","010","011","012","013","014","015","016","017","018","019","01A","01B","01C","01D","01E","01F","020","021","022","023","024","401","402","403","404","405","406","407","408","409","40A","40B","40C","40D","40E","40F","410","411","412","413","414","415","416","417","418","419","41A","41B","41C","41D","41E","41F","420","421","422","423", "424", "425", "3FF","7FF"] # all variants index
+variants: ["001","002","003","004","005","006","007","008","009","00A","00B","00C","00D","00E","00F","010","011","012","013","014","015","016","017","018","019","01A","01B","01C","01D","01E","01F","020","021","022","023","024","401","402","403","404","405","406","407","408","409","40A","40B","40C","40D","40E","40F","410","411","412","413","414","415","416","417","418","419","41A","41B","41C","41D","41E","41F","420","421","422","423", "424", "425", "426", "427", "428", "3FF","7FF"] # all variants index
 permalink: farfalle/primitives/icons-F0003 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Primitives # title case
@@ -47,7 +47,7 @@ nav_order: 120
 </table>
 
 
-<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220824.zip" class="btn iconed downloadBadge">Download Zip</a>
+<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220930.zip" class="btn iconed downloadBadge">Download Zip</a>
 
 <!-- - TOC
 {:toc} -->
