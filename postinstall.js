@@ -1,7 +1,7 @@
 const { writeFileSync } = require('fs');
 const { getByPage, getTokens, getValueFromFlatTokens, getNestedTokens } = require('@yummly/pasta-dictionary/src/index');
 
-const uids = ['E0002', 'E0003', 'E0004'];
+const uids = ['E0002', 'E0003', 'E0004', 'F0002'];
 
 uids.forEach(uid => {
 	const tokens = getByPage(getTokens(), uid);
