@@ -11,230 +11,349 @@
         <h4 class="no_toc">
           {{ page.UID }}-{{ variant[0] }}
         </h4>
-        <table class="type-01 headerNoUpperCase colBordered headFramed">
-          <thead>
-            <tr>
-              <th>
-                .i (idle)
-              </th>
-              <th>
-                .o (over)
-              </th>
-              <th>
-                .f (focus)
-              </th>
-              <th>
-                .p (pressed)
-              </th>
-              <th>
-                .d (disabled)
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'i' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'o' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'f' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'p' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'd' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <br>
-        <table class="type-01 headerNoUpperCase colBordered headFramed">
-          <thead>
-            <tr>
-              <th>
-                .hi (highlight idle)
-              </th>
-              <th>
-                .ho (highlight over)
-              </th>
-              <th>
-                .hf (highlight focus)
-              </th>
-              <th>
-                .hp (highlight pressed)
-              </th>
-              <th>
-                .hd (highlight disabled)
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hi' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'ho' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hf' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hp' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-              <td>
-                {% for tokens in variant[1] %}
-                  {% assign splitTokens = tokens[0] | split: '.' %}
-                  {% assign zeroLength = splitTokens.size | minus: 1 %}
-                  {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hd' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <!-- THIS IS A HACKY WAY TO CHECK IF WE HAVE ANY INTERACTIONS ON ALL VARIANTS -->
+        {%- assign hasIdleState = false -%} 
+        {%- assign hasOverState = false -%}
+        {%- assign hasFocusState = false -%}
+        {%- assign hasPressedState = false -%}
+        {%- assign hasDisabledState = false -%}
+
+        {%- assign hasHighlightedIdleState = false -%} 
+        {%- assign hasHighlightedOverState = false -%}
+        {%- assign hasHighlightedFocusState = false -%}
+        {%- assign hasHighlightedPressedState = false -%}
+        {%- assign hasHighlightedDisabledState = false -%}
+
+        {%- for tokens in variant[1] -%}
+          {%- assign tokenKeys = tokens[0] | split: '.' -%}
+          {%- for key in tokenKeys -%}
+            {%- if key == 'i' -%}
+              {%- assign hasIdleState = true -%}
+            {%- elsif key == 'o' -%}
+              {%- assign hasOverState = true -%}
+            {%- elsif key == 'f' -%}
+              {%- assign hasFocusState = true -%}
+            {%- elsif key == 'p' -%}
+              {%- assign hasPressedState = true -%}
+            {%- elsif key == 'd' -%}
+              {%- assign hasDisabledState = true -%}
+            {%- elsif key == 'hi' -%}
+              {%- assign hasHighlightedIdleState = true -%}
+            {%- elsif key == 'ho' -%}
+              {%- assign hasHighlightedOverState = true -%}
+            {%- elsif key == 'hf' -%}
+              {%- assign hasHighlightedFocusState = true -%}
+            {%- elsif key == 'hp' -%}
+              {%- assign hasHighlightedPressedState = true -%}
+            {%- elsif key == 'hd' -%}
+              {%- assign hasHighlightedDisabledState = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+        <!-- END HACKY CHECK -->
+
+        <!-- Initial states -->
+        {%- if hasIdleState or hasOverState or hasFocusState or hasPressedState or hasDisabledState -%}
+          <table class="type-01 headerNoUpperCase colBordered headFramed">
+            <thead>
+              <tr>
+                <th>
+                  .i (idle)
+                </th>
+                <th>
+                  .o (over)
+                </th>
+                <th>
+                  .f (focus)
+                </th>
+                <th>
+                  .p (pressed)
+                </th>
+                <th>
+                  .d (disabled)
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  {%- if hasIdleState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'i' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <code>-</code>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasOverState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'o' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasFocusState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'f' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasPressedState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'p' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasDisabledState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'd' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        {%- endif -%}
+        {%- if hasHighlightedIdleState or hasHighlightedOverState or hasHighlightedFocusState or hasHighlightedPressedState or hasHighlightedDisabledState -%}
+          <br>
+          <table class="type-01 headerNoUpperCase colBordered headFramed">
+            <thead>
+              <tr>
+                <th>
+                  .hi (highlight idle)
+                </th>
+                <th>
+                  .ho (highlight over)
+                </th>
+                <th>
+                  .hf (highlight focus)
+                </th>
+                <th>
+                  .hp (highlight pressed)
+                </th>
+                <th>
+                  .hd (highlight disabled)
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  {%- if hasHighlightedIdleState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'hi' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasHighlightedOverState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'ho' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasHighlightedFocusState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'hf' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasHighlightedPressedState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'hp' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if hasHighlightedDisabledState -%}
+                    {% for tokens in variant[1] %}
+                    {% assign splitTokens = tokens[0] | split: '.' %}
+                    {% assign zeroLength = splitTokens.size | minus: 1 %}
+                    {% assign subToken = splitTokens | slice: 4, zeroLength  %}
+                    {% assign mergedSubToken = subToken | join: '.' %}
+                      {% for tokenKey in splitTokens %}
+                        {% if tokenKey == 'hd' %}
+                          <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                            <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                          </span>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {%- else -%}
+                    <span class="dimmed">N/A</span>
+                  {%- endif -%}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        {%- endif -%}
       </div>
     {% endfor %}
-  {% endif %}
-<!-- OPTIONS -->
-  {% if site.data[page.UID].options %}
+  {%- elsif site.data[page.UID].options -%}
     {% for option in site.data[page.UID].options %}
-      <input type="radio" name="Options" id="option_{{ option[0] }}" {% if forloop.first %}checked{% endif %}>
-      <label for="option_{{ option[0] }}">{{ option[0] }}</label>
-      <div class="tab">
-        <br>
-        <h4 class="no_toc">
-          {{ page.UID }}-{{ option[0] }}
-        </h4>
+    <input type="radio" name="Options" id="option_{{ option[0] }}" {% if option[0] == '001' %}checked{% endif %}>
+    <label for="option_{{ option[0] }}">
+      -{{ option[0] }}
+    </label>
+    <div class="tab">
+      <br>
+      <h4 class="no_toc">
+        {{ page.UID }}-{{ option[0] }}
+      </h4>
+      <!-- THIS IS A HACKY WAY TO CHECK IF WE HAVE ANY INTERACTIONS ON ALL VARIANTS -->
+      {%- assign hasIdleState = false -%} 
+      {%- assign hasOverState = false -%}
+      {%- assign hasFocusState = false -%}
+      {%- assign hasPressedState = false -%}
+      {%- assign hasDisabledState = false -%}
+
+      {%- assign hasHighlightedIdleState = false -%} 
+      {%- assign hasHighlightedOverState = false -%}
+      {%- assign hasHighlightedFocusState = false -%}
+      {%- assign hasHighlightedPressedState = false -%}
+      {%- assign hasHighlightedDisabledState = false -%}
+
+      {%- for tokens in option[1] -%}
+        {%- assign tokenKeys = tokens[0] | split: '.' -%}
+        {%- for key in tokenKeys -%}
+          {%- if key == 'i' -%}
+            {%- assign hasIdleState = true -%}
+          {%- elsif key == 'o' -%}
+            {%- assign hasOverState = true -%}
+          {%- elsif key == 'f' -%}
+            {%- assign hasFocusState = true -%}
+          {%- elsif key == 'p' -%}
+            {%- assign hasPressedState = true -%}
+          {%- elsif key == 'd' -%}
+            {%- assign hasDisabledState = true -%}
+          {%- elsif key == 'hi' -%}
+            {%- assign hasHighlightedIdleState = true -%}
+          {%- elsif key == 'ho' -%}
+            {%- assign hasHighlightedOverState = true -%}
+          {%- elsif key == 'hf' -%}
+            {%- assign hasHighlightedFocusState = true -%}
+          {%- elsif key == 'hp' -%}
+            {%- assign hasHighlightedPressedState = true -%}
+          {%- elsif key == 'hd' -%}
+            {%- assign hasHighlightedDisabledState = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      <!-- END HACKY CHECK -->
+
+      <!-- Initial states -->
+      {%- if hasIdleState or hasOverState or hasFocusState or hasPressedState or hasDisabledState -%}
         <table class="type-01 headerNoUpperCase colBordered headFramed">
           <thead>
             <tr>
@@ -258,83 +377,105 @@
           <tbody>
             <tr>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasIdleState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
                   {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'i' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'i' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <code>-</code>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasOverState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
                   {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'o' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'o' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasFocusState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
                   {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'f' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'f' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasPressedState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
                   {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'p' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'p' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasDisabledState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
                   {% assign mergedSubToken = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'd' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
-                      </span>
-                    {% endif %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'd' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
             </tr>
           </tbody>
         </table>
+      {%- endif -%}
+      {%- if hasHighlightedIdleState or hasHighlightedOverState or hasHighlightedFocusState or hasHighlightedPressedState or hasHighlightedDisabledState -%}
         <br>
         <table class="type-01 headerNoUpperCase colBordered headFramed">
           <thead>
@@ -359,94 +500,105 @@
           <tbody>
             <tr>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasHighlightedIdleState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hi' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'hi' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasHighlightedOverState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'ho' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'ho' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasHighlightedFocusState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hf' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'hf' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasHighlightedPressedState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hp' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'hp' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
               <td>
-                {% for tokens in option[1] %}
+                {%- if hasHighlightedDisabledState -%}
+                  {% for tokens in option[1] %}
                   {% assign splitTokens = tokens[0] | split: '.' %}
                   {% assign zeroLength = splitTokens.size | minus: 1 %}
                   {% assign subToken = splitTokens | slice: 4, zeroLength  %}
-                  {% assign test = subToken | join: '.' %}
-                  {% for tokenKey in splitTokens %}
-                    {% if tokenKey == 'hd' %}
-                      <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
-                        <code>
-                          .{{ test | remove_first: '.value' | strip }}
-                        </code>
-                      </span>
-                    {% endif %}
+                  {% assign mergedSubToken = subToken | join: '.' %}
+                    {% for tokenKey in splitTokens %}
+                      {% if tokenKey == 'hd' %}
+                        <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
+                          <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+                        </span>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
+                {%- else -%}
+                  <span class="dimmed">N/A</span>
+                {%- endif -%}
               </td>
             </tr>
           </tbody>
         </table>
-      </div>
-    {% endfor %}
+      {%- endif -%}
+    </div>
+  {% endfor %}
   {% endif %}
 </div>

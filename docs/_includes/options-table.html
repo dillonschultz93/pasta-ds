@@ -13,7 +13,7 @@
             {% assign zeroLength = splitTokens.size | minus: 1 %}
             {% assign subToken = splitTokens | slice: 5, zeroLength  %}
             {% assign mergedSubToken = subToken | join: '.' %}
-            <span data-toolclip="{{ tokens }}">
+            <span data-toolclip="{{ tokens[0] }}: {{ tokens[1] }}">
               <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
             </span>
           {% endfor %}
