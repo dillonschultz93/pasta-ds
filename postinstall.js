@@ -1,49 +1,30 @@
-const { writeFileSync } = require('fs');
-const { getByPage, getTokens, getValueFromFlatTokens, getNestedTokens } = require('@yummly/pasta-dictionary/src/index');
+const { writeFileSync, readdirSync, mkdirSync } = require('fs');
+const flatTokens = require('@yummly/pasta-dictionary/dist/FFL/knowledge-base/flat-tokens.json');
+const pageInfo = require('@yummly/pasta-dictionary/dist/FFL/knowledge-base/pageInfo.json');
+// const tokens = require('@yummly/pasta-dictionary/dist/FFL/knowledge-base/tokens.json');
 
 const uids = ['E0002', 'E0003', 'E0004', 'F0002'];
 
-uids.forEach(uid => {
-	const tokens = getByPage(getTokens(), uid);
-	const values = getValueFromFlatTokens(tokens);
+const getByPage = (tokenset, UID) =>
+	Object.entries(tokenset)
+		.filter(([key]) => key.includes(UID))
+		.reduce(
+			(acc, [key, val]) => ({
+				...acc,
+				[key]: val,
+			}),
+			{}
+		);
 
-	const hasVariants = Object.keys(values).some(key => key.includes('-'));
-	const hasOptions = Object.keys(values).some(key => key.includes('OPT_'));
-  const hasBreakpoints = Object.keys(values).some(key => key.includes('BRKP_'));
+uids.forEach(UID => {
+	const tokens = getByPage(flatTokens, UID);
 
-	// Collect metadata for each token
-	const meta = Object.entries(tokens)
-		.filter(([key]) => key.startsWith('meta'))
-		.reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
+	const hasVariants = Object.keys(tokens).some(key => key.includes('-'));
+	const hasOptions = Object.keys(tokens).some(key => key.includes('OPT_'));
+	const hasBreakpoints = Object.keys(tokens).some(key => key.includes('BRKP_'));
 
-	const nestedMeta = getNestedTokens(meta, true);
-
-	// Get the states of the passed token
-	const splitByStates = (filteredValueTokens) => {
-		return Object.entries(filteredValueTokens)
-			.filter(
-				([key]) =>
-					key.includes('.i.') ||
-					key.includes('.o.') ||
-					key.includes('.p.') ||
-					key.includes('.d.') ||
-					key.includes('.f.') ||
-					key.includes('.hi.') ||
-					key.includes('.ho.') ||
-					key.includes('.hp.') ||
-					key.includes('.hd.') ||
-					key.includes('.hf.')
-			)
-			.reduce((acc, [k, val]) => {
-				const allKeys = k.split('.');
-				const state = allKeys[allKeys.length - 2];
-
-				return {
-					...acc,
-					[state]: [...(acc[state] || []), { [k]: val }],
-				};
-			}, {});
-	};
+	// Collect the page info for each UID
+	const info = pageInfo.pageInfo[UID];
 
 	// Collect all variants for each token
 	const splitByVariant = flatValuesTokensObj => {
@@ -52,11 +33,6 @@ uids.forEach(uid => {
 			.reduce((acc, [k, value]) => {
 				const allKeys = k.split('.');
 				const variant = allKeys[3].split('-')[1];
-
-        const filteredTokens = {
-          ...acc[variant],
-          [k]: value,
-        }
 
 				return {
 					...acc,
@@ -85,7 +61,7 @@ uids.forEach(uid => {
 			}, {});
 	};
 
-  const splitByBreakpoints = flatValuesTokensObj => {
+	const splitByBreakpoints = flatValuesTokensObj => {
 		return Object.entries(flatValuesTokensObj)
 			.filter(([key]) => key.includes('BRKP_'))
 			.reduce((acc, [key, value]) => {
@@ -102,18 +78,24 @@ uids.forEach(uid => {
 			}, {});
 	};
 
-	writeFileSync(
-		`./docs/_data/${uid}.json`,
-		JSON.stringify(
-			{
-				allTokens: values,
-				meta: nestedMeta.meta[uid],
-				variants: hasVariants ? splitByVariant(values) : null,
-				options: hasOptions ? splitByOptions(values) : null,
-        breakpoints: hasBreakpoints ? splitByBreakpoints(values) : null,
-			},
-			null,
-			2
-		)
-	);
+	// Create a directory for each UID
+	readdirSync('./node_modules/@yummly/pasta-dictionary/dist/').forEach(project => {
+		mkdirSync(`./docs/_data/${project}`, { recursive: true });
+
+		// Write the tokens to a JSON file
+		writeFileSync(
+			`./docs/_data/${project}/${UID}.json`,
+			JSON.stringify(
+				{
+					allTokens: tokens,
+					meta: info,
+          variants: hasVariants ? splitByVariant(tokens) : null,
+				  options: hasOptions ? splitByOptions(tokens) : null,
+				  breakpoints: hasBreakpoints ? splitByBreakpoints(tokens) : null,
+				},
+				null,
+				2
+			)
+		);
+	});
 });
