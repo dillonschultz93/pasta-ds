@@ -12,13 +12,13 @@
     <tbody>
       <tr>
         <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-        <td><a href="{{site.data[page.UID].meta.ticketURL}}">&#35;{{site.data[page.UID].meta.ticketNumber}}</a></td>
-        <td><a href="{{site.data[page.UID].meta.ownerGitHubURL}}">{{site.data[page.UID].meta.ownerName}}</a></td>
+        <td><a href="{{site.data[page.project_id][page.UID].meta.ticketURL}}">&#35;{{site.data[page.project_id][page.UID].meta.ticketNumber}}</a></td>
+        <td><a href="{{site.data[page.project_id][page.UID].meta.ownerGitHubURL}}">{{site.data[page.project_id][page.UID].meta.ownerName}}</a></td>
         <td>
-          {% if site.data[page.UID].meta.options %}
-            <span data-toolclip="{{ site.data[page.UID].meta.options | join: ', ' }}">
+          {% if site.data[page.project_id][page.UID].meta.options %}
+            <span data-toolclip="{{ site.data[page.project_id][page.UID].meta.options | join: ', ' }}">
               <code>
-                {{ site.data[page.UID].meta.options.size }}
+                {{ site.data[page.project_id][page.UID].meta.options.size }}
               </code>
             </span>
           {% else %}
@@ -28,10 +28,10 @@
         <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
         <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
       </tr>
-      {% if site.data[page.UID].meta.variants %}
+      {% if site.data[page.project_id][page.UID].meta.variants %}
       <tr>
         <td colspan="6" class="pageHeaderVariantsRow">
-          {% for variant in site.data[page.UID].meta.variants %}
+          {% for variant in site.data[page.project_id][page.UID].meta.variants %}
           <a href="#{{page.UID}}-{{variant}}">
             <code>
               -{{variant | default: ""}}

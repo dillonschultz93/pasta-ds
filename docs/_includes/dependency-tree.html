@@ -8,7 +8,7 @@
     </div>
       {% highlight txt %}
         YPL.FFL.{{page.UID}}
-        {% for dependency in site.data[page.UID].meta.dependencyTree %}{% if forloop.last %}  └─{% else %}  ├─{% endif %} .{{ dependency.name }}
+        {% for dependency in site.data[page.project_id][page.UID].meta.dependencyTree %}{% if forloop.last %}  └─{% else %}  ├─{% endif %} .{{ dependency.name }}
         {% if dependency.children %}{% for child in dependency.children %}{% if forloop.last %}     └─{% else %}     ├─{% endif %} .{{ child.name }} {% if child.optional %}(optional){% endif %}
         {% endfor %}
         {% endif %}{% endfor %}

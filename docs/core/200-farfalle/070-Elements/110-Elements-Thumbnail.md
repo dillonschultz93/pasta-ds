@@ -13,13 +13,13 @@ nav_order: 110
 # {{ page.title }}
 {: .no_toc}
 
-{{site.data[page.UID].meta.description}}
+{{site.data[page.project_id][page.UID].meta.description}}
 
 {% include element-header.html %}
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
-<a href="{{site.data[page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
+<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
 
 - TOC
 {:toc}

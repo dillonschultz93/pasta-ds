@@ -4,7 +4,7 @@ layout: default
 <!-- THIS AREA IS TO DO SOME HACKY LOGIC -->
 {% assign hasLayout = false %}
 <!-- Checking if this layout is going to have a layout section based on the tokens -->
-{% for tokens in site.data[page.UID].allTokens %}
+{% for tokens in site.data[page.project_id][page.UID].allTokens %}
   {% assign splitKeys = tokens[0] | split: '.' %}
   {% for key in splitKeys %}
     {% if key contains 'BLK_' %}
@@ -16,13 +16,13 @@ layout: default
 
 <!-- Title and heading section -->
 <h1 id="{{ page.title | downcase }}">{{ page.title }}</h1>
-<p class="no_toc">{{ site.data[page.UID].meta.description }}</p>
+<p class="no_toc">{{ site.data[page.project_id][page.UID].meta.description }}</p>
 {% include element-header.html %}
 <p>
   <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-FFL-{{ page.UID }}-preview_01.png" alt="Preview" class="darkenabled">
 </p>
 <p>
-  <a href="{{site.data[page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a></a>
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a></a>
 </p>
 
 <!-- TOC Section that we need to do conditional rendering on -->
@@ -42,7 +42,7 @@ layout: default
 
 <!-- Dependencies section -->
 <!-- Check if there are dependencies -->
-{% if site.data[page.UID].meta.dependencyTree %}
+{% if site.data[page.project_id][page.UID].meta.dependencyTree %}
   <h2 id="dependencies">Dependencies</h2>
   <p>
     <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-bp_dependencies_01.png" alt="Dependencies Blueprint">
@@ -59,7 +59,7 @@ layout: default
   <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-bp_decisions_01.png" alt="Decisions Blueprint">
 </p>
 <!-- Conditionally check if there are variants -->
-{% if site.data[page.UID].variants != null %}
+{% if site.data[page.project_id][page.UID].variants != null %}
   <!-- Variations section -->
   <h3 id="variations">Variations</h3>
   <p>
@@ -71,7 +71,7 @@ layout: default
   {% include interaction-table.html %}
 {% endif %}
 
-{% if site.data[page.UID].options != null %}
+{% if site.data[page.project_id][page.UID].options != null %}
   <!-- Variations section -->
   <h3 id="variations">Variations</h3>
   <p>
@@ -79,14 +79,14 @@ layout: default
   </p>
   {% include options-table.html %}
 
-  {% if site.data[page.UID].meta.hasInteractionStates %}
+  {% if site.data[page.project_id][page.UID].meta.hasInteractionStates %}
     <!-- Interaction section -->
     <h3 id="variations">Interaction</h3>
     {% include interaction-table.html %}
   {% endif %}
 {% endif %}
 
-{% if site.data[page.UID].breakpoints != null %}
+{% if site.data[page.project_id][page.UID].breakpoints != null %}
   <!-- Variations section -->
   <h3 id="variations">Variations</h3>
   <p>
@@ -94,7 +94,7 @@ layout: default
   </p>
   {% include breakpoints-table.html %}
 
-  {% if site.data[page.UID].meta.hasInteractionStates %}
+  {% if site.data[page.project_id][page.UID].meta.hasInteractionStates %}
     <!-- Interaction section -->
     <h3 id="variations">Interaction</h3>
     {% include interaction-table.html %}

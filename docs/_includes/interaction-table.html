@@ -1,7 +1,7 @@
 <!-- VARIANTS -->
 <div class="tabs">
-  {% if site.data[page.UID].variants %}
-    {% for variant in site.data[page.UID].variants %}
+  {% if site.data[page.project_id][page.UID].variants %}
+    {% for variant in site.data[page.project_id][page.UID].variants %}
       <input type="radio" name="Variants" id="variant_{{ variant[0] }}" {% if variant[0] == '001' %}checked{% endif %}>
       <label for="variant_{{ variant[0] }}">
         -{{ variant[0] }}
@@ -300,8 +300,8 @@
         {%- endif -%}
       </div>
     {% endfor %}
-  {%- elsif site.data[page.UID].options -%}
-    {% for option in site.data[page.UID].options %}
+  {%- elsif site.data[page.project_id][page.UID].options -%}
+    {% for option in site.data[page.project_id][page.UID].options %}
     <input type="radio" name="Options" id="option_{{ option[0] }}" {% if option[0] == '001' %}checked{% endif %}>
     <label for="option_{{ option[0] }}">
       -{{ option[0] }}
