@@ -20,6 +20,10 @@ nav_order: 130
 # Switch
 {: .no_toc}
 
+DEPRECATED
+{: .label}
+
+
 <table class="headTopBorder">
   <thead>
     <tr>

@@ -31,12 +31,17 @@ nav_order: 120
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
 # Button
-
 {: .no_toc}
+
+DEPRECATED
+{: .label}
+
+<br>
 
 {{site.data[page.UID].meta.description}}
 
 {% include element-header.html %}
+
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
