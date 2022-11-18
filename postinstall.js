@@ -1,17 +1,23 @@
-// const { writeFileSync } = require('fs');
-// const { getByPage, getTokens, getValueFromFlatTokens, getNestedTokens } = require('@yummly/pasta-dictionary/src/index');
+const { readdirSync, mkdirSync, writeFileSync } = require('fs');
 
-// const uids = ['E0003'];
+// Get the json files from the @yummly/pasta-dictionary package and move them to the _data directory
+const projectDirectories = readdirSync('./node_modules/@yummly/pasta-dictionary/dist');
 
-// uids.forEach(uid => {
-// 	const tokens = getByPage(getTokens(), uid);
-//   const values = getValueFromFlatTokens(tokens);
+projectDirectories.forEach((project) => {
 
-// 	const meta = Object.entries(tokens)
-// 		.filter(([key]) => key.startsWith('meta'))
-// 		.reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
+  mkdirSync(`./docs/_data/${project}`, { recursive: true });
 
-//   const nestedMeta = getNestedTokens(meta, true);
+  const tokenFiles = readdirSync(`./node_modules/@yummly/pasta-dictionary/dist/${project}/knowledge-base`);
 
-// 	writeFileSync(`./docs/_data/${uid}.json`, JSON.stringify({ tokens: values, meta: nestedMeta.meta[uid] }, null, 2));
-// });
+  tokenFiles.forEach((tokenFile) => {
+    const file = require(`./node_modules/@yummly/pasta-dictionary/dist/${project}/knowledge-base/${tokenFile}`);
+    const tokens = file._tokens;
+
+    // Loop through each token object and write it to a file
+    Object.keys(tokens).forEach((token) => {
+      const tokenObject = tokens[token];
+      writeFileSync
+      (`./docs/_data/${project}/${token}.json`, JSON.stringify(tokenObject, null, 2));
+    });
+  });
+});

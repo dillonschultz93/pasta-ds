@@ -1,0 +1,106 @@
+---
+layout: default
+---
+<!-- THIS AREA IS TO DO SOME HACKY LOGIC -->
+{% assign hasLayout = false %}
+<!-- Checking if this layout is going to have a layout section based on the tokens -->
+{% for tokens in site.data[page.project_id][page.UID].allTokens %}
+  {% assign splitKeys = tokens[0] | split: '.' %}
+  {% for key in splitKeys %}
+    {% if key contains 'BLK_' %}
+      {% assign hasLayout = true %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+<!--  -->
+
+<!-- Title and heading section -->
+<h1 id="{{ page.title | downcase }}">{{ page.title }}</h1>
+<p class="no_toc">{{ site.data[page.project_id][page.UID].meta.description }}</p>
+{% include element-header.html %}
+<p>
+  <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-FFL-{{ page.UID }}-preview_01.png" alt="Preview" class="darkenabled">
+</p>
+<p>
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a></a>
+</p>
+
+<!-- TOC Section that we need to do conditional rendering on -->
+<ul id="markdown-toc">
+  <li>
+    <a href="#{{ page.title | downcase }}" id="markdown-toc-{{ page.title | downcase }}">{{ page.title }}</a>
+  </li>
+</ul>
+
+<!-- Layout section -->
+{% if hasLayout %}
+  <h2 id="layout">Layout</h2>
+  <p>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-FFL-{{ page.UID }}-layout_01.png" alt="Layout Blueprint">
+  </p>
+{% endif %}
+
+<!-- Dependencies section -->
+<!-- Check if there are dependencies -->
+{% if site.data[page.project_id][page.UID].meta.dependencyTree %}
+  <h2 id="dependencies">Dependencies</h2>
+  <p>
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-bp_dependencies_01.png" alt="Dependencies Blueprint">
+  </p>
+  {% include dependency-tree.html %}
+  <hr>
+  <h3 id="links">Links</h3>
+  {% include instantiation-section.html %}
+{% endif %}
+
+<!-- Decisions section -->
+<h2 id="decisions">Decisions</h2>
+<p>
+  <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-bp_decisions_01.png" alt="Decisions Blueprint">
+</p>
+<!-- Conditionally check if there are variants -->
+{% if site.data[page.project_id][page.UID].variants != null %}
+  <!-- Variations section -->
+  <h3 id="variations">Variations</h3>
+  <p>
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-preview_02.png" alt="Preview">
+  </p>
+
+  <!-- Interaction section -->
+  <h3 id="variations">Interaction</h3>
+  {% include interaction-table.html %}
+{% endif %}
+
+{% if site.data[page.project_id][page.UID].options != null %}
+  <!-- Variations section -->
+  <h3 id="variations">Variations</h3>
+  <p>
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-preview_02.png" alt="Preview">
+  </p>
+  {% include options-table.html %}
+
+  {% if site.data[page.project_id][page.UID].meta.hasInteractionStates %}
+    <!-- Interaction section -->
+    <h3 id="variations">Interaction</h3>
+    {% include interaction-table.html %}
+  {% endif %}
+{% endif %}
+
+{% if site.data[page.project_id][page.UID].breakpoints != null %}
+  <!-- Variations section -->
+  <h3 id="variations">Variations</h3>
+  <p>
+    <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-preview_02.png" alt="Preview">
+  </p>
+  {% include breakpoints-table.html %}
+
+  {% if site.data[page.project_id][page.UID].meta.hasInteractionStates %}
+    <!-- Interaction section -->
+    <h3 id="variations">Interaction</h3>
+    {% include interaction-table.html %}
+  {% endif %}
+{% endif %}
+
+<!-- We will need to have content piped in here -->
+<!-- This is only reserved for the Accessibility Status table and Checklist table  -->
+{{ content }}

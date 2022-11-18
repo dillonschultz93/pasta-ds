@@ -1,0 +1,17 @@
+<details>
+  <summary>Tree</summary>
+  <section class="flex-1_2-cols">
+    <div>
+    <p>
+      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
+    </p>
+    </div>
+      {% highlight txt %}
+        YPL.FFL.{{page.UID}}
+        {% for dependency in site.data[page.project_id][page.UID].meta.dependencyTree %}{% if forloop.last %}  └─{% else %}  ├─{% endif %} .{{ dependency.name }}
+        {% if dependency.children %}{% for child in dependency.children %}{% if forloop.last %}     └─{% else %}     ├─{% endif %} .{{ child.name }} {% if child.optional %}(optional){% endif %}
+        {% endfor %}
+        {% endif %}{% endfor %}
+      {% endhighlight %}
+  </section>
+</details>

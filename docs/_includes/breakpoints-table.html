@@ -1,0 +1,24 @@
+{% for option in site.data[page.project_id][page.UID].options %}
+  <table class="type-01 headerNoUpperCase colBordered headFramed">
+    <thead>
+      <tr>
+        <th>{{ option[0] }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          {% for tokens in option[1] %}
+            {% assign splitTokens = tokens[0] | split: '.' %}
+            {% assign zeroLength = splitTokens.size | minus: 1 %}
+            {% assign subToken = splitTokens | slice: 5, zeroLength  %}
+            {% assign mergedSubToken = subToken | join: '.' %}
+            <span data-toolclip="{{ tokens }}">
+              <code>.{{ mergedSubToken | remove_first: '.value' | strip }}</code>
+            </span>
+          {% endfor %}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+{% endfor %}
