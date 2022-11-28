@@ -205,9 +205,15 @@ details {
 }
 
 details summary {
-  opacity: 0.9;
+  // opacity: 0.9;
   margin: 1rem 0;
   line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: +0.7px;
+  font-size: 12px !important;
+  color: rgba(0, 0, 0, 0.6) !important;    
+  // padding-left: 1rem;
   cursor: pointer;
   // border: 1px solid #ddd;
   // border-radius: 1.6rem;
