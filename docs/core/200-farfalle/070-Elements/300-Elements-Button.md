@@ -67,7 +67,7 @@ nav_order: 300
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
 
-### Usage
+## Usage
 
 <section class="flex-1_1-cols">
     <div>

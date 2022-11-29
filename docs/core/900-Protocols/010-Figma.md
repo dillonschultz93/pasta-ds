@@ -3,7 +3,7 @@ title: Figma # title case
 permalink: protocols/figma # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 parent: Protocols
 layout: default
-nav_order: 10
+nav_order: 100
 ---
 
 # Figma
