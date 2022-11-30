@@ -7,28 +7,28 @@ permalink: farfalle/elements/button-E0003 # lowercase + use hyphens › https:/
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 120
+nav_order: 300
 ---
-
-{% include element-header.html %}
-<!-- FIXME: remove unused variants -->
 
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
-<!-- {{site.data[page.project_id][page.UID].meta.description}} -->
-<!-- FIXME: I'm not sure we use this description here, in my mind it's more for the config source than the KB -->
+<div class="tabs">
+  <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
+  <label for="tab_name_01" class="fatTab">Usage</label>
+  <div class="tab" markdown="1">
+<!-- ================ -->
+<!-- ==== USAGE ===== -->
+<!-- ================ -->
 
+<p>
+    A button is an interactive element that enables to get the expected interactive feedback from the system following a particular command.
+</p>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
-
-<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
-<!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
-
-
-- TOC
-{:toc}
+<!-- - TOC
+{:toc} -->
 
 <table>
   <!-- <caption>my caption</caption> -->
@@ -63,21 +63,82 @@ nav_order: 120
   </tbody>
 </table>
 
+### Options
 
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
 
+## Usage
 
-## Layout
+<section class="flex-1_1-cols">
+    <div>
+        <h4>Primary  &nbsp;&nbsp; <code>-002</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_01.png" alt="FIXME">
+        <p>↑ Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>        
+    </div>
+    <div>   
+        <h4>Small  &nbsp;&nbsp; <code>-002.OPT_smallTint</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_OPT_smallTint_01.png" alt="FIXME">
+        <p>↑ Et Voluptas Dolorem Commodi</p>        
+    </div>
+</section>
+
+<section class="flex-1_1-cols">
+    <div>
+        <h4>Interstitial + Icon &nbsp;&nbsp; <code>-00A</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00A_01.png" alt="FIXME">
+        <p>Say somthing</p>
+    </div>
+    <div>
+        <h4>Text  &nbsp;&nbsp; <code>-009</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_009_01.png" alt="FIXME">
+        <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
+    </div>
+</section>
+
+<section class="flex-1_1-cols">
+    <div>
+        <h4>Icon  &nbsp;&nbsp;  <code>-00B.OPT_smallGray</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00B_OPT_smallGray_01.png" alt="FIXME">
+        <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
+    </div>
+    <div>   
+        <h4>Framed Icon  &nbsp;&nbsp;  <code>-00C.OPT_small</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00C_OPT_small_01.png" alt="FIXME">
+        <p>Est quisquam non dolor consequatur sint. Qui praesentium placeat voluptas atque optio aut dignissimos minus tempore molestiae.</p>
+    </div>
+</section>
+
+<section class="flex-2_1-cols">
+    <div>
+        <h4>Placeholder  &nbsp;&nbsp; <code>-00E</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00E_01.png" alt="FIXME">        
+    </div>
+    <div>
+        <br>
+        <p>← Est quisquam non dolor consequatur sint. Qui praesentium placeat voluptas atque optio aut dignissimos minus tempore molestiae.</p>
+    </div>
+</section>
+  
+  </div>
+  <input type="radio" name="tabs_section_name" id="tab_name_02">
+  <label for="tab_name_02" class="fatTab">Specs</label>
+  <div class="tab" markdown="1">
+<!-- ================= -->
+<!-- ==== SPECS ====== -->
+<!-- ================= -->
+
+<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
+<!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
+
+### Layout
 
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-layout_01.png)
 
-## Dependencies
+### Dependencies
 
 ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_dependencies_01.png)
 
 {% include dependency-tree.html %}
-<hr>
-
-### Links
 
 {% include instantiation-section.html %}
 
@@ -85,74 +146,25 @@ nav_order: 120
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_decisions_01.png)
 
-### Variations
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
-
-
-### Usage
-
-<section class="flex-1_1-cols">
-    <div>
-        <p><code>-002</code></p>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_002_01.png" alt="FIXME">
-        <p>↑ Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>        
-    </div>
-    <div>   
-        <p><code>-002.OPT_smallTint</code></p>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_002_OPT_smallTint_01.png" alt="FIXME">
-        <p>↑ Et Voluptas Dolorem Commodi</p>        
-    </div>
-</section>
-
-<section class="flex-1_1-cols">
-    <div>
-        <p><code>-00A</code></p>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00A_01.png" alt="FIXME">
-        <p>Say somthing</p>
-    </div>
-    <div>
-        <p><code>-009</code></p>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_009_01.png" alt="FIXME">
-        <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
-    </div>
-</section>
-
-<section class="flex-1_1-cols">
-    <div>
-        <p><code>-00B.OPT_smallGray</code></p>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00B_OPT_smallGray_01.png" alt="FIXME">
-        <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
-    </div>
-    <div>   
-        <p><code>-002.OPT_small</code></p>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00C_OPT_small_01.png" alt="FIXME">
-        <p>Est quisquam non dolor consequatur sint. Qui praesentium placeat voluptas atque optio aut dignissimos minus tempore molestiae.</p>
-    </div>
-</section>
-
-<section class="flex-2_1-cols">
-    <div>
-        <p><code>-00E</code></p>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00E_01.png" alt="FIXME">        
-    </div>
-    <div>
-        <br>
-        <p>← Est quisquam non dolor consequatur sint. Qui praesentium placeat voluptas atque optio aut dignissimos minus tempore molestiae.</p>
-    </div>
-</section>
-
-
-
 ### Interaction
 
 {% include interaction-table.html %}
+
+  </div>
+  <input type="radio" name="tabs_section_name" id="tab_name_03">
+  <label for="tab_name_03" class="fatTab">Status</label>
+  <div class="tab" markdown="1">
+<!-- ================= -->
+<!-- ==== STATUS ===== -->
+<!-- ================= -->
+
+{% include element-header.html %}
+<!-- FIXME: remove unused variants -->
 
 ## Checklist
 
 Please comply to and update the checklist below:
 <!-- FIXME: the markdown for table is very dirty, never ending dashes lines ↓ -->
-
 
 | Design                                                                                                                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -165,7 +177,6 @@ Please comply to and update the checklist below:
 | Accessiblity                                                                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been met |
-
 
 <table class="Last3ThCentered">
     <thead>
@@ -238,7 +249,6 @@ Please comply to and update the checklist below:
 </table>
 
 
-
 | Implementation                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested  |
@@ -246,4 +256,6 @@ Please comply to and update the checklist below:
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library |
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>CSS</strong><br>Component(s) have been implemented inside Web component library     |
 
+  </div>  
+</div>
 
