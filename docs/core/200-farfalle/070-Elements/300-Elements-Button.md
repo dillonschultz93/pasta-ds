@@ -8,6 +8,7 @@ grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
 nav_order: 300
+nav_exclude: true
 ---
 
 # {{ page.title }} `{{ page.UID }}`
@@ -72,12 +73,12 @@ nav_order: 300
 <section class="flex-1_1-cols">
     <div>
         <h4>Primary  &nbsp;&nbsp; <code>-002</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_002_01.png" alt="FIXME">
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_01.png" alt="FIXME">
         <p>↑ Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>        
     </div>
     <div>   
         <h4>Small  &nbsp;&nbsp; <code>-002.OPT_smallTint</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_002_OPT_smallTint_01.png" alt="FIXME">
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_OPT_smallTint_01.png" alt="FIXME">
         <p>↑ Et Voluptas Dolorem Commodi</p>        
     </div>
 </section>
@@ -85,12 +86,12 @@ nav_order: 300
 <section class="flex-1_1-cols">
     <div>
         <h4>Interstitial + Icon &nbsp;&nbsp; <code>-00A</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00A_01.png" alt="FIXME">
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00A_01.png" alt="FIXME">
         <p>Say somthing</p>
     </div>
     <div>
         <h4>Text  &nbsp;&nbsp; <code>-009</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_009_01.png" alt="FIXME">
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_009_01.png" alt="FIXME">
         <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
     </div>
 </section>
@@ -98,12 +99,12 @@ nav_order: 300
 <section class="flex-1_1-cols">
     <div>
         <h4>Icon  &nbsp;&nbsp;  <code>-00B.OPT_smallGray</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00B_OPT_smallGray_01.png" alt="FIXME">
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00B_OPT_smallGray_01.png" alt="FIXME">
         <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
     </div>
     <div>   
         <h4>Framed Icon  &nbsp;&nbsp;  <code>-00C.OPT_small</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00C_OPT_small_01.png" alt="FIXME">
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00C_OPT_small_01.png" alt="FIXME">
         <p>Est quisquam non dolor consequatur sint. Qui praesentium placeat voluptas atque optio aut dignissimos minus tempore molestiae.</p>
     </div>
 </section>
@@ -111,7 +112,7 @@ nav_order: 300
 <section class="flex-2_1-cols">
     <div>
         <h4>Placeholder  &nbsp;&nbsp; <code>-00E</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-usage_00E_01.png" alt="FIXME">        
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00E_01.png" alt="FIXME">        
     </div>
     <div>
         <br>
