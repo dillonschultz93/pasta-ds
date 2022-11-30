@@ -32,11 +32,11 @@
     "name": "Chip",
     "UID": "E0001",
     "description": "Lorem ipsum dolar set amet",
-    "ticketNumber": "",
-    "ticketURL": "",
-    "ownerName": "",
-    "ownerGitHubURL": "",
-    "figmaLink": "",
+    "ticketNumber": "9",
+    "ticketURL": "https://github.com/yummly/pasta/issues/9",
+    "ownerName": "Dillon",
+    "ownerGitHubURL": "https://github.com/dillonschultz93",
+    "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1519%3A36181",
     "variants": [
       "001"
     ],
