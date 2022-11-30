@@ -22,7 +22,7 @@ nav_order: 300
 <!-- ================ -->
 
 <p>
-    A button is an interactive element that enables to get the expected interactive feedback from the system following a particular command.
+  {{site.data[page.project_id][page.UID].meta.description}}
 </p>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
