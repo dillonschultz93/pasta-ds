@@ -52,14 +52,8 @@ We use Europa across all platforms to maintain a consistent experience across al
   </div>
 </section>
 
-<!-- re-include liquid for table FIXME -->
-
-{% include copy-all-tokens-section.html section="fontFamily" %}
-
 ## Font Leading
 Leading, also known as line height, is a typographic concept that is simply defined as the distance between lines of text.
-
-
 
 ## Font Tracking Apparatus
 Tracking, also known as letter spacing, is a typographic principle that defines the horizontal distance between each charter/letter. Negative tracking allows more characters to fit into a horizontal space, while positive tracking spreads out the horizontal distance between character.
