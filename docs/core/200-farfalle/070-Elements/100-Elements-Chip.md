@@ -10,7 +10,7 @@ layout: default
 nav_order: 100
 ---
 
-# {{ page.title }}
+# {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
 
@@ -23,10 +23,10 @@ nav_order: 100
 <!-- ================ -->
 
 <p>
-    A button is an interactive element that enables to get the expected interactive feedback from the system following a particular command.
+  {{site.data[page.project_id][page.UID].meta.description}}
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_01.png){: .darkenabled}
 
 <!-- - TOC
 {:toc} -->
@@ -47,9 +47,11 @@ nav_order: 100
 
 ### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_02.png){: .darkenabled}
 
 ## Usage
+
+this is where assets will go*********
 
 <!-- FIXME: FILL THIS OUT WITH ASSETS -->
   
@@ -66,11 +68,11 @@ nav_order: 100
 
 ## Layout
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_layout_01.png)
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_layout_01.png)
 
 ## Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_dependencies_01.png)
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_dependencies_01.png)
 
 {% include dependency-tree.html %}
 
@@ -78,11 +80,11 @@ nav_order: 100
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0001-bp_decisions_01.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_decisions_01.png)
 
 #### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.E0001-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_02.png){: .darkenabled}
 
 {% include options-table.html %}
 
