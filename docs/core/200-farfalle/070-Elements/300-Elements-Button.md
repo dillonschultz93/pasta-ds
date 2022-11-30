@@ -7,7 +7,7 @@ permalink: farfalle/elements/Layout-Test # lowercase + use hyphens › https://
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 300
+nav_order: 999
 nav_exclude: true
 ---
 

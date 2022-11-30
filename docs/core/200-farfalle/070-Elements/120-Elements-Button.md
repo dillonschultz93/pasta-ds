@@ -7,7 +7,7 @@ permalink: farfalle/elements/button-E0003 # lowercase + use hyphens › https:/
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 300
+nav_order: 130
 ---
 
 # {{ page.title }} `{{ page.UID }}`
