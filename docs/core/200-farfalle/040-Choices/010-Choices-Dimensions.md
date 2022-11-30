@@ -33,8 +33,6 @@ nav_order: 10
 - TOC
 {:toc}
 
-{% include copy-all-tokens-section.html title="Dimension" %}
-
 ## Scales
 
 <!-- Scales are Mathematic functions that allow us to derivate all our sizes from a limited number of Super Choices: -->
@@ -92,8 +90,6 @@ functionArithC(index) = (Math.round(base * ratio**2) + (Math.round(base * ratio*
   </details>
 </section>
 
-{% include copy-all-tokens-section.html section="scales" %}
-
 ## Spaces
 
 Tokens that are used to set margin, gutters, and padding.
@@ -104,8 +100,6 @@ Tokens that are used to set margin, gutters, and padding.
   {% include output-table.html unit="space" choiceType="dimensions" choiceCategory="spaces" %}
 </section>
 
-{% include copy-all-tokens-section.html section="spaces" %}
-
 ## Static Sizes
 
 This Sizes are always expressed in pixel (px unit) and are used to set attributes that doesn’t scale when the UI scales, ie: button border-width. Their function is to provide proper pixel hinting.
@@ -115,8 +109,6 @@ This Sizes are always expressed in pixel (px unit) and are used to set attribute
 <section>
   {% include output-table.html unit="size" choiceType="dimensions" choiceCategory="sizes" %}
 </section>
-
-{% include copy-all-tokens-section.html section="sizes" %}
 
 ## Factors
 
@@ -139,8 +131,6 @@ To facilitate their usage we use aliases from the get go.
   {% include output-table.html unit="factor" choiceType="dimensions" choiceCategory="factors" %}
 </section>
 
-{% include copy-all-tokens-section.html section="factors" %}
-
 ## Breakpoints/Viewports
 
 ### Web
@@ -161,8 +151,6 @@ Breakpoints are points where web content responds according to the device width.
 <section>
   {% include output-table.html unit="breakpoint" choiceType="dimensions" choiceCategory="breakpoints" %}
 </section>
-
-{% include copy-all-tokens-section.html section="breakpoints" %}
 
 ### iOS [WIP]
 {: .no_toc}
