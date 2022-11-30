@@ -20,9 +20,13 @@
     "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.style.value": "YPL.FFL.F0002-603",
     "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.grey.900.value",
     "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.true.value",
     "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
     "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value",
-    "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value"
+    "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.UID.value": "FFL.F0002-603",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.style.value": "YPL.FFL.F0002-603",
+    "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.color.value": "YPL.FFL.TKUI_C.colors.teal.400.value"
   },
   "meta": {
     "name": "Chip",
@@ -88,21 +92,29 @@
       "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.style.value": "YPL.FFL.F0002-603",
       "YPL.FFL.TKUI_D.E0001-001.BLK_main.label.color.value": "YPL.FFL.TKUI_C.colors.grey.900.value",
       "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.true.value",
       "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
       "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value",
-      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value"
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.UID.value": "FFL.F0002-603",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.style.value": "YPL.FFL.F0002-603",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.color.value": "YPL.FFL.TKUI_C.colors.teal.400.value"
     }
   },
   "options": {
     "OPT_withIcon": {
-      "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value"
+      "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_withIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.true.value"
     },
     "OPT_onlyIcon": {
       "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.icon.visible.value": "YPL.CONST.boolean.true.value",
       "YPL.FFL.TKUI_D.E0001-001.OPT_onlyIcon.BLK_main.label.visible.value": "YPL.CONST.boolean.false.value"
     },
     "OPT_teal": {
-      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value"
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.bgColor.value": "YPL.FFL.TKUI_C.colors.teal.100.value",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.UID.value": "FFL.F0002-603",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.style.value": "YPL.FFL.F0002-603",
+      "YPL.FFL.TKUI_D.E0001-001.OPT_teal.label.color.value": "YPL.FFL.TKUI_C.colors.teal.400.value"
     }
   },
   "breakpoints": null
