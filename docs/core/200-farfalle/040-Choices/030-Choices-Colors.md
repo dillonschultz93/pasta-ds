@@ -137,10 +137,10 @@ nav_order: 30
   </table>
 </section>
 
-### Grey
+### Gray
 
 <section>
-  <table class="color-pallette-table" id="teal">
+  <table class="color-pallette-table" id="gray">
     <thead>
       <tr>
         <th id="unit">index</th>
@@ -161,10 +161,10 @@ nav_order: 30
         </td>
       </tr>
       <tr>
-        <td>grey.100</td>
+        <td>gray.100</td>
         <td>
-          <span data-toolclip='"YPL.FFL.TKUI_C.colors.grey.100.value": "#F5F5F5"'>
-            <code>YPL.FFL.TKUI_C.colors.grey.100.value</code>
+          <span data-toolclip='"YPL.FFL.TKUI_C.colors.gray.100.value": "#F5F5F5"'>
+            <code>YPL.FFL.TKUI_C.colors.gray.100.value</code>
           </span>
         </td>
         <td>
@@ -172,10 +172,10 @@ nav_order: 30
         </td>
       </tr>
        <tr>
-        <td>grey.200</td>
+        <td>gray.200</td>
         <td>
-          <span data-toolclip='"YPL.FFL.TKUI_C.colors.grey.200.value": "#E3E3E3"'>
-            <code>YPL.FFL.TKUI_C.colors.grey.200.value</code>
+          <span data-toolclip='"YPL.FFL.TKUI_C.colors.gray.200.value": "#E3E3E3"'>
+            <code>YPL.FFL.TKUI_C.colors.gray.200.value</code>
           </span>
         </td>
         <td>
@@ -183,10 +183,10 @@ nav_order: 30
         </td>
       </tr>
       <tr>
-        <td>grey.300</td>
+        <td>gray.300</td>
         <td>
-          <span data-toolclip='"YPL.FFL.TKUI_C.colors.grey.300.value": "#BABABA"'>
-            <code>YPL.FFL.TKUI_C.colors.grey.300.value</code>
+          <span data-toolclip='"YPL.FFL.TKUI_C.colors.gray.300.value": "#BABABA"'>
+            <code>YPL.FFL.TKUI_C.colors.gray.300.value</code>
           </span>
         </td>
         <td>
@@ -194,10 +194,10 @@ nav_order: 30
         </td>
       </tr>
       <tr>
-        <td>grey.500</td>
+        <td>gray.500</td>
         <td>
-          <span data-toolclip='"YPL.FFL.TKUI_C.colors.grey.500.value": "#707070"'>
-            <code>YPL.FFL.TKUI_C.colors.grey.500.value</code>
+          <span data-toolclip='"YPL.FFL.TKUI_C.colors.gray.500.value": "#707070"'>
+            <code>YPL.FFL.TKUI_C.colors.gray.500.value</code>
           </span>
         </td>
         <td>
@@ -205,10 +205,10 @@ nav_order: 30
         </td>
       </tr>
       <tr>
-        <td>grey.700</td>
+        <td>gray.700</td>
         <td>
-          <span data-toolclip='"YPL.FFL.TKUI_C.colors.grey.700.value": "#4A4A4A"'>
-            <code>YPL.FFL.TKUI_C.colors.grey.700.value</code>
+          <span data-toolclip='"YPL.FFL.TKUI_C.colors.gray.700.value": "#4A4A4A"'>
+            <code>YPL.FFL.TKUI_C.colors.gray.700.value</code>
           </span>
         </td>
         <td>
@@ -216,10 +216,10 @@ nav_order: 30
         </td>
       </tr>
       <tr>
-        <td>grey.900</td>
+        <td>gray.900</td>
         <td>
-          <span data-toolclip='"YPL.FFL.TKUI_C.colors.grey.900.value": "#242424"'>
-            <code>YPL.FFL.TKUI_C.colors.grey.900.value</code>
+          <span data-toolclip='"YPL.FFL.TKUI_C.colors.gray.900.value": "#242424"'>
+            <code>YPL.FFL.TKUI_C.colors.gray.900.value</code>
           </span>
         </td>
         <td>
