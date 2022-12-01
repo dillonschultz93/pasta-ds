@@ -150,7 +150,6 @@ nav_order: 100
 ## Checklist
 
 Please comply to and update the checklist below:
-<!-- FIXME: the markdown for table is very dirty, never ending dashes lines ↓ -->
 
 | Design |
 | --- |

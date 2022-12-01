@@ -1,13 +1,13 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Switch # title case + UID
-UID: E0004 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/switch-E0004 # lowercase & UID + use hyphens › https://tinyurl.com/27kmc4rb
+title: Status # title case
+UID: E0005 # ["P","E","F"] + Hexa code/index
+permalink: farfalle/elements/status-E0005 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Elements # title case
 layout: default
-nav_order: 140
+nav_order: 150
 ---
 
 # {{ page.title }} `{{ page.UID }}`
@@ -40,18 +40,56 @@ nav_order: 140
     </tr>
   </thead>
   <tbody>
-    <!-- FIXME: FILL THIS OUT -->
+    <tr>
+      <td><code>-001</code> </td>
+      <td>Chip</td>
+      <td>Default</td>
+    </tr>
+    <tr>
+      <td><code>-002</code> </td>
+      <td>Interstitial</td>
+      <td>Used as interstitial within text or small spaces</td>
+    </tr>
+    <tr>
+      <td><code>-002.OPT_text</code> </td>
+      <td>Interstitial Label</td>
+      <td>Dimmed semantics, used as interstitial within text or small spaces</td>
+    </tr>                       
   </tbody>
 </table>
 
-### Options
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
-<!-- FIXME: Image is missing -->
 
 ## Usage
 
-this is where assets will go*********
+<section class="flex-1_1-cols">
+    <div>
+        <h4>Chip  &nbsp;&nbsp; <code>-001</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_001_01.png" alt="FIXME">
+        <p>
+          Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus. Sit mollitia sint ipsum minus necessitatibus nihil. Architecto tempora animi similique aperiam dolores voluptas vitae. Saepe vitae et omnis quia cupiditate reprehenderit eius. Quia suscipit et labore. Quaerat natus optio molestiae praesentium sed culpa velit quis voluptates quis. Nobis perspiciatis tenetur voluptas et et placeat rerum unde est inventore.
+        </p>        
+    </div>
+    <div>   
+        <h4>Interstitial  &nbsp;&nbsp; <code>-002</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_01.png" alt="FIXME">
+        <p>
+          Ex velit consectetur ut aut est autem sunt. Accusantium consectetur impedit modi quia cum voluptatem maiores non est tempora consequatur. Suscipit repellendus natus dolorem amet in quia dolores enim. Eum natus libero culpa et consequuntur sed delectus. Dolorem similique sequi aut.        
+        </p>        
+    </div>
+</section>
+
+<section class="flex-1_1-cols">
+    <div>
+        <h4>Interstitial Label &nbsp;&nbsp; <code>-002.OPT_text</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_02.png" alt="FIXME">
+        <p>
+          Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus. Sit mollitia sint ipsum minus necessitatibus nihil. Architecto tempora animi similique aperiam dolores voluptas vitae. Saepe vitae et omnis quia cupiditate reprehenderit eius. Quia suscipit et labore.         
+        </p>
+    </div>
+    <div>   
+    </div>
+</section>
+
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -66,8 +104,7 @@ this is where assets will go*********
 
 ### Layout
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-layout_01.png)
-<!-- FIXME: Image is missing -->
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_layout_01.png)
 
 ### Dependencies
 
@@ -80,12 +117,6 @@ this is where assets will go*********
 ## Decisions
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_decisions_01.png)
-
-#### Options
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_02.png){: .darkenabled}
-
-{% include options-table.html %}
 
 ### Interaction
 
