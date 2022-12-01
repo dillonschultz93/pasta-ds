@@ -26,7 +26,7 @@ nav_order: 100
   {{site.data[page.project_id][page.UID].meta.description}}
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
 <!-- - TOC
 {:toc} -->
@@ -35,25 +35,73 @@ nav_order: 100
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>Variant</th>
+      <th>Option</th>
       <th>Type</th>
       <th>usage</th>
     </tr>
   </thead>
   <tbody>
-    <!-- FIXME: FILL THIS OUT -->
+    <tr>
+      <td><code>default</code></td>
+      <td>default</td>
+      <td>Used as the default chip treatment.</td>
+    </tr>
+    <tr>
+      <td><code>.OPT_withIcon</code></td>
+      <td>Chip with icon</td>
+      <td>Used to convey additional information, such as a recipe locked behind a pro subscription.</td>
+    </tr>
+    <tr>
+      <td><code>.OPT_iconOnly</code></td>
+      <td>Chip with only an icon</td>
+      <td>Used to convey with same information as the <code>.OPT_withIcon</code> option, but in a more compact form.</td>
+    </tr>
+    <tr>
+      <td><code>.OPT_teal</code></td>
+      <td>Teal chip</td>
+      <!-- FIXME: Add a description here -->
+      <td>Lorem ipsum</td>
+    </tr>
   </tbody>
 </table>
 
-### Options
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_02.png){: .darkenabled}
-
 ## Usage
 
-this is where assets will go*********
-
-<!-- FIXME: FILL THIS OUT WITH ASSETS -->
+<div>
+    <h4>
+      With Icon
+      <code>.OPT_withIcon</code>
+    </h4>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
+    <p>
+      ↑ Using the option with an icon communicates rating information in this example.
+    </p>
+    <!-- FIXME: Add content here -->
+  </div>
+<section class="flex-1_1-cols">
+  <div>
+    <h4>
+      Icon Only
+      <code>.OPT_iconOnly</code>
+    </h4>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png">
+    <p>
+      ↑ Using the solo icon option indicates in this example that this recipe is locked behind something.
+    </p>
+    <!-- FIXME: Add content here -->
+  </div>
+  <div>
+    <h4>
+      Teal
+      <code>.OPT_teal</code>
+    </h4>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_03.png">
+    <p>
+      ↑ Using the teal option gives the chips a different visual treatment and communicating that these are interactive.
+    </p>
+    <!-- FIXME: Add content here -->
+  </div>
+</section>
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -84,7 +132,7 @@ this is where assets will go*********
 
 #### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
 {% include options-table.html %}
 
