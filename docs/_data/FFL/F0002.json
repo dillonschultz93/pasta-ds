@@ -352,7 +352,7 @@
 		}
 	},
 	"F0002-603": {
-		"name": "Control Caps",
+		"name": "Control Eyebrow Strong",
     "type": "Controls",
     "variant": "603",
 		"tokens": {
@@ -366,5 +366,21 @@
 			"textDecoration": "YPL.CONST.textDecoration.none.value",
 			"color": "YPL.FFL.TKUI_C.colors.black.value"
 		}
-	}
+	},
+	"F0002-604": {
+		"name": "Control Eyebrow",
+    "type": "Controls",
+    "variant": "604",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	}	
 }

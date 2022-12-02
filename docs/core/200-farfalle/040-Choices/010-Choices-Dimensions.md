@@ -9,14 +9,6 @@ layout: default
 nav_order: 10
 ---
 
-<!-- Library/Vendor scripts -->
-<script src="{{ site.baseurl }}/assets/js/libs/chroma.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/libs/name-that-color.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist.min.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist-plugin-legend.min.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist-plugin-axistitle.min.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/libs/chartist-plugin-zoom.min.js"></script>
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/chartist.css">
 
 <!-- Utility scripts -->
 
@@ -52,7 +44,7 @@ nav_order: 10
       </div>
 </section> -->
 
-To translate the complexity of our designs build before our design system we use 3 scales: a power of 2 geometric scale which encompasses **[1,2,4,8,16,32,64,128 …].** We use an arithmetic scale A that feeds the arithmetic scale B. All these scales take a base 100 index as input.
+We use 3 scales for our dimensions: the classic geometric scale [1,2,4,8,16,32,64,128 …]. We use two arithmetic scales A and B that feeds our Sizes Tokens, `sizes.micro` and `sizes.macro` respectively. All our scales take a base 100 index as input.
 
 <!-- <table class="type-02" id="dimension-scales-table">
   <thead>
@@ -68,27 +60,30 @@ To translate the complexity of our designs build before our design system we use
 </table> -->
 
 <!-- ### Math Details -->
-Geometric Scale A:
+### Geometric Scale A:
 
 {% highlight javascript %}
 functionGeoA(index) = Math.round(base * ratio**((200 + index - baseIndex)/100));{% endhighlight %}
 
-Arithmetic Scale A:
+### Arithmetic Scale A:
 {% highlight javascript %}
 functionArithA(index) =  base * (8 + (index - baseIndex)/100);{% endhighlight %}
 
-Arithmetic Scale B:
+### Arithmetic Scale B:
 {% highlight javascript %}
-functionArithC(index) = (Math.round(base * ratio**2) + (Math.round(base * ratio**2))*((index - 500)/100))*1.5;{% endhighlight %}
+functionArithB(index) = (Math.round(base * ratio**2) + (Math.round(base * ratio**2))*((index - 500)/100))*1.5;{% endhighlight %}
 
-**All Outputs**
+<hr>
+
 
 <section>
   <details id="allScalesOutput" class="YPL-apparatusBaby">
-    <summary>See all</summary>
+    <summary>&nbsp;&nbsp;Scales Output</summary>
     {% include output-table.html choiceType="dimensions" choiceCategory="scales" %}
   </details>
 </section>
+<hr>
+
 
 ## Spaces
 
