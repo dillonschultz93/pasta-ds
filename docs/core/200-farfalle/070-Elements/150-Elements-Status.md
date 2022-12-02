@@ -118,9 +118,9 @@ nav_order: 150
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_decisions_01.png)
 
-### Interaction
+### Options
 
-{% include interaction-table.html %}
+{% include options-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">

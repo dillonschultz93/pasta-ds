@@ -146,6 +146,12 @@ nav_order: 130
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-bp_decisions_01.png)
 
+### Options
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
+
+{% include options-table.html %}
+
 ### Interaction
 
 {% include interaction-table.html %}

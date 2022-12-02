@@ -34,23 +34,50 @@ nav_order: 110
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>Variant</th>
+      <th>Option</th>
       <th>Type</th>
       <th>usage</th>
     </tr>
   </thead>
   <tbody>
-    <!-- FIXME: FILL THIS OUT -->
+    <tr>
+      <td><code>default</code></td>
+      <td>default</td>
+      <td>Used as the default thumbnail/image container.</td>
+    </tr>
+    <tr>
+      <td><code>.OPT_circle</code></td>
+      <td>Rounded Thumbnail</td>
+      <td>Used as a smaller thumbnail, such as a profile picture.</td>
+    </tr>
   </tbody>
 </table>
 
-### Options
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
-
 ## Usage
 
-this is where assets will go*********
+<section class="flex-1_1-cols">
+  <div>
+    <h4>
+      default
+      <code>default</code>
+    </h4>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
+    <p>
+      ↑ Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus.
+    </p>
+    <!-- FIXME: Add content here -->
+  </div>
+  <div>
+    <h4>
+      Rounded Thumbnail
+      <code>.OPT_circle</code>
+    </h4>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png">
+    <p>
+      ↑ Using the rounded option applies a rounded treatment to an image. In this case, a profile picture.
+    </p>
+  </div>
+</section>
 
 <!-- FIXME: FILL THIS OUT WITH ASSETS -->
   
@@ -78,7 +105,7 @@ this is where assets will go*********
 
 #### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
 
 {% include options-table.html %}
 

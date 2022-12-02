@@ -67,7 +67,8 @@ nav_order: 100
 
 ## Usage
 
-<div>
+<section class="flex-1_1-cols">
+  <div>
     <h4>
       With Icon
       <code>.OPT_withIcon</code>
@@ -76,9 +77,7 @@ nav_order: 100
     <p>
       ↑ Using the option with an icon communicates rating information in this example.
     </p>
-    <!-- FIXME: Add content here -->
   </div>
-<section class="flex-1_1-cols">
   <div>
     <h4>
       Icon Only
@@ -88,8 +87,9 @@ nav_order: 100
     <p>
       ↑ Using the solo icon option indicates in this example that this recipe is locked behind something.
     </p>
-    <!-- FIXME: Add content here -->
   </div>
+</section>
+<section class="flex-1_1-cols">
   <div>
     <h4>
       Teal
@@ -99,7 +99,6 @@ nav_order: 100
     <p>
       ↑ Using the teal option gives the chips a different visual treatment and communicating that these are interactive.
     </p>
-    <!-- FIXME: Add content here -->
   </div>
 </section>
   
