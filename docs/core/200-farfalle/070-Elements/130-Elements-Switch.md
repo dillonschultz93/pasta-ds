@@ -40,18 +40,27 @@ nav_order: 140
     </tr>
   </thead>
   <tbody>
-    <!-- FIXME: FILL THIS OUT -->
+    <tr>
+      <td><code>-002</code></td>
+      <td>Switch Button</td>
+      <td>Used as a way to toggle between boolean states.</td>
+    </tr>
+    <tr>
+      <td><code>-004</code></td>
+      <td>Checkbox</td>
+      <td>Used as a user action to select items in a list.</td>
+    </tr>  
   </tbody>
 </table>
 
-### Options
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
-<!-- FIXME: Image is missing -->
-
 ## Usage
-
-this is where assets will go*********
+<section class="flex-1_1-cols">
+    <div>
+        <h4>Switch Button  &nbsp;&nbsp; <code>-002</code></h4>
+        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage-01.png" alt="FIXME">
+        <p>↑ Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>        
+    </div>
+</section>
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -83,7 +92,7 @@ this is where assets will go*********
 
 #### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL.{{page.UID}}-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
 {% include options-table.html %}
 
