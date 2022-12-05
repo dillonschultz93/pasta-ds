@@ -61,20 +61,24 @@ We use 3 scales for our dimensions: the classic geometric scale [1,2,4,8,16,32,6
 
 <!-- ### Math Details -->
 ### Geometric Scale A:
+{: .no_toc}
 
 {% highlight javascript %}
 functionGeoA(index) = Math.round(base * ratio**((200 + index - baseIndex)/100));{% endhighlight %}
 
 ### Arithmetic Scale A:
+{: .no_toc}
+
 {% highlight javascript %}
 functionArithA(index) =  base * (8 + (index - baseIndex)/100);{% endhighlight %}
 
 ### Arithmetic Scale B:
+{: .no_toc}
+
 {% highlight javascript %}
 functionArithB(index) = (Math.round(base * ratio**2) + (Math.round(base * ratio**2))*((index - 500)/100))*1.5;{% endhighlight %}
 
 <hr>
-
 
 <section>
   <details id="allScalesOutput" class="YPL-apparatusBaby">
@@ -82,27 +86,31 @@ functionArithB(index) = (Math.round(base * ratio**2) + (Math.round(base * ratio*
     {% include output-table.html choiceType="dimensions" choiceCategory="scales" %}
   </details>
 </section>
-<hr>
-
 
 ## Spaces
 
-Tokens that are used to set margin, gutters, and padding.
-
-**All Space Outputs**
+Spaces tokens that are used to set margins, gaps, gutters, and paddings.
 
 <section>
-  {% include output-table.html unit="space" choiceType="dimensions" choiceCategory="spaces" %}
+  {% include output-table.html unit="index" choiceType="dimensions" choiceCategory="spaces" %}
 </section>
 
-## Static Sizes
-
-This Sizes are always expressed in pixel (px unit) and are used to set attributes that doesn’t scale when the UI scales, ie: button border-width. Their function is to provide proper pixel hinting.
-
-**All Static Size Outputs**
+## Sizes
 
 <section>
-  {% include output-table.html unit="size" choiceType="dimensions" choiceCategory="sizes" %}
+  {% include output-table.html unit="index" choiceType="dimensions" choiceCategory="sizes" %}
+</section>
+
+## Radii
+
+<section>
+  {% include output-table.html unit="index" choiceType="dimensions" choiceCategory="radii" %}
+</section>
+
+## Border Widths
+
+<section>
+  {% include output-table.html unit="index" choiceType="dimensions" choiceCategory="borderWidths" %}
 </section>
 
 ## Factors
@@ -112,36 +120,41 @@ To facilitate their usage we use aliases from the get go.
 
 <!-- TODO Add a new row  -->
 
-|  | Description | Alias |
+|  || Description | 
 | --- | --- | --- |
-| **All Text except Controls** | This factor is required by all Text that are not inside Controls | `F1` |
-| **Controls Text size** | This factor is required by all Text that are not inside Controls | `F2` |
-| **Controls size without Text** | This factor is required by all inner dimensions of all Controls except their Text| `F3` |
-| **Controls** | This factor is required by all dimensions of all Controls including Text | `F4` |
-| **Text size · WCAG 1.4.4 AA** | This tokens serves as a reference: all UI Text elements should be tested to meet the WCAG [Success Criterion 1.4.4 Level AA](https://www.w3.org/TR/WCAG21/#x1-4-4-resize-text) which means if their size is multiplied they should not break the general layout or eclipse information | `F5` |
+| `F1` | **All Text except Controls** | This factor is required by all Text that are not inside Controls |
+| `F2` | **Controls Text size** | This factor is required by all Text that are not inside Controls | 
+| `F3` | **Controls size without Text** | This factor is required by all inner dimensions of all Controls except their Text| 
+| `F4` | **Controls** | This factor is required by all dimensions of all Controls including Text | 
+| `F5` | **Text size · WCAG 1.4.4 AA** | This tokens serves as a reference: all UI Text elements should be tested to meet the WCAG [Success Criterion 1.4.4 Level AA](https://www.w3.org/TR/WCAG21/#x1-4-4-resize-text) which means if their size is multiplied they should not break the general layout or eclipse information |
+{: .firstTD_xs}
 
-**All Factor Outputs**
+### Tokens
+{: .no_toc}
 
 <section>
   {% include output-table.html unit="factor" choiceType="dimensions" choiceCategory="factors" %}
 </section>
 
-## Breakpoints/Viewports
+## Breakpoints
 
+<!-- 
 ### Web
 Breakpoints are points where web content responds according to the device width. We have exposed a few common breakpoints as tokens here.
-
+ -->
 <!-- TODO Expose tokens for iOS and Android Viewports -->
-
+<!-- 
 |                                       | Breakpoint prefix | Minimum width |
 |---------------------------------------|-------------------|---------------|
 | **Mobile phone devices**              | sm                | 640px         |
 | **Tablet computer devices**           | md                | 768px         |
 | **Small desktop or laptop computers** | lg                | 1024px        |
 | **Typical desktop computer**          | xl                | 1280px        |
-| **Large desktop screen**              | xxl               | 1536px        |
+| **Large desktop screen**              | xxl               | 1536px        | -->
 
-**All Breakpoint Outputs**
+<!-- **All Breakpoint Outputs** -->
+
+
 
 <section>
   {% include output-table.html unit="breakpoint" choiceType="dimensions" choiceCategory="breakpoints" %}
@@ -154,8 +167,3 @@ Instead of using exact values of width like web media queries require; exposing 
 #### Proposal
 {: .no_toc}
 To expose two tokens specifically for iOS `YPL.FFL.TKUI_C.breakpoints.iOS.regular` and `YPL.FFL.TKUI_C.breakpoints.iOS.compact`
-
-<hr>
-
-### Android [WIP]
-{: .no_toc}

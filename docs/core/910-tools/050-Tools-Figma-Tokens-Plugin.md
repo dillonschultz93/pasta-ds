@@ -136,20 +136,22 @@ base: {
 
 Before pasting your JSON code inside Figma (plugin) you need to convert your You can then convert your HJSON into JSON using a package or its [online converter](https://hjson.github.io/try.html).
 
-<table class="layoutOnly">
-<thead>
-  <tr>
-    <th>HJSON</th>
-    <th>JSON (output)</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-01.png" alt="Hjson Code"></td>
-    <td><img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-02.png" alt="Hjson output (JSON)"></td>
-  </tr>
-</tbody>
-</table>
+
+<section class="flex-1_1-cols">
+  <div>
+    <h4>HJSON</h4>
+    <img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-01.png" alt="Hjson Code">
+  </div>
+  <div>
+    <h4>JSON (output)</h4>
+    <img src="{{site.baseurl}}/assets/images/YPL-DOC-HJSON-02.png" alt="Hjson output (JSON)">
+  </div>
+</section>
+
+
+
+
+
 
 ### Tools
 

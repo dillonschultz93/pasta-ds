@@ -1023,36 +1023,6 @@ table.tableOfIcons td [data-toolclip]:hover>* {
   filter: invert(100%);
 }
 
-
-
-
-// table just for layout / several cols
-// FIXME ↓ can probably be removed (?) replaced with flex
-
-table.layoutOnly {
-  margin: 2rem 0 0;
-}
-
-table.layoutOnly tr {
-  display: flex !important;
-  gap: 20px;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-table.layoutOnly td,
-table.layoutOnly th {
-  flex-grow: 1;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  // margin: 0 10px !important;
-}
-
-.layoutOnly img {
-  margin: 0;
-}
-
 // headless tables
 
 .headless>thead {
@@ -1098,6 +1068,25 @@ table.headFramed th:last-child {
 table.headTopBorder th {
   border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
 }
+
+.firstTD_xs thead tr th:first-child,
+.firstTD_xs tbody tr td:first-child, 
+.firstTD_xs tr td:first-child {
+  width: 12em;
+  min-width: 12em;
+  max-width: 12em;
+  word-break: break-all;
+}
+.firstTD_xs thead tr th:nth-child(2),
+.firstTD_xs tbody tr td:nth-child(2), 
+.firstTD_xs tr td:nth-child(2) {
+  width: 27%;
+  min-width: 27%;
+  max-width: 27%;
+  word-break: break-all;
+}
+
+
 
 
 // code inside td
