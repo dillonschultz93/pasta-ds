@@ -30,7 +30,7 @@ async function getDimensionTokens() {
     } 
   });
 
-  console.log(dimensionTokens); // 221203  
+  // console.log(dimensionTokens); // 221203  
   return dimensionTokens;
 }
 
@@ -98,7 +98,6 @@ async function buildOutputTable(tableType) {
 
     // reaches for resolved value ↓ 
     let valueSTR = value.toString();
-
     if (valueSTR.includes("scales")) {
         valueResolved = " · " + dimensionTokens.scales[valueSTR];
         valueSTR = cutStemsAtIndex(valueSTR,".",4);
@@ -120,7 +119,7 @@ async function buildOutputTable(tableType) {
 
 async function buildOutputTables() {
   const dimensionTokens = await getDimensionTokens();
-  console.log(dimensionTokens); // 221203
+  // console.log(dimensionTokens); // 221203
   Object.keys(dimensionTokens).forEach(key => {
       buildOutputTable(key);
     }
