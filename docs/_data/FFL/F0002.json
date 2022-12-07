@@ -357,10 +357,10 @@
     "variant": "603",
 		"tokens": {
 			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
-			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.size.value",
-			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.leading.value",
-			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.paragraphSpacing.value",
-			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.tracking.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.tracking.value",
 			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
 			"textCase": "YPL.CONST.textCase.upper.value",
 			"textDecoration": "YPL.CONST.textDecoration.none.value",
@@ -382,5 +382,21 @@
 			"textDecoration": "YPL.CONST.textDecoration.none.value",
 			"color": "YPL.FFL.TKUI_C.colors.black.value"
 		}
-	}	
+	},
+	"F0002-605": {
+		"name": "Control Smaller",
+    "type": "Controls",
+    "variant": "605",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	}			
 }
