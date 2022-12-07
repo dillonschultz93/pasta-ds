@@ -89,7 +89,8 @@ nav_order: 110
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
+<a href="https://www.figma.com/file/ObprVaht5ejRnbld7KFRn5/%F0%9F%94%92-Commit-Vault?node-id=711%3A8411&viewport=-238%2C574%2C0.11&t=2vzOHkD53OzIDIgG-11" class="btn iconed figmaBadge">To Figma →<a>
+<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
 
 ### Layout
 

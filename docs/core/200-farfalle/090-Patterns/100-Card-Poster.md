@@ -67,7 +67,8 @@ nav_order: 100
       Card Poster inside of carousel
       <code>.OPT_inSlider</code>
     </h4>
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
     <p>
       Lorem ipsum dolar set amet.
     </p>
@@ -77,7 +78,8 @@ nav_order: 100
       Small Card Poster
       <code>.OPT_small</code>
     </h4>
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png">
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">    
     <p>
       Lorem ipsum dolar set amet.
     </p>
@@ -92,8 +94,11 @@ nav_order: 100
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
-<!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
+
+
+<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1463%3A42258&viewport=181%2C323%2C0.19&t=iisP1QxpL9jTxYX6-11">To Figma →<a>
+<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
+<!-- FIXME ↑  -->
 
 ### Layout
 

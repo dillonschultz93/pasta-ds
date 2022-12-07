@@ -82,3 +82,22 @@ Variants UIDs go from `4xx` to `7FE`. `7FF` is reserved for placholder.
     {% endtablerow %}
   </tbody>
 </table>
+
+## Checklist
+
+ Please comply to and update the checklist below:
+
+ |Ops|
+ |---|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Figma Link(s)</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
+
+ |Implementation|
+ |---|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library|

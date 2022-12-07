@@ -127,7 +127,10 @@ nav_order: 130
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
+<a href="https://www.figma.com/file/ObprVaht5ejRnbld7KFRn5/%F0%9F%94%92-Commit-Vault?node-id=371%3A7356&viewport=194%2C446%2C0.03&t=2vzOHkD53OzIDIgG-11" class="btn iconed figmaBadge">To Figma →<a>
+
+
+<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
 <!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
 
 ### Layout
