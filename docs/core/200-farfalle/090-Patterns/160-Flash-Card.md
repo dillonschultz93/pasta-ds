@@ -7,7 +7,7 @@ permalink: farfalle/patterns/flash-card # lowercase + use hyphens › https://t
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 110
+nav_order: 160
 ---
 
 # {{ page.title }} `{{ page.UID }}`

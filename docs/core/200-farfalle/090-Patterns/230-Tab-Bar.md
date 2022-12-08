@@ -8,7 +8,7 @@ permalink: farfalle/patterns/tab-bar # lowercase + use hyphens › https://tiny
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 20
+nav_order: 230
 nav_exclude: true
 ---
 

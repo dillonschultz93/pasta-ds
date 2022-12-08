@@ -1,18 +1,18 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: — Header # title case
-UID: P000A # ["P","E","F"] + Hexa code/index
-variants: ["01","02"] # all variants index
-permalink: farfalle/patterns/header # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: — Card Split # title case
+UID: P0005 # ["P","E","F"] + Hexa code/index
+variants: [] # all variants index
+permalink: farfalle/patterns/card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 50
+nav_order: 140
 nav_exclude: true
 ---
 
-# Header&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
+# Card
 {: .no_toc}
 
 <table class="headTopBorder">
@@ -29,7 +29,7 @@ nav_exclude: true
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/15">&#35;15</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/11">&#35;11</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
       <td><span data-toolclip='TBD'><code>TBD</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
@@ -44,9 +44,6 @@ nav_exclude: true
     {% endif %}
   </tbody>
 </table>
-
-
-
 
 
 - TOC

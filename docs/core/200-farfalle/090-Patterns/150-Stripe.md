@@ -1,18 +1,18 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: — Split Card # title case
-UID: P0005 # ["P","E","F"] + Hexa code/index
+title: — Stripe # title case
+UID: P0006 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/split-card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/stripe # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 100
+nav_order: 150
 nav_exclude: true
 ---
 
-# Split Card
+# Stripe
 {: .no_toc}
 
 <table class="headTopBorder">
@@ -29,7 +29,7 @@ nav_exclude: true
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/11">&#35;11</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/12">&#35;12</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
       <td><span data-toolclip='TBD'><code>TBD</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>

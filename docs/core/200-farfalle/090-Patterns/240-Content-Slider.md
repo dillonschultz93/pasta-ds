@@ -8,7 +8,7 @@ permalink: farfalle/patterns/content-slider-P0010 # lowercase + use hyphens â€ºÂ
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 400
+nav_order: 240
 ---
 
 <!-- Utility scripts -->

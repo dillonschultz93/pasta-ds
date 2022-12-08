@@ -8,7 +8,7 @@ permalink: farfalle/patterns/lockup-col # lowercase + use hyphens › https://t
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 80
+nav_order: 120
 ---
 
 # {{ page.title }} `{{ page.UID }}`

@@ -1,18 +1,18 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: — Hero # title case
-UID: P0008 # ["P","E","F"] + Hexa code/index
-variants: [] # all variants index
-permalink: farfalle/patterns/hero # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: — Header # title case
+UID: P000A # ["P","E","F"] + Hexa code/index
+variants: ["01","02"] # all variants index
+permalink: farfalle/patterns/header # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 200
+nav_order: 190
 nav_exclude: true
 ---
 
-# Hero&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
+# Header&nbsp;`{{ page.project_id }}.{{ page.UID }}`{% for item in page.variants %}&nbsp;`{{item | default: ""}}`{% endfor %}
 {: .no_toc}
 
 <table class="headTopBorder">
@@ -29,7 +29,7 @@ nav_exclude: true
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/14">&#35;14</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/15">&#35;15</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
       <td><span data-toolclip='TBD'><code>TBD</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
@@ -44,6 +44,10 @@ nav_exclude: true
     {% endif %}
   </tbody>
 </table>
+
+
+
+
 
 - TOC
 {:toc}

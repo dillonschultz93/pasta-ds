@@ -1,18 +1,18 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: — Card # title case
-UID: P0005 # ["P","E","F"] + Hexa code/index
+title: — Toast # title case
+UID: P000B # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/toast # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 100
+nav_order: 200
 nav_exclude: true
 ---
 
-# Card
+# Toast
 {: .no_toc}
 
 <table class="headTopBorder">
@@ -29,7 +29,7 @@ nav_exclude: true
   <tbody>
     <tr>
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/11">&#35;11</a></td>
+      <td><a href="https://github.com/yummly/pasta/issues/17">&#35;17</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
       <td><span data-toolclip='TBD'><code>TBD</code></span></td>
       <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
@@ -44,7 +44,6 @@ nav_exclude: true
     {% endif %}
   </tbody>
 </table>
-
 
 - TOC
 {:toc}
