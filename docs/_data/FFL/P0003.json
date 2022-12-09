@@ -23,7 +23,7 @@
   "meta": {
     "name": "Lockup Col",
     "UID": "P0003",
-    "description": "",
+    "description": "Lorem ipsum dolar set amet.",
     "ticketNumber": "58",
     "ticketURL": "",
     "ownerName": "Dillon",
@@ -36,7 +36,7 @@
     "hasInteractionStates": false,
     "dependencyTree": [
       {
-        "name": "BLK_header",
+        "name": ".BLK_header",
         "children": [
           {
             "name": "chip",
@@ -49,10 +49,10 @@
         ]
       },
       {
-        "name": "BLK_copy",
+        "name": ".BLK_copy",
         "children": [
           {
-            "name": "BLK_top",
+            "name": ".BLK_top",
             "children": [
               {
                 "name": "chip",
@@ -73,7 +73,7 @@
             ]
           },
           {
-            "name": "BLK_bottom",
+            "name": ".BLK_bottom",
             "children": [
               {
                 "name": "title",
