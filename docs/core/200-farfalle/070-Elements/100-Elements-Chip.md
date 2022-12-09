@@ -75,7 +75,7 @@ nav_order: 100
     </h4>
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
     <p>
-      ↑ Using the option with an icon communicates rating information in this example.
+      Using the option with an icon communicates rating information in this example.
     </p>
   </div>
   <div>
@@ -85,7 +85,7 @@ nav_order: 100
     </h4>
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png">
     <p>
-      ↑ Using the solo icon option indicates in this example that this recipe is locked behind something.
+      Using the solo icon option indicates in this example that this recipe is locked behind something.
     </p>
   </div>
 </section>
@@ -97,7 +97,7 @@ nav_order: 100
     </h4>
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_03.png">
     <p>
-      ↑ Using the teal option gives the chips a different visual treatment and communicating that these are interactive.
+      Using the teal option gives the chips a different visual treatment and communicating that these are interactive.
     </p>
   </div>
 </section>

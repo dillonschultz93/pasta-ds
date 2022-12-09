@@ -73,40 +73,48 @@ nav_order: 130
     <div>
         <h4>Primary  &nbsp;&nbsp; <code>-002</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_01.png" alt="FIXME">
-        <p>↑ Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>        
+        <p>Primary Buttons are represented by <code>-001</code>, <code>-002</code> and <code>-003</code> variants. They are use to trigger principal action inside a feature. They can be repeated (ie: top, bottom page) but cannot be of different nature: 1 main action per screen.</p>
     </div>
     <div>   
         <h4>Small  &nbsp;&nbsp; <code>-002.OPT_smallTint</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_OPT_smallTint_01.png" alt="FIXME">
-        <p>↑ Et Voluptas Dolorem Commodi</p>        
+        <p>The `OPT_smallTint` option is used to lower the weight and contrast of a Primary Button. They are smaller than Primary, but still more noticable than Interstitials.</p>        
     </div>
 </section>
+
+<hr>
+
 
 <section class="flex-1_1-cols">
     <div>
         <h4>Interstitial + Icon &nbsp;&nbsp; <code>-00A</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00A_01.png" alt="FIXME">
-        <p>Say somthing</p>
+        <p>Interstitial Buttons with Icon are less noticable that the previous variations. They allow the Button to be more "integrated" inside the Content, but still stand out thanks to their Icon.</p>          
     </div>
     <div>
         <h4>Text  &nbsp;&nbsp; <code>-009</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_009_01.png" alt="FIXME">
-        <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
+        <p>Interstitial Text Buttons are the most discreet Buttons. They can also be embedded inside text (ie: hyperlink).</p>          
     </div>
 </section>
+
+<hr>
+
 
 <section class="flex-1_1-cols">
     <div>
         <h4>Icon  &nbsp;&nbsp;  <code>-00B.OPT_smallGray</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00B_OPT_smallGray_01.png" alt="FIXME">
-        <p>Nostrum qui eveniet sunt delectus ut vel consequatur nostrum ipsum est natus aut dolor ex.</p>          
+        <p>Icon Buttons can be shoved into small spaces. Especially in their <code>OPT_small…</code> forms</p>
     </div>
     <div>   
         <h4>Framed Icon  &nbsp;&nbsp;  <code>-00C.OPT_small</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_00C_OPT_small_01.png" alt="FIXME">
-        <p>Est quisquam non dolor consequatur sint. Qui praesentium placeat voluptas atque optio aut dignissimos minus tempore molestiae.</p>
+        <p>Just like Icon, Framed Icon Buttons offer the same small footprint, they can easily be stacked next to one another. Their "framed" nature helps to separate them from their background.</p>
     </div>
 </section>
+
+<hr>
 
 <section class="flex-2_1-cols">
     <div>
@@ -115,7 +123,7 @@ nav_order: 130
     </div>
     <div>
         <br>
-        <p>← Est quisquam non dolor consequatur sint. Qui praesentium placeat voluptas atque optio aut dignissimos minus tempore molestiae.</p>
+        <p>Placholder Buttons are used to allow the user to replace the space they occupy with the content or widget they allow to select (or upload).</p>
     </div>
 </section>
   
@@ -177,10 +185,9 @@ Please comply to and update the checklist below:
 | Design |
 | --- |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
-| <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
 
 | Accessiblity |
 | --- |
@@ -200,16 +207,16 @@ Please comply to and update the checklist below:
     <tr>
         <td><a href="https://www.w3.org/TR/WCAG21/#text-alternatives">1.1.1</a></td>
         <td>Text Alternatives</td>
-        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="pending"></td>
         <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="done"></td>
-        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A" checked></td>
     </tr>
     <tr>
         <td><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1</a></td>
         <td>Color not the only way to convey information</td>
-        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="pending"></td>
         <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="done"></td>
-        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A" checked></td>
     </tr>
     <tr>
         <td><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3</a></td>

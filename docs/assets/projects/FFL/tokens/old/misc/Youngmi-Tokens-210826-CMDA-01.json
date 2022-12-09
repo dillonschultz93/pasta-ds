@@ -1,0 +1,24 @@
+{
+  "p1": {
+    "bold": {
+      "value": {
+        "fontFamily": "$TKC.font.family.bold",
+        "fontWeight": "$TKC.font.weight.500",
+        "fontSize": "$TKSM.scale.seqArithA.400",
+        "lineHeight": "round($TKSM.scale.seqArithA.400 * $TKSC.ratio.leading.large)"
+      },
+      "description": "none",
+      "type": "typography"
+    },
+    "regular": {
+      "value": {
+        "fontFamily": "$TKC.font.family.regular",
+        "fontWeight": "$TKC.font.weight.400",
+        "fontSize": "$TKSM.scale.seqArithA.400",
+        "lineHeight": "round($TKSM.scale.seqArithA.400 * $TKSC.ratio.leading.large)"
+      },
+      "description": "none",
+      "type": "typography"
+    }
+  }
+}

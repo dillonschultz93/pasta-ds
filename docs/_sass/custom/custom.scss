@@ -1120,6 +1120,19 @@ td.pageHeaderVariantsRow a {
   color: #5c5962;
 }
 
+
+// table previews
+
+.tableOfPreviews td {
+  border: none !important;
+  vertical-align: top;  
+}
+.tableOfPreviews td img {
+  // width: 95%;
+  margin: 0 auto;
+}
+
+
 //
 // COLORS TABLE
 //

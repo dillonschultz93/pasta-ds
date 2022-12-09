@@ -4,9 +4,112 @@ title: YPL
 nav_order: 1
 has_children: false
 ---
+
 <h1>Yummly <span class="titleLight">Math-Based</span><br>Product Language</h1>
 
-**Yummly Product Language (YPL) aka "Pasta"** is a collaborative bespoke environment that allows stakeholders to fast-track collaboration and decisions while building Yummly's user experiences.
+<hr>
+
+**Yummly Product Language (YPL) aka "Pasta"** is a collaborative bespoke environment that allows stakeholders to fast-track collaboration and decisions while building Yummly's user experiences. It's foundation is based on Atomic Design principles and a fast-forward token-based hand off pipeline.
+
+## Pasta Components
+
+All designers and Front end devellopers are required to get familiar with Pasta Atomic Design and its Components taxonomy.
+
+<section class="flex-1_1_1-cols">
+  <!-- FIXME ↓ "onClick" ? Really? -->
+  <div onclick="location.href='{{site.baseurl}}/farfalle/choices/';"  class="cta-card-black">
+      <h8>Tokens (Choices)</h8>
+      <p>
+        <span>Choices Tokens</span> are the foundational constant of all the Pasta's Components.
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+        <path d="M146.9,211.8c-17.8,0-39.2-31.6-50.8-75.2c-5.8-21.8-8.2-43.2-6.6-60.2c1.6-18,7.4-29.2,16.5-31.6c1.3-0.4,2.6-0.5,3.8-0.5
+          c17.8,0,39.2,31.6,50.8,75.2c5.8,21.8,8.2,43.2,6.6,60.2c-1.7,18-7.6,29.2-16.8,31.7C149.5,211.6,148.4,211.8,146.9,211.8z
+          M109.9,50.1c-0.8,0-1.5,0.1-2.2,0.2c-6.6,1.8-11.1,11.5-12.5,26.7c-1.5,16.6,0.8,37.3,6.5,58.3c5.4,20.1,13.3,38.4,22.1,51.7
+          c8.2,12.2,16.6,19.2,23.1,19.2c0.8,0,1.5-0.1,2.2-0.2c6.6-1.8,11.1-11.5,12.5-26.7c1.5-16.6-0.8-37.3-6.5-58.3
+          c-5.3-20.1-13.2-38.4-22.1-51.7C124.9,57,116.4,50.1,109.9,50.1z"/>
+        <path d="M166.3,166.3c-14.2,0-30-2-45.5-5.7c-22-5.2-42-13.2-56.2-22.6c-15.1-10-22.2-20.5-20-29.7c2.8-11.8,19.5-18.5,46.1-18.5
+          c14.2,0,30,2,45.5,5.7c47.8,11.3,80.6,33.8,76.3,52.3C209.6,159.5,192.8,166.3,166.3,166.3z M90.7,95.5c-22.5,0-38.4,5.5-40.5,14
+          c-1.5,6.7,4.7,15.1,17.5,23.6c13.8,9,33.1,16.8,54.3,21.9c15.3,3.6,30.6,5.5,44.2,5.5c22.5,0,38.4-5.5,40.5-14
+          c1.5-6.5-4.9-15.1-17.7-23.6c-13.7-9.1-33-16.8-54.2-21.8C119.5,97.5,104.3,95.5,90.7,95.5z"/>
+        <path d="M82.8,196.4c-4.9,0-8.7-1.3-11.8-4c-11.4-10.1-4.8-36.4,16.7-67c0.1-0.2,0.3-0.4,0.5-0.6c2.1-2.5,4.4-5.2,6.8-8
+          c8.7-10.3,18.7-22,27.1-29.6c13.1-11.9,25.1-19.8,36.8-24.4c3.7-1.4,9.3-3.2,15-3.2c4.9,0,8.9,1.3,11.9,3.9
+          c9.7,8.6,4.5,24.3,2.3,31.1c-5.4,17-17.1,35.8-34.7,55.6c-14.9,16.8-31.5,30.5-46.7,38.6C97.5,193.9,89.5,196.4,82.8,196.4z
+          M173.8,65.6c-3.7,0-8.2,1-12.7,2.7c-11.3,4.4-22.8,12-35.2,23.2c-8.5,7.6-19,20.1-27.4,30.1c-2.1,2.5-4.1,4.9-5.9,7l-0.1,0.2
+          c-18.9,26.7-26.2,51.6-17.5,59.3c1.9,1.7,4.6,2.6,8,2.6c5.6,0,12.8-2.3,21.1-6.8c14.5-7.8,30.5-21,45.1-37.4
+          c16.9-19,28.2-36.9,33.6-53.4c3.1-9.8,5.2-19.6-0.7-25C180,66.4,177.3,65.6,173.8,65.6z"/>
+      </svg>
+      learn more…
+  </div>
+
+  <div onclick="location.href='{{site.baseurl}}/farfalle/primitives/';" class="cta-card-black">
+    <h8>Primitives</h8>
+    <p>
+      <span>Primitives</span> are Assets or aggregations of choices that form Styles.
+    </p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+      <path d="M67.2,213.4c-13.6,0-24.6-11-24.6-24.6s11-24.6,24.6-24.6c5.2,0,10.1,1.7,14.4,4.8l0.7,0.5l18.3-18.3l-0.5-0.7
+        c-4.2-5.5-6.4-12-6.4-18.7c0-16.8,13.6-30.4,30.4-30.4c0.9,0,1.6,0,2.5,0.1l0.9,0.1l5.1-23.4l-0.7-0.3c-6.5-3-10.6-9.6-10.6-16.8
+        c0-10.3,8.3-18.6,18.6-18.6c10.2,0,18.6,8.4,18.7,18.8c0,10.2-8.3,18.6-18.6,18.6c0,0-0.1,0-0.2,0c-0.2,0-0.4-0.1-0.5-0.1h-0.8
+        l-5,23.2l0.8,0.3c12.2,4.3,20.3,15.8,20.3,28.7c0,0.8-0.1,1.5-0.2,2.3l-0.1,1.1l23.4,5.1l0.3-0.7c3-6.5,9.6-10.6,16.8-10.6
+        c10.3,0,18.6,8.3,18.6,18.6s-8.3,18.6-18.6,18.6c-10.3,0-18.6-8.3-18.6-18.6c0-0.1,0-0.1,0-0.2c0-0.2,0.1-0.4,0.1-0.6V146l-23.2-5
+        l-0.3,0.8c-4.3,12.2-15.8,20.4-28.7,20.4c-6.9,0-13.4-2.2-18.7-6.4l-0.7-0.6l-18.3,18.3l0.5,0.7c3.1,4.3,4.8,9.2,4.8,14.4
+        C91.8,202.4,80.8,213.4,67.2,213.4z M67.2,170.2c-10.4,0-18.6,8.2-18.6,18.6c0,10.4,8.2,18.6,18.6,18.6s18.6-8.2,18.6-18.6
+        C85.8,178.3,77.6,170.2,67.2,170.2z M194.8,134.7c-7.2,0-12.8,5.6-12.8,12.8s5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8
+        S202,134.7,194.8,134.7z M124.1,107.2c-13.6,0-24.6,11-24.6,24.6c0,13.6,11,24.6,24.6,24.6s24.6-11,24.6-24.6
+        C148.7,118.3,137.7,107.2,124.1,107.2z M139.8,48.4c-7.1,0-12.8,5.7-12.8,12.8c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8
+        C152.6,54.1,147,48.4,139.8,48.4z"/>
+    </svg>
+      learn more…
+  </div>
+
+  <div onclick="location.href='{{site.baseurl}}/farfalle/elements/';" class="cta-card-black">
+      <h8>Elements</h8>
+      <p>
+        <span>Elements</span> use Choices and Primitives to fulfill a basic GUI function.
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+        <g>
+          <path d="M162.3,85H93.7c-23.8,0-43.1,19.2-43.1,43s19.3,43,43.1,43h68.7c23.8,0,43.1-19.2,43.1-43S186.1,85,162.3,85L162.3,85z
+            M162.3,165.3H93.7c-20.6,0-37.3-16.7-37.3-37.3s16.8-37.3,37.3-37.3h68.7c20.6,0,37.3,16.7,37.3,37.3S182.9,165.3,162.3,165.3
+            L162.3,165.3z"/>
+          <path d="M96.2,98.3c-16.4,0-29.7,13.3-29.7,29.7s13.3,29.7,29.7,29.7s29.7-13.3,29.7-29.7S112.6,98.3,96.2,98.3z M96.2,152
+            c-13.2,0-24-10.8-24-24s10.8-24,24-24c13.2,0,24,10.8,24,24S109.4,152,96.2,152z"/>
+        </g>
+      </svg>
+      learn more…
+  </div>
+
+
+</section>
+
+<section class="flex-1_1_1-cols">
+  <div onclick="location.href='{{site.baseurl}}/farfalle/patterns/';"  class="cta-card-black">
+      <h8>Patterns</h8>
+      <p>
+        <span>Patterns</span> use Elements, Primitives and Choices to provide more elaborate GUI Components.
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+        <path d="M224.8,217.9c-0.6,0-1.2-0.2-1.7-0.5c-1.1-0.7-1.8-1.8-1.8-3.1v-13.1H38.6v13.1c0,1.2-0.7,2.4-1.8,3.1
+          c-0.5,0.3-1.1,0.5-1.7,0.5s-1.2-0.2-1.7-0.5c-1.1-0.7-1.8-1.8-1.8-3.1v-13.1H18.4c-1.2,0-2.4-0.7-3.1-1.8c-0.6-1.1-0.6-2.4,0-3.5
+          c0.7-1.1,1.8-1.8,3.1-1.8h13.1V61.6H18.4c-1.2,0-2.4-0.7-3.1-1.8c-0.6-1.1-0.6-2.4,0-3.5c0.7-1.1,1.8-1.8,3.1-1.8h13V41.3
+          c0-1.2,0.7-2.4,1.8-3.1c0.5-0.3,1.1-0.5,1.7-0.5c0.6,0,1.2,0.2,1.7,0.5c1.1,0.7,1.8,1.8,1.8,3.1v13.1H221V41.3
+          c0-1.2,0.7-2.4,1.8-3.1c0.5-0.3,1.1-0.5,1.7-0.5s1.2,0.2,1.7,0.5c1.1,0.7,1.8,1.8,1.8,3.1v13h13.1c1.2,0,2.4,0.7,3.1,1.8
+          c0.6,1.1,0.6,2.4,0,3.5c-0.7,1.1-1.8,1.8-3.1,1.8h-13.1v132.6h13.1c1.3,0,2.6,0.7,3.3,1.9c0.6,1,0.6,2.4,0,3.4
+          c-0.7,1.1-1.8,1.8-3.1,1.8h-13.1v13.1c0,1.2-0.7,2.4-1.8,3.1C226,217.7,225.4,217.9,224.8,217.9z M38.5,194.1h182.6V61.4H38.5V194.1
+          z"/>
+        <path d="M69.2,166c-0.9,0-1.8-0.4-2.5-1s-1-1.6-1-2.5V93.2c0-0.9,0.4-1.8,1-2.5c0.6-0.6,1.6-1,2.5-1h121.4c0.9,0,1.8,0.4,2.5,1
+          c0.6,0.6,1,1.6,1,2.5v69.4c0,0.9-0.4,1.8-1,2.5c-0.6,0.6-1.5,1-2.5,1H69.2z M72.8,159h114.3V96.7H72.8V159z"/>
+        <path d="M128.4,148.9H86.4c-2,0-3.5-1.6-3.5-3.5l0,0c0-2,1.6-3.5,3.5-3.5h42.1c2,0,3.5,1.6,3.5,3.5l0,0
+          C132,147.3,130.4,148.9,128.4,148.9z"/>
+      </svg>
+      learn more…      
+  </div>
+  <div></div>  
+  <div></div>
+</section>
+
+## Pasta Principles
 
 <section class="flex-1_1_1-cols">
   <div onclick="location.href='{{site.baseurl}}/foundations#definite';"  class="cta-card-black">
@@ -47,7 +150,13 @@ has_children: false
   </div>
 </section>
 
-<figure>
+
+
+
+
+
+
+<!-- <figure>
     <blockquote cite="https://www.idean.com/micro/invent-design-systems" class="jumbo">
       <p>
         If someone has a meeting with you to figure out how to get onboard your design system, then you don't have a design system. you just have some assets that people need to be introduced to.
@@ -58,4 +167,4 @@ has_children: false
 
 <a href="https://popchart.co/products/the-permutations-of-pasta" class="image-link"><img src="{{site.baseurl}}/assets/images/YPL-DOC-ThePermutationsOfPasta.jpg" id="thePermutationOfPasta" alt="The permutation of pasta poster"></a>
 
-<a href="http://www.geometryofpasta.com/" class="image-link"><img src="{{site.baseurl}}/assets/images/YPL-DOC-intro-book.gif" id="theGeometryOfPasta" alt="The geometry of pasta book"></a>
+<a href="http://www.geometryofpasta.com/" class="image-link"><img src="{{site.baseurl}}/assets/images/YPL-DOC-intro-book.gif" id="theGeometryOfPasta" alt="The geometry of pasta book"></a> -->

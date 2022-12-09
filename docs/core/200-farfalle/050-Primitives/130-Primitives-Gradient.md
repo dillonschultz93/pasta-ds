@@ -18,8 +18,6 @@ nav_order: 130
 FIXME
 {: .label}
 
-{% include element-header.html %}
-
 <table class="headTopBorder">
   <!-- <caption>my caption</caption> -->
   <thead>
