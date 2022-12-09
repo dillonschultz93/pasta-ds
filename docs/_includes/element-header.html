@@ -15,7 +15,7 @@
         <td><a href="{{site.data[page.project_id][page.UID].meta.ticketURL}}">&#35;{{site.data[page.project_id][page.UID].meta.ticketNumber}}</a></td>
         <td><a href="{{site.data[page.project_id][page.UID].meta.ownerGitHubURL}}">{{site.data[page.project_id][page.UID].meta.ownerName}}</a></td>
         <td>
-          {% if site.data[page.project_id][page.UID].meta.options %}
+          {% if site.data[page.project_id][page.UID].meta.options.size >= 1 %}
             <span data-toolclip="{{ site.data[page.project_id][page.UID].meta.options | join: ', ' }}">
               <code>
                 {{ site.data[page.project_id][page.UID].meta.options.size }}
