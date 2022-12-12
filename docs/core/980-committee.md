@@ -14,6 +14,24 @@ nav_order: 980
 |Jira Kanban (Internal)|[Pasta Kanban](https://yummly.atlassian.net/secure/RapidBoard.jspa?rapidView=138&projectKey=PST)|
 |Slack Channel (Internal Private)|[pasta](https://app.slack.com/client/T024V1JTN/C026U3USKDM/)|
 
+## 2022 · Q4
+
+|Jurisdiction|Contact||On Github|Platform or Project|
+| --- | --- | --- | --- |
+|**CURATORS**|
+|Ops & Architecture|[Manuel Colom](mailto:manu@yummly.com)|Designer-Dev.|[coolmanlume](https://github.com/coolmanlume)|Pasta|
+|Architecture|[Dillon Schultz](mailto:dillon@yummly.com)|Designer-Dev.|[dillonschultz93](https://github.com/dillonschultz93)|Pasta|
+|Documentation|[Manuel Colom](mailto:manu@yummly.com)|Designer-Dev.|[coolmanlume](https://github.com/coolmanlume)|Pasta|
+|Documentation|[Dillon Schultz](mailto:dillon@yummly.com)|Designer-Dev.|[dillonschultz93](https://github.com/dillonschultz93)|Pasta|
+|Components Library|[Manuel Colom](mailto:manu@yummly.com)|Designer-Dev.|[coolmanlume](https://github.com/coolmanlume)|Figma|
+|Components Library|[Dillon Schultz](mailto:dillon@yummly.com)|Designer-Dev.|[dillonschultz93](https://github.com/dillonschultz93)|Figma|
+|Components Library|[Robert Suarez](mailto:robert@anml.com)|Designer-Dev.|[robert-ANML](https://github.com/robert-ANML)|Figma|
+
+|**SUBSCRIBERS (NONE)**|
+|Dictionary Implementation and Tokens Servicing have been Paused|
+
+
+
 ## 2022 · Q3
 
 |Jurisdiction|Contact||On Github|Platform or Project|

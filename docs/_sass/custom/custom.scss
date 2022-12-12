@@ -434,7 +434,9 @@ img {
 p>img {
   margin: 0;
 }
-
+img.extraPad1 {
+  padding: 2rem;
+}
 
 .videoSnippet {
   display: flex;
@@ -460,8 +462,19 @@ p>img {
   background-color: transparent;
   width: 38.3%;
 }
-
-
+.componentTitleIcon {
+  // position: absolute;
+  display: inline-block;
+  margin-top: 2rem;
+  width: 32pt;
+  background-color: none;
+  border: none;
+  border-radius: 2pt;
+  padding: 4pt;
+  margin: 0;
+  float: right;
+  filter: invert(1);
+}
 
 
 // specific
@@ -770,27 +783,36 @@ h1+hr {
   // padding-left: 0.8rem;
 }
 
+
 .label {
   background-color: #222;
   padding: 0.2rem 1rem;
   text-transform: none;
   display: inline-block !important;
   margin: 0 !important;
+  border-radius: 16pt;
 }
-
 .label+p {
   display: inline-block !important;
   margin: 0 0 0 0.5rem !important;
 }
-
 .label a,
 .label a:hover {
   color: white;
   background-image: none;
 }
-
-.lable .red {
+.label.red {
   background-color: red;
+}
+.label.yellow {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+.label.green {
+  background-color: green;
+  // color: black;
+  font-weight: bold;
 }
 
 .btn {
@@ -1045,6 +1067,22 @@ table.tableOfIcons td [data-toolclip]:hover>* {
   border-top: 1px solid rgba(0, 0, 0, 0.07) !important;
 }
 
+// cols proportions
+
+.t-20-60-20 td:first-child, .t-20-60-20 th:first-child  {
+  width: 20%;
+}
+.t-20-60-20 td:nth-child(2), .t-20-60-20 th:nth-child(2) {
+  width: 60%;
+}
+.t-20-60-20 td:last-child, .t-20-60-20 th:last-child {
+  width: 20%;
+  text-align: right;
+}
+
+
+
+
 // tables variations
 
 table.headerCentered th {
@@ -1097,8 +1135,6 @@ table.headTopBorder th {
   max-width: 27%;
   word-break: break-all;
 }
-
-
 
 
 // code inside td
@@ -2132,4 +2168,87 @@ input[type="radio"]:checked+label.fatTab {
   }
 }
 
+// CALLOUTS
+// mapped to https://just-the-docs.github.io/just-the-docs/docs/ui-components/callouts/
 
+.co_warning {
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color: #fee5e6;
+  padding: 1rem 2rem;
+  color: #222;
+}
+.co_warning::before {
+  display: block;
+  content: "warning";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #dc2e2e;
+  // opacity: 0.65;
+  font-size: small;
+  margin-bottom: 0.5rem;
+}
+
+.co_highlight {
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color: #fffbe7;
+  padding: 1rem 2rem;
+  color: #222;
+}
+.co_note {
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color: #e3ddfd;
+  padding: 1rem 2rem;
+  color: #222;
+}
+.co_note::before {
+  display: block;
+  content: "note";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #381885;
+  // opacity: 0.65;
+  font-size: small;
+  margin-bottom: 0.5rem;
+}
+.co_important {
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color: #d7e6fe;
+  padding: 1rem 2rem;
+  color: #222;
+}
+.co_important::before {
+  display: block;
+  content: "important";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #183285;
+  // opacity: 0.65;
+  font-size: small;
+  margin-bottom: 0.5rem;
+}
+.co_new {
+  margin-top: 2rem;
+  border-radius: 8px;
+  background-color: #ddf7e9;
+  padding: 1rem 2rem;
+  color: #222;
+}
+.co_new::before {
+  display: block;
+  content: "new";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #046e57;
+  // opacity: 0.65;
+  font-size: small;
+  margin-bottom: 0.5rem;
+}
+
+.co_warning code, .co_highlight code, .co_note code, .co_important code, .co_new code {
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,0.5);
+}

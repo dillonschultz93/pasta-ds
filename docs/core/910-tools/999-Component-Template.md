@@ -1,23 +1,35 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Status # title case
-UID: E0005 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/status-E0005 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-grand_parent: Farfalle # title case
-parent: Elements # title case
+title: NewComponentTemplate # title case
+UID: X0000 # ["P","E","F"] + Hexa code/index
+permalink: farfalle/elements/X0000-NewComponentTemplate # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+# grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
+parent: Tools # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 150
+nav_order: 999
+nav_exclude: true
 ---
+
 
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
-COPY
+⚠️ BLUEPRINT
+{: .label.red}
+⚠️ MAINTAINER
+{: .label.red}
+⚠️ USAGE
+{: .label.red}
+⚠️ COPY
 {: .label.red}
 
-<!-- - TOC
-{:toc} -->
+<br><br><br>
+
+UID: `X0000` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
+`Lorem` + `Lorem_ipsum_dolor_sit_amet`
+{: .co_new}
+
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -28,16 +40,44 @@ COPY
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+    Lorem_ipsum_dolor_sit_amet
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-preview_01.png){: .darkenabled}
 
-## Variations and Options
+<!-- - TOC
+{:toc} -->
+
+
+## Variants and Options
+
+<!-- IF TABES ARE REQUIRED -->
+
+<!-- <div class="tabs">
+  <input type="radio" name="variants" id="variant_UID1" checked="checked">
+  <label for="variant_UID1">Variant_UID1</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_01.png){: .darkenabled}
+Variant_Preview_#1
+  </div>
+  <input type="radio" name="variants" id="variant_UID2">
+  <label for="variant_UID2">Variant_UID2</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_02.png){: .darkenabled}
+Variant_Preview_#2
+  </div>
+  <input type="radio" name="variants" id="variant_UID3">
+  <label for="variant_UID3">Variant_UID3</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_03.png){: .darkenabled}
+Variant_Preview_#3
+  </div>  
+</div> -->
+
 
 ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
-<table>
+<table id="variants-options">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
@@ -48,53 +88,38 @@ COPY
   </thead>
   <tbody>
     <tr>
-      <td><code>-001</code> </td>
-      <td>Chip</td>
-      <td>Default</td>
-    </tr>
-    <tr>
-      <td><code>-002</code> </td>
-      <td>Interstitial</td>
-      <td>Used as interstitial within text or small spaces</td>
-    </tr>
-    <tr>
-      <td><code>-002.OPT_text</code> </td>
-      <td>Interstitial Label</td>
-      <td>Dimmed semantics, used as interstitial within text or small spaces</td>
-    </tr>                       
+      <td><code>-XXX</code></td>
+      <td>Lorem</td>
+      <td>Lorem_ipsum_dolor_sit_amet</td>
+    </tr>   
   </tbody>
 </table>
-
 
 ## Usage Examples
 
 <section class="flex-1_1-cols usage_examples">
-    <div>
-        <h4>Chip  &nbsp;&nbsp; <code>-001</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_001_01.png" alt="FIXME">
-        <p>
-          Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus. Sit mollitia sint ipsum minus necessitatibus nihil. Architecto tempora animi similique aperiam dolores voluptas vitae. Saepe vitae et omnis quia cupiditate reprehenderit eius. Quia suscipit et labore. Quaerat natus optio molestiae praesentium sed culpa velit quis voluptates quis. Nobis perspiciatis tenetur voluptas et et placeat rerum unde est inventore.
-        </p>        
-    </div>
-    <div>   
-        <h4>Interstitial  &nbsp;&nbsp; <code>-002</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_01.png" alt="FIXME">
-        <p>
-          Ex velit consectetur ut aut est autem sunt. Accusantium consectetur impedit modi quia cum voluptatem maiores non est tempora consequatur. Suscipit repellendus natus dolorem amet in quia dolores enim. Eum natus libero culpa et consequuntur sed delectus. Dolorem similique sequi aut.        
-        </p>        
-    </div>
-</section>
-
-<section class="flex-1_1-cols">
-    <div>
-        <h4>Interstitial Label &nbsp;&nbsp; <code>-002.OPT_text</code></h4>
-        <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_02.png" alt="FIXME">
-        <p>
-          Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus. Sit mollitia sint ipsum minus necessitatibus nihil. Architecto tempora animi similique aperiam dolores voluptas vitae. Saepe vitae et omnis quia cupiditate reprehenderit eius. Quia suscipit et labore.         
-        </p>
-    </div>
-    <div>   
-    </div>
+  <div>
+    <h4>
+      Lorem
+      <code>-YYY</code>
+    </h4>
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
+    <p>
+      Lorem_ipsum_dolor_sit_amet
+    </p>
+  </div>
+  <div>
+    <h4>
+      Lorem
+      <code>-YYY</code>
+    </h4>
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
+    <p>
+      Lorem_ipsum_dolor_sit_amet
+    </p>
+  </div>
 </section>
 
   
@@ -107,19 +132,16 @@ COPY
 <!-- ================= -->
 
 
-<a href="https://www.figma.com/file/ObprVaht5ejRnbld7KFRn5/%F0%9F%94%92-Commit-Vault?node-id=701%3A7357&viewport=-3347%2C819%2C0.29&t=2vzOHkD53OzIDIgG-11" class="btn iconed figmaBadge">To Figma →<a>
-
-
+<a href="figma_link" class="btn iconed figmaBadge">To Figma →<a>
 <!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
-<!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
 
 ### Layout
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_layout_01.png)
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-layout_01.png)
 
 ### Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_dependencies_01.png)
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-bp_dependencies_01.png)
 
 {% include dependency-tree.html %}
 
@@ -127,13 +149,17 @@ COPY
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_decisions_01.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-bp_decisions_01.png)
 
 ### Options
 
 ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 {% include options-table.html %}
+
+### Interaction
+
+{% include interaction-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">
@@ -146,6 +172,7 @@ COPY
 {% include element-header.html %}
 <!-- FIXME: remove unused variants -->
 
+
 ## Checklist
 
 Please comply to and update the checklist below:
@@ -154,8 +181,8 @@ Please comply to and update the checklist below:
 | --- |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
 | <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
-| <input type="checkbox" data-status-category="design" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
-| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
+| <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
 
 | Accessiblity |
 | --- |

@@ -11,7 +11,7 @@ nav_order: 90
 
 # Patterns
 
-## Collection
+## Examples
 
 <table class="tableOfPreviews">
   <tbody>
@@ -23,19 +23,22 @@ nav_order: 90
       {% if image.path contains 'FFL/images' %}
          {% if image.path contains 'FFL-P' %}
             {% if image.path contains 'preview_01' %}
-               {% if image.path contains '-dark' %}
+               {% if image.path contains '--dark' %}
                {% else %}
-                  {% assign i = i | plus:1 %}
-                  {% if i == 3 %}
-                     </tr>
-                     <tr>
-                  {% assign i = 1 %}
-                  {% endif %}      
-                  {%- assign fileStems = image.path | split: '-' -%}                 
-                  <td>
-                     <h6>{{ fileStems[3] }}</h6>                   
-                     <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-                  </td>     
+                  {% if image.path contains '.gif' %}
+                  {% else %}
+                     {% assign i = i | plus:1 %}
+                     {% if i == 3 %}
+                        </tr>
+                        <tr>
+                     {% assign i = 1 %}
+                     {% endif %}      
+                     {%- assign fileStems = image.path | split: '-' -%}                 
+                     <td>
+                        <h6>{{ fileStems[3] }}</h6>                   
+                        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                     </td>     
+                  {% endif %}
                {% endif %}    
             {% endif %}    
          {% endif %}    

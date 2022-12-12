@@ -13,6 +13,9 @@ nav_order: 140
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+COPY
+{: .label.red}
+
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
   <label for="tab_name_01" class="fatTab">Usage</label>
@@ -29,6 +32,10 @@ nav_order: 140
 
 <!-- - TOC
 {:toc} -->
+
+## Variations and Options
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 <table>
   <!-- <caption>my caption</caption> -->
@@ -53,8 +60,9 @@ nav_order: 140
   </tbody>
 </table>
 
-## Usage
-<section class="flex-1_1-cols">
+## Usage Examples
+
+<section class="flex-1_1-cols usage_examples">
     <div>
         <h4>Switch Button  &nbsp;&nbsp; <code>-002</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage-01.png" alt="FIXME">
@@ -94,7 +102,7 @@ nav_order: 140
 
 #### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 {% include options-table.html %}
 

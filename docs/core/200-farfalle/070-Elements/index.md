@@ -11,7 +11,7 @@ nav_order: 70
 
 # Elements
 
-## Collection
+## Examples
 
 
 <table class="tableOfPreviews">

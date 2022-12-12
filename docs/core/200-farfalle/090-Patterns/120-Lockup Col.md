@@ -50,9 +50,9 @@ nav_order: 120
   </tbody>
 </table>
 
-## Usage
+## Usage Examples
 
-<section class="flex-1_1-cols">
+<section class="flex-1_1-cols usage_examples">
   <div>
     <h4>
       TITLE

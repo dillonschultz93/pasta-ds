@@ -30,6 +30,10 @@ nav_order: 130
 <!-- - TOC
 {:toc} -->
 
+## Variants and Options
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+
 <table>
   <!-- <caption>my caption</caption> -->
   <thead>
@@ -63,13 +67,11 @@ nav_order: 130
   </tbody>
 </table>
 
-### Options
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_02.png){: .darkenabled}
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
+## Usage Examples
 
-## Usage
-
-<section class="flex-1_1-cols">
+<section class="flex-1_1-cols  usage_examples">
     <div>
         <h4>Primary  &nbsp;&nbsp; <code>-002</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_01.png" alt="FIXME">
@@ -159,7 +161,7 @@ nav_order: 130
 
 ### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_02.png){: .darkenabled}
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_02.png){: .darkenabled}
 
 {% include options-table.html %}
 

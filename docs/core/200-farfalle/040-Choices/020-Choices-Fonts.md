@@ -1,8 +1,8 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code  (✨ CHANGE ME ✨ )
-title: Typography # title case (⚠️ DO NOT TOUCH ME ⚠️ )
-permalink: farfalle/choices/typography # lowercase + use hyphens › https://tinyurl.com/27kmc4rb (✨ CHANGE ME ✨ )
+title: Fonts # title case (⚠️ DO NOT TOUCH ME ⚠️ )
+permalink: farfalle/choices/fonts # lowercase + use hyphens › https://tinyurl.com/27kmc4rb (✨ CHANGE ME ✨ )
 grand_parent: Farfalle # title case (✨ CHANGE ME ✨ )
 parent: Choices # title case (⚠️ DO NOT TOUCH ME ⚠️ )
 layout: default
@@ -26,7 +26,7 @@ nav_order: 20
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
 <script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
 
-# Typography
+# Fonts
 {: .no_toc}
 
 - TOC

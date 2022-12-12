@@ -13,6 +13,9 @@ nav_order: 110
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+COPY
+{: .label.red}
+
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
   <label for="tab_name_01" class="fatTab">Usage</label>
@@ -22,13 +25,19 @@ nav_order: 110
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+  A thumbnail is a miniature version of a larger picture. The thumbnail can illustrate anything graphical: a picture, a person (avatar), a device.
 </p>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
 <!-- - TOC
 {:toc} -->
+
+
+## Variants and Options
+
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 <table>
   <!-- <caption>my caption</caption> -->
@@ -53,9 +62,9 @@ nav_order: 110
   </tbody>
 </table>
 
-## Usage
+## Usage Examples
 
-<section class="flex-1_1-cols">
+<section class="flex-1_1-cols  usage_examples">
   <div>
     <h4>
       default
@@ -63,9 +72,8 @@ nav_order: 110
     </h4>
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
     <p>
-      ↑ Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus.
+      Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus.
     </p>
-    <!-- FIXME: Add content here -->
   </div>
   <div>
     <h4>
@@ -74,12 +82,25 @@ nav_order: 110
     </h4>
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png">
     <p>
-      ↑ Using the rounded option applies a rounded treatment to an image. In this case, a profile picture.
+      Using the rounded option applies a rounded treatment to an image. In this case, a profile picture.
     </p>
   </div>
 </section>
 
-<!-- FIXME: FILL THIS OUT WITH ASSETS -->
+<section class="flex-1_1-cols">
+  <div>
+    <h4>
+      default
+      <code>default</code>
+    </h4>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_03.png">
+    <p>
+      Thumbnails can embed an image with a transparent background. Here inside a 
+    </p>
+  </div>
+  <div></div>
+</section>
+
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -96,17 +117,13 @@ nav_order: 110
 
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-layout_01.png)
 
-### Dependencies
-
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_dependencies_01.png)
-
 ## Decisions
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_decisions_01.png)
 
 #### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 {% include options-table.html %}
 
@@ -128,10 +145,10 @@ Please comply to and update the checklist below:
 | Design |
 | --- |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
-| <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
+
 
 | Accessiblity |
 | --- |
