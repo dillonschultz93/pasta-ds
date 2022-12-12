@@ -4,7 +4,7 @@ project_id: FFL # 3-letter code
 title: Cardlet # title case
 UID: P0002 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/cardlet # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/cardlet-P0002 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default

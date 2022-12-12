@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Toast # title case
 UID: P000B # ["P","E","F"] + Hexa code/index
-permalink: farfalle/patterns/toast # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/toast-P000B # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default

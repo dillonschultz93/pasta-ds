@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Flash Card # title case
 UID: P0007 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/patterns/flash-card # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/flash-card-P0007 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default

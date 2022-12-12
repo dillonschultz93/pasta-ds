@@ -1,23 +1,35 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Lockup Column # title case
-UID: P0003 # ["P","E","F"] + Hexa code/index
-variants: [] # all variants index
-permalink: farfalle/patterns/lockup-col-P0003 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-grand_parent: Farfalle # title case
-parent: Patterns # title case
+title: NewComponentTemplate # title case
+UID: X0000 # ["P","E","F"] + Hexa code/index
+permalink: farfalle/elements/X0000-NewComponentTemplate # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
+parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 120
+nav_order: 999
+nav_exclude: true
 ---
+
 
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+⚠️ BLUEPRINT
+{: .label.red}
+⚠️ MAINTAINER
+{: .label.red}
+⚠️ USAGE
+{: .label.red}
 ⚠️ COPY
 {: .label.red}
-⚠️ EXAMPLES
-{: .label.red}
+
+<br><br><br>
+
+UID: `X0000` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
+`Lorem` + `Lorem_ipsum_dolor_sit_amet`
+{: .co_new}
+
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -28,14 +40,44 @@ nav_order: 120
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+    Lorem_ipsum_dolor_sit_amet
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-preview_01.png){: .darkenabled}
+
+<!-- - TOC
+{:toc} -->
 
 
+## Variants and Options
 
-<table>
+<!-- IF TABES ARE REQUIRED -->
+
+<!-- <div class="tabs">
+  <input type="radio" name="variants" id="variant_UID1" checked="checked">
+  <label for="variant_UID1">Variant_UID1</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_01.png){: .darkenabled}
+Variant_Preview_#1
+  </div>
+  <input type="radio" name="variants" id="variant_UID2">
+  <label for="variant_UID2">Variant_UID2</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_02.png){: .darkenabled}
+Variant_Preview_#2
+  </div>
+  <input type="radio" name="variants" id="variant_UID3">
+  <label for="variant_UID3">Variant_UID3</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_03.png){: .darkenabled}
+Variant_Preview_#3
+  </div>  
+</div> -->
+
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+
+<table id="variants-options">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
@@ -46,11 +88,10 @@ nav_order: 120
   </thead>
   <tbody>
     <tr>
-      <td><code>default</code></td>
-      <td>default</td>
-      <td>Used as the default poster card component.</td>
-    </tr>
-
+      <td><code>-XXX</code></td>
+      <td>Lorem</td>
+      <td>Lorem_ipsum_dolor_sit_amet</td>
+    </tr>   
   </tbody>
 </table>
 
@@ -59,19 +100,28 @@ nav_order: 120
 <section class="flex-1_1-cols usage_examples">
   <div>
     <h4>
-      TITLE
-      <code>default</code>
+      Lorem
+      <code>-YYY</code>
     </h4>
-
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">   
     <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
     <p>
-      Lorem ipsum dolar set amet.
+      Lorem_ipsum_dolor_sit_amet
     </p>
   </div>
   <div>
+    <h4>
+      Lorem
+      <code>-YYY</code>
+    </h4>
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
+    <p>
+      Lorem_ipsum_dolor_sit_amet
+    </p>
   </div>
 </section>
+
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -81,16 +131,17 @@ nav_order: 120
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
-<!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
+
+<a href="figma_link" class="btn iconed figmaBadge">To Figma →<a>
+<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
 
 ### Layout
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-layout_01.png)
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-layout_01.png)
 
 ### Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-bp_dependencies_01.png)
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-bp_dependencies_01.png)
 
 {% include dependency-tree.html %}
 
@@ -98,7 +149,17 @@ nav_order: 120
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-bp_decisions_01.png)
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-bp_decisions_01.png)
+
+### Options
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+
+{% include options-table.html %}
+
+### Interaction
+
+{% include interaction-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">
@@ -111,6 +172,7 @@ nav_order: 120
 {% include element-header.html %}
 <!-- FIXME: remove unused variants -->
 
+
 ## Checklist
 
 Please comply to and update the checklist below:
@@ -118,10 +180,9 @@ Please comply to and update the checklist below:
 | Design |
 | --- |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
 | <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation |
 
 | Accessiblity |
 | --- |
