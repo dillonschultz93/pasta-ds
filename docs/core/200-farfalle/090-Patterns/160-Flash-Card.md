@@ -13,6 +13,10 @@ nav_order: 160
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+⚠️ COPY
+{: .label.red}
+⚠️ EXAMPLES
+{: .label.red}
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -28,8 +32,10 @@ nav_order: 160
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
 
-<!-- - TOC
-{:toc} -->
+
+## Variations and Options
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 <table>
   <!-- <caption>my caption</caption> -->
@@ -49,27 +55,30 @@ nav_order: 160
   </tbody>
 </table>
 
+
 ## Usage Examples
 
 <section class="flex-1_1-cols usage_examples">
   <div>
     <h4>
-      Text Only
-      <code>.OPT_textOnly</code>
+      Card Poster inside of carousel
+      <code>.OPT_inSlider</code>
     </h4>
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
     <p>
-      ↑ Lorem ipsum dolar set amet.
+      Lorem ipsum dolar set amet.
     </p>
   </div>
   <div>
     <h4>
-      Inside of Slider
-      <code>.OPT_inSlider</code>
+      Small Card Poster
+      <code>.OPT_small</code>
     </h4>
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png">
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">    
     <p>
-      ↑ Lorem ipsum dolar set amet.
+      Lorem ipsum dolar set amet.
     </p>
   </div>
 </section>
@@ -108,7 +117,7 @@ nav_order: 160
 
 #### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 {% include options-table.html %}
 

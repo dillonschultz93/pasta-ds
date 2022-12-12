@@ -14,6 +14,11 @@ nav_order: 120
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+⚠️ COPY
+{: .label.red}
+⚠️ EXAMPLES
+{: .label.red}
+
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
   <label for="tab_name_01" class="fatTab">Usage</label>
@@ -28,8 +33,7 @@ nav_order: 120
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
 
-<!-- - TOC
-{:toc} -->
+
 
 <table>
   <!-- <caption>my caption</caption> -->

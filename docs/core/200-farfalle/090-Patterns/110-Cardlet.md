@@ -14,6 +14,12 @@ nav_order: 110
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+⚠️ COPY
+{: .label.red}
+⚠️ INTERACTION
+{: .label.red}
+
+
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
   <label for="tab_name_01" class="fatTab">Usage</label>
@@ -28,8 +34,10 @@ nav_order: 110
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-preview_01.png){: .darkenabled}
 
-<!-- - TOC
-{:toc} -->
+## Variants and Options
+
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
 <table>
   <!-- <caption>my caption</caption> -->
@@ -105,9 +113,20 @@ nav_order: 110
 
 {% include instantiation-section.html %}
 
+
 ## Decisions
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_decisions_01.png)
+
+### Options
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+
+{% include options-table.html %}
+
+### Interaction
+
+{% include interaction-table.html %}
 
 
   </div>

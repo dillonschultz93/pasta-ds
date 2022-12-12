@@ -13,6 +13,18 @@ nav_order: 180
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+⚠️ BLUEPRINT
+{: .label.red}
+⚠️ MAINTAINER
+{: .label.red}
+⚠️ USAGE
+{: .label.red}
+⚠️ COPY
+{: .label.red}
+⚠️ PAGE LAYOUT
+{: .label.red}
+
+
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
   <label for="tab_name_01" class="fatTab">Usage</label>

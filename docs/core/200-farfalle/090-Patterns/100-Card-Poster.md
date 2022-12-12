@@ -14,6 +14,11 @@ nav_order: 100
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+⚠️ COPY
+{: .label.red}
+⚠️ EXAMPLES
+{: .label.red}
+
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
   <label for="tab_name_01" class="fatTab">Usage</label>
@@ -28,8 +33,27 @@ nav_order: 100
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
 
-<!-- - TOC
-{:toc} -->
+## Variants and Options
+
+<!-- IF TABS ARE REQUIRED -->
+
+<div class="tabs">
+  <input type="radio" name="variants-usage" id="default" checked="checked">
+  <label for="default">Default</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_01.png){: .darkenabled}
+  </div>
+  <input type="radio" name="variants-usage" id="OPT_inSlider">
+  <label for="OPT_inSlider">.OPT_inSlider</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_02.png){: .darkenabled}
+  </div>
+  <input type="radio" name="variants-usage" id="OPT_small">
+  <label for="OPT_small">.OPT_small</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_03.png){: .darkenabled}
+  </div>  
+</div>
 
 <table>
   <!-- <caption>my caption</caption> -->
@@ -118,7 +142,23 @@ nav_order: 100
 
 ### Options
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
+<div class="tabs">
+  <input type="radio" name="variants-specs" id="spec-default" checked="checked">
+  <label for="spec-default">Default</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_01.png){: .darkenabled}
+  </div>
+  <input type="radio" name="variants-specs" id="spec-OPT_inSlider">
+  <label for="spec-OPT_inSlider">.OPT_inSlider</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_02.png){: .darkenabled}
+  </div>
+  <input type="radio" name="variants-specs" id="spec-OPT_small">
+  <label for="spec-OPT_small">.OPT_small</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0001-preview_03.png){: .darkenabled}
+  </div>  
+</div>
 
 {% include options-table.html %}
 
