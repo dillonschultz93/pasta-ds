@@ -3,6 +3,7 @@
     "YPL.FFL.TKUI_D.E0002-001.BLK_main.width.value": "YPL.FFL.TKUI_C.percents.full.value",
     "YPL.FFL.TKUI_D.E0002-001.BLK_main.height.value": "YPL.FFL.TKUI_C.percents.full.value",
     "YPL.FFL.TKUI_D.E0002-001.BLK_main.radius.value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
+    "YPL.FFL.TKUI_D.E0002-001.BLK_main.bgFillMode.value": "YPL.CONST.backgroundSize.cover.value",
     "YPL.FFL.TKUI_D.E0002-001.OPT_circle.BLK_main.radius.value": "YPL.FFL.TKUI_C.corner.round.value"
   },
   "meta": {
@@ -27,6 +28,7 @@
       "YPL.FFL.TKUI_D.E0002-001.BLK_main.width.value": "YPL.FFL.TKUI_C.percents.full.value",
       "YPL.FFL.TKUI_D.E0002-001.BLK_main.height.value": "YPL.FFL.TKUI_C.percents.full.value",
       "YPL.FFL.TKUI_D.E0002-001.BLK_main.radius.value": "YPL.FFL.TKUI_C.sizes.micro.400.value",
+      "YPL.FFL.TKUI_D.E0002-001.BLK_main.bgFillMode.value": "YPL.CONST.backgroundSize.cover.value",
       "YPL.FFL.TKUI_D.E0002-001.OPT_circle.BLK_main.radius.value": "YPL.FFL.TKUI_C.corner.round.value"
     }
   },
