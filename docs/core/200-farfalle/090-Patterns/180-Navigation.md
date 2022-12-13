@@ -21,8 +21,6 @@ nav_order: 180
 {: .label.red}
 ⚠️ COPY
 {: .label.red}
-⚠️ PAGE LAYOUT
-{: .label.red}
 
 
 <div class="tabs">
@@ -34,15 +32,39 @@ nav_order: 180
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+    Lorem_ipsum_dolor_sit_amet
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
+![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
+<!-- ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 <!-- - TOC
 {:toc} -->
 
-<table>
+
+## Variants and Options
+
+<!-- IF TABES ARE REQUIRED -->
+
+<div class="tabs">
+  <input type="radio" name="variants" id="variant_UID1" checked="checked">
+  <label for="variant_UID1">Complex navigation</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-001-preview_01.png){: .darkenabled}
+  </div>
+  <input type="radio" name="variants" id="variant_UID2">
+  <label for="variant_UID2">Modal navigation</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-002-preview_01.png){: .darkenabled}
+  </div> 
+</div>
+
+
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
+<!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
+
+
+<table id="variants-options">
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
@@ -53,11 +75,15 @@ nav_order: 180
   </thead>
   <tbody>
     <tr>
-      <td><code>001</code></td>
-      <td>default</td>
-      <td>Used as the default poster card component.</td>
+      <td><code>-001</code></td>
+      <td>Complex navigation</td>
+      <td>Lorem_ipsum_dolor_sit_amet</td>
     </tr>
-
+    <tr>
+      <td><code>-002</code></td>
+      <td>Modal navigation</td>
+      <td>Lorem_ipsum_dolor_sit_amet</td>
+    </tr> 
   </tbody>
 </table>
 
@@ -66,19 +92,28 @@ nav_order: 180
 <section class="flex-1_1-cols usage_examples">
   <div>
     <h4>
-      TITLE
-      <code>default</code>
+      Lorem
+      <code>-YYY</code>
     </h4>
-
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">   
     <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
     <p>
-      Lorem ipsum dolar set amet.
+      Lorem_ipsum_dolor_sit_amet
     </p>
   </div>
   <div>
+    <h4>
+      Lorem
+      <code>-YYY</code>
+    </h4>
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
+    <p>
+      Lorem_ipsum_dolor_sit_amet
+    </p>
   </div>
 </section>
+
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -88,16 +123,25 @@ nav_order: 180
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
-<!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
+
+<a href="figma_link" class="btn iconed figmaBadge">To Figma →<a>
+<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
 
 ### Layout
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-layout_01.png)
+
+![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png)
+<!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
+
+
 
 ### Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-bp_dependencies_01.png)
+
+![Dependencies Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_dependencies_01.png)
+<!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
+
+
 
 {% include dependency-tree.html %}
 
@@ -105,7 +149,19 @@ nav_order: 180
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-bp_decisions_01.png)
+![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png)
+<!-- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
+
+
+
+### Options
+
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png)
+<!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
+
+
+{% include options-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">
@@ -118,6 +174,7 @@ nav_order: 180
 {% include element-header.html %}
 <!-- FIXME: remove unused variants -->
 
+
 ## Checklist
 
 Please comply to and update the checklist below:
@@ -125,10 +182,9 @@ Please comply to and update the checklist below:
 | Design |
 | --- |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
 | <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation |
 
 | Accessiblity |
 | --- |
