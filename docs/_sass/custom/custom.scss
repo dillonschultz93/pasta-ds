@@ -427,10 +427,28 @@ details[open] summary~* {
 img {
   border-radius: 8px;
   background-color: #fff;
-  border: 1px solid hsla(0, 0, 0, 0.1);
+  border: 1px solid #e5e5e5;
   margin: 2rem 0;
   // transform: translate3d(0,0,0);
 }
+.bgPattern_01 {
+  background-color: transparent;
+  background-image: url('../images/YPL-DOC-image_bg_pattern-light-01.png') !important;
+  background-position: 0 0;
+  background-repeat: repeat;
+  box-shadow: inset 28px 28px 0 0 #fff, inset -28px -28px 0 0 #fff;
+}
+.bgPattern_01.dark_mode {
+  background-color: transparent;
+  background-image: url('../images/YPL-DOC-image_bg_pattern-dark-01.png') !important;
+  background-position: 0 0;
+  background-repeat: repeat;
+  box-shadow: inset 28px 28px 0 0 #000, inset -28px -28px 0 0 #000;
+}
+
+
+
+
 p>img {
   margin: 0;
 }

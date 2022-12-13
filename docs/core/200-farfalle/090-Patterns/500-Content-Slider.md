@@ -1,14 +1,14 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: NewComponentTemplate # title case
-UID: X0000 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/X0000-NewComponentTemplate # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Content Slider # title case
+UID: P0010 # ["P","E","F"] + Hexa code/index
+permalink: farfalle/elements/content-slider-P0010 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 999
-nav_exclude: true
+nav_order: 500
+# nav_exclude: true
 ---
 
 
@@ -26,7 +26,7 @@ nav_exclude: true
 
 <br><br><br>
 
-UID: `X0000` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
+UID: `P0010` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
 `Lorem` + `Lorem_ipsum_dolor_sit_amet`
 {: .co_new}
 
@@ -43,7 +43,8 @@ UID: `X0000` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
     Lorem_ipsum_dolor_sit_amet
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-preview_01.png){: .darkenabled}
+<!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png"> -->
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
 
 <!-- - TOC
 {:toc} -->
@@ -57,25 +58,27 @@ UID: `X0000` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
   <input type="radio" name="variants" id="variant_UID1" checked="checked">
   <label for="variant_UID1">Variant_UID1</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-YYY-preview_01.png){: .darkenabled}
 Variant_Preview_#1
   </div>
   <input type="radio" name="variants" id="variant_UID2">
   <label for="variant_UID2">Variant_UID2</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-YYY-preview_02.png){: .darkenabled}
 Variant_Preview_#2
   </div>
   <input type="radio" name="variants" id="variant_UID3">
   <label for="variant_UID3">Variant_UID3</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-YYY-preview_03.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0010-YYY-preview_03.png){: .darkenabled}
 Variant_Preview_#3
   </div>  
 </div> -->
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
+![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+
 
 <table id="variants-options">
   <!-- <caption>my caption</caption> -->
@@ -137,11 +140,19 @@ Variant_Preview_#3
 
 ### Layout
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-layout_01.png)
+
+<!-- ![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png") -->
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+
+
 
 ### Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-bp_dependencies_01.png)
+
+<!-- ![Dependencies Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_dependencies_01.png) -->
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+
+
 
 {% include dependency-tree.html %}
 
@@ -149,11 +160,17 @@ Variant_Preview_#3
 
 ## Decisions
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-X0000-bp_decisions_01.png)
+<!-- ![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png) -->
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+
+
 
 ### Options
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png) -->
+![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+
 
 {% include options-table.html %}
 

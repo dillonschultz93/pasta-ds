@@ -46,12 +46,12 @@ nav_order: 180
   <input type="radio" name="variants" id="variant_UID1" checked="checked">
   <label for="variant_UID1">Complex navigation</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-001-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-001-preview_01.png){: .darkenabled .bgPattern_01}
   </div>
   <input type="radio" name="variants" id="variant_UID2">
   <label for="variant_UID2">Modal navigation</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-002-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{ page.UID }}-002-preview_01.png){: .darkenabled .bgPattern_01}
   </div> 
 </div>
 
