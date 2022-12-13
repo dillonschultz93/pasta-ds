@@ -13,10 +13,6 @@ nav_order: 180
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
-⚠️ BLUEPRINT
-{: .label.red}
-⚠️ MAINTAINER
-{: .label.red}
 ⚠️ USAGE
 {: .label.red}
 ⚠️ COPY
