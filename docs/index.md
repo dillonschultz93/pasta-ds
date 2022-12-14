@@ -39,7 +39,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
           c-18.9,26.7-26.2,51.6-17.5,59.3c1.9,1.7,4.6,2.6,8,2.6c5.6,0,12.8-2.3,21.1-6.8c14.5-7.8,30.5-21,45.1-37.4
           c16.9-19,28.2-36.9,33.6-53.4c3.1-9.8,5.2-19.6-0.7-25C180,66.4,177.3,65.6,173.8,65.6z"/>
       </svg>
-      learn more…
+      <!-- Go → -->
   </div>
 
   <div onclick="location.href='{{site.baseurl}}/farfalle/primitives/';" class="cta-card-black">
@@ -60,7 +60,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
         C148.7,118.3,137.7,107.2,124.1,107.2z M139.8,48.4c-7.1,0-12.8,5.7-12.8,12.8c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8
         C152.6,54.1,147,48.4,139.8,48.4z"/>
     </svg>
-      learn more…
+      <!-- Go → -->
   </div>
 
   <div onclick="location.href='{{site.baseurl}}/farfalle/elements/';" class="cta-card-black">
@@ -77,7 +77,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
             c-13.2,0-24-10.8-24-24s10.8-24,24-24c13.2,0,24,10.8,24,24S109.4,152,96.2,152z"/>
         </g>
       </svg>
-      learn more…
+      <!-- Go → -->
   </div>
 
 
@@ -103,7 +103,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
         <path d="M128.4,148.9H86.4c-2,0-3.5-1.6-3.5-3.5l0,0c0-2,1.6-3.5,3.5-3.5h42.1c2,0,3.5,1.6,3.5,3.5l0,0
           C132,147.3,130.4,148.9,128.4,148.9z"/>
       </svg>
-      learn more…      
+      <!-- Go →       -->
   </div>
   <div></div>  
   <div></div>

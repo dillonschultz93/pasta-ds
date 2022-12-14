@@ -433,10 +433,10 @@ img {
 }
 .bgPattern_01 {
   background-color: transparent;
-  background-image: url('../images/YPL-DOC-image_bg_pattern-light-01.png') !important;
+  background-image: url('../images/YPL-DOC-image_bg_pattern-light-02.png') !important;
   background-position: 0 0;
   background-repeat: repeat;
-  box-shadow: inset 28px 28px 0 0 #fff, inset -28px -28px 0 0 #fff;
+  box-shadow: inset 28px 28px 0 0 #fcfcfc, inset -28px -28px 0 0 #fcfcfc;
 }
 .bgPattern_01.dark_mode {
   background-color: transparent;
@@ -445,8 +445,6 @@ img {
   background-repeat: repeat;
   box-shadow: inset 28px 28px 0 0 #000, inset -28px -28px 0 0 #000;
 }
-
-
 
 
 p>img {
