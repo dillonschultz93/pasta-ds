@@ -1,23 +1,19 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Tabs # title case
-UID: P0013 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/tabs-P0013 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
-parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
+title: Sticky Action # title case
+UID: P0020 # ["P","E","F"] + Hexa code/index
+permalink: farfalle/patterns/sticky-action-P0020 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+grand_parent: Farfalle # title case
+parent: Patterns # title case
 layout: default
-nav_order: 180
-# nav_exclude: true
+nav_order: 340
 ---
-
 
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
 
-⚠️ MAINTAINER-BUILD-REQUIRED
-{: .label.red}
 ⚠️ USAGE
 {: .label.red}
 ⚠️ COPY
@@ -89,7 +85,7 @@ Variant_Preview_#3
     </tr>   
     <tr>
       <td><code>-002</code></td>
-      <td>No Description</td>
+      <td>Single Action</td>
       <td>Doesn't have a description</td>
     </tr>       
   </tbody>
@@ -168,10 +164,6 @@ Variant_Preview_#3
 
 
 {% include options-table.html %}
-
-### Interaction
-
-{% include interaction-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">
