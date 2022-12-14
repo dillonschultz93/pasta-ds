@@ -1,0 +1,105 @@
+{
+  "allTokens": {
+    "YPL.FFL.TKUI_D.P0013-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0013-001.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0013-001.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+    "YPL.FFL.TKUI_D.P0013-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+    "YPL.FFL.TKUI_D.P0013-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.border.color.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.borderBottom.width.i.value": "YPL.FFL.CONST.zero.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.borderBottom.width.hi.value": "YPL.FFL.sizes.nano.300.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.UID.value": "YPL.FFL.F0002-606",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.color.hi.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.UID.value": "YPL.FFL.F0002-607",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.marginBottom.value": "YPL.FFL.TKUI_C.spaces.m.value",
+    "YPL.FFL.TKUI_D.P0013-002.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0013-002.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+    "YPL.FFL.TKUI_D.P0013-002.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+    "YPL.FFL.TKUI_D.P0013-002.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+    "YPL.FFL.TKUI_D.P0013-002.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+    "YPL.FFL.TKUI_D.P0013-002.BLK_main.border.color.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+    "YPL.FFL.TKUI_D.P0013-002.BLK_main.borderBottom.width.i.value": "YPL.FFL.CONST.zero.value",
+    "YPL.FFL.TKUI_D.P0013-002.BLK_main.borderBottom.width.hi.value": "YPL.FFL.sizes.nano.300.value",
+    "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.UID.value": "YPL.FFL.F0002-606",
+    "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+    "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.color.hi.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+    "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value"
+  },
+  "meta": {
+    "name": "Tabs",
+    "UID": "P0013",
+    "description": "FIXME",
+    "ticketNumber": "53",
+    "ticketURL": "https://github.com/yummly/pasta/issues/53",
+    "ownerName": "Manuel Colom",
+    "ownerGitHubURL": "https://github.com/coolmanlume",
+    "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=4010%3A61268&t=aBvPDYunBbJaDrZk-11",
+    "variants": [
+      "001",
+      "002"
+    ],
+    "options": [],
+    "hasInteractionStates": true,
+    "dependencyTree": [
+      {
+        "name": "BLK_main",
+        "children": [
+          {
+            "name": "label",
+            "component": "FFL.F0002-606",
+            "type": "primitive",
+            "subType": "typography",
+            "instance": ".label",
+            "optional": false
+          },
+          {
+            "name": "description",
+            "component": "FFL.F0002-607",
+            "type": "primitive",
+            "subType": "typography",
+            "instance": ".description",
+            "optional": true
+          }
+        ]
+      }
+    ]
+  },
+  "variants": {
+    "001": {
+      "YPL.FFL.TKUI_D.P0013-001.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+      "YPL.FFL.TKUI_D.P0013-001.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+      "YPL.FFL.TKUI_D.P0013-001.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+      "YPL.FFL.TKUI_D.P0013-001.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+      "YPL.FFL.TKUI_D.P0013-001.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.border.color.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.borderBottom.width.i.value": "YPL.FFL.CONST.zero.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.borderBottom.width.hi.value": "YPL.FFL.sizes.nano.300.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.UID.value": "YPL.FFL.F0002-606",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.color.hi.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.UID.value": "YPL.FFL.F0002-607",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.marginBottom.value": "YPL.FFL.TKUI_C.spaces.m.value"
+    },
+    "002": {
+      "YPL.FFL.TKUI_D.P0013-002.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
+      "YPL.FFL.TKUI_D.P0013-002.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
+      "YPL.FFL.TKUI_D.P0013-002.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+      "YPL.FFL.TKUI_D.P0013-002.border.color.value": "YPL.FFL.TKUI_C.colors.gray.200.value",
+      "YPL.FFL.TKUI_D.P0013-002.borderBottom.width.value": "YPL.FFL.TKUI_A.borderWidths.xs.value",
+      "YPL.FFL.TKUI_D.P0013-002.BLK_main.border.color.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+      "YPL.FFL.TKUI_D.P0013-002.BLK_main.borderBottom.width.i.value": "YPL.FFL.CONST.zero.value",
+      "YPL.FFL.TKUI_D.P0013-002.BLK_main.borderBottom.width.hi.value": "YPL.FFL.sizes.nano.300.value",
+      "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.UID.value": "YPL.FFL.F0002-606",
+      "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.color.i.value": "YPL.FFL.TKUI_C.colors.gray.900.value",
+      "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.color.hi.value": "YPL.FFL.TKUI_C.colors.teal.400.value",
+      "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value"
+    }
+  },
+  "options": null,
+  "breakpoints": null
+}
