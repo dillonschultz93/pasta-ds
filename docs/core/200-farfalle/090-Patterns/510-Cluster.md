@@ -1,26 +1,20 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Tabs # title case
-UID: P0013 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/tabs-P0013 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Cluster # title case
+UID: P0012 # ["P","E","F"] + Hexa code/index
+permalink: farfalle/elements/cluster-P0012 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 230
+nav_order: 510
+# nav_exclude: true
 ---
 
 
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
-
-⚠️ 2 NEW TYPO STYLES REQUIRED
-{: .label.red}
-⚠️ USAGE
-{: .label.red}
-⚠️ COPY
-{: .label.red}
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -31,7 +25,7 @@ nav_order: 230
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Cluster are cloud of items, such as Chip, Tags, Label … etc. They can be constrained to 1 line (1 dimension) or several (2 dimension) and wrap to fit inside the viewport.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -41,7 +35,7 @@ nav_order: 230
 {:toc} -->
 
 
-## Variants and Options
+<!-- ## Variants and Options -->
 
 <!-- IF TABES ARE REQUIRED -->
 
@@ -49,30 +43,29 @@ nav_order: 230
   <input type="radio" name="variants" id="variant_UID1" checked="checked">
   <label for="variant_UID1">Variant_UID1</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0012-YYY-preview_01.png){: .darkenabled}
 Variant_Preview_#1
   </div>
   <input type="radio" name="variants" id="variant_UID2">
   <label for="variant_UID2">Variant_UID2</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0012-YYY-preview_02.png){: .darkenabled}
 Variant_Preview_#2
   </div>
   <input type="radio" name="variants" id="variant_UID3">
   <label for="variant_UID3">Variant_UID3</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_03.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0012-YYY-preview_03.png){: .darkenabled}
 Variant_Preview_#3
   </div>  
 </div> -->
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 
-<table id="variants-options">
-  <!-- <caption>my caption</caption> -->
+<!-- <table id="variants-options">
   <thead>
     <tr>
       <th>Variant</th>
@@ -82,42 +75,28 @@ Variant_Preview_#3
   </thead>
   <tbody>
     <tr>
-      <td><code>-001</code></td>
-      <td>Default</td>
-      <td>has a description</td>
+      <td><code>-XXX</code></td>
+      <td>Lorem</td>
+      <td>Lorem_ipsum_dolor_sit_amet</td>
     </tr>   
-    <tr>
-      <td><code>-002</code></td>
-      <td>No Description</td>
-      <td>Doesn't have a description</td>
-    </tr>       
   </tbody>
-</table>
+</table> -->
 
 ## Usage Examples
 
 <section class="flex-1_1-cols usage_examples">
   <div>
     <h4>
-      Lorem
-      <code>-YYY</code>
+      Chip Cluster
+      <code>-001</code>
     </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_001_01.png">
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png"> -->
     <p>
-      Lorem_ipsum_dolor_sit_amet
+      This is a one dimension Chip Cluster used as interstitial "tags". The cluster is embedded inside a Content Slider.
     </p>
   </div>
   <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
   </div>
 </section>
 
@@ -134,21 +113,15 @@ Variant_Preview_#3
 <a href="figma_link" class="btn iconed figmaBadge">To Figma →<a>
 <!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
 
-### Layout
+<!-- ### Layout -->
 
-
-![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png)
+<!-- ![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png) -->
 <!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
-
-
 
 ### Dependencies
 
-
 ![Dependencies Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_dependencies_01.png)
 <!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
-
-
 
 {% include dependency-tree.html %}
 
@@ -159,18 +132,13 @@ Variant_Preview_#3
 ![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png)
 <!-- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-### Options
+<!-- ### Options -->
 
-
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png) -->
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
+<!-- {% include options-table.html %} -->
 
-{% include options-table.html %}
-
-### Interaction
-
-{% include interaction-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">
@@ -192,7 +160,7 @@ Please comply to and update the checklist below:
 | --- |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
 | <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
-| <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
 
 | Accessiblity |
