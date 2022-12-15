@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Cluster # title case
 UID: P0012 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/cluster-P0012 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/cluster-P0012 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
@@ -109,8 +109,7 @@ Variant_Preview_#3
 <!-- ================= -->
 
 
-<a href="figma_link" class="btn iconed figmaBadge">To Figma →<a>
-<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
+<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
 
 <!-- ### Layout -->
 
