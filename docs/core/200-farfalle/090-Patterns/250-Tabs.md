@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: Tabs # title case
 UID: P0013 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/tabs-P0013 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/tabs-P0013 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
@@ -84,13 +84,18 @@ Variant_Preview_#3
     <tr>
       <td><code>-001</code></td>
       <td>Default</td>
-      <td>has a description</td>
+      <td>Has a description</td>
     </tr>   
+    <tr>
+      <td><code>-001.OPT_descriptionOff</code></td>
+      <td>Hidden Description</td>
+      <td>Doesn't show the description</td>
+    </tr>    
     <tr>
       <td><code>-002</code></td>
       <td>No Description</td>
       <td>Doesn't have a description</td>
-    </tr>       
+    </tr>           
   </tbody>
 </table>
 
