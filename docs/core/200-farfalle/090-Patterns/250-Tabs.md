@@ -7,7 +7,7 @@ permalink: farfalle/elements/tabs-P0013 # lowercase + use hyphens › https://t
 grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 230
+nav_order: 250
 ---
 
 
