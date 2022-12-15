@@ -15,6 +15,8 @@
     "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.UID.value": "YPL.FFL.F0002-607",
     "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
     "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.marginBottom.value": "YPL.FFL.TKUI_C.spaces.m.value",
+    "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.opacity.value": "YPL.FFL.TKUI_C.opacities.full.value",
+    "YPL.FFL.TKUI_D.P0013-001.OPT_descriptionOff.BLK_main.description.opacity.value": "YPL.FFL.TKUI_C.opacities.none.value",
     "YPL.FFL.TKUI_D.P0013-002.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
     "YPL.FFL.TKUI_D.P0013-002.paddingLeft.value": "YPL.FFL.TKUI_C.spaces.l.value",
     "YPL.FFL.TKUI_D.P0013-002.paddingRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
@@ -83,7 +85,9 @@
       "YPL.FFL.TKUI_D.P0013-001.BLK_main.label.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value",
       "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.UID.value": "YPL.FFL.F0002-607",
       "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.color.value": "YPL.FFL.TKUI_C.colors.gray.500.value",
-      "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.marginBottom.value": "YPL.FFL.TKUI_C.spaces.m.value"
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.marginBottom.value": "YPL.FFL.TKUI_C.spaces.m.value",
+      "YPL.FFL.TKUI_D.P0013-001.BLK_main.description.opacity.value": "YPL.FFL.TKUI_C.opacities.full.value",
+      "YPL.FFL.TKUI_D.P0013-001.OPT_descriptionOff.BLK_main.description.opacity.value": "YPL.FFL.TKUI_C.opacities.none.value"
     },
     "002": {
       "YPL.FFL.TKUI_D.P0013-002.paddingTop.value": "YPL.FFL.TKUI_C.spaces.l.value",
@@ -100,6 +104,10 @@
       "YPL.FFL.TKUI_D.P0013-002.BLK_main.label.marginBottom.value": "YPL.FFL.TKUI_C.spaces.s.value"
     }
   },
-  "options": null,
+  "options": {
+    "OPT_descriptionOff": {
+      "YPL.FFL.TKUI_D.P0013-001.OPT_descriptionOff.BLK_main.description.opacity.value": "YPL.FFL.TKUI_C.opacities.none.value"
+    }
+  },
   "breakpoints": null
 }
