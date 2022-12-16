@@ -31,7 +31,7 @@ COPY
   {{site.data[page.project_id][page.UID].meta.description}}
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled .dotted_bg}
 
 ## Variations and Options
 

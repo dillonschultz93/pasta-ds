@@ -53,6 +53,11 @@ COPY
       <td>Used as a way to toggle between boolean states.</td>
     </tr>
     <tr>
+      <td><code>-003</code></td>
+      <td>Icon</td>
+      <td>Used when just an icon is required</td>
+    </tr>  
+    <tr>
       <td><code>-004</code></td>
       <td>Checkbox</td>
       <td>Used as a user action to select items in a list.</td>

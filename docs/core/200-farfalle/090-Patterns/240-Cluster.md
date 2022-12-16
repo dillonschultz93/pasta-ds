@@ -36,7 +36,7 @@ nav_order: 240
 
 <!-- ## Variants and Options -->
 
-<!-- IF TABES ARE REQUIRED -->
+<!-- IF TABS ARE REQUIRED -->
 
 <!-- <div class="tabs">
   <input type="radio" name="variants" id="variant_UID1" checked="checked">

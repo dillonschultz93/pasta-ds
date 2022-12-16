@@ -431,14 +431,15 @@ img {
   margin: 2rem 0;
   // transform: translate3d(0,0,0);
 }
-.bgPattern_01 {
+.dotted_bg {
   background-color: transparent;
-  background-image: url('../images/YPL-DOC-image_bg_pattern-light-02.png') !important;
+  background-image: url('../images/YPL-DOC-image_bg_pattern-light-03.png') !important;
   background-position: 0 0;
   background-repeat: repeat;
-  box-shadow: inset 28px 28px 0 0 #fcfcfc, inset -28px -28px 0 0 #fcfcfc;
+  box-shadow: inset 28px 28px 0 0 #f7f7f7, inset -28px -28px 0 0 #f7f7f7;
+  border: 1px solid #f4f4f4;
 }
-.bgPattern_01.dark_mode {
+.dotted_bg.dark_mode {
   background-color: transparent;
   background-image: url('../images/YPL-DOC-image_bg_pattern-dark-01.png') !important;
   background-position: 0 0;
@@ -535,8 +536,9 @@ div.highlighter-rouge pre.highlight {
 
 h1 .language-plaintext {
   display: inline-block;
-  vertical-align: text-top;
-  font-size: 18px;
+  margin-top: 6pt;
+  vertical-align: top;
+  font-size: 16px;
   color: hsla(0, 0, 0, 0.7);
   letter-spacing: -1px;
   padding: 0px 8px;
