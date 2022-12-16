@@ -42,29 +42,26 @@ nav_order: 260
 
 <!-- IF TABES ARE REQUIRED -->
 
-<!-- <div class="tabs">
-  <input type="radio" name="variants" id="variant_UID1" checked="checked">
-  <label for="variant_UID1">Variant_UID1</label>
+<div class="tabs">
+  <input type="radio" name="variants" id="001" checked="checked">
+  <label for="001">001 · Default</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_01.png){: .darkenabled}
-Variant_Preview_#1
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-variations_01.png){: .darkenabled .bgPattern_01}
   </div>
-  <input type="radio" name="variants" id="variant_UID2">
-  <label for="variant_UID2">Variant_UID2</label>
+  <input type="radio" name="variants" id="Android-001">
+  <label for="Android-001">001 · Pantry</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_02.png){: .darkenabled}
-Variant_Preview_#2
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-variations_02.png){: .darkenabled .bgPattern_01}
   </div>
-  <input type="radio" name="variants" id="variant_UID3">
-  <label for="variant_UID3">Variant_UID3</label>
+  <input type="radio" name="variants" id="002">
+  <label for="002">002</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_03.png){: .darkenabled}
-Variant_Preview_#3
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-variations_03.png){: .darkenabled .bgPattern_01}
   </div>  
-</div> -->
+</div>
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled .bgPattern_01}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled .bgPattern_01} -->
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 
@@ -79,23 +76,18 @@ Variant_Preview_#3
   </thead>
   <tbody>
     <tr>
-      <td><code>-001</code></td>
+      <td><code>-001</code><code>-001.OPT_01</code></td>
       <td>Default</td>
       <td>Lorem ipsum dolar sit amet.</td>
     </tr>   
     <tr>
-      <td><code>-001.OPT_001</code></td>
+      <td><code>-001.OPT_P</code><code>-001.OPT_S</code></td>
       <td>Show ingredients in pantry</td>
       <td>Lorem ipsum dolar sit amet.</td>
     </tr>
     <tr>
-      <td><code>-001.OPT_002</code></td>
-      <td>Show ingredient description</td>
-      <td>Lorem ipsum dolar sit amet.</td>
-    </tr>
-    <tr>
-      <td><code>-001.OPT_003</code></td>
-      <td>Show low ingredient warning</td>
+      <td><code>-001.OPT_01_P</code><code>-001.OPT_01_S</code></td>
+      <td>Show ingredients in pantry with a description</td>
       <td>Lorem ipsum dolar sit amet.</td>
     </tr>
     <tr>
@@ -174,7 +166,7 @@ Variant_Preview_#3
 ### Options
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled .bgPattern_01}
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_02.png){: .darkenabled .bgPattern_01}
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 
