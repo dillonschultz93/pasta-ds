@@ -27,6 +27,8 @@ nav_order: 130
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
+{% include predictionary-source.html %}
+
 <!-- - TOC
 {:toc} -->
 
