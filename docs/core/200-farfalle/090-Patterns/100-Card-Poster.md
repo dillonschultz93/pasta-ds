@@ -138,6 +138,8 @@ nav_order: 100
 
 ## Decisions
 
+{% include predictionary-source.html %}
+
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-bp_decisions_01.png)
 
 ### Options

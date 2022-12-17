@@ -116,7 +116,6 @@ nav_order: 100
 <!-- ================= -->
 
 
-
 <a href="https://www.figma.com/file/ObprVaht5ejRnbld7KFRn5/%F0%9F%94%92-Commit-Vault?node-id=711%3A8693&viewport=182%2C349%2C0.1&t=2vzOHkD53OzIDIgG-11" class="btn iconed figmaBadge">To Figma →<a>
 
 
@@ -136,6 +135,10 @@ nav_order: 100
 {% include instantiation-section.html %}
 
 ## Decisions
+
+{% include predictionary-source.html %}
+
+{% include predictionary-source.html %}
 
 ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_decisions_01.png)
 

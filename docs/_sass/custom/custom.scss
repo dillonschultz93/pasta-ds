@@ -2270,3 +2270,21 @@ input[type="radio"]:checked+label.fatTab {
   background-color: transparent;
   border: 1px solid rgba(0,0,0,0.5);
 }
+
+// FIXME: HACK ↓ to force Rouge to use linbreaks + tabs 
+
+span.s2 + span.p::after {
+  content: "\a";
+  white-space: pre;
+}
+span.p:first-child::after {
+  content: "\a";
+  white-space: pre;
+}
+span.p:last-child::before {
+  content: "\a";
+  white-space: pre;
+}
+span.nl::before {
+  content: "\2003";
+}
