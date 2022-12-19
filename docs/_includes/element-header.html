@@ -1,11 +1,13 @@
-<table class="headTopBorder">
+<table class="headTopBorder statusTable">
     <thead>
       <tr>
         <th>UID</th>
         <th>Ticket</th>
         <th>Owner</th>
         <th>Options</th>
-        <th>Tokens</th>
+        <!-- 
+          <th>Tokens</th> 
+        -->
         <th>Status</th>
       </tr>
     </thead>
@@ -25,12 +27,16 @@
             <code>N/A</code>
           {% endif %}
         </td>
-        <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
+        <!-- 
+          <td>
+            <a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a>
+          </td> 
+        -->
         <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
       </tr>
       {% if site.data[page.project_id][page.UID].meta.variants %}
       <tr>
-        <td colspan="6" class="pageHeaderVariantsRow">
+        <td colspan="5" class="pageHeaderVariantsRow">
           {% for variant in site.data[page.project_id][page.UID].meta.variants %}
           <a href="#{{page.UID}}-{{variant}}">
             <code>

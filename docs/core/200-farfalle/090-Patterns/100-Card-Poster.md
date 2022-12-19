@@ -11,13 +11,19 @@ layout: default
 nav_order: 100
 ---
 
-# {{ page.title }} `{{ page.UID }}`
-{: .no_toc}
-
+<div class="maintenance-tags" markdown=1>
 ⚠️ COPY
 {: .label.red}
 ⚠️ EXAMPLES
 {: .label.red}
+</div>
+
+# {{ page.title }} `{{ page.UID }}`
+{: .no_toc}
+
+<div class="figma-refs">
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a>
+</div>
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -118,12 +124,6 @@ nav_order: 100
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-
-
-<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1463%3A42258&viewport=181%2C323%2C0.19&t=iisP1QxpL9jTxYX6-11">To Figma →<a>
-<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
-<!-- FIXME ↑  -->
-
 ### Layout
 
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-layout_01.png)
@@ -177,7 +177,7 @@ nav_order: 100
 <!-- ================= -->
 
 {% include element-header.html %}
-<!-- FIXME: remove unused variants -->
+
 
 ## Checklist
 

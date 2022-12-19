@@ -1,20 +1,20 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Cardlet # title case
-UID: P0002 # ["P","E","F"] + Hexa code/index
-variants: [] # all variants index
-permalink: farfalle/patterns/cardlet-P0002 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
-grand_parent: Farfalle # title case
-parent: Patterns # title case
+title: Rating Widget # title case
+UID: P001D # ["P","E","F"] + Hexa code/index
+permalink: farfalle/elements/rating-widget-P001D # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
+parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 110
+nav_order: 230
+# nav_exclude: true
 ---
 
 <div class="maintenance-tags" markdown=1>
-⚠️ COPY
+⚠️ USAGE
 {: .label.red}
-⚠️ INTERACTION
+⚠️ COPY
 {: .label.red}
 </div>
 
@@ -34,18 +34,44 @@ nav_order: 110
 <!-- ================ -->
 
 <p>
-  Just like Cards, Cardlets are actionable Components used to navigate to a more detailed view of the item they represent, or lead to a more advanced set of actions. They are often represented as a stack or list and compete with each other, priming the user into picking one of them.
+    Lorem_ipsum_dolor_sit_amet
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-preview_01.png){: .darkenabled}
+![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
 
-## Variants and Options
+<!-- - TOC
+{:toc} -->
+
+<!-- ## Variants and Options -->
+
+<!-- IF TABS ARE REQUIRED -->
+
+<!-- <div class="tabs">
+  <input type="radio" name="variants" id="variant_UID1" checked="checked">
+  <label for="variant_UID1">Variant_UID1</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P001D-preview_01.png){: .darkenabled}
+Variant_Preview_#1
+  </div>
+  <input type="radio" name="variants" id="variant_UID2">
+  <label for="variant_UID2">Variant_UID2</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P001D-preview_02.png){: .darkenabled}
+Variant_Preview_#2
+  </div>
+  <input type="radio" name="variants" id="variant_UID3">
+  <label for="variant_UID3">Variant_UID3</label>
+  <div class="tab" markdown="1">
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P001D-preview_03.png){: .darkenabled}
+Variant_Preview_#3
+  </div>  
+</div> -->
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
+<!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-<table>
-  <!-- <caption>my caption</caption> -->
+<!-- <table id="variants-options">
   <thead>
     <tr>
       <th>Variant</th>
@@ -55,17 +81,12 @@ nav_order: 110
   </thead>
   <tbody>
     <tr>
-      <td><code>-001</code> <code>-002</code></td>
-      <td>Elevated</td>
-      <td>This elevated type can be use to convey advanced manipulation affordance: Swipe, Drag, Order, etc.</td>
+      <td><code>-XXX</code></td>
+      <td>Lorem</td>
+      <td>Lorem_ipsum_dolor_sit_amet</td>
     </tr>   
-    <tr>
-      <td><code>-010</code> <code>-011</code></td>
-      <td>Inlaid</td>
-      <td>These more static items only offer Tap/Click action to the user</td>
-    </tr>       
   </tbody>
-</table>
+</table> -->
 
 ## Usage Examples
 
@@ -73,24 +94,15 @@ nav_order: 110
   <div>
     <h4>
       Lorem
-      <code>AXXXX</code>
+      <code>-YYY</code>
     </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png"> -->
     <p>
-      Lorem ipsum dolar set amet.
+      Lorem_ipsum_dolor_sit_amet
     </p>
   </div>
   <div>
-    <h4>
-      Lorem
-      <code>AXXXX</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem ipsum dolar set amet.
-    </p>
   </div>
 </section>
 
@@ -103,34 +115,33 @@ nav_order: 110
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-### Layout
+<!-- ### Layout -->
 
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-layout_01.png)
+<!-- ![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png) -->
+<!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 ### Dependencies
 
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_dependencies_01.png)
+![Dependencies Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_dependencies_01.png)
+<!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 {% include dependency-tree.html %}
 
 {% include instantiation-section.html %}
 
-
 ## Decisions
 
 {% include predictionary-source.html %}
 
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_decisions_01.png)
+![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png)
+<!-- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-### Options
+<!-- ### Options -->
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png) -->
+<!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-{% include options-table.html %}
-
-### Interaction
-
-{% include interaction-table.html %}
+<!-- {% include options-table.html %} -->
 
 
   </div>
@@ -144,7 +155,6 @@ nav_order: 110
 {% include element-header.html %}
 <!-- FIXME: remove unused variants -->
 
-
 ## Checklist
 
 Please comply to and update the checklist below:
@@ -153,7 +163,7 @@ Please comply to and update the checklist below:
 | --- |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
 | <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
-| <input type="checkbox" data-status-category="design" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
+| <input type="checkbox" data-status-category="design" class="checklistItem"> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
 | <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
 
 | Accessiblity |
@@ -239,5 +249,4 @@ Please comply to and update the checklist below:
 | <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>CSS</strong><br>Component(s) have been implemented inside Web component library     |
 
   </div>  
-</div>  
-
+</div>

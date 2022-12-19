@@ -11,16 +11,21 @@ nav_order: 500
 # nav_exclude: true
 ---
 
-
-# {{ page.title }} `{{ page.UID }}`
-{: .no_toc}
-
+<div class="maintenance-tags" markdown=1>
 ⚠️ MAINTAINER
 {: .label.red}
 ⚠️ USAGE
 {: .label.red}
 ⚠️ COPY
 {: .label.red}
+</div>
+
+# {{ page.title }} `{{ page.UID }}`
+{: .no_toc}
+
+<div class="figma-refs">
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a>
+</div>
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -132,12 +137,7 @@ nav_order: 500
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-
-<!-- <a href="figma_link" class="btn iconed figmaBadge">To Figma →<a> -->
-<a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a>
-
 <!-- ### Layout -->
-
 
 <!-- ![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png") -->
 <!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->

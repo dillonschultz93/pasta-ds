@@ -1,6 +1,6 @@
 ---
 layout: default
-title: YPL
+title: Home
 nav_order: 1
 has_children: false
 ---
@@ -149,9 +149,6 @@ All designers and Front end devellopers are required to get familiar with Pasta 
       </svg>
   </div>
 </section>
-
-
-
 
 
 

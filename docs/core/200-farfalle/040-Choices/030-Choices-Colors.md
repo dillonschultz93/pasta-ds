@@ -12,10 +12,11 @@ nav_order: 30
 # Colors
 {: .no_toc}
 
-- TOC
-{:toc}
+<!-- - TOC
+{:toc} -->
 
 ## Primary pallette
+{: .no_toc}
 
 ### Teal
 

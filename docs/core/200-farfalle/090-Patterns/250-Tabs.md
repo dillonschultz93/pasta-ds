@@ -10,17 +10,21 @@ layout: default
 nav_order: 250
 ---
 
-
-# {{ page.title }} `{{ page.UID }}`
-{: .no_toc}
-
-
+<div class="maintenance-tags" markdown=1>
 ⚠️ 2 NEW TYPO STYLES REQUIRED
 {: .label.red}
 ⚠️ USAGE
 {: .label.red}
 ⚠️ COPY
 {: .label.red}
+</div>
+
+# {{ page.title }} `{{ page.UID }}`
+{: .no_toc}
+
+<div class="figma-refs">
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a>
+</div>
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -134,10 +138,6 @@ Variant_Preview_#3
 <!-- ================= -->
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
-
-
-<a href="figma_link" class="btn iconed figmaBadge">To Figma →<a>
-<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
 
 ### Layout
 

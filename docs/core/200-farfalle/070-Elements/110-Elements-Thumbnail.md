@@ -10,11 +10,18 @@ parent: Elements # title case
 layout: default
 nav_order: 110
 ---
+
+<div class="maintenance-tags" markdown=1>
+COPY
+{: .label.red}
+</div>
+
 # {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
-COPY
-{: .label.red}
+<div class="figma-refs">
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a>
+</div>
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -109,9 +116,6 @@ COPY
 <!-- ================= -->
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
-
-<a href="https://www.figma.com/file/ObprVaht5ejRnbld7KFRn5/%F0%9F%94%92-Commit-Vault?node-id=711%3A8411&viewport=-238%2C574%2C0.11&t=2vzOHkD53OzIDIgG-11" class="btn iconed figmaBadge">To Figma →<a>
-<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
 
 ### Layout
 

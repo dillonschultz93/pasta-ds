@@ -22,8 +22,8 @@ nav_order: 140
       <th>UID</th>
       <th>Ticket</th>
       <th>Owner</th>
-      <th>Options</th>
-      <th>{{ page.project_id }} Version</th>
+      <!-- <th>Options</th> -->
+      <!-- <th>{{ page.project_id }} Version</th> -->
       <th>Status</th>
     </tr>
   </thead>
@@ -32,13 +32,13 @@ nav_order: 140
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="#">TBD</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='N/A'><code>N/A</code></span></td>
-      <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td>
+      <!-- <td><span data-toolclip='N/A'><code>N/A</code></span></td> -->
+      <!-- <td><a href="https://github.com/yummly/pasta/releases">TBD</a></td> -->
       <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
-      <td colspan="6" class="pageHeaderVariantsRow">
+      <td colspan="4" class="pageHeaderVariantsRow">
         {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
       </td>
     </tr>

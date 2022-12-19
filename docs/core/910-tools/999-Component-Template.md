@@ -3,7 +3,7 @@ project_name: Farfalle # title case
 project_id: FFL # 3-letter code
 title: NewComponentTemplate # title case
 UID: X0000 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/elements/X0000-NewComponentTemplate # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/elements/NewComponentTemplate-X0000 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 # grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Tools # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
@@ -11,10 +11,7 @@ nav_order: 999
 nav_exclude: true
 ---
 
-
-# {{ page.title }} `{{ page.UID }}`
-{: .no_toc}
-
+<div class="maintenance-tags" markdown=1>
 ⚠️ BLUEPRINT
 {: .label.red}
 ⚠️ MAINTAINER
@@ -23,13 +20,19 @@ nav_exclude: true
 {: .label.red}
 ⚠️ COPY
 {: .label.red}
+</div>
 
-<br><br><br>
+# {{ page.title }} `{{ page.UID }}`
+{: .no_toc}
+
 
 UID: `X0000` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
 `Lorem` + `Lorem_ipsum_dolor_sit_amet`
 {: .co_new}
 
+<div class="figma-refs">
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a>
+</div>
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
@@ -43,7 +46,7 @@ UID: `X0000` · Variants: `-YYY` · Name/Title: `NewComponentTemplate`<br>
     Lorem_ipsum_dolor_sit_amet
 </p>
 
-![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png)
+![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
 <!-- ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 <!-- - TOC
@@ -134,10 +137,6 @@ Variant_Preview_#3
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-
-<a href="figma_link" class="btn iconed figmaBadge">To Figma →<a>
-<!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →<a> -->
-
 ### Layout
 
 
@@ -170,7 +169,7 @@ Variant_Preview_#3
 ### Options
 
 
-<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png) -->
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
 ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
 
 
