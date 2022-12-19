@@ -34,7 +34,7 @@ nav_order: 510
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Lists are continuous, vertical indexes of other elements and/or patterns.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_00.png){: .darkenabled}
@@ -120,7 +120,7 @@ nav_order: 510
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
     <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png"> -->
     <p>
-      Lorem_ipsum_dolor_sit_amet
+      Used to construct a list of actionable items, such as ingredients, steps, or actions.
     </p>
   </div>
   <div>

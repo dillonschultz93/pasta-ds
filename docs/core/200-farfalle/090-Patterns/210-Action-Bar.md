@@ -33,7 +33,7 @@ nav_order: 210
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Action bar displays key actions that sits at the top of a view/container.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -86,48 +86,22 @@ Variant_Preview_#3
     <tr>
       <td><code>default</code></td>
       <td>Default</td>
-      <td>has a description</td>
+      <td>Has a primary button as it's secondary action.</td>
     </tr>   
     <tr>
       <td><code>.OPT_withPositive</code></td>
       <td>Positive Button Variant</td>
-      <td>Doesn't have a description</td>
+      <td>Uses a select element as it's secondary action.</td>
     </tr>
     <tr>
       <td><code>.OPT_noSecondAction</code></td>
       <td>No secondary action</td>
-      <td>Doesn't have a description</td>
+      <td>Doesn't have a secondary action</td>
     </tr>     
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
-
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">

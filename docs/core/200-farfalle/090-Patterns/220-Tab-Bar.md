@@ -33,7 +33,7 @@ nav_order: 220
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Tab bar offers a persistent and convenient way to switch between primary destinations in an app.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -86,38 +86,12 @@ Variant_Preview_#3
     <tr>
       <td><code>-001</code></td>
       <td>Default</td>
-      <td>has a description</td>
+      <td>Used as a way for the user to navigate throughout the app.</td>
     </tr>   
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
-
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">

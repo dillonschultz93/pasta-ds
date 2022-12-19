@@ -35,7 +35,7 @@ nav_order: 200
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+  Toasts provide brief messages about app processes.
 </p>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
@@ -57,34 +57,17 @@ nav_order: 200
     <tr>
       <td><code>001</code></td>
       <td>Compact Toast</td>
-      <td>Lorem ipsum.</td>
+      <td>This nests the button inline with the text.</td>
     </tr>
     <tr>
       <td><code>002</code></td>
       <td>Bottom Button Toast</td>
-      <td>Lorem ipsum.</td>
+      <td>This places the button below the text.</td>
     </tr>
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      TITLE
-      <code>default</code>
-    </h4>
-
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">   
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <p>
-      Lorem ipsum dolar set amet.
-    </p>
-  </div>
-  <div>
-  </div>
-</section>
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">

@@ -33,7 +33,7 @@ nav_order: 180
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Navigation offers a persistent and convenient way to switch between primary destinations in an app.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -76,43 +76,17 @@ nav_order: 180
     <tr>
       <td><code>-001</code></td>
       <td>Complex navigation</td>
-      <td>Lorem_ipsum_dolor_sit_amet</td>
+      <td>Complex navigation offers a few options to provide top-level context for a user, such as a title and various amounts of action buttons.</td>
     </tr>
     <tr>
       <td><code>-002</code></td>
       <td>Modal navigation</td>
-      <td>Lorem_ipsum_dolor_sit_amet</td>
+      <td>A modal navigation is designed to assist the user in closing modal menus.</td>
     </tr> 
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
-
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">

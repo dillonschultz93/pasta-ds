@@ -35,7 +35,7 @@ nav_order: 250
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Tabs are used to organize content into separate views which are displayed one at a time.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -88,7 +88,7 @@ Variant_Preview_#3
     <tr>
       <td><code>-001</code></td>
       <td>Default</td>
-      <td>Has a description</td>
+      <td>Used to convey more information on the tab view with a description underneath the label.</td>
     </tr>   
     <tr>
       <td><code>-001.OPT_descriptionOff</code></td>
@@ -103,33 +103,7 @@ Variant_Preview_#3
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
-
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">

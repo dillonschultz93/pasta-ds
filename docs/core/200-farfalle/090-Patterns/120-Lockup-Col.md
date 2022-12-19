@@ -34,7 +34,7 @@ nav_order: 120
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+  Lockups combine multiple separate views into a single, interactive unit.
 </p>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
@@ -60,24 +60,7 @@ nav_order: 120
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      TITLE
-      <code>default</code>
-    </h4>
-
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">   
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <p>
-      Lorem ipsum dolar set amet.
-    </p>
-  </div>
-  <div>
-  </div>
-</section>
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">

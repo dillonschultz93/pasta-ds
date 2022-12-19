@@ -33,7 +33,7 @@ nav_order: 340
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Sticky Actions help people take primary actions that are also positioned at the bottom of the top-level view.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -86,42 +86,17 @@ Variant_Preview_#3
     <tr>
       <td><code>-001</code></td>
       <td>Default</td>
-      <td>has a description</td>
+      <td>Used to convey information alongside an action.</td>
     </tr>   
     <tr>
       <td><code>-002</code></td>
       <td>Single Action</td>
-      <td>Doesn't have a description</td>
+      <td>Used to position a single action.</td>
     </tr>       
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
+<!-- ## Usage Examples -->
 
   
   </div>

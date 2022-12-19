@@ -71,7 +71,7 @@ nav_order: 100
       <td><code>.OPT_teal</code></td>
       <td>Teal chip</td>
       <!-- FIXME: Add a description here -->
-      <td>Lorem ipsum</td>
+      <td>Used to convey interactive content.</td>
     </tr>
   </tbody>
 </table>

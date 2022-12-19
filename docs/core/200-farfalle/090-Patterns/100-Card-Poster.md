@@ -91,31 +91,8 @@ nav_order: 100
 
 ## Usage Examples
 
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Card Poster inside of carousel
-      <code>.OPT_inSlider</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem ipsum dolar set amet.
-    </p>
-  </div>
-  <div>
-    <h4>
-      Small Card Poster
-      <code>.OPT_small</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_02.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">    
-    <p>
-      Lorem ipsum dolar set amet.
-    </p>
-  </div>
-</section>
-  
+<!-- FIXME: I needed to delete this section instead of commenting out, because simply commenting out just messed up the layout. We need to look into this. -->
+
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
   <label for="tab_name_02" class="fatTab">Specs</label>

@@ -33,7 +33,7 @@ nav_order: 260
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  List items are used to display a single item in a list.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled .dotted_bg}
@@ -83,53 +83,27 @@ nav_order: 260
     <tr>
       <td><code>-001</code><code>-001.OPT_01</code></td>
       <td>Default</td>
-      <td>Lorem ipsum dolar sit amet.</td>
+      <td>Used as an item inside of an ingredient list. This also allows a user to add an item to their shopping list.</td>
     </tr>   
     <tr>
       <td><code>-001.OPT_P</code><code>-001.OPT_S</code></td>
-      <td>Show ingredients in pantry</td>
-      <td>Lorem ipsum dolar sit amet.</td>
+      <td>Similar in function to <code>-001</code>, this will show ingredients in pantry if the user has that feature enabled.</td>
+      <td>.</td>
     </tr>
     <tr>
       <td><code>-001.OPT_01_P</code><code>-001.OPT_01_S</code></td>
       <td>Show ingredients in pantry with a description</td>
-      <td>Lorem ipsum dolar sit amet.</td>
+      <td>Similar in function to <code>-001.OPT_01</code>, this will show ingredients in pantry if the user has that feature enabled.</td>
     </tr>
     <tr>
       <td><code>-002</code></td>
       <td>Step item</td>
-      <td>Lorem ipsum dolar sit amet.</td>
+      <td>Used as a simple numbered list.</td>
     </tr>  
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
-
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">

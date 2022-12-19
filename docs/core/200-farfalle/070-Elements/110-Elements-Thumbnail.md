@@ -79,7 +79,7 @@ COPY
     </h4>
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
     <p>
-      Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus.
+      The default style applies a rounded corner treatment to an image.
     </p>
   </div>
   <div>

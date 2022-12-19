@@ -31,7 +31,7 @@ COPY
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+  Switches toggle the state of a single item on or off.
 </p>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}

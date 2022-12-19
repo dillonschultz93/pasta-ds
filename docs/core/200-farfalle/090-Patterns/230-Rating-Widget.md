@@ -34,7 +34,7 @@ nav_order: 230
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Rating widget is an array of five star switches. Users can use this to rate an item within the app.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -93,13 +93,13 @@ Variant_Preview_#3
 <section class="flex-1_1-cols usage_examples">
   <div>
     <h4>
-      Lorem
-      <code>-YYY</code>
+      Rating Widget
+      <code>-001</code>
     </h4>
     <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
     <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png"> -->
     <p>
-      Lorem_ipsum_dolor_sit_amet
+      Used within the rating view to allow users to rate an item.
     </p>
   </div>
   <div>

@@ -34,7 +34,7 @@ COPY
 <!-- ================ -->
 
 <p>
-  {{site.data[page.project_id][page.UID].meta.description}}
+  Status conveys dynamic information, such as counts or status. A status can include labels or numbers.
 </p>
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled .dotted_bg}
@@ -79,14 +79,14 @@ COPY
         <h4>Chip  &nbsp;&nbsp; <code>-001</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_001_01.png" alt="FIXME">
         <p>
-          Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus. Sit mollitia sint ipsum minus necessitatibus nihil. Architecto tempora animi similique aperiam dolores voluptas vitae. Saepe vitae et omnis quia cupiditate reprehenderit eius. Quia suscipit et labore. Quaerat natus optio molestiae praesentium sed culpa velit quis voluptates quis. Nobis perspiciatis tenetur voluptas et et placeat rerum unde est inventore.
+          The <code>-001</code> variant can be used to convey device status by using a combination of text and iconography. This variant also has a set of three states: <code>success</code>, <code>warning</code>, <code>error</code>
         </p>        
     </div>
     <div>   
         <h4>Interstitial  &nbsp;&nbsp; <code>-002</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_01.png" alt="FIXME">
         <p>
-          Ex velit consectetur ut aut est autem sunt. Accusantium consectetur impedit modi quia cum voluptatem maiores non est tempora consequatur. Suscipit repellendus natus dolorem amet in quia dolores enim. Eum natus libero culpa et consequuntur sed delectus. Dolorem similique sequi aut.        
+          The <code>-002</code> variant is similar to the previous variant, however it's lack of container helps it to be embedded into other patterns.
         </p>        
     </div>
 </section>
@@ -96,7 +96,7 @@ COPY
         <h4>Interstitial Label &nbsp;&nbsp; <code>-002.OPT_text</code></h4>
         <img src="{{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-usage_002_02.png" alt="FIXME">
         <p>
-          Est dolor dignissimos minima saepe velit architecto id consequuntur autem ipsum repellendus. Sit mollitia sint ipsum minus necessitatibus nihil. Architecto tempora animi similique aperiam dolores voluptas vitae. Saepe vitae et omnis quia cupiditate reprehenderit eius. Quia suscipit et labore.         
+          <code>-002.OPT_text</code> is similar to <code>-002</code>, expect that this variant does not have states.
         </p>
     </div>
     <div>   

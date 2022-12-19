@@ -31,7 +31,7 @@ nav_order: 190
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+  Header offers a way to switch between primary destinations and or holds a primary action that the user can take.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -84,48 +84,22 @@ Variant_Preview_#3
     <tr>
       <td><code>-001</code></td>
       <td>Page Header</td>
-      <td>Lorem_ipsum_dolor_sit_amet</td>
+      <td>Used at the top of a view, this provides the user with a set of navigation functions and view information.</td>
     </tr>
     <tr>
       <td><code>-002</code></td>
       <td>Header with Switch</td>
-      <td>Lorem_ipsum_dolor_sit_amet</td>
+      <td>Used near the top of a view. This can be used to provide the user with a core action to take, such as adding a recipe to their collections.</td>
     </tr>
     <tr>
       <td><code>-003</code></td>
       <td>Header with text button</td>
-      <td>Lorem_ipsum_dolor_sit_amet</td>
+      <td>Similar to <code>-002</code>, This offers the user a core action to take.</td>
     </tr>  
   </tbody>
 </table>
 
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
-
+<!-- ## Usage Examples -->
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
