@@ -51,7 +51,7 @@
     "ticketURL": "https://github.com/yummly/pasta/issues/7",
     "ownerName": "Dillon",
     "ownerGitHubURL": "https://github.com/dillonschultz93",
-    "figmaLink": "https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=12%3A1694",
+    "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=12%3A1694&t=ZH74Tb4zn8jlla0t-1",
     "variants": [
       "001"
     ],
@@ -65,7 +65,7 @@
         "name": "gradient",
         "component": "FFL.F0004",
         "type": "primitive",
-        "subType": "gradients",
+        "subType": "gradient",
         "instance": ".gradient",
         "optional": false
       },
@@ -76,7 +76,7 @@
             "name": "chip",
             "component": "FFL.E0001",
             "type": "element",
-            "subType": "elements",
+            "subType": "chip",
             "instance": ".chip",
             "optional": false
           }
@@ -115,8 +115,8 @@
             "optional": false
           },
           {
-            "name": "switchButton",
-            "component": "FFL.E0004-002.OPT_white",
+            "name": "switch button",
+            "component": "FFL.E0004-002",
             "type": "element",
             "subType": "switch",
             "instance": ".switchButton",
