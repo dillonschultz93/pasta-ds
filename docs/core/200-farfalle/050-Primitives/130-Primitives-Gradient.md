@@ -54,7 +54,7 @@ nav_order: 130
 
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-F0004-preview_01.png)
 
-<a href="https://www.figma.com/file/le9hbXPWmA55qUA7a7otgH/Pasta-0.1.0?node-id=3643%3A49538" class="btn iconed figmaBadge">To Figma →</a>
+<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3643%3A49538&t=ZH74Tb4zn8jlla0t-1" class="btn iconed figmaBadge">To Figma →</a>
 
 
 ## Decisions
