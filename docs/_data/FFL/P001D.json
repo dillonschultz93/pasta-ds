@@ -1,0 +1,45 @@
+{
+  "allTokens": {
+    "YPL.FFL.TKUI_D.P001D-001.CHILDREN.UID.value": "YPL.FFL.E0004-003",
+    "YPL.FFL.TKUI_D.P001D-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+    "YPL.FFL.TKUI_D.P001D-001.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.none.value"
+  },
+  "meta": {
+    "name": "Tabs",
+    "UID": "P001D",
+    "description": "FIXME",
+    "ticketNumber": "72",
+    "ticketURL": "https://github.com/yummly/pasta/issues/72",
+    "ownerName": "Manuel Colom",
+    "ownerGitHubURL": "https://github.com/coolmanlume",
+    "figmaLink": "https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=5770%3A46787&t=ZH74Tb4zn8jlla0t-1",
+    "variants": [
+      "001"
+    ],
+    "options": [],
+    "hasInteractionStates": false,
+    "dependencyTree": [
+      {
+        "children": [
+          {
+            "name": "switch",
+            "component": "FFL.E0004-003",
+            "type": "element",
+            "subType": "switch",
+            "instance": ".CHILDREN",
+            "optional": false
+          }
+        ]
+      }
+    ]
+  },
+  "variants": {
+    "001": {
+      "YPL.FFL.TKUI_D.P001D-001.CHILDREN.UID.value": "YPL.FFL.E0004-003",
+      "YPL.FFL.TKUI_D.P001D-001.CHILDREN.marginRight.value": "YPL.FFL.TKUI_C.spaces.s.value",
+      "YPL.FFL.TKUI_D.P001D-001.CHILD_LAST.marginRight.value": "YPL.FFL.TKUI_C.spaces.none.value"
+    }
+  },
+  "options": null,
+  "breakpoints": null
+}

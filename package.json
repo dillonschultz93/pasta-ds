@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/yummly/pasta#readme",
   "devDependencies": {
-    "@yummly/pasta-dictionary": "0.4.20",
+    "@yummly/pasta-dictionary": "0.4.21",
     "parcel": "^2.7.0"
   }
 }
