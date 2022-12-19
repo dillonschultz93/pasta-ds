@@ -88,9 +88,9 @@
         "children": [
           {
             "name": "List Item",
-            "component": "FFL.E00P0015",
+            "component": "FFL.P0015",
             "type": "pattern",
-            "subType": "pattern",
+            "subType": "list-item",
             "instance": ".CHILDREN.BLK_item.item",
             "optional": false
           }
