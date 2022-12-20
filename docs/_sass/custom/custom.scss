@@ -413,6 +413,10 @@ details summary {
   // border-radius: 1.6rem;
   // padding: 0.8rem 1.2rem;
 }
+details summary::before {
+  display: inline;
+  content: "\00A0";
+}
 details summary>* {
   display: inline;
 }
