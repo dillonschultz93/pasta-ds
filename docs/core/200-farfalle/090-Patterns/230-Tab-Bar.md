@@ -1,13 +1,13 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Action Bar # title case
-UID: P000E # ["P","E","F"] + Hexa code/index
-permalink: farfalle/patterns/action-bar-P000E # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Tab Bar # title case
+UID: P000F # ["P","E","F"] + Hexa code/index
+permalink: farfalle/patterns/tab-bar-P000F # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
-nav_order: 210
+nav_order: 230
 ---
 
 <div class="maintenance-tags" markdown=1>
@@ -33,7 +33,7 @@ nav_order: 210
 <!-- ================ -->
 
 <p>
-  Action bar displays key actions that sits at the top of a view/container.
+  Tab bar offers a persistent and convenient way to switch between primary destinations in an app.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
@@ -69,7 +69,7 @@ Variant_Preview_#3
 </div> -->
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 
@@ -77,27 +77,17 @@ Variant_Preview_#3
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>Options</th>
+      <th>Variants</th>
       <th>Type</th>
       <th>usage</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code>default</code></td>
+      <td><code>-001</code></td>
       <td>Default</td>
-      <td>Has a primary button as it's secondary action.</td>
+      <td>Used as a way for the user to navigate throughout the app.</td>
     </tr>   
-    <tr>
-      <td><code>.OPT_withPositive</code></td>
-      <td>Positive Button Variant</td>
-      <td>Uses a select element as it's secondary action.</td>
-    </tr>
-    <tr>
-      <td><code>.OPT_noSecondAction</code></td>
-      <td>No secondary action</td>
-      <td>Doesn't have a secondary action</td>
-    </tr>     
   </tbody>
 </table>
 
@@ -138,14 +128,11 @@ Variant_Preview_#3
 ![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png)
 <!-- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-### Options
+<!-- ### Options -->
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
-
-
-{% include options-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">

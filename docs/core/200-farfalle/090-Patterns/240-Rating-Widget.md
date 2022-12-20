@@ -1,18 +1,17 @@
 ---
 project_name: Farfalle # title case
 project_id: FFL # 3-letter code
-title: Tabs # title case
-UID: P0013 # ["P","E","F"] + Hexa code/index
-permalink: farfalle/patterns/tabs-P0013 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+title: Rating Widget # title case
+UID: P001D # ["P","E","F"] + Hexa code/index
+permalink: farfalle/elements/rating-widget-P001D # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 250
+nav_order: 240
+# nav_exclude: true
 ---
 
 <div class="maintenance-tags" markdown=1>
-⚠️ 2 NEW TYPO STYLES REQUIRED
-{: .label.red}
 ⚠️ USAGE
 {: .label.red}
 ⚠️ COPY
@@ -35,17 +34,15 @@ nav_order: 250
 <!-- ================ -->
 
 <p>
-  Tabs are used to organize content into separate views which are displayed one at a time.
+  Rating widget is an array of five star switches. Users can use this to rate an item within the app.
 </p>
 
 ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled}
-<!-- ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 <!-- - TOC
 {:toc} -->
 
-
-## Variants and Options
+<!-- ## Variants and Options -->
 
 <!-- IF TABS ARE REQUIRED -->
 
@@ -53,30 +50,28 @@ nav_order: 250
   <input type="radio" name="variants" id="variant_UID1" checked="checked">
   <label for="variant_UID1">Variant_UID1</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P001D-preview_01.png){: .darkenabled}
 Variant_Preview_#1
   </div>
   <input type="radio" name="variants" id="variant_UID2">
   <label for="variant_UID2">Variant_UID2</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_02.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P001D-preview_02.png){: .darkenabled}
 Variant_Preview_#2
   </div>
   <input type="radio" name="variants" id="variant_UID3">
   <label for="variant_UID3">Variant_UID3</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0013-YYY-preview_03.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P001D-preview_03.png){: .darkenabled}
 Variant_Preview_#3
   </div>  
 </div> -->
 
 
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-
-<table id="variants-options">
-  <!-- <caption>my caption</caption> -->
+<!-- <table id="variants-options">
   <thead>
     <tr>
       <th>Variant</th>
@@ -86,24 +81,31 @@ Variant_Preview_#3
   </thead>
   <tbody>
     <tr>
-      <td><code>-001</code></td>
-      <td>Default</td>
-      <td>Used to convey more information on the tab view with a description underneath the label.</td>
+      <td><code>-XXX</code></td>
+      <td>Lorem</td>
+      <td>Lorem_ipsum_dolor_sit_amet</td>
     </tr>   
-    <tr>
-      <td><code>-001.OPT_descriptionOff</code></td>
-      <td>Hidden Description</td>
-      <td>Doesn't show the description</td>
-    </tr>    
-    <tr>
-      <td><code>-002</code></td>
-      <td>No Description</td>
-      <td>Doesn't have a description</td>
-    </tr>           
   </tbody>
-</table>
+</table> -->
 
-<!-- ## Usage Examples -->
+## Usage Examples
+
+<section class="flex-1_1-cols usage_examples">
+  <div>
+    <h4>
+      Rating Widget
+      <code>-001</code>
+    </h4>
+    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png">
+    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png"> -->
+    <p>
+      Used within the rating view to allow users to rate an item.
+    </p>
+  </div>
+  <div>
+  </div>
+</section>
+
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -113,21 +115,15 @@ Variant_Preview_#3
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-### Layout
+<!-- ### Layout -->
 
-
-![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png)
+<!-- ![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png) -->
 <!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
-
-
 
 ### Dependencies
 
-
 ![Dependencies Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_dependencies_01.png)
 <!-- ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
-
-
 
 {% include dependency-tree.html %}
 
@@ -140,18 +136,13 @@ Variant_Preview_#3
 ![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png)
 <!-- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-### Options
+<!-- ### Options -->
 
-
-![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png) -->
 <!-- ![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
+<!-- {% include options-table.html %} -->
 
-{% include options-table.html %}
-
-### Interaction
-
-{% include interaction-table.html %}
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">
@@ -163,7 +154,6 @@ Variant_Preview_#3
 
 {% include element-header.html %}
 <!-- FIXME: remove unused variants -->
-
 
 ## Checklist
 

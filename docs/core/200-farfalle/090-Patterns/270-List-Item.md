@@ -7,7 +7,7 @@ permalink: farfalle/patterns/list-item-P0015 # lowercase + use hyphens › http
 grand_parent: Farfalle # title case · ⚠️ ACTIVATE THIS
 parent: Patterns # title case — ["Elements","Patterns","Primitives","Choices"] 
 layout: default
-nav_order: 260
+nav_order: 270
 ---
 
 <div class="maintenance-tags" markdown=1>
