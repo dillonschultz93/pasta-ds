@@ -4,310 +4,215 @@ project_id: FFL # 3-letter code
 title: Cardlet # title case
 UID: P0002 # ["P","E","F"] + Hexa code/index
 variants: [] # all variants index
-permalink: farfalle/patterns/cardlet # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
+permalink: farfalle/patterns/cardlet-P0002 # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
 nav_order: 110
 ---
 
-<!-- Utility scripts -->
-<script defer src="{{ site.baseurl }}/assets/js/utilities/pasta-token-generation.js"></script>
-<!-- Inject Pasta Apparatus ad hoc script ↓ -->
-<script defer src="{{ site.baseurl }}/assets/js/apparatuses/index.js"></script>
-<script defer src="{{ site.baseurl }}/assets/js/apparatuses/page-script.js"></script>
+<div class="maintenance-tags" markdown=1>
+⚠️ COPY
+{: .label.red}
+⚠️ INTERACTION
+{: .label.red}
+</div>
 
-# Cardlet
+# {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
-Cardlets are a way to present several items of a same category. They're part of collections, lists, caroussels. They sometimes present advanced interaction (swipe, move, re-order… ).
+<div class="figma-refs">
+  <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a>
+</div>
 
-<table class="headTopBorder">
-  <thead>
-    <tr>
-      <th>UID</th>
-      <th>Ticket</th>
-      <th>Owner</th>
-      <th>Options</th>
-      <th>Tokens</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
-      <td><a href="https://github.com/yummly/pasta/issues/8">&#35;8</a></td>
-      <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip=''><code>NA</code></span></td>
-      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
-      <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
-    </tr>
-    {% if page.variants.size > 0 %}
-    <tr>
-      <td colspan="6" class="pageHeaderVariantsRow">
-        {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
-      </td>
-    </tr>
-    {% endif %}
-  </tbody>
-</table>
+<div class="tabs">
+  <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">
+  <label for="tab_name_01" class="fatTab">Usage</label>
+  <div class="tab" markdown="1">
+<!-- ================ -->
+<!-- ==== USAGE ===== -->
+<!-- ================ -->
+
+<p>
+  Just like Cards, Cardlets are actionable Components used to navigate to a more detailed view of the item they represent, or lead to a more advanced set of actions. They are often represented as a stack or list and compete with each other, priming the user into picking one of them.
+</p>
+
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-preview_01.png){: .darkenabled}
+
+## Variants and Options
 
 
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
 
-
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png){: .darkenabled}
-
-<a href="https://www.figma.com/file/KAOO6VWYzBV9Xz7kWJtFOG/?node-id=1475%3A36781" class="btn iconed figmaBadge">To Figma →</a>
-
-- TOC
-{:toc}
-
-
-## Layout
-
- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-layout_01.png)
-
-
-## Dependencies
-
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_dependencies_01.png)
-
-<details>
-<summary>Tree</summary>
- <section class="flex-1_2-cols">
-   <div>
-    <p>
-      Tree-view of all nested items. <code>(optional)</code> means that the item is not always used and displayed depending on the Component Options.
-    </p>
-   </div>
-   <div>
-     {% highlight txt %}
-          YPL.FFL.{{page.UID}}
-          ├─ .elevation
-          ├─ .BLK_copy
-          |   ├─ .title          
-          │   └─ .eyebrow
-          └─ .BLK_thumbnail
-              └─ .thumbnail (optional)
-     {% endhighlight %}
-   </div>
- </section>
-</details>
-
-<hr>
-
-### Links
-
-<section class="flex-1_2-cols">
-   <div>
-     <br>
-    <p>
-     This Pattern requires that you implement and instantiate all these dependencies.<br>
-     Please refer to each component in this list&nbsp;→
-     </p>
-   </div>
-   <div>
-     <table>
-       <thead>
-         <tr>
-           <th>Instance</th>
-           <th>Component</th>
-           <!-- <th>Type</th> -->
-           <th></th>
-         </tr>
-       </thead>
-        <tbody>
-        <tr>
-            <td>.elevation</td>
-            <td><span data-toolclip='"YPL.FFL.TKUI_D.P0002.elevation.value": "{YPL.FFL.F0005-001}"'><code>FFL.F0005-001</code></span></td>
-            <!-- <td>Element</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/elevation-F0005" alt="Link to Primitive page" class="btn">elevation →</a></td>
-         </tr>
-         <tr>
-            <td>.title</td>
-            <td><span data-toolclip='"YPL.FFL.TKUI_D.P0002.BLK_copy.title.style.value": "{YPL.FFL.F0002-008}"'><code>FFL.F0002-008</code></span></td>
-            <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-008" alt="Link to Primitive page" class="btn">title →</a></td>
-         </tr>
-         <tr>
-            <td>.eyebrow</td>
-            <td><span data-toolclip='"YPL.FFL.P0001.BLK_footer.eyebrow.style.value": "{YPL.FFL.F0002-401}"'><code>FFL.F0002-401</code></span></td>
-            <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/primitives/typography-F0002#F0002-401" alt="Link to Primitive page" class="btn">eyebrow →</a></td>
-         </tr>
-         <tr>
-            <td>.thumbnail</td>
-            <td><span data-toolclip='"YPL.FFL.TKUI_D.P0002.BLK_thumbnail.thumbnail.element.value": "{YPL.FFL.E0002}"'><code>FFL.E0002</code></span></td>
-            <!-- <td>Primitive</td> -->
-            <td><a href="{{site.baseurl}}/{{ page.project_name | downcase }}/elements/thumbnail-E0002" alt="Link to Element page" class="btn">thumbnail →</a></td>
-         </tr>
-        </tbody>
-     </table>
-   </div>
- </section>
- 
-## Decisions
-
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_decisions_01.png)
-
-### Variations
-
-#### Options
-
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_02.png){: .darkenabled}
-
-<table class="type-01 headerNoUpperCase colBordered headFramed">
+<table>
   <!-- <caption>my caption</caption> -->
   <thead>
     <tr>
-      <th>.OPT_notContained</th>
+      <th>Variant</th>
+      <th>Type</th>
+      <th>usage</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.bgColor.value": "{YPL.FFL.TKUI_C.colors.transparent.value}"'><code class="language-plaintext highlighter-rouge">.bgColor</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.title.color.value": "{YPL.FFL.TKUI_C.colors.teal.400.value}"'><code class="language-plaintext highlighter-rouge">.title.color</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.eyebrow.style.value": "{YPL.FFL.F0002-103}"'><code class="language-plaintext highlighter-rouge">.eyebrow.style</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.eyebrow.color.value": "{YPL.FFL.TKUI_C.colors.grey.900.value}"'><code class="language-plaintext highlighter-rouge">.eyebrow.color</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.marginRight.value": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.marginRight</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.fringeRight.value": "{YPL.FFL.TKUI_C.spaces.none.value}"'><code class="language-plaintext highlighter-rouge">.fringeRight</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.marginLeft.value": "{YPL.FFL.TKUI_C.spaces.s.value}"'><code class="language-plaintext highlighter-rouge">.marginLeft</code></span>
-        <span data-toolclip='"YPL.FFL.TKUI_D.P0002.OPT_notContained.BLK_copy.fringeLeft.value": "{YPL.FFL.TKUI_C.spaces.s.value}"'><code class="language-plaintext highlighter-rouge">.fringeLeft</code></span>
-      </td>
-    </tr>
+      <td><code>-001</code> <code>-002</code></td>
+      <td>Elevated</td>
+      <td>This elevated type can be use to convey advanced manipulation affordance: Swipe, Drag, Order, etc.</td>
+    </tr>   
+    <tr>
+      <td><code>-010</code> <code>-011</code></td>
+      <td>Inlaid</td>
+      <td>These more static items only offer Tap/Click action to the user</td>
+    </tr>       
   </tbody>
 </table>
 
-<!-- ### Interaction -->
+<!-- ## Usage Examples -->
 
-## Accessibility Status
+  
+  </div>
+  <input type="radio" name="tabs_section_name" id="tab_name_02">
+  <label for="tab_name_02" class="fatTab">Specs</label>
+  <div class="tab" markdown="1">
+<!-- ================= -->
+<!-- ==== SPECS ====== -->
+<!-- ================= -->
+
+### Layout
+
+![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-layout_01.png)
+
+### Dependencies
+
+![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_dependencies_01.png)
+
+{% include dependency-tree.html %}
+
+{% include instantiation-section.html %}
 
 
-<table class="Last3ThCentered">
-    <thead>
-      <tr>
-          <th>Criterion</th>
-          <th>Description</th>
-          <th>Pending</th>
-          <th>Done</th>
-          <th>N/A</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#text-alternatives">1.1.1</a></td>
-          <td>Text Alternatives</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1</a></td>
-          <td>Color not the only way to convey information</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3</a></td>
-          <td>Text Color Contrast</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6</a></td>
-          <td>Text Color Contrast AAA</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11</a></td>
-          <td>Fill Color Contrast</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4</a></td>
-          <td>200% Text Size</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing">1.4.12</a></td>
-          <td>Text Spacing</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A"></td>
-      </tr>
-      <tr>
-          <td><a href="https://www.w3.org/TR/WCAG21/#keyboard-no-exception">2.1.3</a></td>
-          <td>Keyboard Operable</td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="pending" checked></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="done"></td>
-          <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A"></td>
-      </tr>
-    </tbody>
-</table>
+## Decisions
 
+{% include predictionary-source.html %}
+
+![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0002-bp_decisions_01.png)
+
+### Options
+
+![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled}
+
+{% include options-table.html %}
+
+### Interaction
+
+{% include interaction-table.html %}
+
+
+  </div>
+  <input type="radio" name="tabs_section_name" id="tab_name_03">
+  <label for="tab_name_03" class="fatTab">Status</label>
+  <div class="tab" markdown="1">
+<!-- ================= -->
+<!-- ==== STATUS ===== -->
+<!-- ================= -->
+
+{% include element-header.html %}
+<!-- FIXME: remove unused variants -->
 
 
 ## Checklist
 
 Please comply to and update the checklist below:
 
-|Ops|
-|---|
-|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>|
-|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>|
-|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Figma Link(s)</strong>|
-|<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>|
-|<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
-{: .checklistTable}
+| Design |
+| --- |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Dark and Light Modes</strong><br>Works properly for both Modes |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc. |
+| <input type="checkbox" data-status-category="design" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations |
+| <input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
 
-|Design|
-|---|
-|<input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>Dark and Light Modes</strong><br>Works properly across both color Modes|
-|<input type="checkbox" data-status-category="design" class="checklistItem" checked><strong>All interactive states</strong><br>Includes all applicable interactive states: idle, over, pressed, focus, disabled, highlighted idle, highlighted disabled, etc.|
-|<input type="checkbox" data-status-category="design" class="checklistItem" checked> <strong>Document Variations</strong><br>Includes relevant options: variant, styles, sizes, orientations, optional iconography, decorations|
-|<input type="checkbox" data-status-category="design" class="checklistItem"><strong>All color Schemes</strong><br>Works properly across all color Schemes|
-{: .checklistTable}
+| Accessiblity |
+| --- |
+| <input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been met |
 
-|Design Constraints|
-|---|
-|<input type="checkbox" data-status-category="design" class="checklistItem"><strong>Breakpoints and platform scales</strong><br>Includes a desktop scale (web desktop) and a mobile scale (iOS, Android)|
-|<input type="checkbox" data-status-category="design" class="checklistItem"><strong>"Yield point" behaviors</strong><br>Includes guidelines for behaviors at maximum strain, often around text size: wrapping, truncation, overflow, animation|
-{: .checklistTable}
+<table class="Last3ThCentered">
+    <thead>
+    <tr>
+        <th>Criterion</th>
+        <th>Description</th>
+        <th>Pending</th>
+        <th>Done</th>
+        <th>N/A</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#text-alternatives">1.1.1</a></td>
+        <td>Text Alternatives</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1P" name="WCAG_1_1_1" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1D" name="WCAG_1_1_1" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_1_1N" name="WCAG_1_1_1" value="N/A"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#use-of-color">1.4.1</a></td>
+        <td>Color not the only way to convey information</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1P" name="WCAG_1_4_1" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1D" name="WCAG_1_4_1" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_1N" name="WCAG_1_4_1" value="N/A"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">1.4.3</a></td>
+        <td>Text Color Contrast</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3P" name="WCAG_1_4_3" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3D" name="WCAG_1_4_3" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_3N" name="WCAG_1_4_3" value="N/A"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6</a></td>
+        <td>Text Color Contrast AAA</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6P" name="WCAG_1_4_6" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6D" name="WCAG_1_4_6" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_6N" name="WCAG_1_4_6" value="N/A"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11</a></td>
+        <td>Fill Color Contrast</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11P" name="WCAG_1_4_11" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11D" name="WCAG_1_4_11" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_11N" name="WCAG_1_4_11" value="N/A"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#resize-text">1.4.4</a></td>
+        <td>200% Text Size</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4P" name="WCAG_1_4_4" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4D" name="WCAG_1_4_4" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_4N" name="WCAG_1_4_4" value="N/A"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#text-spacing">1.4.12</a></td>
+        <td>Text Spacing</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12P" name="WCAG_1_4_12" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12D" name="WCAG_1_4_12" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_1_4_12N" name="WCAG_1_4_12" value="N/A"></td>
+    </tr>
+    <tr>
+        <td><a href="https://www.w3.org/TR/WCAG21/#keyboard-no-exception">2.1.3</a></td>
+        <td>Keyboard Operable</td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3P" name="WCAG_2_1_3" value="pending" checked></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3D" name="WCAG_2_1_3" value="done"></td>
+        <td><input type="radio"  data-status-category="accessibility" id="WCAG_2_1_3N" name="WCAG_2_1_3" value="N/A"></td>
+    </tr>
+    </tbody>
+</table>
 
-|Content|
-|---|
-|<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Copy Writing guidelines</strong><br>Includes content standards or usage guidelines for how to write or format in-product content for the component|
-|<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Internationalization guidelines</strong><br>Works properly across various locales and includes guidelines for bi-directionality (RTL)|
-|<input type="checkbox" data-status-category="content" class="checklistItem"><strong>Accessiblity Content</strong><br>Accessibility content has been addressed (WCAG 1.1.1)|
-{: .checklistTable}
 
-|Accessiblity|
-|---|
-|<input type="checkbox" data-status-category="accessibility-global" class="checklistItem"><strong>Accessiblity</strong><br>All required accessiblity criteria have been addressed|
-{: .checklistTable}
+| Implementation |
+| --- |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested  |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library     |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library |
+| <input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>CSS</strong><br>Component(s) have been implemented inside Web component library     |
 
-|Tokens|
-|---|
-|<input type="checkbox" data-status-category="tokens" class="checklistItem" data-status-category="tokens" ><strong>Design tokens</strong><br>All Choices, all Decisions, thus all design attributes (color, typography, layout, animation, etc.) are available as design tokens for all plateforms|
-|<input type="checkbox" data-status-category="tokens" class="checklistItem"><strong>Tokens Reversibility</strong><br>The Artifact(s) UID has been injected inside all associated tokens (Choices)|
-{: .checklistTable}
+  </div>  
+</div>  
 
-|Implementation|
-|---|
-|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
-|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Pasta Project Release Version</strong><br>Pasta `YPL.{{ page.project_id }}` `0.1.0`|
-|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library|
-|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library|
-|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library|
-|<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Analytics Log Snippets</strong><br>The analytics log snippets have been implemented|
-{: .checklistTable}

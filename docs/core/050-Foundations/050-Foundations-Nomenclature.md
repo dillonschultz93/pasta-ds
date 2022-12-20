@@ -313,9 +313,6 @@ Ressources:
 <section class="flex-1_2-cols">
   <div>
     <h4 id="use-luminance-LCH-YCL">Use Luminance<br>(LCH / YCL)</h4>
-    <p>
-      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
-    </p>
   </div>
   <div>
     <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-011-indexingShadesYCL_LCH.png" alt="WIP">
@@ -327,9 +324,6 @@ Ressources:
 <section class="flex-1_2-cols">
   <div>
     <h4 id="dont-use-lightness-HSL-HSB">Don't use lightness or brightness<br>(HSL / HSB)</h4>
-    <p>
-      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
-    </p>
   </div>
   <div>
     <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-011-indexingShadesHSL.png" alt="WIP">
@@ -357,9 +351,6 @@ Ressources:
 <section class="flex-1_2-cols">
   <div>
     <h4 id="simple-case">Simple case</h4>
-    <p>
-      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
-    </p>
   </div>
   <div>
     <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-020-indexingAndNaming.png" alt="WIP">
@@ -369,9 +360,6 @@ Ressources:
 <section class="flex-1_2-cols">
   <div>
     <h4 id="complex-case">Complex case</h4>
-    <p>
-      WIP — Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis.
-    </p>
   </div>
   <div>
       <img src="{{site.baseurl}}/assets/images/YPL-DOC-colors-021-indexingAndNaming.png" alt="WIP">

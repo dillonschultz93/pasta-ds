@@ -10,7 +10,7 @@
 		<table>
 			<thead>
 				<tr>
-					<th>Instance</th>
+					<th>Selector</th>
 					<th>Component</th>
 					<th></th>
 				</tr>
@@ -19,6 +19,30 @@
         {% for block in site.data[page.project_id][page.UID].meta.dependencyTree %}
           {% if block.children.size >= 1 %}
             {% for item in block.children %}
+              {%- if item.children -%}
+                {% for subItem in item.children%}
+                <tr>
+                  <td>
+                    {{ subItem.instance }}
+                  </td>
+                  <td>
+                    <code>
+                      {{ subItem.component }}
+                    </code>
+                  </td>
+                  <td>
+                    {% assign splitKeys = subItem.component | split: '.' %}
+                    {% assign hasVariants = splitKeys[1] | split: '-' %}
+                    <a 
+                      href="{{ site.baseurl }}/{{ page.project_name | downcase }}/{% if subItem.type == 'primitive' %}primitives{% elsif subItem.type == 'element' %}elements{% else %}patterns{% endif %}/{{subItem.subType}}-{% if hasVariants.size >= 2 %}{{ hasVariants[0] }}#{{ splitKeys[1] }}{% else %}{{ splitKeys[1] }}{% endif %}"
+                      alt="Link to {{ subItem.name }} page"
+                      class="btn">
+                      {{ subItem.name | capitalize }} →
+                    </a>
+                  </td>
+                </tr>
+                {% endfor %}
+              {%- else -%}
               <tr>
                 <td>
                   {{ item.instance }}
@@ -32,13 +56,14 @@
                   {% assign splitKeys = item.component | split: '.' %}
                   {% assign hasVariants = splitKeys[1] | split: '-' %}
                   <a 
-                    href="{{ site.baseurl }}/{{ page.project_name | downcase }}/{% if item.type == 'primitive' %}primitives{% else %}elements{% endif %}/{{item.subType}}-{% if hasVariants.size >= 2 %}{{ hasVariants[0] }}#{{ splitKeys[1] }}{% else %}{{ splitKeys[1] }}{% endif %}"
+                    href="{{ site.baseurl }}/{{ page.project_name | downcase }}/{% if item.type == 'primitive' %}primitives{% elsif item.type == 'element' %}elements{% else %}patterns{% endif %}/{{item.subType}}-{% if hasVariants.size >= 2 %}{{ hasVariants[0] }}#{{ splitKeys[1] }}{% else %}{{ splitKeys[1] }}{% endif %}"
                     alt="Link to {{ item.name }} page"
                     class="btn">
                     {{ item.name | capitalize }} →
                   </a>
                 </td>
               </tr>
+              {%- endif -%}
             {% endfor %}
           {% else %}
             <tr>
@@ -54,7 +79,7 @@
                 {% assign splitKeys = block.component | split: '.' %}
                 {% assign hasVariants = splitKeys[1] | split: '-' %}
                 <a 
-                  href="{{ site.baseurl }}/{{ page.project_name | downcase }}/{% if block.type == 'primitive' %}primitives{% else %}elements{% endif %}/{{block.subType}}-{% if hasVariants.size >= 2 %}{{ hasVariants[0] }}#{{ splitKeys[1] }}{% else %}{{ splitKeys[1] }}{% endif %}"
+                  href="{{ site.baseurl }}/{{ page.project_name | downcase }}/{% if block.type == 'primitive' %}primitives{% elsif block.type == 'element' %}elements{% else %}patterns{% endif %}/{{block.subType}}-{% if hasVariants.size >= 2 %}{{ hasVariants[0] }}#{{ splitKeys[1] }}{% else %}{{ splitKeys[1] }}{% endif %}"
                   alt="Link to {{ block.name }} page"
                   class="btn">
                   {{ block.name | capitalize }} →

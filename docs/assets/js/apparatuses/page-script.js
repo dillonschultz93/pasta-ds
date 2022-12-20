@@ -108,17 +108,21 @@
 // }
 
 async function readTokensFile() {
-  const response = await fetch('../../assets/projects/FFL/tokens/YPL-FFL-tokens-pasta-flattened-justTheValues.json');
+
+  // const response = await fetch('../../assets/projects/FFL/tokens/YPL-FFL-tokens-pasta-flattened-justTheValues.json'); 
+  const response = await fetch('../../assets/projects/FFL/tokens/221203-flattened-justTheValues.json'); // 221203
 
   const json = await response.json();
 
   return json._tokens;
 }
 
-async function readFigmaTokensFile() {
-  const response = await fetch('../../assets/projects/FFL/tokens/YPL-FFL-tokens-figma.json');
 
-  const json = await response.json();
+// 221203 FIXME ↓ What's this ??
+// async function readFigmaTokensFile() {
+//   const response = await fetch('../../assets/projects/FFL/tokens/YPL-FFL-tokens-figma.json');
 
-  return json._tokens;
-}
+//   const json = await response.json();
+
+//   return json._tokens;
+// }

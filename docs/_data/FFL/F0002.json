@@ -1,0 +1,434 @@
+{
+	"F0002-001": {
+		"name": "Heading 1",
+		"type": "Headings",
+		"variant": "001",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h1.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h1.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h1.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h1.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-002": {
+		"name": "Heading 2",
+		"type": "Headings",
+		"variant": "002",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h2.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h2.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h2.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h2.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-003": {
+		"name": "Heading 3",
+		"type": "Headings",
+		"variant": "003",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h3.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h3.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h3.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h3.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-004": {
+		"name": "Heading 4",
+		"type": "Headings",
+		"variant": "004",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h4.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h4.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h4.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h4.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-005": {
+		"name": "Heading 5",
+		"type": "Headings",
+		"variant": "005",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h5.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h5.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h5.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h5.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-006": {
+		"name": "Heading 6",
+		"type": "Headings",
+		"variant": "006",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h6.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h6.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h6.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h6.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-007": {
+		"name": "Heading 7",
+		"type": "Headings",
+		"variant": "007",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h7.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h7.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h7.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h7.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-008": {
+		"name": "Heading 8",
+		"type": "Headings",
+		"variant": "008",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.h8.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.h8.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.h8.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.h8.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-101": {
+		"name": "Regular Paragraph",
+		"type": "Paragraphs",
+		"variant": "101",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.p.regular.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.p.regular.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.p.regular.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.p.regular.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-102": {
+		"name": "Strong Paragraph",
+		"type": "Paragraphs",
+		"variant": "102",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.p.strong.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.p.strong.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.p.strong.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.p.strong.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-103": {
+		"name": "Regular Small Paragraph",
+		"type": "Paragraphs",
+		"variant": "103",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ps.regular.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ps.regular.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ps.regular.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ps.regular.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-104": {
+		"name": "Strong Small Paragraph",
+		"type": "Paragraphs",
+		"variant": "104",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ps.strong.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ps.strong.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ps.strong.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ps.strong.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-201": {
+		"name": "Regular Caption",
+		"type": "Captions",
+		"variant": "201",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.caption.regular.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.caption.regular.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.caption.regular.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.caption.regular.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-202": {
+		"name": "Strong Caption",
+		"type": "Captions",
+		"variant": "202",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.caption.strong.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.caption.strong.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.caption.strong.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.caption.strong.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-401": {
+		"name": "Eyebrow",
+		"type": "Eyebrows",
+		"variant": "401",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.eyebrow.regular.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-402": {
+		"name": "Small Eyebrow",
+		"type": "Eyebrows",
+		"variant": "402",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-403": {
+		"name": "Strong Small Eyebrow",
+		"type": "Eyebrows",
+		"variant": "403",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.eyebrow.small.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-501": {
+		"name": "Chart Description",
+		"type": "Charts",
+		"variant": "501",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.chart.description.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.chart.description.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.chart.description.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.chart.description.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-502": {
+		"name": "Chart Item",
+		"type": "Charts",
+		"variant": "502",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.chart.item.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.chart.item.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.chart.item.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.chart.item.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-503": {
+		"name": "Chart Label",
+		"type": "Charts",
+		"variant": "503",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.chart.label.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.chart.label.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.chart.label.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.chart.label.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-601": {
+		"name": "Control Regular",
+		"type": "Controls",
+		"variant": "601",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.regular.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.regular.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.regular.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.regular.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.title.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-602": {
+		"name": "Control Small",
+		"type": "Controls",
+		"variant": "602",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.title.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-603": {
+		"name": "Control Eyebrow Strong",
+		"type": "Controls",
+		"variant": "603",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmallbold.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-604": {
+		"name": "Control Eyebrow",
+		"type": "Controls",
+		"variant": "604",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.capsmall.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-605": {
+		"name": "Control Smaller",
+		"type": "Controls",
+		"variant": "605",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.smaller.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.upper.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-606": {
+		"name": "Control Big Strong",
+		"type": "Controls",
+		"variant": "606",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.bold.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.big.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.big.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.big.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.big.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	},
+	"F0002-607": {
+		"name": "Control Small Regular",
+		"type": "Controls",
+		"variant": "602",
+		"tokens": {
+			"familyName": "YPL.FFL.TKUI_C.typo.europa.familyName.regular.value",
+			"size": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.size.value",
+			"leading": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.leading.value",
+			"paragraphSpacing": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.paragraphSpacing.value",
+			"tracking": "YPL.FFL.TKUI_M.typo.europa.ctrl.small.tracking.value",
+			"textAlignHorizontal": "YPL.CONST.textAlignHorizontal.left.value",
+			"textCase": "YPL.CONST.textCase.original.value",
+			"textDecoration": "YPL.CONST.textDecoration.none.value",
+			"color": "YPL.FFL.TKUI_C.colors.black.value"
+		}
+	}
+}

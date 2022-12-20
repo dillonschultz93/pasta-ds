@@ -28,7 +28,6 @@ layout: default
       <li>Subscribers</li>
       <li>Governance (reccuring meetings)</li>
       <li>A <a href="{{site.baseurl}}/brand">Brand Style Guide</a></li>
-      <li>A <a href="{{site.baseurl}}/foundations/tokens">Token-based Design System</a></li>
       <li><a href="{{site.baseurl}}/foundations/apparatuses">Apparatuses</a> to help us automate and generate our Design Tokens</li>
       <li><a href="{{site.baseurl}}/tools">Tools</a></li>
       <li>And this very Knowledge Base (aka RTFM)</li>

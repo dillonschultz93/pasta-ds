@@ -89,7 +89,7 @@ function setPageStatusWidget () {
 
     let toolTipString = "";
     for(var item in categoryDetails) {
-      toolTipString += item + ": " + Math.round(100*((categoryDetails[item].total - categoryDetails[item].todo)/categoryDetails[item].total)) + "%, ";
+      toolTipString += item + ": " + Math.round(100*((categoryDetails[item].total - categoryDetails[item].todo)/categoryDetails[item].total)) + "%,\n";
     };
     let progressStatus = (numberOfContributors-numberOfTodos)/numberOfContributors;
     let progressStatusPercent = Math.round(progressStatus*100);

@@ -3,7 +3,7 @@ title: Challenges # title case
 permalink: foundations/challenges # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 parent: Foundations # title case
 layout: default
-nav_order: 50
+nav_order: 500
 ---
 
 # Challenges

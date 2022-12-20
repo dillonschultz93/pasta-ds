@@ -22,8 +22,8 @@ nav_order: 120
       <th>UID</th>
       <th>Ticket</th>
       <th>Owner</th>
-      <th>Options</th>
-      <th>Tokens</th>
+      <!-- <th>Options</th> -->
+      <!-- <th>Tokens</th> -->
       <th>Status</th>
     </tr>
   </thead>
@@ -32,13 +32,13 @@ nav_order: 120
       <td><code>{{ page.project_id }}.{{ page.UID }}</code></td>
       <td><a href="https://github.com/yummly/pasta/issues/26">&#35;26</a></td>
       <td><a href="https://github.com/robert-ANML">Robert</a></td>
-      <td><span data-toolclip='TBD'><code>TBD</code></span></td>
-      <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td>
+      <!-- <td><span data-toolclip='TBD'><code>TBD</code></span></td> -->
+      <!-- <td><a href="{{ site.url }}/pasta/assets/projects/{{ page.project_id }}/tokens/">Folder&nbsp;→</a></td> -->
       <td><a href="#accessibility-status"><span id="statusWidget"></span><span>0%</span></a></td>
     </tr>
     {% if page.variants.size > 0 %}
     <tr>
-      <td colspan="6" class="pageHeaderVariantsRow">
+      <td colspan="4" class="pageHeaderVariantsRow">
         {% for item in page.variants %}<a href="#{{ page.UID }}-{{item}}"><code>-{{item | default: ""}}</code></a> {% endfor %}
       </td>
     </tr>
@@ -47,7 +47,7 @@ nav_order: 120
 </table>
 
 
-<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-220930.zip" class="btn iconed downloadBadge">Download Zip</a>
+<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-221123.zip" class="btn iconed downloadBadge">Download Zip</a>
 
 <!-- - TOC
 {:toc} -->
@@ -82,3 +82,22 @@ Variants UIDs go from `4xx` to `7FE`. `7FF` is reserved for placholder.
     {% endtablerow %}
   </tbody>
 </table>
+
+## Checklist
+
+ Please comply to and update the checklist below:
+
+ |Ops|
+ |---|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>UID</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Github Ticket</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Figma Link(s)</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem" checked><strong>Design Owner</strong>|
+ |<input type="checkbox" data-status-category="ops" class="checklistItem"><strong>Figma Document Link</strong><br>Inject Pasta URL inside the [Figma Component Details Panel](https://help.figma.com/hc/en-us/articles/360055203533-Use-the-Inspect-panel#View_component_details) |
+
+ |Implementation|
+ |---|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Figma</strong><br>All Tokens have been injected inside Figma components and tested|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>iOS</strong><br>Component(s) have been implemented inside iOS component library|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Android</strong><br>Component(s) have been implemented inside iOS component library|
+ |<input type="checkbox" data-status-category="implementation" class="checklistItem"><strong>Web</strong><br>Component(s) have been implemented inside Web component library|

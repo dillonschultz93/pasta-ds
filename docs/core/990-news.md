@@ -3,6 +3,7 @@ title: News # title case
 permalink: news # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 layout: default
 nav_order: 990
+nav_exclude: true
 ---
 
 
