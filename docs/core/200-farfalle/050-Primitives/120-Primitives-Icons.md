@@ -11,10 +11,11 @@ layout: default
 nav_order: 120
 ---
 
-<!-- FIXME — ↑↓ not clear where "3FF" and "7FF" are represented, in the local SVG yup but not inside the Zip archive  -->
-
-# Icons
+# {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
+
+<a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-221123.zip" class="btn iconed downloadBadge floatReset"> Zip</a> &nbsp;&nbsp; <a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a>
+
 
 <table class="headTopBorder">
   <thead>
@@ -45,9 +46,6 @@ nav_order: 120
     {% endif %}
   </tbody>
 </table>
-
-
-<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1932%3A89439" class="btn iconed figmaBadge">To Figma →</a> &nbsp;&nbsp; <a href="{{site.baseurl}}/assets/projects/{{page.project_id}}/assets/YPL.FFL.icons-221123.zip" class="btn iconed downloadBadge">Download Zip</a>
 
 <!-- - TOC
 {:toc} -->

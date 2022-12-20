@@ -11,9 +11,10 @@ layout: default
 nav_order: 140
 ---
 
-# Elevation
+# {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
 
+<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3872%3A49834&t=ZH74Tb4zn8jlla0t-1" class="btn iconed figmaBadge">To Figma →</a>
 
 <table class="headTopBorder">
   <!-- <caption>my caption</caption> -->
@@ -54,8 +55,6 @@ nav_order: 140
 ## Preview
 
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-preview_01.png)
-
-<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=3872%3A49834&t=ZH74Tb4zn8jlla0t-1" class="btn iconed figmaBadge">To Figma →</a>
 
 
 ## Decisions

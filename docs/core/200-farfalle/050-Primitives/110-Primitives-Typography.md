@@ -11,8 +11,11 @@ layout: default
 nav_order: 110
 ---
 
-# Typography
+# {{ page.title }} `{{ page.UID }}`
 {: .no_toc}
+
+<a href="https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=534%3A31765&t=1wvRxcGzgVqs1RhI-11" class="btn iconed figmaBadge">To Figma →</a>
+
 
 <table class="headTopBorder">
   <!-- <caption>my caption</caption> -->
