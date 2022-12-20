@@ -2,7 +2,7 @@
 name: New Pasta Primitives
 about: List here all requirements for a Project Pimitives
 title: "`XXX.F0000` Primitives_category"
-labels: candidate
+labels: ''
 assignees: ''
 
 ---

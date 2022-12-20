@@ -2,7 +2,7 @@
 name: New Pasta Candidate
 about: Start here to submit a new candidate for Pasta
 title: "`XXX-X0000` Artifact Name"
-labels: candidate
+labels: ''
 assignees: ''
 
 ---
