@@ -17,7 +17,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
 
 <section class="flex-1_1_1-cols">
   <!-- FIXME ↓ "onClick" ? Really? -->
-  <div onclick="location.href='{{site.baseurl}}/farfalle/choices/';"  class="cta-card-black">
+  <div onclick="location.href='{{site.baseurl}}/farfalle/choices';"  class="cta-card-black">
       <h8>Tokens (Choices)</h8>
       <p>
         <span>Choices Tokens</span> are the foundational constant of all the Pasta's Components.
@@ -42,7 +42,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
       <!-- Go → -->
   </div>
 
-  <div onclick="location.href='{{site.baseurl}}/farfalle/primitives/';" class="cta-card-black">
+  <div onclick="location.href='{{site.baseurl}}/farfalle/primitives';" class="cta-card-black">
     <h8>Primitives</h8>
     <p>
       <span>Primitives</span> are Assets or aggregations of choices that form Styles.
@@ -63,7 +63,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
       <!-- Go → -->
   </div>
 
-  <div onclick="location.href='{{site.baseurl}}/farfalle/elements/';" class="cta-card-black">
+  <div onclick="location.href='{{site.baseurl}}/farfalle/elements';" class="cta-card-black">
       <h8>Elements</h8>
       <p>
         <span>Elements</span> use Choices and Primitives to fulfill a basic GUI function.
@@ -84,7 +84,7 @@ All designers and Front end devellopers are required to get familiar with Pasta 
 </section>
 
 <section class="flex-1_1_1-cols">
-  <div onclick="location.href='{{site.baseurl}}/farfalle/patterns/';"  class="cta-card-black">
+  <div onclick="location.href='{{site.baseurl}}/farfalle/patterns';"  class="cta-card-black">
       <h8>Patterns</h8>
       <p>
         <span>Patterns</span> use Elements, Primitives and Choices to provide more elaborate GUI Components.
