@@ -11,6 +11,8 @@ nav_order: 70
 
 # Elements
 
+Elements are autonomous items that usually fulfill a single type of interaction and are used to build Patterns. They surface methods, states, animations: buttons, slider, radio buttons, form fields.
+
 ## Examples
 
 

@@ -8,6 +8,7 @@ grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
 nav_order: 160
+nav_exclude: true
 ---
 
 <div class="maintenance-tags" markdown=1>
@@ -23,6 +24,10 @@ nav_order: 160
 <div class="figma-refs">
   <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a>
 </div>
+
+
+WIP
+{: .label .red}
 
 <div class="tabs">
   <input type="radio" name="tabs_section_name" id="tab_name_01" checked="checked">

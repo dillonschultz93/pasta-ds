@@ -11,6 +11,9 @@ nav_order: 90
 
 # Patterns
 
+Patterns are coherent assemblages of Elements providing a conventional UI block: a card, a carousel, a navigation bar.
+
+
 ## Examples
 
 <table class="tableOfPreviews">

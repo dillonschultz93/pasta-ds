@@ -4,6 +4,7 @@ permalink: tools/figma # lowercase + use hyphens › https://tinyurl.com/27kmc4
 parent: Tools # title case
 layout: default
 nav_order: 40
+nav_exclude: true
 ---
 
 # Figma

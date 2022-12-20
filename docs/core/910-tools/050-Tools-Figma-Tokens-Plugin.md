@@ -3,7 +3,8 @@ title: Tokens Plugin  # title case
 permalink: tools/tokens-plugin # lowercase + use hyphens › https://tinyurl.com/27kmc4rb
 parent: Tools # title case
 layout: default
-nav_order: 50
+nav_order: 500
+nav_exclude: true
 ---
 
 # Tokens Plugin (Figma)

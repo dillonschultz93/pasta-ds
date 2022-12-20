@@ -10,3 +10,5 @@ nav_order: 50
 ---
 
 # Primitives
+
+Primitives are the simplest visual artifact used as the elementary brick to build most objects: text styles, background “material”, icons, and glyphs.
