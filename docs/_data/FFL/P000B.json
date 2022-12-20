@@ -1,7 +1,7 @@
 {
   "allTokens": {
-    "YPL.FFL.TKUI_D.P000B-001.height.value": 327,
-    "YPL.FFL.TKUI_D.P000B-001.width.value": 76,
+    "YPL.FFL.TKUI_D.P000B-001.height.value": 56,
+    "YPL.FFL.TKUI_D.P000B-001.width.value": 327,
     "YPL.FFL.TKUI_D.P000B-001.marginLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
     "YPL.FFL.TKUI_D.P000B-001.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
     "YPL.FFL.TKUI_D.P000B-001.marginTop.value": 48,
@@ -18,8 +18,8 @@
     "YPL.FFL.TKUI_D.P000B-001.BLK_left.fringeRight.value": "YPL.FFL.TKUI_C.dimension.spaces.xs.value",
     "YPL.FFL.TKUI_D.P000B-001.BLK_right.visibile.value": "YPL.CONST.boolean.true.value",
     "YPL.FFL.TKUI_D.P000B-001.OPT_withoutButton.BLK_right.visible.value": "YPL.CONST.boolean.false.value",
-    "YPL.FFL.TKUI_D.P000B-002.height.value": 327,
-    "YPL.FFL.TKUI_D.P000B-002.width.value": 76,
+    "YPL.FFL.TKUI_D.P000B-002.height.value": 76,
+    "YPL.FFL.TKUI_D.P000B-002.width.value": 327,
     "YPL.FFL.TKUI_D.P000B-002.marginLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
     "YPL.FFL.TKUI_D.P000B-002.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
     "YPL.FFL.TKUI_D.P000B-002.marginTop.value": 48,
@@ -85,8 +85,8 @@
   },
   "variants": {
     "001": {
-      "YPL.FFL.TKUI_D.P000B-001.height.value": 327,
-      "YPL.FFL.TKUI_D.P000B-001.width.value": 76,
+      "YPL.FFL.TKUI_D.P000B-001.height.value": 56,
+      "YPL.FFL.TKUI_D.P000B-001.width.value": 327,
       "YPL.FFL.TKUI_D.P000B-001.marginLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
       "YPL.FFL.TKUI_D.P000B-001.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
       "YPL.FFL.TKUI_D.P000B-001.marginTop.value": 48,
@@ -105,8 +105,8 @@
       "YPL.FFL.TKUI_D.P000B-001.OPT_withoutButton.BLK_right.visible.value": "YPL.CONST.boolean.false.value"
     },
     "002": {
-      "YPL.FFL.TKUI_D.P000B-002.height.value": 327,
-      "YPL.FFL.TKUI_D.P000B-002.width.value": 76,
+      "YPL.FFL.TKUI_D.P000B-002.height.value": 76,
+      "YPL.FFL.TKUI_D.P000B-002.width.value": 327,
       "YPL.FFL.TKUI_D.P000B-002.marginLeft.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
       "YPL.FFL.TKUI_D.P000B-002.marginRight.value": "YPL.FFL.TKUI_C.dimension.spaces.l.value",
       "YPL.FFL.TKUI_D.P000B-002.marginTop.value": 48,
