@@ -37,7 +37,7 @@ nav_order: 130
   Lockups combine multiple separate views into a single, interactive unit.
 </p>
 
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled}
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-{{page.project_id}}-{{page.UID}}-preview_01.png){: .darkenabled .dotted_bg}
 
 
 
@@ -52,9 +52,9 @@ nav_order: 130
   </thead>
   <tbody>
     <tr>
-      <td><code>default</code></td>
-      <td>default</td>
-      <td>Used as the default poster card component.</td>
+      <td><code>-001</code></td>
+      <td>Minimal</td>
+      <td>Used as the default info with thumbnail component</td>
     </tr>
 
   </tbody>

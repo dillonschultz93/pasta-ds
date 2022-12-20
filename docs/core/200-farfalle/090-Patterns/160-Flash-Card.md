@@ -71,11 +71,11 @@ nav_order: 160
 <!-- ==== SPECS ====== -->
 <!-- ================= -->
 
-## Layout
+### Layout
 
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-layout_01.png)
 
-## Dependencies
+### Dependencies
 
 ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_dependencies_01.png)
 

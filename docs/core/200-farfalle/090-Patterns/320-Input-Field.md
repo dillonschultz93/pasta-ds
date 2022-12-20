@@ -9,6 +9,7 @@ grand_parent: Farfalle # title case
 parent: Patterns # title case
 layout: default
 nav_order: 320
+nav_exclude: true
 ---
 
 <div class="maintenance-tags" markdown=1>
