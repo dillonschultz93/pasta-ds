@@ -38,11 +38,11 @@ nav_order: 520
 <!-- ================ -->
 
 <p>
-    Lorem_ipsum_dolor_sit_amet
+Tables are containers for displaying information. They allow users to quickly scan, sort, compare, and take action on large amounts of data.
 </p>
 
-<!-- ![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled} -->
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+![Preview]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-preview_01.png){: .darkenabled .dotted_bg}
+<!-- ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
 <!-- - TOC
 {:toc} -->
@@ -50,32 +50,24 @@ nav_order: 520
 
 ## Variants and Options
 
-<!-- IF TABS ARE REQUIRED -->
 
-<!-- <div class="tabs">
-  <input type="radio" name="variants" id="variant_UID1" checked="checked">
-  <label for="variant_UID1">Variant_UID1</label>
+<div class="tabs">
+  <input type="radio" name="variants" id="variant_UID1">
+  <label for="variant_UID1">-001</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0019-YYY-preview_01.png){: .darkenabled}
-Variant_Preview_#1
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0019-preview_01.png){: .darkenabled .dotted_bg}
   </div>
-  <input type="radio" name="variants" id="variant_UID2">
-  <label for="variant_UID2">Variant_UID2</label>
+  <input type="radio" name="variants" id="variant_UID2" checked="checked">
+  <label for="variant_UID2">-002</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0019-YYY-preview_02.png){: .darkenabled}
-Variant_Preview_#2
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0019-preview_02.png){: .darkenabled .dotted_bg}
   </div>
   <input type="radio" name="variants" id="variant_UID3">
-  <label for="variant_UID3">Variant_UID3</label>
+  <label for="variant_UID3">-003</label>
   <div class="tab" markdown="1">
-![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0019-YYY-preview_03.png){: .darkenabled}
-Variant_Preview_#3
+![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-P0019-preview_03.png){: .darkenabled .dotted_bg}
   </div>  
-</div> -->
-
-
-<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
-![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+</div>
 
 
 <table id="variants-options">
@@ -89,40 +81,22 @@ Variant_Preview_#3
   </thead>
   <tbody>
     <tr>
-      <td><code>-XXX</code></td>
-      <td>Lorem</td>
-      <td>Lorem_ipsum_dolor_sit_amet</td>
+      <td><code>-001</code></td>
+      <td>Text Table</td>
+      <td>Basic Text Table with Caption (optional)</td>
     </tr>   
+    <tr>
+      <td><code>-002</code></td>
+      <td>Data</td>
+      <td>Usually presents richer and more heterogeneous content than a Text Table </td>
+    </tr>   
+    <tr>
+      <td><code>-003</code></td>
+      <td>Legend Table</td>
+      <td>Used alongside a Chart as a legend</td>
+    </tr>           
   </tbody>
 </table>
-
-## Usage Examples
-
-<section class="flex-1_1-cols usage_examples">
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-  <div>
-    <h4>
-      Lorem
-      <code>-YYY</code>
-    </h4>
-    <!-- <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-usage_01.png"> -->
-    <img src="{{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-imgPlaceholder-half.png">
-    <p>
-      Lorem_ipsum_dolor_sit_amet
-    </p>
-  </div>
-</section>
-
   
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_02">
@@ -135,44 +109,16 @@ Variant_Preview_#3
 ### Layout
 
 
-<!-- ![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png) -->
-![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
+![Layout Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-layout_01.png)
+<!-- ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
-
-
-### Dependencies
-
-
-<!-- ![Dependencies Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_dependencies_01.png) -->
-![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
-
-
-
-{% include dependency-tree.html %}
-
-{% include instantiation-section.html %}
 
 ## Decisions
 
 {% include predictionary-source.html %}
 
-<!-- ![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png) -->
-![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
-
-
-
-### Options
-
-
-<!-- ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_01.png){: .darkenabled} -->
-![Variations]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled}
-
-
-{% include options-table.html %}
-
-### Interaction
-
-{% include interaction-table.html %}
+![Decisions Blueprint]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-bp_decisions_01.png)
+<!-- ![Decisions Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-imgPlaceholder-Full.png){: .darkenabled} -->
 
   </div>
   <input type="radio" name="tabs_section_name" id="tab_name_03">
