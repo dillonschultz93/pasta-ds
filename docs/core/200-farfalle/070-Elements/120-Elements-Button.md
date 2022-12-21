@@ -34,8 +34,6 @@ nav_order: 130
 
 ![Preview]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-E0003-preview_01.png){: .darkenabled}
 
-{% include predictionary-source.html %}
-
 <!-- - TOC
 {:toc} -->
 
@@ -75,6 +73,8 @@ nav_order: 130
     </tr>         
   </tbody>
 </table>
+
+### Options
 
 ![Variations]({{ site.baseurl }}/assets/projects/{{ page.project_id }}/images/YPL-DOC-{{ page.project_id }}-{{ page.UID }}-variations_02.png){: .darkenabled}
 

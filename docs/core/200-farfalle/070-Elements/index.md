@@ -11,7 +11,13 @@ nav_order: 70
 
 # Elements
 
-Elements are autonomous items that usually fulfill a single type of interaction and are used to build Patterns. They surface methods, states, animations: buttons, slider, radio buttons, form fields.
+In an atomic design system, an element is the most basic interaction or display unit. It represents a fundamental building block that can be combined with other elements to create more complex and sophisticated designs components: Patterns.<br>
+They usually fulfill a single type of interaction. They surface methods, states, animations: buttons, slider, radio buttons, form fields.
+
+![You're in Elements]({{site.baseurl}}/assets/images/YPL-DOC-Atomic-POV-Elements.png){: .naked}
+
+Within Pasta they are stricly made of Choices and-or Primitives. Like all Components they are not allowed to embed Components of the same or higher rank inside Pasta Taxonomy.
+
 
 ## Examples
 
@@ -29,7 +35,7 @@ Elements are autonomous items that usually fulfill a single type of interaction 
                {% if image.path contains '-dark' %}
                {% else %}
                   {% assign i = i | plus:1 %}
-                  {% if i == 3 %}
+                  {% if i == 4 %}
                      </tr>
                      <tr>
                   {% assign i = 1 %}

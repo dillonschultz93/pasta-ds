@@ -11,4 +11,8 @@ nav_order: 50
 
 # Primitives
 
-Primitives are the simplest visual artifact used as the elementary brick to build most objects: text styles, background “material”, icons, and glyphs.
+Primitives are either sets of Tokens (Styles) that represent a group of attributes or a reference to an asset. They are simple visual artifact used as elementary bricks to build other components.
+
+![You're in Primitives]({{site.baseurl}}/assets/images/YPL-DOC-Atomic-POV-Primitives.png){: .naked}
+
+Within Pasta they are stricly made of Choices and-or Assets (Icon Files, Fonts). Like all Components they are not allowed to embed Components of the same or a higher rank.

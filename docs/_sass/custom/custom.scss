@@ -473,6 +473,14 @@ img.extraPad1 {
   padding: 2rem;
 }
 
+img.naked {
+  background-color: transparent;
+  border: none;
+  margin: 2rem auto;
+}
+
+
+
 .videoSnippet {
   display: flex;
   flex-wrap: wrap;
@@ -831,8 +839,8 @@ h1+hr {
   border-radius: 16pt;
 }
 .label+p {
-  display: inline-block !important;
-  margin: 0 0 0 0.5rem !important;
+  // display: inline-block !important;
+  // margin: 0 0 0 0.5rem !important;
 }
 .label a,
 .label a:hover {

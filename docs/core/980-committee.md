@@ -28,11 +28,12 @@ nav_order: 980
 <section class="flex-1_1-cols">
   <div>
     <h5 id="jira-kanban">Jira Kanban</h5>
-    <p><a href="https://yummly.atlassian.net/browse/PST">https://yummly.atlassian.net/browse/PST</a> — <code>PST</code></p>
+    <p><code>PST</code>  <a href="https://yummly.atlassian.net/browse/PST">https://yummly.atlassian.net/browse/PST</a></p>
   </div>
   <div>
     <h5 id="github-repository">Github Repository</h5>
-    <p><a href="https://github.com/yummly/pasta">yummly/pasta</a></p>
+    <p><a href="https://github.com/yummly/pasta">yummly/pasta (Pasta KB)</a></p>
+    <p><a href="https://github.com/yummly/pasta-dictionary">yummly/pasta-dictionary (src, Engine & Dictionary)</a></p>
   </div>
 </section>
 

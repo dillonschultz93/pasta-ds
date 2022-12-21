@@ -124,11 +124,11 @@ nav_order: 100
 <!-- <a href="{{site.data[page.project_id][page.UID].meta.figmaLink}}" class="btn iconed figmaBadge">To Figma →</a> -->
 <!-- FIXME: wrong figma URL ↑ should be https://www.figma.com/file/PU3d2lfOmmqlqw4Qkdiwai/Pasta-0.1.0?node-id=1737%3A68833&viewport=250%2C45%2C0.11&t=gdYBOoFvMhh6U3vN-11 -->
 
-## Layout
+### Layout
 
 ![Layout Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_layout_01.png)
 
-## Dependencies
+### Dependencies
 
 ![Dependencies Blueprint]({{site.baseurl}}/assets/projects/{{page.project_id}}/images/YPL-DOC-FFL-{{page.UID}}-bp_dependencies_01.png)
 
@@ -137,8 +137,6 @@ nav_order: 100
 {% include instantiation-section.html %}
 
 ## Decisions
-
-{% include predictionary-source.html %}
 
 {% include predictionary-source.html %}
 
