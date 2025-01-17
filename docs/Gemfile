@@ -26,7 +26,7 @@ gem "github-pages", "~> 215", group: :jekyll_plugins
 # gem "just-the-docs"
 #
 # just-the-docs · ↓ Using Yummly Forked version
-gem 'just-the-docs', '0.3.3', git: 'https://github.com/yummly/just-the-docs/'
+gem 'just-the-docs', '0.3.3', git: 'https://github.com/dillonschultz93/just-the-docs-pasta/'
 #
 # —————————————————————
 
