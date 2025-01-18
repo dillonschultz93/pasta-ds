@@ -27,7 +27,7 @@ baseurl: "/pasta" # the subpath of your site, e.g. /blog
 # ↓ using pmarsceill repo
 # remote_theme: pmarsceill/just-the-docs
 # ↓ using yummly forked
-remote_theme: yummly/just-the-docs
+remote_theme: dillonschultz93/just-the-docs-pasta
 
 # calling pasta custom color scheme
 color_scheme: pasta
